@@ -9,21 +9,21 @@
 
 .button-solid--black {
 	background-color: var(--black);
-	color: var(--celeste);
+	color: var(--cream);
 }
 
-.button-solid--cinnabar {
-	background-color: var(--cinnabar);
+.button-solid--valencia {
+	background-color: var(--valencia);
 	color: var(--black);
 }
 
-.button-border--cinnabar {
-	border-color: var(--cinnabar);
-	color: var(--cinnabar);
+.button-border--valencia {
+	border-color: var(--valencia);
+	color: var(--valencia);
 }
 
-.button-link--cinnabar {
-	color: var(--cinnabar);
+.button-link--valencia {
+	color: var(--valencia);
 }
 
 .button-solid--black:hover {
@@ -33,12 +33,12 @@
 	cursor: pointer;
 }
 
-.button-solid--cinnabar:hover,
-.button-border--cinnabar:hover,
-.button-link--cinnabar:hover {
+.button-solid--valencia:hover,
+.button-border--valencia:hover,
+.button-link--valencia:hover {
 	background-color: transparent;
-	border: solid 4px var(--cinnabar);
-	color: var(--cinnabar);
+	border: solid 4px var(--valencia);
+	color: var(--valencia);
 	cursor: pointer;
 }
 
@@ -71,9 +71,9 @@
 .button-solid--yellow::selection,
 .button-border--yellow::selection,
 .button-link--yellow::selection,
-.button-solid--cinnabar::selection,
-.button-border--cinnabar::selection,
-.button-link--cinnabar::selection {
+.button-solid--valencia::selection,
+.button-border--valencia::selection,
+.button-link--valencia::selection {
 	background-color: unset;
 }
 
