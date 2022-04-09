@@ -2,8 +2,10 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const { DateTime } = require("luxon");
 const yaml = require("js-yaml");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// 11ty Data Extension
 	// To Support .yaml Extension in _data
 	// You may remove this if you can use JSON
