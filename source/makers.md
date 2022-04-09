@@ -7,4 +7,3 @@ eleventyNavigation:
   order: 3
 ---
 
-# Makers
