@@ -29,7 +29,7 @@
 		<main>
 			{% include 'partials/component/mambo-header.njk' %}
 			{% block content %}
-				{{ content }}
+				{{ content | safe }}
 			{% endblock %}
 			{% include 'partials/component/mambo-footer.njk' %}
 		</main>
