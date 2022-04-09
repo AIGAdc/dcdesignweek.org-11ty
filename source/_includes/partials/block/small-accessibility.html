@@ -1,0 +1,13 @@
+<section class="small-accessibility" id="small-accessibility">
+	{% for content in accessibility.accessibility %}
+	<h3>
+		{{ content.header }}
+	</h3>
+	<p>
+		{{ content.body | safe }}
+	</p>
+	<a class="button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
+	</a>
+	{% endfor %}
+</section>

@@ -1,0 +1,13 @@
+<section class="small-faqs" id="small-faqs">
+	{% for content in faqs.smallFaqs %}
+	<h3>
+		{{ content.header }}
+	</h3>
+	<p>
+		{{ content.body | safe }}
+	</p>
+	<a class="button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
+	</a>
+	{% endfor %}
+</section>
