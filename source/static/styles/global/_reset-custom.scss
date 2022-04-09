@@ -1,101 +1,92 @@
 /* The emerging W3C standard that is currently Firefox-only */
 * {
-    scrollbar-width: auto;
-    scrollbar-color: var(--cinnabar) var(--celeste);
+	scrollbar-width: auto;
+	scrollbar-color: var(--cinnabar) var(--celeste);
 }
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
-    width: 16px;
+	width: 16px;
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--celeste);
-    border-left: 1px solid var(--black);
+	background: var(--celeste);
+	border-left: 1px solid var(--black);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--cinnabar);
+	background-color: var(--cinnabar);
 }
 
 ::selection {
-    background-color: var(--cinnabar);
-    color: var(--black);
+	background-color: var(--cinnabar);
+	color: var(--black);
 }
 
 #skip-to-content {
-    scroll-margin-top: 80px;
+	scroll-margin-top: 80px;
 }
 
 .skip-to-content:not(:focus):not(:hover) {
-    transform: translateY(-200px);
-    opacity: 0;
-    -webkit-transform: translateY(-200px);
-    -moz-transform: translateY(-200px);
-    -ms-transform: translateY(-200px);
-    -o-transform: translateY(-200px);
+	transform: translateY(-200px);
+	opacity: 0;
+	-webkit-transform: translateY(-200px);
+	-moz-transform: translateY(-200px);
+	-ms-transform: translateY(-200px);
+	-o-transform: translateY(-200px);
 }
 
 .skip-to-content {
-    align-items: center;
-    background-color: var(--black);
-    color: var(--yellow);
-    display: flex;
-    font-weight: 700;
-    height: 74px;
-    justify-content: space-around;
-    margin: auto;
-    opacity: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0px;
-    z-index: var(--index-10);
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    -o-transform: translateY(0px);
+	align-items: center;
+	background-color: var(--black);
+	color: var(--yellow);
+	display: flex;
+	font-weight: 700;
+	height: 74px;
+	justify-content: space-around;
+	margin: auto;
+	opacity: 1;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0px;
+	z-index: var(--index-10);
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	-o-transform: translateY(0px);
 }
 
 .skip-to-content:focus {
-    outline: 4px dashed black;
+	outline: 4px dashed black;
 }
 
 a {
-    color: var(--cinnabar);
-    cursor: pointer;
-    transition: opacity var(--timing-default) ease-in;
+	color: var(--cinnabar);
+	cursor: pointer;
+	transition: opacity var(--timing-default) ease-in;
 }
 
 a:active {
-    outline: 4px dashed var(--cinnabar);
-    outline-offset: 4px;
+	outline: 4px dashed var(--cinnabar);
+	outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
-    outline: 4px dashed var(--cinnabar);
-    outline-offset: 4px;
+	outline: 4px dashed var(--cinnabar);
+	outline-offset: 4px;
 }
 
 body {
-    // border-left: solid 16px var(--celeste);
-    // border-right: solid 16px var(--celeste);
-    background-color: var(--beige);
-    background-image: url("/uploads/brick.png");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: repeat-y;;
-    color: var(--black);
-    font-family: var(--font-poppins);
-    font-size: var(--font-size-16);
-    margin: auto;
-    max-width: 1366px;
+	color: var(--black);
+	font-family: var(--font-poppins);
+	font-size: var(--font-size-16);
 }
 
 figure {
-    position: relative;
+	position: relative;
 }
 
 // @media (prefers-reduced-data: no-preference) {
@@ -106,14 +97,12 @@ figure {
 // }
 
 @media (prefers-reduced-data: reduce) {
-    body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-            "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-}
-
-main {
-    background-color: var(--black);
+	body {
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+			Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+			"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+			"Noto Color Emoji";
+	}
 }
 
 h1,
@@ -123,44 +112,44 @@ h4,
 h5,
 h6,
 small {
-    display: block;
-    line-height: initial;
-    text-rendering: optimizeLegibility;
+	display: block;
+	line-height: initial;
+	text-rendering: optimizeLegibility;
 }
 
 h2 {
-    font-size: var(--font-size-24);
+	font-size: var(--font-size-24);
 }
 
 fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
+	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 legend,
 ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 section {
-    position: relative;
+	position: relative;
 }
 
 svg {
-    display: block;
-    vertical-align: middle;
-    width: 100%;
+	display: block;
+	vertical-align: middle;
+	width: 100%;
 }
 
 @media screen and (min-width: 1366px) {
-    body {
-        font-size: var(--font-size-18);
-        line-height: 32px;
-    }
+	body {
+		font-size: var(--font-size-18);
+		line-height: 32px;
+	}
 
-    h2 {
-        font-size: var(--font-size-32);
-    }
+	h2 {
+		font-size: var(--font-size-32);
+	}
 }
