@@ -14,12 +14,7 @@
 
 		<!-- feed it through our cssmin filter to minify -->
 		<style type="text/css">
-			{
-					{
-					css | cssmin | safe
-				}
-			}
-
+			{{ css | cssmin | safe }}
 		</style>
 
 		<!-- Script: Font Awesome  -->
