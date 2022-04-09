@@ -1,9 +1,8 @@
 ---
 layout: partials/layouts/base.html
-title: FAQs
+title: Home
 description: 2022 DC Design Week Website
-eleventyNavigation:
-  key: FAQs
+permalink: /
 ---
 
-FAQs Page
+# Home Page
