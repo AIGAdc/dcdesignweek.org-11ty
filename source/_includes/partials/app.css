@@ -57,10 +57,14 @@
   --space-192: 12rem;
   --space-200: 12.5rem;
   /* SECTION - typography */
-  --font-bayard: "Bayard Regular", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-bayard: "Bayard Regular", system-ui, -apple-system,
+  	BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans,
+  	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  	"Noto Color Emoji";
+  --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+  	Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
+  	"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  	"Noto Color Emoji";
   --font-size-4: 0.25rem;
   --font-size-8: 0.5rem;
   --font-size-16: 1rem;
@@ -264,16 +268,9 @@ a:focus {
 }
 
 body {
-  background-color: var(--beige);
-  background-image: url("/uploads/brick.png");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: repeat-y;
   color: var(--black);
   font-family: var(--font-poppins);
   font-size: var(--font-size-16);
-  margin: auto;
-  max-width: 1366px;
 }
 
 figure {
@@ -285,10 +282,6 @@ figure {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 }
-main {
-  background-color: var(--black);
-}
-
 h1,
 h2,
 h3,
@@ -686,6 +679,11 @@ svg {
     background-image: none;
   }
 }
+* {
+  outline: 1px solid tomato;
+  outline-offset: -1px;
+}
+
 .disabled {
   cursor: not-allowed !important;
 }
@@ -707,12 +705,12 @@ svg {
 .houdini {
   display: none;
   /**
-     * Remove focus styles from content
-     * @type {String}
-     */
+        * Remove focus styles from content
+        * @type {String}
+        */
   /**
-     * Show expanded content
-     */
+        * Show expanded content
+        */
 }
 
 .houdini[tabindex="-1"]:focus {
@@ -1119,9 +1117,6 @@ svg {
 }
 
 .site-footer {
-  background-color: var(--celeste);
-  border-top: solid 1px var(--black);
-  color: var(--black);
   display: flex;
   flex-direction: column;
   gap: var(--space-16);
@@ -1171,10 +1166,7 @@ svg {
     max-width: 100%;
   }
 }
-.site-header {
-  background-color: var(--celeste);
-  border-bottom: solid 1px var(--black);
-  color: var(--black);
+.mambo-header {
   display: flex;
   flex-direction: column;
   gap: var(--space-16);
@@ -1183,31 +1175,31 @@ svg {
   z-index: var(--index-10);
 }
 
-.site-header .logo {
+.mambo-header .logo {
   padding: var(--space-8);
 }
 
-.site-header svg {
+.mambo-header svg {
   display: block;
   fill: var(--black);
   margin: auto;
   max-width: 120px;
 }
 
-.site-header .links {
+.mambo-header .links {
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
 
-.site-header .link {
+.mambo-header .link {
   text-align: center;
 }
 
-.site-header .link:not(:last-child) {
+.mambo-header .link:not(:last-child) {
   margin-right: var(--space-16);
 }
 
-.site-header .link a {
+.mambo-header .link a {
   display: block;
   color: var(--black);
   font-weight: 700;
@@ -1215,38 +1207,38 @@ svg {
   text-decoration: none;
 }
 
-.site-header .link a:hover {
+.mambo-header .link a:hover {
   color: var(--cinnabar);
 }
 
 @media screen and (min-width: 640px) {
-  .site-header {
+  .mambo-header {
     position: sticky;
     top: 0;
   }
 
-  .site-header .links {
+  .mambo-header .links {
     grid-template-columns: repeat(4, auto);
   }
 }
 @media screen and (min-width: 768px) {
-  .site-header {
+  .mambo-header {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--space-24) var(--space-56);
   }
 
-  .site-header .logo {
+  .mambo-header .logo {
     padding: 0;
   }
 }
 @media screen and (min-width: 1366px) {
-  .site-header {
+  .mambo-header {
     padding: var(--space-16) var(--space-120);
   }
 
-  .site-header svg {
+  .mambo-header svg {
     max-width: 200px;
   }
 }
@@ -2440,11 +2432,11 @@ section#a11y-requests a {
   padding: 0.5em 1em;
   text-decoration: none;
   /**
-     * Active tab styling
-     */
+        * Active tab styling
+        */
   /**
-     * Tabs on hover
-     */
+        * Tabs on hover
+        */
 }
 
 @media (min-width: 30em) {
