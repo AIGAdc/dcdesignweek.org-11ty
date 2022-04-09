@@ -1,3 +1,11 @@
+body {
+	color: var(--black);
+	font-family: var(--font-serif);
+	font-size: var(--font-size-16);
+	max-width: 1280px;
+	margin: auto;
+}
+
 /* The emerging W3C standard that is currently Firefox-only */
 * {
 	scrollbar-width: auto;
@@ -59,7 +67,7 @@
 }
 
 .skip-to-content:focus {
-	outline: 4px dashed black;
+	outline: 4px solid black;
 }
 
 a {
@@ -69,22 +77,14 @@ a {
 }
 
 a:active {
-	outline: 4px dashed var(--cinnabar);
+	outline: 4px solid var(--cinnabar);
 	outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
-	outline: 4px dashed var(--cinnabar);
+	outline: 4px solid var(--cinnabar);
 	outline-offset: 4px;
-}
-
-body {
-	color: var(--black);
-	font-family: var(--font-poppins);
-	font-size: var(--font-size-16);
-	max-width: 1280px;
-	margin: auto;
 }
 
 figure {
@@ -107,20 +107,12 @@ h2 {
 	font-size: var(--font-size-24);
 }
 
-fieldset {
+fieldset,
+legend,
+ul {
 	border: none;
 	margin: 0;
 	padding: 0;
-}
-
-legend,
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-section {
-	position: relative;
 }
 
 svg {

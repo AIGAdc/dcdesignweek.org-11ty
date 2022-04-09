@@ -1,17 +1,25 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  /* SECTION - animations */
-  --timing-default: 100ms;
-  /* SECTION - colors */
+  /* AIGA DC: Brand Colors */
   --brand-aiga-dc: #297b76;
+  /* DCDW: Past Brand Colors */
   --dcdw-2016: #0000ff;
   --dcdw-2017: #3e07d0;
   --dcdw-2018: #297b76;
   --dcdw-2019: #fb7eb8;
   --dcdw-2020: #4ae725;
   --dcdw-2021: #ec1001;
-  /* SECTION - depth */
+  /* DCDW: 2022 Brand Colors */
+  --black: #000000;
+  --white: #ffffff;
+  --cream: #f6c84c;
+  --teal: #00857a;
+  --valencia: #cc4929;
+  --zodiac: #143060;
+  /* Animations */
+  --timing-default: 100ms;
+  /* Layering */
   --index-1: 100;
   --index-2: 200;
   --index-3: 300;
@@ -22,43 +30,10 @@
   --index-8: 800;
   --index-9: 900;
   --index-10: 1000;
-  /* SECTION - spacing */
-  --space-4: 0.25rem;
-  --space-8: 0.5rem;
-  --space-16: 1rem;
-  --space-20: 1.25rem;
-  --space-24: 1.5rem;
-  --space-32: 2rem;
-  --space-40: 2.5rem;
-  --space-48: 3rem;
-  --space-56: 3.5rem;
-  --space-64: 4rem;
-  --space-72: 4.5rem;
-  --space-80: 5rem;
-  --space-88: 5.5rem;
-  --space-96: 6rem;
-  --space-104: 6.5rem;
-  --space-112: 7rem;
-  --space-120: 7.5rem;
-  --space-128: 8rem;
-  --space-136: 8.5rem;
-  --space-144: 9rem;
-  --space-152: 9.5rem;
-  --space-160: 10rem;
-  --space-168: 10.5rem;
-  --space-176: 11rem;
-  --space-184: 11.5rem;
-  --space-192: 12rem;
-  --space-200: 12.5rem;
-  /* SECTION - typography */
-  --font-bayard: "Bayard Regular", system-ui, -apple-system,
-  	BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans,
-  	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-  	"Noto Color Emoji";
-  --font-poppins: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
-  	Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif,
-  	"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-  	"Noto Color Emoji";
+  /* Font Families */
+  --font-sans: "League Spartan", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  /* Font Sizes */
   --font-size-4: 0.25rem;
   --font-size-8: 0.5rem;
   --font-size-16: 1rem;
@@ -86,6 +61,34 @@
   --font-size-184: 11.5rem;
   --font-size-192: 12rem;
   --font-size-200: 12.5rem;
+  /* Spacing */
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-16: 1rem;
+  --space-20: 1.25rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-40: 2.5rem;
+  --space-48: 3rem;
+  --space-56: 3.5rem;
+  --space-64: 4rem;
+  --space-72: 4.5rem;
+  --space-80: 5rem;
+  --space-88: 5.5rem;
+  --space-96: 6rem;
+  --space-104: 6.5rem;
+  --space-112: 7rem;
+  --space-120: 7.5rem;
+  --space-128: 8rem;
+  --space-136: 8.5rem;
+  --space-144: 9rem;
+  --space-152: 9.5rem;
+  --space-160: 10rem;
+  --space-168: 10.5rem;
+  --space-176: 11rem;
+  --space-184: 11.5rem;
+  --space-192: 12rem;
+  --space-200: 12.5rem;
 }
 
 /* 
@@ -173,6 +176,14 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  color: var(--black);
+  font-family: var(--font-serif);
+  font-size: var(--font-size-16);
+  max-width: 1280px;
+  margin: auto;
+}
+
 /* The emerging W3C standard that is currently Firefox-only */
 * {
   scrollbar-width: auto;
@@ -234,7 +245,7 @@ select {
 }
 
 .skip-to-content:focus {
-  outline: 4px dashed black;
+  outline: 4px solid black;
 }
 
 a {
@@ -244,22 +255,14 @@ a {
 }
 
 a:active {
-  outline: 4px dashed var(--cinnabar);
+  outline: 4px solid var(--cinnabar);
   outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
-  outline: 4px dashed var(--cinnabar);
+  outline: 4px solid var(--cinnabar);
   outline-offset: 4px;
-}
-
-body {
-  color: var(--black);
-  font-family: var(--font-poppins);
-  font-size: var(--font-size-16);
-  max-width: 1280px;
-  margin: auto;
 }
 
 figure {
@@ -282,20 +285,12 @@ h2 {
   font-size: var(--font-size-24);
 }
 
-fieldset {
+fieldset,
+legend,
+ul {
   border: none;
   margin: 0;
   padding: 0;
-}
-
-legend,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-section {
-  position: relative;
 }
 
 svg {
@@ -1845,7 +1840,7 @@ section#a11y-requests a {
 
 #mc_embed_signup .mc-field-group label {
   display: block;
-  font-family: var(--font-poppins);
+  font-family: var(--font-sans);
   font-weight: 700;
 }
 
