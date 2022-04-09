@@ -1,8 +1,58 @@
----
-sponsors:
-  - title: Sponsor Title
-    image: "/static/images/baptiste-placeholder.png"
-    image-alt: White Fjord logo
-    website: https://www.fjordnet.com/
-    label: Fjord's Website
-    tier:
+sponsor:
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+  - image: "/static/images/baptiste-placeholder.png"
+    imageAlt: "Sponsor Alt Text"
+    name: Sponsor
+    tier: Sponsor Tier
+    website-url-1: https://www.overwatch.net
+    website-icon-1: <i class="fas fa-globe"></i> Website
+    website-aria-label-1: Sponsor's Website
+
