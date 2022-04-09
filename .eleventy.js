@@ -4,6 +4,14 @@ const yaml = require("js-yaml");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
+	let markdownIt = require("markdown-it");
+	let options = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	eleventyConfig.setLibrary("md", markdownIt(options));
+
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// 11ty Data Extension
 	// To Support .yaml Extension in _data
