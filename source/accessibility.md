@@ -2,8 +2,6 @@
 layout: partials/layouts/base.html
 title: Accessibility
 description: 2022 DC Design Week Website
-eleventyNavigation:
-  key: Accessibility
 heroHeader: Committment to Accessibility
 heroBody: ""
 ---
