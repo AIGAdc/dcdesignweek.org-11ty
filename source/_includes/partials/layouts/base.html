@@ -27,15 +27,11 @@
 
 	<body>
 		<main>
-			<header>
-				Header
-			</header>
-			<section>
-				Content
-			</section>
-			<footer>
-				Footer
-			</footer>
+			{% include 'partials/component/mambo-header.njk' %}
+			{% block content %}
+				{{ content }}
+			{% endblock %}
+			{% include 'partials/component/mambo-footer.njk' %}
 		</main>
 	</body>
 
