@@ -6,9 +6,6 @@ heroHeader: Committment to Accessibility
 heroBody: ""
 ---
 
-# {{ title }}
-{{ description }}
-
 ### What We're Working On
 
 We’re working hard behind the scenes with our content curators to ensure all talks are inclusively crafted 

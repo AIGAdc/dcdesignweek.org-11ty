@@ -6,5 +6,3 @@ eleventyNavigation:
   key: Events
   order: 1
 ---
-
-# Events Page
