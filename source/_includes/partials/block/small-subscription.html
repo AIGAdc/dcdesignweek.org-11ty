@@ -1,0 +1,13 @@
+<section class="small-subscription" id="small-subscription">
+	{% for content in subscription.subscription %}
+	<h3>
+		{{ content.header }}
+	</h3>
+	<p>
+		{{ content.body | safe }}
+	</p>
+	<div>
+		Mailchimp Form Goes Here.
+	</div>
+	{% endfor %}
+</section>
