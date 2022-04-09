@@ -10,13 +10,7 @@
   --dcdw-2018: #297b76;
   --dcdw-2019: #fb7eb8;
   --dcdw-2020: #4ae725;
-  --beige: #d1d1c5;
-  --black: #000;
-  --celeste: #ecece5;
-  --cinnabar: #ec1001;
-  --dark-gray: #1f1f1e;
-  --purple: #ac7aff;
-  --yellow: #ff0;
+  --dcdw-2021: #ec1001;
   /* SECTION - depth */
   --index-1: 100;
   --index-2: 200;
@@ -94,13 +88,6 @@
   --font-size-200: 12.5rem;
 }
 
-@font-face {
-  font-family: "Bayard Regular";
-  src: url("../../uploads/fonts/BAYARD-Regular.woff2") format("woff2"), url("../../uploads/fonts/BAYARD-Regular.woff") format("woff");
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
 /* 
 👋🏾 Shoutout: Special thanks to Andy Bell for his helpful minimal reset:
 https://hankchizljaw.com/wrote/a-modern-css-reset/
