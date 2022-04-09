@@ -266,11 +266,6 @@ figure {
   position: relative;
 }
 
-@media (prefers-reduced-data: reduce) {
-  body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-}
 h1,
 h2,
 h3,
@@ -376,301 +371,9 @@ svg {
   border: 4px solid var(--cinnabar);
 }
 
-.ornament {
-  align-items: start;
-  display: flex;
-  flex-direction: row;
-  gap: var(--space-24);
-}
-
-.ornament.ornament-three-stars {
-  max-width: 200px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: var(--index-10);
-}
-
-.overlay--beige {
-  background-color: var(--beige);
-}
-
-.overlay--black {
-  background-color: var(--black);
-}
-
-.overlay--celeste {
-  background-color: var(--celeste);
-}
-
-.overlay--cinnabar {
-  background-color: var(--cinnabar);
-}
-
-.overlay--purple {
-  background-color: var(--purple);
-}
-
-.overlay--yellow {
-  background-color: var(--yellow);
-}
-
-.pattern {
-  align-items: start;
-  display: flex;
-  flex-direction: column;
-  opacity: 1;
-  position: absolute;
-  display: none;
-}
-
-.pattern-left {
-  left: 0;
-}
-
-.pattern-right {
-  right: 0;
-  display: none;
-}
-
-.pattern-hyperlocal {
-  opacity: 0.5;
-}
-
-.pattern-hyperlocal svg,
-.pattern-inspired svg {
-  width: 100%;
-  height: 100%;
-}
-
-.pattern-hyperlocal,
-.pattern-inspired {
-  top: 0;
-}
-
-@media screen and (min-width: 1366px) {
-  .pattern {
-    display: block;
-  }
-
-  .pattern-right {
-    display: block;
-  }
-
-  .pattern-hyperlocal svg,
-.pattern-inspired svg {
-    width: 580px;
-  }
-}
-.clipped-1,
-.clipped-2,
-.clipped-3,
-.clipped-4 {
-  transition: clip-path 250ms ease-in-out;
-  -webkit-transition: clip-path 250ms ease-in-out;
-  -moz-transition: clip-path 250ms ease-in-out;
-  -ms-transition: clip-path 250ms ease-in-out;
-  -o-transition: clip-path 250ms ease-in-out;
-}
-
-.clipped-1 {
-  /* rotation: 0 degrees*/
-  clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
-}
-
-.clipped-2 {
-  /* rotation: 25 degress */
-  clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
-}
-
-.clipped-3 {
-  /* rotation: 50 degress */
-  clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
-}
-
-.clipped-4 {
-  /* rotation: 75 degress */
-  clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
-}
-
-.clipped-1:hover {
-  /* rotation: 75 degress / clipped-4 */
-  clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
-}
-
-.clipped-2:hover {
-  /* rotation: 50 degress / clipped-3 */
-  clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
-}
-
-.clipped-3:hover {
-  /* rotation: 25 degress / clipped-2 */
-  clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
-}
-
-.clipped-4:hover {
-  /* rotation: 0 degress / clipped-1 */
-  clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
-}
-
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  .clipped-1,
-.clipped-2,
-.clipped-3,
-.clipped-4 {
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-  }
-
-  .clipped-1:hover {
-    clip-path: polygon(7% 0, 93% 11%, 86% 31%, 100% 54%, 93% 89%, 25% 96%, 24% 100%, 0 79%);
-  }
-
-  .clipped-2:hover {
-    clip-path: polygon(16% 0, 27% 7%, 44% 0, 87% 14%, 95% 75%, 99% 76%, 64% 100%, 0 81%);
-  }
-
-  .clipped-3:hover {
-    clip-path: polygon(0 53%, 16% 35%, 5% 14%, 84% 1%, 100% 79%, 88% 100%, 87% 96%, 7% 90%);
-  }
-
-  .clipped-4:hover {
-    clip-path: polygon(11% 87%, 4% 15%, 0 14%, 25% 0, 100% 14%, 90% 95%, 79% 91%, 52% 100%);
-  }
-}
-.sticker {
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  border-radius: 1000px;
-  -webkit-border-radius: 1000px;
-  -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
-  transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  text-align: center;
-  font-weight: 700;
-  max-width: 72px;
-}
-
-.sticker svg {
-  font-size: var(--font-size-32);
-  min-width: 100%;
-}
-
-.sticker > * {
-  display: block;
-}
-
-.sticker--in-person {
-  background-color: var(--celeste);
-}
-
-.texture {
-  background-position: center center;
-  background-repeat: repeat-y;
-  background-size: 150%;
-}
-.texture--paper {
-  background-image: url("/uploads/texture-paper.png");
-}
-
-.ripped-paper {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: var(--index-8);
-}
-
-.ripped-paper-top {
-  top: -48px;
-}
-
-.ripped-paper-bottom {
-  bottom: -48px;
-}
-
-.ripped-paper-left {
-  left: 96px;
-  bottom: 0;
-  top: 0;
-  right: unset;
-  height: 100vh;
-  position: fixed;
-}
-
-.ripped-paper-right {
-  left: unset;
-  bottom: 0;
-  top: 0;
-  right: 96px;
-  height: 100vh;
-  position: fixed;
-}
-
-@media screen and (min-width: 768px) {
-  .ripped-paper-top {
-    top: -58px;
-  }
-
-  .ripped-paper-bottom {
-    bottom: -58px;
-  }
-}
-@media screen and (min-width: 960px) {
-  .ripped-paper-top {
-    top: -64px;
-  }
-
-  .ripped-paper-bottom {
-    bottom: -64px;
-  }
-}
-@media screen and (min-width: 1180px) {
-  .ripped-paper-top {
-    top: -70px;
-  }
-
-  .ripped-paper-bottom {
-    bottom: -70px;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .ripped-paper-top {
-    top: -72px;
-  }
-
-  .ripped-paper-bottom {
-    bottom: -72px;
-  }
-}
-@media (prefers-reduced-data: reduce) {
-  .pattern,
-.ripped-paper {
-    display: none;
-  }
-
-  .texture--paper {
-    background-image: none;
-  }
-}
 * {
-  outline: 1px solid tomato;
-  outline-offset: -1px;
+  outline: 2px dashed palevioletred;
+  outline-offset: -2px;
 }
 
 .disabled {
@@ -681,121 +384,6 @@ svg {
   cursor: pointer !important;
 }
 
-/*!
- * houdinijs v11.0.4
- * A simple collapse-and-expand script
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/houdini
- */
-/**
- * Hide content
- */
-.houdini {
-  display: none;
-  /**
-        * Remove focus styles from content
-        * @type {String}
-        */
-  /**
-        * Show expanded content
-        */
-}
-
-.houdini[tabindex="-1"]:focus {
-  outline: none;
-}
-
-.houdini.is-expanded {
-  display: block;
-}
-
-.mambo-accordion__header {
-  text-align: left;
-  width: 100%;
-}
-
-.mambo-accordion__header .houdini-toggle {
-  background-color: transparent;
-  border: solid 1px var(--black);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: -1px;
-  padding: var(--space-16);
-  text-align: left;
-  width: 100%;
-}
-
-.mambo-accordion__header .houdini-toggle:hover {
-  cursor: pointer;
-}
-
-.mambo-accordion__content {
-  border: solid 1px var(--black);
-  margin-top: -1px;
-  padding: var(--space-16);
-  position: relative;
-}
-
-.events-single-layout .mambo-accordion__header .houdini-toggle {
-  background-color: transparent;
-  border: none;
-  color: var(--celeste);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: var(--space-16);
-  text-align: left;
-  width: 100%;
-}
-
-.events-single-layout .mambo-accordion__content {
-  border: none;
-  padding: var(--space-16);
-  position: relative;
-  top: var(--space-32);
-}
-
-.speakers .houdini-heading .houdini-toggle {
-  align-items: center;
-  background-color: transparent;
-  border: 0;
-  color: var(--yellow);
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  text-align: left;
-}
-
-.speakers .houdini-heading .houdini-toggle:focus {
-  outline: dashed 4px currentColor;
-}
-
-.speakers .mambo-accordion__content {
-  border: none;
-  padding: var(--space-16);
-  position: relative;
-}
-
-.speaker-info {
-  min-height: 120px;
-}
-
-@media screen and (min-width: 1024px) {
-  .speakers .mambo-accordion__content.is-expanded {
-    position: absolute !important;
-    bottom: -580px !important;
-    top: unset !important;
-    z-index: var(--index-9) !important;
-    left: -120px;
-    left: 0;
-    right: 0;
-    min-height: 460px;
-  }
-}
 :root {
   --offset: 5vw;
   --move-initial: calc(25% + var(--offset));
@@ -972,11 +560,7 @@ svg {
   min-height: 144px;
   object-fit: cover;
   object-position: center;
-}
-
-.card-sponsors .card-image img {
-  max-width: 144px;
-  max-height: 120px;
+  width: 100%;
 }
 
 .card-image a {
@@ -1175,38 +759,31 @@ svg {
   max-width: 120px;
 }
 
-.mambo-header .links {
+.mambo-header ul {
   display: grid;
+  gap: 1rem;
   grid-template-columns: repeat(2, auto);
 }
 
-.mambo-header .link {
+.mambo-header li {
+  list-style: none;
   text-align: center;
 }
 
-.mambo-header .link:not(:last-child) {
+.mambo-header li:not(:last-child) {
   margin-right: var(--space-16);
 }
 
-.mambo-header .link a {
+.mambo-header li a {
   display: block;
   color: var(--black);
-  font-weight: 700;
+  font-weight: 900;
   padding: var(--space-8);
   text-decoration: none;
 }
 
-.mambo-header .link a:hover {
-  color: var(--cinnabar);
-}
-
 @media screen and (min-width: 640px) {
-  .mambo-header {
-    position: sticky;
-    top: 0;
-  }
-
-  .mambo-header .links {
+  .mambo-header ul {
     grid-template-columns: repeat(4, auto);
   }
 }
@@ -1215,7 +792,6 @@ svg {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: var(--space-24) var(--space-56);
   }
 
   .mambo-header .logo {
@@ -1223,10 +799,6 @@ svg {
   }
 }
 @media screen and (min-width: 1366px) {
-  .mambo-header {
-    padding: var(--space-16) var(--space-120);
-  }
-
   .mambo-header svg {
     max-width: 200px;
   }
@@ -2149,12 +1721,120 @@ section#a11y-requests a {
   }
 }
 /*!
- * houdinijs v11.0.2
+ * houdinijs v11.0.4
  * A simple collapse-and-expand script
  * (c) 2019 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/houdini
  */
+/**
+ * Hide content
+ */
+.houdini {
+  display: none;
+  /**
+        * Remove focus styles from content
+        * @type {String}
+        */
+  /**
+        * Show expanded content
+        */
+}
+
+.houdini[tabindex="-1"]:focus {
+  outline: none;
+}
+
+.houdini.is-expanded {
+  display: block;
+}
+
+.mambo-accordion__header {
+  text-align: left;
+  width: 100%;
+}
+
+.mambo-accordion__header .houdini-toggle {
+  background-color: transparent;
+  border: solid 1px var(--black);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -1px;
+  padding: var(--space-16);
+  text-align: left;
+  width: 100%;
+}
+
+.mambo-accordion__header .houdini-toggle:hover {
+  cursor: pointer;
+}
+
+.mambo-accordion__content {
+  border: solid 1px var(--black);
+  margin-top: -1px;
+  padding: var(--space-16);
+  position: relative;
+}
+
+.events-single-layout .mambo-accordion__header .houdini-toggle {
+  background-color: transparent;
+  border: none;
+  color: var(--celeste);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--space-16);
+  text-align: left;
+  width: 100%;
+}
+
+.events-single-layout .mambo-accordion__content {
+  border: none;
+  padding: var(--space-16);
+  position: relative;
+  top: var(--space-32);
+}
+
+.speakers .houdini-heading .houdini-toggle {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  color: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  text-align: left;
+}
+
+.speakers .houdini-heading .houdini-toggle:focus {
+  outline: dashed 4px currentColor;
+}
+
+.speakers .mambo-accordion__content {
+  border: none;
+  padding: var(--space-16);
+  position: relative;
+}
+
+.speaker-info {
+  min-height: 120px;
+}
+
+@media screen and (min-width: 1024px) {
+  .speakers .mambo-accordion__content.is-expanded {
+    position: absolute !important;
+    bottom: -580px !important;
+    top: unset !important;
+    z-index: var(--index-9) !important;
+    left: -120px;
+    left: 0;
+    right: 0;
+    min-height: 460px;
+  }
+}
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 .grid--mailchimp {
   display: grid;

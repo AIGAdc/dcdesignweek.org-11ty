@@ -1,0 +1,10 @@
+# Global Data File for introducing a small accessibility section on another page.
+# This file also allows for customization of the blocks background color and text color.
+# Associated component: `small-subscription.html`
+
+subscription:
+  - header: Subscription
+    body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
+    sectionBGColor:
+    sectionTextColor:
+

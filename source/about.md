@@ -2,6 +2,7 @@
 layout: partials/layouts/about.html
 eleventyNavigation:
   key: About
+  order: 2
 title: About
 description: 2022 DC Design Week Website
 heroHeader:
