@@ -14,7 +14,7 @@
 }
 
 #mc_embed_signup .mc-field-group input {
-	background-color: var(--celeste);
+	background-color: var(--cream);
 	border: solid 1px var(--black);
 	border-radius: none;
 	color: var(--black);
@@ -27,12 +27,12 @@
 }
 
 #mc_embed_signup .mc-field-group input:focus {
-	outline: solid 1px var(--cinnabar);
+	outline: solid 1px var(--valencia);
 	outline-offset: -1px;
 }
 
 #mc_embed_signup .asterisk {
-	color: var(--cinnabar);
+	color: var(--valencia);
 	font-weight: 700;
 }
 
@@ -43,7 +43,7 @@
 
 // message for when a visitor successfully signs up for the newsletter
 #mc_embed_signup div.response {
-	background-color: var(--cinnabar);
+	background-color: var(--valencia);
 	padding: 8px;
 	z-index: 100;
 }
@@ -84,7 +84,7 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-	border: 1px solid var(--cinnabar);
+	border: 1px solid var(--valencia);
 }
 
 #mc_embed_signup input.button {
