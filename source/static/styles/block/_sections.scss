@@ -1,5 +1,5 @@
 .subscribe {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 // Black Sections
@@ -17,26 +17,26 @@
 .home-layout #makers,
 .home-layout #sponsors,
 #photographer {
-    z-index: var(--index-9);
+	z-index: var(--index-9);
 }
 
 .accessibility figure,
 .faqs figure,
 .hero-standard figure,
 .photographer figure {
-    display: none;
+	display: none;
 }
 
 section#a11y-event-accommodations a,
 section#a11y-requests a {
-    color: var(--yellow);
+	color: var(--yellow);
 }
 
 @media screen and (min-width: 1366px) {
-    .accessibility figure,
-    .faqs figure,
-    .hero-standard figure,
-    .photographer figure {
-        display: block;
-    }
+	.accessibility figure,
+	.faqs figure,
+	.hero-standard figure,
+	.photographer figure {
+		display: block;
+	}
 }
