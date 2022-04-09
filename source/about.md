@@ -9,8 +9,6 @@ heroHeader:
 heroBody:
 ---
 
-# About Page
-
 ## DCDW 2021 Committee
 
 DC Design Week is planned by a committee of volunteers who help plan each

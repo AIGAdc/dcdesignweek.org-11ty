@@ -7,5 +7,3 @@ title: FAQs
 description: 2022 DC Design Week Website
 heroHeader: FAQs
 ---
-
-# FAQs Page
