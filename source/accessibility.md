@@ -1,23 +1,13 @@
 ---
-layout: partials/layouts/base.html
+layout: partials/layouts/accessibility.html
 title: Accessibility
 description: 2022 DC Design Week Website
 heroHeader: Committment to Accessibility
 heroBody: ""
 ---
 
-# Accessibility 
-
-## Committment to Accessibility
-
-DC Design Week is committed to improving accessibility and inclusion efforts each year. We recognize this is a journey and we are still far from our ideal.
-
-This accessibility statement aims to:
-
-- Give transparency on what we’re working on
-- List accommodations we can and cannot provide
-- Provide contacts to request any accommodations that may have been missed or undocumented
-- Encourage feedback from the community on how we can evolve to be more inclusive in the future.
+# {{ title }}
+{{ description }}
 
 ### What We're Working On
 
