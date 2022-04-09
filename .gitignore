@@ -1,0 +1,7 @@
+.cache
+.DS_Store
+.editorconfig
+.env
+.netlify
+node_modules
+public
