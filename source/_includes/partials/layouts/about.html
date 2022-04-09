@@ -1,0 +1,7 @@
+{% extends "partials/layouts/base.html" %}
+
+{% block content %}
+{{ content | safe }}
+{% include 'partials/component/mambo-list-staff.html' %}
+{% include 'partials/component/mambo-list-sponsors.html' %}
+{% endblock %}
