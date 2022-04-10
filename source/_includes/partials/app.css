@@ -556,6 +556,7 @@ svg {
   }
 }
 .mambo-header {
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   gap: var(--space-16);
@@ -611,6 +612,12 @@ svg {
   }
 }
 @media screen and (min-width: 1366px) {
+  .mambo-header {
+    position: sticky;
+    top: 0;
+    padding: var(--space-16) var(--space-32);
+  }
+
   .mambo-header svg {
     max-width: 200px;
   }
@@ -841,7 +848,7 @@ svg {
 }
 .faq-contact {
   position: sticky;
-  top: 144px;
+  top: 88px;
 }
 
 .faq-contact li {
