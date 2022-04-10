@@ -1,10 +1,26 @@
 global:
   - theme-color: "#000"
-    url: https://dcdesignweek.org
 
-social:
-  - email: designweek@dc.aiga.org
-  - facebook: https://www.facebook.com/dcdesignweek/
-  - github: https://github.com/AIGAdc
-  - instagram: https://www.instagram.com/dcdesignweek/
-  - twitter: https://twitter.com/dcdesignweek
+footerContact:
+  - contactTitle: designweek@dc.aiga.org
+    contactURL: "mailto:designweek@dc.aiga.org"
+    contactARIA: DC Design Week Email
+
+footerCopyright:
+  - copyrightTitle: "&copy; AIGA DC | 2022 All Rights Reserved."
+    copyrightURL: https://dc.aiga.org/about-us/mission/
+    copyrightARIA: AIGA DC Mission Page
+
+footerLinks:
+  - socialTitle: DC Design Week Twitter Page
+    socialURL: https://www.twitter.com/dcdesignweek
+    socialIcon: <i class="fab fa-twitter-square"></i>
+  - socialTitle: DC Design Week Instagram Page
+    socialURL: https://www.instagram.com/dcdesignweek/
+    socialIcon: <i class="fab fa-instagram-square"></i>
+  - socialTitle: DC Design Week Facebook Page
+    socialURL: https://www.facebook.com/dcdesignweek/
+    socialIcon: <i class="fab fa-facebook-square"></i>
+  - socialTitle: DC Design Week Github Page
+    socialURL: https://github.com/AIGAdc/dcdesignweek.org
+    socialIcon: <i class="fab fa-github-square"></i>
