@@ -1,24 +1,9 @@
-// Shoutouts to Mary Lou for the awesome write up to build a css only marquee:
-// https://tympanus.net/codrops/2020/03/31/css-only-marquee-effect/
-
-:root {
-	--offset: 5vw;
-	--move-initial: calc(25% + var(--offset));
-	--move-final: calc(-150% + var(--offset));
-}
-
-@media (prefers-reduced-motion: reduce) {
-	:root {
-		--offset: 90vw;
-		--move-initial: calc(-25% + var(--offset));
-		--move-final: calc(-75% + var(--offset));
-	}
-}
+/* Component: mambo-banner */
 
 .banner {
 	border: solid 1px var(--black);
 	color: var(--black);
-	font-family: var(--font-bayard);
+	font-family: var(--font-serif);
 	padding: 0px;
 	position: absolute;
 	right: 0;
@@ -29,37 +14,10 @@
 	z-index: var(--index-6);
 }
 
-.events-single-layout .banner {
-	top: 0;
-	bottom: unset;
-	border: 0;
-}
-
 .banner-inner {
 	text-align: center;
 }
 
 .banner-inner p {
 	font-size: var(--font-size-20);
-}
-
-.banner--beige {
-	background-color: var(--beige);
-}
-
-.banner--cream {
-	background-color: var(--cream);
-}
-
-.banner--valencia {
-	background-color: var(--valencia);
-}
-
-.banner--purple {
-	background-color: var(--purple);
-	border-color: var(--black);
-}
-
-.banner--yellow {
-	background-color: var(--yellow);
 }
