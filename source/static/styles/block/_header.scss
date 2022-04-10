@@ -29,10 +29,6 @@
 	text-align: center;
 }
 
-.mambo-header li:not(:last-child) {
-	margin-right: var(--space-16);
-}
-
 .mambo-header li a {
 	display: block;
 	color: var(--black);
