@@ -2,43 +2,36 @@
 @import "global/reset";
 @import "global/reset-custom";
 
-@import "utility/flexbox";
-@import "utility/flow";
-@import "utility/inputs";
-@import "utility/tools";
-
 @import "block/accordion";
 @import "block/banners";
 @import "block/buttons";
 @import "block/cards";
-@import "block/containers";
-@import "block/dividers";
 @import "block/filter";
 @import "block/footer";
 @import "block/header";
 @import "block/hero";
 @import "block/listing";
-@import "block/sections";
-@import "block/speakers";
-@import "block/sponsors";
-@import "block/wysiwyg";
 
-@import "composition/about";
-@import "composition/accessibility";
-@import "composition/events";
-@import "composition/events-single";
-@import "composition/faqs";
-@import "composition/grid";
-@import "composition/hyperlocal";
-@import "composition/makers";
-@import "composition/photographer";
-@import "composition/sponsors";
-@import "composition/subscribe";
+@import "pages/about";
+@import "pages/accessibility";
+@import "pages/events-single";
+@import "pages/events";
+@import "pages/faqs";
+@import "pages/makers";
 
-@import "vendors/houdini";
-@import "vendors/mailchimp";
-@import "vendors/modals";
-@import "vendors/tabby";
+@import "utility/containers";
+@import "utility/flexbox";
+@import "utility/flow";
+@import "utility/grid";
+@import "utility/inputs";
+@import "utility/tools";
+@import "utility/sections";
+@import "utility/wysiwyg";
+
+@import "third-party/houdini";
+@import "third-party/mailchimp";
+@import "third-party/modals";
+@import "third-party/tabby";
 
 // @import "global/config";
 // @import "node_modules/gorko/gorko.scss";
