@@ -1,0 +1,9 @@
+section {
+	padding: var(--space-16);
+}
+
+@media screen and (min-width: 1024px) {
+	section {
+		padding: var(--space-32);
+	}
+}
