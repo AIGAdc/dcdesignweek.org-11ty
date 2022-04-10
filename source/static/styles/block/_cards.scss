@@ -1,3 +1,8 @@
+.card {
+	display: grid;
+	grid-gap: 1rem;
+}
+
 .card a {
 	color: var(--black);
 	display: block;
@@ -5,7 +10,7 @@
 }
 
 .card a:hover {
-	color: var(--valencia);
+	color: var(--black);
 }
 
 .card-aside {
