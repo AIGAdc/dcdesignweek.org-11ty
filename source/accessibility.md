@@ -1,9 +1,7 @@
 ---
-layout: partials/layouts/accessibility.html
 title: Accessibility
 description: 2022 DC Design Week Website
-heroHeader: Committment to Accessibility
-heroBody: ""
+layout: partials/layouts/accessibility.html
 ---
 
 ### What We're Working On
