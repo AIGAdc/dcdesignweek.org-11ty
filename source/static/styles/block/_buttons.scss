@@ -1,4 +1,6 @@
-.button {
+/* Component: mambo-button */
+
+.mambo-button {
 	border: solid 4px transparent;
 	display: block;
 	font-weight: 700;
@@ -7,78 +9,78 @@
 	text-decoration: none;
 }
 
-.button-solid--black {
+.mambo-button-solid--black {
 	background-color: var(--black);
 	color: var(--cream);
 }
 
-.button-solid--valencia {
-	background-color: var(--valencia);
+.mambo-button-solid--valencia {
+	background-color: var(--black);
 	color: var(--black);
 }
 
-.button-border--valencia {
-	border-color: var(--valencia);
-	color: var(--valencia);
+.mambo-button-border--valencia {
+	border-color: var(--black);
+	color: var(--black);
 }
 
-.button-link--valencia {
-	color: var(--valencia);
+.mambo-button-link--valencia {
+	color: var(--black);
 }
 
-.button-solid--black:hover {
+.mambo-button-solid--black:hover {
 	background-color: transparent;
 	border: solid 4px var(--black);
 	color: var(--black);
 	cursor: pointer;
 }
 
-.button-solid--valencia:hover,
-.button-border--valencia:hover,
-.button-link--valencia:hover {
+.mambo-button-solid--valencia:hover,
+.mambo-button-border--valencia:hover,
+.mambo-button-link--valencia:hover {
 	background-color: transparent;
-	border: solid 4px var(--valencia);
-	color: var(--valencia);
+	border: solid 4px var(--black);
+	color: var(--black);
 	cursor: pointer;
 }
 
-.button-solid--yellow {
+.mambo-button-solid--yellow {
 	background-color: var(--yellow);
 	color: var(--black);
 }
 
-.button-border--yellow {
+.mambo-button-border--yellow {
 	border-color: var(--yellow);
 	color: var(--yellow);
 }
 
-.button-link--yellow {
+.mambo-button-link--yellow {
 	color: var(--yellow);
 }
 
-.button-solid--yellow:hover,
-.button-border--yellow:hover,
-.button-link--yellow:hover {
+.mambo-button-solid--yellow:hover,
+.mambo-button-border--yellow:hover,
+.mambo-button-link--yellow:hover {
 	background-color: transparent;
 	border: solid 4px var(--yellow);
 	color: var(--yellow);
 	cursor: pointer;
 }
 
-.button-solid--black::selection,
-.button-border--black::selection,
-.button-link--black::selection,
-.button-solid--yellow::selection,
-.button-border--yellow::selection,
-.button-link--yellow::selection,
-.button-solid--valencia::selection,
-.button-border--valencia::selection,
-.button-link--valencia::selection {
+.mambo-button-solid--black::selection,
+.mambo-button-border--black::selection,
+.mambo-button-link--black::selection,
+.mambo-button-solid--yellow::selection,
+.mambo-button-border--yellow::selection,
+.mambo-button-link--yellow::selection,
+.mambo-button-solid--valencia::selection,
+.mambo-button-border--valencia::selection,
+.mambo-button-link--valencia::selection {
 	background-color: unset;
 }
 
 @media screen and (min-width: 768px) {
-	.button {
+	.mambo-button {
 		display: inline-block;
 	}
 }

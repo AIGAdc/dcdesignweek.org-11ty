@@ -1,0 +1,10 @@
+global:
+  - theme-color: "#000"
+    url: https://dcdesignweek.org
+
+social:
+  - email: designweek@dc.aiga.org
+  - facebook: https://www.facebook.com/dcdesignweek/
+  - github: https://github.com/AIGAdc
+  - instagram: https://www.instagram.com/dcdesignweek/
+  - twitter: https://twitter.com/dcdesignweek
