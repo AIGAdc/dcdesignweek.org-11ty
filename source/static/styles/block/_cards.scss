@@ -13,10 +13,8 @@
 }
 
 .card-image {
-	border: solid 1px var(--black);
 	filter: grayscale(1);
 	-webkit-filter: grayscale(1);
-	margin-bottom: -1px;
 }
 
 .card-image:hover {
@@ -25,10 +23,7 @@
 }
 
 .card-image img {
-	min-height: 144px;
-	object-fit: cover;
-	object-position: center;
-	width: 100%;
+	display: block;
 }
 
 .card-image a {
@@ -43,13 +38,7 @@
 
 .card-header h2,
 .card-header h3 {
-	font-weight: 700;
-}
-
-.card-header h2,
-.card-header h3,
-.card-header p {
-	font-size: var(--font-size-16);
+	font-weight: 900;
 }
 
 .card-details {
@@ -61,33 +50,10 @@
 
 .card-date {
 	color: var(--black);
-	font-size: var(--font-size-16);
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: -0.5px;
 	position: relative;
 	text-transform: uppercase;
-}
-
-.card-date::before {
-	content: "";
-	clip-path: polygon(
-		7% 0,
-		93% 11%,
-		86% 31%,
-		100% 54%,
-		93% 89%,
-		25% 96%,
-		24% 100%,
-		0 79%
-	);
-	background-color: var(--beige);
-	height: 80px;
-	width: 80px;
-	position: absolute;
-	inset: 0;
-	top: -16px;
-	left: 0;
-	z-index: -10;
 }
 
 .card-date figure {
