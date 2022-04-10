@@ -1,0 +1,10 @@
+/* Utility: WYSIWYG */
+
+.wysiwyg > *:not(:first-child) {
+	margin-top: var(--space-16);
+}
+
+.wysiwyg ul,
+.wysiwyg li {
+	margin-left: var(--space-16);
+}

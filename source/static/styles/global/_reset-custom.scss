@@ -2,6 +2,7 @@ body {
 	color: var(--black);
 	font-family: var(--font-serif);
 	font-size: var(--font-size-16);
+	line-height: 1.5;
 	max-width: 1024px;
 	margin: auto;
 }
@@ -9,7 +10,7 @@ body {
 /* The emerging W3C standard that is currently Firefox-only */
 * {
 	scrollbar-width: auto;
-	scrollbar-color: var(--valencia) var(--cream);
+	scrollbar-color: var(--black) var(--cream);
 }
 
 /* Works on Chrome/Edge/Safari */
@@ -22,12 +23,20 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: var(--valencia);
+	background-color: var(--black);
 }
 
 ::selection {
-	background-color: var(--valencia);
+	background-color: var(--black);
 	color: var(--black);
+}
+
+.disabled {
+	cursor: not-allowed !important;
+}
+
+.enabled {
+	cursor: pointer !important;
 }
 
 #skip-to-content {
@@ -70,20 +79,20 @@ body {
 }
 
 a {
-	color: var(--valencia);
+	color: var(--black);
 	cursor: pointer;
 	font-weight: 900;
 	transition: opacity var(--timing-default) ease-in;
 }
 
 a:active {
-	outline: 4px solid var(--valencia);
+	outline: 4px solid var(--black);
 	outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
-	outline: 4px solid var(--valencia);
+	outline: 4px solid var(--black);
 	outline-offset: 4px;
 }
 
@@ -124,7 +133,6 @@ svg {
 @media screen and (min-width: 1366px) {
 	body {
 		font-size: var(--font-size-18);
-		line-height: 32px;
 	}
 
 	h2 {

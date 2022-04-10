@@ -27,12 +27,12 @@
 }
 
 #mc_embed_signup .mc-field-group input:focus {
-	outline: solid 1px var(--valencia);
+	outline: solid 1px var(--black);
 	outline-offset: -1px;
 }
 
 #mc_embed_signup .asterisk {
-	color: var(--valencia);
+	color: var(--black);
 	font-weight: 700;
 }
 
@@ -43,7 +43,7 @@
 
 // message for when a visitor successfully signs up for the newsletter
 #mc_embed_signup div.response {
-	background-color: var(--valencia);
+	background-color: var(--black);
 	padding: 8px;
 	z-index: 100;
 }
@@ -84,10 +84,10 @@
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-	border: 1px solid var(--valencia);
+	border: 1px solid var(--black);
 }
 
-#mc_embed_signup input.button {
+#mc_embed_signup input.mambo-button {
 	width: 100%;
 	border-radius: 0 !important;
 	-webkit-appearance: none !important;
@@ -99,21 +99,21 @@
 	margin-top: var(--space-24);
 }
 
-.mailchimp-button input {
+.mailchimp-mambo-button input {
 	padding: var(--space-8);
 }
 
 .submit-label {
 	display: none;
 }
-.mailchimp-button input {
+.mailchimp-mambo-button input {
 	margin-top: 0;
 	-webkit-appearance: none !important;
 	-moz-appearance: none !important;
 	appearance: none !important;
 }
 
-.mailchimp-button input:hover {
+.mailchimp-mambo-button input:hover {
 	cursor: pointer;
 }
 

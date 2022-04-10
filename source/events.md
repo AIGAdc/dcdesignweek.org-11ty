@@ -1,6 +1,6 @@
 ---
 title: Events
-description: 2022 DC Design Week Website
+description: Provide a description for this page.
 layout: partials/layouts/events.html
 eleventyNavigation:
   key: Events
