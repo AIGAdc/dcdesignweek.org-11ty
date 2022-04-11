@@ -18,27 +18,19 @@
 }
 
 .card-image {
-	filter: grayscale(1);
-	-webkit-filter: grayscale(1);
-}
-
-.card-image:hover {
 	filter: grayscale(0);
 	-webkit-filter: grayscale(0);
 }
 
-.card-image img {
-	display: block;
+.card-image:hover {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
 }
 
 .card-image a {
 	color: var(--cream);
 	text-align: center;
 	text-decoration: underline;
-}
-
-.card-event .card-image {
-	filter: unset;
 }
 
 .card-header h2,
