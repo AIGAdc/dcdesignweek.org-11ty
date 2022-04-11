@@ -9,13 +9,13 @@ body {
 
 /* The emerging W3C standard that is currently Firefox-only */
 * {
-	scrollbar-width: auto;
+	scrollbar-width: 16px;
 	scrollbar-color: var(--black) var(--cream);
 }
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
-	width: 16px;
+	max-width: 16px;
 }
 
 *::-webkit-scrollbar-track {
@@ -46,10 +46,6 @@ body {
 .skip-to-content:not(:focus):not(:hover) {
 	transform: translateY(-200px);
 	opacity: 0;
-	-webkit-transform: translateY(-200px);
-	-moz-transform: translateY(-200px);
-	-ms-transform: translateY(-200px);
-	-o-transform: translateY(-200px);
 }
 
 .skip-to-content {
@@ -68,10 +64,6 @@ body {
 	top: 0px;
 	z-index: var(--index-10);
 	transform: translateY(0px);
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	-o-transform: translateY(0px);
 }
 
 .skip-to-content:focus {
@@ -87,13 +79,11 @@ a {
 
 a:active {
 	outline: 4px solid var(--black);
-	outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
 	outline: 4px solid var(--black);
-	outline-offset: 4px;
 }
 
 figure {

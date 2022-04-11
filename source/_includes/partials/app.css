@@ -187,13 +187,13 @@ body {
 
 /* The emerging W3C standard that is currently Firefox-only */
 * {
-  scrollbar-width: auto;
+  scrollbar-width: 16px;
   scrollbar-color: var(--black) var(--cream);
 }
 
 /* Works on Chrome/Edge/Safari */
 *::-webkit-scrollbar {
-  width: 16px;
+  max-width: 16px;
 }
 
 *::-webkit-scrollbar-track {
@@ -224,10 +224,6 @@ body {
 .skip-to-content:not(:focus):not(:hover) {
   transform: translateY(-200px);
   opacity: 0;
-  -webkit-transform: translateY(-200px);
-  -moz-transform: translateY(-200px);
-  -ms-transform: translateY(-200px);
-  -o-transform: translateY(-200px);
 }
 
 .skip-to-content {
@@ -246,10 +242,6 @@ body {
   top: 0px;
   z-index: var(--index-10);
   transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  -o-transform: translateY(0px);
 }
 
 .skip-to-content:focus {
@@ -265,13 +257,11 @@ a {
 
 a:active {
   outline: 4px solid var(--black);
-  outline-offset: 4px;
 }
 
 *:focus,
 a:focus {
   outline: 4px solid var(--black);
-  outline-offset: 4px;
 }
 
 figure {
@@ -446,27 +436,19 @@ svg {
 }
 
 .card-image {
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-}
-
-.card-image:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
 }
 
-.card-image img {
-  display: block;
+.card-image:hover {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 
 .card-image a {
   color: var(--cream);
   text-align: center;
   text-decoration: underline;
-}
-
-.card-event .card-image {
-  filter: unset;
 }
 
 .card-header h2,
@@ -1259,74 +1241,65 @@ section {
   align-items: start;
 }
 
-#mc_embed_signup .mc-field-group label {
+.mailchimp .mc-field-group label {
   display: block;
-  font-family: var(--font-sans);
   font-weight: 900;
 }
 
-#mc_embed_signup .mc-field-group input {
-  background-color: var(--cream);
+.mailchimp .mc-field-group input {
   border: solid 1px var(--black);
   border-radius: none;
   color: var(--black);
   display: block;
-  padding: var(--space-8) var(--space-16);
+  padding: var(--space-8);
   width: 100%;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
 }
 
-#mc_embed_signup .mc-field-group input:focus {
+.mailchimp .mc-field-group input:focus {
   outline: solid 1px var(--black);
   outline-offset: -1px;
 }
 
-#mc_embed_signup .asterisk {
+.mailchimp .asterisk {
   color: var(--black);
   font-weight: 900;
 }
 
-#mc_embed_signup .asterisk,
-#mc_embed_signup .indicates-required {
-  margin-bottom: var(--space-32);
-}
-
-#mc_embed_signup div.response {
-  background-color: var(--black);
+.mailchimp div.response {
   padding: 8px;
   z-index: 100;
 }
 
-#mc_embed_signup div.response a {
+.mailchimp div.response a {
   color: var(--black);
-  font-weight: bold;
+  font-weight: 900;
 }
 
-#mc_embed_signup #mce-error-response,
-#mc_embed_signup #mce-success-response {
+.mailchimp #mce-error-response,
+.mailchimp #mce-success-response {
   color: var(--black);
   display: block;
 }
 
-#mc_embed_signup #num-subscribers span {
+.mailchimp #num-subscribers span {
   padding: 4px;
-  border: 1px solid var(--white);
+  border: 1px solid var(--black);
   margin-right: 4px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
-.mc-field-group label,
-.submit-label {
+.mailchimp .mc-field-group label,
+.mailchimp .submit-label {
   margin-bottom: 8px;
 }
 
-#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-  background-color: var(--black);
+.mailchimp #mc-embedded-subscribe-form div.mce_inline_error {
+  background-color: unset;
   display: block;
-  color: var(--yellow);
-  font-size: inherit;
+  color: var(--black);
   margin: 0;
   padding: var(--space-8);
   position: relative;
@@ -1334,16 +1307,13 @@ section {
   z-index: var(--index-1);
 }
 
-#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+.mailchimp #mc-embedded-subscribe-form input.mce_inline_error {
   border: 1px solid var(--black);
 }
 
-#mc_embed_signup input.mambo-button {
+.mailchimp input.mambo-button {
   width: 100%;
   border-radius: 0 !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
 }
 
 #mce-responses {
@@ -1360,9 +1330,6 @@ section {
 
 .mailchimp-mambo-button input {
   margin-top: 0;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
 }
 
 .mailchimp-mambo-button input:hover {
