@@ -6,9 +6,11 @@
 	<p>
 		{{ content.body | safe }}
 	</p>
-	<a class="mambo-button {{ content.mambo-buttonColor }}" href="{{ content.mambo-buttonURL }}">
-		{{ content.mambo-buttonLabel }}
+	{% if content.buttonURL %}
+	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
 	</a>
+	{% endif %}
 	{% endfor %}
 </section>
 <section
