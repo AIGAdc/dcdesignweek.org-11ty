@@ -6,7 +6,8 @@
 			{% for question in faqs.questions %}
 			<li class="mambo-accordion">
 				<h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">
-					{{ question.question }}</h2>
+					{{ question.question }}
+				</h2>
 				<div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg flow-2"
 					data-houdini-group="faq" id="{{ question.trigger }}">
 					{{ question.answer | safe }}

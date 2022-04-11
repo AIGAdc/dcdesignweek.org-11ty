@@ -1,6 +1,10 @@
 global:
   - header: DCDW 2022 Committee
     body: DC Design Week is planned by a committee of volunteers who help plan each event, do all the outreach, and more. We’re so grateful for their contributions.
+    buttonURL:
+    buttonLabel:
+    buttonBGColor:
+    buttonTextColor:
 
 staff:
   - image: "/static/images/baptiste-placeholder.png"
