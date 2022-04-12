@@ -4,11 +4,11 @@
 <section class="wysiwyg">
 	{{ content | safe }}
 </section>
+{% include 'partials/block/events-small.html' %}
 <section>
-	Featured Events
-</section>
-<section>
-	Featured Agency
+	<h2>
+		Featured Agency
+	</h2>
 </section>
 {% include 'partials/block/sponsors-large.html' %}
 {% endblock %}
