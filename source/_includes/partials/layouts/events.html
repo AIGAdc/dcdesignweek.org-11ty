@@ -1,9 +1,32 @@
 {% extends "partials/layouts/base.html" %}
 
 {% block content %}
-{{ content | safe }}
+<section class="wysiwyg">
+	{{ content | safe }}
+</section>
 <section>
-	Events List
+	<ul class="events">
+		{% for event in collections.events | reverse %}
+		<!-- Display image with link to event. -->
+		<a class="anchor" href="{{ event.url }}" style="color: {{ event.data.textColor | safe }};">
+			<li class="event {{ event.data.type | safe }}"
+				style="background-color: {{ event.data.dominantColor | safe }};">
+				<figure class="image">
+					<img alt="" loading=lazy src="{{ event.data.image }}">
+				</figure>
+				<!-- Displays human readable date of event -->
+				<div class="meta">
+					<h3 style="color: {{ event.data.textColor | safe }};">
+						{{event.data.title}}
+					</h3>
+					<datetime style="color: {{ event.data.textColor | safe }};">
+						{{ event.data.date | readableEventDate }}
+					</datetime>
+				</div>
+			</li>
+		</a>
+		{% endfor %}
+	</ul>
 </section>
 {% include 'partials/block/faqs-small.html' %}
 {% endblock %}
