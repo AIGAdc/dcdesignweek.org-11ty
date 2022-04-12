@@ -12,16 +12,17 @@ eventDate: 2021-10-06 19:00:00 -04:00
 startTime: 7:00 pm
 endTime: 8:00 pm
 tickets:
-  has-member-button: true
-  member-button-url: "#"
-  member-button-label: "$XX — Members"
-  has-non-member-button: true
-  non-member-button-url: "#"
-  non-member-button-label: "$XX — Non-members"
-isFeaturedHome: true
-isFeaturedEvent: true
-hasOccurred: false
-filter-date:
+  hasMemberButton: true
+  memberButtonURL: "#"
+  memberButtonLabel: "$XX — Members"
+  hasNonMemberButton: true
+  nonMemberButtonURL: "#"
+  nonMemberButtonLabel: "$XX — Non-members"
+status:
+  isFeaturedHome: true
+  isFeaturedEvent: false
+  hasOccurred: false
+filterDate:
   isDayOne: false
   isDayTwo: false
   isDayThree: false
@@ -32,11 +33,11 @@ filter-date:
   isDayEight: false
   isDayNine: false
   isDayTen: false
-filter-location:
+filterLocation:
   isZoom: true
-filter-time:
+filterTime:
   isEvening: true
-filter-type:
+filterType:
   isKeynote: true
   isTalkPanel: true
 ---

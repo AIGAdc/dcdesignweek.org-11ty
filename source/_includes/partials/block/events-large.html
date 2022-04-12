@@ -1,24 +1,40 @@
-<section>
-	<h2>
+<section class="[ events-large ]" id="events-large">
+	<h2 class="[ sr-hidden ]">
 		Featured Events
 	</h2>
-	<ul class="events [ grid grid--three-column ]">
+	<ul class="[ events ] [ grid grid--three-column ]">
 		{% for event in collections.events | reverse %}
-		<!-- Display image with link to event. -->
-
-		<li class="event {{ event.data.type | safe }}">
-			<a class="anchor" href="{{ event.url }}">
-				<figure class="image">
+		<li class="[ event ] [ {{ event.data.type | safe }} ]">
+			<a class="[ anchor ]" href="{{ event.url }}">
+				<figure class="[ image ]">
 					<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
 				</figure>
 				<!-- Displays human readable date of event -->
-				<div class="meta">
+				<div class="[ meta ]">
+					{% if event.data.status.isFeaturedEvent %}
+					<p>
+						Featured Event == True
+					</p>
+					{% endif %}
 					<h3>
 						{{event.data.title}}
 					</h3>
 					<datetime>
 						{{ event.data.date | readableEventDate }}
 					</datetime>
+				</div>
+				<div>
+					<small>Testing</small>
+					{% if event.data.tickets.hasMemberButton %}
+					<p>
+						Member Button == true
+					</p>
+					{% endif %}
+					{% if event.data.tickets.hasNonMemberButton %}
+					<p>
+						Non-Member Button == true
+					</p>
+					{% endif %}
 				</div>
 			</a>
 		</li>
