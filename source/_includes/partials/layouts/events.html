@@ -5,21 +5,20 @@
 	{{ content | safe }}
 </section>
 <section>
-	<ul class="events">
+	<ul class="events [ grid grid--three-column ]">
 		{% for event in collections.events | reverse %}
 		<!-- Display image with link to event. -->
-		<a class="anchor" href="{{ event.url }}" style="color: {{ event.data.textColor | safe }};">
-			<li class="event {{ event.data.type | safe }}"
-				style="background-color: {{ event.data.dominantColor | safe }};">
+		<a class="anchor" href="{{ event.url }}">
+			<li class="event {{ event.data.type | safe }}">
 				<figure class="image">
-					<img alt="" loading=lazy src="{{ event.data.image }}">
+					<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
 				</figure>
 				<!-- Displays human readable date of event -->
 				<div class="meta">
-					<h3 style="color: {{ event.data.textColor | safe }};">
+					<h3>
 						{{event.data.title}}
 					</h3>
-					<datetime style="color: {{ event.data.textColor | safe }};">
+					<datetime>
 						{{ event.data.date | readableEventDate }}
 					</datetime>
 				</div>
