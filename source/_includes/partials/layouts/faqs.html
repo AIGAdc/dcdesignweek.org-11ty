@@ -1,9 +1,11 @@
 {% extends "partials/layouts/base.html" %}
 
 {% block content %}
+{% if content %}
 <section class="wysiwyg">
 	{{ content | safe }}
 </section>
+{% endif %}
 {% include 'partials/block/faqs-large.html' %}
 {% include 'partials/block/accessibility-small.html' %}
 {% endblock %}
