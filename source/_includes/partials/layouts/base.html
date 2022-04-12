@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="layout-{{ title | slug }}">
+<html lang="en" class="layout-{{ title | slug }}" style="background-color: {{ backgroundColor | safe }}; color: {{ textColor | safe }};" {% for event in collections.events | reverse %}style="background-color: {{ event.backgroundColor | safe }}; color: {{ event.textColor | safe }};" {% endfor %}>
 
 	{% include 'partials/layouts/head.html' %}
 
