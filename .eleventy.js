@@ -3,6 +3,7 @@ const htmlmin = require("html-minifier");
 const { DateTime } = require("luxon");
 const yaml = require("js-yaml");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
 	let markdownIt = require("markdown-it");
@@ -12,6 +13,22 @@ module.exports = function (eleventyConfig) {
 		linkify: true,
 	};
 	eleventyConfig.setLibrary("md", markdownIt(options));
+
+	eleventyConfig.addFilter("readableEventDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "Europe/Amsterdam",
+		})
+			.setLocale("en")
+			.toLocaleString(DateTime.DATE_FULL);
+	});
+
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "Europe/Amsterdam",
+		})
+			.setLocale("en")
+			.toISODate();
+	});
 
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// 11ty Data Extension

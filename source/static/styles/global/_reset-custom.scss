@@ -102,10 +102,6 @@ small {
 	text-rendering: optimizeLegibility;
 }
 
-h2 {
-	font-size: var(--font-size-24);
-}
-
 fieldset,
 legend,
 ul {
@@ -123,9 +119,5 @@ svg {
 @media screen and (min-width: 1366px) {
 	body {
 		font-size: var(--font-size-18);
-	}
-
-	h2 {
-		font-size: var(--font-size-32);
 	}
 }
