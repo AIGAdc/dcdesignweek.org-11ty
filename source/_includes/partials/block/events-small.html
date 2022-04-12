@@ -1,26 +1,43 @@
-<section>
+<section class="[ events-small ]" id="events-small">
 	<h2>
 		Featured Events
 	</h2>
-	<ul class="events [ grid grid--three-column ]">
-		{% for event in collections.events | reverse | limit(10) %}
-		<!-- Display image with link to event. -->
-		<li class="event {{ event.data.type | safe }}">
-			<a class="anchor" href="{{ event.url }}">
-				<figure class="image">
+	<ul class="[ events ] [ grid grid--four-column ]">
+		{% for event in collections.events | reverse %}
+		{% if event.data.status.isFeaturedHome %}
+		<li class="[ event ] [ {{ event.data.type | safe }} ]">
+			<a class="[ anchor ]" href="{{ event.url }}">
+				<figure class="[ image ]">
 					<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
 				</figure>
-				<!-- Displays human readable date of event -->
-				<div class="meta">
+				<div class="[ meta ]">
+					<p>
+						Featured Event == true
+					</p>
 					<h3>
-						{{event.data.title}}
+						{{ event.data.title }}
 					</h3>
+					<!-- Displays human readable date of event -->
 					<datetime>
 						{{ event.data.date | readableEventDate }}
 					</datetime>
 				</div>
+				<div>
+					<small>Testing</small>
+					{% if event.data.tickets.hasMemberButton %}
+					<p>
+						Member Button == true
+					</p>
+					{% endif %}
+					{% if event.data.tickets.hasNonMemberButton %}
+					<p>
+						Non-Member Button == true
+					</p>
+					{% endif %}
+				</div>
 			</a>
 		</li>
+		{% endif %}
 		{% endfor %}
 	</ul>
 </section>
