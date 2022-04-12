@@ -4,6 +4,7 @@ description: "The DCDW Pop-Up Shop is back! We’ll be doing things a little dif
 
 Are you a local maker with merch to sell? Submit an application form by Wednesday, September 1."
 layout: partials/layouts/base.html
+permalink: /makers/
 eleventyNavigation:
   key: Makers
   order: 3
