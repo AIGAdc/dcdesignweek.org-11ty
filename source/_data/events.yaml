@@ -1,0 +1,7 @@
+global:
+  - header: Featured Events
+    body:
+    buttonURL: /events/
+    buttonLabel: Explore All Events
+    buttonBGColor:
+    buttonTextColor:
