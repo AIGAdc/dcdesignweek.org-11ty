@@ -1,41 +1,7 @@
 /* Page: FAQs */
 
-.faqs-layout .hero-standard h1 {
-	font-size: var(--font-size-72);
-}
-
-.faqs-layout .hero-standard figure {
-	display: none;
-}
-
-@media screen and (min-width: 768px) {
-	.faqs-layout .hero-standard h1 {
-		font-size: var(--font-size-88);
-	}
-}
-
-@media screen and (min-width: 1366px) {
-	.faqs-layout .hero-standard h1 {
-		font-size: var(--font-size-136);
-	}
-
-	.faqs-layout .hero-standard figure {
-		display: block;
-		right: 75px;
-		top: -150px;
-	}
-
-	.faqs-layout .hero-standard img {
-		min-width: 750px;
-		position: absolute;
-	}
-}
-
-.faq-contact {
+.faqs-sidebar {
+	padding: 2rem;
 	position: sticky;
-	top: 88px;
-}
-
-.faq-contact li {
-	list-style: none;
+	top: 1rem;
 }
