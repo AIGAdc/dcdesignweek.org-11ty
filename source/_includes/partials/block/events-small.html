@@ -1,7 +1,9 @@
-<section class="[ events-small ]" id="events-small">
+<section class="[ events-small ] [ flow-1 ]" id="events-small">
+	{% for content in events.global %}
 	<h2>
-		Featured Events
+		{{ content.header }}
 	</h2>
+	{% endfor %}
 	<ul class="[ events ] [ grid grid--four-column ]">
 		{% for event in collections.events | reverse %}
 		{% if event.data.status.isFeaturedHome %}
@@ -40,4 +42,9 @@
 		{% endif %}
 		{% endfor %}
 	</ul>
+	{% for content in events.global %}
+	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
+	</a>
+	{% endfor %}
 </section>
