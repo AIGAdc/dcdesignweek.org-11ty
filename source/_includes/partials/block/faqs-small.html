@@ -1,4 +1,6 @@
-<section class="small-faqs" id="small-faqs">
+<section class="[ small-faqs ] [ flow-1 ]" id="small-faqs" {% for content in faqs.smallFaqs %}
+	style="background-color: {{ content.sectionBGColor | safe }}; color: {{ content.sectionTextColor | safe }};"
+	{% endfor %}>
 	{% for content in faqs.smallFaqs %}
 	<h2>
 		{{ content.header }}
@@ -6,7 +8,8 @@
 	<p>
 		{{ content.body | safe }}
 	</p>
-	<a class="mambo-button {{ content.mambo-buttonColor }}" href="{{ content.mambo-buttonURL }}">
+	<a class="mambo-button" href="{{ content.buttonURL }}"
+		style="background-color: {{ content.buttonBGColor | safe }}; color: {{ content.buttonTextColor | safe }};">
 		{{ content.buttonLabel }}
 	</a>
 	{% endfor %}
