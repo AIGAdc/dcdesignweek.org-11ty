@@ -18,10 +18,9 @@ tickets:
   has-non-member-button: true
   non-member-button-url: "#"
   non-member-button-label: "$XX — Non-members"
-status:
-  isFeaturedHome: true
-  isFeaturedEvent: true
-  hasOccurred: true
+isFeaturedHome: false
+isFeaturedEvent: false
+hasOccurred: false
 filter-date:
   isDayOne: false
   isDayTwo: false
