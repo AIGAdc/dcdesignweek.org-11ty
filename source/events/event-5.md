@@ -12,15 +12,16 @@ eventDate: 2021-10-06 19:00:00 -04:00
 startTime: 7:00 pm
 endTime: 8:00 pm
 tickets:
-  has-member-button: true
-  member-button-url: "#"
-  member-button-label: "$XX — Members"
-  has-non-member-button: true
-  non-member-button-url: "#"
-  non-member-button-label: "$XX — Non-members"
-isFeaturedHome: false
-isFeaturedEvent: false
-hasOccurred: false
+  hasMemberButton: true
+  memberButtonURL: "#"
+  memberButtonLabel: "$XX — Members"
+  hasNonMemberButton: true
+  nonMemberButtonURL: "#"
+  nonMemberButtonLabel: "$XX — Non-members"
+status:
+  isFeaturedHome: false
+  isFeaturedEvent: false
+  hasOccurred: false
 filter-date:
   isDayOne: false
   isDayTwo: false
