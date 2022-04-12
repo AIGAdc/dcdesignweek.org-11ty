@@ -1,0 +1,16 @@
+{% extends "partials/layouts/base.html" %}
+
+{% block content %}
+<section class="wysiwyg">
+	{{ content | safe }}
+</section>
+<section id="Code-of-Conduct">
+	<h3>
+		Code of Conduct
+	</h3>
+	<p>
+		All AIGA DC events adhere to our <a href="https://dc.aiga.org/events/code-of-conduct/">Code of Conduct</a>.
+	</p>
+</section>
+{% include 'partials/block/faqs-small.html' %}
+{% endblock %}
