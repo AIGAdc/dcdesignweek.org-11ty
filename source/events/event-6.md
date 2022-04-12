@@ -18,9 +18,10 @@ tickets:
   hasNonMemberButton: true
   nonMemberButtonURL: "#"
   nonMemberButtonLabel: "$XX — Non-members"
-isFeaturedHome: false
-isFeaturedEvent: false
-hasOccurred: false
+status:
+  isFeaturedHome: false
+  isFeaturedEvent: false
+  hasOccurred: false
 filter-date:
   isDayOne: false
   isDayTwo: false
