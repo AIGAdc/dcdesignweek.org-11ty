@@ -3,8 +3,9 @@
 		Featured Events
 	</h2>
 	<ul class="events [ grid grid--three-column ]">
-		{% for event in collections.events | reverse | limit(10) %}
+		{% for event in collections.events | reverse %}
 		<!-- Display image with link to event. -->
+
 		<li class="event {{ event.data.type | safe }}">
 			<a class="anchor" href="{{ event.url }}">
 				<figure class="image">
