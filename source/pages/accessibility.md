@@ -2,6 +2,7 @@
 title: Accessibility
 description: Provide a description for this page.
 layout: partials/layouts/accessibility.html
+permalink: /accessibility/
 ---
 
 ### What We're Working On
