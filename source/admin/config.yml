@@ -3,7 +3,7 @@ backend:
   # Use netlify identity as backend
   name: git-gateway
   branch: latest
-  repo: marcusrelacion/photos.marcusrelacion.com
+  repo: AIGAdc/dcdesignweek.org-11ty
 
 # Enable/Disable Editorial Workflow
 #publish_mode: editorial_workflow
@@ -19,8 +19,8 @@ public_folder: "/static/images"
 # media_library:
 #  name: cloudinary
 #  config:
-#    cloud_name: mr-assets
-#    api_key: 243857361587548
+#    cloud_name: xxxxxxxxxx
+#    api_key: xxxxxxxxxx
 #    use_transformations: true
 
 # Collection Settings
@@ -31,7 +31,7 @@ collections:
     # Defaults to "true". Must be set to "false" to turn the preview off completely.
     editor:
       preview: false
-    # Specify the pages that should be visible inside the CMS.
+    # Define the pages that should be visible inside the CMS.
     files:
       - label: "About"
         name: "about"
@@ -39,7 +39,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Accessibility"
@@ -48,7 +48,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Events"
@@ -57,7 +57,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "FAQs"
@@ -66,7 +66,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
@@ -75,7 +75,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Makers"
@@ -84,7 +84,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
   - label: "Events"
@@ -96,22 +96,25 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", hint: "Provide Post Title", name: "title", widget: "string" }
-      - { label: "Date", hint: "Provide Capture Date", name: "date", widget: "datetime" }
+      - { label: "Title", hint: "Provide Event Title", name: "title", widget: "string" }
+      - { label: "Description", hint: "Provide Event Description", name: "description", widget: "string" }
+      - { label: "Start Date", hint: "Provide Capture Start Date", name: "startDate", widget: "datetime" }
+      - { label: "End Date", hint: "Provide Capture End Date", name: "endDate", widget: "datetime" }
       - { label: "Image", hint: "Provide Featured Image", name: "image", widget: "image" }
-      - { label: "Dominant Color", hint: "Provide Dominant Color", name: "dominantColor", required: false, widget: "color" }
+      - { label: "Image Alt", hint: "Provide Image Alt Text", name: "imageALT", widget: "string" }
+      - label: Speaker
+        name: speaker
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Pronouns, name: pronouns, widget: string}
+          - {label: Website, name: website, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Image Alt, name: imageALT, widget: string}
+      - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+      - { label: "Background Color", hint: "Provide Background Color", name: "dominantColor", required: false, widget: "color" }
       - { label: "Text Color", hint: "Provide Text Color", name: "textColor", required: false, widget: "color" }
-      - { label: "Body", name: "body", required: false, widget: "markdown" }
-      - { label: "Flickr Gallery", name: "flickrGallery", required: false, widget: "string" }
-      - { label: "Pixieset Shop", name: "pixiesetShop", required: false, widget: "string" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        hint: "Select Photo Type. Ensure the options listed here match the categories in the Settings collection."
-        create: true
-        multiple: true
-        default: ["events"]
-        options: ["events"]
 
   - label: "Data Files"
     name: "settings"
