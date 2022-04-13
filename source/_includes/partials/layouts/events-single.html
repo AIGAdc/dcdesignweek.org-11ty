@@ -6,13 +6,7 @@
 	{{ content | safe }}
 </section>
 {% endif %}
-<section id="Code-of-Conduct">
-	<h3>
-		Code of Conduct
-	</h3>
-	<p>
-		All AIGA DC events adhere to our <a href="https://dc.aiga.org/events/code-of-conduct/">Code of Conduct</a>.
-	</p>
-</section>
+{% include 'partials/block/events-speaker.html' %}
+{% include 'partials/block/code-of-conduct.html' %}
 {% include 'partials/block/faqs-small.html' %}
 {% endblock %}
