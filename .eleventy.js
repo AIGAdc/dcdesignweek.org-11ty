@@ -46,6 +46,7 @@ module.exports = function (eleventyConfig) {
 
 	// 11ty Passthrough
 	eleventyConfig.addPassthroughCopy("./source/admin");
+	eleventyConfig.addPassthroughCopy("./source/static/audio");
 	eleventyConfig.addPassthroughCopy("./source/static/images");
 	eleventyConfig.addPassthroughCopy("./source/static/scripts");
 
