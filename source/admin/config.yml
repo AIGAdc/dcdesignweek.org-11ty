@@ -102,6 +102,13 @@ collections:
       - { label: "End Date", hint: "Provide Capture End Date", name: "endDate", widget: "datetime" }
       - { label: "Image", hint: "Provide Featured Image", name: "image", widget: "image" }
       - { label: "Image Alt", hint: "Provide Image Alt Text", name: "imageALT", widget: "string" }
+      - label: Tickets
+        name: tickets
+        widget: list
+        fields:
+          - {label: Button Type, name: buttonType, widget: string}
+          - {label: Button Label, name: buttonLabel, widget: string}
+          - {label: Button URL, name: buttonURL, widget: string}
       - label: Speaker
         name: speaker
         widget: list
