@@ -1,4 +1,4 @@
-<section class="small-sponsors" id="small-sponsors">
+<section class="[ small-sponsors ] [ flow-1 ]" id="sponsors">
 	{% for content in sponsors.global %}
 	<h2>
 		{{ content.header }}
@@ -6,16 +6,7 @@
 	<p>
 		{{ content.body | safe }}
 	</p>
-	{% if content.buttonURL %}
-	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
-		{{ content.buttonLabel }}
-	</a>
-	{% endif %}
 	{% endfor %}
-</section>
-<section
-	class="[ sponsors ] [ gap-padding-top-1100 gap-padding-bottom-1100 gap-padding-right-400 gap-padding-left-400 md:gap-padding-top-1600 md:gap-padding-bottom-1600 md:gap-padding-right-1600 md:gap-padding-left-1600 ] [ background-dcdw-2021-celeste color-dcdw-2021-black ]  [ flow-4 ]"
-	id="sponsors">
 	<ul class="[ grid grid--four-column ]">
 		{% for sponsor in sponsors.sponsor %}
 		<li class="[ card card-sponsors ]">
@@ -44,4 +35,9 @@
 		</li>
 		{% endfor %}
 	</ul>
+	{% for content in sponsors.global %}
+	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
+	</a>
+	{% endfor %}
 </section>
