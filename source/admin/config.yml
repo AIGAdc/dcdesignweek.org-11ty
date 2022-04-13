@@ -1,0 +1,226 @@
+# Netlify & Github Backend
+backend:
+  # Use netlify identity as backend
+  name: git-gateway
+  branch: latest
+  repo: marcusrelacion/photos.marcusrelacion.com
+
+# Enable/Disable Editorial Workflow
+#publish_mode: editorial_workflow
+
+# Enable/Disable Local Backend. Use the command "npx netlify-cms-proxy-server" to use Netlify CMS locally
+local_backend: true
+
+# Media Folders
+media_folder: "source/static/images"
+public_folder: "/static/images"
+
+# Cloudinary Settings
+# media_library:
+#  name: cloudinary
+#  config:
+#    cloud_name: mr-assets
+#    api_key: 243857361587548
+#    use_transformations: true
+
+# Collection Settings
+collections:
+  # Pages allows for easier editing of pages on the site
+  - label: "Pages"
+    name: "pages"
+    # Defaults to "true". Must be set to "false" to turn the preview off completely.
+    editor:
+      preview: false
+    # Specify the pages that should be visible inside the CMS.
+    files:
+      - label: "About"
+        name: "about"
+        file: "source/pages/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Accessibility"
+        name: "accessibility"
+        file: "source/pages/accessibility.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Events"
+        name: "events"
+        file: "source/pages/events.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "FAQs"
+        name: "faqs"
+        file: "source/pages/faqs.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Home"
+        name: "home"
+        file: "source/pages/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Makers"
+        name: "makers"
+        file: "source/pages/makers.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Page Content", name: "page-content", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+  - label: "Events"
+    name: "events"
+    folder: "source/events"
+    create: true
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    # Defaults to "true". Must be set to "false" to turn the preview off completely.
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", hint: "Provide Post Title", name: "title", widget: "string" }
+      - { label: "Date", hint: "Provide Capture Date", name: "date", widget: "datetime" }
+      - { label: "Image", hint: "Provide Featured Image", name: "image", widget: "image" }
+      - { label: "Dominant Color", hint: "Provide Dominant Color", name: "dominantColor", required: false, widget: "color" }
+      - { label: "Text Color", hint: "Provide Text Color", name: "textColor", required: false, widget: "color" }
+      - { label: "Body", name: "body", required: false, widget: "markdown" }
+      - { label: "Flickr Gallery", name: "flickrGallery", required: false, widget: "string" }
+      - { label: "Pixieset Shop", name: "pixiesetShop", required: false, widget: "string" }
+      - widget: select
+        label: "tags"
+        name: "tags"
+        hint: "Select Photo Type. Ensure the options listed here match the categories in the Settings collection."
+        create: true
+        multiple: true
+        default: ["events"]
+        options: ["events"]
+
+  - label: "Data Files"
+    name: "settings"
+    description: Files that provide global data to be re-used across the DCDW website.
+    # Defaults to "true". Must be set to "false" to turn the preview off completely.
+    editor:
+      preview: false
+    files:
+      - label: "Accessibility"
+        name: "accessibility"
+        file: "source/_data/accessibility.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Events"
+        name: "events"
+        file: "source/_data/events.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "FAQs"
+        name: "faqs"
+        file: "source/_data/faqs.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Filters"
+        name: "filters"
+        file: "source/_data/filters.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Staff"
+        name: "staff"
+        file: "source/_data/staff.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Settings"
+        name: "settings"
+        file: "source/_data/settings.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Sponsors"
+        name: "sponsors"
+        file: "source/_data/sponsors.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+      - label: "Subscription"
+        name: "subscription"
+        file: "source/_data/subscription.yaml"
+        fields:
+          - label: Global
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: URL, name: url, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
