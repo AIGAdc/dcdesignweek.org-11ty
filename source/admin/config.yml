@@ -96,19 +96,28 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", hint: "Provide Event Title", name: "title", widget: "string" }
-      - { label: "Description", hint: "Provide Event Description", name: "description", widget: "string" }
-      - { label: "Start Date", hint: "Provide Capture Start Date", name: "startDate", widget: "datetime" }
-      - { label: "End Date", hint: "Provide Capture End Date", name: "endDate", widget: "datetime" }
-      - { label: "Image", hint: "Provide Featured Image", name: "image", widget: "image" }
-      - { label: "Image Alt", hint: "Provide Image Alt Text", name: "imageALT", widget: "string" }
+      - { label: "Title", hint: "Required. Provide the event title.", name: "title", widget: "string" }
+      - { label: "Description", hint: "Required. Provide an event description.", name: "description", widget: "string" }
+      - { label: "Start Date", hint: "Required. Provide the event start time.", name: "startDate", widget: "datetime" }
+      - { label: "End Date", hint: "Required. Provide the event end time.", name: "endDate", widget: "datetime" }
+      - { label: "Image", hint: "Required. Provide the image that will be used in the event header of event page and event card.", name: "image", widget: "image" }
+      - { label: "Image Alt", hint: "Required. Provide descriptive text of image used above.", name: "imageALT", widget: "string" }
       - label: Tickets
         name: tickets
+        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
+        max: 2
+        min: 1
         widget: list
         fields:
-          - {label: Button Type, name: buttonType, widget: string}
+          - {label: Button Type, name: buttonType, widget: select, options: ["Member", "Non-Member"] }
           - {label: Button Label, name: buttonLabel, widget: string}
           - {label: Button URL, name: buttonURL, widget: string}
+      - label: Status
+        name: status
+        widget: list
+        fields:
+          - {label: Status Type, name: statusType, widget: select, options: ["Featured on Home", "Featured on Events", "Has Occurred"] }
+          - {label: Status Label, name: statusLabel, widget: string}
       - label: Speaker
         name: speaker
         widget: list

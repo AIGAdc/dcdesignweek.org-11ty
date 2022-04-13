@@ -1,18 +1,26 @@
 ---
 title: Test
 description: Test
+date: 2022-04-13T00:38:08.814Z
 startDate: 2022-04-13T01:26:48.352Z
 endDate: 2022-04-13T01:26:48.376Z
 image: /static/images/baptiste-placeholder.png
 imageALT: Overwatch
 tickets:
   - buttonType: Member
-    buttonURL: "#"
+    buttonURL: https://www.overwatch.com
     buttonLabel: $XX — Members
   - buttonType: Non-Member
     buttonLabel: $XX — Non-Members
-    buttonURL: "#"
-date: 2022-04-13T00:38:08.814Z
+    buttonURL: https://google.com
+status:
+  - hasOccurred: false
+    isFeaturedHome: true
+    isFeaturedEvent: true
+    statusType: Featured on Home
+    statusLabel: This event will be featured on the home page
+  - statusType: Featured on Events
+    statusLabel: This event will be featured on the events page
 speaker:
   - image: /static/images/baptiste-placeholder.png
     imageALT: Overwatch Alt Text
