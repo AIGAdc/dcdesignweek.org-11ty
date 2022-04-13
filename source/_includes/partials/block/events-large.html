@@ -11,11 +11,17 @@
 				</figure>
 				<!-- Displays human readable date of event -->
 				<div class="[ meta ]">
-					{% if event.data.status.isFeaturedEvent %}
+					{% for status in event.data.status %}
+					{% if status.statusType == "Featured on Home" %}
 					<p>
-						Featured Event == True
+						{{status.statusLabel}}
+					</p>
+					{% elseif status.statusType == "Featured on Events" %}
+					<p>
+						{{status.statusLabel}}
 					</p>
 					{% endif %}
+					{% endfor %}
 					<h3>
 						{{event.data.title}}
 					</h3>
@@ -23,19 +29,11 @@
 						{{ event.data.date | readableEventDate }}
 					</datetime>
 				</div>
-				<div>
-					<small>Testing</small>
-					{% if event.data.tickets.hasMemberButton %}
-					<p>
-						Member Button == true
-					</p>
-					{% endif %}
-					{% if event.data.tickets.hasNonMemberButton %}
-					<p>
-						Non-Member Button == true
-					</p>
-					{% endif %}
-				</div>
+				{% if event.data.status.isFeaturedHome == true %}
+				<p>
+					Featured on Home == True
+				</p>
+				{% endif %}
 			</a>
 		</li>
 		{% endfor %}
