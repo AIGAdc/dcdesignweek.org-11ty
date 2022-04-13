@@ -484,6 +484,11 @@ svg {
   opacity: 0.5;
 }
 
+/* 2022 Styles */
+.event a {
+  display: block;
+}
+
 .filter-events__reset.control-group .mambo-button {
   width: 100%;
 }
