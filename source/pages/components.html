@@ -1,0 +1,85 @@
+---
+title: Components
+description: Provide Description
+layout: partials/layouts/base.html
+permalink: /components/
+eleventyNavigation:
+key: Components
+order: 6
+---
+
+<h2>Card: Staff</h2>
+{% for member in members.staff | limit(1) %}
+<li class="[ card card-staff ] [ grid-flow ]">
+	<figure class="[ card-image ] [ clipped-{{ member.number }} ]">
+		<img alt="{{ member.imageAlt }}" src="{{ member.image }}" />
+	</figure>
+	<div class="[ card-details ]">
+		{% if member.name %}
+		<h3>{{ member.name }}</h3>
+		{% endif %}
+		{% if member.role %}
+		<p>{{ member.role }}</p>
+		{% endif %}
+		{% if member.pronouns %}
+		<p>{{ member.pronouns }}</p>
+		{% endif %}
+	</div>
+	<div class="[ card-links ]">
+		{% if member.website-url-1 %}
+		<a aria-label="{{ member.website-aria-label-1 }}" class="[ card-link ]" href="{{ member.website-url-1 }}"
+			rel="noopener noreferrer" target="_blank">
+			{{ member.website-label-1 }}
+		</a>
+		{% endif %}
+		{% if member.website-url-2 %}
+		<a aria-label="{{ member.website-aria-label-2 }}" class="[ card-link ]" href="{{ member.website-url-2 }}"
+			rel="noopener noreferrer" target="_blank">
+			{{ member.website-label-2 }}
+		</a>
+		{% endif %}
+		{% if member.website-url-3 %}
+		<a aria-label="{{ member.website-aria-label-3 }}" class="[ card-link ]" href="{{ member.website-url-3 }}"
+			rel="noopener noreferrer" target="_blank">
+			{{ member.website-label-3 }}
+		</a>
+		{% endif %}
+	</div>
+</li>
+{% endfor %}
+
+<h2>Card: Event</h2>
+{% for event in collections.events | reverse | limit(1) %}
+<li class="[ card card-event ] [ grid-flow ] [ {{ event.data.type | safe }} ]">
+	<a class="[ anchor ]" href="{{ event.url }}">
+		<figure class="[ image ]">
+			<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+		</figure>
+		<!-- Displays human readable date of event -->
+		<div class="[ meta ]">
+			{% for status in event.data.status %}
+			{% if status.statusType == "Featured on Home" %}
+			<p>
+				{{status.statusLabel}}
+			</p>
+			{% elseif status.statusType == "Featured on Events" %}
+			<p>
+				{{status.statusLabel}}
+			</p>
+			{% endif %}
+			{% endfor %}
+			<h3>
+				{{event.data.title}}
+			</h3>
+			<datetime>
+				{{ event.data.date | readableEventDate }}
+			</datetime>
+		</div>
+		{% if event.data.status.isFeaturedHome == true %}
+		<p>
+			Featured on Home == True
+		</p>
+		{% endif %}
+	</a>
+</li>
+{% endfor %}
