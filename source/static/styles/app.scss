@@ -1,37 +1,44 @@
-@import "global/variables";
-@import "global/reset";
-@import "global/reset-custom";
+/* Global */
+@import "0-global/variables";
+@import "0-global/reset";
+@import "0-global/reset-custom";
 
-@import "block/accordion";
-@import "block/banners";
-@import "block/buttons";
-@import "block/cards";
-@import "block/filter";
-@import "block/footer";
-@import "block/header";
-@import "block/hero";
-@import "block/listing";
+/* Composition */
+@import "1-composition/styles";
+@import "1-composition/about";
+@import "1-composition/accessibility";
+@import "1-composition/events-single";
+@import "1-composition/events";
+@import "1-composition/faqs";
+@import "1-composition/makers";
 
-@import "pages/about";
-@import "pages/accessibility";
-@import "pages/events-single";
-@import "pages/events";
-@import "pages/faqs";
-@import "pages/makers";
+/* Utility */
+@import "2-utility/styles";
+@import "2-utility/containers";
+@import "2-utility/flexbox";
+@import "2-utility/flow";
+@import "2-utility/grid";
+@import "2-utility/inputs";
+@import "2-utility/tools";
+@import "2-utility/sections";
+@import "2-utility/wysiwyg";
 
-@import "utility/containers";
-@import "utility/flexbox";
-@import "utility/flow";
-@import "utility/grid";
-@import "utility/inputs";
-@import "utility/tools";
-@import "utility/sections";
-@import "utility/wysiwyg";
+/* Block */
+@import "3-block/styles";
+@import "3-block/accordion";
+@import "3-block/banners";
+@import "3-block/buttons";
+@import "3-block/card";
+@import "3-block/filter";
+@import "3-block/footer";
+@import "3-block/header";
+@import "3-block/hero";
+@import "3-block/listing";
 
-@import "third-party/houdini";
-@import "third-party/mailchimp";
-@import "third-party/modals";
-@import "third-party/tabby";
+/* Exception */
 
-// @import "global/config";
-// @import "node_modules/gorko/gorko.scss";
+/* Third Party */
+@import "5-third-party/houdini";
+@import "5-third-party/mailchimp";
+@import "5-third-party/modals";
+@import "5-third-party/tabby";

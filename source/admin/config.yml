@@ -87,6 +87,7 @@ collections:
           - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
+
   - label: "Events"
     name: "events"
     folder: "source/events"
@@ -105,8 +106,6 @@ collections:
       - label: Tickets
         name: tickets
         hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
-        max: 2
-        min: 1
         widget: list
         fields:
           - {label: Button Type, name: buttonType, widget: select, options: ["Member", "Non-Member"] }
@@ -120,14 +119,21 @@ collections:
           - {label: Status Label, name: statusLabel, widget: string}
       - label: Speaker
         name: speaker
+        allow_add: true
         widget: list
         fields:
           - {label: Name, name: name, widget: string}
           - {label: Title, name: title, widget: string}
+          - {label: Pronunciation, name: pronunciation, widget: string}
           - {label: Pronouns, name: pronouns, widget: string}
-          - {label: Website, name: website, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Image Alt, name: imageALT, widget: string}
+          - label: Website Links
+            name: websiteLinks
+            widget: list
+            fields:
+              - {label: Website Label, name: websiteLabel, widget: string}
+              - {label: Website URL, name: websiteURL, widget: string}
       - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
       - { label: "Background Color", hint: "Provide Background Color", name: "dominantColor", required: false, widget: "color" }
       - { label: "Text Color", hint: "Provide Text Color", name: "textColor", required: false, widget: "color" }
