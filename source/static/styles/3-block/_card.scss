@@ -1,0 +1,93 @@
+// .card {
+// 	display: grid;
+// 	grid-gap: 1rem;
+// }
+
+// .card a {
+// 	color: var(--black);
+// 	display: block;
+// 	text-decoration: none;
+// }
+
+// .card a:hover {
+// 	color: var(--black);
+// }
+
+// .card-aside {
+// 	position: relative;
+// }
+
+// .card-image {
+// 	filter: grayscale(0);
+// 	-webkit-filter: grayscale(0);
+// }
+
+// .card-image:hover {
+// 	filter: grayscale(1);
+// 	-webkit-filter: grayscale(1);
+// }
+
+// .card-image a {
+// 	color: var(--cream);
+// 	text-align: center;
+// 	text-decoration: underline;
+// }
+
+// .card-header h2,
+// .card-header h3 {
+// 	font-weight: 900;
+// }
+
+// .card-details {
+// 	align-content: center;
+// 	display: grid;
+// 	grid-gap: var(--space-48);
+// 	grid-template-columns: 1fr 3fr;
+// }
+
+// .card-date {
+// 	color: var(--black);
+// 	font-weight: 900;
+// 	letter-spacing: -0.5px;
+// 	position: relative;
+// 	text-transform: uppercase;
+// }
+
+// .card-date figure {
+// 	position: absolute;
+// 	top: -16px;
+// 	right: 0;
+// 	bottom: 0;
+// 	left: 0;
+// }
+
+// .card-date p {
+// 	position: relative;
+// 	left: 16px;
+// }
+
+// .card-date p,
+// .card-info p {
+// 	line-height: 1.6;
+// }
+
+// .past-event {
+// 	opacity: 0.5;
+// }
+
+/* 2022 Styles */
+.card a {
+	display: block;
+}
+
+.card a:hover {
+	outline: solid 1px var(--black);
+}
+
+.card small {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+	width: 100%;
+}

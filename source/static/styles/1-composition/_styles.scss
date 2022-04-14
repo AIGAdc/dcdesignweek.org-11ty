@@ -1,0 +1,15 @@
+/* Flow */
+.flow > :where(:not(:first-child)) {
+	--flow-spacer: 2em;
+	margin-top: var(--flow-space, 1em);
+}
+
+.grid-flow {
+	display: gap;
+	gap: var(--gap, 1rem);
+}
+
+.flex-flow {
+	display: flex;
+	gap: var(--gap, 1rem);
+}
