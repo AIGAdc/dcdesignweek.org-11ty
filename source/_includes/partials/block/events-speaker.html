@@ -2,35 +2,37 @@
 	<h2>
 		Speakers
 	</h2>
-	<ul class="[ grid grid--three-column ]">
+	<ul class="[ speakers ] [ grid grid--four-column ]">
 		{% for content in speaker %}
-		<li>
+		<li class="[ speaker ] [ card ]">
 			<figure class="[ image ]">
 				<img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
 			</figure>
-			<div class="[ meta ]">
-				<h3 style="display: flex; align-items: center; gap: 1rem;">
+			<div class="[ info ]">
+				<h3>
 					{{ content.name }}
 				</h3>
-				<div>
-					<p>
-						Prounciation
-					</p>
-					<audio controls>
-						<source src="/static/audio/baptiste.m4a" type="audio/mpeg">
-					</audio>
-				</div>
-				<p>
-					{{ content.title }}
-				</p>
+				<small>
+					{{ content.pronunciation }}
+				</small>
 				<p>
 					{{ content.pronouns }}
 				</p>
-				<a href="{{ content.website }}" rel="noreferrer noopener" target="_blank">
-					View Website
-				</a>
+			</div>
+			<div class="[ details ]">
+				<p>
+					{{ content.title }}
+				</p>
 			</div>
 		</li>
 		{% endfor %}
+
+		<div class="[ websites ]">
+			{% for content in speaker.websiteLinks %}
+			<a href="{{ content.websiteURL }}" rel="noreferrer noopener" target="_blank">
+				{{ content.websiteLabel }}
+			</a>
+			{% endfor %}
+		</div>
 	</ul>
 </section>
