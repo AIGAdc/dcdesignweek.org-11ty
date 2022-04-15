@@ -1,8 +1,8 @@
 body {
 	font-family: var(--font-serif);
-	font-size: var(--font-size-16);
+	font-size: var(--font-size-20);
 	line-height: 1.5;
-	max-width: 1024px;
+	max-width: 120ch;
 	margin: auto;
 }
 
@@ -28,6 +28,55 @@ body {
 ::selection {
 	background-color: var(--black);
 	color: var(--black);
+}
+
+a {
+	color: var(--black);
+	cursor: pointer;
+	font-weight: 900;
+	transition: opacity var(--timing-default) ease-in;
+}
+
+a:active {
+	outline: 4px solid var(--black);
+}
+
+*:focus,
+a:focus {
+	outline: 4px solid var(--black);
+}
+
+br {
+	display: none;
+}
+
+figure {
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+	display: block;
+	text-rendering: optimizeLegibility;
+}
+
+fieldset,
+legend,
+ul {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	display: block;
+	vertical-align: middle;
+	width: 100%;
 }
 
 .disabled {
@@ -67,56 +116,4 @@ body {
 
 .skip-to-content:focus {
 	outline: 4px solid black;
-}
-
-a {
-	color: var(--black);
-	cursor: pointer;
-	font-weight: 900;
-	transition: opacity var(--timing-default) ease-in;
-}
-
-a:active {
-	outline: 4px solid var(--black);
-}
-
-*:focus,
-a:focus {
-	outline: 4px solid var(--black);
-}
-
-figure {
-	position: relative;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-small {
-	display: block;
-	line-height: initial;
-	text-rendering: optimizeLegibility;
-}
-
-fieldset,
-legend,
-ul {
-	border: none;
-	margin: 0;
-	padding: 0;
-}
-
-svg {
-	display: block;
-	vertical-align: middle;
-	width: 100%;
-}
-
-@media screen and (min-width: 1366px) {
-	body {
-		font-size: var(--font-size-18);
-	}
 }

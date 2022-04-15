@@ -1,8 +1,8 @@
 /* Debugging */
-* {
-	outline: dashed 1px tomato;
-	outline-offset: -1px;
-}
+// * {
+// 	outline: dashed 1px tomato !important;
+// 	outline-offset: -1px !important;
+// }
 
 /* Spacing */
 .margin-auto {
@@ -95,4 +95,15 @@
 
 .text-align-end {
 	text-align: end;
+}
+
+/* WYSIWYG */
+
+.wysiwyg > *:not(:first-child) {
+	margin-top: var(--space-16);
+}
+
+.wysiwyg ul,
+.wysiwyg li {
+	margin-left: var(--space-16);
 }

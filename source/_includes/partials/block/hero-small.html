@@ -8,16 +8,31 @@
 		{{ description }}
 	</div>
 	{% if page.url == '/events/test/' %}
-	{% for button in tickets %}
-	{% if button.buttonType == 'Member'%}
-	<a href="{{ button.buttonURL }}" rel="noreferrer nofollow" target="_blank">
-		{{ button.buttonLabel }}
-	</a>
-	{% else %}
-	<a href="{{ button.buttonURL }}" rel="noreferrer nofollow" target="_blank">
-		{{ button.buttonLabel }}
-	</a>
-	{% endif %}
-	{% endfor %}
+	<div class="[ details ] [ flex-flow flex-flow-row flex-flow-center ]">
+		<p>
+			{{ startDate | readableEventDate }}
+		</p> /
+		<p>
+			{{ startDate | dateTime }}
+		</p> /
+		<p>
+			{{ endDate | dateTime }}
+		</p>
+	</div>
+	<div class="[ tickets ] [ flex-flow flex-flow-row flex-flow-center ]">
+		{% for button in tickets %}
+		{% if button.buttonType == 'Member'%}
+		<a class="[ ticket ] mambo-button" data-type="member" href="{{ button.buttonURL }}" rel="noreferrer nofollow"
+			target="_blank">
+			{{ button.buttonLabel }}
+		</a>
+		{% else %}
+		<a class="[ ticket ] mambo-button" data-type="non-member" href="{{ button.buttonURL }}"
+			rel="noreferrer nofollow" target="_blank">
+			{{ button.buttonLabel }}
+		</a>
+		{% endif %}
+		{% endfor %}
+	</div>
 	{% endif %}
 </section>

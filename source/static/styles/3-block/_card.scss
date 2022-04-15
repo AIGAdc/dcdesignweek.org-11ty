@@ -91,3 +91,11 @@
 .card img {
 	width: 100%;
 }
+
+/* This is a hacky work around specifically for Speaker and Staff cards */
+.card .wysiwyg p {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: var(--gap, 1rem);
+}
