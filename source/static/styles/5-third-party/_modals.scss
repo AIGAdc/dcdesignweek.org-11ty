@@ -15,7 +15,7 @@
 	max-width: 100%;
 	padding: var(--space-16);
 	visibility: hidden;
-	z-index: 9999;
+	z-index: var(--index-9);
 }
 
 .modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
@@ -99,5 +99,5 @@
 	opacity: 0.75;
 	right: 0;
 	top: 0;
-	z-index: 9998;
+	z-index: var(--index-9);
 }
