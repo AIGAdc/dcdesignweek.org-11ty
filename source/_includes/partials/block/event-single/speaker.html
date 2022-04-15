@@ -2,19 +2,20 @@
 	<h2>
 		Speakers
 	</h2>
-	<ul class="[ speakers ] [ grid grid--four-column ]">
+
+	<ul class="[ speakers ] [ grid grid--two-column ]">
 		{% for content in speaker %}
-		<li class="[ speaker ] [ card ]">
+		<li class="[ card card-speaker ] [ grid-flow ]">
 			<figure class="[ image ]">
 				<img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
 			</figure>
 			<div class="[ info ]">
-				<h3>
-					{{ content.name }}
+				<h3 class="flex-flow flex-flow-row flex-flow-center">
+					{{ content.name }} 
+					<small>
+						{{ content.pronunciation }}
+					</small>
 				</h3>
-				<small>
-					{{ content.pronunciation }}
-				</small>
 				<p>
 					{{ content.pronouns }}
 				</p>
@@ -24,15 +25,10 @@
 					{{ content.title }}
 				</p>
 			</div>
-		</li>
-		{% endfor %}
-
-		<div class="[ websites ]">
-			{% for content in speaker.websiteLinks %}
-			<a href="{{ content.websiteURL }}" rel="noreferrer noopener" target="_blank">
-				{{ content.websiteLabel }}
-			</a>
+			<div class="[ websites ] [ wysiwyg ] [ flex-flow flex-flow-row ]">
+				{{ content.websites | md | safe }}
+			</div>
 			{% endfor %}
-		</div>
+		</li>
 	</ul>
 </section>

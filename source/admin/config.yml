@@ -15,14 +15,6 @@ local_backend: true
 media_folder: "source/static/images"
 public_folder: "/static/images"
 
-# Cloudinary Settings
-# media_library:
-#  name: cloudinary
-#  config:
-#    cloud_name: xxxxxxxxxx
-#    api_key: xxxxxxxxxx
-#    use_transformations: true
-
 # Collection Settings
 collections:
   # Pages allows for easier editing of pages on the site
@@ -98,9 +90,9 @@ collections:
       preview: false
     fields:
       - { label: "Title", hint: "Required. Provide the event title.", name: "title", widget: "string" }
-      - { label: "Description", hint: "Required. Provide an event description.", name: "description", widget: "string" }
-      - { label: "Start Date", hint: "Required. Provide the event start time.", name: "startDate", widget: "datetime" }
-      - { label: "End Date", hint: "Required. Provide the event end time.", name: "endDate", widget: "datetime" }
+      - { label: "Description", hint: "Required. Provide an event description.", name: "description", widget: "string"}
+      - { label: "Start Date", hint: "Required. Provide the event start time.", name: "startDate", widget: "datetime"}
+      - { label: "End Date", hint: "Required. Provide the event end time.", name: "endDate", widget: "datetime"}
       - { label: "Image", hint: "Required. Provide the image that will be used in the event header of event page and event card.", name: "image", widget: "image" }
       - { label: "Image Alt", hint: "Required. Provide descriptive text of image used above.", name: "imageALT", widget: "string" }
       - label: Tickets
@@ -117,6 +109,9 @@ collections:
         fields:
           - {label: Status Type, name: statusType, widget: select, options: ["Featured on Home", "Featured on Events", "Has Occurred"] }
           - {label: Status Label, name: statusLabel, widget: string}
+      - { label: "Details", name: "details", widget: "markdown", required: false }
+      - { label: "How to Prepare", name: "preparation", widget: "markdown", required: false }
+      - { label: "a11y", name: "a11y", widget: "markdown", required: false }
       - label: Speaker
         name: speaker
         allow_add: true
@@ -128,15 +123,7 @@ collections:
           - {label: Pronouns, name: pronouns, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Image Alt, name: imageALT, widget: string}
-          - label: Website Links
-            name: websiteLinks
-            widget: list
-            fields:
-              - {label: Website Label, name: websiteLabel, widget: string}
-              - {label: Website URL, name: websiteURL, widget: string}
-      - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
-      - { label: "Background Color", hint: "Provide Background Color", name: "dominantColor", required: false, widget: "color" }
-      - { label: "Text Color", hint: "Provide Text Color", name: "textColor", required: false, widget: "color" }
+          - {label: Websites, name: websites, widget: markdown, required: false, sanitize_preview: true}
 
   - label: "Data Files"
     name: "settings"
