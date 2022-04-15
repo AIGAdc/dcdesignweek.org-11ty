@@ -99,6 +99,55 @@ svg {
 	vertical-align: middle;
 }
 
+a {
+	color: var(--black);
+	cursor: pointer;
+	font-weight: 900;
+	transition: opacity var(--timing-default) ease-in;
+}
+
+a:active {
+	outline: 4px solid var(--black);
+}
+
+*:focus,
+a:focus {
+	outline: 4px solid var(--black);
+}
+
+br {
+	display: none;
+}
+
+figure {
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+	display: block;
+	text-rendering: optimizeLegibility;
+}
+
+fieldset,
+legend,
+ul {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+}
+
 .disabled {
 	cursor: not-allowed !important;
 }

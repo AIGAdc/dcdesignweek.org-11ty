@@ -14,9 +14,23 @@ module.exports = function (eleventyConfig) {
 	};
 	eleventyConfig.setLibrary("md", markdownIt(options));
 
+	eleventyConfig.setFrontMatterParsingOptions({ excerpt: true });
+	eleventyConfig.addFilter("md", function (content = "") {
+		return markdownIt({ html: true }).render(content);
+	});
+
+	// This filter can be applied to a njk variable and will render the time as: 12:00 PM
+	eleventyConfig.addFilter("dateTime", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "America/New_York",
+		})
+			.setLocale("en")
+			.toLocaleString(DateTime.TIME_SIMPLE);
+	});
+
 	eleventyConfig.addFilter("readableEventDate", (dateObj) => {
 		return DateTime.fromJSDate(dateObj, {
-			zone: "Europe/Amsterdam",
+			zone: "America/New_York",
 		})
 			.setLocale("en")
 			.toLocaleString(DateTime.DATE_FULL);
@@ -24,7 +38,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("postDate", (dateObj) => {
 		return DateTime.fromJSDate(dateObj, {
-			zone: "Europe/Amsterdam",
+			zone: "America/New_York",
 		})
 			.setLocale("en")
 			.toISODate();
