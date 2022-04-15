@@ -37,7 +37,7 @@
 // message for when a visitor successfully signs up for the newsletter
 .mailchimp div.response {
 	padding: 8px;
-	z-index: 100;
+	z-index: var(--index-5);
 }
 
 .mailchimp div.response a {
