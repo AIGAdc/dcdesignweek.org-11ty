@@ -100,9 +100,10 @@ svg {
 }
 
 a {
-	color: var(--black);
+	color: inherit;
 	cursor: pointer;
-	font-weight: 900;
+	font-family: var(--font-sans);
+	font-weight: 600;
 	transition: opacity var(--timing-default) ease-in;
 }
 
@@ -112,7 +113,11 @@ a[data-type="logo"] {
 }
 
 a:active {
-	outline: 4px solid var(--black);
+	outline: 4px solid var(--black, inherit);
+}
+
+a:hover {
+	cursor: pointer;
 }
 
 *:focus,
