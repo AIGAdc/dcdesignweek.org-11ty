@@ -180,7 +180,7 @@ select {
 body {
   color: inherit;
   font-family: var(--font-serif);
-  font-size: var(--font-size-20);
+  font-size: var(--font-size-24);
   line-height: 1.5;
 }
 
