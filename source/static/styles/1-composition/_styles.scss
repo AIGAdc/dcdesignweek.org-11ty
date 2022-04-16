@@ -113,16 +113,20 @@
 	align-items: end;
 }
 
-/* Sections */
-section {
-	padding: var(--space-16);
+.flex-flow-space-between {
+	justify-content: space-between;
 }
 
-@media screen and (min-width: 1024px) {
-	section {
-		padding: var(--space-32);
-	}
-}
+/* Sections */
+// section {
+// 	padding: var(--space-16);
+// }
+
+// @media screen and (min-width: 1024px) {
+// 	section {
+// 		padding: var(--space-32);
+// 	}
+// }
 
 /* Page: About */
 
