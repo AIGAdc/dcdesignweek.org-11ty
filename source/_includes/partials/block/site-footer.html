@@ -3,24 +3,30 @@
 	SCSS: _footer.scss
 -->
 
-<footer class="[ mambo-footer ] [ background-color-black color-white ] [ grid-flow ] [ padding-32 ]">
+<footer class="[ mambo-footer ][ grid-flow ]">
 	{% for content in settings.footerContact %}
-
 	<a aria-label="{{ content.contactARIA }}" class="anchor" href="{{ content.contactURL }}" rel="noopener nofollow"
 		target="_blank">
 		{{ content.contactTitle | safe }}
 	</a>
 	{% endfor %}
-	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+		<h4>
+			Social Media:
+		</h4>
 		{% for link in settings.footerSocialLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]" href="{{ link.URL }}" rel="noopener nofollow" target="_blank">
+			<a aria-label="{{ link.Title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
+				href="{{ link.URL }}" rel="noopener nofollow" target="_blank">
 				{{ link.Icon | safe }} {{ link.Title | safe }}
 			</a>
 		</li>
 		{% endfor %}
 	</ul>
 	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+		<h4>
+			Primary Navigation:
+		</h4>
 		{% for link in settings.primaryNavLinks %}
 		<li class="link">
 			<a aria-label="{{ link.Title }}" class="anchor" href="{{ link.URL }}" rel="noopener nofollow"
@@ -30,7 +36,10 @@
 		</li>
 		{% endfor %}
 	</ul>
-	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+		<h4>
+			Secondary Navigation:
+		</h4>
 		{% for link in settings.secondaryNavLinks %}
 		<li class="link">
 			<a aria-label="{{ link.Title }}" class="anchor" href="{{ link.URL }}" rel="noopener nofollow"
