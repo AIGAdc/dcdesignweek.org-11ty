@@ -1,15 +1,15 @@
-<section class="[ small-faqs ] [ flow-1 ]" id="small-faqs" {% for content in faqs.smallFaqs %}
-	style="background-color: {{ content.sectionBGColor | safe }}; color: {{ content.sectionTextColor | safe }};"
-	{% endfor %}>
-	{% for content in faqs.smallFaqs %}
+<section
+	class="[ small-faqs ] [ {% for content in faqs.global %} {{ content.sectionBGColor }} {{ content.sectionTextColor }} {% endfor %} ] [ flow ] [ padding-16 ]"
+	id="small-faqs">
+	{% for content in faqs.global %}
 	<h2>
 		{{ content.header }}
 	</h2>
 	<p>
 		{{ content.body | safe }}
 	</p>
-	<a class="mambo-button" href="{{ content.buttonURL }}"
-		style="background-color: {{ content.buttonBGColor | safe }}; color: {{ content.buttonTextColor | safe }};">
+	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]"
+		href="{{ content.buttonURL }}">
 		{{ content.buttonLabel }}
 	</a>
 	{% endfor %}
