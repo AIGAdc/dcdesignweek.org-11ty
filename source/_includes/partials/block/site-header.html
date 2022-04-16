@@ -1,6 +1,10 @@
-<header class="mambo-header">
+<header class="[ mambo-header ] [ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ]">
 	<div>
-		<a href="/">Logo</a>
+		<a href="/">
+			{% include 'partials/dcdw-logo.html' %}
+		</a>
 	</div>
-	{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+	<nav class="[ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ]">
+		{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+	</nav>
 </header>
