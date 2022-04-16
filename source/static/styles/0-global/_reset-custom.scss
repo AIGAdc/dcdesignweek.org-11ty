@@ -1,4 +1,5 @@
 body {
+	color: inherit;
 	font-family: var(--font-serif);
 	font-size: var(--font-size-20);
 	line-height: 1.5;
@@ -30,9 +31,10 @@ body {
 }
 
 a {
-	color: var(--black);
+	color: inherit;
 	cursor: pointer;
-	font-weight: 900;
+	font-family: var(--font-sans);
+	font-weight: 600;
 	transition: opacity var(--timing-default) ease-in;
 }
 
@@ -42,7 +44,11 @@ a[data-type="logo"] {
 }
 
 a:active {
-	outline: 4px solid var(--black);
+	outline: 4px solid var(--black, inherit);
+}
+
+a:hover {
+	cursor: pointer;
 }
 
 *:focus,

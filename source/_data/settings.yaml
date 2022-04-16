@@ -1,6 +1,20 @@
 global:
   - theme-color: "#000"
 
+primaryNavLinks:
+  - Title: Events
+    URL: /events/
+    Icon: <i class="fab fa-twitter-square"></i>
+  - Title: About
+    URL: /about/
+    Icon: <i class="fab fa-instagram-square"></i>
+  - Title: Makers
+    URL: /makers/
+    Icon: <i class="fab fa-facebook-square"></i>
+  - Title: FAQs
+    URL: /faqs/
+    Icon: <i class="fab fa-github-square"></i>
+
 footerContact:
   - contactTitle: designweek@dc.aiga.org
     contactURL: "mailto:designweek@dc.aiga.org"
@@ -11,16 +25,27 @@ footerCopyright:
     copyrightURL: https://dc.aiga.org/about-us/mission/
     copyrightARIA: AIGA DC Mission Page
 
-footerLinks:
-  - socialTitle: DC Design Week Twitter Page
-    socialURL: https://www.twitter.com/dcdesignweek
-    socialIcon: <i class="fab fa-twitter-square"></i>
-  - socialTitle: DC Design Week Instagram Page
-    socialURL: https://www.instagram.com/dcdesignweek/
-    socialIcon: <i class="fab fa-instagram-square"></i>
-  - socialTitle: DC Design Week Facebook Page
-    socialURL: https://www.facebook.com/dcdesignweek/
-    socialIcon: <i class="fab fa-facebook-square"></i>
-  - socialTitle: DC Design Week Github Page
-    socialURL: https://github.com/AIGAdc/dcdesignweek.org
-    socialIcon: <i class="fab fa-github-square"></i>
+secondaryNavLinks:
+  - Title: Accessibility
+    URL: /accessibility/
+    Icon: <i class="fab fa-twitter-square"></i>
+  - Title: Colophon
+    URL: /colophon/
+    Icon: <i class="fab fa-instagram-square"></i>
+  - Title: Mission
+    URL: https://dc.aiga.org/about-us/mission/
+    Icon: <i class="fab fa-instagram-square"></i>
+
+footerSocialLinks:
+  - Title: Twitter
+    URL: https://www.twitter.com/dcdesignweek
+    Icon: <i class="fab fa-twitter-square"></i>
+  - Title: Instagram
+    URL: https://www.instagram.com/dcdesignweek/
+    Icon: <i class="fab fa-instagram-square"></i>
+  - Title: Facebook
+    URL: https://www.facebook.com/dcdesignweek/
+    Icon: <i class="fab fa-facebook-square"></i>
+  - Title: Github
+    URL: https://github.com/AIGAdc/dcdesignweek.org
+    Icon: <i class="fab fa-github-square"></i>

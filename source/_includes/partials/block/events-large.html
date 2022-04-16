@@ -4,7 +4,7 @@
 	</h2>
 	<ul class="[ events ] [ grid grid--three-column ]">
 		{% for event in collections.events | reverse %}
-		<li class="[ event ] [ {{ event.data.type | safe }} ]">
+		<li class="[ event card ] [ {{ event.data.type | safe }} ]">
 			<a class="[ anchor ]" data-type="card" href="{{ event.url }}">
 				<figure class="[ image ]">
 					<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
