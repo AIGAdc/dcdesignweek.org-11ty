@@ -106,13 +106,30 @@ a {
 	transition: opacity var(--timing-default) ease-in;
 }
 
+a[data-type="card"],
+a[data-type="logo"] {
+	display: block;
+}
+
 a:active {
 	outline: 4px solid var(--black);
 }
 
 *:focus,
-a:focus {
-	outline: 4px solid var(--black);
+a:focus,
+input:focus {
+	/* Change the following variables in box shadow to experiment with different potential colors for DCDW's focus style, make sure one is dark and the other is light so they work on all different kinds of backgrounds 
+	
+	Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
+	
+	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 8px white;
+	// Add support for Windows High Contrast Mode (WHCM)
+	// The transparent color only shows when WHCM is triggered
+	outline: 4px solid transparent;
+	outline-offset: 4px;
+	overflow: hidden;
 }
 
 br {
