@@ -1,4 +1,4 @@
-<section class="[ small-accessibility ] [ flow-1 ]" id="small-accessibility">
+<section class="[ small-accessibility ] [ {% for content in accessibility.global %} {{ content.sectionBGColor }} {{ content.sectionTextColor }} {% endfor %} ] [ flow ] [ padding-16 ]" id="small-accessibility">
 	{% for content in accessibility.global %}
 	<h2>
 		{{ content.header }}
@@ -6,7 +6,7 @@
 	<p>
 		{{ content.body | safe }}
 	</p>
-	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]" href="{{ content.buttonURL }}">
 		{{ content.buttonLabel }}
 	</a>
 	{% endfor %}
