@@ -5,8 +5,8 @@
 
 <footer class="[ mambo-footer ][ grid-flow ][ padding-16 ]">
 	{% for content in settings.footerContact %}
-	<a aria-label="{{ content.contactARIA }}" class="anchor" href="{{ content.contactURL }}" rel="noopener nofollow"
-		target="_blank">
+	<a aria-label="{{ content.contactARIA }}" class="anchor mambo-button-link" href="{{ content.contactURL }}"
+		rel="noopener nofollow" target="_blank">
 		{{ content.contactTitle | safe }}
 	</a>
 	{% endfor %}
@@ -29,8 +29,8 @@
 		</h4>
 		{% for link in settings.primaryNavLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor" href="{{ link.URL }}" rel="noopener nofollow"
-				target="_blank">
+			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}"
+				rel="noopener nofollow" target="_blank">
 				{{ link.Title | safe }}
 			</a>
 		</li>
@@ -42,8 +42,8 @@
 		</h4>
 		{% for link in settings.secondaryNavLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor" href="{{ link.URL }}" rel="noopener nofollow"
-				target="_blank">
+			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}"
+				rel="noopener nofollow" target="_blank">
 				{{ link.Title | safe }}
 			</a>
 		</li>
