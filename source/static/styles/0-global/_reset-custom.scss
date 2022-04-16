@@ -104,6 +104,7 @@ a {
 	cursor: pointer;
 	font-family: var(--font-sans);
 	font-weight: 600;
+	padding: var(--space-8);
 	transition: opacity var(--timing-default) ease-in;
 }
 
@@ -129,10 +130,10 @@ input:focus {
 	
 	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
 	border-radius: 0.5rem;
-	box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 8px white;
+	box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 4px white;
 	// Add support for Windows High Contrast Mode (WHCM)
 	// The transparent color only shows when WHCM is triggered
-	outline: 4px solid transparent;
+	outline: 4px solid currentcolor;
 	outline-offset: 4px;
 	overflow: hidden;
 }
