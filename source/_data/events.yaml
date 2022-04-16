@@ -1,7 +1,7 @@
 global:
   - header: Featured Events
-    body:
+    body: Provide Body
     buttonURL: /events/
     buttonLabel: Explore All Events
-    buttonBGColor:
-    buttonTextColor:
+    buttonBGColor: background-color-zodiac
+    buttonTextColor: color-white

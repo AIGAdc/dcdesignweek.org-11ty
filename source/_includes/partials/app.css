@@ -195,6 +195,7 @@ a {
   cursor: pointer;
   font-family: var(--font-sans);
   font-weight: 600;
+  padding: var(--space-8);
   transition: opacity var(--timing-default) ease-in;
 }
 
@@ -220,8 +221,8 @@ input:focus {
 
   Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
   border-radius: 0.5rem;
-  box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 8px white;
-  outline: 4px solid transparent;
+  box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 4px white;
+  outline: 4px solid currentcolor;
   outline-offset: 4px;
   overflow: hidden;
 }
@@ -617,33 +618,37 @@ svg {
   text-decoration: none;
 }
 
+.mambo-button-link {
+  padding: var(--space-8);
+}
+
 .mambo-button--border-black {
-  border: solid 2px var(--black);
+  border: solid 4px var(--black);
   color: var(--black);
 }
 
 .mambo-button--border-white {
-  border: solid 2px var(--white);
+  border: solid 4px var(--white);
   color: var(--white);
 }
 
 .mambo-button--solid-black {
-  border: solid 2px var(--black);
+  border: solid 4px var(--black);
   color: var(--white);
 }
 
 .mambo-button--solid-cream {
-  border: solid 2px var(--cream);
+  border: solid 4px var(--cream);
   color: var(--black);
 }
 
 .mambo-button--solid-white {
-  border: solid 2px var(--white);
+  border: solid 4px var(--white);
   color: var(--black);
 }
 
 .mambo-button--solid-zodiac {
-  border: solid 2px var(--zodiac);
+  border: solid 4px var(--zodiac);
   color: var(--white);
 }
 
