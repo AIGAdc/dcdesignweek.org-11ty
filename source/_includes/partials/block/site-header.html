@@ -4,7 +4,13 @@
 			{% include 'partials/dcdw-logo.html' %}
 		</a>
 	</div>
-	<nav class="[ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ]">
-		{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-	</nav>
+	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+		{% for link in settings.primaryNavLinks %}
+		<li class="link">
+			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}" rel="noopener nofollow" target="_blank">
+				{{ link.Title | safe }}
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
 </header>
