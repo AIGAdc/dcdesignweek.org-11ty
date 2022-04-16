@@ -3,80 +3,41 @@
 .mambo-button {
 	border: solid 4px transparent;
 	display: inline-block;
-	font-weight: 900;
+	font-family: var(--font-sans);
+	font-weight: 600;
 	padding: var(--space-8) var(--space-16);
 	text-align: center;
 	text-decoration: none;
 }
 
-.mambo-button-solid--black {
-	background-color: var(--black);
-	color: var(--cream);
-}
-
-.mambo-button-solid--valencia {
-	background-color: var(--black);
+.mambo-button--border-black {
+	border: solid 2px var(--black);
 	color: var(--black);
 }
 
-.mambo-button-border--valencia {
-	border-color: var(--black);
+.mambo-button--border-white {
+	border: solid 2px var(--white);
+	color: var(--white);
+}
+
+.mambo-button--solid-black {
+	border: solid 2px var(--black);
+	color: var(--white);
+}
+
+.mambo-button--solid-cream {
+	border: solid 2px var(--cream);
 	color: var(--black);
 }
 
-.mambo-button-link--valencia {
+.mambo-button--solid-white {
+	border: solid 2px var(--white);
 	color: var(--black);
 }
 
-.mambo-button-solid--black:hover {
-	background-color: transparent;
-	border: solid 4px var(--black);
-	color: var(--black);
-	cursor: pointer;
-}
-
-.mambo-button-solid--valencia:hover,
-.mambo-button-border--valencia:hover,
-.mambo-button-link--valencia:hover {
-	background-color: transparent;
-	border: solid 4px var(--black);
-	color: var(--black);
-	cursor: pointer;
-}
-
-.mambo-button-solid--yellow {
-	background-color: var(--yellow);
-	color: var(--black);
-}
-
-.mambo-button-border--yellow {
-	border-color: var(--yellow);
-	color: var(--yellow);
-}
-
-.mambo-button-link--yellow {
-	color: var(--yellow);
-}
-
-.mambo-button-solid--yellow:hover,
-.mambo-button-border--yellow:hover,
-.mambo-button-link--yellow:hover {
-	background-color: transparent;
-	border: solid 4px var(--yellow);
-	color: var(--yellow);
-	cursor: pointer;
-}
-
-.mambo-button-solid--black::selection,
-.mambo-button-border--black::selection,
-.mambo-button-link--black::selection,
-.mambo-button-solid--yellow::selection,
-.mambo-button-border--yellow::selection,
-.mambo-button-link--yellow::selection,
-.mambo-button-solid--valencia::selection,
-.mambo-button-border--valencia::selection,
-.mambo-button-link--valencia::selection {
-	background-color: unset;
+.mambo-button--solid-zodiac {
+	border: solid 2px var(--zodiac);
+	color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
