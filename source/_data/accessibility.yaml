@@ -1,7 +1,3 @@
-# Global Data File for introducing a small accessibility section on another page.
-# This file also allows for customization of the blocks background color, text color, button background color, and button text color.
-# Associated component: `small-accessibility.html`
-
 global:
   - header: Accessibility
     body: DC Design Week is committed to improving accessibility and inclusion efforts each year. We recognize this is a journey and we are still far from our ideal. Read more about our accessibility efforts.

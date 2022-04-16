@@ -1,6 +1,3 @@
-global:
-  - theme-color: "#000"
-
 primaryNavLinks:
   - Title: Events
     URL: /events/

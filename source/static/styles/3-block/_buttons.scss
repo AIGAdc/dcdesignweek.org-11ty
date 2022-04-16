@@ -10,33 +10,37 @@
 	text-decoration: none;
 }
 
+.mambo-button-link {
+	padding: var(--space-8);
+}
+
 .mambo-button--border-black {
-	border: solid 2px var(--black);
+	border: solid 4px var(--black);
 	color: var(--black);
 }
 
 .mambo-button--border-white {
-	border: solid 2px var(--white);
+	border: solid 4px var(--white);
 	color: var(--white);
 }
 
 .mambo-button--solid-black {
-	border: solid 2px var(--black);
+	border: solid 4px var(--black);
 	color: var(--white);
 }
 
 .mambo-button--solid-cream {
-	border: solid 2px var(--cream);
+	border: solid 4px var(--cream);
 	color: var(--black);
 }
 
 .mambo-button--solid-white {
-	border: solid 2px var(--white);
+	border: solid 4px var(--white);
 	color: var(--black);
 }
 
 .mambo-button--solid-zodiac {
-	border: solid 2px var(--zodiac);
+	border: solid 4px var(--zodiac);
 	color: var(--white);
 }
 

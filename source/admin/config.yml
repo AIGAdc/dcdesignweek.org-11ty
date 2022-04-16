@@ -137,78 +137,123 @@ collections:
         file: "source/_data/accessibility.yaml"
         fields:
           - label: Global
-            name: links
-            widget: list
-            allow_add: true
+            name: global
+            allow_add: false
             collapsed: false
             fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Header, name: header, widget: string }
+              - { label: Body, name: body, widget: markdown }
+              - { label: buttonURL, name: buttonURL, widget: string }
+              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - label: "Button Background Color"
+                name: "buttonBGColor"
+                widget: select
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+              - label: "Button Text Color"
+                name: "buttonTextColor"
+                widget: select
+                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            widget: list
       - label: "Events"
         name: "events"
         file: "source/_data/events.yaml"
         fields:
           - label: Global
-            name: links
-            widget: list
-            allow_add: true
+            name: global
+            allow_add: false
             collapsed: false
             fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Header, name: header, widget: string }
+              - { label: Body, name: body, widget: markdown }
+              - { label: buttonURL, name: buttonURL, widget: string }
+              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - label: "Button Background Color"
+                name: "buttonBGColor"
+                widget: select
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+              - label: "Button Text Color"
+                name: "buttonTextColor"
+                widget: select
+                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            widget: list
       - label: "FAQs"
         name: "faqs"
         file: "source/_data/faqs.yaml"
         fields:
           - label: Global
-            name: links
-            widget: list
-            allow_add: true
+            name: global
+            allow_add: false
             collapsed: false
             fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Header, name: header, widget: string }
+              - { label: Body, name: body, widget: markdown }
+              - { label: buttonURL, name: buttonURL, widget: string }
+              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - label: "Button Background Color"
+                name: "buttonBGColor"
+                widget: select
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+              - label: "Button Text Color"
+                name: "buttonTextColor"
+                widget: select
+                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            widget: list
       - label: "Filters"
         name: "filters"
         file: "source/_data/filters.yaml"
         fields:
           - label: Global
-            name: links
-            widget: list
-            allow_add: true
+            name: global
+            allow_add: false
             collapsed: false
             fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Header, name: header, widget: string }
+              - { label: Body, name: body, widget: markdown }
+              - { label: buttonURL, name: buttonURL, widget: string }
+              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - label: "Button Background Color"
+                name: "buttonBGColor"
+                widget: select
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+              - label: "Button Text Color"
+                name: "buttonTextColor"
+                widget: select
+                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            widget: list
       - label: "Staff"
         name: "staff"
         file: "source/_data/staff.yaml"
         fields:
           - label: Global
-            name: links
-            widget: list
-            allow_add: true
+            name: global
+            allow_add: false
             collapsed: false
             fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Header, name: header, widget: string }
+              - { label: Body, name: body, widget: markdown }
+              - { label: buttonURL, name: buttonURL, widget: string }
+              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - label: "Button Background Color"
+                name: "buttonBGColor"
+                widget: select
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+              - label: "Button Text Color"
+                name: "buttonTextColor"
+                widget: select
+                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            widget: list
       - label: "Settings"
         name: "settings"
         file: "source/_data/settings.yaml"
         fields:
-          - label: Global
-            name: links
+          - label: "Primary Navigation Links"
+            name: "primaryNavLinks"
             widget: list
-            allow_add: true
             collapsed: false
             fields:
+              - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
+              - { label: Icon, name: icon, widget: string }
               - { label: Enabled, name: enabled, widget: boolean }
       - label: "Sponsors"
         name: "sponsors"

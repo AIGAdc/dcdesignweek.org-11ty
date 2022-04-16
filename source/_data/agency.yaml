@@ -1,0 +1,11 @@
+# Global Data File for introducing a small accessibility section on another page.
+# This file also allows for customization of the blocks background color, text color, button background color, and button text color.
+# Associated component: `agency/featured.html`
+
+global:
+  - header: Featured Agency
+    body: Big thanks to the [Agency] for developing the DCDW 2022 brand! [Agency] is a creative agency born and based in the District of Columbia.
+    buttonURL: "#"
+    buttonLabel: View [Agency] Website
+    buttonBGColor: background-color-teal
+    buttonTextColor: color-white
