@@ -43,7 +43,8 @@
 		{% endfor %}
 	</ul>
 	{% for content in events.global %}
-	<a class="mambo-button {{ content.buttonColor }}" href="{{ content.buttonURL }}">
+	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]"
+		href="{{ content.buttonURL }}">
 		{{ content.buttonLabel }}
 	</a>
 	{% endfor %}
