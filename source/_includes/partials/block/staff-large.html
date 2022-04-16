@@ -1,5 +1,5 @@
-<section class="[ small-members ][ flow ][ padding-16 ]" id="small-members">
-	{% for content in members.global %}
+<section class="[ small-staff ][ flow ][ padding-16 ]" id="small-staff">
+	{% for content in staff.global %}
 	<h2>
 		{{ content.header }}
 	</h2>
@@ -8,7 +8,7 @@
 	</p>
 	{% endfor %}
 	<ul class="[ grid grid--four-column ]">
-		{% for member in members.staff %}
+		{% for member in staff.staff %}
 		<li class="[ card card-staff ]">
 			<div class="[ card-aside ]">
 				<figure class="[ card-image ] [ clipped-{{ member.number }} ]">
