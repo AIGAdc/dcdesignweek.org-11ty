@@ -1,3 +1,11 @@
+global:
+  - header: FAQs
+    body: DC Design Week looks different this year, so you might have questions. Maybe it’s how to find the streaming link or how to get the most out of our remote events. We’ve got answers to those and more FAQs.
+    buttonURL: /faqs/
+    buttonLabel: View FAQs
+    buttonBGColor: background-color-cream
+    buttonTextColor: color-black
+
 questions:
   - question: How can I participate in DC Design Week?
     answer: |-
@@ -105,13 +113,3 @@ questions:
       efforts."
     trigger: question-12
     expanded: false
-
-smallFaqs:
-  - header: FAQs
-    body: DC Design Week looks different this year, so you might have questions. Maybe it’s how to find the streaming link or how to get the most out of our remote events. We’ve got answers to those and more FAQs.
-    buttonURL: /faqs/
-    buttonLabel: View FAQs
-    buttonBGColor:
-    buttonTextColor:
-    sectionBGColor:
-    sectionTextColor:
