@@ -2,28 +2,26 @@ body {
 	font-family: var(--font-serif);
 	font-size: var(--font-size-20);
 	line-height: 1.5;
-	max-width: 120ch;
-	margin: auto;
 }
 
 /* The emerging W3C standard that is currently Firefox-only */
-* {
-	scrollbar-width: 16px;
-	scrollbar-color: var(--black) var(--cream);
-}
+// * {
+// 	scrollbar-width: 16px;
+// 	scrollbar-color: var(--black) var(--cream);
+// }
 
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-	max-width: 16px;
-}
+// /* Works on Chrome/Edge/Safari */
+// *::-webkit-scrollbar {
+// 	max-width: 16px;
+// }
 
-*::-webkit-scrollbar-track {
-	background: var(--cream);
-}
+// *::-webkit-scrollbar-track {
+// 	background: var(--cream);
+// }
 
-*::-webkit-scrollbar-thumb {
-	background-color: var(--black);
-}
+// *::-webkit-scrollbar-thumb {
+// 	background-color: var(--black);
+// }
 
 ::selection {
 	background-color: var(--black);
