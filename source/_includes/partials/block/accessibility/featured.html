@@ -1,0 +1,16 @@
+<section
+	class="[ small-accessibility ] [ {% for content in accessibility.global %} {{ content.sectionBGColor }} {{ content.sectionTextColor }} {% endfor %} ] [ flow ] [ padding-16 ]"
+	id="small-accessibility">
+	{% for content in accessibility.global %}
+	<h2>
+		{{ content.header }}
+	</h2>
+	<p>
+		{{ content.body | safe }}
+	</p>
+	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]"
+		href="{{ content.buttonURL }}">
+		{{ content.buttonLabel }}
+	</a>
+	{% endfor %}
+</section>
