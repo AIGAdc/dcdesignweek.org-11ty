@@ -181,29 +181,9 @@ body {
   font-family: var(--font-serif);
   font-size: var(--font-size-20);
   line-height: 1.5;
-  max-width: 120ch;
-  margin: auto;
 }
 
 /* The emerging W3C standard that is currently Firefox-only */
-* {
-  scrollbar-width: 16px;
-  scrollbar-color: var(--black) var(--cream);
-}
-
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-  max-width: 16px;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--cream);
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--black);
-}
-
 ::selection {
   background-color: var(--black);
   color: var(--black);
@@ -407,16 +387,11 @@ svg {
   align-items: end;
 }
 
-/* Sections */
-section {
-  padding: var(--space-16);
+.flex-flow-space-between {
+  justify-content: space-between;
 }
 
-@media screen and (min-width: 1024px) {
-  section {
-    padding: var(--space-32);
-  }
-}
+/* Sections */
 /* Page: About */
 /* Page: Accessibility */
 /* Page: Events Single */
@@ -563,7 +538,7 @@ section {
 /* Component: mambo-button */
 .mambo-button {
   border: solid 4px transparent;
-  display: block;
+  display: inline-block;
   font-weight: 900;
   padding: var(--space-8) var(--space-16);
   text-align: center;
@@ -683,104 +658,19 @@ section {
   text-align: center;
 }
 
-.mambo-footer {
-  align-items: center;
-  display: grid;
-  gap: var(--space-16);
-  grid-template-columns: 1fr;
-  padding: var(--space-16);
-}
-
-.mambo-footer .svg-inline--fa {
-  display: block;
-  font-size: var(--font-size-32);
-}
-
-.mambo-footer ul {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.mambo-footer a {
-  color: var(--black);
-  display: block;
-  font-weight: 900;
-}
-
-@media screen and (min-width: 1366px) {
-  .mambo-footer {
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-  }
-}
-.mambo-header {
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-16);
-  justify-content: space-between;
-  padding: var(--space-16);
-  z-index: var(--index-10);
-}
-
-.mambo-header .logo {
-  padding: var(--space-8);
-}
-
-.mambo-header svg {
-  display: block;
-  fill: var(--black);
-  margin: auto;
-  max-width: 120px;
-}
-
+/* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, auto);
-}
-
-.mambo-header li {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 1rem);
   list-style: none;
-  text-align: center;
 }
 
-.mambo-header li a {
-  display: block;
-  color: var(--black);
-  font-weight: 900;
-  padding: var(--space-8);
+.mambo-header a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 640px) {
-  .mambo-header ul {
-    grid-template-columns: repeat(4, auto);
-  }
-}
-@media screen and (min-width: 768px) {
-  .mambo-header {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .mambo-header .logo {
-    padding: 0;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .mambo-header {
-    position: sticky;
-    top: 0;
-    padding: var(--space-16) var(--space-32);
-  }
-
-  .mambo-header svg {
-    max-width: 200px;
-  }
-}
 /* Exception */
 /* Third Party */
 /*!
