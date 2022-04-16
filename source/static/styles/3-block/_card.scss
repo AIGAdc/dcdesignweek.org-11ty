@@ -78,10 +78,7 @@
 /* 2022 Styles */
 .card a {
 	display: block;
-}
-
-.card a:hover {
-	outline: solid 1px var(--black);
+	text-decoration: none;
 }
 
 .card small {
