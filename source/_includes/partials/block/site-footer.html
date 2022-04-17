@@ -14,11 +14,11 @@
 		<h4>
 			Social Media:
 		</h4>
-		{% for link in settings.footerSocialLinks %}
+		{% for link in settings.socialMediaLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
-				href="{{ link.URL }}" rel="noopener nofollow" target="_blank">
-				{{ link.Icon | safe }} {{ link.Title | safe }}
+			<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
+				href="{{ link.url }}" rel="noopener nofollow" target="_blank">
+				{{ link.icon | safe }} {{ link.title | safe }}
 			</a>
 		</li>
 		{% endfor %}
@@ -29,9 +29,8 @@
 		</h4>
 		{% for link in settings.primaryNavLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}"
-				rel="noopener nofollow" target="_blank">
-				{{ link.Title | safe }}
+			<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+				{{ link.title | safe }}
 			</a>
 		</li>
 		{% endfor %}
@@ -42,14 +41,11 @@
 		</h4>
 		{% for link in settings.secondaryNavLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}"
-				rel="noopener nofollow" target="_blank">
-				{{ link.Title | safe }}
+			<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+				{{ link.title | safe }}
 			</a>
 		</li>
 		{% endfor %}
 	</ul>
-	{% for content in settings.footerCopyright %}
-	{{ content.copyrightTitle | safe }}
-	{% endfor %}
+	<p>&copy; AIGA DC | 2022 All Rights Reserved.</p>
 </footer>
