@@ -7,7 +7,7 @@ permalink: /accessibility/
 
 ### What We're Working On
 
-We’re working hard behind the scenes with our content curators to ensure all talks are inclusively crafted 
+We’re working hard behind the scenes with our content curators to ensure all talks are inclusively crafted
 
 Speakers are strongly recommended to:
 
