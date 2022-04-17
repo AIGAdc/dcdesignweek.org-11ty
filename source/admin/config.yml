@@ -253,9 +253,25 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+          - label: "Secondary Navigation Links"
+            name: "secondaryNavLinks"
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Enabled, name: enabled, widget: boolean }
+          - label: "Social Media Links"
+            name: "socialMediaLinks"
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: URL, name: url, widget: string }
               - { label: Icon, name: icon, widget: string }
               - { label: Enabled, name: enabled, widget: boolean }
-      - label: "Sponsors"
+      - label: "Sponsors" 
         name: "sponsors"
         file: "source/_data/sponsors.yaml"
         fields:

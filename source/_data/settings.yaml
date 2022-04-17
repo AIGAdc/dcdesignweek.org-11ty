@@ -1,48 +1,46 @@
 primaryNavLinks:
-  - Title: Events
-    URL: /events/
-    Icon: <i class="fab fa-twitter-square"></i>
-  - Title: About
-    URL: /about/
-    Icon: <i class="fab fa-instagram-square"></i>
-  - Title: Makers
-    URL: /makers/
-    Icon: <i class="fab fa-facebook-square"></i>
-  - Title: FAQs
-    URL: /faqs/
-    Icon: <i class="fab fa-github-square"></i>
-
-footerContact:
-  - contactTitle: designweek@dc.aiga.org
-    contactURL: "mailto:designweek@dc.aiga.org"
-    contactARIA: DC Design Week Email
-
+  - title: Events
+    url: /events/
+    enabled: true
+  - title: About
+    url: /about/
+    enabled: true
+  - title: Makers
+    url: /makers/
+    enabled: true
+  - title: FAQs
+    url: /faqs/
+    enabled: true
+secondaryNavLinks:
+  - title: Accessibility
+    url: /accessibility/
+    enabled: true
+  - title: Contact
+    url: mailto:designweek@dc.aiga.org
+    enabled: true
+  - title: Colophon
+    url: /colophon/
+    enabled: true
+  - title: Mission
+    url: https://dc.aiga.org/about-us/mission/
+    enabled: true
+socialMediaLinks:
+  - title: Twitter
+    url: https://www.twitter.com/dcdesignweek
+    icon: <i class="fab fa-twitter-square"></i>
+    enabled: true
+  - title: Instagram
+    url: https://www.instagram.com/dcdesignweek/
+    icon: <i class="fab fa-instagram-square"></i>
+    enabled: true
+  - title: Facebook
+    url: https://www.facebook.com/dcdesignweek/
+    icon: <i class="fab fa-facebook-square"></i>
+    enabled: true
+  - title: Github
+    url: https://github.com/AIGAdc/dcdesignweek.org
+    icon: <i class="fab fa-github-square"></i>
+    enabled: true
 footerCopyright:
   - copyrightTitle: "&copy; AIGA DC | 2022 All Rights Reserved."
-    copyrightURL: https://dc.aiga.org/about-us/mission/
-    copyrightARIA: AIGA DC Mission Page
-
-secondaryNavLinks:
-  - Title: Accessibility
-    URL: /accessibility/
-    Icon: <i class="fab fa-twitter-square"></i>
-  - Title: Colophon
-    URL: /colophon/
-    Icon: <i class="fab fa-instagram-square"></i>
-  - Title: Mission
-    URL: https://dc.aiga.org/about-us/mission/
-    Icon: <i class="fab fa-instagram-square"></i>
-
-footerSocialLinks:
-  - Title: Twitter
-    URL: https://www.twitter.com/dcdesignweek
-    Icon: <i class="fab fa-twitter-square"></i>
-  - Title: Instagram
-    URL: https://www.instagram.com/dcdesignweek/
-    Icon: <i class="fab fa-instagram-square"></i>
-  - Title: Facebook
-    URL: https://www.facebook.com/dcdesignweek/
-    Icon: <i class="fab fa-facebook-square"></i>
-  - Title: Github
-    URL: https://github.com/AIGAdc/dcdesignweek.org
-    Icon: <i class="fab fa-github-square"></i>
+copyright: "&copy; AIGA DC | 2022 All Rights Reserved."
