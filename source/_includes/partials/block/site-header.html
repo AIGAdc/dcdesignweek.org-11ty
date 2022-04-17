@@ -7,8 +7,8 @@
 	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
 		{% for link in settings.primaryNavLinks %}
 		<li class="link">
-			<a aria-label="{{ link.Title }}" class="anchor mambo-button-link" href="{{ link.URL }}" rel="noopener nofollow" target="_blank">
-				{{ link.Title | safe }}
+			<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+				{{ link.title | safe }}
 			</a>
 		</li>
 		{% endfor %}
