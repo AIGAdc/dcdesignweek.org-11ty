@@ -1,6 +1,6 @@
 {% if page.url == "/" %}
 <ul class="[ grid grid--four-column ]">
-	{% for sponsor in sponsors.sponsor | limit(4) %}
+	{% for sponsor in sponsors.sponsor %}
 	<li class="[ card card-sponsors ]">
 		<div class="[ card-aside ]">
 			<figure class="[ card-image ] [ clipped-{{ sponsor.number }} ]">
