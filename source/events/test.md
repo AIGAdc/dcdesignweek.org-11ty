@@ -8,7 +8,6 @@ details: >-
 
   While Go-Go music, a style blending funk with Afri-Latin rhythms, is a style unique to the DMV area, iconic Day-Glo street posters by Globe Poster Co., can be found everywhere from the Smithsonian Institution and dorm rooms to fine art auction houses.
 
-
   Policies and attitudes long conflating Black urban culture with crime, marginalizing the community for decades, resurfaced when then former Go-Go music promoter, Donald Campbell, was forced to stop playing Go-Go music outside his Metro PCS store due to complaints from neighbors at a new luxury condo development. The Don’t Mute DC movement fought back.
 dominantColor: ""
 startDate: 2022-04-14T15:00:00.000Z
