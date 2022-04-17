@@ -1,6 +1,7 @@
 {% extends "partials/layouts/base.html" %}
 
 {% block content %}
+{{ content | safe }}
 {% include 'partials/block/event-single/details.html' %}
 {% include 'partials/block/event-single/preparation.html' %}
 {% include 'partials/block/event-single/a11y.html' %}
