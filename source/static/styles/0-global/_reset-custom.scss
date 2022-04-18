@@ -1,50 +1,50 @@
 body {
 	color: inherit;
 	font-family: var(--font-family-serif);
-	font-size: var(--size-400);
+	font-size: var(--size-16);
 	line-height: 1.5;
 }
 
 /* The emerging W3C standard that is currently Firefox-only */
-// * {
-// 	scrollbar-width: 16px;
-// 	scrollbar-color: var(--black) var(--cream);
-// }
+* {
+	scrollbar-width: 16px;
+	scrollbar-color: var(--color-black) var(--color-cream);
+}
 
-// /* Works on Chrome/Edge/Safari */
-// *::-webkit-scrollbar {
-// 	max-width: 16px;
-// }
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	max-width: 16px;
+}
 
-// *::-webkit-scrollbar-track {
-// 	background: var(--cream);
-// }
+*::-webkit-scrollbar-track {
+	background: var(--color-cream);
+}
 
-// *::-webkit-scrollbar-thumb {
-// 	background-color: var(--black);
-// }
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-black);
+}
 
 ::selection {
-	background-color: var(--black);
-	color: var(--black);
+	background-color: var(--color-black);
+	color: var(--color-black);
 }
 
 a {
 	color: inherit;
 	cursor: pointer;
 	font-family: var(--font-family-sans);
-	font-weight: 600;
-	padding: var(--space-8);
+	font-weight: var(--weight-600);
+	padding: var(--size-8);
 	transition: opacity var(--timing-default) ease-in;
 }
 
-a[data-type='card'],
-a[data-type='logo'] {
+a[data-type="card"],
+a[data-type="logo"] {
 	display: block;
 }
 
 a:active {
-	outline: 4px solid var(--black, inherit);
+	outline: 4px solid var(--color-black, inherit);
 }
 
 a:hover {
@@ -60,10 +60,10 @@ input:focus {
 	
 	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
 	border-radius: 0.5rem;
-	box-shadow: 0 0 0 4px var(--valencia), 0 0 0px 4px white;
+	box-shadow: 0 0 0 4px var(--color-valencia), 0 0 0px 4px var(--color-white);
 	// Add support for Windows High Contrast Mode (WHCM)
 	// The transparent color only shows when WHCM is triggered
-	outline: 4px solid currentcolor;
+	outline: 4px solid var(--color-black);
 	outline-offset: 4px;
 	overflow: hidden;
 }
@@ -120,8 +120,8 @@ svg {
 
 .skip-to-content {
 	align-items: center;
-	background-color: var(--black);
-	color: var(--yellow);
+	background-color: var(--color-black);
+	color: var(--color-yellow);
 	display: flex;
 	font-weight: 900;
 	height: 74px;
@@ -137,5 +137,5 @@ svg {
 }
 
 .skip-to-content:focus {
-	outline: 4px solid black;
+	outline: 4px solid var(--color-black);
 }
