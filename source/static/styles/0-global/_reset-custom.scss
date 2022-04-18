@@ -24,11 +24,6 @@ body {
 	background-color: var(--color-black);
 }
 
-::selection {
-	background-color: var(--color-black);
-	color: var(--color-black);
-}
-
 a {
 	color: inherit;
 	cursor: pointer;
