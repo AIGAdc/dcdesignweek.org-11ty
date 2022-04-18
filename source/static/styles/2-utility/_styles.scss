@@ -1,17 +1,11 @@
-/* Debugging */
-// * {
-// 	outline: dashed 1px tomato !important;
-// 	outline-offset: -1px !important;
-// }
+@include generate-utility-classes();
 
 /* WYSIWYG */
 .wysiwyg > *:not(:first-child) {
-	margin-top: var(--space-16);
+	margin-top: var(--size-16);
 }
 
 .wysiwyg ul,
 .wysiwyg li {
-	margin-left: var(--space-16);
+	margin-left: var(--size-16);
 }
-
-@include generate-utility-classes();

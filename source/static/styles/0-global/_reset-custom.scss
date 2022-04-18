@@ -61,6 +61,8 @@ input:focus {
 	outline: 4px solid var(--color-black);
 	outline-offset: 4px;
 	overflow: hidden;
+	position: relative;
+	z-index: var(--layer-1);
 }
 
 br {
