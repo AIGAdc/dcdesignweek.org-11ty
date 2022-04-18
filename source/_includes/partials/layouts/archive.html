@@ -1,0 +1,12 @@
+{% extends "partials/layouts/base.html" %}
+
+{% block content %}
+{% if content %}
+<section class="wysiwyg">
+	{{ content | safe }}
+</section>
+{% endif %}
+{% include 'partials/block/events/featured.html' %}
+{% include 'partials/block/agency/featured.html' %}
+{% include 'partials/block/sponsors/block.html' %}
+{% endblock %}
