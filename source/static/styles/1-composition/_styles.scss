@@ -3,95 +3,6 @@
 	margin-top: var(--gap, 1rem);
 }
 
-/* Grid */
-.grid-flow {
-	display: grid;
-	gap: var(--gap, 1rem);
-}
-
-.grid {
-	display: grid;
-	gap: var(--gap, 1fr);
-	position: relative;
-
-	&--align-center {
-		align-items: center;
-	}
-
-	&--align-end {
-		align-items: end;
-	}
-
-	&--align-start {
-		align-items: start;
-	}
-
-	&--gap-none {
-		gap: 0;
-	}
-}
-
-.grid--one-column,
-.grid--two-column,
-.grid--three-column,
-.grid--four-column {
-	grid-template-columns: 1fr;
-}
-
-.grid--one-column-span,
-.grid--two-column-span,
-.grid--three-column-span,
-.grid--four-column-span {
-	grid-column: span 1;
-}
-
-@media screen and (min-width: 768px) {
-	.grid {
-		grid-gap: var(--space-32);
-	}
-
-	.grid--one-column-span,
-	.grid--two-column-span,
-	.grid--three-column-span,
-	.grid--four-column-span {
-		grid-column: span 1;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.grid--one-column {
-		grid-template-columns: 1fr;
-	}
-
-	.grid--two-column {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.grid--three-column {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-	.grid--four-column {
-		grid-template-columns: repeat(4, 1fr);
-	}
-
-	.grid--one-column-span {
-		grid-column: span 1;
-	}
-
-	.grid--two-column-span {
-		grid-column: span 2;
-	}
-
-	.grid--three-column-span {
-		grid-column: span 3;
-	}
-
-	.grid--four-column-span {
-		grid-column: span 4;
-	}
-}
-
 /* Flex */
 .flex-flow {
 	display: flex;
@@ -122,22 +33,25 @@
 	justify-content: space-between;
 }
 
-/* Sections */
-// section {
-// 	padding: var(--space-16);
-// }
+/* Grid */
+.grid-flow {
+	display: grid;
+	gap: var(--gap, 1rem);
+}
 
-// @media screen and (min-width: 1024px) {
-// 	section {
-// 		padding: var(--space-32);
-// 	}
-// }
+.grid-flow-start {
+	align-items: start;
+}
+
+.grid-flow-center {
+	align-items: center;
+}
+
+.grid-flow-end {
+	align-items: end;
+}
 
 /* Page: All */
-body {
-	max-width: 96ch;
-	margin: auto;
-}
 
 /* Page: About */
 
@@ -149,8 +63,7 @@ body {
 
 /* Page: FAQs */
 
-.faqs-sidebar {
-	padding: 2rem;
+.layout-faqs .faqs-sidebar {
 	position: sticky;
 	top: 1rem;
 }

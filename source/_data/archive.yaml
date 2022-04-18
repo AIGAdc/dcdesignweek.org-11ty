@@ -1,0 +1,29 @@
+global:
+  - header: DC Design Week Through The Years
+    body:
+
+pastEvents:
+  - image:
+    imageALT:
+    url: https://2016.dcdesignweek.org/
+    label: DCDW 2016
+  - image:
+    imageALT:
+    url: https://2017.dcdesignweek.org/
+    label: DCDW 2017
+  - image:
+    imageALT:
+    url: https://2018.dcdesignweek.org/
+    label: DCDW 2018
+  - image:
+    imageALT:
+    url: https://2019.dcdesignweek.org/
+    label: DCDW 2019
+  - image:
+    imageALT:
+    url: https://2020.dcdesignweek.org/
+    label: DCDW 2020
+  - image:
+    imageALT:
+    url: "#"
+    label: DCDW 2021
