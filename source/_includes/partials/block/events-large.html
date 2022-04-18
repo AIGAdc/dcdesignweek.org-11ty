@@ -2,7 +2,7 @@
 	<h2 class="[ sr-hidden ]">
 		Featured Events
 	</h2>
-	<ul class="[ events ] [ grid grid--three-column ]">
+	<ul class="[ events ] [ grid  ]">
 		{% for event in collections.events | reverse %}
 		<li class="[ event card ] [ {{ event.data.type | safe }} ]">
 			<a class="[ anchor ]" data-type="card" href="{{ event.url }}">
