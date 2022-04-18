@@ -3,15 +3,15 @@
 .mambo-button {
 	border: solid 4px transparent;
 	display: inline-block;
-	font-family: var(--font-sans);
-	font-weight: 600;
-	padding: var(--space-8) var(--space-16);
+	font-family: var(--font-family-sans);
+	font-weight: var(--weight-600);
+	padding: var(--size-8) var(--size-16);
 	text-align: center;
 	text-decoration: none;
 }
 
 .mambo-button-link {
-	padding: var(--space-8);
+	padding: var(--size-8);
 }
 
 .mambo-button--border-black {

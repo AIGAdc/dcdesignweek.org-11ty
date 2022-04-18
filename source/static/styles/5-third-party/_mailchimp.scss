@@ -9,15 +9,15 @@
 
 .mailchimp .mc-field-group label {
 	display: block;
-	font-weight: 900;
+	font-weight: var(--weight-900);
 }
 
 .mailchimp .mc-field-group input {
-	border: solid 1px var(--black);
+	border: solid 1px var(--color-black);
 	border-radius: none;
-	color: var(--black);
+	color: var(--color-black);
 	display: block;
-	padding: var(--space-8);
+	padding: var(--size-8);
 	width: 100%;
 	-webkit-appearance: none !important;
 	-moz-appearance: none !important;
@@ -25,13 +25,13 @@
 }
 
 .mailchimp .mc-field-group input:focus {
-	outline: solid 1px var(--black);
+	outline: solid 1px var(--color-black);
 	outline-offset: -1px;
 }
 
 .mailchimp .asterisk {
-	color: var(--black);
-	font-weight: 900;
+	color: var(--color-black);
+	font-weight: var(--weight-900);
 }
 
 // message for when a visitor successfully signs up for the newsletter
@@ -41,21 +41,21 @@
 }
 
 .mailchimp div.response a {
-	color: var(--black);
-	font-weight: 900;
+	color: var(--color-black);
+	font-weight: var(--weight-900);
 }
 
 .mailchimp #mce-error-response,
 .mailchimp #mce-success-response {
-	color: var(--black);
+	color: var(--color-black);
 	display: block;
 }
 
 .mailchimp #num-subscribers span {
 	padding: 4px;
-	border: 1px solid var(--black);
+	border: 1px solid var(--color-black);
 	margin-right: 4px;
-	font-weight: 900;
+	font-weight: var(--weight-900);
 }
 
 .mailchimp .mc-field-group label,
@@ -66,16 +66,16 @@
 .mailchimp #mc-embedded-subscribe-form div.mce_inline_error {
 	background-color: unset;
 	display: block;
-	color: var(--black);
+	color: var(--color-black);
 	margin: 0;
-	padding: var(--space-8);
+	padding: var(--size-8);
 	position: relative;
 	top: -2px;
 	z-index: var(--index-1);
 }
 
 .mailchimp #mc-embedded-subscribe-form input.mce_inline_error {
-	border: 1px solid var(--black);
+	border: 1px solid var(--color-black);
 }
 
 .mailchimp input.mambo-button {
@@ -88,7 +88,7 @@
 }
 
 .mailchimp-mambo-button input {
-	padding: var(--space-8);
+	padding: var(--size-8);
 }
 
 .submit-label {
