@@ -4,7 +4,7 @@
 		{{ content.header }}
 	</h2>
 	{% endfor %}
-	<ul class="[ events ] [ grid grid--four-column ]">
+	<ul class="[ events ] [ grid  ]">
 		{% for event in collections.events | reverse %}
 		{% if event.data.status.isFeaturedHome %}
 		<li class="[ event ] [ {{ event.data.type | safe }} ]">
