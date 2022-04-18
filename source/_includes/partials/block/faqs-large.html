@@ -3,13 +3,13 @@
 		<!-- Main FAQs -->
 		<ul class="[ faqs-list ] [  ] [ flow ]">
 			{% for question in faqs.questions %}
-			<li class="[ mambo-accordion ]">
+			<li class="[ mambo-expander ]">
 				<!-- Trigger for hidden content -->
-				<h2 aria-label="" class="mambo-accordion__header" data-houdini-toggle="{{ question.trigger }}">
-					{{ question.question }}
+				<h2 data-houdini-toggle="{{ question.trigger }}">
+					{{ question.question | safe }}
 				</h2>
 				<!-- Hidden Content -->
-				<div class="mambo-accordion__content border-dcdw-2021-black {% if question.expanded == true %} faq-answer is-expanded {% endif %} wysiwyg flow-2"
+				<div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
 					data-houdini-group="faq" id="{{ question.trigger }}">
 					{{ question.answer | safe }}
 				</div>
@@ -17,27 +17,27 @@
 			{% endfor %}
 		</ul>
 		<!-- Sticky Sidebar -->
-		<div class="[ faqs-sidebar ] [  ]">
-			<div class="[ flow ]">
+		<div class="[ faqs-sidebar ] [ flex-flow flex-flow-row flex-flow-end ] [ padding-all-16 ]">
+			<div class="[ grid-flow ]">
 				<h3>
 					Contact
 				</h3>
-				<div>
-					<p class="">
+				<div class="[ flex-flow flex-flow-column ]">
+					<strong>
 						General Questions
-					</p>
+					</strong>
 					<p>
 						Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
 					</p>
 				</div>
-				<div>
-					<p>
-						Accessibility Questions
-					</p>
-					<p>
-						Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
-					</p>
-				</div>
+			</div>
+			<div class="[ flex-flow flex-flow-column ]">
+				<strong>
+					Accessibility Questions
+				</strong>
+				<p>
+					Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -45,11 +45,28 @@
 
 <script>
 	var disclosure = new Houdini('[data-houdini-group="faq"]', {
-		isAccordion: true,
-		collapseOthers: true,
-		icon: 1, /* If true, include an expand/collapse icon */
-		iconClass: 'houdini-toggle-icon', /* The class to use for the expand/collapse icon */
-		iconAttribute: 'data-houdini-icon', /* The data attribute to use for the expand/collapse icon */
+		// Content
+		contentClass: 'houdini',
+		expanded: false,
+		expandedClass: 'is-expanded',
+
+		// Toggle Buttons
+		btnAfter: true, // If true, load toggle button after the content
+		btnClass: 'question', // The class to add to toggle buttons
+		btnAttribute: 'data-houdini-toggle', // The data attribute to use for toggle buttons
+		btnTextAttribute: 'data-houdini-button', // The data attribute for the button text
+		btnLabelAttribute: 'data-houdini-label', // The data attribute for aria-label text
+		btnPreexisting: 'data-houdini-button-preexisting', // The data attribute added to pre-existing buttons
+
+		// Accordion
+		isAccordion: true, // If true, treat as an accordion
+		collapseOthers: true, // If true, only allow on open piece of content at a time
+		headingClass: 'header', // The class to add to the heading element
+
+		// Icons
+		icon: -1, // If true, include an expand/collapse icon
+		iconClass: 'question-icon', // The class to use for the expand/collapse icon
+		iconAttribute: 'question-icon', // The data attribute to use for the expand/collapse icon
 		iconShow: '<i class="fas fa-chevron-right"></i>', /* The icon to expand an accordion */
 		iconHide: '<i class="fas fa-chevron-down"></i>', /* The icon to collapse an accordion */
 	});
