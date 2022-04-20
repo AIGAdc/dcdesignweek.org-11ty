@@ -64,6 +64,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./source/static/images");
 	eleventyConfig.addPassthroughCopy("./source/static/scripts");
 
+
 	// 11ty Transforms
 	eleventyConfig.addTransform("htmlMin", function (content, outputPath) {
 		// Eleventy 1.0+: use this.inputPath and this.outputPath instead
