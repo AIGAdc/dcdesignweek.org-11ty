@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" class="2022-DC-Design-Week layout-{{ title | slug }}">
+<html lang="en" class="2022-DC-Design-Week layout-{{ title | slug }}" id="start">
 
 	{% include 'partials/layouts/head.html' %}
 
 	<body>
-		<main>
-			{% include 'partials/block/site-header.html' %}
+		{% include 'partials/block/skip-to-content.html' %}
+		{% include 'partials/block/site-header.html' %}
+		<main id="content">
 			{% include 'partials/block/hero-small.html' %}
 			{% block content %}
 			{{ content | safe }}
 			{% endblock %}
 			{% include 'partials/block/subscription-small.html' %}
-			{% include 'partials/block/site-footer.html' %}
 		</main>
+		{% include 'partials/block/site-footer.html' %}
 	</body>
 
 </html>
