@@ -1,4 +1,4 @@
 {
 	"layout": "partials/layouts/events-single.html",
-	"tags": "events"
+	"tags": "event"
 }

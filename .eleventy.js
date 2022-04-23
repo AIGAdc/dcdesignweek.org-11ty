@@ -1,7 +1,7 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const cleanCSS = require("clean-css");
 const htmlMin = require("html-minifier");
 const yaml = require("js-yaml");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
@@ -60,20 +60,26 @@ module.exports = function (eleventyConfig) {
 
 	// 11ty Passthrough
 	eleventyConfig.addPassthroughCopy("./source/admin");
+	eleventyConfig.addPassthroughCopy("./source/favicon.svg");
+	eleventyConfig.addPassthroughCopy("./source/favicon.ico");
 	eleventyConfig.addPassthroughCopy("./source/static/audio");
 	eleventyConfig.addPassthroughCopy("./source/static/images");
 	eleventyConfig.addPassthroughCopy("./source/static/scripts");
-	eleventyConfig.addPassthroughCopy("./source/favicon.svg");
-	eleventyConfig.addPassthroughCopy("./source/favicon.ico");
 
 	// 11ty Transforms
 	eleventyConfig.addTransform("htmlMin", function (content, outputPath) {
 		// Eleventy 1.0+: use this.inputPath and this.outputPath instead
 		if (outputPath && outputPath.endsWith(".html")) {
 			let minified = htmlMin.minify(content, {
-				useShortDoctype: true,
-				removeComments: true,
+				collapseBooleanAttributes: true,
 				collapseWhitespace: true,
+				decodeEntities: true,
+				html5: true,
+				removeAttributeQuotes: true,
+				removeComments: true,
+				removeOptionalTags: true,
+				sortAttributes: true,
+				sortClassName: true,
 			});
 			return minified;
 		}

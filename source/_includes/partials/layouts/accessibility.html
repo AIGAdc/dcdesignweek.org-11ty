@@ -2,8 +2,6 @@
 
 {% block content %}
 {% if content %}
-<section class="wysiwyg padding-all-16">
-	{{ content | safe }}
-</section>
+{% include 'partials/block/page-content.html' %}
 {% endif %}
 {% endblock %}
