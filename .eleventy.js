@@ -99,6 +99,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./source/static/audio");
 	eleventyConfig.addPassthroughCopy("./source/static/images");
 	eleventyConfig.addPassthroughCopy("./source/static/scripts");
+	eleventyConfig.addPassthroughCopy("./source/favicon.svg");
+	eleventyConfig.addPassthroughCopy("./source/favicon.ico");
 
 	// Transforms
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
