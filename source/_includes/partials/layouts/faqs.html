@@ -2,9 +2,7 @@
 
 {% block content %}
 {% if content %}
-<section class="wysiwyg">
-	{{ content | safe }}
-</section>
+{% include 'partials/block/page-content.html' %}
 {% endif %}
 {% include 'partials/block/faqs-large.html' %}
 {% include 'partials/block/accessibility/featured.html' %}
