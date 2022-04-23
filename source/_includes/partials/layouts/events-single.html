@@ -1,11 +1,11 @@
 {% extends "partials/layouts/base.html" %}
 
 {% block content %}
-{{ content | safe }}
+{% include 'partials/block/event-single/tickets.html' %}
 {% include 'partials/block/event-single/details.html' %}
-{% include 'partials/block/event-single/preparation.html' %}
-{% include 'partials/block/event-single/a11y.html' %}
 {% include 'partials/block/event-single/speaker.html' %}
+{% include 'partials/block/event-single/preparation.html' %}
+{% include 'partials/block/event-single/accessibility.html' %}
 {% include 'partials/block/event-single/code-of-conduct.html' %}
 {% include 'partials/block/faqs-small.html' %}
 {% endblock %}
