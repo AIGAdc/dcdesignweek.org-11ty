@@ -1,45 +1,61 @@
 primaryNavLinks:
   - title: Events
     url: /events/
+    external: false
     enabled: true
   - title: About
     url: /about/
+    external: false
     enabled: true
   - title: Makers
     url: /makers/
+    external: false
     enabled: true
   - title: FAQs
     url: /faqs/
+    external: false
+    enabled: true
+  - title: Team QA
+    url: https://airtable.com/shrdjeB71EVPvMd2P
+    external: true
     enabled: true
 secondaryNavLinks:
   - title: Accessibility
     url: /accessibility/
+    external: false
     enabled: true
   - title: Contact
     url: mailto:designweek@dc.aiga.org
+    external: false
     enabled: true
   - title: Colophon
     url: /colophon/
+    external: false
     enabled: true
   - title: Mission
     url: https://dc.aiga.org/about-us/mission/
+    external: true
     enabled: true
 socialMediaLinks:
   - title: Twitter
     url: https://www.twitter.com/dcdesignweek
     icon: <i class="fab fa-twitter-square"></i>
+    external: true
     enabled: true
   - title: Instagram
     url: https://www.instagram.com/dcdesignweek/
     icon: <i class="fab fa-instagram-square"></i>
+    external: true
     enabled: true
   - title: Facebook
     url: https://www.facebook.com/dcdesignweek/
     icon: <i class="fab fa-facebook-square"></i>
+    external: true
     enabled: true
   - title: Github
     url: https://github.com/AIGAdc/dcdesignweek.org
     icon: <i class="fab fa-github-square"></i>
+    external: true
     enabled: true
 footerCopyright:
   - copyrightTitle: "&copy; AIGA DC | 2022 All Rights Reserved."
