@@ -1,9 +1,13 @@
 <div class="banner banner--skip-link flex-flow flex-flow-row flex-flow-center padding-all-16">
-<a href="#content">
-	Skip to Content
-</a>
-<a href="#settings">
-	Skip to Settings
-</a>
+	<a href="#content">
+		Skip to Content
+	</a>
+	<a href="#settings">
+		Skip to Settings
+	</a>
+	{% if '/event/' in page.url %}
+	<a href="#tickets">
+		Skip to Tickets
+	</a>
+	{% endif %}
 </div>
-

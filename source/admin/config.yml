@@ -31,7 +31,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Accessibility"
@@ -40,7 +40,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Events"
@@ -49,7 +49,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "FAQs"
@@ -58,7 +58,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
@@ -67,7 +67,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Makers"
@@ -76,13 +76,13 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Page Content", name: "pageContent", widget: "markdown", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
 
-  - label: "Events"
-    name: "events"
-    folder: "source/events"
+  - label: "Event"
+    name: "event"
+    folder: "source/event"
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     # Defaults to "true". Must be set to "false" to turn the preview off completely.
@@ -103,6 +103,23 @@ collections:
           - {label: Button Type, name: buttonType, widget: select, options: ["Member", "Non-Member"] }
           - {label: Button Label, name: buttonLabel, widget: string}
           - {label: Button URL, name: buttonURL, widget: string}
+          - label: "Button Background Color"
+            name: "buttonBGColor"
+            widget: select
+            options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac", ]
+          - label: "Button Text Color"
+            name: "buttonTextColor"
+            widget: select
+            options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+      - label: Location
+        name: location
+        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
+        widget: list
+        fields:
+          - {label: Location Name, name: locationName, widget: string}
+          - {label: Location Street, name: locationStreet, widget: string}
+          - {label: Location Address, name: locationAddress, widget: string}
+          - {label: Location Directions, name: locationDirections, widget: string}
       - label: Status
         name: status
         widget: list
@@ -110,8 +127,6 @@ collections:
           - {label: Status Type, name: statusType, widget: select, options: ["Featured on Home", "Featured on Events", "Has Occurred"] }
           - {label: Status Label, name: statusLabel, widget: string}
       - { label: "Details", name: "details", widget: "markdown", required: false }
-      - { label: "How to Prepare", name: "preparation", widget: "markdown", required: false }
-      - { label: "a11y", name: "a11y", widget: "markdown", required: false }
       - label: Speaker
         name: speaker
         allow_add: true
@@ -124,6 +139,8 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Image Alt, name: imageALT, widget: string}
           - {label: Websites, name: websites, widget: markdown, required: false, sanitize_preview: true}
+      - { label: "How to Prepare", name: "preparation", widget: "markdown", required: false }
+      - { label: "a11y", name: "a11y", widget: "markdown", required: false }
 
   - label: "Data Files"
     name: "settings"
@@ -192,7 +209,7 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac", ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select

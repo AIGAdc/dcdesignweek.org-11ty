@@ -1,28 +1,28 @@
 body {
 	color: inherit;
 	font-family: var(--font-family-serif);
-	font-size: var(--size-16);
+	font-size: var(--size-20);
 	line-height: 1.5;
 }
 
-/* The emerging W3C standard that is currently Firefox-only */
-* {
-	scrollbar-width: 16px;
-	scrollbar-color: var(--color-black) var(--color-cream);
-}
+// /* The emerging W3C standard that is currently Firefox-only */
+// * {
+// 	scrollbar-width: 16px;
+// 	scrollbar-color: var(--color-black) var(--color-cream);
+// }
 
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-	max-width: 16px;
-}
+// /* Works on Chrome/Edge/Safari */
+// *::-webkit-scrollbar {
+// 	max-width: 16px;
+// }
 
-*::-webkit-scrollbar-track {
-	background: var(--color-cream);
-}
+// *::-webkit-scrollbar-track {
+// 	background: var(--color-cream);
+// }
 
-*::-webkit-scrollbar-thumb {
-	background-color: var(--color-black);
-}
+// *::-webkit-scrollbar-thumb {
+// 	background-color: var(--color-black);
+// }
 
 a {
 	color: inherit;
