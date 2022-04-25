@@ -208,6 +208,8 @@ body {
   font-family: var(--font-family-serif);
   font-size: var(--size-20);
   line-height: 1.5;
+  max-width: 144ch;
+  margin: auto;
 }
 
 a {
@@ -374,6 +376,31 @@ svg {
   align-items: end;
 }
 
+.grid-one-column,
+.grid-two-columns,
+.grid-three-columns,
+.grid-four-columns,
+.grid-three-fourths {
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-three-fourths {
+    grid-template-columns: 1fr 0.25fr;
+  }
+
+  .grid-four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 /* Page: All */
 /* Page: About */
 /* Page: Accessibility */
