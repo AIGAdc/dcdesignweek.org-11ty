@@ -1,5 +1,5 @@
 <section class="[ faqs ] [ flow ][ padding-all-16 ]" id="faqs">
-	<div class="[ grid grid--align-start  ]">
+	<div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
 		<!-- Main FAQs -->
 		<ul class="[ faqs-list ] [  ] [ flow ]">
 			{% for question in faqs.questions %}
@@ -17,12 +17,12 @@
 			{% endfor %}
 		</ul>
 		<!-- Sticky Sidebar -->
-		<div class="[ faqs-sidebar ] [ flex-flow flex-flow-row flex-flow-end ] [ padding-all-16 ]">
+		<div class="[ faqs-sidebar ] [ grid-flow grid-one-column ] [ padding-all-16 ]">
 			<div class="[ grid-flow ]">
 				<h3>
 					Contact
 				</h3>
-				<div class="[ flex-flow flex-flow-column ]">
+				<div class="[ grid-flow grid-one-column ]">
 					<strong>
 						General Questions
 					</strong>
@@ -31,7 +31,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="[ flex-flow flex-flow-column ]">
+			<div class="[ grid-flow grid-one-column ]">
 				<strong>
 					Accessibility Questions
 				</strong>
