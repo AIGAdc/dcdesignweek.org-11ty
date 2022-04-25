@@ -2,8 +2,8 @@
 	<h2 class="[ sr-hidden ]">
 		Featured Events
 	</h2>
-	<ul class="[ events ] [ grid  ]">
-		{% for event in collections.events | reverse %}
+	<ul class="[ events ] [ grid-flow grid-four-columns  ]">
+		{% for event in collections.event | reverse %}
 		<li class="[ event card ] [ {{ event.data.type | safe }} ]">
 			<a class="[ anchor ]" data-type="card" href="{{ event.url }}">
 				<figure class="[ image ]">
@@ -26,7 +26,7 @@
 						{{event.data.title}}
 					</h3>
 					<datetime>
-						{{ event.data.date | readableEventDate }}
+						{{ event.date | readableEventDate }}
 					</datetime>
 				</div>
 				{% if event.data.status.isFeaturedHome == true %}
