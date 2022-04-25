@@ -4,42 +4,40 @@
 		{{ content.header }}
 	</h2>
 	{% endfor %}
-	<ul class="[ events ] [ grid  ]">
-		{% for event in collections.events | reverse %}
-		{% if event.data.status.isFeaturedHome %}
-		<li class="[ event ] [ {{ event.data.type | safe }} ]">
-			<a class="[ anchor ]" href="{{ event.url }}">
+	<ul class="[ events ] [ grid-flow grid-four-columns  ]">
+		{% for event in collections.event | reverse | limit(4) %}
+		<li class="[ event card ] [ {{ event.data.type | safe }} ]">
+			<a class="[ anchor ]" data-type="card" href="{{ event.url }}">
 				<figure class="[ image ]">
 					<img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
 				</figure>
+				<!-- Displays human readable date of event -->
 				<div class="[ meta ]">
+					{% for status in event.data.status %}
+					{% if status.statusType == "Featured on Home" %}
 					<p>
-						Featured Event == true
+						{{status.statusLabel}}
 					</p>
+					{% elseif status.statusType == "Featured on Events" %}
+					<p>
+						{{status.statusLabel}}
+					</p>
+					{% endif %}
+					{% endfor %}
 					<h3>
-						{{ event.data.title }}
+						{{event.data.title}}
 					</h3>
-					<!-- Displays human readable date of event -->
 					<datetime>
-						{{ event.data.date | readableEventDate }}
+						{{ event.date | readableEventDate }}
 					</datetime>
 				</div>
-				<div>
-					<small>Testing</small>
-					{% if event.data.tickets.hasMemberButton %}
-					<p>
-						Member Button == true
-					</p>
-					{% endif %}
-					{% if event.data.tickets.hasNonMemberButton %}
-					<p>
-						Non-Member Button == true
-					</p>
-					{% endif %}
-				</div>
+				{% if event.data.status.isFeaturedHome == true %}
+				<p>
+					Featured on Home == True
+				</p>
+				{% endif %}
 			</a>
 		</li>
-		{% endif %}
 		{% endfor %}
 	</ul>
 	{% for content in events.global %}
