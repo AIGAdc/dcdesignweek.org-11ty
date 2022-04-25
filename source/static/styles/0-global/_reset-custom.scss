@@ -3,6 +3,8 @@ body {
 	font-family: var(--font-family-serif);
 	font-size: var(--size-20);
 	line-height: 1.5;
+	max-width: 144ch;
+	margin: auto;
 }
 
 // /* The emerging W3C standard that is currently Firefox-only */
