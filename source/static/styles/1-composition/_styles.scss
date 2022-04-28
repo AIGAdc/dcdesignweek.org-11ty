@@ -52,18 +52,17 @@
 }
 
 .grid-one-column,
-.grid-two-columns,
 .grid-three-columns,
 .grid-four-columns,
 .grid-three-fourths {
 	grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 1024px) {
-	.grid-two-columns {
-		grid-template-columns: repeat(2, 1fr);
-	}
+.grid-two-columns {
+	grid-template-columns: repeat(2, 1fr);
+}
 
+@media screen and (min-width: 1024px) {
 	.grid-three-columns {
 		grid-template-columns: repeat(3, 1fr);
 	}
