@@ -3,15 +3,9 @@
 	id="tickets">
 	{% if '/event/' in page.url %}
 	<div class="[ details ] [ flex-flow flex-flow-row flex-flow-center ]">
-		<p>
-			{{ startDate | readableEventDate }}
-		</p> /
-		<p>
-			{{ startDate | dateTime }}
-		</p> /
-		<p>
-			{{ endDate | dateTime }}
-		</p>
+		<time datetime="{{ startDate | readableEventDate }}">{{ startDate | readableEventDate }}</time>
+		<time datetime="{{ startDate | dateTime }}">{{ startDate | dateTime }}</time>
+		<time datetime="{{ endDate | dateTime }}">{{ endDate | dateTime }}</time>
 		{% for button in location %}
 		<a class="[ ticket ] mambo-button" data-type="non-member" href="{{ button.locationDirections }}"
 			rel="noreferrer nofollow" target="_blank">
@@ -22,13 +16,13 @@
 	<div class="[ tickets ] [ flex-flow flex-flow-row flex-flow-center ]">
 		{% for button in tickets %}
 		{% if button.buttonType == 'Member'%}
-		<a class="[ ticket ] mambo-button [ {{ button.buttonBGColor }} {{ button.buttonTextColor }} ]" data-type="member" href="{{ button.buttonURL }}" rel="noreferrer nofollow"
-			target="_blank">
+		<a class="[ ticket ] mambo-button [ {{ button.buttonBGColor }} {{ button.buttonTextColor }} ]"
+			data-type="member" href="{{ button.buttonURL }}" rel="noreferrer nofollow" target="_blank">
 			{{ button.buttonLabel }}
 		</a>
 		{% else %}
-		<a class="[ ticket ] mambo-button [ {{ button.buttonBGColor }} {{ button.buttonTextColor }} ]" data-type="non-member" href="{{ button.buttonURL }}"
-			rel="noreferrer nofollow" target="_blank">
+		<a class="[ ticket ] mambo-button [ {{ button.buttonBGColor }} {{ button.buttonTextColor }} ]"
+			data-type="non-member" href="{{ button.buttonURL }}" rel="noreferrer nofollow" target="_blank">
 			{{ button.buttonLabel }}
 		</a>
 		{% endif %}

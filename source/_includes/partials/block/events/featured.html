@@ -27,15 +27,10 @@
 					<h3>
 						{{event.data.title}}
 					</h3>
-					<datetime>
+					<time datetime="{{ event.date | readableEventDate }}">
 						{{ event.date | readableEventDate }}
-					</datetime>
+					</time>
 				</div>
-				{% if event.data.status.isFeaturedHome == true %}
-				<p>
-					Featured on Home == True
-				</p>
-				{% endif %}
 			</a>
 		</li>
 		{% endfor %}
