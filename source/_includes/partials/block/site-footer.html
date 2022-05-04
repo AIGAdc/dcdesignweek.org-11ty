@@ -4,6 +4,9 @@
 -->
 
 <footer class="[ mambo-footer ][ grid-flow ][ padding-all-16 ]" id="settings">
+	<h2 class="a11y-sr">
+		Footer
+	</h2>
 	{% for content in settings.footerContact %}
 	<a aria-label="{{ content.contactARIA }}" class="anchor mambo-button-link" href="{{ content.contactURL }}"
 		rel="noopener nofollow" target="_blank">
@@ -11,9 +14,9 @@
 	</a>
 	{% endfor %}
 	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
-		<h4>
+		<h3>
 			Social Media:
-		</h4>
+		</h3>
 		{% for link in settings.socialMediaLinks %}
 		<li class="link">
 			<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
@@ -24,9 +27,9 @@
 		{% endfor %}
 	</ul>
 	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
-		<h4>
+		<h3>
 			Primary Navigation:
-		</h4>
+		</h3>
 		{% for link in settings.primaryNavLinks %}
 		<li class="link">
 			<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
@@ -36,9 +39,9 @@
 		{% endfor %}
 	</ul>
 	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
-		<h4>
+		<h3>
 			Secondary Navigation:
-		</h4>
+		</h3>
 		{% for link in settings.secondaryNavLinks %}
 		<li class="link">
 			<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">

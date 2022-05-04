@@ -4,15 +4,14 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"watch:cms": "npx netlify-cms-proxy-server",
-		"watch:sass": "sass --watch source/static/styles:source/_includes/partials/",
-		"build:sass": "sass source/static/styles:source/_includes/partials/",
-		"watch:eleventy": "npm run clean-public && eleventy --serve",
-		"build:eleventy": "npm run clean-public && eleventy",
-		"clean-public": "rm -rf public",
-		"fresh": "rm -rf public && npm install",
-		"start": "npm-run-all build:sass --parallel watch:*",
-		"build": "npm-run-all build:*"
+		"clean": "rm -rf public",
+		"cms": "npx netlify-cms-proxy-server",
+		"build:eleventy": "npm run clean && eleventy",
+		"watch:eleventy": "npm run clean && eleventy --serve && npm run cms",
+		"build:sass": "sass source/static/styles:source/_partials/static/styles",
+		"watch:sass": "sass --watch source/static/styles:source/_partials/static/styles",
+		"build": "npm-run-all build:*",
+		"start": "npm-run-all build:sass --parallel watch:*"
 	},
 	"repository": {
 		"type": "git",
