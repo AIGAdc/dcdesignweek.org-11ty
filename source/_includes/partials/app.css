@@ -4313,54 +4313,20 @@ svg {
 
 /* Component: mambo-button */
 .mambo-button {
-  border: solid 4px transparent;
-  display: inline-block;
   font-family: var(--font-family-sans);
   font-weight: var(--weight-600);
-  padding: var(--size-8) var(--size-16);
+  padding: var(--size-8) 0;
   text-align: center;
   text-decoration: none;
 }
 
-.mambo-button-link {
-  padding: var(--size-8);
+.border-bottom {
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: solid 4px currentColor;
+  border-left: transparent;
 }
 
-.mambo-button--border-black {
-  border: solid 4px var(--black);
-  color: var(--black);
-}
-
-.mambo-button--border-white {
-  border: solid 4px var(--white);
-  color: var(--white);
-}
-
-.mambo-button--solid-black {
-  border: solid 4px var(--black);
-  color: var(--white);
-}
-
-.mambo-button--solid-cream {
-  border: solid 4px var(--cream);
-  color: var(--black);
-}
-
-.mambo-button--solid-white {
-  border: solid 4px var(--white);
-  color: var(--black);
-}
-
-.mambo-button--solid-zodiac {
-  border: solid 4px var(--zodiac);
-  color: var(--white);
-}
-
-@media screen and (min-width: 768px) {
-  .mambo-button {
-    display: inline-block;
-  }
-}
 /* 2022 Styles */
 .card a {
   display: block;
