@@ -9,9 +9,10 @@
 		{{ content.body | safe }}
 	</p>
 	<p>{{ content }}</p>
-	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]"
+	<a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
 		href="{{ content.buttonURL }}">
 		{{ content.buttonLabel }}
+		<span><i class="fa-solid fa-arrow-right"></i></span>
 	</a>
 	{% endfor %}
 </section>
