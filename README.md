@@ -1,5 +1,9 @@
 # dcdesignweek.org-11ty
 
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6956fd8c-9cde-4bd5-a419-f29d640a9952/deploy-status)](https://app.netlify.com/sites/2022-dcdw/deploys)
+
 ## Welcome
 
 This repository is the home of the 11ty based version of DC Design Week.
