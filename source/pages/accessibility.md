@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 description: Provide a description for this page.
-layout: partials/layouts/accessibility.html
+layout: layouts/accessibility.njk
 permalink: /accessibility/
 ---
 ### What We're Working On

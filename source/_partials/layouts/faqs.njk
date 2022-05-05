@@ -1,11 +1,11 @@
-{% extends "partials/layouts/base.html" %}
+{% extends "layouts/base.njk" %}
 
 {% block content %}
 {% if content %}
-{% include 'partials/block/page-content.html' %}
+{% include 'block/page-content.njk' %}
 {% endif %}
-{% include 'partials/block/faqs-large.html' %}
-{% include 'partials/block/accessibility/featured.html' %}
+{% include 'block/faqs-large.njk' %}
+{% include 'block/accessibility/featured.njk' %}
 {% endblock %}
 
 <script>

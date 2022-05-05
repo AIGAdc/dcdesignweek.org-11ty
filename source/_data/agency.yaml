@@ -1,6 +1,6 @@
 # Global Data File for introducing a small accessibility section on another page.
 # This file also allows for customization of the blocks background color, text color, button background color, and button text color.
-# Associated component: `agency/featured.html`
+# Associated component: `agency/featured.njk`
 
 global:
   - header: Featured Agency

@@ -1,6 +1,6 @@
 ---
 title: FAQs
 description: Provide a description for this page.
-layout: partials/layouts/faqs.html
+layout: layouts/faqs.njk
 permalink: /faqs/
 ---
