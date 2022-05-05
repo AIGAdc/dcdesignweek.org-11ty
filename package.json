@@ -8,8 +8,8 @@
 		"cms": "npx netlify-cms-proxy-server",
 		"build:eleventy": "npm run clean && eleventy",
 		"watch:eleventy": "npm run clean && eleventy --serve && npm run cms",
-		"build:sass": "sass source/static/styles:source/_partials/static/styles",
-		"watch:sass": "sass --watch source/static/styles:source/_partials/static/styles",
+		"build:sass": "sass source/static/styles:source/static/styles",
+		"watch:sass": "sass --watch source/static/styles:source/static/styles",
 		"build": "npm-run-all build:*",
 		"start": "npm-run-all build:sass --parallel watch:*"
 	},
