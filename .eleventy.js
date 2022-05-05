@@ -89,16 +89,16 @@ module.exports = function (eleventyConfig) {
 	// 11ty Watch Targets
 	eleventyConfig.addWatchTarget("./source/static/styles/");
 	return {
-		markdownTemplateEngine: "njk",
 		dataTemplateEngine: "njk",
 		htmlTemplateEngine: "njk",
+		markdownTemplateEngine: "njk",
 		dir: {
+			// tells Eleventy where to look for layouts/partials
+			includes: "_partials",
 			// Eleventy will look here for files to process
 			input: "source",
 			// the built files will be placed here
 			output: "public",
-			// tells Eleventy where to look for layouts/partials
-			includes: "_includes",
 		},
 	};
 };
