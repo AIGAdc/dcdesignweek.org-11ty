@@ -1,10 +1,45 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const cleanCSS = require("clean-css");
-const htmlMin = require("html-minifier");
-const yaml = require("js-yaml");
+const CleanCSS = require("clean-css");
+const htmlmin = require("html-minifier");
 const { DateTime } = require("luxon");
+const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
+	// 11ty Data Extension
+	// To Support .yaml Extension in _data
+	// You may remove this if you can use JSON
+	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+	// Filters
+	// 11ty Quick Tip: #1 Inline Minified CSS - https://www.11ty.dev/docs/quicktips/inline-css/
+	eleventyConfig.addFilter("cssmin", function (code) {
+		return new CleanCSS({}).minify(code).styles;
+	});
+	// This filter can be applied to a njk variable and will render the time as: 12:00 PM
+	eleventyConfig.addFilter("dateTime", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "America/New_York",
+		})
+			.setLocale("en")
+			.toLocaleString(DateTime.TIME_SIMPLE);
+	});
+	eleventyConfig.addFilter("readableEventDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "America/New_York",
+		})
+			.setLocale("en")
+			.toLocaleString(DateTime.DATE_FULL);
+	});
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, {
+			zone: "America/New_York",
+		})
+			.setLocale("en")
+			.toISODate();
+	});
+	// Limit: Restricts the amount of items displayed in a collection
+	eleventyConfig.addNunjucksFilter("limit", (arr, limit) =>
+		arr.slice(0, limit)
+	);
+
 	let markdownIt = require("markdown-it");
 	let options = {
 		html: true,
@@ -18,76 +53,27 @@ module.exports = function (eleventyConfig) {
 		return markdownIt({ html: true }).render(content);
 	});
 
-	// This filter can be applied to a njk variable and will render the time as: 12:00 PM
-	eleventyConfig.addFilter("dateTime", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, {
-			zone: "America/New_York",
-		})
-			.setLocale("en")
-			.toLocaleString(DateTime.TIME_SIMPLE);
-	});
-
-	eleventyConfig.addFilter("readableEventDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, {
-			zone: "America/New_York",
-		})
-			.setLocale("en")
-			.toLocaleString(DateTime.DATE_FULL);
-	});
-
-	eleventyConfig.addFilter("postDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj, {
-			zone: "America/New_York",
-		})
-			.setLocale("en")
-			.toISODate();
-	});
-
-	eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	// 11ty Data Extension
-	// To Support .yaml Extension in _data
-	// You may remove this if you can use JSON
-	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
-
-	// 11ty Filters
-	eleventyConfig.addFilter("cssmin", function (code) {
-		return new cleanCSS({}).minify(code).styles;
-	});
-
-	eleventyConfig.addNunjucksFilter("limit", (arr, limit) =>
-		arr.slice(0, limit)
-	);
-
-	// 11ty Passthrough
+	// Passthrough
 	eleventyConfig.addPassthroughCopy("./source/admin");
-	eleventyConfig.addPassthroughCopy("./source/favicon.svg");
-	eleventyConfig.addPassthroughCopy("./source/favicon.ico");
-	eleventyConfig.addPassthroughCopy("./source/static/audio");
 	eleventyConfig.addPassthroughCopy("./source/static/images");
 	eleventyConfig.addPassthroughCopy("./source/static/scripts");
 
-	// 11ty Transforms
-	eleventyConfig.addTransform("htmlMin", function (content, outputPath) {
+	// Transforms
+	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
 		// Eleventy 1.0+: use this.inputPath and this.outputPath instead
 		if (outputPath && outputPath.endsWith(".html")) {
-			let minified = htmlMin.minify(content, {
-				collapseBooleanAttributes: true,
-				collapseWhitespace: true,
-				decodeEntities: true,
-				html5: true,
-				removeAttributeQuotes: true,
+			let minified = htmlmin.minify(content, {
+				useShortDoctype: true,
 				removeComments: true,
-				removeOptionalTags: true,
-				sortAttributes: true,
-				sortClassName: true,
+				collapseWhitespace: true,
 			});
 			return minified;
 		}
 		return content;
 	});
 
-	// 11ty Watch Targets
-	eleventyConfig.addWatchTarget("./source/static/styles/");
+	// Watch Targets
+	eleventyConfig.addWatchTarget("./source/assets/styles/");
 	return {
 		dataTemplateEngine: "njk",
 		htmlTemplateEngine: "njk",
