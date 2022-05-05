@@ -5,6 +5,6 @@ description: What kind of future can we build together? Hyperlocal is a
   share crowd-sourced design perspectives. When we celebrate the dynamism and
   resolve of our vibrant community locally, we have the opportunity to elevate
   everyone’s voice to a global level.
-layout: partials/layouts/home.html
+layout: layouts/home.njk
 permalink: /home/
 ---
