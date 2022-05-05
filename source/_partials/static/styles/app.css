@@ -281,7 +281,6 @@ ul {
 svg {
   display: block;
   vertical-align: middle;
-  width: 100%;
 }
 
 .disabled {
@@ -331,7 +330,7 @@ svg {
 /* Flex */
 .flex-flow {
   display: flex;
-  gap: var(--gap, 1rem);
+  grid-gap: var(--gap, 1rem);
 }
 
 .flex-flow-column {
@@ -361,7 +360,7 @@ svg {
 /* Grid */
 .grid-flow {
   display: grid;
-  gap: var(--gap, 1rem);
+  grid-gap: var(--gap, 1rem);
 }
 
 .grid-flow-start {
