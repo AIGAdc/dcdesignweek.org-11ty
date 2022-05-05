@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="2022-DC-Design-Week layout-{{ title | slug }}" id="start">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title }} | 2022 DC Design Week</title>
+
+		<!-- capture the CSS content as a Nunjucks variable -->
+		{% set css %}
+		{% include "static/styles/app.css" %}
+		{% endset %}
+
+		<!-- feed it through our cssmin filter to minify -->
+		<style type="text/css">
+			{{css | cssmin | safe}}
+		</style>
+
+		<!-- Script: Font Awesome  -->
+		<link rel="stylesheet" href="https://use.typekit.net/jvp8qxy.css">
+		<script src="https://kit.fontawesome.com/38aa62a4a1.js" crossorigin="anonymous"></script>
+
+		<!-- Script: App.js -->
+		<script type="text/javascript" src="/static/scripts/app.js"></script>
+
+		<!-- Script: Netlify Identity Widget -->
+		<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	</head>
+
+	<body>
+		{% include 'block/skip-to-content.njk' %}
+		{% include 'block/site-header.njk' %}
+		<main id="content">
+			{% include 'block/hero-small.njk' %}
+			{% block content %}
+				{{ content | safe }}
+			{% endblock %}
+			<section style="text-align: center; font-weight: 900; padding: 32px;">
+				🚧 Mailchimp Submission Form Should Be Here. Currently for whatever reason the form has been taking a
+				long time to load, so this will remain a placeholder for now.
+			</section>
+		</main>
+		{% include 'block/site-footer.njk' %}
+	</body>
+
+</html>
