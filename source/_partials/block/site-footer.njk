@@ -2,53 +2,53 @@
 	<h2>
 		Footer
 	</h2>
-	{% for content in settings.footerContact %}
-		<a aria-label="{{ content.contactARIA }}" class="anchor mambo-button-link" href="{{ content.contactURL }}"
-		rel="noopener nofollow" target="_blank">
-			{{ content.contactTitle | safe }}
-		</a>
-	{% endfor %}
-	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+	<div>
 		<h3>
 			Social Media:
 		</h3>
-		{% for link in settings.socialMediaLinks %}
-			<li class="link">
-				<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
+		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+			{% for link in settings.socialMediaLinks %}
+				<li class="link">
+					<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
 				href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-					{{ link.icon | safe }}
-					{{ link.title | safe }}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
-	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+						{{ link.icon | safe }}
+						{{ link.title | safe }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div>
 		<h3>
 			Primary Navigation:
 		</h3>
-		{% for link in settings.primaryNavLinks %}
-			<li class="link">
-				<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-					{{ link.title | safe }}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
-	<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+		<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+			{% for link in settings.primaryNavLinks %}
+				<li class="link">
+					<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+						{{ link.title | safe }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div>
 		<h3>
 			Secondary Navigation:
 		</h3>
-		{% for link in settings.secondaryNavLinks %}
-			<li class="link">
-				<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-					{{ link.title | safe }}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
+		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+			{% for link in settings.secondaryNavLinks %}
+				<li class="link">
+					<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+						{{ link.title | safe }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 	<p>
 		&copy; AIGA DC | 2022 All Rights Reserved.
-		</p>
+	</p>
 	<a href="#start">
 		Back to Top
 	</a>
