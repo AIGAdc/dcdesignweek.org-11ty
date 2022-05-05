@@ -7,7 +7,7 @@
 		{{ content.body | safe }}
 	</p>
 	{% endfor %}
-	{% include 'partials/block/sponsors/list.html' %}
+	{% include 'block/sponsors/list.njk' %}
 	{% for content in sponsors.global %}
 	<a class="[ mambo-button ] [ {{ content.buttonBGColor }} {{ content.buttonTextColor }} ]"
 		href="{{ content.buttonURL }}">
