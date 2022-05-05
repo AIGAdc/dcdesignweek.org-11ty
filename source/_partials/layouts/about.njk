@@ -1,0 +1,9 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+{% if content %}
+{% include 'block/page-content.njk' %}
+{% endif %}
+{% include 'block/staff-large.njk' %}
+{% include 'block/sponsors/block.njk' %}
+{% endblock %}
