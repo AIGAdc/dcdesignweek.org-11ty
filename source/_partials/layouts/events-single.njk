@@ -1,11 +1,17 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-{% include 'block/event-single/tickets.njk' %}
-{% include 'block/event-single/details.njk' %}
-{% include 'block/event-single/speaker.njk' %}
-{% include 'block/event-single/preparation.njk' %}
-{% include 'block/event-single/accessibility.njk' %}
-{% include 'block/event-single/code-of-conduct.njk' %}
-{% include 'block/faqs-small.njk' %}
+	<div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
+		<div>
+			{% include 'block/event-single/details.njk' %}
+			{% include 'block/event-single/speaker.njk' %}
+			{% include 'block/event-single/preparation.njk' %}
+			{% include 'block/event-single/accessibility.njk' %}
+			{% include 'block/event-single/code-of-conduct.njk' %}
+			{% include 'block/faqs-small.njk' %}
+		</div>
+		<div class="sticky">
+			{% include 'block/event-single/tickets.njk' %}
+		</div>
+	</div>
 {% endblock %}

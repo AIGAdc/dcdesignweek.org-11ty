@@ -4294,10 +4294,14 @@ svg {
   margin-left: var(--size-16);
 }
 
-.toolbar-tickets {
+.sticky {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.toolbar-tickets {
+  text-align: left;
 }
 
 /* Component: mambo-accordion */
