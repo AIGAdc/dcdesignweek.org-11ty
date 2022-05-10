@@ -1,16 +1,16 @@
 <footer class="[ mambo-footer ][ grid-flow ][ padding-all-16 ]" id="settings">
 	<h2>
-		Footer
+	Footer
 	</h2>
 	<div>
 		<h3>
-			Social Media:
+		Social Media:
 		</h3>
 		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
 			{% for link in settings.socialMediaLinks %}
 				<li class="link">
 					<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
-				href="{{ link.url }}" rel="noopener nofollow" target="_blank">
+						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
 						{{ link.icon | safe }}
 						{{ link.title | safe }}
 					</a>
@@ -20,7 +20,7 @@
 	</div>
 	<div>
 		<h3>
-			Primary Navigation:
+		Primary Navigation:
 		</h3>
 		<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
 			{% for link in settings.primaryNavLinks %}
@@ -34,7 +34,7 @@
 	</div>
 	<div>
 		<h3>
-			Secondary Navigation:
+		Secondary Navigation:
 		</h3>
 		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
 			{% for link in settings.secondaryNavLinks %}

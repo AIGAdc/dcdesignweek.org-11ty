@@ -1,13 +1,11 @@
 {% extends "layouts/base.njk" %}
-
 {% block content %}
-{% if content %}
-{% include 'block/page-content.njk' %}
-{% endif %}
-{% include 'block/faqs-large.njk' %}
-{% include 'block/accessibility/featured.njk' %}
+	{% if content %}
+		{% include 'block/page-content.njk' %}
+	{% endif %}
+	{% include 'block/faqs-large.njk' %}
+	{% include 'block/featured/accessibility.njk' %}
 {% endblock %}
-
 <script>
 	var disclosure = new Houdini('[data-houdini-group="faq"]', {
 		isAccordion: true,
