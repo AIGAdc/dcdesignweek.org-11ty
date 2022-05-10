@@ -5,21 +5,25 @@ description: >-
 heroHeader: DC Design Week 2022
 heroBody: >-
   DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. **Submit an event proposal by June 12, 2022!**
-sectionOneBackgroundColor:
-sectionOneTextColor:
+sectionOneBackgroundColor: background-color-cream
+sectionOneTextColor: color-black
 sectionOneHeader: What is DC Design Week?
 sectionOneBody: >-
-  "If you don’t already know us, DC Design Week (DCDW) is an annual celebration of DC’s creative community: An ever-growing body of professionals, makers, and voices working across design disciplines.
+  If you don’t already know us, DC Design Week (DCDW) is an annual celebration of DC’s creative community: An ever-growing body of professionals, makers, and voices working across design disciplines.
 
 
   **This year’s theme is: Community Recovery & Wellbeing.** You’ll see community-based healing and wellness woven into this year’s events and branding. While the DC Design Week committee plans some of your favorite annual events (including keynotes, parties, and more), we’re excited to use our community-curated event model again. For the second year in a row, most DCDW events will be proposed and hosted by you, our community!
 
 
-  Find more details on what we’re looking for below. You can also join us for an **information session on May 25, 2022**, to learn more about [submitting an event.](#)"
-sectionTwoBackgroundColor:
-sectionTwoTextColor:
-sectionTwoHeader:
-sectionTwoBody:
+  Find more details on what we’re looking for below. You can also join us for an **information session on May 25, 2022**, to learn more about [submitting an event.](#)
+sectionTwoBackgroundColor: background-color-teal
+sectionTwoTextColor: color-white
+sectionTwoHeader: What is DC Design Week looking for in an event?
+sectionTwoBody: >-
+  We’ll review event proposals based on their quality, attention to detail, and adherence to [DC Design Week’s Code of Conduct.](#) This criteria helps us offer community-curated events that reflect our community’s diverse interests, values, and needs. All events that we host should be relevant, engaging, and provide value for the DC design community.
+
+
+  Join us for an information session on May 25, 2022,  to learn more about each type of event discussed below. We’ve had success in the past with the following types of events:
 sectionTwoQuestion1Title: Creative Breakfast or Lunch
 sectionTwoQuestion1Body:
 sectionTwoQuestion2Title: Lightning Talks Series
