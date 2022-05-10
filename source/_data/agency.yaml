@@ -2,7 +2,7 @@
 # This file also allows for customization of the blocks background color, text color, button background color, and button text color.
 # Associated component: `agency/featured.njk`
 
-global:
+section:
   - header: Featured Agency
     body: Big thanks to the [Agency] for developing the DCDW 2022 brand! [Agency] is a creative agency born and based in the District of Columbia.
     buttonURL: "#"
