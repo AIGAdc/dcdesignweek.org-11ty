@@ -4361,6 +4361,14 @@ svg {
   gap: var(--gap, 1rem);
 }
 
+.divider {
+  border: solid 4px black;
+  display: inline-block;
+  margin: auto;
+  max-width: 48px;
+  width: 100%;
+}
+
 .filter-events__reset.control-group .mambo-button {
   width: 100%;
 }
@@ -4393,6 +4401,14 @@ svg {
 
 .mambo-hero .wysiwyg {
   font-size: var(--size-24);
+}
+
+.mambo-section div > *:not(:last-child) {
+  margin-top: var(--size-24);
+}
+
+.mambo-section h2 {
+  font-size: var(--size-32);
 }
 
 /*!

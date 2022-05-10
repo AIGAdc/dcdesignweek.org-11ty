@@ -1,14 +1,21 @@
 ---
 title: Home - Internal 
 description: >-
-  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. **Submit an event proposal by June 12, 2022!**
+  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. Submit an event proposal by June 12, 2022!
 heroHeader: DC Design Week 2022
 heroBody: >-
-  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. *Submit an event proposal by June 12, 2022!*
+  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. **Submit an event proposal by June 12, 2022!**
 sectionOneBackgroundColor:
 sectionOneTextColor:
-sectionOneHeader:
-sectionOneBody:
+sectionOneHeader: What is DC Design Week?
+sectionOneBody: >-
+  "If you don’t already know us, DC Design Week (DCDW) is an annual celebration of DC’s creative community: An ever-growing body of professionals, makers, and voices working across design disciplines.
+
+
+  **This year’s theme is: Community Recovery & Wellbeing.** You’ll see community-based healing and wellness woven into this year’s events and branding. While the DC Design Week committee plans some of your favorite annual events (including keynotes, parties, and more), we’re excited to use our community-curated event model again. For the second year in a row, most DCDW events will be proposed and hosted by you, our community!
+
+
+  Find more details on what we’re looking for below. You can also join us for an **information session on May 25, 2022**, to learn more about [submitting an event.](#)"
 sectionTwoBackgroundColor:
 sectionTwoTextColor:
 sectionTwoHeader:
