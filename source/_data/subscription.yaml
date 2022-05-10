@@ -2,8 +2,8 @@
 # This file also allows for customization of the blocks background color and text color.
 # Associated component: `small-subscription.njk`
 
-global:
-  - header: Subscription
+section:
+  - header: Subscribe
     body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
     sectionBGColor:
     sectionTextColor:
