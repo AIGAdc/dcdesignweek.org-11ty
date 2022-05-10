@@ -10,7 +10,7 @@ description: Kicking off the start of DC Design Week 2021, we’re joining force
   artist, designer and muralist, Kelly Towles.  There will be drinking, there
   will be music and there will be dancing, you won’t want to miss it!  Due to
   capacity limitations, a ticket is required to attend the party even though it
-  is a free event.
+  is a free event`.
 startDate: 2022-09-01T16:59:53.940Z
 endDate: 2022-09-01T18:00:53.950Z
 image: https://dcdesignweek.org/uploads/WebBanner_DCDW%20OpeningParty_with_SHAOLINJAZZ.jpg
