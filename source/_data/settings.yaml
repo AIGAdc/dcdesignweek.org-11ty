@@ -2,19 +2,19 @@ primaryNavLinks:
   - title: Events
     url: /events/
     external: false
-    enabled: true
+    enabled: false
   - title: About
     url: /about/
     external: false
-    enabled: true
+    enabled: false
   - title: Makers
     url: /makers/
     external: false
-    enabled: true
+    enabled: false
   - title: FAQs
     url: /faqs/
     external: false
-    enabled: true
+    enabled: false
   - title: Team QA
     url: https://airtable.com/shrdjeB71EVPvMd2P
     external: true
