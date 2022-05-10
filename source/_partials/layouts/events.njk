@@ -1,9 +1,8 @@
 {% extends "layouts/base.njk" %}
-
 {% block content %}
-{% if content %}
-{% include 'block/page-content.njk' %}
-{% endif %}
-{% include 'block/events-large.njk' %}
-{% include 'block/faqs-small.njk' %}
+	{% if content %}
+		{% include 'block/page-content.njk' %}
+	{% endif %}
+	{% include 'block/events-large.njk' %}
+	{% include 'block/faqs-small.njk' %}
 {% endblock %}
