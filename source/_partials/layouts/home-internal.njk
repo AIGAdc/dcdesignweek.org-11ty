@@ -1,6 +1,7 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-	{% include 'block/_mambo/columns-one.njk' %}
+	{% include 'block/home-internal/section-1.njk' %}
+	{% include 'block/home-internal/section-2.njk' %}
 	{% if content %}
 		<section class="wysiwyg">
 			{{ content | safe }}
