@@ -1507,7 +1507,7 @@ svg {
   padding-left: var(--size-160);
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .small\:font-size-none {
     font-size: var(--size-none);
   }
@@ -2432,7 +2432,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .medium\:font-size-none {
     font-size: var(--size-none);
   }
@@ -3357,7 +3357,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .large\:font-size-none {
     font-size: var(--size-none);
   }

@@ -200,8 +200,8 @@ $gorko-config: (
 		"property": "padding-left",
 	),
 	"breakpoints": (
-		"small": "(min-width: 768px)",
-		"medium": "(min-width: 1024px)",
-		"large": "(min-width: 1366px)",
+		"small": "screen and (min-width: 768px)",
+		"medium": "screen and (min-width: 1024px)",
+		"large": "screen and (min-width: 1366px)",
 	),
 );
