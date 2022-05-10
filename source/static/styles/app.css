@@ -4403,7 +4403,7 @@ svg {
   font-size: var(--size-24);
 }
 
-.mambo-section div > *:not(:last-child) {
+.mambo-section div > *:not(:first-child) {
   margin-top: var(--size-24);
 }
 
