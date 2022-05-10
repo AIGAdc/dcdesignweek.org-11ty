@@ -42,25 +42,45 @@ sectionTwoQuestion8Title: Panel
 sectionTwoQuestion8Body:
 sectionTwoQuestion9Title: Talk
 sectionTwoQuestion9Body:
-sectionThreeBackgroundColor:
-sectionThreeTextColor:
+sectionThreeBackgroundColor: background-color-zodiac
+sectionThreeTextColor: color-white
 sectionThreeHeader: The pandemic still isn’t over. What is DC Design Week’s stance on including in-person events?
 sectionThreeBody: >- 
   COVID-19 is a rapidly changing, ongoing pandemic. The wide distribution of vaccines in DC and across the nation makes us hopeful that we can bring back more in-person event experiences to DCDW 2022..
-  We plan to host a few small, in-person, indoor events (less than 20 attendees with masks) and a few, larger, in-person, outdoor events for DC Design Week 2022, from October 14–21.
-  That said, DC Design Week will always follow the latest CDC guidance on hosting in-person gatherings. As a result, we might pivot events to virtual experiences if the situation changes. Prospective event partners must understand this when proposing in-person events. We will work with selected event partners to ensure that each in-person event follows the latest CDC guidelines and has appropriate contingency plans.
+
+
+  We plan to host **a few small, in-person, indoor events** (less than 20 attendees with masks) and **a few, larger, in-person, outdoor events** for DC Design Week 2022, from October 14–21.
+
+
+  That said, DC Design Week **will always follow the latest** [CDC guidance on hosting in-person gatherings.](#) As a result, we might pivot events to virtual experiences if the situation changes. Prospective event partners must understand this when proposing in-person events. We will work with selected event partners to ensure that each in-person event follows the latest CDC guidelines and has appropriate contingency plans.
 sectionThreeQuestion1Title: How does event ticketing and pricing work?
 sectionThreeQuestion1Body:
-sectionFourBackgroundColor:
-sectionFourTextColor:
-sectionFourHeader:
-sectionFourBody:
-sectionFourQuestion1Title: Creative Breakfast or Lunch
+sectionFourBackgroundColor: background-color-valencia
+sectionFourTextColor: color-white
+sectionFourHeader: Lorem Ipsum Dolor Sit Amet
+sectionFourBody: Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam aliquet aliquam consectetur. Integer vestibulum blandit faucibus. Vestibulum sed ligula feugiat, lacinia enim ac, fringilla turpis.
+sectionFourQuestion1Title: How do I submit an event for consideration?
 sectionFourQuestion1Body:
-sectionFourQuestion2Title: Lightning Talks Series
+sectionFourQuestion2Title: What information do I need to submit with my event idea?
 sectionFourQuestion2Body:
-sectionFourQuestion3Title: Self-Directed Activity
+sectionFourQuestion3Title: What happens after submitting an event proposal?
 sectionFourQuestion3Body:
+sectionFiveBackgroundColor: background-color-black
+sectionFiveTextColor: color-white
+sectionFiveHeader: How else can I get involved with DC Design Week 2022?
+sectionFiveBody: Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam aliquet aliquam consectetur. Integer vestibulum blandit faucibus. Vestibulum sed ligula feugiat, lacinia enim ac, fringilla turpis.
+sectionFiveCard1Image:
+sectionFiveCard1ImageAlt:
+sectionFiveCard1Title: Sponsorship
+sectionFiveCard1Body: Whether you’re able to offer in-kind services or financial support, we welcome sponsorship partners who can help make DCDW even better. 
+sectionFiveCard1LinkURL: "#"
+sectionFiveCard1LinkLabel: Contact DCDW about sponsorship
+sectionFiveCard2Image:
+sectionFiveCard2ImageAlt:
+sectionFiveCard2Title: Volunteer
+sectionFiveCard2Body: You can help out the day of an event during DC Design Week with Zoom support, cleaning up or tearing down in-person events, and more.
+sectionFiveCard2LinkURL: "#"
+sectionFiveCard2LinkLabel: Sign up to join our volunteer list
 layout: layouts/home-internal.njk
 permalink: /
 ---
