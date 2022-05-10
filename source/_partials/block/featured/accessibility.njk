@@ -2,17 +2,19 @@
 	class="[ small-accessibility ] [ {% for content in accessibility.global %} {{ content.sectionBGColor }} {{ content.sectionTextColor }} {% endfor %} ] [ flow ] [ padding-all-16 ]"
 	id="small-accessibility">
 	{% for content in accessibility.global %}
-	<h2>
-		{{ content.header }}
-	</h2>
-	<p>
-		{{ content.body | safe }}
-	</p>
-	<p>{{ content }}</p>
-	<a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
+		<h2>
+			{{ content.header }}
+		</h2>
+		<p>
+			{{ content.body | safe }}
+		</p>
+		<p>{{ content }}</p>
+		<a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
 		href="{{ content.buttonURL }}">
-		{{ content.buttonLabel }}
-		<span><i class="fa-solid fa-arrow-right"></i></span>
-	</a>
+			{{ content.buttonLabel }}
+			<span>
+				<i class="fa-solid fa-arrow-right"></i>
+			</span>
+		</a>
 	{% endfor %}
 </section>
