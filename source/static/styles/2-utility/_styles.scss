@@ -1,6 +1,16 @@
 @include generate-utility-classes();
 
+/* Containers */
+.container-default {
+	margin: auto;
+	max-width: 896px;
+}
+
 /* WYSIWYG */
+.wysiwyg {
+	font-size: var(--size-16);
+}
+
 .wysiwyg > *:not(:first-child) {
 	margin-top: var(--size-16);
 }

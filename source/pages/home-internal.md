@@ -1,8 +1,10 @@
 ---
 title: Home - Internal 
-description: DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. Submit an event proposal by June 12, 2022!
+description: >-
+  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. **Submit an event proposal by June 12, 2022!**
 heroHeader: DC Design Week 2022
-heroBody: DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. Submit an event proposal by June 12, 2022!
+heroBody: >-
+  DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. *Submit an event proposal by June 12, 2022!*
 sectionOneBackgroundColor:
 sectionOneTextColor:
 sectionOneHeader:
