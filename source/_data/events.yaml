@@ -1,4 +1,4 @@
-global:
+section:
   - header: Featured Events
     body: Provide Body
     buttonURL: /events/
