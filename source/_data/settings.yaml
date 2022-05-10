@@ -31,7 +31,7 @@ secondaryNavLinks:
   - title: Colophon
     url: /colophon/
     external: false
-    enabled: true
+    enabled: false
   - title: Mission
     url: https://dc.aiga.org/about-us/mission/
     external: true
@@ -57,6 +57,4 @@ socialMediaLinks:
     icon: <i class="fab fa-github-square"></i>
     external: true
     enabled: true
-footerCopyright:
-  - copyrightTitle: "&copy; AIGA DC | 2022 All Rights Reserved."
 copyright: "&copy; AIGA DC | 2022 All Rights Reserved."

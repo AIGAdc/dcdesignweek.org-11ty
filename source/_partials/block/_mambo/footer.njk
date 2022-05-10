@@ -1,41 +1,5 @@
-<footer class="[ mambo-footer ][ grid-flow ][ padding-all-16 ]" id="settings">
-	<h2>
-	Footer
-	</h2>
+<footer class="[ mambo-footer ][ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ][ padding-all-16 ]" id="settings">
 	<div>
-		<h3>
-		Social Media:
-		</h3>
-		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
-			{% for link in settings.socialMediaLinks %}
-				<li class="link">
-					<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
-						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-						{{ link.icon | safe }}
-						{{ link.title | safe }}
-					</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div>
-		<h3>
-		Primary Navigation:
-		</h3>
-		<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
-			{% for link in settings.primaryNavLinks %}
-				<li class="link">
-					<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-						{{ link.title | safe }}
-					</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div>
-		<h3>
-		Secondary Navigation:
-		</h3>
 		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
 			{% for link in settings.secondaryNavLinks %}
 				<li class="link">
@@ -46,10 +10,22 @@
 			{% endfor %}
 		</ul>
 	</div>
+	<div>
+		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+			{% for link in settings.socialMediaLinks %}
+				<li class="link">
+					<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
+						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
+						{{ link.icon | safe }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 	<p>
 		&copy; AIGA DC | 2022 All Rights Reserved.
 	</p>
-	<a href="#start">
-		Back to Top
-	</a>
 </footer>
+<a href="#start">
+	Back to Top
+</a>
