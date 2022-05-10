@@ -1,12 +1,7 @@
 .divider {
-	border: 0;
+	border: solid 4px black;
 	display: inline-block;
-	height: 4px;
 	margin: auto;
-	max-width: 40px;
+	max-width: 48px;
 	width: 100%;
-
-	&--black {
-		background-color: var(--black);
-	}
 }
