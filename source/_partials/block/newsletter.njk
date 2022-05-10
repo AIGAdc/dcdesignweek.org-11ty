@@ -1,11 +1,11 @@
 <section class="[ small-subscription ] [ flow ] [ padding-all-16 ]" id="small-subscription">
 	{% for content in subscription.global %}
-	<h2>
+		<h2>
 		{{ content.header }}
-	</h2>
-	<p>
-		{{ content.body | safe }}
-	</p>
+		</h2>
+		<p>
+			{{ content.body | safe }}
+		</p>
 	{% endfor %}
 	<!-- Begin Mailchimp Signup Form -->
 	<div class="mailchimp" id="mc_embed_signup">
@@ -31,7 +31,7 @@
 					</div>
 					<div>
 						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-							class="button button-solid--black">
+						class="button button-solid--black">
 					</div>
 				</div>
 				<div id="mce-responses" class="clear">
@@ -40,10 +40,10 @@
 				</div>
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-						name="b_a1d74e0d7217ad0690c35dc75_0011013dc1" tabindex="-1" value=""></div>
+				name="b_a1d74e0d7217ad0690c35dc75_0011013dc1" tabindex="-1" value=""></div>
 				<div class="mc-field-group input-group" style="display: none">
 					<strong>
-						I'm also interested In
+					I'm also interested In
 					</strong>
 					<ul>
 						<li>
@@ -73,6 +73,6 @@
 	<script type='text/javascript'>
 		(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[4] = 'CITY'; ftypes[4] = 'text'; fnames[5] = 'STATE'; ftypes[5] = 'text'; fnames[7] = 'MEMTYPE'; ftypes[7] = 'text'; fnames[9] = 'CHAPTER'; ftypes[9] = 'text'; fnames[10] = 'JOINDATE'; ftypes[10] = 'date'; fnames[11] = 'PAIDTHRU'; ftypes[11] = 'date'; fnames[13] = 'GRADDATE'; ftypes[13] = 'text'; fnames[3] = 'PRIMARYCON'; ftypes[3] = 'text'; fnames[14] = 'MEMBER'; ftypes[14] = 'text'; fnames[6] = 'JOBTYPE'; ftypes[6] = 'text'; fnames[8] = 'CURRSKILLS'; ftypes[8] = 'text'; fnames[12] = 'SKILLSINTE'; ftypes[12] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
 	</script>
-	</div>
-	<!--End mc_embed_signup-->
+</div>
+<!--End mc_embed_signup-->
 </section>
