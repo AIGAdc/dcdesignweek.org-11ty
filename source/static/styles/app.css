@@ -4382,6 +4382,11 @@ svg {
   text-align: center;
 }
 
+.mambo-footer {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
 /* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
   align-items: center;
