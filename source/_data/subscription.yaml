@@ -5,5 +5,5 @@
 section:
   - header: Subscribe
     body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
-    sectionBGColor:
-    sectionTextColor:
+    backgroundColor: background-color-white
+    textColor: color-black
