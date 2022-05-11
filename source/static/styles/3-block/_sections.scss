@@ -1,7 +1,19 @@
-.mambo-section div >*:not(:first-child) {
-	margin-top: var(--size-24);
+// .mambo-section div >*:not(:first-child) {
+// 	margin-top: var(--size-24);
+// }
+
+.mambo-section {
+	--gap: var(--size-32);
 }
 
-.mambo-section h2 {
+.mambo-section .text {
+	--gap: var(--size-24);
+}
+
+.mambo-section .text h2 {
 	font-size: var(--size-32);
+}
+
+.mambo-section .details {
+	--gap: var(--size-8);
 }

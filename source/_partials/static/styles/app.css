@@ -268,6 +268,7 @@ h5,
 h6,
 small {
   display: block;
+  line-height: initial;
   text-rendering: optimizeLegibility;
 }
 
@@ -325,13 +326,13 @@ svg {
 
 /* Flow */
 .flow > * + *:not(:first-child) {
-  margin-top: var(--gap, 1rem);
+  margin-top: var(--gap, var(--size-24));
 }
 
 /* Flex */
 .flex-flow {
   display: flex;
-  grid-gap: var(--gap, 1rem);
+  grid-gap: var(--gap, var(--size-24));
 }
 
 .flex-flow-column {
@@ -361,7 +362,7 @@ svg {
 /* Grid */
 .grid-flow {
   display: grid;
-  grid-gap: var(--gap, 1rem);
+  grid-gap: var(--gap, var(--size-32));
 }
 
 .grid-flow-start {
@@ -4353,6 +4354,26 @@ svg {
   border-left: transparent;
 }
 
+.mambo-card {
+  border: solid 1px currentColor;
+}
+
+.mambo-card figure {
+  background-color: currentColor;
+  height: 244px;
+  max-height: 244px;
+  overflow: hidden;
+}
+
+.mambo-card figure img {
+  display: block;
+}
+
+.mambo-card .details {
+  border-top: solid 1px currentColor;
+  padding: var(--size-24);
+}
+
 /* 2022 Styles */
 .card a {
   display: block;
@@ -4375,10 +4396,29 @@ svg {
   gap: var(--gap, 1rem);
 }
 
+.black-on-white {
+  background-color: white;
+  color: black;
+}
+
+.white-on-black {
+  background-color: black;
+  color: white;
+}
+
+.black-on-cream {
+  background-color: var(--color-cream);
+  color: black;
+}
+
+.cream-on-black {
+  background-color: black;
+  color: var(--color-cream);
+}
+
 .divider {
   border: solid 4px currentColor;
   display: inline-block;
-  margin: auto;
   max-width: 48px;
   width: 100%;
 }
@@ -4422,12 +4462,20 @@ svg {
   font-size: var(--size-24);
 }
 
-.mambo-section div > *:not(:first-child) {
-  margin-top: var(--size-24);
+.mambo-section {
+  --gap: var(--size-32);
 }
 
-.mambo-section h2 {
+.mambo-section .text {
+  --gap: var(--size-24);
+}
+
+.mambo-section .text h2 {
   font-size: var(--size-32);
+}
+
+.mambo-section .details {
+  --gap: var(--size-8);
 }
 
 /*!

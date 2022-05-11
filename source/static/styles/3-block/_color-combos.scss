@@ -1,0 +1,19 @@
+.black-on-white {
+	background-color: white;
+	color: black;
+}
+
+.white-on-black {
+	background-color: black;
+	color: white;
+}
+
+.black-on-cream {
+	background-color: var(--color-cream);
+	color: black;
+}
+
+.cream-on-black {
+	background-color: black;
+	color: var(--color-cream);
+}
