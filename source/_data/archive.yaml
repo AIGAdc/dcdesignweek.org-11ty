@@ -1,29 +1,36 @@
 section:
-  - header: DC Design Week Through The Years
-    body:
+  - header: Want to see past DC Design Weeks?
+    body: DC Design Week through the years. We love reminiscing.
+    colorCombo: white-on-black
 
-pastEvents:
-  - image:
+events:
+  - image: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
     imageALT:
-    url: https://2016.dcdesignweek.org/
-    label: DCDW 2016
-  - image:
-    imageALT:
-    url: https://2017.dcdesignweek.org/
-    label: DCDW 2017
-  - image:
-    imageALT:
-    url: https://2018.dcdesignweek.org/
-    label: DCDW 2018
-  - image:
-    imageALT:
-    url: https://2019.dcdesignweek.org/
-    label: DCDW 2019
-  - image:
-    imageALT:
-    url: https://2020.dcdesignweek.org/
-    label: DCDW 2020
-  - image:
-    imageALT:
+    theme: "Hyperlocal"
     url: "#"
-    label: DCDW 2021
+    label: "Checkout DCDW 2021"
+  - image: 
+    imageALT:
+    theme: "Creative Voices"
+    url: "https://2020.dcdesignweek.org/"
+    label: "Checkout DCDW 2020"
+  - image: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    imageALT:
+    theme: "Unconventional Wisdom"
+    url: "https://2019.dcdesignweek.org/"
+    label: "Checkout DCDW 2019"
+  - image: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    imageALT:
+    theme: 
+    url: "https://2018.dcdesignweek.org/"
+    label: "Checkout DCDW 2018"
+  - image: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    imageALT:
+    theme: 
+    url: "https://2017.dcdesignweek.org/"
+    label: "Checkout DCDW 2017"
+  - image: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    imageALT:
+    theme: 
+    url: "https://2016.dcdesignweek.org/"
+    label: "Checkout DCDW 2016"
