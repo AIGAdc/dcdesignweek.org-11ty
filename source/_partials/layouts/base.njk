@@ -5,15 +5,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title }} | 2022 DC Design Week</title>
-		<link rel="stylesheet" href="../static/styles/app.css">
-{# 		<!-- capture the CSS content as a Nunjucks variable -->
+		<!-- capture the CSS content as a Nunjucks variable -->
 		{% set css %}
 		{% include "static/styles/app.css" %}
 	{% endset %}
 	<!-- feed it through our cssmin filter to minify -->
 	<style type="text/css">
 		{{css | safe }}
-	</style> #}
+	</style>
 	<!-- Script: Font Awesome  -->
 	<link rel="stylesheet" href="https://use.typekit.net/jvp8qxy.css">
 	<script src="https://kit.fontawesome.com/38aa62a4a1.js" crossorigin="anonymous"></script>
@@ -23,15 +22,15 @@
 	<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-	{% include 'block/skip-to-content.njk' %}
-	{% include 'block/_mambo/header.njk' %}
+	{% include '1-mambo-blocks/skip-to-content.njk' %}
+	{% include '1-mambo-blocks/header.njk' %}
 	<main id="content">
-		{% include 'block/_mambo/hero.njk' %}
+		{% include '1-mambo-blocks/hero.njk' %}
 		{% block content %}
 			{{ content | safe }}
 		{% endblock %}
-		{% include 'block/_mambo/newsletter.njk' %}
+		{% include '1-mambo-blocks/newsletter.njk' %}
 	</main>
-	{% include 'block/_mambo/footer.njk' %}
+	{% include '1-mambo-blocks/footer.njk' %}
 </body>
 </html>
