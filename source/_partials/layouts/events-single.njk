@@ -2,15 +2,15 @@
 {% block content %}
 	<div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
 		<div>
-			{% include 'block/event-single/details.njk' %}
-			{% include 'block/event-single/speaker.njk' %}
-			{% include 'block/event-single/preparation.njk' %}
-			{% include 'block/event-single/accessibility.njk' %}
-			{% include 'block/event-single/code-of-conduct.njk' %}
-			{% include 'block/faqs-small.njk' %}
+			{% include '2-layout-blocks/events-single-details.njk' %}
+			{% include '2-layout-blocks/events-single-speaker.njk' %}
+			{% include '2-layout-blocks/events-single-preparation.njk' %}
+			{% include '2-layout-blocks/events-single-accessibility.njk' %}
+			{% include '2-layout-blocks/events-single-code-of-conduct.njk' %}
+			{% include '2-layout-blocks/featured-faqs.njk' %}
 		</div>
 		<div class="sticky">
-			{% include 'block/event-single/tickets.njk' %}
+			{% include '2-layout-blocks/events-single-tickets.njk' %}
 		</div>
 	</div>
 {% endblock %}

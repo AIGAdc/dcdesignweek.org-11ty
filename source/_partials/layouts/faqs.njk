@@ -1,10 +1,10 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
+	{% include '2-layout-blocks/list-faqs.njk' %}
+	{% include '2-layout-blocks/featured-accessibility.njk' %}
 	{% if content %}
-		{% include 'block/page-content.njk' %}
+		{% include '1-mambo-blocks/content.njk' %}
 	{% endif %}
-	{% include 'block/faqs-large.njk' %}
-	{% include 'block/featured/accessibility.njk' %}
 {% endblock %}
 <script>
 	var disclosure = new Houdini('[data-houdini-group="faq"]', {
