@@ -6,11 +6,13 @@
 	</div>
 	<ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
 		{% for link in settings.primaryNavLinks %}
-			<li class="link">
-				<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-					{{ link.title | safe }}
-				</a>
-			</li>
+			{% if link.enabled == true %}
+				<li class="link">
+					<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+						{{ link.title | safe }}
+					</a>
+				</li>
+			{% endif %}
 		{% endfor %}
 	</ul>
 </header>
