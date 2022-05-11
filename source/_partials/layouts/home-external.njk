@@ -1,12 +1,9 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-	EXTERNAL
+	{% include '2-layout-blocks/featured-events.njk' %}
+	{% include '2-layout-blocks/featured-agency.njk' %}
+	{% include '2-layout-blocks/featured-sponsors.njk' %}
 	{% if content %}
-		<section class="wysiwyg">
-			{{ content | safe }}
-		</section>
+		{% include '1-mambo-blocks/content.njk' %}
 	{% endif %}
-	{% include 'block/featured/events.njk' %}
-	{% include 'block/featured/agency.njk' %}
-	{% include 'block/featured/sponsors.njk' %}
 {% endblock %}
