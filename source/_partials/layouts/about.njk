@@ -1,8 +1,8 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
+	{% include '2-layout-blocks/list-staff.njk' %}
+	{% include '2-layout-blocks/list-sponsors.njk' %}
 	{% if content %}
-		{% include 'block/page-content.njk' %}
+		{% include '1-mambo-blocks/content.njk' %}
 	{% endif %}
-	{% include 'block/staff-large.njk' %}
-	{% include 'block/featured/sponsors.njk' %}
 {% endblock %}
