@@ -15,6 +15,7 @@
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-gray: #EBEBEB;
   --color-cream: #f6c84c;
   --color-teal: #00857a;
   --color-valencia: #cc4929;
@@ -68,6 +69,7 @@
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-gray: #EBEBEB;
   --color-cream: #f6c84c;
   --color-teal: #00857a;
   --color-valencia: #cc4929;
@@ -419,6 +421,10 @@ svg {
   background-color: var(--color-white);
 }
 
+.background-color-gray {
+  background-color: var(--color-gray);
+}
+
 .background-color-cream {
   background-color: var(--color-cream);
 }
@@ -443,6 +449,10 @@ svg {
   border-color: var(--color-white);
 }
 
+.border-color-gray {
+  border-color: var(--color-gray);
+}
+
 .border-color-cream {
   border-color: var(--color-cream);
 }
@@ -465,6 +475,10 @@ svg {
 
 .color-white {
   color: var(--color-white);
+}
+
+.color-gray {
+  color: var(--color-gray);
 }
 
 .color-cream {
@@ -1507,7 +1521,7 @@ svg {
   padding-left: var(--size-160);
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .small\:font-size-none {
     font-size: var(--size-none);
   }
@@ -2432,7 +2446,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .medium\:font-size-none {
     font-size: var(--size-none);
   }
@@ -3357,7 +3371,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .large\:font-size-none {
     font-size: var(--size-none);
   }
@@ -4361,6 +4375,14 @@ svg {
   gap: var(--gap, 1rem);
 }
 
+.divider {
+  border: solid 4px currentColor;
+  display: inline-block;
+  margin: auto;
+  max-width: 48px;
+  width: 100%;
+}
+
 .filter-events__reset.control-group .mambo-button {
   width: 100%;
 }
@@ -4372,6 +4394,11 @@ svg {
   right: 0;
   left: 0;
   text-align: center;
+}
+
+.mambo-footer {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */
@@ -4393,6 +4420,14 @@ svg {
 
 .mambo-hero .wysiwyg {
   font-size: var(--size-24);
+}
+
+.mambo-section div > *:not(:first-child) {
+  margin-top: var(--size-24);
+}
+
+.mambo-section h2 {
+  font-size: var(--size-32);
 }
 
 /*!
