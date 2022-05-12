@@ -5,8 +5,7 @@ description: >-
 heroHeader: DC Design Week 2022
 heroBody: >-
   DC Design Week is an annual celebration of DC’s vibrant, diverse creative community. This year we’re once again asking you, our community members, to help us build DC Design Week. **Submit an event proposal by June 12, 2022!**
-sectionOneBackgroundColor: background-color-gray
-sectionOneTextColor: color-black
+sectionOneColorCombo: background-color-gray
 sectionOneHeader: What is DC Design Week?
 sectionOneBody: >-
   If you don’t already know us, DC Design Week (DCDW) is an annual celebration of DC’s creative community: An ever-growing body of professionals, makers, and voices working across design disciplines.
@@ -16,8 +15,7 @@ sectionOneBody: >-
 
 
   Find more details on what we’re looking for below. You can also join us for an **information session on May 25, 2022**, to learn more about [submitting an event.](#)
-sectionTwoBackgroundColor: background-color-white
-sectionTwoTextColor: color-black
+sectionTwoColorCombo: background-color-white
 sectionTwoHeader: What is DC Design Week looking for in an event?
 sectionTwoBody: >-
   We’ll review event proposals based on their quality, attention to detail, and adherence to [DC Design Week’s Code of Conduct.](#) This criteria helps us offer community-curated events that reflect our community’s diverse interests, values, and needs. All events that we host should be relevant, engaging, and provide value for the DC design community.
@@ -42,8 +40,7 @@ sectionTwoQuestion8Title: Panel
 sectionTwoQuestion8Body:
 sectionTwoQuestion9Title: Talk
 sectionTwoQuestion9Body:
-sectionThreeBackgroundColor: background-color-gray
-sectionThreeTextColor: color-black
+sectionThreeColorCombo: background-color-gray
 sectionThreeHeader: The pandemic still isn’t over. What is DC Design Week’s stance on including in-person events?
 sectionThreeBody: >- 
   COVID-19 is a rapidly changing, ongoing pandemic. The wide distribution of vaccines in DC and across the nation makes us hopeful that we can bring back more in-person event experiences to DCDW 2022..
@@ -55,8 +52,7 @@ sectionThreeBody: >-
   That said, DC Design Week **will always follow the latest** [CDC guidance on hosting in-person gatherings.](#) As a result, we might pivot events to virtual experiences if the situation changes. Prospective event partners must understand this when proposing in-person events. We will work with selected event partners to ensure that each in-person event follows the latest CDC guidelines and has appropriate contingency plans.
 sectionThreeQuestion1Title: How does event ticketing and pricing work?
 sectionThreeQuestion1Body:
-sectionFourBackgroundColor: background-color-white
-sectionFourTextColor: color-black
+sectionFourColorCombo: background-color-white
 sectionFourHeader: Lorem Ipsum Dolor Sit Amet
 sectionFourBody: Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam aliquet aliquam consectetur. Integer vestibulum blandit faucibus. Vestibulum sed ligula feugiat, lacinia enim ac, fringilla turpis.
 sectionFourQuestion1Title: How do I submit an event for consideration?
@@ -65,22 +61,22 @@ sectionFourQuestion2Title: What information do I need to submit with my event id
 sectionFourQuestion2Body:
 sectionFourQuestion3Title: What happens after submitting an event proposal?
 sectionFourQuestion3Body:
-sectionFiveBackgroundColor: background-color-gray
-sectionFiveTextColor: color-black
+sectionFiveColorCombo: black-on-white
 sectionFiveHeader: How else can I get involved with DC Design Week 2022?
-sectionFiveBody: Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam aliquet aliquam consectetur. Integer vestibulum blandit faucibus. Vestibulum sed ligula feugiat, lacinia enim ac, fringilla turpis.
-sectionFiveCard1Image:
-sectionFiveCard1ImageAlt:
-sectionFiveCard1Title: Sponsorship
-sectionFiveCard1Body: Whether you’re able to offer in-kind services or financial support, we welcome sponsorship partners who can help make DCDW even better. 
-sectionFiveCard1LinkURL: "#"
-sectionFiveCard1LinkLabel: Contact DCDW about sponsorship
-sectionFiveCard2Image:
-sectionFiveCard2ImageAlt:
-sectionFiveCard2Title: Volunteer
-sectionFiveCard2Body: You can help out the day of an event during DC Design Week with Zoom support, cleaning up or tearing down in-person events, and more.
-sectionFiveCard2LinkURL: "#"
-sectionFiveCard2LinkLabel: Sign up to join our volunteer list
+sectionFiveBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the same without the support of our community. We are always looking for sponsors who can help ensure this week is as accessible and inclusive as possible, as well as  volunteers who can provide support during DC Design Week.
+sectionFiveCards:
+  - sectionFiveCardImage: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    sectionFiveCardImageAlt: 🛑 Provide Alt Text
+    sectionFiveCardTitle: Sponsorship
+    sectionFiveCardBody: Whether you’re able to offer in-kind services or financial support, we welcome sponsorship partners who can help make DCDW even better.
+    sectionFiveCardLinkURL: "#"
+    sectionFiveCardLinkLabel: Contact DCDW about sponsorship
+  - sectionFiveCardImage: https://www.teahub.io/photos/full/40-400632_overwatch-shrike-ana-art.jpg
+    sectionFiveCardImageAlt: 🛑 Provide Alt Text
+    sectionFiveCardTitle: Volunteer
+    sectionFiveCardBody: You can help out the day of an event during DC Design Week with Zoom support, cleaning up or tearing down in-person events, and more.
+    sectionFiveCardLinkURL: "#"
+    sectionFiveCardLinkLabel: Sign up to join our volunteer list
 layout: layouts/home-internal.njk
 permalink: /
 ---

@@ -1,19 +1,29 @@
 .black-on-white {
-	background-color: white;
-	color: black;
+	background-color: var(--color-white);
+	color: var(--color-black);
 }
 
 .white-on-black {
-	background-color: black;
-	color: white;
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+.black-on-gray {
+	background-color: var(--color-gray);
+	color: var(--color-black);
+}
+
+.gray-on-black {
+	background-color: var(--color-black);
+	color: var(--color-gray);
 }
 
 .black-on-cream {
 	background-color: var(--color-cream);
-	color: black;
+	color: var(--color-black);
 }
 
 .cream-on-black {
-	background-color: black;
+	background-color: var(--color-black);
 	color: var(--color-cream);
 }

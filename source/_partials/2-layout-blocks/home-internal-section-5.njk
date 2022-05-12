@@ -1,10 +1,23 @@
-<section class="[ mambo-section ][ flex-flow flex-flow-column flex-flow-start ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {{ sectionFiveBackgroundColor | safe }} {{sectionFiveTextColor | safe }} ]" id="section-5">
-	<div class="[ container-default ]">
-		<h2>{{ sectionFiveHeader | md | safe }}</h2>
-		<hr class="divider">
-		<div class="wysiwyg flow-3">{{ sectionFiveBody | md | safe }}</div>
-	</div>
-	<div class="[ container-default ]">
-		Cards List
+<section class="[ mambo-section ][ flex-flow flex-flow-column flex-flow-start ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {{ sectionFiveColorCombo | safe }} ]" id="{{ sectionFiveHeader | slug }}">
+	<div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
+		<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
+			<h2>{{ sectionFiveHeader | md | safe }}</h2>
+			<hr class="divider">
+			<div class="wysiwyg flow-3">{{ sectionFiveBody | md | safe }}</div>
+		</div>
+		<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+			{% for card in sectionFiveCards %}
+				<li class="[ mambo-card ][ archived-event ]">
+					<figure class="[ image ]">
+						<img alt="{{ card.sectionFiveCardImageAlt }}" loading=lazy src="{{ card.sectionFiveCardImage }}">
+					</figure>
+					<div class="[ details ][ flex-flow flex-flow-column ]">
+						<h3>{{ card.sectionFiveCardTitle | safe }}</h3>
+						<p>{{ card.sectionFiveCardBody | safe }}</p>
+						<a href="{{ card.sectionFiveCardLinkURL }}" rel="noopener noreferrer" target="_blank">{{ card.sectionFiveCardLinkLabel | safe }}</a>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>

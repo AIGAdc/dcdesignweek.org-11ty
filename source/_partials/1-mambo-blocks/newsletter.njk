@@ -1,4 +1,4 @@
-<section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {% for content in subscription.section %} {{ content.BackgroundColor | safe }} {{content.TextColor | safe }} {% endfor %} ]" id="newsletter">
+<section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {% for content in subscription.section %} {{ content.colorCombo | safe }} {% endfor %} ]" id="newsletter">
 <div class="[ container-default ]">
 {% for content in subscription.section %}
 	<h2>
