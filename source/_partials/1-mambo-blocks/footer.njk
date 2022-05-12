@@ -4,7 +4,7 @@
 			{% for link in settings.secondaryNavLinks %}
 				{% if link.enabled == true %}
 					<li class="link">
-						<a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+						<a aria-label="{{ link.title }}" class="[ anchor ][ color-blue ] mambo-button-link" href="{{ link.url }}">
 							{{ link.title | safe }}
 						</a>
 					</li>
@@ -16,7 +16,7 @@
 		<ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
 			{% for link in settings.socialMediaLinks %}
 				<li class="link">
-					<a aria-label="{{ link.title }}" class="anchor [ flex-flow flex-flow-row flex-flow-center ]"
+					<a aria-label="{{ link.title }}" class="[ anchor ][ flex-flow flex-flow-row flex-flow-center ]"
 						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
 						{{ link.icon | safe }}
 					</a>
