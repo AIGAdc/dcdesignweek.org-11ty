@@ -16,6 +16,7 @@
   --color-black: #000000;
   --color-white: #ffffff;
   --color-gray: #EBEBEB;
+  --color-blue: #0000EE;
   --color-cream: #f6c84c;
   --color-teal: #00857a;
   --color-valencia: #cc4929;
@@ -70,6 +71,7 @@
   --color-black: #000000;
   --color-white: #ffffff;
   --color-gray: #EBEBEB;
+  --color-blue: #0000EE;
   --color-cream: #f6c84c;
   --color-teal: #00857a;
   --color-valencia: #cc4929;
@@ -426,6 +428,10 @@ svg {
   background-color: var(--color-gray);
 }
 
+.background-color-blue {
+  background-color: var(--color-blue);
+}
+
 .background-color-cream {
   background-color: var(--color-cream);
 }
@@ -454,6 +460,10 @@ svg {
   border-color: var(--color-gray);
 }
 
+.border-color-blue {
+  border-color: var(--color-blue);
+}
+
 .border-color-cream {
   border-color: var(--color-cream);
 }
@@ -480,6 +490,10 @@ svg {
 
 .color-gray {
   color: var(--color-gray);
+}
+
+.color-blue {
+  color: var(--color-blue);
 }
 
 .color-cream {
