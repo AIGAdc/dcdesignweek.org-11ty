@@ -1,9 +1,14 @@
-// .mambo-section div >*:not(:first-child) {
-// 	margin-top: var(--size-24);
-// }
-
 .mambo-section {
 	--gap: var(--size-32);
+	padding: var(--size-48);
+}
+
+.mambo-section h1 {
+	font-size: var(--size-32);
+}
+
+.mambo-section p {
+	font-size: var(--size-20);
 }
 
 .mambo-section .text {
@@ -16,4 +21,22 @@
 
 .mambo-section .details {
 	--gap: var(--size-8);
+}
+
+.mambo-section .wysiwyg {
+	font-size: var(--size-24);
+}
+
+@media screen and (min-width:768px) {
+	.mambo-section h1 {
+		font-size: var(--size-40);
+	}
+
+}
+
+@media screen and (min-width:1024px) {
+	.mambo-section h1 {
+		font-size: var(--size-64);
+	}
+
 }

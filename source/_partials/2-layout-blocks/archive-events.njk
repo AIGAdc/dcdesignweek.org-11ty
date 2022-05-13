@@ -8,8 +8,8 @@
 		<div class="wysiwyg flow-3">{{ content.body | safe }}</div>
 	{% endfor %}
 </div>
-<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-three-columns ]">
-	{% for content in archive.events  | limit(3) %}
+<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+	{% for content in archive.events  | limit(2) %}
 		<li class="[ mambo-card ][ archived-event ]">
 			<figure class="[ image ]">
 				<img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
