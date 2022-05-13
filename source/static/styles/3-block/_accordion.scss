@@ -1,1 +1,17 @@
 /* Component: mambo-accordion */
+.mambo-accordions {
+	--gap: var(--size-16);
+}
+
+.mambo-accordion {
+}
+
+.mambo-accordion .question {
+	gap: var(--size-16);
+	font-size: var(--size-20);
+	justify-content: unset;
+}
+
+.mambo-accordion .question .question-icon {
+    flex-grow: 1;
+}

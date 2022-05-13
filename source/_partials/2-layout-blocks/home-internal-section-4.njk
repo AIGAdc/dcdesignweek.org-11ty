@@ -1,8 +1,10 @@
-<section class="[ mambo-section ][ flex-flow flex-flow-column flex-flow-start ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {{ sectionFourColorCombo | safe }} ]" id="{{ sectionFourHeader | slug }}">
-	<div class="[ container-default ]">
-		<h2>{{ sectionFourHeader | md | safe }}</h2>
-		<hr class="divider">
-		<div class="wysiwyg flow-3">{{ sectionFourBody | md | safe }}</div>
+<section class="[ mambo-section ][ flow ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {{ sectionFourColorCombo | safe }} ]" id="{{ sectionFourHeader | slug }}">
+	<div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
+		<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
+			<h2>{{ sectionFourHeader | md | safe }}</h2>
+			<hr class="divider">
+			<div class="wysiwyg flow-3">{{ sectionFourBody | md | safe }}</div>
+		</div>
 	</div>
 	<div class="[ container-default ]">
 		FAQs List
