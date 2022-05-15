@@ -247,7 +247,6 @@ input:focus {
   Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
 
   Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
-  border-radius: 0.5rem;
   box-shadow: 0 0 0 4px var(--color-valencia), 0 0 0px 4px var(--color-white);
   outline: 4px solid var(--color-black);
   outline-offset: 4px;
@@ -4502,6 +4501,10 @@ svg {
 
 .wysiwyg > *:not(:first-child) {
   margin-top: var(--size-16);
+}
+
+.wysiwyg a {
+  color: var(--color-blue);
 }
 
 .wysiwyg ul,
