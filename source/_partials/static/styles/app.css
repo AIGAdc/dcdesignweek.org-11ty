@@ -4526,12 +4526,41 @@ svg {
 
 .mambo-accordion .question {
   gap: var(--size-16);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: solid 1px var(--color-black);
+  font-family: unset;
   font-size: var(--size-20);
+  font-weight: var(--weight-600);
   justify-content: unset;
+  padding: var(--size-16);
+  text-align: right;
+  width: 100%;
 }
 
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
+}
+
+.mambo-accordion .answer {
+  display: none;
+}
+
+.mambo-accordion .answer.is-expanded {
+  border: solid 1px var(--color-black);
+  display: block;
+  position: relative;
+  top: -1px;
+  padding: var(--size-16);
+}
+
+.mambo-accordion .answer.is-expanded:focus {
+  border: 0;
+  box-shadow: unset;
+  outline: unset;
+  overflow: unset;
 }
 
 /* Component: mambo-banner */
@@ -4715,47 +4744,7 @@ svg {
  * MIT License
  * http://github.com/cferdinandi/houdini
  */
-.question {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  background-color: transparent;
-  border: solid 1px var(--color-black);
-  font-family: var(--font-family-sans);
-  font-size: var(--size-24);
-  font-weight: var(--weight-600);
-  line-height: 1.5;
-  padding: var(--size-16);
-  text-align: left;
-  width: 100%;
-}
-
-.answer {
-  display: none;
-}
-
-.answer.is-expanded {
-  border: solid 1px var(--color-black);
-  display: block;
-  position: relative;
-  top: -1px;
-  padding: var(--size-16);
-}
-
-.answer.is-expanded:focus {
-  border: 0;
-  box-shadow: unset;
-  outline: unset;
-  overflow: unset;
-}
-
-/**
- * Style icon
- */
-.houdini-toggle-icon {
-  padding: var(--size-8);
-}
-
+/* See _accordions.scss for styled version of this component. */
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 .grid--mailchimp {
   display: grid;
