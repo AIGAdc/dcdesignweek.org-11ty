@@ -2,12 +2,7 @@
 	border: solid 1px currentColor;
 }
 
-.mambo-card figure {
-	overflow: hidden;
-}
-
-.mambo-card figure img {
-	display: block;
+.mambo-card img {
 	height: 200px;
 	width: 100%;
 	object-fit: contain;
@@ -17,20 +12,6 @@
 .mambo-card .details {
 	border-top: solid 1px currentColor;
 	padding: var(--size-24);
-}
-
-/* 2022 Styles */
-.card a {
-	display: block;
-	text-decoration: none;
-}
-
-.card small {
-	color: rgba(0, 0, 0, 0.5);
-}
-
-.card img {
-	width: 100%;
 }
 
 /* This is a hacky work around specifically for Speaker and Staff cards */
