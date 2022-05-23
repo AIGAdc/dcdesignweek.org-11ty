@@ -4846,8 +4846,15 @@ svg {
 .mambo-footer {
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+  flex-direction: column;
+  align-items: start;
 }
 
+@media screen and (min-width: 1024px) {
+  .mambo-footer {
+    flex-direction: row;
+  }
+}
 /* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
   align-items: center;
