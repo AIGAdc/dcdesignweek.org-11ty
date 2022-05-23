@@ -13,7 +13,7 @@
 			{% for question in sectionOneQuestions %}
 				<li class="[ mambo-accordion ]">
 					<!-- Trigger for hidden content -->
-					<h3 class="[ flex-flow flex-flow flex-flow-space-between ]" data-houdini-toggle="sectionOneQuestionsID-{{ question.trigger }}"><i class="fa-solid fa-sparkles"></i> {{ question.question | safe }}</h3>
+					<h3 class="[ flex-flow flex-flow flex-flow-space-between ]" data-houdini-toggle="sectionOneQuestionsID-{{ question.trigger }}"> {{ question.question | safe }}</h3>
 					<!-- Hidden Content -->
 					<div class="[ answer ][ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
 				data-houdini-group="sectionOneQuestionsID" id="sectionOneQuestionsID-{{ question.trigger }}">{{ question.answer | md | safe }}</div>
