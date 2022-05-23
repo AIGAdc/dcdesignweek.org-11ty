@@ -4774,14 +4774,15 @@ svg {
 }
 
 .mambo-card figure {
-  background-color: currentColor;
-  height: 244px;
-  max-height: 244px;
   overflow: hidden;
 }
 
 .mambo-card figure img {
   display: block;
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .mambo-card .details {
