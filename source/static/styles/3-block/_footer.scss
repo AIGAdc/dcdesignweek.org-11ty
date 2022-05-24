@@ -1,8 +1,6 @@
 .mambo-footer {
-	border-top: solid 1px black;
-	border-bottom: solid 1px black;
+	border-top: solid 1px var(--color-white);
 	flex-direction: column;
-	align-items: start;
 }
 
 @media screen and (min-width: 1024px) {
