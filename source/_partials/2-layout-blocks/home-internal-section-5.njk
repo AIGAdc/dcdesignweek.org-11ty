@@ -7,14 +7,14 @@
 		</div>
 		<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
 			{% for card in sectionFiveCards %}
-				<li class="[ mambo-card ][ archived-event ]">
-					<figure class="[ image ]">
+				<li class="[ mambo-card ]">
+					<figure class="[ image ][ background-color-cream ]">
 						<img alt="{{ card.sectionFiveCardImageAlt }}" loading=lazy src="{{ card.sectionFiveCardImage }}">
 					</figure>
-					<div class="[ details ][ flex-flow flex-flow-column ]">
+					<div class="[ details content ][ background-color-zodiac color-white ][ flex-flow flex-flow-column ][ padding-all-24 ]">
 						<h3>{{ card.sectionFiveCardTitle | safe }}</h3>
 						<p>{{ card.sectionFiveCardBody | safe }}</p>
-						<a class="[ color-blue ]" href="{{ card.sectionFiveCardLinkURL }}" rel="noopener noreferrer" target="_blank">{{ card.sectionFiveCardLinkLabel | safe }}</a>
+						<a class="[ mambo-anchor ][ color-cream ]" href="{{ card.sectionFiveCardLinkURL }}" rel="noopener noreferrer" target="_blank">{{ card.sectionFiveCardLinkLabel | safe }}</a>
 					</div>
 				</li>
 			{% endfor %}

@@ -5,7 +5,7 @@
 	{% for content in archive.section %}
 		<h2>{{ content.header | safe }}</h2>
 		<hr class="divider">
-		<div class="wysiwyg flow-3">{{ content.body | safe }}</div>
+		<div class="wysiwyg flow-3">{{ content.body | md | safe }}</div>
 	{% endfor %}
 </div>
 <ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
