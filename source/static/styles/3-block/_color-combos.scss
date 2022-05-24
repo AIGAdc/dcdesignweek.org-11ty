@@ -9,8 +9,17 @@
 }
 
 .white-on-zodiac {
-		background-color: var(--color-zodiac);
+	background-color: var(--color-zodiac);
 	color: var(--color-white);
+}
+
+.zodiac-on-cream {
+		background-color: var(--color-cream);
+	color: var(--color-zodiac);
+}
+.zodiac-on-white {
+	background-color: var(--color-white);
+	color: var(--color-zodiac);
 }
 
 .black-on-gray {

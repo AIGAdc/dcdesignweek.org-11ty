@@ -250,7 +250,7 @@ input:focus {
 
   Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
   box-shadow: 0 0 0 4px var(--color-valencia), 0 0 0px 4px var(--color-white);
-  outline: 4px solid var(--color-black);
+  outline: 4px solid currentColor;
   outline-offset: 4px;
   overflow: hidden;
   position: relative;
@@ -4811,6 +4811,16 @@ svg {
 .white-on-zodiac {
   background-color: var(--color-zodiac);
   color: var(--color-white);
+}
+
+.zodiac-on-cream {
+  background-color: var(--color-cream);
+  color: var(--color-zodiac);
+}
+
+.zodiac-on-white {
+  background-color: var(--color-white);
+  color: var(--color-zodiac);
 }
 
 .black-on-gray {
