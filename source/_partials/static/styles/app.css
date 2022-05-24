@@ -383,16 +383,18 @@ svg {
 }
 
 .grid-one-column,
+.grid-two-columns,
 .grid-three-columns,
 .grid-four-columns,
 .grid-three-fourths {
   grid-template-columns: 1fr;
 }
 
-.grid-two-columns {
-  grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 768px) {
+  .grid-two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
 @media screen and (min-width: 1024px) {
   .grid-three-columns {
     grid-template-columns: repeat(3, 1fr);
@@ -4691,8 +4693,26 @@ section[data-color=white-on-zodiac] a {
   color: var(--color-cream) !important;
 }
 
+section[data-color=white-on-zodiac] .mambo-accordion .question {
+  border: solid 1px var(--color-cream);
+  background-color: var(--color-cream);
+  color: var(--color-zodiac);
+}
+
+section[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
+  border: solid 1px var(--color-cream);
+  background-color: var(--color-white);
+  color: var(--color-zodiac);
+}
+
+section[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded a,
 section[data-color=zodiac-on-white] a {
   color: var(--color-valencia) !important;
+}
+
+section[data-color=zodiac-on-white] .mambo-accordion .question {
+  background-color: var(--color-zodiac);
+  color: var(--color-cream);
 }
 
 .sticky {
