@@ -30,7 +30,8 @@ a {
 	cursor: pointer;
 	font-family: var(--font-family-sans);
 	font-weight: var(--weight-600);
-	padding: var(--size-8);
+	text-underline-offset: 4px;
+	text-decoration-thickness: 4px;
 	transition: opacity var(--timing-default) ease-in;
 }
 

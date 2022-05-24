@@ -224,7 +224,8 @@ a {
   cursor: pointer;
   font-family: var(--font-family-sans);
   font-weight: var(--weight-600);
-  padding: var(--size-8);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 4px;
   transition: opacity var(--timing-default) ease-in;
 }
 
@@ -4681,13 +4682,17 @@ svg {
   margin-top: var(--size-16);
 }
 
-.wysiwyg a {
-  color: var(--color-blue);
-}
-
 .wysiwyg ul,
 .wysiwyg li {
   margin-left: var(--size-16);
+}
+
+section[data-color=white-on-zodiac] a {
+  color: var(--color-cream) !important;
+}
+
+section[data-color=zodiac-on-white] a {
+  color: var(--color-valencia) !important;
 }
 
 .sticky {
@@ -4774,19 +4779,14 @@ svg {
   border-left: transparent;
 }
 
-.mambo-card {
-  border: solid 1px currentColor;
-}
-
 .mambo-card img {
   height: 200px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
 .mambo-card .details {
-  border-top: solid 1px currentColor;
   padding: var(--size-24);
 }
 
@@ -4805,6 +4805,11 @@ svg {
 
 .white-on-black {
   background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.white-on-teal {
+  background-color: var(--color-teal);
   color: var(--color-white);
 }
 
@@ -4934,7 +4939,6 @@ svg {
 
 .mambo-section {
   --gap: var(--size-32);
-  padding: var(--size-48);
 }
 
 .mambo-section h1 {
