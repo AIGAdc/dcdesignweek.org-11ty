@@ -6890,6 +6890,11 @@ h3 {
   left: 0;
 }
 
+.white-on-zodiac {
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+}
+
 .black-on-gray {
   background-color: var(--color-gray);
   color: var(--color-black);
