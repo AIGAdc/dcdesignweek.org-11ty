@@ -4808,6 +4808,11 @@ svg {
   color: var(--color-white);
 }
 
+.white-on-zodiac {
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+}
+
 .black-on-gray {
   background-color: var(--color-gray);
   color: var(--color-black);
