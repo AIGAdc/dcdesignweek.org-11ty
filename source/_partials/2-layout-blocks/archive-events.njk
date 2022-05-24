@@ -10,13 +10,13 @@
 </div>
 <ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
 	{% for content in archive.events  | limit(2) %}
-		<li class="[ mambo-card ][ archived-event ]">
+		<li class="[ mambo-card ]">
 			<figure class="[ image ]">
 				<img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
 			</figure>
-			<div class="[ details ][ flex-flow flex-flow-column ]">
+			<div class="[ content ][ background-color-cream color-zodiac ][ padding-all-24 ]">
 				<h3>{{ content.theme | safe }}</h3>
-				<a class="[ color-blue ]" href="{{ content.url }}" rel="noopener noreferrer" target="_blank">{{ content.label | safe }}</a>
+				<a class="[ mambo-anchor ][ color-valencia ]" href="{{ content.url }}">{{ content.label | safe }}</a>
 			</div>
 		</li>
 	{% endfor %}
