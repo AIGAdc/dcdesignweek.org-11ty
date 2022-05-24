@@ -4689,28 +4689,28 @@ svg {
   margin-left: var(--size-16);
 }
 
-section[data-color=white-on-zodiac] a {
+*[data-color=white-on-zodiac] a {
   color: var(--color-cream) !important;
 }
 
-section[data-color=white-on-zodiac] .mambo-accordion .question {
-  border: solid 1px var(--color-cream);
+*[data-color=white-on-zodiac] .mambo-accordion .question {
   background-color: var(--color-cream);
-  color: var(--color-zodiac);
-}
-
-section[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
   border: solid 1px var(--color-cream);
-  background-color: var(--color-white);
   color: var(--color-zodiac);
 }
 
-section[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded a,
-section[data-color=zodiac-on-white] a {
+*[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
+  background-color: var(--color-white);
+  border: solid 1px var(--color-cream);
+  color: var(--color-zodiac);
+}
+
+*[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded a,
+*[data-color=zodiac-on-white] a {
   color: var(--color-valencia) !important;
 }
 
-section[data-color=zodiac-on-white] .mambo-accordion .question {
+*[data-color=zodiac-on-white] .mambo-accordion .question {
   background-color: var(--color-zodiac);
   color: var(--color-cream);
 }
@@ -4893,10 +4893,8 @@ section[data-color=zodiac-on-white] .mambo-accordion .question {
 }
 
 .mambo-footer {
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
+  border-top: solid 1px var(--color-white);
   flex-direction: column;
-  align-items: start;
 }
 
 @media screen and (min-width: 1024px) {
