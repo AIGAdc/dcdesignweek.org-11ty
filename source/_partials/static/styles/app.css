@@ -4712,7 +4712,7 @@ svg {
 
 *[data-color=zodiac-on-white] .mambo-accordion .question {
   background-color: var(--color-zodiac);
-  color: var(--color-cream);
+  color: var(--color-white);
 }
 
 .sticky {
@@ -5006,11 +5006,11 @@ svg {
  */
 /* See _accordions.scss for styled version of this component. */
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-.grid--mailchimp {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 24px;
+.mailchimp #mc_embed_signup_scroll {
   align-items: start;
+  display: grid;
+  grid-gap: var(--size-24);
+  grid-template-columns: repeat(2, 1fr) min-content;
 }
 
 .mailchimp .mc-field-group label {
@@ -5030,9 +5030,14 @@ svg {
   appearance: none !important;
 }
 
-.mailchimp .mc-field-group input:focus {
-  outline: solid 1px var(--color-black);
-  outline-offset: -1px;
+.mailchimp .mc-field-group .faux-label {
+  display: block;
+  min-height: 32px;
+}
+
+.mailchimp .mc-field-group .faux-error {
+  display: block;
+  min-height: 48px;
 }
 
 .mailchimp .asterisk {
@@ -5061,11 +5066,6 @@ svg {
   border: 1px solid var(--color-black);
   margin-right: 4px;
   font-weight: var(--weight-900);
-}
-
-.mailchimp .mc-field-group label,
-.mailchimp .submit-label {
-  margin-bottom: 8px;
 }
 
 .mailchimp #mc-embedded-subscribe-form div.mce_inline_error {
