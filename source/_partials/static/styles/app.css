@@ -4736,7 +4736,6 @@ svg {
   display: flex;
   justify-content: space-between;
   background-color: transparent;
-  border: solid 1px var(--color-black);
   font-family: unset;
   font-size: var(--size-20);
   font-weight: var(--weight-600);
@@ -4756,7 +4755,6 @@ svg {
 }
 
 .mambo-accordion .answer.is-expanded {
-  border: solid 1px var(--color-black);
   display: block;
   position: relative;
   top: -1px;
@@ -4805,7 +4803,7 @@ svg {
 }
 
 .mambo-card img {
-  height: 200px;
+  aspect-ratio: 16/9;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -5010,8 +5008,8 @@ svg {
 .mailchimp #mc_embed_signup_scroll {
   align-items: start;
   display: grid;
-  grid-gap: var(--size-24);
-  grid-template-columns: repeat(2, 1fr) min-content;
+  grid-gap: var(--size-16);
+  grid-template-columns: 1fr;
 }
 
 .mailchimp .mc-field-group label {
@@ -5020,7 +5018,8 @@ svg {
 }
 
 .mailchimp .mc-field-group input {
-  border: solid 1px var(--color-black);
+  background-color: transparent;
+  border: solid 1px var(--color-white);
   border-radius: none;
   color: var(--color-black);
   display: block;
@@ -5029,6 +5028,12 @@ svg {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
+}
+
+.mailchimp .mc-field-group input#mc-embedded-subscribe {
+  background-color: var(--color-cream);
+  color: var(--color-black);
+  padding: var(--size-8) var(--size-16);
 }
 
 .mailchimp .mc-field-group .faux-label {
@@ -5109,13 +5114,12 @@ svg {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-  .grid--mailchimp {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .submit-label {
-    display: block;
+@media screen and (min-width: 1024px) {
+  .mailchimp #mc_embed_signup_scroll {
+    align-items: start;
+    display: grid;
+    grid-gap: var(--size-24);
+    grid-template-columns: repeat(2, 1fr) min-content;
   }
 }
 /*!
