@@ -3,7 +3,10 @@
 	<div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
 		<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
 			<h2>{{ sectionOneHeader | safe }}</h2>
-			<hr aria-hidden="true" class="divider">
+			<span class="mambo-divider">
+				<hr aria-hidden="true" class="top">
+				<hr aria-hidden="true" class="bottom">
+			</span>
 			<div class="wysiwyg flow-3">{{ sectionOneBody | md | safe }}</div>
 		</div>
 	</div>
