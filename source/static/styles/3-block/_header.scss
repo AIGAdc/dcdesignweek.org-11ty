@@ -1,6 +1,9 @@
 .mambo-header {
 	border-bottom: solid 1px var(--color-zodiac);
 	list-style: none;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */
