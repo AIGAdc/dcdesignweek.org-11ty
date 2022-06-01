@@ -1,10 +1,10 @@
 <!-- Archive Events -->
-<section class="[ mambo-section archive-events ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {% for content in archive.section %} {{ content.colorCombo | safe }} {% endfor %} ]" id="archive-events">
+<section class="[ mambo-section archive-events ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {% for content in archive.section %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in archive.section %}{{ content.colorCombo | safe }}{% endfor %}" id="archive-events">
 <div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
 <div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
 	{% for content in archive.section %}
 		<h2>{{ content.header | safe }}</h2>
-		<hr aria-hidden="true" class="divider">
+		{% include '1-mambo-blocks/divider.njk' %}
 		<div class="wysiwyg flow-3">{{ content.body | md | safe }}</div>
 	{% endfor %}
 </div>
