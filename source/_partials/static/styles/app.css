@@ -4689,8 +4689,9 @@ svg {
   margin-left: var(--size-16);
 }
 
-*[data-color=white-on-zodiac] a {
-  color: var(--color-cream) !important;
+*[data-color=white-on-zodiac] {
+  transition: background-color ease-in 500ms;
+  background-color: var(--color-zodiac) !important;
 }
 
 *[data-color=white-on-zodiac] .mambo-accordion .question {
@@ -4901,13 +4902,17 @@ svg {
     flex-direction: row;
   }
 }
+.mambo-header {
+  border-bottom: solid 1px var(--color-zodiac);
+  list-style: none;
+}
+
 /* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
   align-items: center;
   display: flex;
   flex-direction: row;
   gap: var(--gap, 1rem);
-  list-style: none;
 }
 
 .mambo-header a {
