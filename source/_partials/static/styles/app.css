@@ -4708,8 +4708,8 @@ svg {
 .mambo-divider .top,
 .mambo-divider .bottom {
   border: solid 4px currentColor;
-  height: 8px;
-  width: 48px;
+  height: 4px;
+  width: 32px;
 }
 
 .mambo-divider .top {
@@ -4724,6 +4724,20 @@ svg {
   z-index: 50;
 }
 
+@media screen and (min-width: 1024px) {
+  .mambo-divider .top,
+.mambo-divider .bottom {
+    height: 8px;
+    width: 48px;
+  }
+
+  .mambo-divider .bottom {
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    z-index: 50;
+  }
+}
 *[data-color=white-on-zodiac] .mambo-divider .top {
   border-color: var(--color-cream);
 }
@@ -4748,15 +4762,21 @@ svg {
   border-color: var(--color-zodiac);
 }
 
+*[data-color=white-on-zodiac] .wysiwyg a,
+*[data-color=white-on-zodiac] .mambo-card a,
+*[data-color=zodiac-on-white] .mambo-card a {
+  color: var(--color-cream) !important;
+}
+
+*[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded a,
+*[data-color=zodiac-on-white] .wysiwyg a {
+  color: var(--color-valencia) !important;
+}
+
 *[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
   background-color: var(--color-white);
   border: solid 1px var(--color-cream);
   color: var(--color-zodiac);
-}
-
-*[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded a,
-*[data-color=zodiac-on-white] a {
-  color: var(--color-valencia) !important;
 }
 
 *[data-color=zodiac-on-white] .mambo-accordion .question {
@@ -4811,7 +4831,6 @@ svg {
 }
 
 .mambo-accordion .answer.is-expanded:focus {
-  border: 0;
   box-shadow: unset;
   outline: unset;
   overflow: unset;
