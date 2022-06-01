@@ -6,24 +6,8 @@
 	font-size: var(--size-32);
 }
 
-.mambo-section p {
-	font-size: var(--size-20);
-}
-
-.mambo-section .text {
-	--gap: var(--size-24);
-}
-
-.mambo-section .text h2 {
-	font-size: var(--size-32);
-}
-
 .mambo-section .details {
 	--gap: var(--size-8);
-}
-
-.mambo-section .wysiwyg {
-	font-size: var(--size-24);
 }
 
 @media screen and (min-width:768px) {

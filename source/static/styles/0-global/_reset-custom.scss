@@ -1,36 +1,43 @@
 body {
 	color: inherit;
 	font-family: var(--font-family-sans);
-	font-size: var(--size-20);
+	font-size: var(--size-18);
 	line-height: 1.6;
 	margin: auto;
 }
 
-// /* The emerging W3C standard that is currently Firefox-only */
-// * {
-// 	scrollbar-width: 16px;
-// 	scrollbar-color: var(--color-black) var(--color-cream);
-// }
+@media screen and (min-width:1024px) {
+	body {
+		font-size: var(--size-20);
+	}
 
-// /* Works on Chrome/Edge/Safari */
-// *::-webkit-scrollbar {
-// 	max-width: 16px;
-// }
+}
 
-// *::-webkit-scrollbar-track {
-// 	background: var(--color-cream);
-// }
+/* The emerging W3C standard that is currently Firefox-only */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: var(--color-white) var(--color-teal);
+}
 
-// *::-webkit-scrollbar-thumb {
-// 	background-color: var(--color-black);
-// }
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	max-width: 32px;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--color-teal);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-white);
+}
 
 a {
 	color: inherit;
 	cursor: pointer;
 	font-family: var(--font-family-sans);
 	font-weight: var(--weight-600);
-	text-underline-offset: 4px;
+	text-underline-offset: 8px;
 	text-decoration-thickness: 4px;
 	transition: opacity var(--timing-default) ease-in;
 }
@@ -51,10 +58,11 @@ a:hover {
 *:focus,
 a:focus,
 input:focus {
+
 	/* Change the following variables in box shadow to experiment with different potential colors for DCDW's focus style, make sure one is dark and the other is light so they work on all different kinds of backgrounds 
-	
+
 	Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
-	
+
 	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
 	box-shadow: 0 0 0 4px var(--color-white), 0 0 0px 4px var(--color-white);
 	// Add support for Windows High Contrast Mode (WHCM)
@@ -63,6 +71,7 @@ input:focus {
 	outline-offset: 4px;
 	overflow: hidden;
 	position: relative;
+	text-decoration-thickness: 0;
 	z-index: var(--layer-1);
 }
 
