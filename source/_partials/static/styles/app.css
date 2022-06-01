@@ -4700,6 +4700,38 @@ svg {
   color: var(--color-zodiac);
 }
 
+.mambo-divider {
+  display: inline-block;
+  position: relative;
+}
+
+.mambo-divider .top,
+.mambo-divider .bottom {
+  border: solid 4px currentColor;
+  height: 8px;
+  width: 48px;
+}
+
+.mambo-divider .top {
+  position: relative;
+  z-index: 100;
+}
+
+.mambo-divider .bottom {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  z-index: 50;
+}
+
+*[data-color=white-on-zodiac] .mambo-divider .top {
+  border-color: var(--color-cream);
+}
+
+*[data-color=white-on-zodiac] .mambo-divider .bottom {
+  border-color: var(--color-valencia);
+}
+
 *[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
   background-color: var(--color-white);
   border: solid 1px var(--color-cream);
@@ -4870,13 +4902,6 @@ svg {
 .cream-on-black {
   background-color: var(--color-black);
   color: var(--color-cream);
-}
-
-.divider {
-  border: solid 4px currentColor;
-  display: inline-block;
-  max-width: 48px;
-  width: 100%;
 }
 
 .filter-events__reset.control-group .mambo-button {
