@@ -1,13 +1,9 @@
-<section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {% for content in subscription.section %} {{ content.colorCombo | safe }} {% endfor %} ]" id="newsletter">
-<div class="[ container-default ]">
+<section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-20 medium:padding-all-64 large:padding-all-120 ][ {% for content in subscription.section %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in subscription.section %}{{ content.colorCombo | safe }}{% endfor %}" id="newsletter">
+<div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
 {% for content in subscription.section %}
-	<h2>
-	{{ content.header }}
-	</h2>
-	<hr aria-hidden="true" class="divider">
-	<p>
-		{{ content.body | safe }}
-	</p>
+	<h2>{{ content.header }}</h2>
+	{% include '1-mambo-blocks/divider.njk' %}
+	<p>{{ content.body | safe }}</p>
 {% endfor %}
 </div>
 <div class="[ container-default ]">
