@@ -4732,6 +4732,14 @@ svg {
   border-color: var(--color-valencia);
 }
 
+*[data-color=zodiac-on-white] .mambo-divider .top {
+  border-color: var(--color-valencia);
+}
+
+*[data-color=zodiac-on-white] .mambo-divider .bottom {
+  border-color: var(--color-zodiac);
+}
+
 *[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
   background-color: var(--color-white);
   border: solid 1px var(--color-cream);

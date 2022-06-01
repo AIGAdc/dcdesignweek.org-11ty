@@ -1,7 +1,7 @@
 section:
   - header: Want to see past DC Design Weeks?
     body: We love reminiscing DC Design Week through the years. Checkout <a aria-label="2016 DCDW Website" href="https://2016.dcdesignweek.org/">2016</a>, <a aria-label="2017 DCDW Website" href="https://2017.dcdesignweek.org/">2017</a>, <a aria-label="2018 DCDW Website" href="https://2018.dcdesignweek.org/">2018</a>, <a aria-label="2019 DCDW Website" href="https://2019.dcdesignweek.org/">2019</a>!
-    colorCombo: white-on-teal
+    colorCombo: zodiac-on-cream
 
 events:
   - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
