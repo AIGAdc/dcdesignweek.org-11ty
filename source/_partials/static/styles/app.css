@@ -4694,6 +4694,13 @@ svg {
   }
 }
 /* GORKO: auto-generated utility classes end */
+.layout-home-internal h1 {
+  color: var(--color-white);
+  font-size: var(--size-64);
+  line-height: var(--size-80);
+  text-shadow: 6px 6px 0px var(--color-black);
+}
+
 h2 {
   font-size: var(--size-24);
 }
@@ -4708,6 +4715,11 @@ h3 {
   }
 }
 @media screen and (min-width: 1024px) {
+  .layout-home-internal h1 {
+    font-size: var(--size-104);
+    line-height: var(--size-96);
+  }
+
   h2 {
     font-size: var(--size-32);
   }
@@ -4949,9 +4961,29 @@ h3 {
   gap: var(--gap, 1rem);
 }
 
+.black-on-cream {
+  background-color: var(--color-cream);
+  color: var(--color-black);
+}
+
+.black-on-gray {
+  background-color: var(--color-gray);
+  color: var(--color-black);
+}
+
 .black-on-white {
   background-color: var(--color-white);
   color: var(--color-black);
+}
+
+.cream-on-black {
+  background-color: var(--color-black);
+  color: var(--color-cream);
+}
+
+.gray-on-black {
+  background-color: var(--color-black);
+  color: var(--color-gray);
 }
 
 .white-on-black {
@@ -4977,26 +5009,6 @@ h3 {
 .zodiac-on-white {
   background-color: var(--color-white);
   color: var(--color-zodiac);
-}
-
-.black-on-gray {
-  background-color: var(--color-gray);
-  color: var(--color-black);
-}
-
-.gray-on-black {
-  background-color: var(--color-black);
-  color: var(--color-gray);
-}
-
-.black-on-cream {
-  background-color: var(--color-cream);
-  color: var(--color-black);
-}
-
-.cream-on-black {
-  background-color: var(--color-black);
-  color: var(--color-cream);
 }
 
 .filter-events__reset.control-group .mambo-button {
@@ -5040,6 +5052,17 @@ h3 {
 
 .mambo-header a {
   text-decoration: none;
+}
+
+.mambo-hero {
+  display: grid;
+  place-items: center;
+  min-height: 768px;
+  position: relative;
+}
+
+.mambo-hero .wysiwyg p {
+  font-size: var(--size-24);
 }
 
 .mambo-list-item {
@@ -5090,24 +5113,10 @@ h3 {
   --gap: var(--size-32);
 }
 
-.mambo-section h1 {
-  font-size: var(--size-32);
-}
-
 .mambo-section .details {
   --gap: var(--size-8);
 }
 
-@media screen and (min-width: 768px) {
-  .mambo-section h1 {
-    font-size: var(--size-40);
-  }
-}
-@media screen and (min-width: 1024px) {
-  .mambo-section h1 {
-    font-size: var(--size-64);
-  }
-}
 /*!
  * houdinijs v11.0.4
  * A simple collapse-and-expand script

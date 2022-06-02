@@ -1,0 +1,10 @@
+.mambo-hero {
+	display: grid;
+	place-items: center;
+	min-height: 768px;
+	position: relative;
+}
+
+.mambo-hero .wysiwyg p {
+	font-size: var(--size-24);
+}

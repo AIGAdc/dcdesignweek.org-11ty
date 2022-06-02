@@ -1,6 +1,26 @@
+.black-on-cream {
+	background-color: var(--color-cream);
+	color: var(--color-black);
+}
+
+.black-on-gray {
+	background-color: var(--color-gray);
+	color: var(--color-black);
+}
+
 .black-on-white {
 	background-color: var(--color-white);
 	color: var(--color-black);
+}
+
+.cream-on-black {
+	background-color: var(--color-black);
+	color: var(--color-cream);
+}
+
+.gray-on-black {
+	background-color: var(--color-black);
+	color: var(--color-gray);
 }
 
 .white-on-black {
@@ -25,24 +45,4 @@
 .zodiac-on-white {
 	background-color: var(--color-white);
 	color: var(--color-zodiac);
-}
-
-.black-on-gray {
-	background-color: var(--color-gray);
-	color: var(--color-black);
-}
-
-.gray-on-black {
-	background-color: var(--color-black);
-	color: var(--color-gray);
-}
-
-.black-on-cream {
-	background-color: var(--color-cream);
-	color: var(--color-black);
-}
-
-.cream-on-black {
-	background-color: var(--color-black);
-	color: var(--color-cream);
 }
