@@ -24,9 +24,8 @@
 	<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-	{% include '1-mambo-blocks/skip-to-content.njk' %}
 	{% include '1-mambo-blocks/header.njk' %}
-	<main id="content">
+	<main tabindex="-1" id="content">
 		{% block content %}
 			{{ content | safe }}
 		{% endblock %}
