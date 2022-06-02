@@ -323,37 +323,6 @@ svg {
   cursor: pointer !important;
 }
 
-#skip-to-content {
-  scroll-margin-top: 80px;
-}
-
-.skip-to-content:not(:focus):not(:hover) {
-  transform: translateY(-200px);
-  opacity: 0;
-}
-
-.skip-to-content {
-  align-items: center;
-  background-color: var(--color-black);
-  color: var(--color-yellow);
-  display: flex;
-  font-weight: 900;
-  height: 74px;
-  justify-content: space-around;
-  margin: auto;
-  opacity: 1;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0px;
-  z-index: var(--index-10);
-  transform: translateY(0px);
-}
-
-.skip-to-content:focus {
-  outline: 4px solid var(--color-black);
-}
-
 /* Flow */
 .flow > * + *:not(:first-child) {
   margin-top: var(--gap, var(--size-24));
@@ -5115,6 +5084,34 @@ h3 {
 
 .mambo-section .details {
   --gap: var(--size-8);
+}
+
+.link-skip-to-content {
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+  padding: var(--size-8);
+  position: absolute;
+  transform: translateY(-40px);
+  scroll-margin-top: 88px;
+}
+
+.link-skip-to-content:focus {
+  position: relative;
+  transform: translateY(0px);
+}
+
+.link-back-to-top {
+  display: block;
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+  padding: var(--size-8);
+  position: relative;
+  text-align: center;
+}
+
+.link-back-to-top:focus {
+  position: relative;
+  transform: translateY(0px);
 }
 
 /*!
