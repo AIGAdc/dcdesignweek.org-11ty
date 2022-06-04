@@ -217,9 +217,11 @@ body {
   font-size: var(--size-18);
   line-height: 1.6;
   margin: auto;
+  overflow-x: hidden;
+  height: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   body {
     font-size: var(--size-20);
   }
@@ -384,12 +386,12 @@ svg {
   grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .grid-two-columns {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .grid-three-columns {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1623,7 +1625,7 @@ svg {
   padding-left: var(--size-160);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .small\:font-size-none {
     font-size: var(--size-none);
   }
@@ -2636,7 +2638,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .medium\:font-size-none {
     font-size: var(--size-none);
   }
@@ -3649,7 +3651,7 @@ svg {
     padding-left: var(--size-160);
   }
 }
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 85.375rem) {
   .large\:font-size-none {
     font-size: var(--size-none);
   }
@@ -4665,8 +4667,8 @@ svg {
 /* GORKO: auto-generated utility classes end */
 .layout-home-internal h1 {
   color: var(--color-white);
-  font-size: var(--size-64);
-  line-height: var(--size-80);
+  font-size: var(--size-48);
+  line-height: var(--size-56);
   text-shadow: 6px 6px 0px var(--color-black);
 }
 
@@ -4678,12 +4680,17 @@ h3 {
   font-size: var(--size-18);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
+  .layout-home-internal h1 {
+    font-size: var(--size-64);
+    line-height: var(--size-72);
+  }
+
   h2 {
     font-size: var(--size-28);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .layout-home-internal h1 {
     font-size: var(--size-104);
     line-height: var(--size-96);
@@ -4697,22 +4704,31 @@ h3 {
     font-size: var(--size-20);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 85.375rem) {
   h2 {
     font-size: var(--size-40);
   }
 }
 /* Containers */
-.container-default {
+.container-section {
   margin: auto;
-  max-width: 896px;
+  max-width: 1600px;
   width: 100%;
+  position: relative;
+}
+
+.container-content {
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  position: relative;
 }
 
 .container-wide {
   margin: auto;
   max-width: 1024px;
   width: 100%;
+  position: relative;
 }
 
 .wysiwyg > *:not(:first-child) {
@@ -4759,7 +4775,7 @@ h3 {
   z-index: 50;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .mambo-divider .top,
 .mambo-divider .bottom {
     height: 8px;
@@ -4827,6 +4843,10 @@ h3 {
   color: var(--color-white);
 }
 
+.gap-1 {
+  --gap: var(--size-20);
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -4879,7 +4899,7 @@ h3 {
   overflow: unset;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .mambo-accordion .question {
     text-align: right;
   }
@@ -5000,7 +5020,7 @@ h3 {
   flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .mambo-footer {
     flex-direction: row;
   }
@@ -5010,7 +5030,7 @@ h3 {
   list-style: none;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 10000;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */
@@ -5030,6 +5050,7 @@ h3 {
   place-items: center;
   min-height: 768px;
   position: relative;
+  z-index: 1000;
 }
 
 .mambo-hero .wysiwyg p {
@@ -5080,6 +5101,46 @@ h3 {
   transform: rotate(45deg);
 }
 
+.ornament {
+  position: absolute;
+}
+
+.ornament-arrow-double,
+.ornament-bade-community-curated,
+.ornament-hero-decor-left,
+.ornament-hero-decor-right {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .ornament-arrow-double,
+.ornament-bade-community-curated,
+.ornament-hero-decor-left,
+.ornament-hero-decor-right {
+    display: block;
+  }
+
+  .ornament-hero-decor-left {
+    top: -200px;
+    left: -350px;
+  }
+
+  .ornament-hero-decor-right {
+    bottom: -350px;
+    right: -500px;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .ornament-hero-decor-left {
+    top: -250px;
+    left: -400px;
+  }
+
+  .ornament-hero-decor-right {
+    bottom: -400px;
+    right: -500px;
+  }
+}
 .mambo-section {
   --gap: var(--size-32);
 }
@@ -5216,7 +5277,7 @@ h3 {
   border-radius: 0 !important;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .mailchimp .mc-field-group .faux-label {
     display: block;
     min-height: 32px;
@@ -5307,7 +5368,7 @@ h3 {
     padding: var(--space-48);
   }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 64rem) {
   /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
   .modal.active.modal-medium {
     width: 60em;
