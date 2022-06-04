@@ -1,10 +1,24 @@
-<section class="[ mambo-hero mambo-section ][ flow ][ background-color-cream color-zodiac ][ padding-all-32 medium:padding-all-64 large:padding-all-120 ][ {{ heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}"" id="{{ heroHeader | slug }}">
-	<div class="[ container-default ][ flex-flow flex-flow-column ]">
-		{% if heroHeader %}
-			<span id="skip-to-content"><h1>{{ heroHeader | safe }}</h1></span>
-		{% endif  %}
-		{% if heroBody %}
-			<div class="wysiwyg flow-3">{{ heroBody | md | safe }}</div>
-		{% endif %}
+<section class="[ mambo-hero mambo-section ][ flow ][ padding-all-20 padding-top-80 padding-bottom-80 medium:padding-all-64 large:padding-all-120 ][ {{ heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}"" id="{{ heroHeader | slug }}">
+	<div class="[ container-section ]">
+		<div class="[ container-content ][ flex-flow flex-flow-column gap-1 ]">
+			{% if heroHeader %}
+				<span id="skip-to-content"><h1>{{ heroHeader | safe }}</h1></span>
+			{% endif  %}
+			{% if heroBody %}
+				<div class="wysiwyg flow-3">{{ heroBody | md | safe }}</div>
+			{% endif %}
+		</div>
+		<span aria-hidden="true" class="ornament ornament-arrow-double">
+			{% include 'static/images/hero/arrow-double.njk' %}
+		</span>
+		<span aria-hidden="true" class="ornament ornament-bade-community-curated">
+			{% include 'static/images/hero/bade-community-curated.njk' %}
+		</span>
+		<span aria-hidden="true" class="ornament ornament-hero-decor-left">
+			{% include 'static/images/hero/hero-decor-left.njk' %}
+		</span>
+		<span aria-hidden="true" class="ornament ornament-hero-decor-right">
+			{% include 'static/images/hero/hero-decor-right.njk' %}
+		</span>
 	</div>
 </section>

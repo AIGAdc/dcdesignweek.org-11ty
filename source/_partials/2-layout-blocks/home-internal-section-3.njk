@@ -1,12 +1,13 @@
-<section class="[ mambo-section ][ flow ][ padding-all-20 medium:padding-all-64 large:padding-all-120 ][ {{ sectionThreeColorCombo | safe }} ]" data-color="{{ sectionThreeColorCombo | safe }}" id="{{ sectionThreeHeader | slug }}">
-	<div class="[ container-default ][ flex-flow flex-flow-column flex-flow-start ]">
+<section class="[ mambo-section ][ flow ][ padding-all-20 padding-top-80
+padding-bottom-80 medium:padding-all-64 large:padding-all-120 ][ {{ sectionThreeColorCombo | safe }} ]" data-color="{{ sectionThreeColorCombo | safe }}" id="{{ sectionThreeHeader | slug }}">
+	<div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
 		<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
 			<h2>{{ sectionThreeHeader | safe }}</h2>
 			{% include '1-mambo-blocks/divider.njk' %}
 			<div class="wysiwyg flow-3">{{ sectionThreeBody | md | safe }}</div>
 		</div>
 	</div>
-	<div class="[ container-default ]">
+	<div class="[ container-content ]">
 		<!-- Main FAQs -->
 		<ul class="[ mambo-accordions ][ faqs-list ][ flex-flow flex-flow-column ]">
 			{% for question in sectionThreeQuestions %}

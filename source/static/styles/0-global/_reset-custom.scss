@@ -4,9 +4,11 @@ body {
 	font-size: var(--size-18);
 	line-height: 1.6;
 	margin: auto;
+	overflow-x: hidden;
+	height: 100%;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 64rem) {
 	body {
 		font-size: var(--size-20);
 	}
