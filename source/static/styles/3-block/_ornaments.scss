@@ -23,58 +23,110 @@
 }
 
 .ornament-hero-decor-left {
-	width: 200px;
+	width: 12.5rem;
 	top: -325px;
 	left: -140px;
 }
 
 .ornament-hero-decor-right {
-	width: 200px;
+	width: 12.5rem;
 	bottom: -440px;
 	right: -140px;
 }
 
+@media screen and (min-width:30rem) {
+	.ornament-bade-community-curated {
+		width: 8.25rem;
+		top: -100px;
+		right: -30px;
+	}
+
+	.ornament-hero-decor-right {
+		width: 16rem;
+		bottom: -513px;
+		right: -140px;
+	}
+
+}
+
 @media screen and (min-width:40rem) {
-	.ornament-arrow-double,
-	.ornament-bade-community-curated,
-	.ornament-hero-decor-left,
-	.ornament-hero-decor-right {
-		display: block;
-	}
-
 	.ornament-hero-decor-left {
-		top: -200px;
-		left: -350px;
+		top: -350px;
 	}
 
 	.ornament-hero-decor-right {
-		bottom: -350px;
-		right: -500px;
+		width: 19rem;
+		bottom: -520px;
+		right: -150px;
 	}
 
 }
 
 @media screen and (min-width:48rem) {
+	.ornament-hero-decor-right {
+		width: 22rem;
+		bottom: -520px;
+		right: -150px;
+	}
+
+}
+
+@media screen and (min-width:64rem) {
+	.ornament-arrow-double {
+		display: block;
+		left: -150px;
+	}
+
 	.ornament-hero-decor-left {
-		top: -250px;
+		width: 20rem;
+		top: -350px;
+		left: -250px;
+	}
+
+}
+
+@media screen and (min-width:85.375rem) {
+	.ornament-bade-community-curated {
+		top: -150px;
+		left: 32px;
+		z-index: 100;
+	}
+
+	.ornament-hero-decor-left {
+		width: 25rem;
+		left: -300px;
+	}
+
+	.ornament-hero-decor-right {
+		width: 30rem;
+		bottom: -375px;
+		right: -350px;
+	}
+
+}
+
+@media screen and (min-width:160rem) {
+	.ornament-arrow-double {
+		width: 30rem;
+		left: -150px;
+	}
+
+	.ornament-bade-community-curated {
+		width: 25rem;
+		top: -100px;
+		left: 25px;
+		z-index: 100;
+	}
+
+	.ornament-hero-decor-left {
+		width: 50rem;
+		top: -300px;
 		left: -400px;
 	}
 
 	.ornament-hero-decor-right {
-		bottom: -400px;
-		right: -500px;
+		width: 50rem;
+		bottom: -315px;
 	}
 
-}
-
-@media screen and (min-width:64rem) {
-}
-
-@media screen and (min-width:85.375rem) {
-	.ornament-hero-decor-right {
-	}
-
-}
-
-@media screen and (min-width:64rem) {
 }
