@@ -1,4 +1,7 @@
 body {
+	// Animations
+	--toggle: 1;
+	--playState: "running";
 	color: inherit;
 	font-family: var(--font-family-sans);
 	font-size: var(--size-18);
@@ -8,7 +11,7 @@ body {
 	height: 100%;
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width:64rem) {
 	body {
 		font-size: var(--size-20);
 	}
