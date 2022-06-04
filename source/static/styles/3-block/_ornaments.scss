@@ -17,9 +17,24 @@
 }
 
 .ornament-bade-community-curated {
+	// Animation
+	animation: rotation 15s infinite linear;
+	animation-play-state: var(--playState);
+	transition: transform calc(var(--toggle) * .15s) ease-in-out;
 	width: 6rem;
 	top: -80px;
 	right: 0;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+
 }
 
 .ornament-hero-decor-left {
