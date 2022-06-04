@@ -63,13 +63,26 @@ collections:
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
         name: "home"
-        file: "source/pages/home.md"
+        file: "source/pages/home-internal.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Hero Header", name: "heroHeader", widget: "markdown" }
+              - { label: "Hero Body", name: "heroBody", widget: "markdown" }
+          - label: "Settings"
+            name: "settings"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Layout", name: "layout", widget: "string" }
+              - { label: "Permalink", name: "permalink", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown", required: false }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Makers"
         name: "makers"
         file: "source/pages/makers.md"
