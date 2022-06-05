@@ -4668,10 +4668,9 @@ svg {
 }
 /* GORKO: auto-generated utility classes end */
 h1 {
-  color: var(--color-white);
   font-size: var(--size-48);
   line-height: var(--size-56);
-  text-shadow: 6px 6px 0px var(--color-black);
+  text-shadow: 4px 4px 0px var(--color-white);
   text-transform: uppercase;
 }
 
@@ -4693,6 +4692,7 @@ h3 {
   h1 {
     font-size: var(--size-104);
     line-height: var(--size-96);
+    text-shadow: 6px 6px 0px var(--color-white);
   }
 
   h2 {
@@ -5180,13 +5180,13 @@ input:checked + .slider:before {
   display: none;
 }
 
-.ornament-bade-community-curated,
+.ornament-badge-community-curated,
 .ornament-hero-decor-left,
 .ornament-hero-decor-right {
   display: block;
 }
 
-.ornament-bade-community-curated {
+.ornament-badge-community-curated {
   animation: rotation 15s infinite linear;
   animation-play-state: var(--playState);
   transition: transform calc(var(--toggle) * 0.15s) ease-in-out;
@@ -5216,7 +5216,7 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-width: 30rem) {
-  .ornament-bade-community-curated {
+  .ornament-badge-community-curated {
     width: 8.25rem;
     top: -100px;
     right: -30px;
@@ -5259,7 +5259,7 @@ input:checked + .slider:before {
   }
 }
 @media screen and (min-width: 85.375rem) {
-  .ornament-bade-community-curated {
+  .ornament-badge-community-curated {
     top: -150px;
     left: 32px;
     z-index: 100;
@@ -5282,7 +5282,7 @@ input:checked + .slider:before {
     left: -150px;
   }
 
-  .ornament-bade-community-curated {
+  .ornament-badge-community-curated {
     width: 25rem;
     top: -100px;
     left: 25px;

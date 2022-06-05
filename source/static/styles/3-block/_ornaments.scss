@@ -10,13 +10,13 @@
 	display: none;
 }
 
-.ornament-bade-community-curated,
+.ornament-badge-community-curated,
 .ornament-hero-decor-left,
 .ornament-hero-decor-right {
 	display: block;
 }
 
-.ornament-bade-community-curated {
+.ornament-badge-community-curated {
 	// Animation
 	animation: rotation 15s infinite linear;
 	animation-play-state: var(--playState);
@@ -50,7 +50,7 @@
 }
 
 @media screen and (min-width:30rem) {
-	.ornament-bade-community-curated {
+	.ornament-badge-community-curated {
 		width: 8.25rem;
 		top: -100px;
 		right: -30px;
@@ -101,7 +101,7 @@
 }
 
 @media screen and (min-width:85.375rem) {
-	.ornament-bade-community-curated {
+	.ornament-badge-community-curated {
 		top: -150px;
 		left: 32px;
 		z-index: 100;
@@ -126,7 +126,7 @@
 		left: -150px;
 	}
 
-	.ornament-bade-community-curated {
+	.ornament-badge-community-curated {
 		width: 25rem;
 		top: -100px;
 		left: 25px;
