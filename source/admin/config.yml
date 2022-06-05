@@ -34,15 +34,6 @@ collections:
           - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Accessibility"
-        name: "accessibility"
-        file: "source/pages/accessibility.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Events"
         name: "events"
         file: "source/pages/events.md"
@@ -59,6 +50,62 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+          - { label: "Layout", name: "layout", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Accessibility"
+        name: "accessibility"
+        file: "source/pages/accessibility.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Hero Header", name: "heroHeader", widget: "string" }
+              - { label: "Hero Body", name: "heroBody", widget: "markdown" }
+          - label: "Section One"
+            name: "sectionOne"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Section One Color Combo", name: "sectionOneColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Section One Header", name: "sectionOneHeader", widget: "string" }
+              - { label: "Section One Body", name: "sectionOneBody", widget: "markdown" }
+          - label: "Section Two"
+            name: "sectionTwo"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Section Two Color Combo", name: "sectionTwoColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Section Two Header", name: "sectionTwoHeader", widget: "string" }
+              - { label: "Section Two Body", name: "sectionTwoBody", widget: "markdown" }
+          - label: "Section Three"
+            name: "sectionThree"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Section Three Color Combo", name: "sectionThreeColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Section Three Header", name: "sectionThreeHeader", widget: "string" }
+              - { label: "Section Three Body", name: "sectionThreeBody", widget: "markdown" }
+          - label: "Section Four"
+            name: "sectionFour"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Section Four Color Combo", name: "sectionFourColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Section Four Header", name: "sectionFourHeader", widget: "string" }
+              - { label: "Section Four Body", name: "sectionFourBody", widget: "markdown" }
+          - label: "Section Five"
+            name: "sectionFive"
+            widget: "object"
+            summary: '{{fields.name}}'
+            fields:
+              - { label: "Section Five Color Combo", name: "sectionFiveColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Section Five Header", name: "sectionFiveHeader", widget: "string" }
+              - { label: "Section Five Body", name: "sectionFiveBody", widget: "markdown" }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
@@ -145,15 +192,6 @@ collections:
                   - { label: Body, name: body, widget: markdown }
                   - { label: Label, name: label, widget: string }
                   - { label: URL, name: url, widget: string }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Makers"
-        name: "makers"
-        file: "source/pages/makers.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
 
