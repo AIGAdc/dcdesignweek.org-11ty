@@ -4820,6 +4820,61 @@ h3 {
   border-color: var(--color-zodiac);
 }
 
+.mambo-anchor.proposal {
+  color: var(--color-white);
+  display: inline-block;
+  font-size: var(--size-18);
+  text-decoration-color: var(--color-valencia);
+  position: relative;
+  padding: var(--size-16);
+  z-index: 500;
+}
+
+.mambo-anchor.proposal svg {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 90%;
+  z-index: -1;
+}
+
+.mambo-anchor.proposal span svg {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 30rem) {
+  .mambo-anchor.proposal span svg {
+    left: -40px;
+  }
+}
+@media screen and (min-width: 40rem) {
+  .mambo-anchor.proposal span svg {
+    left: -120px;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .mambo-anchor.proposal span svg {
+    left: -180px;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .mambo-anchor.proposal span svg {
+    left: -270px;
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  .mambo-anchor.proposal {
+    font-size: var(--size-24);
+    padding: var(--size-32);
+  }
+
+  .mambo-anchor.proposal span svg {
+    left: -200px;
+    top: 12px;
+    height: 80px;
+  }
+}
 *[data-color=white-on-zodiac] .wysiwyg a,
 *[data-color=white-on-zodiac] .mambo-card a,
 *[data-color=zodiac-on-white] .mambo-card a {
