@@ -1,23 +1,25 @@
-<!-- About DC Design Week -->
 <section class="[ mambo-section ][ flow ][ padding-all-20 padding-top-80
-padding-bottom-80 medium:padding-all-64 large:padding-all-120 ][ {{ sectionOneColorCombo | safe }} ]" data-color="{{ sectionOneColorCombo | safe }}" id="{{ sectionOneHeader | slug }}">
+	padding-bottom-80 medium:padding-all-64 large:padding-all-120 ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
 	<div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
 		<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
-			<h2>{{ sectionOneHeader | safe }}</h2>
+			<h2>{{ sectionOne.sectionOneHeader | md | safe }}</h2>
 			{% include '1-mambo-blocks/divider.njk' %}
-			<div class="wysiwyg flow-3">{{ sectionOneBody | md | safe }}</div>
+			<div class="wysiwyg flow-3">{{ sectionOne.sectionOneBody | md | safe }}</div>
 		</div>
 	</div>
 	<div class="[ container-content ]">
 		<!-- Main FAQs -->
 		<ul class="[ mambo-accordions ][ faqs-list ][ flex-flow flex-flow-column ]">
-			{% for question in sectionOneQuestions %}
+			{% for question in sectionOne.questions %}
 				<li class="[ mambo-accordion ]">
 					<!-- Trigger for hidden content -->
-					<h3 class="[ flex-flow flex-flow flex-flow-space-between ]" data-houdini-toggle="sectionOneQuestionsID-{{ question.trigger }}"> {{ question.question | safe }}</h3>
+					<h3 class="[ flex-flow flex-flow flex-flow-space-between ]" data-houdini-toggle="sectionOneQuestionsID-{{ question.trigger | safe | slug }}">
+					{{ question.question | md | safe }}
+					</h3>
 					<!-- Hidden Content -->
-					<div class="[ answer ][ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
-				data-houdini-group="sectionOneQuestionsID" id="sectionOneQuestionsID-{{ question.trigger }}">{{ question.answer | md | safe }}</div>
+					<div class="[ answer ][ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="sectionOneQuestionsID" id="sectionOneQuestionsID-{{ question.trigger | safe | slug }}">
+					{{ question.answer | md | safe }}
+				</div>
 			</li>
 		{% endfor %}
 	</ul>
