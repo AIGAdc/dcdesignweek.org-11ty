@@ -8,7 +8,7 @@
 		</div>
 	</div>
 	<div class="[ container-content ]">
-	<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+		<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
 			{% for card in sectionFour.cards %}
 				<li class="[ mambo-card ]">
 					<figure class="[ image ][ background-color-cream ]">
@@ -17,7 +17,7 @@
 					<div class="[ details content ][ background-color-zodiac color-white ][ flex-flow flex-flow-column ][ padding-all-24 ]">
 						<h3>{{ card.title | safe }}</h3>
 						<p>{{ card.body | md | safe }}</p>
-						<a class="[ mambo-anchor ]" href="{{ card.URL }}" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
+						<a class="[ mambo-anchor ]" href="{{ card.url }}" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
 					</div>
 				</li>
 			{% endfor %}
