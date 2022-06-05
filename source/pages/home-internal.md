@@ -11,6 +11,9 @@ hero:
     creative community. This year we’re once again asking you, our community
     members, to help us build DC Design Week. **Submit an event proposal by June
     12, 2022!**
+  heroButtonLeftLabel: Submit An Event Proposal
+  heroButtonLeftURL: "#"
+  showHeroButtonLeft: true
 sectionOne:
   sectionOneColorCombo: white-on-zodiac
   sectionOneBody: >-
