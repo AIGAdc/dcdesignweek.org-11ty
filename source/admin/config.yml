@@ -66,6 +66,10 @@ collections:
               - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
               - { label: "Hero Header", name: "heroHeader", widget: "string" }
               - { label: "Hero Body", name: "heroBody", widget: "markdown" }
+              - { label: "Hero Button Left Label", name: "heroButtonLeftLabel", widget: "string", required: false }
+              - { label: "Hero Button Left URL", name: "heroButtonLeftURL", widget: "string", required: false }
+              - { label: "Hero Button Right Label", name: "heroButtonRightLabel", widget: "string", required: false }
+              - { label: "Hero Button Right URL", name: "heroButtonRightURL", widget: "string", required: false }
           - label: "Section One"
             name: "sectionOne"
             widget: "object"
@@ -119,9 +123,15 @@ collections:
             widget: "object"
             summary: '{{fields.name}}'
             fields:
-              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["zodiac-on-cream", "zodiac-on-white", "white-on-zodiac"] }
               - { label: "Hero Header", name: "heroHeader", widget: "string" }
               - { label: "Hero Body", name: "heroBody", widget: "markdown" }
+              - { label: "Show Hero Button Left", name: "showHeroButtonLeft", widget: boolean, required: false }
+              - { label: "Hero Button Left Label", name: "heroButtonLeftLabel", widget: "string", required: false }
+              - { label: "Hero Button Left URL", name: "heroButtonLeftURL", widget: "string", required: false }
+              - { label: "Show Hero Button Right", name: "showHeroButtonRight", widget: boolean, required: false }
+              - { label: "Hero Button Right Label", name: "heroButtonRightLabel", widget: "string", required: false }
+              - { label: "Hero Button Right URL", name: "heroButtonRightURL", widget: "string", required: false }
           - label: "Section One"
             name: "sectionOne"
             widget: "object"

@@ -7,6 +7,17 @@
 			{% if hero.heroBody %}
 				<div class="wysiwyg flow-3">{{ hero.heroBody | md | safe }}</div>
 			{% endif %}
+			{% if hero.showHeroButtonLeft == true %}
+				<a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
+					{{ hero.heroButtonLeftLabel | safe }}
+					<span>
+						{% include 'static/images/hero/button-container.njk' %}
+					</span>
+				</a>
+			{% endif %}
+			{% if hero.showHeroButtonRight == true %}
+				<a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
+			{% endif %}
 		</div>
 		<span aria-hidden="true" class="ornament ornament-arrow-double">
 			{% include 'static/images/hero/arrow-double.njk' %}
