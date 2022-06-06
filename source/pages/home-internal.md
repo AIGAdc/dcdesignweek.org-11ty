@@ -226,8 +226,10 @@ sectionThree:
   questions:
     - question: How do I submit an event for consideration?
       answer: >-
-        **Use the DCDW 2022: Event Proposal Form to submit an event proposal by
-        June 12, 2022.** 
+        Use the **[DCDW 2022: Event Proposal Form](#)** to submit an event
+        proposal by June 12, 2022. 
+
+
 
 
         * Any organizations or individuals, regardless of size or experience organizing events, can submit an event proposal.
