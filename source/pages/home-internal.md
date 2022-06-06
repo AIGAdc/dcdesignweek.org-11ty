@@ -41,9 +41,7 @@ sectionOne:
       answer: >-
         COVID-19 is a rapidly changing, ongoing pandemic. The wide distribution
         of vaccines in DC and across the nation makes us hopeful that we can
-        bring back more in-person event experiences to DCDW 2022...
-
-
+        bring back more in-person event experiences to DCDW 2022.
 
 
         We plan to host **a few small, in-person, indoor events** (less than 20 attendees with masks) and **a few, larger, in-person, outdoor events** for DC Design Week 2022, from October 14–21.
