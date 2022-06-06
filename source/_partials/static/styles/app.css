@@ -4954,7 +4954,7 @@ h3 {
   display: block;
   position: relative;
   top: -1px;
-  padding: var(--size-40) var(--size-80);
+  padding: var(--size-20);
 }
 
 .mambo-accordion .answer.is-expanded:focus {
@@ -4966,6 +4966,10 @@ h3 {
 @media screen and (min-width: 64rem) {
   .mambo-accordion .question {
     text-align: right;
+  }
+
+  .mambo-accordion .answer.is-expanded {
+    padding: var(--size-40) var(--size-80);
   }
 }
 /* Component: mambo-banner */
