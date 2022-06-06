@@ -100,6 +100,8 @@ sectionTwo:
         recommend:
 
 
+
+
         * 5 minutes for set-up and wrap-up.
 
         * 30 minutes of content.
@@ -114,6 +116,8 @@ sectionTwo:
         A session featuring several speakers who each give a 5-10-minute
         presentation around a specific theme. This session typically includes a
         Q&A following a full session of lightning talks. We recommend:
+
+
 
 
         * 5 minutes for set-up and wrap-up.
@@ -135,6 +139,8 @@ sectionTwo:
         We recommend:
 
 
+
+
         * 5 minutes for set-up and wrap-up.
 
         * 25 minutes of moderator-prepared questions.
@@ -151,6 +157,8 @@ sectionTwo:
         mapped run, or art prompt. 
 
 
+
+
         **Examples: [See several examples from DC Design Week 2020](https://dcdesignweek.org/events/self-guided)**
       trigger: question-4
     - question: "Social Gathering:"
@@ -158,6 +166,8 @@ sectionTwo:
         An informal meetup with folks who share mutual interest in a common
         theme, topic, or activity. These gatherings help attendees connect,
         discuss ideas, and meet new people.
+
+
 
 
         **Example: [DC Street Art & Mural Run](https://2019.dcdesignweek.org/events/dc-street-art-and-mural-run/)**
@@ -168,11 +178,15 @@ sectionTwo:
         speakers. We recommend:
 
 
+
+
         * 5 minutes for set-up and wrap-up.
 
         * 40 minutes of content.
 
         * 15 minutes of Q&A.
+
+
 
 
         **Example:** [Designing With Cultural Competence](https://dcdesignweek.org/events/designing-with-cultural-competence/)
@@ -183,11 +197,15 @@ sectionTwo:
         led by one or two hosts. We recommend:
 
 
+
+
         * 15 minutes for set-up and wrap-up.
 
         * 60 minutes of activities.
 
         * 15 minutes of reflection.
+
+
 
 
         **Examples: [Creative Care for Burnt Out Artists](https://dcdesignweek.org/events/creative-care-for-burnt-out-artists/) & [Decolonizing the Design Process](https://dcdesignweek.org/events/decolonizing-the-design-process/)**
