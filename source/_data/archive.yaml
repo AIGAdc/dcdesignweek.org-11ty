@@ -4,33 +4,13 @@ section:
     colorCombo: zodiac-on-cream
 
 events:
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
+  - image: static/images/img-dcdw-2021.png
     imageALT:
     theme: "Hyperlocal"
     url: "#"
     label: "2021 DCDW Website"
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
+  - image: static/images/img-dcdw-2020.png
     imageALT:
     theme: "Creative Voices"
     url: "https://2020.dcdesignweek.org/"
     label: "2020 DCDW Website"
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
-    imageALT:
-    theme: "Unconventional Wisdom"
-    url: "https://2019.dcdesignweek.org/"
-    label: "2019 DCDW Website"
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
-    imageALT:
-    theme: 
-    url: "https://2018.dcdesignweek.org/"
-    label: "2018 DCDW Website"
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
-    imageALT:
-    theme: 
-    url: "https://2017.dcdesignweek.org/"
-    label: "2017 DCDW Website"
-  - image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
-    imageALT:
-    theme: 
-    url: "https://2016.dcdesignweek.org/"
-    label: "2016 DCDW Website"
