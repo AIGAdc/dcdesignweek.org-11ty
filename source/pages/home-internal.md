@@ -97,14 +97,16 @@ sectionTwo:
   questions:
     - question: "Creative Breakfast or Lunch:"
       answer: >-
-        * A 45-minute, interactive morning or lunchtime case study or thematic
+        A 45-minute, interactive morning or lunchtime case study or thematic
         session presented by one to three speakers from an organization. We
         recommend:
 
-          * 5 minutes for set-up and wrap-up.
-          * 30 minutes of content.
-          * 10 minutes of Q&A.
 
+        * 5 minutes for set-up and wrap-up.
+
+        * 30 minutes of content.
+
+        * 10 minutes of Q&A.
 
 
         **Example: [Rapid Prototyping for the Web Using the US Web Design System](https://dcdesignweek.org/events/rapid-prototyping-for-the-web-using-the-us-web-design-system/)**
