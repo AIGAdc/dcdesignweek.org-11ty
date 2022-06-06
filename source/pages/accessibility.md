@@ -4,11 +4,11 @@ description: DC Design Week is committed to improving accessibility and
   inclusion efforts each year. We recognize this is a journey and we are still
   far from our ideal.
 hero:
-  heroHeader: Accessibility Commitment
+  heroHeader: Accessibility Statement
   heroColorCombo: black-on-cream
   heroBody: DC Design Week is committed to improving accessibility and inclusion
-    efforts each year. We recognize this is a journey and we are still far from
-    our ideal.
+    efforts each year. We recognize this is a journey and that we are still far
+    from our ideal.
 sectionOne:
   sectionOneColorCombo: white-on-zodiac
   sectionOneHeader: What are we aiming to?
@@ -18,11 +18,13 @@ sectionOne:
 
     * Give transparency on what we’re working on.
 
-    * List accommodations we can and cannot provide.
+    * List accessibility features we provide at our events.
 
-    * Provide contacts to request any accommodations that may have been missed or undocumented.
+    * List accommodations we cannot provide.
 
-    * Encourage feedback from the community on how we can evolve to be more inclusive in the future.
+    * Provide contacts to request any accommodations that may be needed.
+
+    * Encourage feedback from the community on how we can evolve to be more inclusive by default in the future.
 sectionTwo:
   sectionTwoColorCombo: zodiac-on-white
   sectionTwoHeader: What We’re Working On
@@ -31,7 +33,16 @@ sectionTwo:
     talks are inclusively crafted.
 
 
-    Speakers are strongly recommended to: Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/). Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
+
+
+    Speakers are strongly recommended to: 
+
+
+    * Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/). 
+
+    * Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
+
+
 
 
     The DC Design Week and AIGA DC teams are working on:
@@ -45,6 +56,8 @@ sectionTwo:
       * Accessibility checklists for speakers
       * Accessibility statements for events.
 
+
+
     AIGA National is also currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone.
 
 
@@ -53,7 +66,9 @@ sectionThree:
   sectionThreeColorCombo: zodiac-on-white
   sectionThreeHeader: Event Accommodations
   sectionThreeBody: >-
-    We’re providing the following accommodations for our events:
+    We're providing the following accessibility features for our events:
+
+
 
 
     * Real time CART (live captioning) services and transcriptions for virtual events.
@@ -74,8 +89,10 @@ sectionFour:
   sectionFourBody: >-
     We’re still at the beginning of our accessibility journey and want to be
     transparent about the limitations around our budget, experience, volunteer
-    resources, and timeline. Accommodations that we may be unable to be provided
+    resources, and timeline. Accommodations that we may be unable to provide
     include:
+
+
 
 
     * Sign language interpretation
@@ -87,8 +104,11 @@ sectionFive:
   sectionFiveColorCombo: zodiac-on-white
   sectionFiveHeader: Request an Accommodation
   sectionFiveBody: >-
-    If you need an accommodation that is unlisted above, please contact us using
+    We recognize that our events are still not completely accessible by default.
+    If you need an accommodation for any of our events, please contact us using
     a method that works best for you:
+
+
 
 
     * [Email our accessibility](mailto:accessibility@dc.aiga.org) team at accessibility@dc.aiga.org.
@@ -96,6 +116,8 @@ sectionFive:
     * Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
 
     * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+
+
 
 
     We honor your privacy. No identifying information like your name is required to request an accomodation, and all details will be deleted once completed.
