@@ -111,44 +111,43 @@ sectionTwo:
       trigger: question-1
     - question: "Lightning Talks Series:"
       answer: >-
-        * A session featuring several speakers who each give a 5-10-minute
+        A session featuring several speakers who each give a 5-10-minute
         presentation around a specific theme. This session typically includes a
         Q&A following a full session of lightning talks. We recommend:
 
-          * 5 minutes for set-up and wrap-up.
-          * 50-70 minutes of individual lightning talks (5-10 minutes each).
-          * 15 minutes of Q&A.
 
-         
+        * 5 minutes for set-up and wrap-up.
+
+        * 50-70 minutes of individual lightning talks (5-10 minutes each).
+
+        * 15 minutes of Q&A.
 
 
         Lighting talks can also be split into groups with Q&A after each group of speakers.
-
-
-         
 
 
         **Example: [Designing Safe Spaces](https://dcdesignweek.org/events/designing-safe-spaces-lightning-talks-to-spark-ideas-conversation-and-change/)**
       trigger: question-2
     - question: "Panel:"
       answer: >-
-        * A 45-minute discussion with three to five people talking about,
+        A 45-minute discussion with three to five people talking about,
         investigating, or deciding on a specific topic, hosted by one moderator.
         We recommend:
 
-          * 5 minutes for set-up and wrap-up.
-          * 25 minutes of moderator-prepared questions.
-          * 15 minutes of audience-driven questions.
 
-         
+        * 5 minutes for set-up and wrap-up.
+
+        * 25 minutes of moderator-prepared questions.
+
+        * 15 minutes of audience-driven questions.
 
 
         **Examples:** [Fostering Purpose-Driven Brand and Culture in the Build Environment](https://dcdesignweek.org/events/fostering-purpose-driven-brand-and-culture-in-the-built-environment/)
       trigger: question-3
     - question: "Self-Directed Activity:"
       answer: >-
-        * An activity that participants can complete at their own pace, either
-        at home or in a specific location. Examples include a scavenger hunt,
+        An activity that participants can complete at their own pace, either at
+        home or in a specific location. Examples include a scavenger hunt,
         mapped run, or art prompt. 
 
 
@@ -156,40 +155,39 @@ sectionTwo:
       trigger: question-4
     - question: "Social Gathering:"
       answer: >-
-        * An informal meetup with folks who share mutual interest in a common
+        An informal meetup with folks who share mutual interest in a common
         theme, topic, or activity. These gatherings help attendees connect,
         discuss ideas, and meet new people.
-
-
-         
 
 
         **Example: [DC Street Art & Mural Run](https://2019.dcdesignweek.org/events/dc-street-art-and-mural-run/)**
       trigger: question-5
     - question: "Talk:"
       answer: >-
-        * A 60-minute lecture or interactive session presented by one or two
+        A 60-minute lecture or interactive session presented by one or two
         speakers. We recommend:
 
-          * 5 minutes for set-up and wrap-up.
-          * 40 minutes of content.
-          * 15 minutes of Q&A.
 
-         
+        * 5 minutes for set-up and wrap-up.
+
+        * 40 minutes of content.
+
+        * 15 minutes of Q&A.
 
 
         **Example:** [Designing With Cultural Competence](https://dcdesignweek.org/events/designing-with-cultural-competence/)
       trigger: question-6
     - question: "Workshops:"
       answer: >-
-        * A highly interactive 90-minute session featuring small group exercises
+        A highly interactive 90-minute session featuring small group exercises
         led by one or two hosts. We recommend:
 
-          * 15 minutes for set-up and wrap-up.
-          * 60 minutes of activities.
-          * 15 minutes of reflection.
 
-         
+        * 15 minutes for set-up and wrap-up.
+
+        * 60 minutes of activities.
+
+        * 15 minutes of reflection.
 
 
         **Examples: [Creative Care for Burnt Out Artists](https://dcdesignweek.org/events/creative-care-for-burnt-out-artists/) & [Decolonizing the Design Process](https://dcdesignweek.org/events/decolonizing-the-design-process/)**
