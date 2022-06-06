@@ -333,13 +333,13 @@ svg {
 
 /* Flow */
 .flow > * + *:not(:first-child) {
-  margin-top: var(--gap, var(--size-24));
+  margin-top: var(--gap, var(--size-16));
 }
 
 /* Flex */
 .flex-flow {
   display: flex;
-  grid-gap: var(--gap, var(--size-24));
+  grid-gap: var(--gap, var(--size-16));
 }
 
 .flex-flow-column {
@@ -369,7 +369,7 @@ svg {
 /* Grid */
 .grid-flow {
   display: grid;
-  grid-gap: var(--gap, var(--size-32));
+  grid-gap: var(--gap, var(--size-16));
 }
 
 .grid-flow-start {
@@ -5362,10 +5362,6 @@ input:checked + .slider:before {
     bottom: -315px;
   }
 }
-.mambo-section {
-  --gap: var(--size-32);
-}
-
 .mambo-section .details {
   --gap: var(--size-8);
 }

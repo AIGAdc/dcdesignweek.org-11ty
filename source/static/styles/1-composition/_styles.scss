@@ -1,12 +1,12 @@
 /* Flow */
 .flow > * + *:not(:first-child) {
-	margin-top: var(--gap, var(--size-24));
+	margin-top: var(--gap, var(--size-16));
 }
 
 /* Flex */
 .flex-flow {
 	display: flex;
-	grid-gap: var(--gap, var(--size-24));
+	grid-gap: var(--gap, var(--size-16));
 }
 
 .flex-flow-column {
@@ -36,7 +36,7 @@
 /* Grid */
 .grid-flow {
 	display: grid;
-	grid-gap: var(--gap, var(--size-32));
+	grid-gap: var(--gap, var(--size-16));
 }
 
 .grid-flow-start {
