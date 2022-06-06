@@ -211,6 +211,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+html {
+  overflow-x: hidden;
+}
+
 body {
   --toggle: 1;
   --playState: "running";
@@ -219,8 +223,8 @@ body {
   font-size: var(--size-18);
   line-height: 1.6;
   margin: auto;
-  overflow-x: hidden;
   height: 100%;
+  overflow-x: visible;
 }
 
 @media screen and (min-width: 64rem) {
@@ -4670,7 +4674,7 @@ svg {
 h1 {
   font-size: var(--size-48);
   line-height: var(--size-56);
-  text-shadow: 4px 4px 0px var(--color-white);
+  text-shadow: 3px 3px 0px var(--color-white);
   text-transform: uppercase;
 }
 
@@ -4692,7 +4696,6 @@ h3 {
   h1 {
     font-size: var(--size-104);
     line-height: var(--size-96);
-    text-shadow: 6px 6px 0px var(--color-white);
   }
 
   h2 {
@@ -5252,15 +5255,6 @@ input:checked + .slider:before {
 .ornament-hero-decor-left,
 .ornament-hero-decor-right {
   display: block;
-}
-
-.ornament-badge-community-curated {
-  animation: rotation 15s infinite linear;
-  animation-play-state: var(--playState);
-  transition: transform calc(var(--toggle) * 0.15s) ease-in-out;
-  width: 6rem;
-  top: -80px;
-  right: 0;
 }
 
 @keyframes rotation {
