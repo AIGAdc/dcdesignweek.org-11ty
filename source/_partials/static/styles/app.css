@@ -6691,6 +6691,7 @@ h1 {
 
 h2 {
   font-size: var(--size-24);
+  line-height: var(--size-32);
 }
 
 h3 {
@@ -6711,6 +6712,7 @@ h3 {
 
   h2 {
     font-size: var(--size-32);
+    line-height: var(--size-48);
   }
 
   h3 {
@@ -6720,6 +6722,7 @@ h3 {
 @media screen and (min-width: 85.375rem) {
   h2 {
     font-size: var(--size-40);
+    line-height: var(--size-56);
   }
 }
 /* Containers */
