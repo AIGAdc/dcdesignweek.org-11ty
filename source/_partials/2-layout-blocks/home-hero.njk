@@ -19,17 +19,19 @@
 				<a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
 			{% endif %}
 		</div>
-		<span aria-hidden="true" class="ornament ornament-arrow-double">
-			{% include 'static/images/hero/arrow-double.njk' %}
-		</span>
-		<span aria-hidden="true" class="ornament ornament-badge-community-curated">
-			{% include 'static/images/hero/badge-community-curated.njk' %}
-		</span>
-		<span aria-hidden="true" class="ornament ornament-hero-decor-left">
-			{% include 'static/images/hero/hero-decor-left.njk' %}
-		</span>
-		<span aria-hidden="true" class="ornament ornament-hero-decor-right">
-			{% include 'static/images/hero/hero-decor-right.njk' %}
-		</span>
-	</div>
-</section>
+		{% if page.url == "/" %}
+			<span aria-hidden="true" class="ornament ornament-arrow-double">
+				{% include 'static/images/hero/arrow-double.njk' %}
+			</span>
+			<span aria-hidden="true" class="ornament ornament-badge-community-curated">
+				{% include 'static/images/hero/badge-community-curated.njk' %}
+			</span>
+			<span aria-hidden="true" class="ornament ornament-hero-decor-left">
+				{% include 'static/images/hero/hero-decor-left.njk' %}
+			</span>
+			<span aria-hidden="true" class="ornament ornament-hero-decor-right">
+				{% include 'static/images/hero/hero-decor-right.njk' %}
+			</span>
+			{%  endif %}
+		</div>
+	</section>

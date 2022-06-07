@@ -1,8 +1,4 @@
-.black-on-cream {
-	background-color: var(--color-cream);
-	color: var(--color-black);
-}
-
+// Color Combos
 .black-on-gray {
 	background-color: var(--color-gray);
 	color: var(--color-black);
@@ -27,6 +23,7 @@
 	background-color: var(--color-black);
 	color: var(--color-white);
 }
+
 .white-on-teal {
 	background-color: var(--color-teal);
 	color: var(--color-white);
@@ -44,5 +41,105 @@
 
 .zodiac-on-white {
 	background-color: var(--color-white);
+	color: var(--color-zodiac);
+}
+
+// Data Colors
+*[data-color="white-on-zodiac"] {
+	transition: background-color ease-in 500ms;
+	background-color: var(--color-zodiac) !important;
+}
+
+*[data-color="white-on-zodiac"] .mambo-accordion .question {
+	background-color: var(--color-cream);
+	border: solid 1px var(--color-cream);
+	color: var(--color-zodiac);
+}
+
+*[data-color="white-on-black"] .mambo-divider .top {
+	border-color: var(--color-cream);
+}
+
+*[data-color="white-on-black"] .mambo-divider .bottom {
+	border-color: var(--color-valencia);
+}
+
+*[data-color="white-on-zodiac"] .mambo-divider .top {
+	border-color: var(--color-cream);
+}
+
+*[data-color="white-on-zodiac"] .mambo-divider .bottom {
+	border-color: var(--color-valencia);
+}
+
+*[data-color="zodiac-on-cream"] .mambo-divider .top {
+	border-color: var(--color-valencia);
+}
+
+*[data-color="zodiac-on-cream"] .mambo-divider .bottom {
+	border-color: var(--color-zodiac);
+}
+
+*[data-color="zodiac-on-white"] .mambo-divider .top {
+	border-color: var(--color-valencia);
+}
+
+*[data-color="zodiac-on-white"] .mambo-divider .bottom {
+	border-color: var(--color-zodiac);
+}
+
+*[data-color="white-on-zodiac"] .wysiwyg a,
+*[data-color="white-on-zodiac"] .mambo-card a,
+*[data-color="zodiac-on-white"] .mambo-card a {
+	color: var(--color-cream) !important;
+}
+
+*[data-color="white-on-zodiac"] .mambo-accordion .answer.is-expanded a,
+*[data-color="zodiac-on-white"] .wysiwyg a {
+	color: var(--color-valencia) !important;
+}
+
+*[data-color="zodiac-on-white"] .answer li,
+*[data-color="zodiac-on-white"]  li {
+	list-style: square;
+}
+
+*[data-color="zodiac-on-white"] .answer li::marker,
+*[data-color="zodiac-on-white"] li::marker {
+	color: var(--color-valencia);
+}
+
+*[data-color="white-on-zodiac"] .answer li,
+*[data-color="white-on-zodiac"] li {
+	list-style: square;
+}
+
+*[data-color="zodiac-on-white"] ul ul li {
+	list-style: circle;
+}
+
+*[data-color="white-on-zodiac"] .answer li::marker {
+	color: var(--color-zodiac);
+}
+
+*[data-color="white-on-zodiac"] li::marker {
+	color: var(--color-cream);
+}
+
+*[data-color="white-on-zodiac"] .mambo-accordion .answer.is-expanded {
+	background-color: var(--color-white);
+	border: solid 1px var(--color-cream);
+	color: var(--color-zodiac);
+}
+
+*[data-color="zodiac-on-white"] .mambo-accordion .question {
+	background-color: var(--color-zodiac);
+	border: solid 1px var(--color-zodiac);
+	color: var(--color-white);
+}
+
+*[data-color="zodiac-on-white"] .mambo-accordion .answer {
+	background-color: var(--color-white);
+	border: solid 1px var(--color-zodiac);
 	color: var(--color-zodiac);
 }
