@@ -6886,6 +6886,33 @@ h3 {
   color: var(--color-valencia) !important;
 }
 
+*[data-color=zodiac-on-white] .answer li,
+*[data-color=zodiac-on-white] li {
+  list-style: square;
+}
+
+*[data-color=zodiac-on-white] .answer li::marker,
+*[data-color=zodiac-on-white] li::marker {
+  color: var(--color-valencia);
+}
+
+*[data-color=white-on-zodiac] .answer li,
+*[data-color=white-on-zodiac] li {
+  list-style: square;
+}
+
+*[data-color=zodiac-on-white] ul ul li {
+  list-style: circle;
+}
+
+*[data-color=white-on-zodiac] .answer li::marker {
+  color: var(--color-zodiac);
+}
+
+*[data-color=white-on-zodiac] li::marker {
+  color: var(--color-cream);
+}
+
 *[data-color=white-on-zodiac] .mambo-accordion .answer.is-expanded {
   background-color: var(--color-white);
   border: solid 1px var(--color-cream);
@@ -7210,10 +7237,6 @@ input:checked + .slider:before {
   gap: 0.5rem;
   grid-template-columns: min-content 1fr;
   grid-template-areas: "icon label";
-}
-
-.mambo-list-item::marker {
-  color: var(--color-valencia);
 }
 
 .mambo-list-item-font-awesome {
