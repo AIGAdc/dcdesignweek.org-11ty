@@ -7316,6 +7316,12 @@ input:checked + .slider:before {
   }
 }
 @media screen and (min-width: 48rem) {
+  .ornament-arrow-double {
+    display: block;
+    bottom: -40px;
+    left: -144px;
+  }
+
   .ornament-badge-community-curated {
     width: 5rem;
     top: -64px;
@@ -7333,6 +7339,11 @@ input:checked + .slider:before {
   }
 }
 @media screen and (min-width: 64rem) {
+  .ornament-arrow-double {
+    bottom: -16px;
+    left: -96px;
+  }
+
   .ornament-badge-community-curated {
     width: 7rem;
     top: -72px;

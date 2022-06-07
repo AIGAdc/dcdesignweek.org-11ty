@@ -89,6 +89,12 @@
 }
 
 @media screen and (min-width:48rem) {
+	.ornament-arrow-double {
+		display: block;
+		bottom: -40px;
+		left: -144px;
+	}
+
 	.ornament-badge-community-curated {
 		//background-color: blue;
 		width: 5rem;
@@ -111,6 +117,11 @@
 }
 
 @media screen and (min-width:64rem) {
+	.ornament-arrow-double {
+		bottom: -16px;
+		left: -96px;
+	}
+
 	.ornament-badge-community-curated {
 		//background-color: black;
 		width: 7rem;
