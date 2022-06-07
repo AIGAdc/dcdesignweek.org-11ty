@@ -59,14 +59,14 @@
 	grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width:48rem) {
 	.grid-two-columns {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width:64rem) {
 	.grid-three-columns {
 		grid-template-columns: repeat(3, 1fr);
 	}

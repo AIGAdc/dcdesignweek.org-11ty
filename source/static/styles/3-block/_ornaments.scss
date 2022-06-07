@@ -1,8 +1,10 @@
 .ornament {
+	margin: 0 !important;
 	position: absolute;
 }
 
 .ornament svg {
+	height: auto;
 	width: 100%;
 }
 
@@ -17,131 +19,164 @@
 }
 
 .ornament-badge-community-curated {
-	// Animation
-	// animation: rotation 15s infinite linear;
-	// animation-play-state: var(--playState);
-	// transition: transform calc(var(--toggle) * .15s) ease-in-out;
-	// width: 6rem;
-	// top: -80px;
-	// right: 0;
-}
-
-@keyframes rotation {
-	from {
-		transform: rotate(0deg);
-	}
-
-	to {
-		transform: rotate(359deg);
-	}
-
+	//background-color: yellow;
+	width: 3rem;
+	top: -32px;
+	right: -16px;
+	z-index: 100;
 }
 
 .ornament-hero-decor-left {
-	width: 12.5rem;
-	top: -325px;
-	left: -140px;
+	//background-color: yellow;
+	width: 10rem;
+	top: -150px;
+	left: -125px;
 }
 
 .ornament-hero-decor-right {
-	width: 12.5rem;
-	bottom: -440px;
-	right: -140px;
+	//background-color: yellow;
+	width: 15rem;
+	bottom: -200px;
+	right: -160px;
 }
 
 @media screen and (min-width:30rem) {
 	.ornament-badge-community-curated {
-		width: 8.25rem;
-		top: -100px;
-		right: -30px;
+		//background-color: pink;
+		width: 3rem;
+		top: -32px;
+		right: -16px;
+	}
+
+	.ornament-hero-decor-left {
+		//background-color: pink;
+		width: 10rem;
+		top: -150px;
+		left: -125px;
 	}
 
 	.ornament-hero-decor-right {
-		width: 16rem;
-		bottom: -513px;
-		right: -140px;
+		//background-color: pink;
+		width: 15rem;
+		bottom: -200px;
+		right: -160px;
 	}
 
 }
 
 @media screen and (min-width:40rem) {
+	.ornament-badge-community-curated {
+		//background-color: green;
+		width: 5rem;
+		top: -64px;
+		right: 16px;
+	}
+
 	.ornament-hero-decor-left {
-		top: -350px;
+		//background-color: green;
+		width: 15rem;
+		top: -250px;
+		left: -160px;
 	}
 
 	.ornament-hero-decor-right {
-		width: 19rem;
-		bottom: -520px;
+		//background-color: green;
+		width: 20rem;
+		bottom: -300px;
 		right: -150px;
 	}
 
 }
 
 @media screen and (min-width:48rem) {
+	.ornament-badge-community-curated {
+		//background-color: blue;
+		width: 5rem;
+		top: -64px;
+		right: 16px;
+	}
+
+	.ornament-hero-decor-left {
+		//background-color: blue;
+		width: 15rem;
+		top: -250px;
+		left: -160px;
+	}
+
 	.ornament-hero-decor-right {
-		width: 22rem;
-		bottom: -520px;
+		//background-color: blue;
+		width: 20rem;
 		right: -150px;
 	}
 
 }
 
 @media screen and (min-width:64rem) {
-	.ornament-arrow-double {
-		display: block;
-		left: -150px;
+	.ornament-badge-community-curated {
+		//background-color: black;
+		width: 7rem;
+		top: -72px;
+		right: 180px;
 	}
 
 	.ornament-hero-decor-left {
-		width: 20rem;
-		top: -350px;
-		left: -250px;
+		//background-color: black;
+		width: 25rem;
+		top: -250px;
+		left: -325px;
+	}
+
+	.ornament-hero-decor-right {
+		//background-color: black;
+		width: 25rem;
+		right: -100px;
 	}
 
 }
 
 @media screen and (min-width:85.375rem) {
 	.ornament-badge-community-curated {
-		top: -150px;
-		left: 32px;
-		z-index: 100;
+		//background-color: purple;
+		width: 7rem;
+		top: -56px;
+		left: -32px;
 	}
 
 	.ornament-hero-decor-left {
+		//background-color: purple;
 		width: 25rem;
-		left: -300px;
+		top: -250px;
+		left: -350px;
 	}
 
 	.ornament-hero-decor-right {
-		width: 30rem;
-		bottom: -375px;
-		right: -350px;
+		//background-color: purple;
+		width: 25rem;
+		right: -100px;
 	}
 
 }
 
 @media screen and (min-width:160rem) {
-	.ornament-arrow-double {
-		width: 30rem;
-		left: -150px;
-	}
-
 	.ornament-badge-community-curated {
-		width: 25rem;
-		top: -100px;
-		left: 25px;
-		z-index: 100;
+		// background-color: brown;
+		width: 7rem;
+		top: 0px;
+		left: 160px;
 	}
 
 	.ornament-hero-decor-left {
-		width: 50rem;
-		top: -300px;
-		left: -400px;
+		// background-color: brown;
+		width: 30rem;
+		top: -250px;
+		left: -275px;
 	}
 
 	.ornament-hero-decor-right {
-		width: 50rem;
-		bottom: -315px;
+		// background-color: brown;
+		width: 40rem;
+		right: -400px;
+		top: -72px;
 	}
 
 }
