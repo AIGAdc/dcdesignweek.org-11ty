@@ -4,12 +4,12 @@
   /* AIGA DC: Brand Colors */
   --brand-aiga-dc: #297b76;
   /* DCDW: Past Brand Colors */
-  --dcdw-2016: #0000ff;
-  --dcdw-2017: #3e07d0;
-  --dcdw-2018: #297b76;
-  --dcdw-2019: #fb7eb8;
-  --dcdw-2020: #4ae725;
-  --dcdw-2021: #ec1001;
+  --dcdw-2016:#0000ff;
+  --dcdw-2017:#3e07d0;
+  --dcdw-2018:#297b76;
+  --dcdw-2019:#fb7eb8;
+  --dcdw-2020:#4ae725;
+  --dcdw-2021:#ec1001;
 }
 
 :root {
@@ -211,6 +211,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
+* {
+  outline: dashed 1px red;
+  outline-offset: -1px;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -223,7 +228,6 @@ body {
   font-size: var(--size-18);
   line-height: 1.6;
   margin: auto;
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -232,25 +236,6 @@ body {
     font-size: var(--size-20);
   }
 }
-/* The emerging W3C standard that is currently Firefox-only */
-* {
-  scrollbar-width: auto;
-  scrollbar-color: var(--color-white) var(--color-teal);
-}
-
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-  max-width: 32px;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--color-teal);
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--color-white);
-}
-
 a {
   color: inherit;
   cursor: pointer;
@@ -5193,6 +5178,7 @@ input:checked + .slider:before {
   display: grid;
   place-items: center;
   min-height: 700px;
+  position: relative;
 }
 
 .mambo-hero .wysiwyg p {
@@ -5244,10 +5230,12 @@ input:checked + .slider:before {
 }
 
 .ornament {
+  margin: 0 !important;
   position: absolute;
 }
 
 .ornament svg {
+  height: auto;
   width: 100%;
 }
 
@@ -5261,111 +5249,159 @@ input:checked + .slider:before {
   display: block;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+.ornament-badge-community-curated {
+  width: 3rem;
+  top: -32px;
+  right: -16px;
+  z-index: 100;
 }
+
 .ornament-hero-decor-left {
-  width: 12.5rem;
-  top: -325px;
-  left: -140px;
+  width: 10rem;
+  top: -150px;
+  left: -125px;
 }
 
 .ornament-hero-decor-right {
-  width: 12.5rem;
-  bottom: -440px;
-  right: -140px;
+  width: 15rem;
+  bottom: -200px;
+  right: -160px;
 }
 
 @media screen and (min-width: 30rem) {
   .ornament-badge-community-curated {
-    width: 8.25rem;
-    top: -100px;
-    right: -30px;
+    width: 3rem;
+    top: -32px;
+    right: -16px;
+  }
+
+  .ornament-hero-decor-left {
+    width: 10rem;
+    top: -150px;
+    left: -125px;
   }
 
   .ornament-hero-decor-right {
-    width: 16rem;
-    bottom: -513px;
-    right: -140px;
+    width: 15rem;
+    bottom: -200px;
+    right: -160px;
   }
 }
 @media screen and (min-width: 40rem) {
+  .ornament-badge-community-curated {
+    width: 5rem;
+    top: -64px;
+    right: 16px;
+  }
+
   .ornament-hero-decor-left {
-    top: -350px;
+    width: 15rem;
+    top: -250px;
+    left: -160px;
   }
 
   .ornament-hero-decor-right {
-    width: 19rem;
-    bottom: -520px;
+    width: 20rem;
+    bottom: -300px;
     right: -150px;
   }
 }
 @media screen and (min-width: 48rem) {
+  .ornament-badge-community-curated {
+    width: 5rem;
+    top: -64px;
+    right: 16px;
+  }
+
+  .ornament-hero-decor-left {
+    width: 15rem;
+    top: -250px;
+    left: -160px;
+  }
+
   .ornament-hero-decor-right {
-    width: 22rem;
-    bottom: -520px;
+    width: 20rem;
     right: -150px;
   }
 }
 @media screen and (min-width: 64rem) {
-  .ornament-arrow-double {
-    display: block;
-    left: -150px;
+  .ornament-badge-community-curated {
+    width: 7rem;
+    top: -72px;
+    right: 180px;
   }
 
   .ornament-hero-decor-left {
-    width: 20rem;
-    top: -350px;
-    left: -250px;
+    width: 25rem;
+    top: -250px;
+    left: -325px;
+  }
+
+  .ornament-hero-decor-right {
+    width: 25rem;
+    right: -100px;
   }
 }
 @media screen and (min-width: 85.375rem) {
   .ornament-badge-community-curated {
-    top: -150px;
-    left: 32px;
-    z-index: 100;
+    width: 7rem;
+    top: -56px;
+    left: -32px;
   }
 
   .ornament-hero-decor-left {
     width: 25rem;
-    left: -300px;
+    top: -250px;
+    left: -350px;
   }
 
   .ornament-hero-decor-right {
-    width: 30rem;
-    bottom: -375px;
-    right: -350px;
+    width: 25rem;
+    right: -100px;
   }
 }
 @media screen and (min-width: 160rem) {
-  .ornament-arrow-double {
-    width: 30rem;
-    left: -150px;
-  }
-
   .ornament-badge-community-curated {
-    width: 25rem;
-    top: -100px;
-    left: 25px;
-    z-index: 100;
+    width: 7rem;
+    top: 0px;
+    left: 160px;
   }
 
   .ornament-hero-decor-left {
-    width: 50rem;
-    top: -300px;
-    left: -400px;
+    width: 30rem;
+    top: -250px;
+    left: -275px;
   }
 
   .ornament-hero-decor-right {
-    width: 50rem;
-    bottom: -315px;
+    width: 40rem;
+    right: -400px;
+    top: -72px;
   }
 }
+/* The emerging W3C standard that is currently Firefox-only */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--color-white) var(--color-teal);
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  max-width: 32px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-teal);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-white);
+}
+
+.mambo-section h1 {
+  position: relative;
+}
+
 .mambo-section .details {
   --gap: var(--size-8);
 }
