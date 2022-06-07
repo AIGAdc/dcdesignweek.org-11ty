@@ -211,11 +211,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-* {
-  outline: dashed 1px red;
-  outline-offset: -1px;
-}
-
 html {
   overflow-x: hidden;
 }
