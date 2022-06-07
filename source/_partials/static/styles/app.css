@@ -4658,7 +4658,7 @@ svg {
 /* GORKO: auto-generated utility classes end */
 h1 {
   font-size: var(--size-48);
-  line-height: var(--size-56);
+  line-height: var(--size-48);
   text-shadow: 3px 3px 0px var(--color-white);
   text-transform: uppercase;
 }
@@ -4680,7 +4680,7 @@ h3 {
 @media screen and (min-width: 64rem) {
   h1 {
     font-size: var(--size-104);
-    line-height: var(--size-96);
+    line-height: var(--size-88);
   }
 
   h2 {
