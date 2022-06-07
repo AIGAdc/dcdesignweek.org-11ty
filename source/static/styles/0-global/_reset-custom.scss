@@ -36,11 +36,6 @@ a {
 	transition: opacity var(--timing-default) ease-in;
 }
 
-a[data-type="card"],
-a[data-type="logo"] {
-	display: block;
-}
-
 a:active {
 	outline: 4px solid var(--color-black, inherit);
 }
@@ -49,7 +44,6 @@ a:hover {
 	cursor: pointer;
 }
 
-*:focus,
 a:focus,
 input:focus {
 
