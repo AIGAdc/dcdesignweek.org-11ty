@@ -1,6 +1,6 @@
 /* Flow */
 .flow > * + *:not(:first-child) {
-	margin-top: var(--gap, var(--size-16));
+	margin-top: var(--gap, var(--size-24));
 }
 
 /* Flex */

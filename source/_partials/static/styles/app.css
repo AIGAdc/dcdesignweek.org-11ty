@@ -318,7 +318,7 @@ svg {
 
 /* Flow */
 .flow > * + *:not(:first-child) {
-  margin-top: var(--gap, var(--size-16));
+  margin-top: var(--gap, var(--size-24));
 }
 
 /* Flex */
@@ -5049,6 +5049,10 @@ h3 {
 .zodiac-on-white {
   background-color: var(--color-white);
   color: var(--color-zodiac);
+}
+
+.mambo-divider {
+  margin-bottom: 8px;
 }
 
 .filter-events__reset.control-group .mambo-button {
