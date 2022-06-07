@@ -6941,6 +6941,7 @@ h3 {
 
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
+  text-align: right;
 }
 
 .mambo-accordion .answer {
