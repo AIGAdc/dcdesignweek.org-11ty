@@ -7456,6 +7456,7 @@ input:checked + .slider:before {
 
 .link-skip-to-content:focus {
   position: relative;
+  z-index: 10000;
   transform: translateY(0px);
 }
 
