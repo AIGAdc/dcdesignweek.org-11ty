@@ -1,7 +1,6 @@
 // Start Anchors
 .mambo-anchor.proposal {
 	color: var(--color-white);
-	display: inline-block;
 	font-size: var(--size-18);
 	text-decoration-color: var(--color-valencia);
 	position: relative;
@@ -18,7 +17,6 @@
 }
 
 .mambo-anchor.proposal svg {
-	display: block;
 	width: 270px;
 }
 
@@ -37,7 +35,7 @@
 @media screen and (min-width:85.375rem) {
 	.mambo-anchor.proposal {
 		font-size: var(--size-24);
-		padding: var(--size-32);
+		padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
 	}
 
 	.mambo-anchor.proposal span {
@@ -46,7 +44,7 @@
 
 	.mambo-anchor.proposal svg {
 		display: block;
-		width: auto;
+		width: 100%;
 	}
 
 }
