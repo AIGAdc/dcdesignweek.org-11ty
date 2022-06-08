@@ -333,7 +333,7 @@ sectionFour:
         during the week of October 14-21 at both in-person and virtual events.
       label: Sign up to join our volunteer list
       url: https://docs.google.com/forms/d/1CCUi7i5Lr094peCd2n8qUUDNioAohJYnaCwxwMX-CxU/edit
-      image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
+      image: /static/images/img-dcdw-volunteer.png
       imageAlt: 🛑 Provide Alt Text
       body: We will need help with tasks like Zoom support or set-up and clean-up
         during the week of October 14-21 at both in-person and virtual events.
@@ -342,7 +342,7 @@ sectionFour:
       title: Sponsorship
       label: "Contact DCDW about sponsorship "
       url: mailto:designweek@dc.aiga.org
-      image: https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg
+      image: /static/images/img-dcdw-sponsor.png
       imageAlt: 🛑 Provide Alt Text
       body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.
