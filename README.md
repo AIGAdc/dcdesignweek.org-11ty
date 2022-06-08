@@ -16,7 +16,7 @@ This repository is the home of the 11ty based version of DC Design Week.
 
 ## DC Design Week Committees
 
-* **2021 Committee**: [About Page - Coming Soon](#)
+* **2021 Committee**: [About Page](https://2021.dcdesignweek.org/about)
 * **2020 Committee**: [About Page](https://2020.dcdesignweek.org/about)
 * **2019 Committee**: [About Page](https://2019.dcdesignweek.org/about)
 * **2018 Committee**: [About Page](https://2018.dcdesignweek.org/about)
@@ -25,7 +25,7 @@ This repository is the home of the 11ty based version of DC Design Week.
 
 ## Site Archives
 
-* [2021 DC Design Week - Coming Soon](#)
+* [2021 DC Design Week](https://2021.dcdesignweek.org)
 * [2020 DC Design Week](https://2020.dcdesignweek.org)
 * [2019 DC Design Week](https://2019.dcdesignweek.org)
 * [2018 DC Design Week](https://2018.dcdesignweek.org)

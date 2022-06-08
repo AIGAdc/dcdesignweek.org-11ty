@@ -7,13 +7,33 @@
 		<title>{{ title }} | 2022 DC Design Week</title>
 		<meta name="description" content="{{ description }}">
 		<meta name="theme-color" content="#f6c84c">
+		<!-- Social -->
+		<meta property="fb:app_id" content="123456789">
+		<meta property="og:url" content="https://dcdesignweek.org">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="{{ title }} | 2022 DC Design Week">
+		<meta property="og:image" content="/static/images/og-image.png">
+		<meta property="og:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
+		<meta property="og:description" content="{{ description }}">
+		<meta property="og:site_name" content="2022 DC Design Week">
+		<meta property="og:locale" content="en_US">
+		<meta property="article:author" content="">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@dcdesignweek">
+		<meta name="twitter:creator" content="@dcdesignweek">
+		<meta name="twitter:url" content="https://dcdesignweek.org">
+		<meta name="twitter:title" content="{{ title }} | 2022 DC Design Week">
+		<meta name="twitter:description" content="{{ description }}">
+		<meta name="twitter:image" content="/static/images/og-image.png">
+		<meta name="twitter:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
 		<!-- capture the CSS content as a Nunjucks variable -->
 		{% set css %}
 		{% include "static/styles/app.css" %}
 	{% endset %}
 	<!-- feed it through our cssmin filter to minify -->
 	<style type="text/css">
-		{{css | safe }}
+		{{css | cssmin | safe }}
 	</style>
 	<!-- Script: Font Awesome  -->
 	<link rel="stylesheet" href="https://use.typekit.net/jvp8qxy.css">
