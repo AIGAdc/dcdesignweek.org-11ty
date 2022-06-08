@@ -7,8 +7,8 @@ hero:
   heroHeader: Accessibility Statement
   heroColorCombo: zodiac-on-cream
   heroBody: DC Design Week is committed to improving accessibility and inclusion
-    efforts each year. We recognize this is a journey and that we are still far
-    from our ideal.
+    efforts each year. We recognize this is a journey that we are still far from
+    our ideal.
 sectionOne:
   sectionOneColorCombo: white-on-zodiac
   sectionOneHeader: What are we aiming to?
@@ -22,12 +22,13 @@ sectionOne:
 
     * List accommodations we cannot provide.
 
-    * Provide contacts to request any accommodations that may be needed.
+    * Provide contacts to request any accommodations that may be needed or undocumented.
 
-    * Encourage feedback from the community on how we can evolve to be more inclusive by default in the future.
+    * Encourage feedback from the community on how we can evolve to be more inclusive by default
+      in the future.
 sectionTwo:
   sectionTwoColorCombo: zodiac-on-white
-  sectionTwoHeader: What We’re Working On
+  sectionTwoHeader: What are we working on?
   sectionTwoBody: >-
     We’re working hard behind the scenes with our content curators to ensure all
     talks are inclusively crafted.
@@ -35,17 +36,29 @@ sectionTwo:
 
 
 
-    Speakers are strongly recommended to: 
-
-
-    * Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/). 
-
-    * Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
+    Speakers are strongly recommended to: Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations.](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/) Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
 
 
 
 
     The DC Design Week and AIGA DC teams are working on:
+
+
+
+
+    * Targeting WCAG 2.1 AA compliance for our website and presentation materials which includes meaningful alt text, respecting reduced motion preferences, and understandable heading structures. We can’t cover everything as a team of volunteers, so if you see something wrong please let us know
+      at [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).
+    * Creating more documentation and templates for DCDW accessibility including:
+
+      * Inclusive presentation seminars and handouts.
+      * Accessibility checklists for speakers.
+      * Accessibility statements for events.
+
+
+
+    The DC Design Week and AIGA DC teams are working on:
+
+
 
 
     * Targeting WCAG 2.1 AA compliance for our website and presentation materials which includes meaningful alt text, respecting reduced motion preferences, and understandable heading structures. We can’t cover everything as a team of volunteers, so if you see something wrong please let us know at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).
@@ -61,10 +74,12 @@ sectionTwo:
     AIGA National is also currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone.
 
 
+
+
     Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
 sectionThree:
   sectionThreeColorCombo: zodiac-on-white
-  sectionThreeHeader: Event Accommodations
+  sectionThreeHeader: What can you expect?
   sectionThreeBody: >-
     We're providing the following accessibility features for our events:
 
@@ -81,11 +96,9 @@ sectionThree:
     * Volunteers at every event monitoring chats and conversations for [compliance to AIGA’s code of conduct](https://dc.aiga.org/events/code-of-conduct/).
 
     * When possible — shared materials and presentations for an event prior to it starting. Follow along comfortably with your own technology and at your own pace.
-
-      * We can’t guarantee that all of our events will be able to share their materials ahead of time because some talks may contain classified information or may not have the resources and time to do so.
 sectionFour:
   sectionFourColorCombo: zodiac-on-white
-  sectionFourHeader: What We’re Missing
+  sectionFourHeader: What are we missing?
   sectionFourBody: >-
     We’re still at the beginning of our accessibility journey and want to be
     transparent about the limitations around our budget, experience, volunteer
@@ -102,7 +115,7 @@ sectionFour:
     * Transportation to and from events.
 sectionFive:
   sectionFiveColorCombo: zodiac-on-white
-  sectionFiveHeader: Request an Accommodation
+  sectionFiveHeader: How do you request accommodations?
   sectionFiveBody: >-
     We recognize that our events are still not completely accessible by default.
     If you need an accommodation for any of our events, please contact us using

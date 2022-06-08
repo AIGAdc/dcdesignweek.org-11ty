@@ -235,7 +235,7 @@ a {
   color: inherit;
   cursor: pointer;
   font-family: var(--font-family-sans);
-  font-weight: var(--weight-600);
+  font-weight: var(--weight-400);
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
   transition: opacity var(--timing-default) ease-in;
@@ -6774,7 +6774,7 @@ h3 {
 .mambo-accordion .answer.is-expanded {
   display: block;
   position: relative;
-  top: -1px;
+  top: -2px;
   padding: var(--size-20);
 }
 
@@ -6795,7 +6795,6 @@ h3 {
 }
 .mambo-anchor.proposal {
   color: var(--color-white);
-  display: inline-block;
   font-size: var(--size-18);
   text-decoration-color: var(--color-valencia);
   position: relative;
@@ -6812,14 +6811,13 @@ h3 {
 }
 
 .mambo-anchor.proposal svg {
-  display: block;
   width: 270px;
 }
 
 @media screen and (min-width: 85.375rem) {
   .mambo-anchor.proposal {
     font-size: var(--size-24);
-    padding: var(--size-32);
+    padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
   }
 
   .mambo-anchor.proposal span {
@@ -6828,7 +6826,7 @@ h3 {
 
   .mambo-anchor.proposal svg {
     display: block;
-    width: auto;
+    width: 100%;
   }
 }
 /* Component: mambo-banner */
@@ -6992,7 +6990,7 @@ h3 {
 }
 
 *[data-color=zodiac-on-white] .answer li,
-*[data-color=zodiac-on-white] li {
+*[data-color=zodiac-on-white] .answer li {
   list-style: square;
 }
 
@@ -7002,10 +7000,11 @@ h3 {
 }
 
 *[data-color=white-on-zodiac] .answer li,
-*[data-color=white-on-zodiac] li {
+*[data-color=white-on-zodiac] .answer li {
   list-style: square;
 }
 
+*[data-color=white-on-zodiac] ul ul li,
 *[data-color=zodiac-on-white] ul ul li {
   list-style: circle;
 }

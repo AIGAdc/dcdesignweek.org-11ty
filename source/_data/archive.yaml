@@ -7,7 +7,7 @@ events:
   - image: static/images/img-dcdw-2021.png
     imageALT:
     theme: "Hyperlocal"
-    url: "#"
+    url: "https://2021.dcdesignweek.org/"
     label: "2021 DCDW Website"
   - image: static/images/img-dcdw-2020.png
     imageALT:
