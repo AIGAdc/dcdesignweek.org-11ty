@@ -1,36 +1,28 @@
 @include generate-utility-classes();
 
 /* Containers */
-.container-default {
+.container-section {
 	margin: auto;
-	max-width: 896px;
+	max-width: 1600px;
+	width: 100%;
+	position: relative;
 }
 
-/* WYSIWYG */
-.wysiwyg {
-	font-size: var(--size-16);
+.container-content {
+	margin: auto;
+	max-width: 900px;
+	width: 100%;
+	position: relative;
 }
 
-.wysiwyg > *:not(:first-child) {
-	margin-top: var(--size-16);
+.container-wide {
+	margin: auto;
+	max-width: 1024px;
+	width: 100%;
+	position: relative;
 }
 
-.wysiwyg a {
-	color: var(--color-blue);
-}
-
-.wysiwyg ul,
-.wysiwyg li {
-	margin-left: var(--size-16);
-}
-
-/* WYSIWYG */
-
-.wysiwyg > *:not(:first-child) {
-	margin-top: var(--space-16);
-}
-
-.wysiwyg ul,
-.wysiwyg li {
-	margin-left: var(--space-16);
+// Gaps
+.gap-1 {
+	--gap: var(--size-20);
 }
