@@ -102,8 +102,6 @@ sectionTwo:
         recommend:
 
 
-
-
         * 5 minutes for set-up and wrap-up.
 
         * 30 minutes of content.
@@ -111,15 +109,13 @@ sectionTwo:
         * 10 minutes of Q&A.
 
 
-        **Example: [Rapid Prototyping for the Web Using the US Web Design System](https://dcdesignweek.org/events/rapid-prototyping-for-the-web-using-the-us-web-design-system/)**
+        **Example: [Rapid Prototyping for the Web Using the US Web Design System](https://2021.dcdesignweek.org/events/rapid-prototyping-for-the-web-using-the-us-web-design-system/)**
       trigger: question-1
     - question: "Lightning Talks Series:"
       answer: >-
         A session featuring several speakers who each give a 5-10-minute
         presentation around a specific theme. This session typically includes a
         Q&A following a full session of lightning talks. We recommend:
-
-
 
 
         * 5 minutes for set-up and wrap-up.
@@ -132,15 +128,13 @@ sectionTwo:
         Lighting talks can also be split into groups with Q&A after each group of speakers.
 
 
-        **Example: [Designing Safe Spaces](https://dcdesignweek.org/events/designing-safe-spaces-lightning-talks-to-spark-ideas-conversation-and-change/)**
+        **Example: [Designing Safe Spaces](https://2021.dcdesignweek.org/events/designing-safe-spaces-lightning-talks-to-spark-ideas-conversation-and-change/)**
       trigger: question-2
     - question: "Panel:"
       answer: >-
         A 45-minute discussion with three to five people talking about,
         investigating, or deciding on a specific topic, hosted by one moderator.
         We recommend:
-
-
 
 
         * 5 minutes for set-up and wrap-up.
@@ -150,7 +144,7 @@ sectionTwo:
         * 15 minutes of audience-driven questions.
 
 
-        **Examples:** [Fostering Purpose-Driven Brand and Culture in the Build Environment](https://dcdesignweek.org/events/fostering-purpose-driven-brand-and-culture-in-the-built-environment/)
+        **Examples:** [Fostering Purpose-Driven Brand and Culture in the Build Environment](https://2021.dcdesignweek.org/events/fostering-purpose-driven-brand-and-culture-in-the-built-environment/)
       trigger: question-3
     - question: "Self-Directed Activity:"
       answer: >-
@@ -159,17 +153,13 @@ sectionTwo:
         mapped run, or art prompt. 
 
 
-
-
-        **Examples: [See several examples from DC Design Week 2020](https://dcdesignweek.org/events/self-guided)**
+        **Examples: [See several examples from DC Design Week 2020](https://2020.dcdesignweek.org/events/self-guided)**
       trigger: question-4
     - question: "Social Gathering:"
       answer: >-
         An informal meetup with folks who share mutual interest in a common
         theme, topic, or activity. These gatherings help attendees connect,
         discuss ideas, and meet new people.
-
-
 
 
         **Example: [DC Street Art & Mural Run](https://2019.dcdesignweek.org/events/dc-street-art-and-mural-run/)**
@@ -180,8 +170,6 @@ sectionTwo:
         speakers. We recommend:
 
 
-
-
         * 5 minutes for set-up and wrap-up.
 
         * 40 minutes of content.
@@ -189,16 +177,12 @@ sectionTwo:
         * 15 minutes of Q&A.
 
 
-
-
-        **Example:** [Designing With Cultural Competence](https://dcdesignweek.org/events/designing-with-cultural-competence/)
+        **Example:** [Designing With Cultural Competence](https://2021.dcdesignweek.org/events/designing-with-cultural-competence/)
       trigger: question-6
     - question: "Workshops:"
       answer: >-
         A highly interactive 90-minute session featuring small group exercises
         led by one or two hosts. We recommend:
-
-
 
 
         * 15 minutes for set-up and wrap-up.
@@ -208,9 +192,7 @@ sectionTwo:
         * 15 minutes of reflection.
 
 
-
-
-        **Examples: [Creative Care for Burnt Out Artists](https://dcdesignweek.org/events/creative-care-for-burnt-out-artists/) & [Decolonizing the Design Process](https://dcdesignweek.org/events/decolonizing-the-design-process/)**
+        **Examples: [Creative Care for Burnt Out Artists](https://2021.dcdesignweek.org/events/creative-care-for-burnt-out-artists/) & [Decolonizing the Design Process](https://2021.dcdesignweek.org/events/decolonizing-the-design-process/)**
       trigger: question-7
 sectionThree:
   sectionThreeColorCombo: white-on-zodiac
@@ -280,16 +262,10 @@ sectionThree:
     - question: What happens after submitting an event proposal?
       answer: >-
         **If your event is selected**, it will become an event on the DC Design
-        Week 2022 calendar. **Congrats!**
-        [🎉](https://emojipedia.org/party-popper/) 
-
-
+        Week 2022 calendar. **Congrats!** 🎉 
 
 
         **We may work with you to refine some big picture event details**, such as the event’s overall goals, your intended audiences, etc. We may also work with you to understand more about what you need from us. This will help everyone meet our mutual goals in planning and hosting a fabulous event.
-
-
-         
 
 
         * **What you get from us:**
@@ -309,9 +285,6 @@ sectionThree:
           * Event **accessibility support in compliance with ADA guidelines**. (e.g., closed captioning, verbit.)
           * Event **technical support** (e.g., access to Zoom, volunteers to help staff the virtual events, etc.)
           * Access to additional volunteer support (week-of or day-of the event) as needed.
-
-
-
         * **What we get from you:**
 
           * Commitment to hosting your event during DC Design Week 2022. We understand that life happens, but if you’re submitting an event proposal, it means that you’re committed to making this event happen against most odds. 

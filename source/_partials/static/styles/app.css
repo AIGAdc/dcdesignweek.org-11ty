@@ -6890,6 +6890,10 @@ h3 {
   left: 0;
 }
 
+#how-else-can-i-get-involved-with-dc-design-week-2022 img {
+  mix-blend-mode: unset;
+}
+
 .black-on-gray {
   background-color: var(--color-gray);
   color: var(--color-black);

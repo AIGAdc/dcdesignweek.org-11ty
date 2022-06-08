@@ -78,7 +78,7 @@ sectionTwo:
 
     Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
 sectionThree:
-  sectionThreeColorCombo: zodiac-on-white
+  sectionThreeColorCombo: white-on-zodiac
   sectionThreeHeader: What can you expect?
   sectionThreeBody: >-
     We're providing the following accessibility features for our events:
@@ -114,7 +114,7 @@ sectionFour:
 
     * Transportation to and from events.
 sectionFive:
-  sectionFiveColorCombo: zodiac-on-white
+  sectionFiveColorCombo: white-on-zodiac
   sectionFiveHeader: How do you request accommodations?
   sectionFiveBody: >-
     We recognize that our events are still not completely accessible by default.
