@@ -7334,8 +7334,8 @@ input:checked + .slider:before {
 }
 @media screen and (min-width: 64rem) {
   .ornament-arrow-double {
-    bottom: -16px;
-    left: -96px;
+    bottom: -40px;
+    left: -130px;
   }
 
   .ornament-badge-community-curated {
@@ -7357,6 +7357,11 @@ input:checked + .slider:before {
   }
 }
 @media screen and (min-width: 85.375rem) {
+  .ornament-arrow-double {
+    bottom: -22px;
+    left: -130px;
+  }
+
   .ornament-badge-community-curated {
     width: 7rem;
     top: -56px;
