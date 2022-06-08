@@ -6826,7 +6826,7 @@ h3 {
 
   .mambo-anchor.proposal svg {
     display: block;
-    width: 100%;
+    width: 110%;
   }
 }
 /* Component: mambo-banner */
@@ -7311,6 +7311,7 @@ input:checked + .slider:before {
 }
 @media screen and (min-width: 48rem) {
   .ornament-arrow-double {
+    width: 8rem;
     display: block;
     bottom: -40px;
     left: -144px;
