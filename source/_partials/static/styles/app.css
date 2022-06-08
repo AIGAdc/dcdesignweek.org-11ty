@@ -6890,11 +6890,6 @@ h3 {
   left: 0;
 }
 
-.white-on-zodiac {
-  background-color: var(--color-zodiac);
-  color: var(--color-white);
-}
-
 .black-on-gray {
   background-color: var(--color-gray);
   color: var(--color-black);
@@ -6988,44 +6983,6 @@ h3 {
   border-color: var(--color-zodiac);
 }
 
-.mambo-anchor.proposal {
-  color: var(--color-white);
-  display: inline-block;
-  font-size: var(--size-18);
-  text-decoration-color: var(--color-valencia);
-  position: relative;
-  padding: var(--size-16);
-  z-index: 500;
-}
-
-.mambo-anchor.proposal span {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  top: 6px;
-  z-index: -1;
-}
-
-.mambo-anchor.proposal svg {
-  display: block;
-  width: 270px;
-}
-
-@media screen and (min-width: 85.375rem) {
-  .mambo-anchor.proposal {
-    font-size: var(--size-24);
-    padding: var(--size-32);
-  }
-
-  .mambo-anchor.proposal span {
-    top: 24px;
-  }
-
-  .mambo-anchor.proposal svg {
-    display: block;
-    width: auto;
-  }
-}
 *[data-color=white-on-zodiac] .wysiwyg a,
 *[data-color=white-on-zodiac] .mambo-card a,
 *[data-color=zodiac-on-white] .mambo-card a {
