@@ -3,16 +3,18 @@ title: Home - Internal
 description: DC Design Week is an annual celebration of DC’s vibrant, diverse
   creative community. This year we’re once again asking you, our community
   members, **to help us build DC Design Week. Submit an event proposal by June
-  12, 2022!** [View a recording of our information session to learn more.](#)
+  12, 2022!** [View a recording of our information session to learn
+  more.](https://vimeo.com/714109878)
 hero:
   heroColorCombo: zodiac-on-cream
   heroHeader: "DC Design Week 2022: Oct 14 – 21!"
   heroBody: DC Design Week is an annual celebration of DC’s vibrant, diverse
     creative community. This year we’re once again asking you, our community
     members, to help us build DC Design Week. **Submit an event proposal by June
-    12, 2022!**
+    12, 2022!** [View a recording of our information session to learn
+    more.](https://vimeo.com/714109878)
   heroButtonLeftLabel: Submit An Event Proposal
-  heroButtonLeftURL: "#"
+  heroButtonLeftURL: https://docs.google.com/forms/d/e/1FAIpQLSdNE9l3Df58coVJBav1ibV3LGiQZhsiAs9pf0-RcEZO0IQv7Q/viewform
   showHeroButtonLeft: true
 sectionOne:
   sectionOneColorCombo: white-on-zodiac
@@ -47,7 +49,7 @@ sectionOne:
         We plan to host **a few small, in-person, indoor events** (less than 20 attendees with masks) and **a few, larger, in-person, outdoor events** for DC Design Week 2022, from October 14–21.
 
 
-        That said, **DC Design Week will always follow** [the latest CDC guidance on hosting in-person gatherings](https://www.cdc.gov/coronavirus/2019-ncov/your-health/covid-by-county.html). As a result, we might pivot events to virtual experiences if the situation changes. Prospective event partners must understand this when proposing in-person events. We will work with selected event partners to ensure that each in-person event follows the latest CDC guidelines and has appropriate contingency plans.
+        That said, **DC Design Week will always follow** the latest CDC guidance on hosting in-person gatherings. As a result, we might pivot events to virtual experiences if the situation changes. Prospective event partners must understand this when proposing in-person events. We will work with selected event partners to ensure that each in-person event follows the latest CDC guidelines and has appropriate contingency plans.
       expanded: false
       trigger: question-1
     - question: How does event ticketing and pricing work?
@@ -226,10 +228,9 @@ sectionThree:
   questions:
     - question: How do I submit an event for consideration?
       answer: >-
-        Use the **[DCDW 2022: Event Proposal Form](#)** to submit an event
-        proposal by June 12, 2022. 
-
-
+        Use the **[DCDW 2022: Event Proposal
+        Form](https://docs.google.com/forms/d/e/1FAIpQLSdNE9l3Df58coVJBav1ibV3LGiQZhsiAs9pf0-RcEZO0IQv7Q/viewform)**
+        to submit an event proposal by June 12, 2022. 
 
 
         * Any organizations or individuals, regardless of size or experience organizing events, can submit an event proposal.
@@ -244,7 +245,9 @@ sectionThree:
       trigger: question-1
     - question: What information do I need to submit with my event idea?
       answer: >-
-        The DCDW 2022: Event Proposal Form includes four sections of questions:
+        The **[DCDW 2022: Event Proposal
+        Form](https://docs.google.com/forms/d/e/1FAIpQLSdNE9l3Df58coVJBav1ibV3LGiQZhsiAs9pf0-RcEZO0IQv7Q/viewform)**
+        includes four sections of questions:
 
 
         1. Your information, including:
