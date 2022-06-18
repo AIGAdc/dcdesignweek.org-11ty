@@ -1,56 +1,56 @@
 /* Component: mambo-accordion */
 .mambo-accordions {
-	--gap: var(--size-16);
+    --gap: var(--size-16);
 }
 
 .mambo-accordion .question {
-	// Gap Settings
-	gap: var(--size-16);
-	// Display Settings
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-	// 
-	background-color: transparent;
-	font-family: unset;
-	font-size: var(--size-20);
-	font-weight: var(--weight-600);
-	justify-content: unset;
-	line-height: 1.5;
-	padding: var(--size-24);
-	text-align: left;
-	width: 100%;
+    // Gap Settings
+    gap: var(--size-16);
+    // Display Settings
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    // 
+    background-color: transparent;
+    font-family: unset;
+    font-size: var(--size-20);
+    font-weight: var(--weight-600);
+    justify-content: unset;
+    line-height: 1.5;
+    padding: var(--size-24);
+    text-align: left;
+    width: 100%;
 }
 
 .mambo-accordion .question .question-icon {
-	flex-grow: 1;
-	text-align: right;
+    flex-grow: 1;
+    text-align: right;
 }
 
 .mambo-accordion .answer {
-	display: none;
+    display: none;
 }
 
 .mambo-accordion .answer.is-expanded {
-	display: block;
-	position: relative;
-	top: -2px;
-	padding: var(--size-20);
+    display: block;
+    position: relative;
+    top: -2px;
+    padding: var(--size-20);
 }
 
 .mambo-accordion .answer.is-expanded:focus {
-	box-shadow: unset;
-	outline: unset;
-	overflow: unset;
+    box-shadow: unset;
+    outline: unset;
+    overflow: unset;
 }
 
 @media screen and (min-width:64rem) {
-	.mambo-accordion .question {
-		text-align: right;
-	}
+    .mambo-accordion .question {
+        text-align: right;
+    }
 
-	.mambo-accordion .answer.is-expanded {
-		padding: var(--size-40) var(--size-80);
-	}
+    .mambo-accordion .answer.is-expanded {
+        padding: var(--size-40) var(--size-80);
+    }
 
 }

@@ -1,86 +1,86 @@
 filter-events:
   day:
-  - filter: ".day-1"
-    class: day-1
-    text-1: Friday
-    text-3: 1st
-    has-occurred: false
-  - filter: ".day-2"
-    class: day-2
-    text-1: Saturday
-    text-3: 2nd
-    has-occurred: false
-  - filter: ".day-3"
-    class: day-3
-    text-1: Sunday
-    text-3: 3rd
-    has-occurred: false
-  - filter: ".day-4"
-    class: day-4
-    text-1: Monday
-    text-3: 4th
-    has-occurred: false
-  - filter: ".day-5"
-    class: day-5
-    text-1: Tuesday
-    text-3: 5th
-    has-occurred: false
-  - filter: ".day-6"
-    class: day-6
-    text-1: Wednesday
-    text-3: 6th
-    has-occurred: false
-  - filter: ".day-7"
-    class: day-7
-    text-1: Thursday
-    text-3: 7th
-    has-occurred: false
-  - filter: ".day-8"
-    class: day-8
-    text-1: Friday
-    text-3: 8th
-    has-occurred: false
+    - filter: ".day-1"
+      class: day-1
+      text-1: Friday
+      text-3: 1st
+      has-occurred: false
+    - filter: ".day-2"
+      class: day-2
+      text-1: Saturday
+      text-3: 2nd
+      has-occurred: false
+    - filter: ".day-3"
+      class: day-3
+      text-1: Sunday
+      text-3: 3rd
+      has-occurred: false
+    - filter: ".day-4"
+      class: day-4
+      text-1: Monday
+      text-3: 4th
+      has-occurred: false
+    - filter: ".day-5"
+      class: day-5
+      text-1: Tuesday
+      text-3: 5th
+      has-occurred: false
+    - filter: ".day-6"
+      class: day-6
+      text-1: Wednesday
+      text-3: 6th
+      has-occurred: false
+    - filter: ".day-7"
+      class: day-7
+      text-1: Thursday
+      text-3: 7th
+      has-occurred: false
+    - filter: ".day-8"
+      class: day-8
+      text-1: Friday
+      text-3: 8th
+      has-occurred: false
   location:
-  - filter: ".in-person"
-    class: in-person
-    text-1: In-Person
-  - filter: ".zoom"
-    class: zoom
-    text-1: Zoom
+    - filter: ".in-person"
+      class: in-person
+      text-1: In-Person
+    - filter: ".zoom"
+      class: zoom
+      text-1: Zoom
   time:
-  - filter: ".morning"
-    class: morning
-    text-1: Morning
-  - filter: ".daytime"
-    class: daytime
-    text-1: Daytime
-  - filter: ".evening"
-    class: evening
-    text-1: Evening
+    - filter: ".morning"
+      class: morning
+      text-1: Morning
+    - filter: ".daytime"
+      class: daytime
+      text-1: Daytime
+    - filter: ".evening"
+      class: evening
+      text-1: Evening
   type:
-  - filter: ".creative-breakfast"
-    class: creative-breakfast
-    text-1: Creative Breakfast
-  - filter: ".creative-lunch"
-    class: creative-lunch
-    text-1: Creative Lunch
-  - filter: ".keynote"
-    class: keynote
-    text-1: Keynote
-  - filter: ".party"
-    class: party
-    text-1: Party
-  - filter: ".talk-panel"
-    class: talk-panel
-    text-1: Talk/Panel
-  - filter: ".workshop"
-    class: workshop
-    text-1: Workshop
+    - filter: ".creative-breakfast"
+      class: creative-breakfast
+      text-1: Creative Breakfast
+    - filter: ".creative-lunch"
+      class: creative-lunch
+      text-1: Creative Lunch
+    - filter: ".keynote"
+      class: keynote
+      text-1: Keynote
+    - filter: ".party"
+      class: party
+      text-1: Party
+    - filter: ".talk-panel"
+      class: talk-panel
+      text-1: Talk/Panel
+    - filter: ".workshop"
+      class: workshop
+      text-1: Workshop
   sold-out:
-  - filter: ".sold-out"
-    class: sold-out
-    text-1: Sold Out
+    - filter: ".sold-out"
+      class: sold-out
+      text-1: Sold Out
   status:
-  - filter: ".featured"
-    class: featured
-    text-1: Show Featured
+    - filter: ".featured"
+      class: featured
+      text-1: Show Featured

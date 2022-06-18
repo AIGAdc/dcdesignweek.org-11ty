@@ -1,14 +1,13 @@
 .mambo-hero {
-	display: grid;
-	place-items: center;
-	min-height: 700px;
-	position: relative;
-	z-index: 1000;
+    display: grid;
+    place-items: center;
+    min-height: 700px;
+    position: relative;
+    z-index: 1000;
 }
 
-.mambo-hero a {
-	
-}
+.mambo-hero a {}
+
 .mambo-hero .wysiwyg p {
-	font-size: var(--size-24);
+    font-size: var(--size-24);
 }

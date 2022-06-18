@@ -1,199 +1,199 @@
 .ornament {
-	margin: 0 !important;
-	position: absolute;
+    margin: 0 !important;
+    position: absolute;
 }
 
 .ornament svg {
-	height: auto;
-	width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .ornament-arrow-double {
-	display: none;
+    display: none;
 }
 
 .ornament-badge-community-curated,
 .ornament-hero-decor-left,
 .ornament-hero-decor-right {
-	display: block;
+    display: block;
 }
 
 .ornament-badge-community-curated {
-	//background-color: yellow;
-	width: 3rem;
-	top: -32px;
-	right: -16px;
-	z-index: 100;
+    //background-color: yellow;
+    width: 3rem;
+    top: -32px;
+    right: -16px;
+    z-index: 100;
 }
 
 .ornament-hero-decor-left {
-	//background-color: yellow;
-	width: 10rem;
-	top: -150px;
-	left: -125px;
+    //background-color: yellow;
+    width: 10rem;
+    top: -150px;
+    left: -125px;
 }
 
 .ornament-hero-decor-right {
-	//background-color: yellow;
-	width: 15rem;
-	bottom: -200px;
-	right: -160px;
+    //background-color: yellow;
+    width: 15rem;
+    bottom: -200px;
+    right: -160px;
 }
 
 @media screen and (min-width:30rem) {
-	.ornament-badge-community-curated {
-		//background-color: pink;
-		width: 3rem;
-		top: -32px;
-		right: -16px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: pink;
+        width: 3rem;
+        top: -32px;
+        right: -16px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: pink;
-		width: 10rem;
-		top: -150px;
-		left: -125px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: pink;
+        width: 10rem;
+        top: -150px;
+        left: -125px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: pink;
-		width: 15rem;
-		bottom: -200px;
-		right: -160px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: pink;
+        width: 15rem;
+        bottom: -200px;
+        right: -160px;
+    }
 
 }
 
 @media screen and (min-width:40rem) {
-	.ornament-badge-community-curated {
-		//background-color: green;
-		width: 5rem;
-		top: -64px;
-		right: 16px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: green;
+        width: 5rem;
+        top: -64px;
+        right: 16px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: green;
-		width: 15rem;
-		top: -250px;
-		left: -160px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: green;
+        width: 15rem;
+        top: -250px;
+        left: -160px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: green;
-		width: 17rem;
-		bottom: -260px;
-		right: -150px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: green;
+        width: 17rem;
+        bottom: -260px;
+        right: -150px;
+    }
 
 }
 
 @media screen and (min-width:48rem) {
-	.ornament-arrow-double {
-		width: 8rem;
-		display: block;
-		bottom: -40px;
-		left: -144px;
-	}
+    .ornament-arrow-double {
+        width: 8rem;
+        display: block;
+        bottom: -40px;
+        left: -144px;
+    }
 
-	.ornament-badge-community-curated {
-		//background-color: blue;
-		width: 5rem;
-		top: -64px;
-		right: 16px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: blue;
+        width: 5rem;
+        top: -64px;
+        right: 16px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: blue;
-		width: 15rem;
-		top: -250px;
-		left: -160px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: blue;
+        width: 15rem;
+        top: -250px;
+        left: -160px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: blue;
-		right: -150px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: blue;
+        right: -150px;
+    }
 
 }
 
 @media screen and (min-width:64rem) {
-	.ornament-arrow-double {
-		bottom: -40px;
-		left: -130px;
-	}
+    .ornament-arrow-double {
+        bottom: -40px;
+        left: -130px;
+    }
 
-	.ornament-badge-community-curated {
-		//background-color: black;
-		width: 7rem;
-		top: -72px;
-		right: 0px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: black;
+        width: 7rem;
+        top: -72px;
+        right: 0px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: black;
-		width: 22rem;
-		top: -300px;
-		left: -270px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: black;
+        width: 22rem;
+        top: -300px;
+        left: -270px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: black;
-		width: 20rem;
-		bottom: -280px;
-		right: -100px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: black;
+        width: 20rem;
+        bottom: -280px;
+        right: -100px;
+    }
 
 }
 
 @media screen and (min-width:85.375rem) {
-	.ornament-arrow-double {
-		bottom: -22px;
-		left: -130px;
-	}
+    .ornament-arrow-double {
+        bottom: -22px;
+        left: -130px;
+    }
 
-	.ornament-badge-community-curated {
-		//background-color: purple;
-		width: 7rem;
-		top: -56px;
-		left: -32px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: purple;
+        width: 7rem;
+        top: -56px;
+        left: -32px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: purple;
-		width: 25rem;
-		top: -250px;
-		left: -350px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: purple;
+        width: 25rem;
+        top: -250px;
+        left: -350px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: purple;
-		width: 22rem;
-		right: -100px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: purple;
+        width: 22rem;
+        right: -100px;
+    }
 
 }
 
 @media screen and (min-width:160rem) {
-	.ornament-badge-community-curated {
-		//background-color: brown;
-		width: 7rem;
-		top: 0px;
-		left: 160px;
-	}
+    .ornament-badge-community-curated {
+        //background-color: brown;
+        width: 7rem;
+        top: 0px;
+        left: 160px;
+    }
 
-	.ornament-hero-decor-left {
-		//background-color: brown;
-		width: 30rem;
-		top: -250px;
-		left: -275px;
-	}
+    .ornament-hero-decor-left {
+        //background-color: brown;
+        width: 30rem;
+        top: -250px;
+        left: -275px;
+    }
 
-	.ornament-hero-decor-right {
-		//background-color: brown;
-		width: 40rem;
-		right: -400px;
-		top: -72px;
-	}
+    .ornament-hero-decor-right {
+        //background-color: brown;
+        width: 40rem;
+        right: -400px;
+        top: -72px;
+    }
 
 }

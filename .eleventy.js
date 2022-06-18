@@ -5,35 +5,35 @@ const {
 } = require("luxon");
 const yaml = require("js-yaml");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
     // 11ty Data Extension
     // To Support .yaml Extension in _data
     // You may remove this if you can use JSON
     eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
     // Filters
     // 11ty Quick Tip: #1 Inline Minified CSS - https://www.11ty.dev/docs/quicktips/inline-css/
-    eleventyConfig.addFilter("cssmin", function(code) {
+    eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
     });
     // This filter can be applied to a njk variable and will render the time as: 12:00 PM
     eleventyConfig.addFilter("dateTime", (dateObj) => {
         return DateTime.fromJSDate(dateObj, {
-                zone: "America/New_York",
-            })
+            zone: "America/New_York",
+        })
             .setLocale("en")
             .toLocaleString(DateTime.TIME_SIMPLE);
     });
     eleventyConfig.addFilter("readableEventDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj, {
-                zone: "America/New_York",
-            })
+            zone: "America/New_York",
+        })
             .setLocale("en")
             .toLocaleString(DateTime.DATE_FULL);
     });
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj, {
-                zone: "America/New_York",
-            })
+            zone: "America/New_York",
+        })
             .setLocale("en")
             .toISODate();
     });
@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true
     });
-    eleventyConfig.addFilter("md", function(content = "") {
+    eleventyConfig.addFilter("md", function (content = "") {
         return markdownIt({
             html: true
         }).render(content);
@@ -66,7 +66,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./source/static/styles/app.css");
 
     // Transforms
-    eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
         // Eleventy 1.0+: use this.inputPath and this.outputPath instead
         if (outputPath && outputPath.endsWith(".html")) {
             let minified = htmlmin.minify(content, {

@@ -4,27 +4,27 @@ See _data/archive.yaml for updating content.
 -->
 <section class="[ mambo-section archive-events ][ padding-all-20 padding-top-80
 padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in archive.section %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in archive.section %}{{ content.colorCombo | safe }}{% endfor %}" id="archive-events">
-<div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
-	<div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
-		{% for content in archive.section %}
-			<h2>{{ content.header | safe }}</h2>
-			{% include '1-mambo-blocks/divider.njk' %}
-			<div class="wysiwyg flow-3">{{ content.body | md | safe }}</div>
-		{% endfor %}
-	</div>
-	<ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
-		{% for content in archive.events  | limit(2) %}
-			<li class="[ mambo-card ]">
-				<figure class="[ image ][ background-color-zodiac ]">
-					<img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
-					<span aria-hidden="true" class="[ overlay overlay--zodiac ]"></span>
-				</figure>
-				<div class="[ content ][ background-color-zodiac color-white ][ padding-all-24 ]">
-					<h3>{{ content.theme | safe }}</h3>
-					<a aria-label="{{ content.label }}" class="[ mambo-anchor ][ color-cream ]" href="{{ content.url }}">{{ content.label | safe }}</a>
-				</div>
-			</li>
-		{% endfor %}
-	</ul>
-</div>
+    <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
+        <div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
+            {% for content in archive.section %}
+                <h2>{{ content.header | safe }}</h2>
+                {% include '1-mambo-blocks/divider.njk' %}
+                <div class="wysiwyg flow-3">{{ content.body | md | safe }}</div>
+            {% endfor %}
+        </div>
+        <ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+            {% for content in archive.events | limit(2) %}
+                <li class="[ mambo-card ]">
+                    <figure class="[ image ][ background-color-zodiac ]">
+                        <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                        <span aria-hidden="true" class="[ overlay overlay--zodiac ]"></span>
+                    </figure>
+                    <div class="[ content ][ background-color-zodiac color-white ][ padding-all-24 ]">
+                        <h3>{{ content.theme | safe }}</h3>
+                        <a aria-label="{{ content.label }}" class="[ mambo-anchor ][ color-cream ]" href="{{ content.url }}">{{ content.label | safe }}</a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </section>

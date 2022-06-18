@@ -4,12 +4,12 @@
   /* AIGA DC: Brand Colors */
   --brand-aiga-dc: #297b76;
   /* DCDW: Past Brand Colors */
-  --dcdw-2016:#0000ff;
-  --dcdw-2017:#3e07d0;
-  --dcdw-2018:#297b76;
-  --dcdw-2019:#fb7eb8;
-  --dcdw-2020:#4ae725;
-  --dcdw-2021:#ec1001;
+  --dcdw-2016: #0000ff;
+  --dcdw-2017: #3e07d0;
+  --dcdw-2018: #297b76;
+  --dcdw-2019: #fb7eb8;
+  --dcdw-2020: #4ae725;
+  --dcdw-2021: #ec1001;
 }
 
 :root {
@@ -7744,11 +7744,11 @@ input:checked + .slider:before {
   padding: 0.5em 1em;
   text-decoration: none;
   /**
-        * Active tab styling
-        */
+     * Active tab styling
+     */
   /**
-        * Tabs on hover
-        */
+     * Tabs on hover
+     */
 }
 
 @media (min-width: 30em) {
