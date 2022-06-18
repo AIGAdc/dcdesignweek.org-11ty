@@ -149,23 +149,6 @@ collections:
                   - { label: Answer, name: answer, widget: markdown }
                   - { label: Trigger, name: trigger, widget: string }
                   - { label: Expanded, name: expanded, widget: boolean, required: false }
-          - label: "Section Two"
-            name: "sectionTwo"
-            widget: "object"
-            summary: '{{fields.name}}'
-            fields:
-              - { label: "Section Two Color Combo", name: "sectionTwoColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Two Header", name: "sectionTwoHeader", widget: "string" }
-              - { label: "Section Two Body", name: "sectionTwoBody", widget: "markdown" }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: '{{fields.question}}'
-                fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - { label: Expanded, name: expanded, widget: boolean, required: false }
           - label: "Section Three"
             name: "sectionThree"
             widget: "object"

@@ -14,10 +14,10 @@
 					<figure class="[ image ][ background-color-cream ]">
 						<img alt="{{ card.imageAlrt }}" loading=lazy src="{{ card.image }}">
 					</figure>
-					<div class="[ details content ][ background-color-zodiac color-white ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+					<div class="[ details content ][ background-color-cream color-zodiac ][ flex-flow flex-flow-column ][ padding-all-24 ]">
 						<h3>{{ card.title | safe }}</h3>
 						<p>{{ card.body | md | safe }}</p>
-						<a class="[ mambo-anchor ]" href="{{ card.url }}" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
+						<a class="[ mambo-anchor ]" href="{{ card.url }}" style="color: var(--color-valencia) !important;" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
 					</div>
 				</li>
 			{% endfor %}
