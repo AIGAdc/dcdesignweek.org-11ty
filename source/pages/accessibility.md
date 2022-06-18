@@ -16,6 +16,8 @@ sectionOne:
     This accessibility statement aims to:
 
 
+
+
     * Give transparency on what we’re working on.
 
     * List accessibility features we provide at our events.
@@ -34,11 +36,7 @@ sectionTwo:
     talks are inclusively crafted.
 
 
-
-
     Speakers are strongly recommended to: Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations.](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/) Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
-
-
 
 
     The DC Design Week and AIGA DC teams are working on:
@@ -72,8 +70,6 @@ sectionTwo:
 
 
     AIGA National is also currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone.
-
-
 
 
     Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
