@@ -7050,6 +7050,11 @@ h3 {
   list-style-image: url("static/images/list-item-diamond.svg");
 }
 
+ul > * {
+  margin-top: 12px;
+  list-style-position: outside;
+}
+
 .mambo-divider {
   display: inline-block;
   margin-bottom: 8px;

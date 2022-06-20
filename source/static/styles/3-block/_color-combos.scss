@@ -157,3 +157,8 @@
 *[data-color="white-on-zodiac"] ul ul ul ul li {
     list-style-image: url('static/images/list-item-diamond.svg');
 }
+
+ul>* {
+    margin-top: 12px;
+    list-style-position: outside;
+}
