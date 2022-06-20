@@ -1,14 +1,1 @@
-<svg width="216" height="529" viewBox="0 0 216 529" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M215.002 62.0643L107.506 0L0 62.0643L107.506 124.139L215.002 62.0643Z" fill="white"/>
-<path d="M107.506 528.001V124.139L0 62.0643V465.937L107.506 528.001Z" fill="black"/>
-<mask id="mask0_3585_13507" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="107" y="62" width="109" height="467">
-<path d="M215.002 62.0645V465.937L107.506 528.002V124.139L215.002 62.0645Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_3585_13507)">
-<rect x="107" y="62.0005" width="109" height="466" fill="white"/>
-<path d="M129 528.001V62.0005" stroke="black" stroke-width="8" stroke-linejoin="round"/>
-<path d="M151 528.001V62.0005" stroke="black" stroke-width="8" stroke-linejoin="round"/>
-<path d="M172 62.0005V528.001" stroke="black" stroke-width="8" stroke-linejoin="round"/>
-<path d="M194 62.0005V528.001" stroke="black" stroke-width="8" stroke-linejoin="round"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="529" fill="none" viewBox="0 0 216 529"><path fill="#fff" d="M215.002 62.0643L107.506 0L0 62.0643L107.506 124.139L215.002 62.0643Z"/><path fill="#000" d="M107.506 528.001V124.139L0 62.0643V465.937L107.506 528.001Z"/><mask id="mask0_3585_13507" width="109" height="467" x="107" y="62" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#fff" d="M215.002 62.0645V465.937L107.506 528.002V124.139L215.002 62.0645Z"/></mask><g mask="url(#mask0_3585_13507)"><rect width="109" height="466" x="107" y="62.001" fill="#fff"/><path stroke="#000" stroke-linejoin="round" stroke-width="8" d="M129 528.001V62.0005"/><path stroke="#000" stroke-linejoin="round" stroke-width="8" d="M151 528.001V62.0005"/><path stroke="#000" stroke-linejoin="round" stroke-width="8" d="M172 62.0005V528.001"/><path stroke="#000" stroke-linejoin="round" stroke-width="8" d="M194 62.0005V528.001"/></g></svg>
