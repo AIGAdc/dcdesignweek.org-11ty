@@ -1,40 +1,41 @@
 .mambo-divider {
-	display: inline-block;
-	margin-bottom: 8px;
-	position: relative;
+    display: inline-block;
+    margin-bottom: 8px;
+    position: relative;
 }
 
 .mambo-divider .top,
 .mambo-divider .bottom {
-	border: solid 4px currentColor;
-	height: 4px;
-	width: 32px;
+    border: solid 4px currentColor;
+    height: 4px;
+    width: 32px;
 }
 
 .mambo-divider .top {
-	position: relative;
-	z-index: 100;
+    position: relative;
+    z-index: 100;
 }
 
 .mambo-divider .bottom {
-	position: absolute;
-	left: 8px;
-	top: 4px;
-	z-index: 50;
+    position: absolute;
+    left: 8px;
+    top: 4px;
+    z-index: 50;
 }
 
 @media screen and (min-width:64rem) {
-	.mambo-divider .top,
-	.mambo-divider .bottom {
-		height: 8px;
-		width: 48px;
-	}
 
-	.mambo-divider .bottom {
-		position: absolute;
-		left: 8px;
-		top: 4px;
-		z-index: 50;
-	}
+    .mambo-divider .top,
+    .mambo-divider .bottom {
+        height: 8px;
+        width: 48px;
+    }
+
+    .mambo-divider .bottom {
+        position: absolute;
+        left: 8px;
+        top: 4px;
+        z-index: 50;
+    }
 
 }

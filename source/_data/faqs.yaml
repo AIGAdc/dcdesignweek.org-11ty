@@ -38,7 +38,7 @@ questions:
       top of your inbox.
 
 
-      If you have any trouble finding the Zoom link for the event, please contact us at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org) in the hour leading up to the start time. 
+      If you have any trouble finding the Zoom link for the event, please contact us at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org) in the hour leading up to the start time.
     trigger: question-3
     expanded: false
   - question: I’m in a waiting room. How do I get in?
@@ -50,7 +50,7 @@ questions:
       Make sure your full name on Zoom matches your registration name by hovering over your name in the participant list, selecting “More”, “Rename.” If you have dialed in by phone, please send us an email immediately with your event name and phone number in the subject line.
 
 
-      We will send reminders as people join the waiting room and will only admit those whose display name matches our registration list. 
+      We will send reminders as people join the waiting room and will only admit those whose display name matches our registration list.
     trigger: question-4
     expanded: false
   - question: I’m having trouble with my Zoom. What can I do?
@@ -72,7 +72,8 @@ questions:
       - If you aren’t admitted from the waiting room because your display name did not match our registration list.
     trigger: question-6
     expanded: false
-  - question: "COVID-19 is rapidly changing: What happens if in-person events need
+  - question:
+      "COVID-19 is rapidly changing: What happens if in-person events need
       to be cancelled?"
     answer: When possible, in-person events will be moved to Zoom and a refund
       should not be expected. If an event is canceled in its entirety a refund
@@ -101,7 +102,7 @@ questions:
       for AIGA members to rewatch or catch up on at a later date. 
 
 
-      If you’re not an AIGA member, you can register for a [membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year. We’re a 100% non-revenue generating entity, so this goes a long way to keeping us afloat. 
+      If you’re not an AIGA member, you can register for a [membership](https://dc.aiga.org/membership/membership-rates/) on our website for just $50 for a year. We’re a 100% non-revenue generating entity, so this goes a long way to keeping us afloat.
     trigger: question-10
     expanded: false
   - question: When I buy a ticket, where is the money going?

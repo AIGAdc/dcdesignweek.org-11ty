@@ -2,27 +2,27 @@
 
 /* Containers */
 .container-section {
-	margin: auto;
-	max-width: 1600px;
-	width: 100%;
-	position: relative;
+    margin: auto;
+    max-width: 1600px;
+    width: 100%;
+    position: relative;
 }
 
 .container-content {
-	margin: auto;
-	max-width: 900px;
-	width: 100%;
-	position: relative;
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
 }
 
 .container-wide {
-	margin: auto;
-	max-width: 1024px;
-	width: 100%;
-	position: relative;
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
 }
 
 // Gaps
 .gap-1 {
-	--gap: var(--size-20);
+    --gap: var(--size-20);
 }

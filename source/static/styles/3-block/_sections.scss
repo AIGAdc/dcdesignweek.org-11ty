@@ -1,16 +1,11 @@
 .mambo-section h1 {
-	position: relative;
+    position: relative;
 }
 
 .mambo-section .details {
-	--gap: var(--size-8);
+    --gap: var(--size-8);
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 48rem) {}
 
-
-}
-
-@media screen and (min-width: 64rem) {
-
-}
+@media screen and (min-width: 64rem) {}

@@ -2,7 +2,7 @@
 backend:
   # Use netlify identity as backend
   name: git-gateway
-  branch: development
+  branch: upcoming
   repo: AIGAdc/dcdesignweek.org-11ty
 
 # Enable/Disable Editorial Workflow
@@ -61,55 +61,151 @@ collections:
           - label: "Hero"
             name: "hero"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - {
+                  label: "Hero Color Combo",
+                  name: "heroColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
               - { label: "Hero Header", name: "heroHeader", widget: "string" }
               - { label: "Hero Body", name: "heroBody", widget: "markdown" }
-              - { label: "Hero Button Left Label", name: "heroButtonLeftLabel", widget: "string", required: false }
-              - { label: "Hero Button Left URL", name: "heroButtonLeftURL", widget: "string", required: false }
-              - { label: "Hero Button Right Label", name: "heroButtonRightLabel", widget: "string", required: false }
-              - { label: "Hero Button Right URL", name: "heroButtonRightURL", widget: "string", required: false }
+              - {
+                  label: "Hero Button Left Label",
+                  name: "heroButtonLeftLabel",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Left URL",
+                  name: "heroButtonLeftURL",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Right Label",
+                  name: "heroButtonRightLabel",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Right URL",
+                  name: "heroButtonRightURL",
+                  widget: "string",
+                  required: false,
+                }
           - label: "Section One"
             name: "sectionOne"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section One Color Combo", name: "sectionOneColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section One Header", name: "sectionOneHeader", widget: "string" }
-              - { label: "Section One Body", name: "sectionOneBody", widget: "markdown" }
+              - {
+                  label: "Section One Color Combo",
+                  name: "sectionOneColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section One Header",
+                  name: "sectionOneHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section One Body",
+                  name: "sectionOneBody",
+                  widget: "markdown",
+                }
           - label: "Section Two"
             name: "sectionTwo"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Two Color Combo", name: "sectionTwoColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Two Header", name: "sectionTwoHeader", widget: "string" }
-              - { label: "Section Two Body", name: "sectionTwoBody", widget: "markdown" }
+              - {
+                  label: "Section Two Color Combo",
+                  name: "sectionTwoColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Two Header",
+                  name: "sectionTwoHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Two Body",
+                  name: "sectionTwoBody",
+                  widget: "markdown",
+                }
           - label: "Section Three"
             name: "sectionThree"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Three Color Combo", name: "sectionThreeColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Three Header", name: "sectionThreeHeader", widget: "string" }
-              - { label: "Section Three Body", name: "sectionThreeBody", widget: "markdown" }
+              - {
+                  label: "Section Three Color Combo",
+                  name: "sectionThreeColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Three Header",
+                  name: "sectionThreeHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Three Body",
+                  name: "sectionThreeBody",
+                  widget: "markdown",
+                }
           - label: "Section Four"
             name: "sectionFour"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Four Color Combo", name: "sectionFourColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Four Header", name: "sectionFourHeader", widget: "string" }
-              - { label: "Section Four Body", name: "sectionFourBody", widget: "markdown" }
+              - {
+                  label: "Section Four Color Combo",
+                  name: "sectionFourColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Four Header",
+                  name: "sectionFourHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Four Body",
+                  name: "sectionFourBody",
+                  widget: "markdown",
+                }
           - label: "Section Five"
             name: "sectionFive"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Five Color Combo", name: "sectionFiveColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Five Header", name: "sectionFiveHeader", widget: "string" }
-              - { label: "Section Five Body", name: "sectionFiveBody", widget: "markdown" }
+              - {
+                  label: "Section Five Color Combo",
+                  name: "sectionFiveColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Five Header",
+                  name: "sectionFiveHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Five Body",
+                  name: "sectionFiveBody",
+                  widget: "markdown",
+                }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
@@ -121,80 +217,151 @@ collections:
           - label: "Hero"
             name: "hero"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Hero Color Combo", name: "heroColorCombo", widget: "select", options: ["zodiac-on-cream", "zodiac-on-white", "white-on-zodiac"] }
+              - {
+                  label: "Hero Color Combo",
+                  name: "heroColorCombo",
+                  widget: "select",
+                  options:
+                    ["zodiac-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
               - { label: "Hero Header", name: "heroHeader", widget: "string" }
               - { label: "Hero Body", name: "heroBody", widget: "markdown" }
-              - { label: "Show Hero Button Left", name: "showHeroButtonLeft", widget: boolean, required: false }
-              - { label: "Hero Button Left Label", name: "heroButtonLeftLabel", widget: "string", required: false }
-              - { label: "Hero Button Left URL", name: "heroButtonLeftURL", widget: "string", required: false }
-              - { label: "Show Hero Button Right", name: "showHeroButtonRight", widget: boolean, required: false }
-              - { label: "Hero Button Right Label", name: "heroButtonRightLabel", widget: "string", required: false }
-              - { label: "Hero Button Right URL", name: "heroButtonRightURL", widget: "string", required: false }
+              - {
+                  label: "Show Hero Button Left",
+                  name: "showHeroButtonLeft",
+                  widget: boolean,
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Left Label",
+                  name: "heroButtonLeftLabel",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Left URL",
+                  name: "heroButtonLeftURL",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Show Hero Button Right",
+                  name: "showHeroButtonRight",
+                  widget: boolean,
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Right Label",
+                  name: "heroButtonRightLabel",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Hero Button Right URL",
+                  name: "heroButtonRightURL",
+                  widget: "string",
+                  required: false,
+                }
           - label: "Section One"
             name: "sectionOne"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section One Color Combo", name: "sectionOneColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section One Header", name: "sectionOneHeader", widget: "string" }
-              - { label: "Section One Body", name: "sectionOneBody", widget: "markdown" }
+              - {
+                  label: "Section One Color Combo",
+                  name: "sectionOneColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section One Header",
+                  name: "sectionOneHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section One Body",
+                  name: "sectionOneBody",
+                  widget: "markdown",
+                }
               - label: "Questions"
                 name: "questions"
                 widget: "list"
-                summary: '{{fields.question}}'
+                summary: "{{fields.question}}"
                 fields:
                   - { label: Question, name: question, widget: string }
                   - { label: Answer, name: answer, widget: markdown }
                   - { label: Trigger, name: trigger, widget: string }
-                  - { label: Expanded, name: expanded, widget: boolean, required: false }
-          - label: "Section Two"
-            name: "sectionTwo"
-            widget: "object"
-            summary: '{{fields.name}}'
-            fields:
-              - { label: "Section Two Color Combo", name: "sectionTwoColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Two Header", name: "sectionTwoHeader", widget: "string" }
-              - { label: "Section Two Body", name: "sectionTwoBody", widget: "markdown" }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: '{{fields.question}}'
-                fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - { label: Expanded, name: expanded, widget: boolean, required: false }
+                  - {
+                      label: Expanded,
+                      name: expanded,
+                      widget: boolean,
+                      required: false,
+                    }
           - label: "Section Three"
             name: "sectionThree"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Three Color Combo", name: "sectionThreeColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Three Header", name: "sectionThreeHeader", widget: "string" }
-              - { label: "Section Three Body", name: "sectionThreeBody", widget: "markdown" }
+              - {
+                  label: "Section Three Color Combo",
+                  name: "sectionThreeColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Three Header",
+                  name: "sectionThreeHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Three Body",
+                  name: "sectionThreeBody",
+                  widget: "markdown",
+                }
               - label: "Questions"
                 name: "questions"
                 widget: "list"
-                summary: '{{fields.question}}'
+                summary: "{{fields.question}}"
                 fields:
                   - { label: Question, name: question, widget: string }
                   - { label: Answer, name: answer, widget: markdown }
                   - { label: Trigger, name: trigger, widget: string }
-                  - { label: Expanded, name: expanded, widget: boolean, required: false }
+                  - {
+                      label: Expanded,
+                      name: expanded,
+                      widget: boolean,
+                      required: false,
+                    }
           - label: "Section Four"
             name: "sectionFour"
             widget: "object"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Section Four Color Combo", name: "sectionFourColorCombo", widget: "select", options: ["black-on-cream", "zodiac-on-white", "white-on-zodiac"] }
-              - { label: "Section Four Header", name: "sectionFourHeader", widget: "string" }
-              - { label: "Section Four Body", name: "sectionFourBody", widget: "markdown" }
+              - {
+                  label: "Section Four Color Combo",
+                  name: "sectionFourColorCombo",
+                  widget: "select",
+                  options:
+                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
+                }
+              - {
+                  label: "Section Four Header",
+                  name: "sectionFourHeader",
+                  widget: "string",
+                }
+              - {
+                  label: "Section Four Body",
+                  name: "sectionFourBody",
+                  widget: "markdown",
+                }
               - label: "Cards"
                 name: "cards"
                 widget: "list"
-                summary: '{{fields.title}}'
+                summary: "{{fields.title}}"
                 fields:
                   - { label: Image, name: image, widget: image }
                   - { label: Image Alt, name: imageAlt, widget: string }
@@ -214,57 +381,134 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", hint: "Required. Provide the event title.", name: "title", widget: "string" }
-      - { label: "Description", hint: "Required. Provide an event description.", name: "description", widget: "string"}
-      - { label: "Start Date", hint: "Required. Provide the event start time.", name: "startDate", widget: "datetime"}
-      - { label: "End Date", hint: "Required. Provide the event end time.", name: "endDate", widget: "datetime"}
-      - { label: "Image", hint: "Required. Provide the image that will be used in the event header of event page and event card.", name: "image", widget: "image" }
-      - { label: "Image Alt", hint: "Required. Provide descriptive text of image used above.", name: "imageALT", widget: "string" }
+      - {
+          label: "Title",
+          hint: "Required. Provide the event title.",
+          name: "title",
+          widget: "string",
+        }
+      - {
+          label: "Description",
+          hint: "Required. Provide an event description.",
+          name: "description",
+          widget: "string",
+        }
+      - {
+          label: "Start Date",
+          hint: "Required. Provide the event start time.",
+          name: "startDate",
+          widget: "datetime",
+        }
+      - {
+          label: "End Date",
+          hint: "Required. Provide the event end time.",
+          name: "endDate",
+          widget: "datetime",
+        }
+      - {
+          label: "Image",
+          hint: "Required. Provide the image that will be used in the event header of event page and event card.",
+          name: "image",
+          widget: "image",
+        }
+      - {
+          label: "Image Alt",
+          hint: "Required. Provide descriptive text of image used above.",
+          name: "imageALT",
+          widget: "string",
+        }
       - label: Tickets
         name: tickets
         hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
         widget: list
         fields:
-          - {label: Button Type, name: buttonType, widget: select, options: ["Member", "Non-Member"] }
-          - {label: Button Label, name: buttonLabel, widget: string}
-          - {label: Button URL, name: buttonURL, widget: string}
+          - {
+              label: Button Type,
+              name: buttonType,
+              widget: select,
+              options: ["Member", "Non-Member"],
+            }
+          - { label: Button Label, name: buttonLabel, widget: string }
+          - { label: Button URL, name: buttonURL, widget: string }
           - label: "Button Background Color"
             name: "buttonBGColor"
             widget: select
-            options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac", ]
+            options:
+              [
+                "background-color-black",
+                "background-color-white",
+                "background-color-cream",
+                "background-color-teal",
+                "background-color-valencia",
+                "background-color-zodiac",
+              ]
           - label: "Button Text Color"
             name: "buttonTextColor"
             widget: select
-            options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+            options:
+              [
+                "color-black",
+                "color-white",
+                "color-cream",
+                "color-teal",
+                "color-valencia",
+                "color-zodiac",
+              ]
       - label: Location
         name: location
         hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
         widget: list
         fields:
-          - {label: Location Name, name: locationName, widget: string}
-          - {label: Location Street, name: locationStreet, widget: string}
-          - {label: Location Address, name: locationAddress, widget: string}
-          - {label: Location Directions, name: locationDirections, widget: string}
+          - { label: Location Name, name: locationName, widget: string }
+          - { label: Location Street, name: locationStreet, widget: string }
+          - { label: Location Address, name: locationAddress, widget: string }
+          - {
+              label: Location Directions,
+              name: locationDirections,
+              widget: string,
+            }
       - label: Status
         name: status
         widget: list
         fields:
-          - {label: Status Type, name: statusType, widget: select, options: ["Featured on Home", "Featured on Events", "Has Occurred"] }
-          - {label: Status Label, name: statusLabel, widget: string}
-      - { label: "Details", name: "details", widget: "markdown", required: false }
+          - {
+              label: Status Type,
+              name: statusType,
+              widget: select,
+              options:
+                ["Featured on Home", "Featured on Events", "Has Occurred"],
+            }
+          - { label: Status Label, name: statusLabel, widget: string }
+      - {
+          label: "Details",
+          name: "details",
+          widget: "markdown",
+          required: false,
+        }
       - label: Speaker
         name: speaker
         allow_add: true
         widget: list
         fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Title, name: title, widget: string}
-          - {label: Pronunciation, name: pronunciation, widget: string}
-          - {label: Pronouns, name: pronouns, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Image Alt, name: imageALT, widget: string}
-          - {label: Websites, name: websites, widget: markdown, required: false, sanitize_preview: true}
-      - { label: "How to Prepare", name: "preparation", widget: "markdown", required: false }
+          - { label: Name, name: name, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Pronunciation, name: pronunciation, widget: string }
+          - { label: Pronouns, name: pronouns, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Image Alt, name: imageALT, widget: string }
+          - {
+              label: Websites,
+              name: websites,
+              widget: markdown,
+              required: false,
+              sanitize_preview: true,
+            }
+      - {
+          label: "How to Prepare",
+          name: "preparation",
+          widget: "markdown",
+          required: false,
+        }
       - { label: "a11y", name: "a11y", widget: "markdown", required: false }
 
   - label: "Data Files"
@@ -290,11 +534,27 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select
-                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+                options:
+                  [
+                    "color-black",
+                    "color-white",
+                    "color-cream",
+                    "color-teal",
+                    "color-valencia",
+                    "color-zodiac",
+                  ]
             widget: list
       - label: "Events"
         name: "events"
@@ -312,11 +572,27 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select
-                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+                options:
+                  [
+                    "color-black",
+                    "color-white",
+                    "color-cream",
+                    "color-teal",
+                    "color-valencia",
+                    "color-zodiac",
+                  ]
             widget: list
       - label: "FAQs"
         name: "faqs"
@@ -334,11 +610,27 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac", ]
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select
-                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+                options:
+                  [
+                    "color-black",
+                    "color-white",
+                    "color-cream",
+                    "color-teal",
+                    "color-valencia",
+                    "color-zodiac",
+                  ]
             widget: list
       - label: "Filters"
         name: "filters"
@@ -356,11 +648,27 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select
-                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+                options:
+                  [
+                    "color-black",
+                    "color-white",
+                    "color-cream",
+                    "color-teal",
+                    "color-valencia",
+                    "color-zodiac",
+                  ]
             widget: list
       - label: "Staff"
         name: "staff"
@@ -378,11 +686,27 @@ collections:
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
-                options: ["background-color-black", "background-color-white", "background-color-cream", "background-color-teal", "background-color-valencia", "background-color-zodiac"]
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
               - label: "Button Text Color"
                 name: "buttonTextColor"
                 widget: select
-                options: ["color-black", "color-white", "color-cream", "color-teal", "color-valencia", "color-zodiac"]
+                options:
+                  [
+                    "color-black",
+                    "color-white",
+                    "color-cream",
+                    "color-teal",
+                    "color-valencia",
+                    "color-zodiac",
+                  ]
             widget: list
       - label: "Settings"
         name: "settings"
@@ -413,7 +737,7 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Icon, name: icon, widget: string }
               - { label: Enabled, name: enabled, widget: boolean }
-      - label: "Sponsors" 
+      - label: "Sponsors"
         name: "sponsors"
         file: "source/_data/sponsors.yaml"
         fields:

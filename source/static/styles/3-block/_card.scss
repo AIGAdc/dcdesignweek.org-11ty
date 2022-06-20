@@ -1,42 +1,42 @@
 .mambo-cards {
-	width: 100%;
+    width: 100%;
 }
 
 .mambo-card .image {
-	position: relative;
+    position: relative;
 }
 
 .mambo-card img {
-	aspect-ratio: 16/9;
-	width: 100%;
-	object-fit: cover;
-	object-position: center;
-	mix-blend-mode: luminosity;
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    mix-blend-mode: luminosity;
 }
 
 .mambo-card .details {
-	padding: var(--size-24);
+    min-height: 280px;
+    padding: var(--size-24);
 }
 
 /* This is a hacky work around specifically for Speaker and Staff cards */
 .card .wysiwyg p {
-	align-items: center;
-	display: flex;
-	flex-direction: row;
-	gap: var(--gap, 1rem);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap, 1rem);
 }
 
 .overlay {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-.overlay--zodiac {
-}
+.overlay--zodiac {}
 
 #how-else-can-i-get-involved-with-dc-design-week-2022 img {
-	mix-blend-mode: unset;
+    mix-blend-mode: unset;
 }
