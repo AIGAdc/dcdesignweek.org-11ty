@@ -6871,6 +6871,7 @@ h3 {
 }
 
 .mambo-card .details {
+  min-height: 280px;
   padding: var(--size-24);
 }
 
