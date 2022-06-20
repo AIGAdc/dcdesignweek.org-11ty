@@ -116,13 +116,11 @@ sectionFour:
     Week.
   cards:
     - title: Volunteer
-      Body: We will need help with tasks like Zoom support or set-up and clean-up
-        during the week of October 14-21 at both in-person and virtual events.
       label: Sign up to join our volunteer list
       url: https://docs.google.com/forms/d/1CCUi7i5Lr094peCd2n8qUUDNioAohJYnaCwxwMX-CxU/edit
       image: /static/images/img-dcdw-volunteer.png
       imageAlt: 🛑 Provide Alt Text
-      body: We will need help with tasks like Zoom support or set-up and clean-up
+      body: We'll need help with tasks like Zoom support or set-up and clean-up
         during the week of October 14-21 at both in-person and virtual events.
     - Body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.
