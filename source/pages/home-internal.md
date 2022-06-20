@@ -64,7 +64,7 @@ sectionThree:
   sectionThreeHeader: How does the community-curated event proposal process work?
   sectionThreeBody: >-
     In our community-curated events model, we invite you, the community, to
-    pitch and put on your own events. **Event proposals were due by June 12,
+    pitch and put on your own events. **Event proposals were due by June 19,
     2022**.                      
 
 
