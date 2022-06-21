@@ -8,7 +8,7 @@ hero:
   heroBody: DC Design Week is an annual celebration of DC’s vibrant, diverse
     creative community. This year we’re once again asking you, our community
     members, to help us build DC Design Week. **We will contact everyone who
-    submits a proposal to share ourdecisions and any next steps by July 20,
+    submits a proposal to share our decisions and any next steps by July 20,
     2022.**
   heroButtonLeftLabel: Submit An Event Proposal
   heroButtonLeftURL: https://docs.google.com/forms/d/e/1FAIpQLSdNE9l3Df58coVJBav1ibV3LGiQZhsiAs9pf0-RcEZO0IQv7Q/viewform
