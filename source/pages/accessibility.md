@@ -42,8 +42,6 @@ sectionTwo:
     The DC Design Week and AIGA DC teams are working on:
 
 
-
-
     * Targeting WCAG 2.1 AA compliance for our website and presentation materials which includes meaningful alt text, respecting reduced motion preferences, and understandable heading structures. We can’t cover everything as a team of volunteers, so if you see something wrong please let us know
       at [designweek@dc.aiga.org](mailto:dcdesignweek@dc.aiga.org).
     * Creating more documentation and templates for DCDW accessibility including:
@@ -51,23 +49,6 @@ sectionTwo:
       * Inclusive presentation seminars and handouts.
       * Accessibility checklists for speakers.
       * Accessibility statements for events.
-
-
-
-    The DC Design Week and AIGA DC teams are working on:
-
-
-
-
-    * Targeting WCAG 2.1 AA compliance for our website and presentation materials which includes meaningful alt text, respecting reduced motion preferences, and understandable heading structures. We can’t cover everything as a team of volunteers, so if you see something wrong please let us know at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).
-
-    * Creating more documentation and templates for DCDW accessibility including:
-
-      * Inclusive presentation seminars and handouts
-      * Accessibility checklists for speakers
-      * Accessibility statements for events.
-
-
 
     AIGA National is also currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone.
 
