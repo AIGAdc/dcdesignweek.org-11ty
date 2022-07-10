@@ -50,6 +50,13 @@ $gorko-colors: (
     "teal": #00857a,
     "valencia": #cc4929,
     "zodiac": #143060,
+    "maroon-primary": #482D38,
+    "maroon-secondary": #6F314B,
+    "pink-primary": #F45999,
+    "pink-secondary": #FF78B0,
+    "yellow-primary": #FFCD1E,
+    "yellow-secondary": #FBFA7E,
+    "yellow-tertiary": #FFFFDD,
 );
 
 /// CORE CONFIG
@@ -60,6 +67,8 @@ $gorko-config: (
     "css-vars": ("color": $gorko-colors,
         "font-family": ("sans": "'League Spartan', sans-serif",
             "serif": "'Cormorant Garamond', serif",
+            "branded-dm-sans": "'DM Sans', sans-serif",
+            "branded-recursive": "'Recursive', sans-serif",
         ),
         "layer": ("0": -100,
             "1": 100,
