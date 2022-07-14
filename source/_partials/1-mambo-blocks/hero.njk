@@ -2,7 +2,7 @@
     <div class="[ container-content ][ flex-flow flex-flow-column ]">
         {% if heroHeader %}
             <span id="skip-to-content">
-                <h1>{{ heroHeader | safe }}</h1>
+                <h1>{{ heroHeader | md | safe }}</h1>
             </span>
         {% endif %}
         {% if heroBody %}

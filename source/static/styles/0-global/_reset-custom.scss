@@ -71,6 +71,10 @@ figure {
     position: relative;
 }
 
+img {
+    width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -101,4 +105,12 @@ svg {
 
 .enabled {
     cursor: pointer !important;
+}
+
+.mambo-documentation {
+    background-color: var(--brand-aiga-dc);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    margin: 1rem;
+    padding: 1rem;
 }

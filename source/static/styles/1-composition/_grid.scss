@@ -23,6 +23,13 @@
     grid-template-columns: 1fr;
 }
 
+.column-span-one,
+.column-span-two,
+.column-span-three,
+.column-span-four {
+    grid-column: span 1;
+}
+
 @media screen and (min-width:48rem) {
     .grid-two-columns {
         grid-template-columns: repeat(2, 1fr);
@@ -31,6 +38,18 @@
 }
 
 @media screen and (min-width:64rem) {
+    .column-span-two {
+        grid-column: span 2;
+    }
+
+    .column-span-three {
+        grid-column: span 3;
+    }
+
+    .column-span-four {
+        grid-column: span 4;
+    }
+
     .grid-three-columns {
         grid-template-columns: repeat(3, 1fr);
     }

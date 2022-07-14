@@ -11,6 +11,7 @@
   --dcdw-2019: #fb7eb8;
   --dcdw-2020: #4ae725;
   --dcdw-2021: #ec1001;
+  /* DCDW: 2022 Brand Colors */
   --dcdw-2022-maroon-primary: #482D38;
   --dcdw-2022-maroon-secondary: #6F314B;
   --dcdw-2022-pink-primary: #F45999;
@@ -18,6 +19,7 @@
   --dcdw-2022-yellow-primary: #FFCD1E;
   --dcdw-2022-yellow-secondary: #FBFA7E;
   --dcdw-2022-yellow-tertiary: #FFFFDD;
+  /* DCDW: 2022 Brand Type */
   --2022-brand-dm-sans: "DM Sans", sans-serif;
   --2022-brand-recursive: "Recursive", sans-serif;
 }
@@ -301,6 +303,10 @@ figure {
   position: relative;
 }
 
+img {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -331,6 +337,14 @@ svg {
 
 .enabled {
   cursor: pointer !important;
+}
+
+.mambo-documentation {
+  background-color: var(--brand-aiga-dc);
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /* Page: FAQs */
@@ -397,12 +411,28 @@ svg {
   grid-template-columns: 1fr;
 }
 
+.column-span-one,
+.column-span-two,
+.column-span-three,
+.column-span-four {
+  grid-column: span 1;
+}
+
 @media screen and (min-width: 48rem) {
   .grid-two-columns {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 64rem) {
+  .column-span-two {
+    grid-column: span 2;
+  }
+  .column-span-three {
+    grid-column: span 3;
+  }
+  .column-span-four {
+    grid-column: span 4;
+  }
   .grid-three-columns {
     grid-template-columns: repeat(3, 1fr);
   }
