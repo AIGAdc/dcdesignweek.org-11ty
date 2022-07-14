@@ -1,0 +1,195 @@
+<!-- 
+[ content ] then Image
+-->
+<p class="[ mambo-documentation ]">Component: Section - List Events</p>
+<section class="[ mambo-section ][ flow ][ padding-all-20 padding-top-80
+padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in makers.section %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in makers.section %}{{ content.colorCombo | safe }}{% endfor %}" id="Makers">
+    <div class="[ container-content ][ grid-flow grid-four-columns ]">
+        <div class="[ column-span-four ][ content ]">
+            <h2>
+                Events
+            </h2>
+            {% include '1-mambo-blocks/divider.njk' %}
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+    </div>
+    <div class="[ container-content ][ grid-flow grid-three-columns ]">
+        <!-- Filter -->
+        <div class="[ column-span-one ][ content ]">
+            <form class="[ mambo-accordion-group ]">
+                <h2 class="[ sr-only ]">
+                    Events Filter
+                </h2>
+                <!-- Filter: Date -->
+                <fieldset class="[ mambo-accordion ]" data-filter-group>
+                    <legend aria-label="Filter: Event Date" class="mambo-accordion__header" data-houdini-toggle="event-date">
+                        <h3>
+                            Date
+                        </h3>
+                    </legend>
+                    <div class="[ mambo-accordion__content ] {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-date">
+                        {% for control in site.filter-events.day %}
+                            <div class="mambo-input-radio">
+                                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
+                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
+                                    {{ control.text-1 }}
+                                    {{ control.text-3 }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </fieldset>
+                <!-- Filter: Location -->
+                <fieldset class="[ mambo-accordion ]" data-filter-group>
+                    <legend aria-label="Filter: Event Locations" class="mambo-accordion__header" data-houdini-toggle="event-location">
+                        <h3>
+                            Location
+                        </h3>
+                    </legend>
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-location">
+                        {% for control in site.filter-events.location %}
+                            <div class="mambo-input-radio">
+                                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
+                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
+                                    {{ control.text-1 }}
+                                    {{ control.text-3 }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </fieldset>
+                <!-- Filter: Time -->
+                <fieldset class="[ mambo-accordion ]" data-filter-group>
+                    <legend aria-label="Filter: Event Time" class="mambo-accordion__header" data-houdini-toggle="event-time">
+                        <h3>
+                            Time
+                        </h3>
+                    </legend>
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-time">
+                        {% for control in site.filter-events.time %}
+                            <div class="mambo-input-radio">
+                                <label for="{{ control.text-1 }}">
+                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
+                                    {{ control.text-1 }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </fieldset>
+                <!-- Filter: Type -->
+                <fieldset class="[ mambo-accordion ]" data-filter-group>
+                    <legend aria-label="Filter: Event Type" class="mambo-accordion__header" data-houdini-toggle="event-type">
+                        <h3>
+                            Type
+                        </h3>
+                    </legend>
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-type">
+                        {% for control in site.filter-events.type %}
+                            <div class="mambo-input-radio">
+                                <label for="{{ control.text-1 }}">
+                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
+                                    {{ control.text-1 }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </fieldset>
+                <!-- Filter: Status -->
+                <fieldset class="[ mambo-accordion ]" data-filter-group>
+                    <legend aria-label="Filter: Event Status" class="mambo-accordion__header" data-houdini-toggle="event-status">
+                        <h3>
+                            Status
+                        </h3>
+                    </legend>
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-status">
+                        <div class="mambo-input-radio">
+                            <label for="hide-past-events">
+                                <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
+                                Hide Past Events
+                            </label>
+                        </div>
+                        <div class="mambo-input-radio">
+                            <label for="hide-sold-out">
+                                <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
+                                Hide Sold Out
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <!-- Button: Clear Filters -->
+                <div class=" filter-events__reset control-group">
+                    <button class="[ mambo-button ]" type="reset">
+                        Clear Filters
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- Events -->
+        <ul class="[ column-span-two ][ grid-flow grid-two-columns ][ mixitup-container ]">
+            {%- for post in collections.event -%}
+                <li class="[ mambo-card ]">
+                    <figure>
+                        <img alt="🛑 Provide Alt Text" src="https://i.pinimg.com/474x/56/11/ae/5611ae1b6ba35c729c307f00f5a1622f.jpg">
+                    </figure>
+                    <h3>
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                    </h3>
+                    <p>*Provide Event Details</p>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</section>
+<!-- mixitup -->
+<script>
+    var containerEl = document.querySelector(".mixitup-container");
+    var mixer = mixitup(containerEl, {
+        multifilter: {
+            enable: true
+        },
+        pagination: {
+            enable: true
+        },
+        animation: {
+            enable: false
+        }
+    });
+</script>
+<script>
+    var disclosure = new Houdini('[data-houdini-group="event-filter"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1,
+        /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon',
+        /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon',
+        /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>',
+        /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>',
+        /* The icon to collapse an accordion */
+    });
+</script>
+<!-- houdini -->
+<script>
+    var showHideButton = new Houdini("[data-houdini]");
+    var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1,
+        /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon',
+        /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon',
+        /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>',
+        /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>',
+        /* The icon to collapse an accordion */
+    });
+    var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
+</script>
+<script src="/static/scripts/mixitup.min.js"></script>
