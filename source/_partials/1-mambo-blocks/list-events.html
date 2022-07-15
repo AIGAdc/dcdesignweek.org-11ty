@@ -29,13 +29,12 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
                             Date
                         </h3>
                     </legend>
-                    <div class="[ mambo-accordion__content ] {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-date">
-                        {% for control in site.filter-events.day %}
-                            <div class="mambo-input-radio">
-                                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
-                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
-                                    {{ control.text-1 }}
-                                    {{ control.text-3 }}
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} checkbox-group" data-houdini-group="event-filter" id="event-location">
+                        {% for control in filters.filterEvents.day %}
+                            <div class="[ mambo-input-checkbox ]">
+                                <label for="{{ control.label | lower | slug }}">
+                                    <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+                                    {{ control.label }}
                                 </label>
                             </div>
                         {% endfor %}
@@ -43,18 +42,17 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
                 </fieldset>
                 <!-- Filter: Location -->
                 <fieldset class="[ mambo-accordion ]" data-filter-group>
-                    <legend aria-label="Filter: Event Locations" class="mambo-accordion__header" data-houdini-toggle="event-location">
+                    <legend aria-label="Filter: Event Location" class="mambo-accordion__header" data-houdini-toggle="event-location">
                         <h3>
                             Location
                         </h3>
                     </legend>
-                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-location">
-                        {% for control in site.filter-events.location %}
-                            <div class="mambo-input-radio">
-                                <label for="{{ control.text-1 }}-{{ control.text-3 }}">
-                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}-{{ control.text-3 }}" name="event-date" value="{{ control.filter }}">
-                                    {{ control.text-1 }}
-                                    {{ control.text-3 }}
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} checkbox-group" data-houdini-group="event-filter" id="event-location">
+                        {% for control in filters.filterEvents.location %}
+                            <div class="[ mambo-input-checkbox ]">
+                                <label for="{{ control.label | lower | slug }}">
+                                    <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+                                    {{ control.label }}
                                 </label>
                             </div>
                         {% endfor %}
@@ -67,12 +65,12 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
                             Time
                         </h3>
                     </legend>
-                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-time">
-                        {% for control in site.filter-events.time %}
-                            <div class="mambo-input-radio">
-                                <label for="{{ control.text-1 }}">
-                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-time" value="{{ control.filter }}">
-                                    {{ control.text-1 }}
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} checkbox-group" data-houdini-group="event-filter" id="event-time">
+                        {% for control in filters.filterEvents.time %}
+                            <div class="[ mambo-input-checkbox ]">
+                                <label for="{{ control.label | lower | slug }}">
+                                    <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-time" value="{{ control.label | lower | slug }}">
+                                    {{ control.label }}
                                 </label>
                             </div>
                         {% endfor %}
@@ -85,12 +83,12 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
                             Type
                         </h3>
                     </legend>
-                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-type">
-                        {% for control in site.filter-events.type %}
-                            <div class="mambo-input-radio">
-                                <label for="{{ control.text-1 }}">
-                                    <input class="{% if control.has-occurred == true %} filter-events__date--occurred {% endif %}" type="radio" id="{{ control.text-1 }}" name="event-type" value="{{ control.filter }}">
-                                    {{ control.text-1 }}
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} checkbox-group" data-houdini-group="event-filter" id="event-type">
+                        {% for control in filters.filterEvents.type %}
+                            <div class="[ mambo-input-checkbox ]">
+                                <label for="{{ control.label | lower | slug }}">
+                                    <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-type" value="{{ control.label | lower | slug }}">
+                                    {{ control.label }}
                                 </label>
                             </div>
                         {% endfor %}
@@ -103,23 +101,23 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
                             Status
                         </h3>
                     </legend>
-                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} radio-group" data-houdini-group="event-filter" id="event-status">
-                        <div class="mambo-input-radio">
+                    <div class="mambo-accordion__content {% if faq.expanded == true %} is-expanded {% endif %} checkbox-group" data-houdini-group="event-filter" id="event-status">
+                        <div class="[ mambo-input-checkbox ]">
                             <label for="hide-past-events">
-                                <input type="radio" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
+                                <input type="checkbox" id="hide-past-events" name="event-status" value=".mix:not(.past-event)">
                                 Hide Past Events
                             </label>
                         </div>
-                        <div class="mambo-input-radio">
+                        <div class="[ mambo-input-checkbox ]">
                             <label for="hide-sold-out">
-                                <input type="radio" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
+                                <input type="checkbox" id="hide-sold-out" name="event-status" value=".mix:not(.sold-out)">
                                 Hide Sold Out
                             </label>
                         </div>
                     </div>
                 </fieldset>
                 <!-- Button: Clear Filters -->
-                <div class=" filter-events__reset control-group">
+                <div class=" filterEvents__reset control-group">
                     <button class="[ mambo-button ]" type="reset">
                         Clear Filters
                     </button>
