@@ -1,14 +1,15 @@
-<section class="[ mambo-section ][ flow ][ padding-all-20 padding-top-80
-	padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {{ sectionFour.sectionFourColorCombo | safe }} ]" data-color="{{ sectionFour.sectionFourColorCombo | safe }}" id="{{ sectionFour.sectionFourHeader | slug }}">
-    <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
-        <div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
-            <h2>{{ sectionFour.sectionFourHeader | md | safe }}</h2>
+<section class="[ mambo-section ][ {{ sectionFour.sectionFourColorCombo | safe }} ]" data-color="{{ sectionFour.sectionFourColorCombo | safe }}" id="{{ sectionFour.sectionFourHeader | slug }}">
+    <div class="[ container-content ][ flow ]">
+        <div>
+            <h2>
+                {{ sectionFour.sectionFourHeader | md | safe }}
+            </h2>
             {% include '1-mambo-blocks/divider.njk' %}
-            <div class="wysiwyg flow-3">{{ sectionFour.sectionFourBody | md | safe }}</div>
+            <div class="[ wysiwyg ]">
+                {{ sectionFour.sectionFourBody | md | safe }}
+            </div>
         </div>
-    </div>
-    <div class="[ container-content ]">
-        <ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+        <ul class="[ mambo-cards ][ grid-flow grid-two-columns ]">
             {% for card in sectionFour.cards %}
                 <li class="[ mambo-card ]">
                     <figure class="[ image ][ background-color-cream ]">
@@ -18,21 +19,6 @@
                         <h3>{{ card.title | safe }}</h3>
                         <p>{{ card.body | md | safe }}</p>
                         <a class="[ mambo-anchor ]" href="{{ card.url }}" style="color: var(--color-valencia) !important;" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
-                    </div>
-                </li>
-            {% endfor %}
-        </ul>
-        <!-- Main FAQs -->
-        <ul class="[ mambo-accordions ][ faqs-list ][ flex-flow flex-flow-column ]">
-            {% for question in sectionFour.questions %}
-                <li class="[ mambo-accordion ]">
-                    <!-- Trigger for hidden content -->
-                    <h3 class="[ flex-flow flex-flow flex-flow-space-between ]" data-houdini-toggle="sectionFourQuestionsID-{{ question.trigger | safe | slug }}">
-                        {{ question.question | md | safe }}
-                    </h3>
-                    <!-- Hidden Content -->
-                    <div class="[ answer ][ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="sectionFourQuestionsID" id="sectionFourQuestionsID-{{ question.trigger | safe | slug }}">
-                        {{ question.answer | md | safe }}
                     </div>
                 </li>
             {% endfor %}

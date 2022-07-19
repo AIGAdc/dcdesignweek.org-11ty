@@ -1,12 +1,15 @@
-<section class="[ mambo-section ][ flow ][ padding-all-20 padding-top-80
-padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {{ sectionFiveColorCombo | safe }} ]" data-color="{{ sectionFiveColorCombo | safe }}" id="{{ sectionFiveHeader | slug }}">
-    <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start ]">
-        <div class="[ text ][ flex-flow flex-flow-column flex-flow-start ]">
-            <h2>{{ sectionFiveHeader | safe }}</h2>
+<section class="[ mambo-section ][ {{ sectionFiveColorCombo | safe }} ]" data-color="{{ sectionFiveColorCombo | safe }}" id="{{ sectionFiveHeader | slug }}">
+    <div class="[ container-content ][ flow ]">
+        <div>
+            <h2>
+                {{ sectionFiveHeader | md | safe }}
+            </h2>
             {% include '1-mambo-blocks/divider.njk' %}
-            <div class="wysiwyg flow-3">{{ sectionFiveBody | md | safe }}</div>
+            <div class="[ wysiwyg ]">
+                {{ sectionFiveBody | md | safe }}
+            </div>
         </div>
-        <ul class="[ mambo-cards ][ archive-events ][ grid-flow grid-two-columns ]">
+        <ul class="[ mambo-cards ][ grid-flow grid-two-columns ]">
             {% for card in sectionFiveCards %}
                 <li class="[ mambo-card ]">
                     <figure class="[ image ][ background-color-cream ]">
