@@ -1,24 +1,28 @@
 primaryNavLinks:
-  - title: Events
-    url: /events/
-    external: false
-    enabled: false
   - title: About
     url: /about/
     external: false
-    enabled: false
+    enabled: true
+  - title: Committee
+    url: /committee/
+    external: false
+    enabled: true
+  - title: Events
+    url: /events/
+    external: false
+    enabled: true
+  - title: FAQs
+    url: /faqs/
+    external: false
+    enabled: True
   - title: Makers
     url: /makers/
     external: false
     enabled: false
-  - title: FAQs
-    url: /faqs/
-    external: false
-    enabled: false
-  - title: Team QA
+  - title: Airtable QA
     url: https://airtable.com/shrdjeB71EVPvMd2P
     external: true
-    enabled: false
+    enabled: True
 secondaryNavLinks:
   - title: Accessibility
     url: /accessibility/
@@ -57,4 +61,4 @@ socialMediaLinks:
     icon: <i class="fab fa-github-square"></i>
     external: true
     enabled: true
-copyright: "&copy; AIGA DC | 2022 All Rights Reserved."
+copyright: "&copy; AIGA DC | 2016-2022 All Rights Reserved."
