@@ -1,0 +1,8 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    {% include '2-layout-blocks/list-events.njk' %}
+    {% include '2-layout-blocks/list-faqs.njk' %}
+    {% if content %}
+        {% include '1-mambo-blocks/content.njk' %}
+    {% endif %}
+{% endblock %}

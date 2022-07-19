@@ -1,4 +1,4 @@
 {
-    "layout": "2-layout-blocks/single-committee.njk",
+    "layout": "layouts/single-committee-member.njk",
     "tags": "committee"
 }
