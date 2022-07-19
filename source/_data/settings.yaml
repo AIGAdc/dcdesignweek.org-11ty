@@ -1,14 +1,14 @@
 primaryNavLinks:
+  - title: Events
+    url: /events/
+    external: false
+    enabled: true
   - title: About
     url: /about/
     external: false
     enabled: true
   - title: Committee
     url: /committee/
-    external: false
-    enabled: true
-  - title: Events
-    url: /events/
     external: false
     enabled: true
   - title: FAQs
