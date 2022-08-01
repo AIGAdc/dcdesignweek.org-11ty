@@ -1,11 +1,11 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-    {% include '2-layout-blocks/hero.njk' %}
-    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
-        <div class="[ container-content ][ flow ]">
-            {{ title }}
-            {{ description }}
-            {{ tags }}
-        </div>
-    </section>
+  {% include '2-layout-blocks/hero.njk' %}
+  <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+    <div class="[ container-content ][ flow ]">
+      {{ title }}
+      {{ description }}
+      {{ tags }}
+    </div>
+  </section>
 {% endblock %}

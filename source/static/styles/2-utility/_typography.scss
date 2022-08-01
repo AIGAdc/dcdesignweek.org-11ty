@@ -1,49 +1,49 @@
 // Start Typography
 h1 {
-    font-size: var(--size-48);
-    line-height: var(--size-48);
-    text-shadow: 3px 3px 0px var(--color-white);
-    text-transform: uppercase;
+  font-size: var(--size-48);
+  line-height: var(--size-48);
+  text-shadow: 3px 3px 0px var(--color-white);
+  text-transform: uppercase;
 }
 
 h2 {
-    font-size: var(--size-24);
-    line-height: var(--size-32);
+  font-size: var(--size-24);
+  line-height: var(--size-32);
 }
 
 h3 {
-    font-size: var(--size-18);
+  font-size: var(--size-18);
 }
 
 @media screen and (min-width:48rem) {
-    h1 {
-        font-size: var(--size-64);
-        line-height: var(--size-72);
-    }
+  h1 {
+    font-size: var(--size-64);
+    line-height: var(--size-72);
+  }
 
 }
 
 @media screen and (min-width:64rem) {
-    h1 {
-        font-size: var(--size-104);
-        line-height: var(--size-88);
-    }
+  h1 {
+    font-size: var(--size-104);
+    line-height: var(--size-88);
+  }
 
-    h2 {
-        font-size: var(--size-32);
-        line-height: var(--size-48);
-    }
+  h2 {
+    font-size: var(--size-32);
+    line-height: var(--size-48);
+  }
 
-    h3 {
-        font-size: var(--size-20);
-    }
+  h3 {
+    font-size: var(--size-20);
+  }
 
 }
 
 @media screen and (min-width:85.375rem) {
-    h2 {
-        font-size: var(--size-40);
-        line-height: var(--size-56);
-    }
+  h2 {
+    font-size: var(--size-40);
+    line-height: var(--size-56);
+  }
 
 }

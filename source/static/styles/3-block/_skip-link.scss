@@ -1,28 +1,28 @@
 .link-skip-to-content {
-    background-color: var(--color-zodiac);
-    color: var(--color-white);
-    padding: var(--size-16);
-    position: absolute;
-    transform: translateY(-40px);
-    scroll-margin-top: 88px;
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+  padding: var(--size-16);
+  position: absolute;
+  transform: translateY(-40px);
+  scroll-margin-top: 88px;
 }
 
 .link-skip-to-content:focus {
-    position: relative;
-    z-index: 10000;
-    transform: translateY(0px);
+  position: relative;
+  z-index: 10000;
+  transform: translateY(0px);
 }
 
 .link-back-to-top {
-    display: block;
-    background-color: var(--color-zodiac);
-    color: var(--color-white);
-    padding: var(--size-16);
-    position: relative;
-    text-align: center;
+  display: block;
+  background-color: var(--color-zodiac);
+  color: var(--color-white);
+  padding: var(--size-16);
+  position: relative;
+  text-align: center;
 }
 
 .link-back-to-top:focus {
-    position: relative;
-    transform: translateY(0px);
+  position: relative;
+  transform: translateY(0px);
 }

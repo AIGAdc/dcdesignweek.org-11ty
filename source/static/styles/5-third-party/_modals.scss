@@ -10,83 +10,83 @@
  */
 /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal {
-    background-color: var(--black);
-    display: none;
-    max-width: 100%;
-    padding: var(--size-16);
-    visibility: hidden;
-    z-index: var(--index-9);
+  background-color: var(--black);
+  display: none;
+  max-width: 100%;
+  padding: var(--size-16);
+  visibility: hidden;
+  z-index: var(--index-9);
 }
 
 .modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
-    text-align: right;
-    width: 100%;
-    padding: 8px;
+  text-align: right;
+  width: 100%;
+  padding: 8px;
 }
 
 @media (min-width: 40em) {
 
-    /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-    .modal {
-        max-width: 98%;
-    }
+  /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal {
+    max-width: 98%;
+  }
 }
 
 /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal.active {
-    border: solid 1px var(--white);
-    display: block;
-    height: 75%;
-    left: 0;
-    max-height: 100%;
-    overflow: auto;
-    position: fixed;
-    right: 0;
-    top: 0;
-    visibility: visible;
-    -webkit-overflow-scrolling: touch;
-    margin: 8px;
+  border: solid 1px var(--white);
+  display: block;
+  height: 75%;
+  left: 0;
+  max-height: 100%;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: visible;
+  -webkit-overflow-scrolling: touch;
+  margin: 8px;
 }
 
 @media (min-width: 30em) {
-    .modal {
-        padding: var(--space-32);
-    }
+  .modal {
+    padding: var(--space-32);
+  }
 
-    .modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
-        text-align: right;
-    }
+  .modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
+    text-align: right;
+  }
 
-    /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-    .modal.active {
-        height: auto;
-        max-height: 90%;
-        left: var(--space-32);
-        margin-left: auto;
-        margin-right: auto;
-        right: var(--space-32);
-        top: var(--space-32);
-        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
-    }
+  /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal.active {
+    height: auto;
+    max-height: 90%;
+    left: var(--space-32);
+    margin-left: auto;
+    margin-right: auto;
+    right: var(--space-32);
+    top: var(--space-32);
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media (min-width: 40em) {
-    .modal {
-        padding: var(--space-48);
-    }
+  .modal {
+    padding: var(--space-48);
+  }
 }
 
 @media screen and (min-width: 64rem) {
 
-    /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-    .modal.active.modal-medium {
-        width: 60em;
-    }
+  /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
+  .modal.active.modal-medium {
+    width: 60em;
+  }
 }
 
 /* line 54, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal:focus {
-    outline: none;
+  outline: none;
 }
 
 /**
@@ -94,12 +94,12 @@
  */
 /* line 63, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
 .modal-bg {
-    background-color: var(--black);
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    opacity: 0.75;
-    right: 0;
-    top: 0;
-    z-index: var(--index-9);
+  background-color: var(--black);
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  opacity: 0.75;
+  right: 0;
+  top: 0;
+  z-index: var(--index-9);
 }

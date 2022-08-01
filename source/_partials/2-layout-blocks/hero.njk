@@ -1,25 +1,25 @@
 <section class="[ mambo-hero mambo-section ][ {{ hero.heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}" id="{{ hero.heroHeader | slug }}">
-    <div class="[ container-section ]">
-        <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start gap-1 ]">
-            {% if hero.heroHeader %}
-                <span id="skip-to-content">
-                    <h1>{{ title | safe }}</h1>
-                </span>
-            {% endif %}
-            {% if hero.heroBody %}
-                <div class="wysiwyg flow-3">{{ hero.heroBody | md | safe }}</div>
-            {% endif %}
-            {% if hero.showHeroButtonLeft == true %}
-                <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
-                    {{ hero.heroButtonLeftLabel | safe }}
-                    <span>
-                        {% include 'static/images/hero/button-container.njk' %}
-                    </span>
-                </a>
-            {% endif %}
-            {% if hero.showHeroButtonRight == true %}
-                <a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
-            {% endif %}
-        </div>
+  <div class="[ container-section ]">
+    <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start gap-1 ]">
+      {% if hero.heroHeader %}
+        <span id="skip-to-content">
+          <h1>{{ title | safe }}</h1>
+        </span>
+      {% endif %}
+      {% if hero.heroBody %}
+        <div class="wysiwyg flow-3">{{ hero.heroBody | md | safe }}</div>
+      {% endif %}
+      {% if hero.showHeroButtonLeft == true %}
+        <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
+          {{ hero.heroButtonLeftLabel | safe }}
+          <span>
+            {% include 'static/images/hero/button-container.njk' %}
+          </span>
+        </a>
+      {% endif %}
+      {% if hero.showHeroButtonRight == true %}
+        <a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
+      {% endif %}
     </div>
+  </div>
 </section>

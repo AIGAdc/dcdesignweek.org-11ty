@@ -1,23 +1,23 @@
 // Start Anchors
 .mambo-anchor.proposal {
-    color: var(--color-white);
-    font-size: var(--size-18);
-    text-decoration-color: var(--color-valencia);
-    position: relative;
-    padding: var(--size-16);
-    z-index: 500;
+  color: var(--color-white);
+  font-size: var(--size-18);
+  text-decoration-color: var(--color-valencia);
+  position: relative;
+  padding: var(--size-16);
+  z-index: 500;
 }
 
 .mambo-anchor.proposal span {
-    position: absolute;
-    top: 4px;
-    left: 0;
-    top: 6px;
-    z-index: -1;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  top: 6px;
+  z-index: -1;
 }
 
 .mambo-anchor.proposal svg {
-    width: 270px;
+  width: 270px;
 }
 
 @media screen and (min-width:30rem) {}
@@ -29,18 +29,18 @@
 @media screen and (min-width:64rem) {}
 
 @media screen and (min-width:85.375rem) {
-    .mambo-anchor.proposal {
-        font-size: var(--size-24);
-        padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
-    }
+  .mambo-anchor.proposal {
+    font-size: var(--size-24);
+    padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
+  }
 
-    .mambo-anchor.proposal span {
-        top: 24px;
-    }
+  .mambo-anchor.proposal span {
+    top: 24px;
+  }
 
-    .mambo-anchor.proposal svg {
-        display: block;
-        width: 110%;
-    }
+  .mambo-anchor.proposal svg {
+    display: block;
+    width: 110%;
+  }
 
 }

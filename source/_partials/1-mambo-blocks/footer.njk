@@ -2,33 +2,33 @@
 Component: Footer
 -->
 <footer class="[ mambo-footer ][ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ][ background-color-black color-white ][ padding-all-24 ]" data-color="white-on-black" id="settings">
-    <div>
-        <ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
-            {% for link in settings.secondaryNavLinks %}
-                {% if link.enabled == true %}
-                    <li class="link">
-                        <a aria-label="{{ link.title }}" class="[ anchor ] mambo-button-link" href="{{ link.url }}">
-                            {{ link.title | safe }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-    <div>
-        <ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
-            {% for link in settings.socialMediaLinks %}
-                <li class="link">
-                    <a aria-label="{{ link.title }}" class="[ anchor ][ flex-flow flex-flow-row flex-flow-center ]"
+  <div>
+    <ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+      {% for link in settings.secondaryNavLinks %}
+        {% if link.enabled == true %}
+          <li class="link">
+            <a aria-label="{{ link.title }}" class="[ anchor ] mambo-button-link" href="{{ link.url }}">
+              {{ link.title | safe }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <ul class="[ links ][ flex-flow flex-flow-row flex-flow-center ]">
+      {% for link in settings.socialMediaLinks %}
+        <li class="link">
+          <a aria-label="{{ link.title }}" class="[ anchor ][ flex-flow flex-flow-row flex-flow-center ]"
 						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-                        {{ link.icon | safe }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <p>
-        {{ settings.copyright | safe }}
-    </p>
+            {{ link.icon | safe }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <p>
+    {{ settings.copyright | safe }}
+  </p>
 </footer>
 {% include '1-mambo-blocks/link-back-to-top.njk' %}

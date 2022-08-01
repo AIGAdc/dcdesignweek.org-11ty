@@ -1,20 +1,20 @@
 .mambo-header {
-    border-bottom: solid 1px var(--color-zodiac);
-    list-style: none;
-    position: sticky;
-    top: 0;
-    z-index: 10000;
+  border-bottom: solid 1px var(--color-zodiac);
+  list-style: none;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap, 1rem);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 1rem);
 }
 
 .mambo-header a {
-    text-decoration: none;
-    display: block;
+  text-decoration: none;
+  display: block;
 }
