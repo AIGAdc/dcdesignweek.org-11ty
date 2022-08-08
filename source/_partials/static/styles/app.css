@@ -5841,6 +5841,7 @@ input:checked + .slider:before {
 
 .mambo-hero {
   background-color: var(--color-black);
+  color: var(--color-white);
   display: grid;
   place-items: center;
   min-height: 700px;
