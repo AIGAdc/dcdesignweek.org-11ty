@@ -1,8 +1,9 @@
 // Start Typography
 h1 {
+  color: var(--color-white);
   font-size: var(--size-48);
   line-height: var(--size-48);
-  text-shadow: 3px 3px 0px var(--color-white);
+  // text-shadow: 3px 3px 0px var(--color-white);
   text-transform: uppercase;
 }
 

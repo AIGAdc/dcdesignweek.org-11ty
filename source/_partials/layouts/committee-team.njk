@@ -1,0 +1,91 @@
+{% extends "layouts/base.njk" %}
+
+{% if page.url == "/committee/team/executive" %}
+  {% block content %}
+    {% include '2-layout-blocks/hero.njk' %}
+    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+      <div class="[ container-content ][ flow ]">
+        <ul>
+          {% for post in collections.executive | reverse %}
+            <li>
+              {{ post.data.title }}
+              {{ post.data.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+{% endif %}
+
+{% if page.url == "/committee/team/programming" %}
+  {% block content %}
+    {% include '2-layout-blocks/hero.njk' %}
+    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+      <div class="[ container-content ][ flow ]">
+        <ul>
+          {% for post in collections.programming | reverse %}
+            <li>
+              {{ post.data.title }}
+              {{ post.data.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+{% endif %}
+
+{% if page.url == "/committee/team/design" %}
+  {% block content %}
+    {% include '2-layout-blocks/hero.njk' %}
+    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+      <div class="[ container-content ][ flow ]">
+        <ul>
+          {% for post in collections.design | reverse %}
+            <li>
+              {{ post.data.title }}
+              {{ post.data.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+{% endif %}
+
+{% if page.url == "/committee/team/communications" %}
+  {% block content %}
+    {% include '2-layout-blocks/hero.njk' %}
+    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+      <div class="[ container-content ][ flow ]">
+        <ul>
+          {% for post in collections.communications | reverse %}
+            <li>
+              {{ post.data.title }}
+              {{ post.data.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+{% endif %}
+
+{% if page.url == "/committee/team/operations" %}
+  {% block content %}
+    {% include '2-layout-blocks/hero.njk' %}
+    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+      <div class="[ container-content ][ flow ]">
+        <ul>
+          {% for post in collections.operations | reverse %}
+            <li>
+              {{ post.data.title }}
+              {{ post.data.description }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endblock %}
+{% endif %}

@@ -8,9 +8,7 @@ html {
 }
 
 body {
-  // Animations
-  --toggle: 1;
-  --playState: "running";
+  background-color: var(--color-white);
   color: inherit;
   font-family: var(--font-family-sans);
   font-size: var(--size-18);
@@ -23,7 +21,6 @@ body {
   body {
     font-size: var(--size-20);
   }
-
 }
 
 a {

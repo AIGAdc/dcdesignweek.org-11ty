@@ -1,5 +1,0 @@
-{
-    "layout": "layouts/single-committee-member.njk",
-    "tags": "committee",
-    "permalink": "/committee/member/{{title | slug}}/"
-}

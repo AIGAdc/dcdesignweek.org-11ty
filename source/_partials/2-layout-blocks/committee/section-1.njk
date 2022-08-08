@@ -1,0 +1,24 @@
+<section class="[ mambo-section ]" id="{{ sectionOne.sectionOneHeader | slug }}">
+  <div class="[ container-content ][ flow ]">
+    <div>
+      <h2>{{ sectionOne.sectionOneHeader | md | safe }}</h2>
+      {% include '1-mambo-blocks/divider.njk' %}
+      <div class="[ wysiwyg ]">{{ sectionOne.sectionOneBody | md | safe }}</div>
+    </div>
+    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
+      {% for card in sectionOne.cards %}
+        <li class="[ mambo-card ]">
+          <figure class="[ image ]">
+            <img alt="{{ card.imageAlt }}" loading=lazy src="{{ card.image }}">
+          </figure>
+          <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+            <a href="{{ card.url }}" rel="noopener noreferrer" target="_blank">
+              <h3>{{ card.title | safe }}</h3>
+            </a>
+            <p>{{ card.body | md | safe }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
