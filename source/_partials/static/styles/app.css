@@ -5700,6 +5700,44 @@ h3 {
   mix-blend-mode: unset;
 }
 
+.wireframe .mambo-card.horizontal {
+  align-items: start;
+  display: grid;
+  grid-gap: 60px;
+  grid-template-areas: "image" "body";
+  grid-template-columns: 1fr;
+}
+
+.wireframe .mambo-card.horizontal figure {
+  border: solid 1px var(--color-black);
+  grid-area: image;
+  max-width: 316px;
+}
+
+.wireframe .mambo-card.horizontal figure img {
+  aspect-ratio: 1/1;
+  height: 316px;
+  max-width: 316px;
+  object-fit: cover;
+}
+
+.wireframe .mambo-card.horizontal .details {
+  grid-area: body;
+}
+
+.wireframe .mambo-card.horizontal .meta {
+  display: flex;
+  font-weight: 900;
+  grid-gap: var(--size-8);
+}
+
+@media screen and (min-width: 1024px) {
+  .wireframe .mambo-card.horizontal {
+    align-items: center;
+    grid-template-areas: "image body" ". body";
+    grid-template-columns: 316px 1fr;
+  }
+}
 .mambo-divider {
   display: inline-block;
   margin-bottom: 8px;
