@@ -1,10 +1,5 @@
-<section class="[ mambo-section ]" id="{{ sectionOne.sectionOneHeader | slug }}">
+<section class="[ mambo-section ]" id="{{ sectionOne.header | slug }}">
   <div class="[ container container-default ][ flow ]">
-    <div>
-      <h2>{{ sectionOne.sectionOneHeader | md | safe }}</h2>
-      {% include '1-mambo-blocks/divider.njk' %}
-      <div class="[ wysiwyg ]">{{ sectionOne.sectionOneBody | md | safe }}</div>
-    </div>
     <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
       {% for card in sectionOne.cards %}
         <li class="[ mambo-card ]">

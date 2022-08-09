@@ -345,12 +345,11 @@ section:not(:first-child) {
   border-top: solid 1px var(--color-black);
 }
 
-/* Page: FAQs */
-.layout-faqs .faqs-sidebar {
-  position: sticky;
-  top: 1rem;
+.flow > * + *:not(:first-child) {
+  margin-top: var(--gap, var(--size-24));
 }
 
+/* Flex */
 .flex-flow {
   display: flex;
   grid-gap: var(--gap, var(--size-16));
@@ -380,10 +379,7 @@ section:not(:first-child) {
   justify-content: space-between;
 }
 
-.flow > * + *:not(:first-child) {
-  margin-top: var(--gap, var(--size-24));
-}
-
+/* Grid */
 .grid-flow {
   display: grid;
   grid-gap: var(--gap, var(--size-16));
@@ -441,6 +437,12 @@ section:not(:first-child) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+/* Page: FAQs */
+.layout-faqs .faqs-sidebar {
+  position: sticky;
+  top: 1rem;
+}
+
 /* GORKO: auto-generated utility classes start */
 .background-color-black {
   background-color: var(--color-black);
