@@ -1,0 +1,8 @@
+<section class="[ mambo-section ]" id="{{ sectionTwo.sectionTwoHeader | slug }}">
+  <div class="[ container container-small ][ flow ]">
+    <h2>{{ sectionTwo.header | md | safe }}</h2>
+    {% include '1-mambo-blocks/divider.njk' %}
+    <div class="[ wysiwyg ]">{{ sectionTwo.body | md | safe }}</div>
+    <a href="{{ sectionTwo.linkURL }}">{{ sectionTwo.linkLabel }}</a>
+  </div>
+</section>

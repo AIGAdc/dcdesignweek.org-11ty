@@ -26,6 +26,7 @@ body {
 a {
   color: inherit;
   cursor: pointer;
+  display: inline-block;
   font-family: var(--2022-brand-source-sans-pro);
   font-weight: var(--weight-400);
   text-underline-offset: 4px;
@@ -114,4 +115,8 @@ svg {
 
 section {
   position: relative;
+}
+
+section:not(:first-child) {
+  border-top: solid 1px var(--color-black);
 }
