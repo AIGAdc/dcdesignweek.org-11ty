@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  {% if page.url == "/committee/team/executive" %}
+  {% if page.url == "/committee/team/executive/" %}
     {% include '2-layout-blocks/hero.njk' %}
     <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
       <div class="[ container container-default ][ flow ]">
@@ -17,7 +17,7 @@
     </section>
   {% endif %}
 
-  {% if page.url == "/committee/team/programming" %}
+  {% if page.url == "/committee/team/programming/" %}
     {% include '2-layout-blocks/hero.njk' %}
     <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
       <div class="[ container container-default ][ flow ]">
@@ -33,51 +33,73 @@
     </section>
   {% endif %}
 
-  {% if page.url == "/committee/team/design" %}
+  {% if page.url == "/committee/team/design/" %}
     {% include '2-layout-blocks/hero.njk' %}
     <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
       <div class="[ container container-default ][ flow ]">
-        <ul>
-          {% for post in collections.design | reverse %}
-            <li>
-              {{ post.data.title }}
-              {{ post.data.description }}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  {% endif %}
+        <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
+          {% for member in sectionOne.members %}
+            <li class="[ mambo-card horizontal]">
+              <figure class="[ image ]">
+                <img alt="{{ member.imageAlt }}" loading=lazy src="{{ member.image }}">
+              </figure>
+              <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+                <div>
+                  <h3 class="name">{{ member.name | safe }}</h3>
+                  {% if member.pronunciation %}
+                    <p class="pronunciation">{{ member.pronunciation | safe }}</p>
+                  {% endif %}
+                </div>
+                {% if member.pronouns %}
+                  <p class="pronouns">{{ member.pronouns | safe }}</p>
+                {% endif %}
+                {% if member.bio %}
+                  <p class="bio">{{ member.bio | safe }}</p>
+                {% endif %}
+                {% if member.linkLabel1 %}
+                  <div>
+                    <a aria-label="{{ member.linkARIALabel1 }}" href="{{ member.linkURL1 }}">{{ member.linkLabel1 }}</a>
+                    {% if member.linklabel2 %}
+                      <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
 
-  {% if page.url == "/committee/team/communications" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
-      <div class="[ container container-default ][ flow ]">
-        <ul>
-          {% for post in collections.communications | reverse %}
-            <li>
-              {{ post.data.title }}
-              {{ post.data.description }}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  {% endif %}
+    {% if page.url == "/committee/team/communications/" %}
+      {% include '2-layout-blocks/hero.njk' %}
+      <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+        <div class="[ container container-default ][ flow ]">
+          <ul>
+            {% for post in collections.communications | reverse %}
+              <li>
+                {{ post.data.title }}
+                {{ post.data.description }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
 
-  {% if page.url == "/committee/team/operations" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
-      <div class="[ container container-default ][ flow ]">
-        <ul>
-          {% for post in collections.operations | reverse %}
-            <li>
-              {{ post.data.title }}
-              {{ post.data.description }}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  {% endif %}
-{% endblock %}
+    {% if page.url == "/committee/team/operations/" %}
+      {% include '2-layout-blocks/hero.njk' %}
+      <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+        <div class="[ container container-default ][ flow ]">
+          <ul>
+            {% for post in collections.operations | reverse %}
+              <li>
+                {{ post.data.title }}
+                {{ post.data.description }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    {% endif %}
+  {% endblock %}
