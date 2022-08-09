@@ -1,54 +1,54 @@
 <section class="[ mambo-section ][ {{ sectionFour.sectionFourColorCombo | safe }} ]" data-color="{{ sectionFour.sectionFourColorCombo | safe }}" id="{{ sectionFour.sectionFourHeader | slug }}">
-    <div class="[ container-content ][ flow ]">
-        <div>
-            <h2>
-                {{ sectionFour.sectionFourHeader | md | safe }}
-            </h2>
-            {% include '1-mambo-blocks/divider.njk' %}
-            <div class="[ wysiwyg ]">
-                {{ sectionFour.sectionFourBody | md | safe }}
-            </div>
-        </div>
-        <ul class="[ mambo-cards ][ grid-flow grid-two-columns ]">
-            {% for card in sectionFour.cards %}
-                <li class="[ mambo-card ]">
-                    <figure class="[ image ][ background-color-cream ]">
-                        <img alt="{{ card.imageAlrt }}" loading=lazy src="{{ card.image }}">
-                    </figure>
-                    <div class="[ details content ][ background-color-cream color-zodiac ][ flex-flow flex-flow-column ][ padding-all-24 ]">
-                        <h3>{{ card.title | safe }}</h3>
-                        <p>{{ card.body | md | safe }}</p>
-                        <a class="[ mambo-anchor ]" href="{{ card.url }}" style="color: var(--color-valencia) !important;" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
-                    </div>
-                </li>
-            {% endfor %}
-        </ul>
+  <div class="[ container container-default ][ flow ]">
+    <div>
+      <h2>
+        {{ sectionFour.sectionFourHeader | md | safe }}
+      </h2>
+      {% include '1-mambo-blocks/divider.njk' %}
+      <div class="[ wysiwyg ]">
+        {{ sectionFour.sectionFourBody | md | safe }}
+      </div>
     </div>
+    <ul class="[ mambo-cards ][ grid-flow grid-two-columns ]">
+      {% for card in sectionFour.cards %}
+        <li class="[ mambo-card ]">
+          <figure class="[ image ][ background-color-cream ]">
+            <img alt="{{ card.imageAlrt }}" loading=lazy src="{{ card.image }}">
+          </figure>
+          <div class="[ details content ][ background-color-cream color-zodiac ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+            <h3>{{ card.title | safe }}</h3>
+            <p>{{ card.body | md | safe }}</p>
+            <a class="[ mambo-anchor ]" href="{{ card.url }}" style="color: var(--color-valencia) !important;" rel="noopener noreferrer" target="_blank">{{ card.label | safe }}</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 <script>
-    var disclosure = new Houdini('[data-houdini-group="sectionFourQuestionsID"]', {
-        // Content
-        contentClass: 'houdini',
-        expanded: false,
-        expandedClass: 'is-expanded',
-        // Toggle Buttons
-        btnAfter: true, // If true, load toggle button after the content
-        btnClass: 'question', // The class to add to toggle buttons
-        btnAttribute: 'data-houdini-toggle', // The data attribute to use for toggle buttons
-        btnTextAttribute: 'data-houdini-button', // The data attribute for the button text
-        btnLabelAttribute: 'data-houdini-label', // The data attribute for aria-label text
-        btnPreexisting: 'data-houdini-button-preexisting', // The data attribute added to pre-existing buttons
-        // Accordion
-        isAccordion: true, // If true, treat as an accordion
-        collapseOthers: true, // If true, only allow on open piece of content at a time
-        headingClass: 'header', // The class to add to the heading element
-        // Icons
-        icon: -1, // If true, include an expand/collapse icon
-        iconClass: 'question-icon', // The class to use for the expand/collapse icon
-        iconAttribute: 'question-icon', // The data attribute to use for the expand/collapse icon
-        iconShow: '<i class="fas fa-chevron-right"></i>',
-        /* The icon to expand an accordion */
-        iconHide: '<i class="fas fa-chevron-down"></i>',
-        /* The icon to collapse an accordion */
-    });
+  var disclosure = new Houdini('[data-houdini-group="sectionFourQuestionsID"]', {
+    // Content
+    contentClass: 'houdini',
+    expanded: false,
+    expandedClass: 'is-expanded',
+    // Toggle Buttons
+    btnAfter: true, // If true, load toggle button after the content
+    btnClass: 'question', // The class to add to toggle buttons
+    btnAttribute: 'data-houdini-toggle', // The data attribute to use for toggle buttons
+    btnTextAttribute: 'data-houdini-button', // The data attribute for the button text
+    btnLabelAttribute: 'data-houdini-label', // The data attribute for aria-label text
+    btnPreexisting: 'data-houdini-button-preexisting', // The data attribute added to pre-existing buttons
+    // Accordion
+    isAccordion: true, // If true, treat as an accordion
+    collapseOthers: true, // If true, only allow on open piece of content at a time
+    headingClass: 'header', // The class to add to the heading element
+    // Icons
+    icon: -1, // If true, include an expand/collapse icon
+    iconClass: 'question-icon', // The class to use for the expand/collapse icon
+    iconAttribute: 'question-icon', // The data attribute to use for the expand/collapse icon
+    iconShow: '<i class="fas fa-chevron-right"></i>',
+    /* The icon to expand an accordion */
+    iconHide: '<i class="fas fa-chevron-down"></i>',
+    /* The icon to collapse an accordion */
+  });
 </script>

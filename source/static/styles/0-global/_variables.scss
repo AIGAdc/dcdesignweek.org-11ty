@@ -4,6 +4,8 @@
 // 2022 Branding
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 :root {
 
   /* AIGA DC: Brand Colors */
@@ -27,6 +29,7 @@
   --dcdw-2022-yellow-tertiary: #FFFFDD;
 
   /* DCDW: 2022 Brand Type */
-  --2022-brand-dm-sans: 'DM Sans', sans-serif;
+  --2022-brand-source-sans-pro: 'DM Sans', sans-serif;
   --2022-brand-recursive: 'Recursive', sans-serif;
+  --2022-brand-source-sans-pro: 'Source Sans Pro', sans-serif;
 }

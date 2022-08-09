@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Recursive:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 :root {
   /* AIGA DC: Brand Colors */
   --brand-aiga-dc: #297b76;
@@ -20,8 +21,9 @@
   --dcdw-2022-yellow-secondary: #FBFA7E;
   --dcdw-2022-yellow-tertiary: #FFFFDD;
   /* DCDW: 2022 Brand Type */
-  --2022-brand-dm-sans: "DM Sans", sans-serif;
+  --2022-brand-source-sans-pro: "DM Sans", sans-serif;
   --2022-brand-recursive: "Recursive", sans-serif;
+  --2022-brand-source-sans-pro: "Source Sans Pro", sans-serif;
 }
 
 :root {
@@ -236,7 +238,7 @@ html {
 body {
   background-color: var(--color-white);
   color: inherit;
-  font-family: var(--font-family-sans);
+  font-family: var(--2022-brand-source-sans-pro);
   font-size: var(--size-18);
   line-height: 1.6;
   margin: auto;
@@ -251,7 +253,7 @@ body {
 a {
   color: inherit;
   cursor: pointer;
-  font-family: var(--font-family-sans);
+  font-family: var(--2022-brand-source-sans-pro);
   font-weight: var(--weight-400);
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
@@ -332,6 +334,10 @@ svg {
   color: var(--color-white);
   margin: 1rem;
   padding: 1rem;
+}
+
+section {
+  position: relative;
 }
 
 /* Page: FAQs */
@@ -5466,24 +5472,20 @@ svg {
 }
 /* GORKO: auto-generated utility classes end */
 /* Containers */
-.container-section {
-  margin: auto;
-  max-width: 1600px;
-  width: 100%;
+.container {
   position: relative;
 }
 
-.container-content {
-  margin: auto;
+.container-small {
+  max-width: 896px;
+}
+
+.container-default {
   max-width: 1366px;
-  position: relative;
 }
 
-.container-wide {
-  margin: auto;
-  max-width: 1024px;
-  width: 100%;
-  position: relative;
+.container-large {
+  max-width: 1650px;
 }
 
 .gap-1 {
@@ -5494,7 +5496,6 @@ h1 {
   color: var(--color-white);
   font-size: var(--size-48);
   line-height: var(--size-48);
-  text-transform: uppercase;
 }
 
 h2 {
@@ -5637,7 +5638,7 @@ h3 {
 
 /* Component: mambo-button */
 .mambo-button {
-  font-family: var(--font-family-sans);
+  font-family: var(--2022-brand-source-sans-pro);
   font-weight: var(--weight-600);
   padding: var(--size-8) 0;
   text-align: center;
@@ -5823,7 +5824,7 @@ input:checked + .slider:before {
   list-style: none;
   position: sticky;
   top: 0;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */
@@ -5839,18 +5840,27 @@ input:checked + .slider:before {
   display: block;
 }
 
-.mambo-hero {
+.wireframe .mambo-header {
   background-color: var(--color-black);
   color: var(--color-white);
+  border-bottom: solid 1px var(--color-white);
+}
+
+/* This is a hacky work around specifically for Navigation Collection */
+.mambo-hero {
+  align-items: center;
+  background-color: blue;
+  color: var(--color-white);
   display: grid;
-  place-items: center;
-  min-height: 700px;
-  position: relative;
-  z-index: 1000;
 }
 
 .mambo-hero .wysiwyg p {
   font-size: var(--size-24);
+}
+
+.wireframe .mambo-hero {
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 
 .mambo-list-item {
@@ -6079,6 +6089,28 @@ input:checked + .slider:before {
 }
 
 .mambo-section .details {
+  --gap: var(--size-8);
+}
+
+.wireframe .mambo-section {
+  padding: var(--size-20);
+}
+
+@media screen and (min-width: 40rem) {
+  .wireframe .mambo-section {
+    padding: var(--size-56);
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  .wireframe .mambo-section {
+    padding: 160px var(--size-120);
+  }
+}
+.wireframe .mambo-section h1 {
+  position: relative;
+}
+
+.wireframe .mambo-section .details {
   --gap: var(--size-8);
 }
 
@@ -6350,18 +6382,6 @@ input:checked + .slider:before {
 
 /* Container
 ---------------------------------------------------------------------- */
-.container {
-  padding: 1rem;
-  text-align: justify;
-  font-size: 0.1px;
-}
-
-.container:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-}
-
 /* Target Elements
 ---------------------------------------------------------------------- */
 .mix,

@@ -1,25 +1,23 @@
 <section class="[ mambo-hero mambo-section ][ flow ][ padding-all-20 padding-top-80 padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {{ hero.heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}" id="{{ hero.heroHeader | slug }}">
-  <div class="[ container-section ]">
-    <div class="[ container-content ][ flex-flow flex-flow-column flex-flow-start gap-1 ]">
-      {% if hero.heroHeader %}
-        <span id="skip-to-content">
-          <h1>{{ hero.heroHeader | safe }}</h1>
+  <div class="[ container container-default ][ flex-flow flex-flow-column flex-flow-start gap-1 ]">
+    {% if hero.heroHeader %}
+      <span id="skip-to-content">
+        <h1>{{ hero.heroHeader | safe }}</h1>
+      </span>
+    {% endif %}
+    {% if hero.heroBody %}
+      <div class="[ wysiwyg ]">{{ hero.heroBody | md | safe }}</div>
+    {% endif %}
+    {% if hero.showHeroButtonLeft == true %}
+      <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
+        {{ hero.heroButtonLeftLabel | safe }}
+        <span>
+          {% include 'static/images/hero/button-container.njk' %}
         </span>
-      {% endif %}
-      {% if hero.heroBody %}
-        <div class="wysiwyg flow-3">{{ hero.heroBody | md | safe }}</div>
-      {% endif %}
-      {% if hero.showHeroButtonLeft == true %}
-        <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
-          {{ hero.heroButtonLeftLabel | safe }}
-          <span>
-            {% include 'static/images/hero/button-container.njk' %}
-          </span>
-        </a>
-      {% endif %}
-      {% if hero.showHeroButtonRight == true %}
-        <a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
-      {% endif %}
-    </div>
+      </a>
+    {% endif %}
+    {% if hero.showHeroButtonRight == true %}
+      <a href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
+    {% endif %}
   </div>
 </section>

@@ -2,14 +2,14 @@
 Component: Hero
 -->
 <section class="[ mambo-hero mambo-section ][ flow ][ background-color-cream color-zodiac ][ padding-all-32 break-2:padding-all-56 break-5:padding-all-120 ][ {{ heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}"" id="{{ heroHeader | slug }}">
-  <div class="[ container-content ][ flex-flow flex-flow-column ]">
+  <div class="[ container container-default ][ flex-flow flex-flow-column ]">
     {% if heroHeader %}
       <span id="skip-to-content">
         <h1>{{ heroHeader | md | safe }}</h1>
       </span>
     {% endif %}
     {% if heroBody %}
-      <div class="wysiwyg flow-3">{{ heroBody | md | safe }}</div>
+      <div class="[ wysiwyg ]">{{ heroBody | md | safe }}</div>
     {% endif %}
   </div>
 </section>

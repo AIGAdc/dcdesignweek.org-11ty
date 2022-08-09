@@ -1,13 +1,17 @@
 .mambo-hero {
-  background-color: var(--color-black);
+  align-items: center;
+  background-color: blue;
   color: var(--color-white);
   display: grid;
-  place-items: center;
-  min-height: 700px;
-  position: relative;
-  z-index: 1000;
 }
 
 .mambo-hero .wysiwyg p {
   font-size: var(--size-24);
 }
+
+.wireframe .mambo-hero {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.wireframe .mambo-hero .wysiwyg p {}

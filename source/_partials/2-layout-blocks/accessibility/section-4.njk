@@ -1,10 +1,10 @@
 <section class="[ mambo-section ][ {{ sectionFour.sectionFourColorCombo | safe }} ]" data-color="{{ sectionFour.sectionFourColorCombo | safe }}" id="{{ sectionFour.sectionFourHeader | slug }}">
-  <div class="[ container-content ][ flow ]">
+  <div class="[ container container-default ][ flow ]">
     <h2>
       {{ sectionFour.sectionFourHeader | md | safe }}
     </h2>
     {% include '1-mambo-blocks/divider.njk' %}
-    <div class="wysiwyg flow-3">
+    <div class="[ wysiwyg ]">
       {{ sectionFour.sectionFourBody | md | safe }}
     </div>
   </div>

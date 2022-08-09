@@ -10,7 +10,7 @@ html {
 body {
   background-color: var(--color-white);
   color: inherit;
-  font-family: var(--font-family-sans);
+  font-family: var(--2022-brand-source-sans-pro);
   font-size: var(--size-18);
   line-height: 1.6;
   margin: auto;
@@ -26,7 +26,7 @@ body {
 a {
   color: inherit;
   cursor: pointer;
-  font-family: var(--font-family-sans);
+  font-family: var(--2022-brand-source-sans-pro);
   font-weight: var(--weight-400);
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
@@ -110,4 +110,8 @@ svg {
   color: var(--color-white);
   margin: 1rem;
   padding: 1rem;
+}
+
+section {
+  position: relative;
 }

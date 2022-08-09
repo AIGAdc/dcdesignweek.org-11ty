@@ -1,24 +1,20 @@
 @include generate-utility-classes();
 
 /* Containers */
-.container-section {
-  margin: auto;
-  max-width: 1600px;
-  width: 100%;
+.container {
   position: relative;
 }
 
-.container-content {
-  margin: auto;
+.container-small {
+  max-width: 896px;
+}
+
+.container-default {
   max-width: 1366px;
-  position: relative;
 }
 
-.container-wide {
-  margin: auto;
-  max-width: 1024px;
-  width: 100%;
-  position: relative;
+.container-large {
+  max-width: 1650px;
 }
 
 // Gaps
