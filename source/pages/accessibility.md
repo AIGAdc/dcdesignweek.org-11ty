@@ -5,7 +5,7 @@ description: DC Design Week is committed to improving accessibility and
   far from our ideal.
   
 hero:
-  heroHeader: Accessibility Statement
+  heroHeader: "Accessibility Statement"
   heroColorCombo: zodiac-on-cream
   heroBody: DC Design Week is committed to improving accessibility and inclusion
     efforts each year. We recognize this is a journey that we are still far from

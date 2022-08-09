@@ -1,8 +1,8 @@
 <section class="[ mambo-hero mambo-section ][ {{ hero.heroColorCombo | safe }} ]" data-color="{{ heroColorCombo | safe }}" id="{{ hero.heroHeader | slug }}">
-  <div class="[ container container-default ]">
+  <div class="[ container container-default ][ flow ]">
     {% if hero.heroHeader %}
       <span id="skip-to-content">
-        <h1>{{ title | safe }}</h1>
+        <h1>{{ hero.heroHeader | safe }}</h1>
       </span>
     {% endif %}
     {% if hero.heroBody %}
