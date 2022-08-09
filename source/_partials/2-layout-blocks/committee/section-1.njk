@@ -7,7 +7,7 @@
             <img alt="{{ card.imageAlt }}" loading=lazy src="{{ card.image }}">
           </figure>
           <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
-            <a href="{{ card.url }}" rel="noopener noreferrer" target="_blank">
+            <a href="{{ card.url }}">
               <h3>{{ card.title | safe }}</h3>
             </a>
             <p>{{ card.body | md | safe }}</p>
