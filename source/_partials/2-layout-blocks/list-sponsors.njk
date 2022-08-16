@@ -1,61 +1,56 @@
-{% if page.url == "/" %}
-  <ul class="[ grid  ] [ grid-flow grid-four-columns  ]">
-    {% for sponsor in sponsors.sponsor %}
-      <li class="[ card card-sponsors ]">
-        <div class="[ card-aside ]">
-          <figure class="[ card-image ] [ clipped-{{ sponsor.number }} ]">
-            <img src="{{ sponsor.image }}" alt="{{ sponsor.imageAlt }}"/>
-          </figure>
-        </div>
-        <div class="[ card-header ]">
-          {% if sponsor.name %}
-            <h3>{{ sponsor.name }}</h3>
-          {% endif %}
-          {% if sponsor.tier %}
-            <p>{{ sponsor.tier }}</p>
-          {% endif %}
-        </div>
-        <div class="[ card-footer ]">
-          <div class="[ card-links ]">
-            {% if sponsor.website-url-1 %}
-              <a aria-label="{{ sponsor.website-aria-label-1 }}" class="[ card-link ]"
-					href="{{ sponsor.website-url-1 }}" rel="noopener noreferrer"
-					target="_blank">{{ sponsor.website-label-1 }}</a>
-            {% endif %}
-          </div>
-        </div>
-      </li>
+{% if page.url == "/" or page.url == "/events/" %}
+  <section class="[ small-sponsors ][ flow ][ padding-all-16 ]" id="sponsors">
+    {% for content in sponsors.section %}
+      <h2>
+        {{ content.header }}
+      </h2>
+      <p>
+        {{ content.body | safe }}
+      </p>
     {% endfor %}
-  </ul>
+    <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns  ]">
+      {% for content in sponsors.sponsor %}
+        {% if content.featured == true %}
+          <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+            <a aria-label="{{ content.websiteAriaLabel1 }}" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+              <h3>
+                {{ content.name }}
+              </h3>
+            </a>
+            <figure class="[ image ]">
+              <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+            </figure>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% for content in sponsors.section %}
+      <a aria-label="{{ content.linkAria }}" href="{{ content.linkURL }}">
+        {{ content.linkLabel }}
+      </a>
+    {% endfor %}
+  </section>
 {% endif %}
 
 {% if page.url == "/about/" %}
-  <ul class="[ grid  ][ grid-flow grid-two-columns  ]">
-    {% for sponsor in sponsors.sponsor %}
-      <li class="[ card card-sponsors ]">
-        <div class="[ card-aside ]">
-          <figure class="[ card-image ] [ clipped-{{ sponsor.number }} ]">
-            <img src="{{ sponsor.image }}" alt="{{ sponsor.imageAlt }}"/>
-          </figure>
-        </div>
-        <div class="[ card-header ]">
-          {% if sponsor.name %}
-            <h3>{{ sponsor.name }}</h3>
-          {% endif %}
-          {% if sponsor.tier %}
-            <p>{{ sponsor.tier }}</p>
-          {% endif %}
-        </div>
-        <div class="[ card-footer ]">
-          <div class="[ card-links ]">
-            {% if sponsor.website-url-1 %}
-              <a aria-label="{{ sponsor.website-aria-label-1 }}" class="[ card-link ]"
-					href="{{ sponsor.website-url-1 }}" rel="noopener noreferrer"
-					target="_blank">{{ sponsor.website-label-1 }}</a>
-            {% endif %}
-          </div>
-        </div>
-      </li>
+  <section class="[ small-sponsors ][ flow ][ padding-all-16 ]" id="sponsors">
+    {% for content in sponsors.section %}
+      <h2>{{ content.header }}</h2>
+      <p>{{ content.body | safe }}</p>
     {% endfor %}
-  </ul>
+    <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns ]">
+      {% for content in sponsors.sponsor %}
+        {% if content.featured == true %}
+          <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+            <a aria-label="{{ content.websiteAriaLabel1 }}" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+              <h3>{{ content.name }}</h3>
+            </a>
+            <figure class="[ image ]">
+              <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+            </figure>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
 {% endif %}
