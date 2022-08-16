@@ -1,6 +1,6 @@
 {% if page.url == "/" or page.url == "/events/" %}
-  <section class="[ small-sponsors ][ flow ][ padding-all-16 ]" id="sponsors">
-    {% for content in sponsors.section %}
+  <section class="[ mambo-section ][ flow ]" id="sponsors">
+    {% for content in featured.sponsors %}
       <h2>
         {{ content.header }}
       </h2>
@@ -24,7 +24,7 @@
         {% endif %}
       {% endfor %}
     </ul>
-    {% for content in sponsors.section %}
+    {% for content in featured.sponsors %}
       <a aria-label="{{ content.linkAria }}" href="{{ content.linkURL }}">
         {{ content.linkLabel }}
       </a>
@@ -33,8 +33,8 @@
 {% endif %}
 
 {% if page.url == "/about/" %}
-  <section class="[ small-sponsors ][ flow ][ padding-all-16 ]" id="sponsors">
-    {% for content in sponsors.section %}
+  <section class="[ mambo-section ][ flow ]" id="sponsors">
+    {% for content in featured.sponsors %}
       <h2>{{ content.header }}</h2>
       <p>{{ content.body | safe }}</p>
     {% endfor %}

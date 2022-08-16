@@ -1,0 +1,50 @@
+a11y:
+  - header: Lorem Ipsum (Accessibility)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    linkURL: /accessibility/
+    linkLabel: View accessibility statement
+
+brand:
+  - header: Lorem Ipsum (Brand)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    image:
+    imageALT:
+    linkURL: https://www.brllnt.co/
+    linkLabel: View Brllnt's Website
+
+committee:
+  - header: Lorem Ipsum (Committee)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    linkURL: /committee/
+    linkAria: Explore committee
+    linkLabel: Explore committee
+
+faqs:
+  - header: Lorem Ipsum (FAQs)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    linkURL: /faqs/
+    linkLabel: View FAQs
+
+makers:
+  - header: Lorem Ipsum (Makers)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    image:
+    imageALT:
+    linkURL: #
+    linkLabel: Lorem ipsum (TBA)
+
+sponsors:
+  - header: Lorem Ipsum (Sponsors)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    image:
+    imageALT:
+    linkURL: /about/
+    linkLabel: Explore all sponsors
+
+subscribe:
+  - header: Lorem Ipsum (Subscribe)
+    body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
+
+theme:
+  - header: Lorem Ipsum (Theme)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis. Aliquam non pretium sapien. Donec nisi enim viverra ut suscipit eu placerat quis mauris. Nulla ligula vel viverra consequat mauris est pharetra dui eget lacinia enim urna vel ex. Lorem nec leo tristique, ullam corper accumsan orci blandit.

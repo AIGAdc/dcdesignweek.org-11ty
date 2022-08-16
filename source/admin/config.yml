@@ -428,8 +428,8 @@ collections:
               widget: select,
               options: ["Member", "Non-Member"],
             }
-          - { label: Button Label, name: buttonLabel, widget: string }
-          - { label: Button URL, name: buttonURL, widget: string }
+          - { label: Button Label, name: linkLabel, widget: string }
+          - { label: Button URL, name: linkURL, widget: string }
           - label: "Button Background Color"
             name: "buttonBGColor"
             widget: select
@@ -529,8 +529,8 @@ collections:
             fields:
               - { label: Header, name: header, widget: string }
               - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - { label: linkURL, name: linkURL, widget: string }
+              - { label: linkLabel, name: linkLabel, widget: string }
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
@@ -567,8 +567,8 @@ collections:
             fields:
               - { label: Header, name: header, widget: string }
               - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - { label: linkURL, name: linkURL, widget: string }
+              - { label: linkLabel, name: linkLabel, widget: string }
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
@@ -605,8 +605,8 @@ collections:
             fields:
               - { label: Header, name: header, widget: string }
               - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - { label: linkURL, name: linkURL, widget: string }
+              - { label: linkLabel, name: linkLabel, widget: string }
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
@@ -643,8 +643,8 @@ collections:
             fields:
               - { label: Header, name: header, widget: string }
               - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - { label: linkURL, name: linkURL, widget: string }
+              - { label: linkLabel, name: linkLabel, widget: string }
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select
@@ -681,8 +681,8 @@ collections:
             fields:
               - { label: Header, name: header, widget: string }
               - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
+              - { label: linkURL, name: linkURL, widget: string }
+              - { label: linkLabel, name: linkLabel, widget: string }
               - label: "Button Background Color"
                 name: "buttonBGColor"
                 widget: select

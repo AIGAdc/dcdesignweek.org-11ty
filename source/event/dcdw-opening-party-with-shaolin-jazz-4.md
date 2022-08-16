@@ -17,13 +17,13 @@ image: https://dcdesignweek.org/uploads/WebBanner_DCDW%20OpeningParty_with_SHAOL
 imageALT: Featured Image Alt
 tickets:
   - buttonType: Member
-    buttonLabel: "Register: Free - Members"
-    buttonURL: '"#"'
+    linkLabel: "Register: Free - Members"
+    linkURL: '"#"'
     buttonBGColor: background-color-valencia
     buttonTextColor: color-white
   - buttonType: Non-Member
-    buttonLabel: "Register: Free - Non-Members"
-    buttonURL: '"#"'
+    linkLabel: "Register: Free - Non-Members"
+    linkURL: '"#"'
     buttonBGColor: border-color-valencia
     buttonTextColor: color-valencia
 location:

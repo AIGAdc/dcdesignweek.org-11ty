@@ -1,17 +1,9 @@
-<section
-	class="[ small-accessibility ] [ {% for content in accessibility.global %} {{ content.sectionBGColor }} {{ content.sectionTextColor }} {% endfor %} ] [ flow ] [ padding-all-16 ]"
-	id="small-accessibility">
-  {% for content in accessibility.global %}
-    <h2>
-      {{ content.header }}
-    </h2>
-    <p>
-      {{ content.body | safe }}
-    </p>
-    <p>{{ content }}</p>
-    <a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
-		href="{{ content.buttonURL }}">
-      {{ content.buttonLabel }}
+<section class="[ mambo-section ][ flow ]" id="featured-accessibility">
+  {% for content in featured.a11y %}
+    <h2>{{ content.header }}</h2>
+    <p>{{ content.body | safe }}</p>
+    <a class="[ mambo-button ]" href="{{ content.linkURL }}">
+      {{ content.linkLabel }}
       <span>
         <i class="fa-solid fa-arrow-right"></i>
       </span>

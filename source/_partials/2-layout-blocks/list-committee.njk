@@ -1,7 +1,7 @@
 {% if page.url == "/about/" %}
-  <section class="[ mambo-section ]" id="{{ sectionOne.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
-      {% for content in committee.section %}
+      {% for content in featured.committee %}
         <h2>
           {{ content.header }}
         </h2>
@@ -12,19 +12,16 @@
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for card in committee.teams %}
           <li class="[ mambo-card ]">
-            <figure class="[ image ]">
-              <img alt="{{ card.imageAlt }}" loading=lazy src="{{ card.image }}">
-            </figure>
             <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
               <a href="{{ card.url }}">
                 <h3>{{ card.title | safe }}</h3>
               </a>
-              <p>{{ card.body | md | safe }}</p>
+              <p>{{ card.members | md | safe }}</p>
             </div>
           </li>
         {% endfor %}
       </ul>
-      {% for content in committee.section %}
+      {% for content in featured.committee %}
         <a aria-label="{{ content.linkAria }}" href="{{ content.linkURL }}">
           {{ content.linkLabel }}
         </a>
@@ -34,7 +31,7 @@
 {% endif %}
 
 {% if page.url == "/committee/" %}
-  <section class="[ mambo-section ]" id="{{ sectionOne.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for card in committee.teams %}

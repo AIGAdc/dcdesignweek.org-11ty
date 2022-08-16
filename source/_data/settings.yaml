@@ -19,10 +19,10 @@ primaryNavLinks:
     url: /makers/
     external: false
     enabled: false
-  - title: Airtable QA
-    url: https://airtable.com/shrdjeB71EVPvMd2P
-    external: true
-    enabled: True
+  # - title: Airtable QA
+  #   url: https://airtable.com/shrdjeB71EVPvMd2P
+  #   external: true
+  #   enabled: True
 secondaryNavLinks:
   - title: Accessibility
     url: /accessibility/

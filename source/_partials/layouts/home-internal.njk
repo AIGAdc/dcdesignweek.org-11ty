@@ -1,10 +1,12 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
   {% include '2-layout-blocks/hero.njk' %}
-  {% include '2-layout-blocks/home-internal/section-1.njk' %}
+  {% include '2-layout-blocks/featured-makers.njk' %}
+  {% include '2-layout-blocks/featured-brand.njk' %}
+  {% include '2-layout-blocks/list-sponsors.njk' %}
+  {# {% include '2-layout-blocks/home-internal/section-1.njk' %}
   {% include '2-layout-blocks/home-internal/section-3.njk' %}
-  {% include '2-layout-blocks/home-internal/section-4.njk' %}
-  {% include '2-layout-blocks/featured-sponsors.njk' %}
+  {% include '2-layout-blocks/home-internal/section-4.njk' %} #}
   {% if content %}
     {% include '1-mambo-blocks/content.njk' %}
   {% endif %}

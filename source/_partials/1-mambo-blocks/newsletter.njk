@@ -2,9 +2,9 @@
 Component: Newsletter
 -->
 <section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-20 padding-top-80
-padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in subscription.section %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in subscription.section %}{{ content.colorCombo | safe }}{% endfor %}" id="newsletter">
+padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in featured.subscribe %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{% for content in featured.subscribe %}{{ content.colorCombo | safe }}{% endfor %}" id="newsletter">
   <div class="[ container container-default ][ flex-flow flex-flow-column flex-flow-start ]">
-    {% for content in subscription.section %}
+    {% for content in featured.subscribe %}
       <h2>{{ content.header }}</h2>
       {% include '1-mambo-blocks/divider.njk' %}
       <p>{{ content.body | safe }}</p>
