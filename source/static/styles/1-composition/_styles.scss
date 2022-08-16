@@ -35,7 +35,7 @@
 /* Grid */
 .grid-flow {
   display: grid;
-  grid-gap: var(--gap, var(--size-16));
+  grid-gap: var(--gap, var(--size-32));
 }
 
 .grid-flow-start {

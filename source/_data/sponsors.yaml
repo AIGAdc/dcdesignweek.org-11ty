@@ -1,65 +1,52 @@
 section:
-  - header: Sponsors and Partners
-    body: DC Design Week is 100% volunteer-run, and it wouldn’t be the same without our partners and sponsors. We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible. If you’re interested in partnering with DC Design Week this year, let us know. For this year’s sponsorship levels, we chose to pay tribute to some of DC’s most famous artists.
-    buttonURL: /about/#sponsors
-    buttonLabel: Explore All Sponsors
-    buttonBGColor: background-color-cream
-    buttonTextColor: color-black
+  - header: Lorem Ipsum (Sponsors)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    linkURL: /about/#sponsors
+    linkAria: Explore all sponsors
+    linkLabel: Explore all sponsors
+    linkBGColor: background-color-cream
+    linkTextColor: color-black
 
 sponsor:
-  - image: "/static/images/baptiste-placeholder.png"
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
+    tier: Sponsor Tier One
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
+    tier: Sponsor Tier Two
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
+    tier: Sponsor Tier Three
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
+    tier: Sponsor Tier Three
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
+    tier: Sponsor Tier Three
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website
+  - image: "https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w"
     imageAlt: "Sponsor Alt Text"
     name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
+    tier: Sponsor Tier Three
+    websiteURL1: https://www.overwatch.net
+    websiteIcon1: <i class="fas fa-globe"></i> Website
+    websiteAriaLabel1: Sponsor's Website

@@ -41,6 +41,15 @@
   mix-blend-mode: unset;
 }
 
+
+
+.featured-sponsors .sponsor-tier-one,
+.featured-sponsors .sponsor-tier-two {
+  grid-column: span 2;
+}
+
+
+
 .wireframe .mambo-card.horizontal {
   align-items: start;
   display: grid;

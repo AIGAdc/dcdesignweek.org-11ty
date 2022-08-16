@@ -382,7 +382,7 @@ section:not(:first-child) {
 /* Grid */
 .grid-flow {
   display: grid;
-  grid-gap: var(--gap, var(--size-16));
+  grid-gap: var(--gap, var(--size-32));
 }
 
 .grid-flow-start {
@@ -5698,6 +5698,11 @@ h3 {
 
 #how-else-can-i-get-involved-with-dc-design-week-2022 img {
   mix-blend-mode: unset;
+}
+
+.featured-sponsors .sponsor-tier-one,
+.featured-sponsors .sponsor-tier-two {
+  grid-column: span 2;
 }
 
 .wireframe .mambo-card.horizontal {
