@@ -10,16 +10,18 @@
   {% endfor %}
   <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns  ]">
     {% for content in sponsors.sponsor %}
-      <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
-        <a aria-label="{{ content.websiteAriaLabel1 }}" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
-          <h3>
-            {{ content.name }}
-          </h3>
-        </a>
-        <figure class="[ image ]">
-          <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
-        </figure>
-      </li>
+      {% if content.featured == true %}
+        <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+          <a aria-label="{{ content.websiteAriaLabel1 }}" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+            <h3>
+              {{ content.name }}
+            </h3>
+          </a>
+          <figure class="[ image ]">
+            <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+          </figure>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
   {% for content in sponsors.section %}
