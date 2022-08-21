@@ -1,46 +1,48 @@
 <section class="[ mambo-section ][ flow ]" id="faqs">
-  <h2>
+  <div class="[ container container-default ][ flow ]">
+    <h2>
 	2022 DC Design Week FAQs
 	</h2>
-  <div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
-    <!-- Main FAQs -->
-    <ul class="[ faqs-list ] [  ] [ flow ]">
-      {% for question in faqs.questions %}
-        <li class="[ mambo-expander ]">
-          <!-- Trigger for hidden content -->
-          <h3 data-houdini-toggle="{{ question.trigger }}">
-            {{ question.question | safe }}
-          </h3>
-          <!-- Hidden Content -->
-          <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
+    <div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
+      <!-- Main FAQs -->
+      <ul class="[ faqs-list ] [  ] [ flow ]">
+        {% for question in faqs.questions %}
+          <li class="[ mambo-expander ]">
+            <!-- Trigger for hidden content -->
+            <h3 data-houdini-toggle="{{ question.trigger }}">
+              {{ question.question | safe }}
+            </h3>
+            <!-- Hidden Content -->
+            <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
 					data-houdini-group="faq" id="{{ question.trigger }}">
-            {{ question.answer | safe }}
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-    <!-- Sticky Sidebar -->
-    <div class="[ sticky faqs-sidebar ] [ grid-flow grid-one-column ] [ padding-all-16 ]">
-      <div class="[ grid-flow ]">
-        <h2>
+              {{ question.answer | safe }}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      <!-- Sticky Sidebar -->
+      <div class="[ sticky faqs-sidebar ] [ grid-flow grid-one-column ] [ padding-all-16 ]">
+        <div class="[ grid-flow ]">
+          <h2>
 			Contact
 			</h2>
-        <div class="[ grid-flow grid-one-column ]">
-          <strong>
+          <div class="[ grid-flow grid-one-column ]">
+            <strong>
 				General Questions
 				</strong>
-          <p>
+            <p>
 					Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="[ grid-flow grid-one-column ]">
-        <strong>
+        <div class="[ grid-flow grid-one-column ]">
+          <strong>
 			Accessibility Questions
 			</strong>
-        <p>
+          <p>
 				Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
   </div>
