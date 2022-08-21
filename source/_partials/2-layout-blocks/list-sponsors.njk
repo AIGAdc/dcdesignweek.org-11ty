@@ -5,6 +5,7 @@
         <h2>
           {{ content.header }}
         </h2>
+        {% include "1-mambo-blocks/divider.njk" %}
         <p>
           {{ content.body | safe }}
         </p>
@@ -39,6 +40,7 @@
     <div class="[ container container-default ][ flow ]">
       {% for content in featured.sponsors %}
         <h2>{{ content.header }}</h2>
+        {% include "1-mambo-blocks/divider.njk" %}
         <p>{{ content.body | safe }}</p>
       {% endfor %}
       <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns ]">

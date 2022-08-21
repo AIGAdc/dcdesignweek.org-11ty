@@ -3,6 +3,7 @@
     <h2 class="[ sr-hidden ]">
 	Featured Events
 	</h2>
+    {% include "1-mambo-blocks/divider.njk" %}
     <ul class="[ events ] [ grid-flow grid-four-columns  ]">
       {% for event in collections.event | reverse %}
         <li class="[ event card ] [ {{ event.data.type | safe }} ]">
