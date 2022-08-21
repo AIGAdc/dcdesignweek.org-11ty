@@ -10,7 +10,7 @@ primaryNavLinks:
   - title: Makers
     url: /makers/
     external: false
-    enabled: false
+    enabled: true
   - title: FAQs
     url: /faqs/
     external: false

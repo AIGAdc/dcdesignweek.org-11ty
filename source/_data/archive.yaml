@@ -4,12 +4,12 @@ section:
     colorCombo: zodiac-on-cream
 
 events:
-  - image: static/images/img-dcdw-2021.png
+  - image: /static/images/img-dcdw-2021.png
     imageALT:
     theme: "Hyperlocal"
     url: "https://2021.dcdesignweek.org/"
     label: "2021 DCDW Website"
-  - image: static/images/img-dcdw-2020.png
+  - image: /static/images/img-dcdw-2020.png
     imageALT:
     theme: "Creative Voices"
     url: "https://2020.dcdesignweek.org/"

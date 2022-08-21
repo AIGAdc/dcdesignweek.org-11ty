@@ -21,7 +21,7 @@
                 <a class="[]" href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
             {% endif %}
         </div>
-        {% if page.url == "/" %}
+        {% if page.url == "/" or page.url == "/makers/" %}
             <span aria-hidden="true" class="ornament ornament-arrow-double">
                 {% include 'static/images/hero/arrow-double.njk' %}
             </span>
