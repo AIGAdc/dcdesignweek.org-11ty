@@ -21,6 +21,13 @@ committee:
     linkAria: Explore committee
     linkLabel: Explore committee
 
+events:
+  - header: Lorem Ipsum (Events)
+    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+    linkURL: /events/
+    linkAria: Explore all events
+    linkLabel: Explore all events
+
 faqs:
   - header: Lorem Ipsum (FAQs)
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.

@@ -1,50 +1,41 @@
-<section class="[ events-small ][ flow ][ padding-all-16 ]" id="events-small">
-  <div class="[ container container-default ][ flow ]">
-    {% for content in events.global %}
-      <h2>
-        {{ content.header }}
-      </h2>
-      {% include "1-mambo-blocks/divider.njk" %}
-    {% endfor %}
-    <ul class="[ events ] [ grid-flow grid-four-columns  ]">
-      {% for event in collections.event | reverse | limit(4) %}
-        <li class="[ event card ] [ {{ event.data.type | safe }} ]">
-          <a class="[ anchor ]" data-type="card" href="{{ event.url }}">
-            <figure class="[ image ]">
-              <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
-            </figure>
-            <!-- Displays human readable date of event -->
-            <div class="[ meta ]">
-              {% for status in event.data.status %}
-                {% if status.statusType == "Featured on Home" %}
-                  <p>
-                    {{status.statusLabel}}
-                  </p>
-                {% elseif status.statusType == "Featured on Events" %}
-                  <p>
-                    {{status.statusLabel}}
-                  </p>
-                {% endif %}
-              {% endfor %}
-              <h3>
-                {{event.data.title}}
-              </h3>
-              <time datetime="{{ event.date | readableEventDate }}">
-                {{ event.date | readableEventDate }}
-              </time>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-    {% for content in events.global %}
-      <a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
-		href="{{ content.linkURL }}">
-        {{ content.linkLabel }}
-        <span>
-          <i class="fa-solid fa-arrow-right"></i>
-        </span>
-      </a>
-    {% endfor %}
-  </div>
-</section>
+{% for content in featured.events %}
+  <section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ ]">
+      <div class="[ flow ]">
+        <h2>{{ content.header | md | safe }}</h2>
+        {% include "1-mambo-blocks/divider.njk" %}
+        <p>{{ content.body | md | safe }}</p>
+        <ul class="[ faqs-list ][ grid-flow grid-four-columns ]">
+          {% for event in collections.event | reverse %}
+            <li class="[ mambo-card event ][ {{ event.data.type | safe }} ]">
+              <figure class="[ image ]">
+                <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+              </figure>
+              <div class="[ meta ]">
+                {% for status in event.data.status %}
+                  {% if status.statusType == "Featured on Home" %}
+                    <p>{{status.statusLabel}}</p>
+                  {% elseif status.statusType == "Featured on Events" %}
+                    <p>{{status.statusLabel}}</p>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="[ details ][ flow ]">
+                <a href="{{ event.url }}">
+                  <h3>{{event.data.title}}</h3>
+                </a>
+                <datetime>{{ event.date | readableEventDate }}</datetime>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+        <a class="[ mambo-button ]" href="{{ content.linkURL }}">
+          {{ content.linkLabel | safe }}
+          <span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+{% endfor %}

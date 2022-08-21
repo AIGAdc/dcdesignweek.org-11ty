@@ -1,36 +1,38 @@
-<section class="[ mambo-section ][ flow ]" id="events-large">
-  <div class="[ container container-default ][ flow ]">
-    <h2 class="[ sr-hidden ]">
-	Featured Events
-	</h2>
-    {% include "1-mambo-blocks/divider.njk" %}
-    <ul class="[ mambo-cards events ] [ grid-flow grid-four-columns  ]">
-      {% for event in collections.event | reverse %}
-        <li class="[ mambo-card event ][ {{ event.data.type | safe }} ]">
-          <figure class="[ image ]">
-            <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
-          </figure>
-          <div class="[ meta ]">
-            {% for status in event.data.status %}
-              {% if status.statusType == "Featured on Home" %}
-                <p>
-                  {{status.statusLabel}}
-                </p>
-              {% elseif status.statusType == "Featured on Events" %}
-                <p>
-                  {{status.statusLabel}}
-                </p>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <div class="[ details ][ flow ]">
-            <a href="{{ event.url }}">
-              <h3>{{event.data.title}}</h3>
-            </a>
-            <datetime>{{ event.date | readableEventDate }}</datetime>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
+{% if page.url == "/events/" %}
+  <section class="[ mambo-section ][ flow ]" id="events-large">
+    <div class="[ container container-default ][ flow ]">
+      <h2 class="[ sr-hidden ]">Featured Events</h2>
+      {% include "1-mambo-blocks/divider.njk" %}
+      <div class="[ grid grid--align-start  ][ grid-flow grid-flow-start grid-four-columns ]">
+        <!-- Sticky Sidebar -->
+        <div class="[ sticky faqs-sidebar ][ column-span-one ][ padding-all-16 ]">
+        Filter
+      </div>
+        <ul class="[ faqs-list ][ column-span-three ][ grid-flow grid-two-columns ]">
+          {% for event in collections.event | reverse %}
+            <li class="[ mambo-card event ][ {{ event.data.type | safe }} ]">
+              <figure class="[ image ]">
+                <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+              </figure>
+              <div class="[ meta ]">
+                {% for status in event.data.status %}
+                  {% if status.statusType == "Featured on Home" %}
+                    <p>{{status.statusLabel}}</p>
+                  {% elseif status.statusType == "Featured on Events" %}
+                    <p>{{status.statusLabel}}</p>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="[ details ][ flow ]">
+                <a href="{{ event.url }}">
+                  <h3>{{event.data.title}}</h3>
+                </a>
+                <datetime>{{ event.date | readableEventDate }}</datetime>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+{% endif %}
