@@ -5500,6 +5500,11 @@ section:not(:first-child) {
   --gap: var(--size-20);
 }
 
+img:not([alt]) {
+  filter: contrast(175%);
+  outline: dashed 8px red;
+}
+
 h1 {
   color: var(--color-white);
   font-size: var(--size-48);

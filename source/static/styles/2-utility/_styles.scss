@@ -22,3 +22,8 @@
 .gap-1 {
   --gap: var(--size-20);
 }
+
+img:not([alt]) {
+  filter: contrast(175%);
+  outline: dashed 8px red;
+}

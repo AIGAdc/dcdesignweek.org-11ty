@@ -1,8 +1,15 @@
-<section class="[ mambo-section ][ flow ]" id="featured-theme">
-  <div class="[ container container-default ][ flow ]">
-    {% for content in featured.theme %}
-      <h2>{{ content.header }}</h2>
-      <p>{{ content.body | safe }}</p>
-    {% endfor %}
-  </div>
-</section>
+{% for content in featured.theme %}
+  <section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+      <div class="[ flow ]">
+        <h2>{{ content.header | md | safe }}</h2>
+        <p>{{ content.body | md | safe }}</p>
+      </div>
+      {% if content.image %}
+        <figure>
+          <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+        </figure>
+      {% endif %}
+    </div>
+  </section>
+{% endfor %}

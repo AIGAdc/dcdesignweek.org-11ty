@@ -1,14 +1,21 @@
-<section class="[ mambo-section ][ flow ]" id="featured-makers">
-  <div class="[ container container-default ][ flow ]">
-    {% for content in featured.makers %}
-      <h2>{{ content.header }}</h2>
-      <p>{{ content.body | safe }}</p>
-      <a class="[ mambo-button ]" href="{{ content.linkURL }}">
-        {{ content.linkLabel }}
-        <span>
-          <i class="fa-solid fa-arrow-right"></i>
-        </span>
-      </a>
-    {% endfor %}
-  </div>
-</section>
+{% for content in featured.makers %}
+  <section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+      <div class="[ flow ]">
+        <h2>{{ content.header | md | safe }}</h2>
+        <p>{{ content.body | md | safe }}</p>
+        <a class="[ mambo-button ]" href="{{ content.linkURL }}">
+          {{ content.linkLabel | safe }}
+          <span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </a>
+      </div>
+      {% if content.image %}
+        <figure>
+          <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+        </figure>
+      {% endif %}
+    </div>
+  </section>
+{% endfor %}
