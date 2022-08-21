@@ -36,11 +36,11 @@
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for card in committee.teams %}
-          <li class="[ mambo-card ]">
+          <li class="[ mambo-card committee ]">
             <figure class="[ image ]">
               <img alt="{{ card.imageAlt }}" loading=lazy src="{{ card.image }}">
             </figure>
-            <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+            <div class="[ details ][ flow ]">
               <a href="{{ card.url }}">
                 <h3>{{ card.title | safe }}</h3>
               </a>

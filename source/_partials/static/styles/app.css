@@ -5678,7 +5678,6 @@ h3 {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  mix-blend-mode: luminosity;
 }
 
 .mambo-card .details {
@@ -5714,6 +5713,10 @@ h3 {
 /* Committee Cards Simple */
 .wireframe .mambo-card.committee {
   border: solid 1px var(--color-black);
+}
+
+.mambo-card.committee .image {
+  border-bottom: solid 1px var(--color-black);
 }
 
 .mambo-card.committee .details {
