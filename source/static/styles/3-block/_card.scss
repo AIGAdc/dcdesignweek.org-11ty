@@ -48,7 +48,14 @@
   grid-column: span 2;
 }
 
+/* Committee Cards Simple */
+.wireframe .mambo-card.committee {
+  border: solid 1px var(--color-black);
+}
 
+.mambo-card.committee .details {
+  min-height: unset;
+}
 
 .wireframe .mambo-card.horizontal {
   align-items: start;

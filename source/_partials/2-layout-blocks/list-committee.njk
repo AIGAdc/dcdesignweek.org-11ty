@@ -1,19 +1,19 @@
 {% if page.url == "/about/" %}
   <section class="[ mambo-section ][ flow ]" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
-      {% for content in featured.committee %}
-        <h2>
-          {{ content.header }}
-        </h2>
-        {% include "1-mambo-blocks/divider.njk" %}
-        <p>
-          {{ content.body | safe }}
-        </p>
-      {% endfor %}
+      <div class="[ grid-flow grid-four-columns ]">
+        <div class="[ column-span-two ]">
+          {% for content in featured.committee %}
+            <h2>{{ content.header }}</h2>
+            {% include "1-mambo-blocks/divider.njk" %}
+            <p>{{ content.body | safe }}</p>
+          {% endfor %}
+        </div>
+      </div>
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for card in committee.teams %}
-          <li class="[ mambo-card ]">
-            <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+          <li class="[ mambo-card committee ]">
+            <div class="[ details ]">
               <a href="{{ card.url }}">
                 <h3>{{ card.title | safe }}</h3>
               </a>

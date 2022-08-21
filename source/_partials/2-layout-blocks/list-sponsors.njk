@@ -38,11 +38,15 @@
 {% if page.url == "/about/" %}
   <section class="[ mambo-section ][ flow ]" id="sponsors">
     <div class="[ container container-default ][ flow ]">
-      {% for content in featured.sponsors %}
-        <h2>{{ content.header }}</h2>
-        {% include "1-mambo-blocks/divider.njk" %}
-        <p>{{ content.body | safe }}</p>
-      {% endfor %}
+      <div class="[ grid-flow grid-four-columns ]">
+        <div class="[ column-span-two ]">
+          {% for content in featured.sponsors %}
+            <h2>{{ content.header }}</h2>
+            {% include "1-mambo-blocks/divider.njk" %}
+            <p>{{ content.body | safe }}</p>
+          {% endfor %}
+        </div>
+      </div>
       <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns ]">
         {% for content in sponsors.sponsor %}
           {% if content.featured == true %}
