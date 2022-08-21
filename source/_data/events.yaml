@@ -1,7 +1,0 @@
-section:
-  - header: Featured Events
-    body: Provide Body
-    linkURL: /events/
-    linkLabel: Explore All Events
-    buttonBGColor: background-color-zodiac
-    buttonTextColor: color-white
