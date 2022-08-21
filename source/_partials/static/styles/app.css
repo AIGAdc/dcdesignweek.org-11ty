@@ -5480,6 +5480,7 @@ section:not(:first-child) {
 /* GORKO: auto-generated utility classes end */
 /* Containers */
 .container {
+  margin: auto;
   position: relative;
 }
 
@@ -5875,6 +5876,12 @@ input:checked + .slider:before {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.mambo-header > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* This is a hacky work around specifically for Navigation Collection */

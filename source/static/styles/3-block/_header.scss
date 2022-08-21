@@ -8,6 +8,12 @@
   z-index: 1000;
 }
 
+.mambo-header>div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* This is a hacky work around specifically for Navigation Collection */
 .mambo-header ul {
   align-items: center;

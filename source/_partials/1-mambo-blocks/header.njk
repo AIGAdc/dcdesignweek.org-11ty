@@ -2,22 +2,23 @@
 <!--
 Component: Header
 -->
-<header class="[ mambo-header ][ flex-flow flex-flow-row flex-flow-center flex-flow-space-between ][ background-color-cream color-zodiac ][ padding-all-16 ]">
-  <div>
-    <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
-      {% include 'static/images/dcdw-logo.njk' %}
-    </a>
+<header class="[ mambo-header ][ background-color-cream color-zodiac ][ padding-all-16 ]">
+  <div class="[ container container-default ]">
+    <div>
+      <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
+        {% include 'static/images/dcdw-logo.njk' %}
+      </a>
+    </div>
+    <ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
+      {% for link in settings.primaryNavLinks %}
+        {% if link.enabled == true %}
+          <li class="link">
+            <a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
+              {{ link.title | safe }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   </div>
-  <ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
-    {% for link in settings.primaryNavLinks %}
-      {% if link.enabled == true %}
-        <li class="link">
-          <a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-            {{ link.title | safe }}
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  {# 	{% include '1-mambo-blocks/settings.njk' %} #}
 </header>
