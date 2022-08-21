@@ -1,12 +1,14 @@
 <section class="[ mambo-section ][ flow ]" id="featured-makers">
-  {% for content in featured.makers %}
-    <h2>{{ content.header }}</h2>
-    <p>{{ content.body | safe }}</p>
-    <a class="[ mambo-button ]" href="{{ content.linkURL }}">
-      {{ content.linkLabel }}
-      <span>
-        <i class="fa-solid fa-arrow-right"></i>
-      </span>
-    </a>
-  {% endfor %}
+  <div class="[ container container-default ]">
+    {% for content in featured.makers %}
+      <h2>{{ content.header }}</h2>
+      <p>{{ content.body | safe }}</p>
+      <a class="[ mambo-button ]" href="{{ content.linkURL }}">
+        {{ content.linkLabel }}
+        <span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </a>
+    {% endfor %}
+  </div>
 </section>

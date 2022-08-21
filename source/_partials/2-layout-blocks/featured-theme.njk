@@ -1,6 +1,8 @@
 <section class="[ mambo-section ][ flow ]" id="featured-theme">
-  {% for content in featured.theme %}
-    <h2>{{ content.header }}</h2>
-    <p>{{ content.body | safe }}</p>
-  {% endfor %}
+  <div class="[ container container-default ]">
+    {% for content in featured.theme %}
+      <h2>{{ content.header }}</h2>
+      <p>{{ content.body | safe }}</p>
+    {% endfor %}
+  </div>
 </section>
