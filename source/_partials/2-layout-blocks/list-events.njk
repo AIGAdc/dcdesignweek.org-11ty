@@ -4,39 +4,31 @@
 	Featured Events
 	</h2>
     {% include "1-mambo-blocks/divider.njk" %}
-    <ul class="[ events ] [ grid-flow grid-four-columns  ]">
+    <ul class="[ mambo-cards events ] [ grid-flow grid-four-columns  ]">
       {% for event in collections.event | reverse %}
-        <li class="[ event card ] [ {{ event.data.type | safe }} ]">
-          <a class="[ anchor ]" data-type="card" href="{{ event.url }}">
-            <figure class="[ image ]">
-              <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
-            </figure>
-            <!-- Displays human readable date of event -->
-            <div class="[ meta ]">
-              {% for status in event.data.status %}
-                {% if status.statusType == "Featured on Home" %}
-                  <p>
-                    {{status.statusLabel}}
-                  </p>
-                {% elseif status.statusType == "Featured on Events" %}
-                  <p>
-                    {{status.statusLabel}}
-                  </p>
-                {% endif %}
-              {% endfor %}
-              <h3>
-                {{event.data.title}}
-              </h3>
-              <datetime>
-                {{ event.date | readableEventDate }}
-              </datetime>
-            </div>
-            {% if event.data.status.isFeaturedHome == true %}
-              <p>
-							Featured on Home == True
-						</p>
-            {% endif %}
-          </a>
+        <li class="[ mambo-card event ][ {{ event.data.type | safe }} ]">
+          <figure class="[ image ]">
+            <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+          </figure>
+          <div class="[ meta ]">
+            {% for status in event.data.status %}
+              {% if status.statusType == "Featured on Home" %}
+                <p>
+                  {{status.statusLabel}}
+                </p>
+              {% elseif status.statusType == "Featured on Events" %}
+                <p>
+                  {{status.statusLabel}}
+                </p>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="[ details ][ flow ]">
+            <a href="{{ event.url }}">
+              <h3>{{event.data.title}}</h3>
+            </a>
+            <datetime>{{ event.date | readableEventDate }}</datetime>
+          </div>
         </li>
       {% endfor %}
     </ul>

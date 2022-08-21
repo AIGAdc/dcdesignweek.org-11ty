@@ -47,16 +47,19 @@
   grid-column: span 2;
 }
 
-/* Committee Cards Simple */
-.wireframe .mambo-card.committee {
+/* Cards */
+.wireframe .mambo-card.committee,
+.wireframe .mambo-card.event {
   border: solid 1px var(--color-black);
 }
 
-.mambo-card.committee .image {
+.wireframe .mambo-card.committee .image,
+.wireframe .mambo-card.event .image {
   border-bottom: solid 1px var(--color-black);
 }
 
-.mambo-card.committee .details {
+.wireframe .mambo-card.committee .details,
+.wireframe .mambo-card.event .details {
   min-height: unset;
 }
 

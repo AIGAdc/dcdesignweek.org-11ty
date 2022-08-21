@@ -13,7 +13,7 @@ description: Kicking off the start of DC Design Week 2021, we’re joining force
   is a free event.
 startDate: 2022-04-25T21:18:58.405Z
 endDate: 2022-04-25T21:18:58.415Z
-image: https://dcdesignweek.org/uploads/WebBanner_DCDW%20OpeningParty_with_SHAOLINJAZZ.jpg
+image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
 imageALT: Featured Image Alt
 tickets:
   - buttonType: Member
