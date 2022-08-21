@@ -5640,6 +5640,10 @@ h3 {
     width: 110%;
   }
 }
+.active {
+  text-decoration: underline !important;
+}
+
 /* Component: mambo-banner */
 .banner-inner {
   text-align: center;

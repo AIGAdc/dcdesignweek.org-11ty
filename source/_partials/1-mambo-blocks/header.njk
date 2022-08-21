@@ -8,15 +8,18 @@
       </a>
     </div>
     <ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
-      {% for link in settings.primaryNavLinks %}
-        {% if link.enabled == true %}
-          <li class="link">
-            <a aria-label="{{ link.title }}" class="anchor mambo-button-link" href="{{ link.url }}">
-              {{ link.title | safe }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
+      <li class="[ link ]">
+        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
+      </li>
+      <li class="[ link ]">
+        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
+      </li>
+      <li class="[ link ]">
+        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
+      </li>
+      <li class="[ link ]">
+        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">FAQs</a>
+      </li>
     </ul>
   </div>
 </header>
