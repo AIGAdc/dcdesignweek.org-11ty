@@ -10,7 +10,7 @@
             <figure class="[ image ]">
               <img alt="{{ member.imageAlt }}" loading=lazy src="{{ member.image }}">
             </figure>
-            <div class="[ details ][ flex-flow flex-flow-column ][ padding-all-24 ]">
+            <div class="[ details ][ flow ]">
               <div class="meta">
                 <h3 class="name">{{ member.name | safe }}</h3>
                 {% if member.pronunciation %}
@@ -20,17 +20,20 @@
               {% if member.pronouns %}
                 <p class="pronouns">{{ member.pronouns | safe }}</p>
               {% endif %}
+              {% if member.position %}
+                <p class="position">{{ member.position | safe }}</p>
+              {% endif %}
               {% if member.bio %}
                 <p class="bio">{{ member.bio | safe }}</p>
               {% endif %}
-              {% if member.linkLabel1 %}
-                <div>
+              <div>
+                {% if member.linkLabel1 %}
                   <a aria-label="{{ member.linkARIALabel1 }}" href="{{ member.linkURL1 }}">{{ member.linkLabel1 }}</a>
-                  {% if member.linklabel2 %}
-                    <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
-                  {% endif %}
-                </div>
-              {% endif %}
+                {% endif %}
+                {% if member.linklabel2 %}
+                  <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
+                {% endif %}
+              </div>
             </li>
           {% endfor %}
         </ul>
