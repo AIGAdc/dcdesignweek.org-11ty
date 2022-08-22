@@ -1,17 +1,42 @@
 .mambo-hero {
-  align-items: center;
-  background-color: blue;
-  color: var(--color-white);
-  display: grid;
+  position: relative;
 }
 
 .mambo-hero .wysiwyg p {
   font-size: var(--size-24);
 }
 
-.wireframe .mambo-hero {
-  background-color: var(--color-black);
-  color: var(--color-white);
+.layout-home .mambo-hero {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
 }
 
-.wireframe .mambo-hero .wysiwyg p {}
+.layout-events .mambo-hero {
+  background-color: var(--dcdw-2022-maroon-secondary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+.layout-events .mambo-hero h1 {
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+.layout-events .mambo-hero h1,
+.layout-events .mambo-hero .wysiwyg {
+  position: relative;
+  z-index: 100;
+}
+
+.layout-events .events-decorative-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.layout-events .events-decorative-svg svg {
+  width: 100%;
+}

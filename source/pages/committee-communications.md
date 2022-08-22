@@ -47,5 +47,5 @@ sectionOne:
       image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
       imageAlt: 🛑 Provide Alt Text
 layout: layouts/committee-team.njk
-permalink: "/committee/team/communications/"
+permalink: "/committee/communications/"
 ---

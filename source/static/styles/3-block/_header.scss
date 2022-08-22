@@ -1,11 +1,9 @@
 .mambo-header {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-bottom: solid 1px var(--color-white);
-  list-style: none;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  border-bottom: solid 1px currentColor;
+}
+
+.mambo-header svg {
+  fill: currentColor;
 }
 
 .mambo-header>div {
@@ -14,26 +12,7 @@
   justify-content: space-between;
 }
 
-/* This is a hacky work around specifically for Navigation Collection */
-.mambo-header ul {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  gap: var(--gap, 1rem);
-}
-
 .mambo-header a {
   text-decoration: none;
   display: block;
 }
-
-.wireframe .mambo-header {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-bottom: solid 1px var(--color-white);
-}
-
-/* This is a hacky work around specifically for Navigation Collection */
-.wireframe .mambo-header ul {}
-
-.wireframe .mambo-header a {}

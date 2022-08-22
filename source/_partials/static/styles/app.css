@@ -236,8 +236,8 @@ html {
 }
 
 body {
-  background-color: var(--color-white);
-  color: inherit;
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-yellow-tertiary);
   font-family: var(--2022-brand-source-sans-pro);
   font-size: var(--size-18);
   line-height: 1.6;
@@ -5893,13 +5893,11 @@ input:checked + .slider:before {
   }
 }
 .mambo-header {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-bottom: solid 1px var(--color-white);
-  list-style: none;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  border-bottom: solid 1px currentColor;
+}
+
+.mambo-header svg {
+  fill: currentColor;
 }
 
 .mambo-header > div {
@@ -5908,40 +5906,51 @@ input:checked + .slider:before {
   justify-content: space-between;
 }
 
-/* This is a hacky work around specifically for Navigation Collection */
-.mambo-header ul {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  gap: var(--gap, 1rem);
-}
-
 .mambo-header a {
   text-decoration: none;
   display: block;
 }
 
-.wireframe .mambo-header {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border-bottom: solid 1px var(--color-white);
-}
-
-/* This is a hacky work around specifically for Navigation Collection */
 .mambo-hero {
-  align-items: center;
-  background-color: blue;
-  color: var(--color-white);
-  display: grid;
+  position: relative;
 }
 
 .mambo-hero .wysiwyg p {
   font-size: var(--size-24);
 }
 
-.wireframe .mambo-hero {
-  background-color: var(--color-black);
-  color: var(--color-white);
+.layout-home .mambo-hero {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.layout-events .mambo-hero {
+  background-color: var(--dcdw-2022-maroon-secondary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+.layout-events .mambo-hero h1 {
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+.layout-events .mambo-hero h1,
+.layout-events .mambo-hero .wysiwyg {
+  position: relative;
+  z-index: 100;
+}
+
+.layout-events .events-decorative-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.layout-events .events-decorative-svg svg {
+  width: 100%;
 }
 
 .mambo-list-item {
@@ -6213,7 +6222,7 @@ input:checked + .slider:before {
   color: var(--color-white);
   padding: var(--size-16);
   position: absolute;
-  transform: translateY(-40px);
+  transform: translateY(-80px);
   scroll-margin-top: 88px;
 }
 
