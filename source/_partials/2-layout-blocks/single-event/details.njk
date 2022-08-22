@@ -1,5 +1,44 @@
-<section class="[ event-details ][ flow ][ padding-all-16 ]">
-  <div class="[ wysiwyg ]">
-    {{ details | md | safe }}
+<section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+  <div class="[ container container-default ][ flow ][ ]">
+    <div class="[ wysiwyg ]">
+      {{ details | md | safe }}
+    </div>
+    <h2>
+		Details
+	</h2>
+    {% if '/event/' in page.url %}
+      <div class="[ details ] [ flex-flow flex-flow-column flex-flow-start ]">
+        <time datetime="{{ startDate | readableEventDate }}">{{ startDate | readableEventDate }}</time>
+        <time datetime="{{ startDate | dateTime }}">{{ startDate | dateTime }}</time>
+        <time datetime="{{ endDate | dateTime }}">{{ endDate | dateTime }}</time>
+        {% for button in location %}
+          <a class="[ ticket ] mambo-button" data-type="non-member" href="{{ button.locationDirections }}"
+			rel="noreferrer nofollow" target="_blank">
+			View Directions
+		</a>
+        {% endfor %}
+      </div>
+      <div class="[ tickets ] [ flex-flow flex-flow-column flex-flow-start ]">
+        {% for button in tickets %}
+          {% if button.buttonType == 'Member'%}
+            <a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
+			data-type="member" href="{{ button.linkURL }}" rel="noreferrer nofollow" target="_blank">
+              {{ button.linkLabel }}
+              <span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          {% else %}
+            <a class="[ mambo-button ] [ border-bottom color-teal ]  [ {{ content.buttonTextColor }} ]"
+			data-type="non-member" href="{{ button.linkURL }}" rel="noreferrer nofollow" target="_blank">
+              {{ button.linkLabel }}
+              <span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </section>
