@@ -13,44 +13,33 @@ sectionOne:
     possible, as well as  volunteers who can provide support during DC Design
     Week.
   members:
-    - name: Jasmine Henderson
-      pronunciation: Provide Pronunciation
-      pronouns: Provide Pronouns
-      position: Provide Title
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+    - name: Ariana Rodriguez-Gitler
+      pronunciation:
+      pronouns: she | her | hers
+      position: Executive Director
+      bio:
       linkLabel1:
       linkURL1:
       linkLabel2:
       linkURL2:
       image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
       imageAlt: 🛑 Provide Alt Text
-    - name: Josh Kim
-      pronunciation: Provide Pronunciation
-      pronouns: Provide Pronouns
-      position: Provide Title
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+    - name: Alyssa Huntley
+      pronunciation:
+      pronouns:
+      position: Program Director
+      bio:
       linkLabel1:
       linkURL1:
       linkLabel2:
       linkURL2:
       image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
       imageAlt: 🛑 Provide Alt Text
-    - name: Marcus Relacion
-      pronunciation: (mar-kuss ree-lay-see-on)
+    - name: Koi Hernandez
+      pronunciation:
       pronouns: He / Him
-      position: Web Developer
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
-      linkLabel1:
-      linkURL1:
-      linkLabel2:
-      linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
-      imageAlt: 🛑 Provide Alt Text
-    - name: Shoshanna Chito
-      pronunciation: Provide Pronunciation
-      pronouns: Provide Pronouns
-      position: Provide Title
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+      position: Program Director
+      bio:
       linkLabel1:
       linkURL1:
       linkLabel2:
@@ -58,21 +47,87 @@ sectionOne:
       image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
       imageAlt: 🛑 Provide Alt Text
     - name: Silvia Script
-      pronunciation: Provide Pronunciation
-      pronouns: Provide Pronouns
-      position: Provide Title
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+      pronunciation:
+      pronouns: she | her | hers
+      position: Design Director
+      bio:
       linkLabel1:
       linkURL1:
       linkLabel2:
       linkURL2:
       image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
       imageAlt: 🛑 Provide Alt Text
-    - name: Yu-Li Hunsicker
-      pronunciation: Provide Pronunciation
-      pronouns: Provide Pronouns
-      position: Provide Title
-      bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+    - name: Danni Baker
+      pronunciation:
+      pronouns: she | her | hers
+      position: Chief Experience Officer
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Raksa Yin
+      pronunciation:
+      pronouns: he | him | his
+      position: AIGA DC President
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Lauren Maffeo
+      pronunciation:
+      pronouns:
+      position: AIGA DC Vice President
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Gene Alexeyev
+      pronunciation:
+      pronouns:
+      position: AIGA DC Sponsorship Chair
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Nabeeh Bilal
+      pronunciation:
+      pronouns:
+      position: AIGA DC Programming Director
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Nicole Cohn
+      pronunciation:
+      pronouns:
+      position: AIGA DC Membership & Volunteer Chair 
+      bio:
+      linkLabel1:
+      linkURL1:
+      linkLabel2:
+      linkURL2:
+      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      imageAlt: 🛑 Provide Alt Text
+    - name: Iyana Moore 
+      pronunciation:
+      pronouns:
+      position: AIGA DC Communications Director
+      bio:
       linkLabel1:
       linkURL1:
       linkLabel2:
