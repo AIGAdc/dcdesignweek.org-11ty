@@ -13,35 +13,3 @@
     padding: var(--size-120);
   }
 }
-
-.mambo-section h1 {
-  position: relative;
-}
-
-.mambo-section .details {
-  --gap: var(--size-8);
-}
-
-.wireframe .mambo-section {
-  padding: var(--size-20);
-}
-
-@media screen and (min-width: 40rem) {
-  .wireframe .mambo-section {
-    padding: var(--size-56);
-  }
-}
-
-@media screen and (min-width: 85.375rem) {
-  .wireframe .mambo-section {
-    padding: 160px var(--size-120);
-  }
-}
-
-.wireframe .mambo-section h1 {
-  position: relative;
-}
-
-.wireframe .mambo-section .details {
-  --gap: var(--size-8);
-}
