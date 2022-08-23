@@ -67,6 +67,20 @@ speaker:
     title: Provide Title
     pronunciation: Provide Pronunciation
     pronouns: Provide Pronouns
+  - name: SHAOLIN JAZZ
+    websites: "[Website](https://shaolinjazz.com/)"
+    image: /static/images/baptiste-placeholder.png
+    imageALT: Speaker Alt Text
+    title: Provide Title
+    pronunciation: Provide Pronunciation
+    pronouns: Provide Pronouns
+  - name: SHAOLIN JAZZ 2
+    image: /static/images/baptiste-placeholder.png
+    imageALT: Speaker Alt Text
+    websites: "[Website](https://shaolinjazz.com/)"
+    title: Provide Title
+    pronunciation: Provide Pronunciation
+    pronouns: Provide Pronouns
 preparation: >-
   ## In-Person Safety Guidance & How to Prepare
 
