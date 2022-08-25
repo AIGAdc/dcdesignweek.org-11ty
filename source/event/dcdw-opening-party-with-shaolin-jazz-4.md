@@ -36,8 +36,8 @@ location:
       loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     locationDirections: https://www.google.com/maps/dir//Eaton+DC,+1201+K+St+NW,+Washington,+DC+20005/@38.9028031,-77.0306475,17z/data=!3m1!5s0x89b7b79488072287:0xb1e2a18c601b0bd5!4m9!4m8!1m0!1m5!1m1!1s0x89b7b75e4f811d27:0xa0aad7d6f732f496!2m2!1d-77.0284588!2d38.9027989!3e0
 status:
-  - statusType: Featured on Home
-    statusLabel: Featured Event on Home
+  - statusType: Featured on Events
+    statusLabel: Featured on Events
 details: >-
   ## Description
 

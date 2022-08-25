@@ -17,9 +17,11 @@
                 <div class="[ statuses ]">
                   {% for status in event.data.status %}
                     {% if status.statusType == "Featured on Home" %}
-                      <p class="[ status ]">{{status.statusLabel}}</p>
+                      <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
                     {% elseif status.statusType == "Featured on Events" %}
-                      <p class="[ status ]">{{status.statusLabel}}</p>
+                      <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
+                    {% elseif status.statusType == "Sold Out" %}
+                      <p class="[ status sold-out ]">{{status.statusLabel}}</p>
                     {% endif %}
                   {% endfor %}
                 </div>
