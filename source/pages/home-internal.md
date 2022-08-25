@@ -122,7 +122,7 @@ sectionThree:
           * Commitment to your event idea. We know that ideas and plans change, but DCDW selects events with our full week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to stay consistent.
       trigger: question-3
 sectionFour:
-  sectionFourColorCombo: zodiac-on-white
+  sectionFourColorCombo: white-on-zodiac
   sectionFourHeader: How else can I get involved with DC Design Week 2022?
   sectionFourBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the
     same without the support of our community. We are always looking for
