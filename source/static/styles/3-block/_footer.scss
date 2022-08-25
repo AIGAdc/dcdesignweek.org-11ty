@@ -1,6 +1,9 @@
 .mambo-footer {
-  align-items: center;
   border-top: solid 1px currentColor;
+}
+
+.mambo-footer>div {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -34,7 +37,7 @@
 }
 
 @media screen and (min-width: 64rem) {
-  .mambo-footer {
+  .mambo-footer>div {
     grid-template-areas:
       "links social copyright"
       "skip skip skip";
