@@ -40,8 +40,6 @@
   mix-blend-mode: unset;
 }
 
-
-
 .featured-sponsors .sponsor-tier-one,
 .featured-sponsors .sponsor-tier-two {
   grid-column: span 2;
@@ -84,6 +82,34 @@
 .mambo-card.event .meta {
   display: flex;
   grid-gap: var(--size-40);
+}
+
+.mambo-card.event .day-date {
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-weight: 700;
+  position: relative;
+  padding: var(--size-8);
+  text-transform: uppercase;
+}
+
+.mambo-card.event .day,
+.mambo-card.event .date {
+  position: relative;
+  z-index: 100;
+}
+
+.mambo-card.event .day-date svg {
+  fill: currentColor;
+  position: absolute;
+  top: -4px;
+  right: 0;
+  bottom: 0;
+  left: -10px;
+  width: 88px;
+}
+
+.mambo-card.event .time-location {
+  padding: var(--size-8);
 }
 
 /* Committee */

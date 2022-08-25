@@ -1,5 +1,5 @@
 {% if page.url == "/events/" %}
-  <section class="[ mambo-section ][ flow ]" id="events-large">
+  <section class="[ mambo-section ][ flow ]" data-color="cream-on-maroon-secondary" id="events-large">
     <div class="[ container container-default ][ flow ]">
       <h2 class="[ sr-hidden ]">Featured Events</h2>
       {% include "1-mambo-blocks/divider.njk" %}
@@ -33,6 +33,7 @@
                 <div class="[ day-date ]">
                   <p class="[ day ]">Day</p>
                   <datetime class="[ date ]">Date</datetime>
+                  <span>{% include "static/images/blob-date.svg" %}</span>
                 </div>
                 <div class="[ time-location ]">
                   <datetime class="[ time ]">Time</datetime>

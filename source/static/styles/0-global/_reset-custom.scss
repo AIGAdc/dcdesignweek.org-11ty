@@ -116,7 +116,3 @@ svg {
 section {
   position: relative;
 }
-
-section:not(:first-child) {
-  border-top: solid 1px var(--color-black);
-}
