@@ -5539,9 +5539,8 @@ h3 {
 
 .mambo-anchor.proposal span {
   position: absolute;
-  top: 4px;
-  left: -24px;
-  top: 6px;
+  top: 0px;
+  left: 0px;
   z-index: -1;
 }
 
@@ -5555,7 +5554,8 @@ h3 {
     padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
   }
   .mambo-anchor.proposal span {
-    top: 24px;
+    top: 20px;
+    left: -24px;
   }
   .mambo-anchor.proposal svg {
     display: block;
