@@ -36,7 +36,7 @@
   --color-pink-secondary: #FF78B0;
   --color-yellow-primary: #FFCD1E;
   --color-yellow-secondary: #FBFA7E;
-  --color-yellow-tertiary: #FFFFDD;
+  --color-cream-primary: #FFFFDD;
   --font-family-sans: 'League Spartan', sans-serif;
   --font-family-serif: 'Cormorant Garamond', serif;
   --font-family-branded-dm-sans: 'DM Sans', sans-serif;
@@ -96,7 +96,7 @@
   --color-pink-secondary: #FF78B0;
   --color-yellow-primary: #FFCD1E;
   --color-yellow-secondary: #FBFA7E;
-  --color-yellow-tertiary: #FFFFDD;
+  --color-cream-primary: #FFFFDD;
   --font-family-sans: 'League Spartan', sans-serif;
   --font-family-serif: 'Cormorant Garamond', serif;
   --font-family-branded-dm-sans: 'DM Sans', sans-serif;
@@ -477,8 +477,8 @@ section:not(:first-child) {
   background-color: var(--color-yellow-secondary);
 }
 
-.background-color-yellow-tertiary {
-  background-color: var(--color-yellow-tertiary);
+.background-color-cream-primary {
+  background-color: var(--color-cream-primary);
 }
 
 .border-color-black {
@@ -513,8 +513,8 @@ section:not(:first-child) {
   border-color: var(--color-yellow-secondary);
 }
 
-.border-color-yellow-tertiary {
-  border-color: var(--color-yellow-tertiary);
+.border-color-cream-primary {
+  border-color: var(--color-cream-primary);
 }
 
 .color-black {
@@ -549,8 +549,8 @@ section:not(:first-child) {
   color: var(--color-yellow-secondary);
 }
 
-.color-yellow-tertiary {
-  color: var(--color-yellow-tertiary);
+.color-cream-primary {
+  color: var(--color-cream-primary);
 }
 
 .font-align-start {
