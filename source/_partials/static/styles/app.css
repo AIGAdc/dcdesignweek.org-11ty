@@ -5540,7 +5540,7 @@ h3 {
 .mambo-anchor.proposal span {
   position: absolute;
   top: 4px;
-  left: 0;
+  left: -24px;
   top: 6px;
   z-index: -1;
 }

@@ -5,10 +5,9 @@ description: DC Design Week is an annual celebration of DC’s vibrant, diverse
 hero:
   heroColorCombo: zodiac-on-cream
   heroHeader: "DC Design Week: Call for Makers"
-  heroBody: "The DCDW Pop-Up Shop is back with a Pop-Up Block Party on Friday, October 14, in a new location — the beautiful Brookland Arts Walk — which has a lot more space. Are you a local maker with merch to sell?
-  
+  heroBody: "DC Design Week returns to the Brookland Arts Walk for its annual Pop-Up Block Party on October 21 from 6-10 pm. This year we will feature 15 to 20 local artists. 
 
-  Submit an application form by Wednesday, September 1."
+Are you a local maker with merch to sell? Submit an application form by Monday, September 12."
   heroButtonLeftLabel: "Pop-Up Shop Application Form"
   heroButtonLeftURL: "https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/closedform"
   showHeroButtonLeft: true
