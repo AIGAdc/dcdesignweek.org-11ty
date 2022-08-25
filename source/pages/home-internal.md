@@ -10,7 +10,7 @@ hero:
   
   Are you a local maker with merch to sell? Submit an application form by Monday, September 12."
   heroButtonLeftLabel: "Pop-Up Shop Application Form"
-  heroButtonLeftURL: "https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/closedform"
+  heroButtonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
   showHeroButtonLeft: true
 sectionMakers:
   sectionMakersColorCombo: white-on-zodiac
