@@ -5520,16 +5520,6 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-cream-primary);
 }
 
-*[data-color=cream-on-maroon-primary]:focus {
-  box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
-  outline: 4px solid var(--dcdw-2022-yellow-primary);
-  outline-offset: 4px;
-  overflow: hidden;
-  position: relative;
-  text-decoration-thickness: 0;
-  z-index: var(--layer-1);
-}
-
 *[data-color=cream-on-maroon-secondary] {
   background-color: var(--dcdw-2022-maroon-secondary);
   color: var(--dcdw-2022-cream-primary);
@@ -5540,14 +5530,14 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-maroon-primary);
 }
 
-*[data-color=maroon-primary-on-cream]:focus {
-  box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
-  outline: 4px solid var(--dcdw-2022-yellow-primary);
-  outline-offset: 4px;
-  overflow: hidden;
-  position: relative;
-  text-decoration-thickness: 0;
-  z-index: var(--layer-1);
+*[data-color=maroon-primary-on-pink-tertiary] {
+  background-color: var(--dcdw-2022-pink-tertiary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+*[data-color=maroon-primary-on-white] {
+  background-color: var(--color-white);
+  color: var(--dcdw-2022-maroon-primary);
 }
 
 *[data-color=maroon-primary-on-yellow-primary] {
@@ -5555,6 +5545,48 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-maroon-primary);
 }
 
+*[data-color=maroon-primary-on-yellow-secondary] {
+  background-color: var(--dcdw-2022-yellow-secondary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+*[data-color=maroon-secondary-on-cream] {
+  background-color: var(--dcdw-2022-cream-primary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-secondary-on-pink-tertiary] {
+  background-color: var(--dcdw-2022-pink-tertiary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-secondary-on-white] {
+  background-color: var(--color-white);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-secondary-on-yellow-primary] {
+  background-color: var(--dcdw-2022-yellow-primary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-secondary-on-yellow-secondary] {
+  background-color: var(--dcdw-2022-yellow-secondary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=pink-tertiary-on-maroon-primary] {
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-pink-tertiary);
+}
+
+*[data-color=pink-tertiary-on-maroon-secondary] {
+  background-color: var(--dcdw-2022-maroon-secondary);
+  color: var(--dcdw-2022-pink-tertiary);
+}
+
+*[data-color=cream-on-maroon-primary]:focus,
+*[data-color=maroon-primary-on-cream]:focus,
 *[data-color=maroon-primary-on-yellow-primary]:focus {
   box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
   outline: 4px solid var(--dcdw-2022-yellow-primary);
