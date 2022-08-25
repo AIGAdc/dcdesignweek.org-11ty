@@ -49,11 +49,11 @@
 
 /* Cards */
 .mambo-card.committee {
-  border: solid 1px var(--dcdw-2022-yellow-tertiary);
+  border: solid 1px var(--dcdw-2022-cream-primary);
 }
 
 .mambo-card.committee .image {
-  border-bottom: solid 1px var(--dcdw-2022-yellow-tertiary);
+  border-bottom: solid 1px var(--dcdw-2022-cream-primary);
 }
 
 .mambo-card.committee .details,
@@ -63,8 +63,8 @@
 
 /* Events */
 .mambo-card.event .media {
-  background-color: var(--dcdw-2022-yellow-tertiary);
-  border: solid 1px var(--dcdw-2022-yellow-tertiary);
+  background-color: var(--dcdw-2022-cream-primary);
+  border: solid 1px var(--dcdw-2022-cream-primary);
 }
 
 .mambo-card.event .status {
@@ -91,7 +91,7 @@
 }
 
 .mambo-card.horizontal figure {
-  border: solid 1px var(--dcdw-2022-yellow-tertiary);
+  border: solid 1px var(--dcdw-2022-cream-primary);
   grid-area: image;
   max-width: 316px;
 }
