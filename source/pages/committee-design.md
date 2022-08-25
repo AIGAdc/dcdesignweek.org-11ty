@@ -22,7 +22,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Josh Kim
       pronunciation:
@@ -33,7 +33,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Marcus Relacion
       pronunciation: (mar-kuss ree-lay-see-on)
@@ -44,7 +44,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Shoshanna Chito
       pronunciation:
@@ -55,7 +55,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Sydney Adams
       pronunciation:
@@ -66,7 +66,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Tiara Slater
       pronunciation:
@@ -77,7 +77,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Vanessa Vergara
       pronunciation:
@@ -88,7 +88,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Yu-Li Hunsicker
       pronunciation:
@@ -99,7 +99,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
 layout: layouts/committee-team.njk
 permalink: "/committee/design/"

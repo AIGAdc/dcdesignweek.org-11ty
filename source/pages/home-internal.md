@@ -133,7 +133,7 @@ sectionFour:
     - title: Volunteer
       label: Sign up to join our volunteer list
       url: https://docs.google.com/forms/d/1CCUi7i5Lr094peCd2n8qUUDNioAohJYnaCwxwMX-CxU/edit
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
       body: We'll need help with tasks like Zoom support or set-up and clean-up
         during the week of October 14-21 at both in-person and virtual events.
@@ -142,7 +142,7 @@ sectionFour:
       title: Sponsorship
       label: "Contact DCDW about sponsorship "
       url: mailto:designweek@dc.aiga.org
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
       body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.

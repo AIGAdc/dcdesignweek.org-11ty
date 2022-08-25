@@ -22,7 +22,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Alyssa Huntley
       pronunciation:
@@ -33,7 +33,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Koi Hernandez
       pronunciation:
@@ -44,7 +44,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Silvia Script
       pronunciation:
@@ -55,7 +55,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Danni Baker
       pronunciation:
@@ -66,7 +66,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Raksa Yin
       pronunciation:
@@ -77,7 +77,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Lauren Maffeo
       pronunciation:
@@ -88,7 +88,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Gene Alexeyev
       pronunciation:
@@ -99,7 +99,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Nabeeh Bilal
       pronunciation:
@@ -110,7 +110,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Nicole Cohn
       pronunciation:
@@ -121,7 +121,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
     - name: Iyana Moore 
       pronunciation:
@@ -132,7 +132,7 @@ sectionOne:
       linkURL1:
       linkLabel2:
       linkURL2:
-      image: https://images.squarespace-cdn.com/content/v1/5dd9918261672b4797dfe20b/1574723753614-TEDHKIR93OAAAV9JKR60/black-cat-loop-02.gif?format=2500w
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
       imageAlt: 🛑 Provide Alt Text
 layout: layouts/committee-team.njk
 permalink: "/committee/executive/"
