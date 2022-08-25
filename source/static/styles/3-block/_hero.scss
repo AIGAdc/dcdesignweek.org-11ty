@@ -9,5 +9,11 @@
 .mambo-hero a {}
 
 .mambo-hero .wysiwyg p {
-    font-size: var(--size-24);
+    font-size: var(--size-20);
+}
+
+@media screen and (min-width:85.375rem) {
+    .mambo-hero .wysiwyg p {
+        font-size: var(--size-24);
+    }
 }
