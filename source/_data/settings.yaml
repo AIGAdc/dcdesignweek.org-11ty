@@ -24,12 +24,12 @@ primaryNavLinks:
   #   external: true
   #   enabled: True
 secondaryNavLinks:
-  - title: Accessibility
-    url: /accessibility/
-    external: false
-    enabled: true
   - title: Contact
     url: mailto:designweek@dc.aiga.org
+    external: false
+    enabled: true
+  - title: Accessibility
+    url: /accessibility/
     external: false
     enabled: true
   - title: Colophon
