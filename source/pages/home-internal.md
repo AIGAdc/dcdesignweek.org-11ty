@@ -25,7 +25,7 @@ sectionMakers:
       trigger: question-1
     - question:  Hosted by a Brookland Arts Walk Studio
       answer: >-
-        If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing makers up with the 27 different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
+        If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing makers up with the different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
       trigger: question-2
       expanded: false
 sectionOne:
