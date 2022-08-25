@@ -20,7 +20,7 @@ sectionMakers:
   questions:
     - question: Consignment with Terratorie Maps + Goods
       answer: >-
-        If you have a small amount of merchandise to sell (max 3 SKUs, with 6 items per SKU) and would prefer someone else handles the transactions, this is the right fit for you. Items will be sold on consignment, and anything unsold will be returned to you. Makers keep 60% of sale price.
+        If you have a small amount of merchandise to sell and would prefer someone else handle the transactions, this is the right fit for you. Items will be sold on consignment and anything unsold will be returned to the artist. Makers keep 60% of sales price. Items on consignment will be allowed a max of 3 SKUs, with 6 items per SKU. Exceptions can be made if the items sold are small in size (i.e. stickers, magnets, buttons, etc).
       expanded: false
       trigger: question-1
     - question:  Hosted by a Brookland Arts Walk Studio
