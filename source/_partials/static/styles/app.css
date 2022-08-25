@@ -5638,16 +5638,6 @@ h3 {
     line-height: var(--size-56);
   }
 }
-.sticky {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.toolbar-tickets {
-  text-align: left;
-}
-
 /* Component: mambo-accordion */
 .mambo-accordions {
   --gap: var(--size-16);
