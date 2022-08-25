@@ -1,24 +1,37 @@
 {% include '1-mambo-blocks/link-skip-to-content.njk' %}
 <!-- Component: Header -->
-<header class="[ mambo-header ]" data-color="maroon-primary-on-cream">
+<header class="[ mambo-header ]" data-color="cream-on-maroon-primary">
   <div class="[ container container-default ]">
     <div>
       <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
         {% include 'static/images/dcdw-logo.njk' %}
       </a>
     </div>
-    <ul class="[ links ] [ flex-flow flex-flow-row flex-flow-center ]">
-      <li class="[ link ]">
-        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
+    <ul class="[ list ]">
+      <li>
+        <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
+          Events
+        </a>
       </li>
-      <li class="[ link ]">
-        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
+      <li>
+        <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
+          About
+        </a>
       </li>
-      <li class="[ link ]">
-        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
+      <li>
+        <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
+          Committee
+        </a>
       </li>
-      <li class="[ link ]">
-        <a class="[ anchor mambo-button-link ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">FAQs</a>
+      <li>
+        <a class="[ mambo-anchor ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">
+          FAQs
+        </a>
+      </li>
+      <li>
+        <a class="[ mambo-anchor ]" href="#">
+          Lorem Ipsum
+        </a>
       </li>
     </ul>
   </div>

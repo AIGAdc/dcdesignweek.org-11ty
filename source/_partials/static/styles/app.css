@@ -5623,6 +5623,10 @@ h3 {
     padding: var(--size-40) var(--size-80);
   }
 }
+.mambo-anchor {
+  display: inline-block;
+}
+
 /* Component: mambo-banner */
 .banner-inner {
   text-align: center;
@@ -5925,6 +5929,12 @@ input:checked + .slider:before {
     font-size: var(--size-24);
   }
 }
+.list {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--gap, 1rem);
+}
+
 .mambo-list-item {
   list-style-type: none;
   position: relative;
