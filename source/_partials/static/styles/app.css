@@ -6261,38 +6261,25 @@ input:checked + .slider:before {
     color: #666;
   }
 }
-.link-skip-to-content {
-  background-color: var(--color-zodiac);
-  color: var(--color-white);
+.link-skip-to-content,
+.link-back-to-top {
+  display: block;
   padding: var(--size-16);
-  position: absolute;
-  transform: translateY(-80px);
   scroll-margin-top: 88px;
 }
 
+.link-skip-to-content {
+  border-bottom: solid 1px currentColor;
+  position: absolute;
+  transform: translateY(-88px);
+}
+
 .link-skip-to-content:focus {
-  position: relative;
-  z-index: 10000;
   transform: translateY(0px);
 }
 
 .link-back-to-top {
-  display: block;
-  background-color: var(--color-zodiac);
-  color: var(--color-white);
-  padding: var(--size-16);
-  position: relative;
-  text-align: center;
-}
-
-.link-back-to-top:focus {
-  position: relative;
-  transform: translateY(0px);
-}
-
-.wireframe .link-back-to-top {
-  background-color: var(--color-black);
-  color: var(--color-white);
+  border-top: solid 1px currentColor;
 }
 
 .wysiwyg > *:not(:first-child) {
