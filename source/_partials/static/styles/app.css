@@ -5506,6 +5506,21 @@ img:not([alt]) {
   outline: dashed 8px red;
 }
 
+*[data-color=cream-on-maroon-primary] {
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-cream-primary);
+}
+
+*[data-color=cream-on-maroon-secondary] {
+  background-color: var(--dcdw-2022-maroon-secondary);
+  color: var(--dcdw-2022-cream-primary);
+}
+
+*[data-color=maroon-primary-on-cream] {
+  background-color: var(--dcdw-2022-cream-primary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
 h1 {
   color: var(--color-white);
   font-family: var(--dcdw-2022-brand-recursive);
@@ -5909,8 +5924,7 @@ input:checked + .slider:before {
 }
 .mambo-header {
   border-bottom: solid 1px currentColor;
-  position: relative;
-  z-index: 1000;
+  padding: var(--size-16);
 }
 
 .mambo-header svg {
