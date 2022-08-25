@@ -17,4 +17,13 @@
 
 .link-back-to-top {
   border-top: solid 1px currentColor;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 64rem) {
+
+  .link-skip-to-content,
+  .link-back-to-top {
+    padding: var(--size-24);
+  }
 }

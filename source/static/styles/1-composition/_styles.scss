@@ -2,6 +2,10 @@
   margin-top: var(--gap, var(--size-24));
 }
 
+.flow-none {
+  margin: 0;
+}
+
 /* Flex */
 .flex-flow {
   display: flex;

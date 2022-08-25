@@ -1,35 +1,31 @@
 <!-- Component: Footer -->
 <footer class="[ mambo-footer ]" data-color="cream-on-maroon-secondary">
-  <div>
-    <ul class="[ list ]">
-      {% for link in settings.secondaryNavLinks %}
-        {% if link.enabled == true %}
-          <li>
-            <a aria-label="{{ link.title }}" class="[ anchor ] mambo-button-link" href="{{ link.url }}">
-              {{ link.title | safe }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  <div>
-    <ul class="[ list ]">
-      {% for link in settings.socialMediaLinks %}
+  <ul class="[ list ][ links ]">
+    {% for link in settings.secondaryNavLinks %}
+      {% if link.enabled == true %}
         <li>
-          <a aria-label="{{ link.title }}" class="[ anchor ]"
-						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-            {{ link.icon | safe }}
+          <a aria-label="{{ link.title }}" class="[ anchor ] mambo-button-link" href="{{ link.url }}">
+            {{ link.title | safe }}
           </a>
         </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <p>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <ul class="[ list ][ social ]">
+    {% for link in settings.socialMediaLinks %}
+      <li>
+        <a aria-label="{{ link.title }}" class="[ anchor ]"
+						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
+          {{ link.icon | safe }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="[ copyright ]">
     {{ settings.copyright | safe }}
   </p>
   <!-- Component: Link - Skip to Top -->
-  <a class="link-back-to-top" href="#content">
+  <a class="[ link-back-to-top ][ flow-none ]" href="#content">
     Back to Top
   </a>
 </footer>
