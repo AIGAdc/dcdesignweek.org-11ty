@@ -4,17 +4,32 @@ description: DC Design Week is an annual celebration of DC’s vibrant, diverse
   creative community.
 hero:
   heroColorCombo: zodiac-on-cream
-  heroHeader: "DC Design Week 2022: Oct 14 – 21!"
-  heroBody: DC Design Week is an annual celebration of DC’s vibrant, diverse
-    creative community. This year we’re once again asking you, our community
-    members, to help us build DC Design Week. **We will contact everyone who
-    submits a proposal to share our decisions and any next steps by July 20,
-    2022.**
-  heroButtonLeftLabel: Submit An Event Proposal
-  heroButtonLeftURL: https://docs.google.com/forms/d/e/1FAIpQLSdNE9l3Df58coVJBav1ibV3LGiQZhsiAs9pf0-RcEZO0IQv7Q/viewform
-  showHeroButtonLeft: false
+  heroHeader: "DC Design Week: Call for Makers"
+  heroBody: "DC Design Week returns to the Brookland Arts Walk for its annual Pop-Up Block Party on October 21 from 6-10 pm. This year we will feature 15 to 20 local artists. 
+  
+  
+  Are you a local maker with merch to sell? Submit an application form by Monday, September 12."
+  heroButtonLeftLabel: "Pop-Up Shop Application Form"
+  heroButtonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
+  showHeroButtonLeft: true
+sectionMakers:
+  sectionMakersColorCombo: white-on-zodiac
+  sectionMakersBody: >-
+    There are 2 options for participating this year:
+  sectionMakersHeader: Options for Participating in the Pop-Up
+  questions:
+    - question: Consignment with Terratorie Maps + Goods
+      answer: >-
+        If you have a small amount of merchandise to sell and would prefer someone else handle the transactions, this is the right fit for you. Items will be sold on consignment and anything unsold will be returned to the artist. Makers keep 60% of sales price. Items on consignment will be allowed a max of 3 SKUs, with 6 items per SKU. Exceptions can be made if the items sold are small in size (i.e. stickers, magnets, buttons, etc).
+      expanded: false
+      trigger: question-1
+    - question:  Hosted by a Brookland Arts Walk Studio
+      answer: >-
+        If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing makers up with the different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
+      trigger: question-2
+      expanded: false
 sectionOne:
-  sectionOneColorCombo: white-on-zodiac
+  sectionOneColorCombo: zodiac-on-white
   sectionOneBody: >-
     If you don’t already know us, **DC Design Week (DCDW) is an annual
     celebration** of DC’s creative community: An ever-growing body of
@@ -60,7 +75,7 @@ sectionOne:
       trigger: question-2
       expanded: false
 sectionThree:
-  sectionThreeColorCombo: zodiac-on-white
+  sectionThreeColorCombo: white-on-zodiac
   sectionThreeHeader: How does the community-curated event proposal process work?
   sectionThreeBody: >-
     In our community-curated events model, we invite you, the community, to
