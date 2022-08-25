@@ -5623,40 +5623,6 @@ h3 {
     padding: var(--size-40) var(--size-80);
   }
 }
-.mambo-anchor.proposal {
-  color: var(--color-white);
-  font-size: var(--size-18);
-  text-decoration-color: var(--color-valencia);
-  position: relative;
-  padding: var(--size-16);
-  z-index: 500;
-}
-
-.mambo-anchor.proposal span {
-  position: absolute;
-  top: 0px;
-  left: 3px;
-  z-index: -1;
-}
-
-.mambo-anchor.proposal svg {
-  width: 270px;
-}
-
-@media screen and (min-width: 85.375rem) {
-  .mambo-anchor.proposal {
-    font-size: var(--size-24);
-    padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
-  }
-  .mambo-anchor.proposal span {
-    top: 20px;
-    left: -24px;
-  }
-  .mambo-anchor.proposal svg {
-    display: block;
-    width: 110%;
-  }
-}
 /* Component: mambo-banner */
 .banner-inner {
   text-align: center;
