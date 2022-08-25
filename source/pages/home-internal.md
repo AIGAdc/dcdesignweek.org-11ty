@@ -12,8 +12,24 @@ hero:
   heroButtonLeftLabel: "Pop-Up Shop Application Form"
   heroButtonLeftURL: "https://docs.google.com/forms/d/185QVkIE5tyV5s3qu9lNcSXX8UF9yqRHkcjDOmCRePyY/closedform"
   showHeroButtonLeft: true
+sectionMakers:
+  sectionMakersColorCombo: white-on-zodiac
+  sectionMakersBody: >-
+    There are 2 options for participating this year:
+  sectionMakersHeader: Options for Participating in the Pop-Up
+  questions:
+    - question: Consignment with Terratorie Maps + Goods
+      answer: >-
+        If you have a small amount of merchandise to sell (max 3 SKUs, with 6 items per SKU) and would prefer someone else handles the transactions, this is the right fit for you. Items will be sold on consignment, and anything unsold will be returned to you. Makers keep 60% of sale price.
+      expanded: false
+      trigger: question-1
+    - question:  Hosted by a Brookland Arts Walk Studio
+      answer: >-
+        If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing makers up with the 27 different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
+      trigger: question-2
+      expanded: false
 sectionOne:
-  sectionOneColorCombo: white-on-zodiac
+  sectionOneColorCombo: zodiac-on-white
   sectionOneBody: >-
     If you don’t already know us, **DC Design Week (DCDW) is an annual
     celebration** of DC’s creative community: An ever-growing body of
@@ -59,7 +75,7 @@ sectionOne:
       trigger: question-2
       expanded: false
 sectionThree:
-  sectionThreeColorCombo: zodiac-on-white
+  sectionThreeColorCombo: white-on-zodiac
   sectionThreeHeader: How does the community-curated event proposal process work?
   sectionThreeBody: >-
     In our community-curated events model, we invite you, the community, to
@@ -106,7 +122,7 @@ sectionThree:
           * Commitment to your event idea. We know that ideas and plans change, but DCDW selects events with our full week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to stay consistent.
       trigger: question-3
 sectionFour:
-  sectionFourColorCombo: white-on-zodiac
+  sectionFourColorCombo: zodiac-on-white
   sectionFourHeader: How else can I get involved with DC Design Week 2022?
   sectionFourBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the
     same without the support of our community. We are always looking for
