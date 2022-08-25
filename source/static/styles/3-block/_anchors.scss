@@ -1,3 +1,19 @@
 .mambo-anchor {
+  border: solid 2px transparent;
   display: inline-block;
+  font-weight: 600;
+}
+
+.mambo-anchor.action {
+  border-radius: 1000px;
+  padding: var(--size-8) var(--size-24);
+}
+
+.mambo-anchor.ghost {
+  border: solid 2px currentColor;
+  background-color: transparent;
+}
+
+.mambo-anchor.underline {
+  text-decoration: underline;
 }
