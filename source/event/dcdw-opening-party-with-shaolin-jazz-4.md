@@ -11,6 +11,13 @@ description: Kicking off the start of DC Design Week 2021, we’re joining force
   will be music and there will be dancing, you won’t want to miss it!  Due to
   capacity limitations, a ticket is required to attend the party even though it
   is a free event.
+hero:
+  heroColorCombo: zodiac-on-cream
+  heroHeader: "DC Design Week: Call for Makers"
+  heroBody:
+  heroButtonLeftLabel: "Pop-Up Shop Application Form"
+  heroButtonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
+  showHeroButtonLeft: false
 startDate: 2022-04-25T21:18:58.405Z
 endDate: 2022-04-25T21:18:58.415Z
 image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg

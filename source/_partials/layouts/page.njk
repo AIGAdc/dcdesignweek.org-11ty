@@ -3,55 +3,34 @@
 {% block content %}
   <!-- About Page -->
   {% if page.url == "/about/" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    {% include '2-layout-blocks/featured-theme.njk' %}
-    {% include '2-layout-blocks/featured-brand.njk' %}
-    {% include '2-layout-blocks/list-sponsors.njk' %}
-    {% include '2-layout-blocks/list-committee.njk' %}
-    {% include '2-layout-blocks/featured-faqs.njk' %}
-    {% include '2-layout-blocks/featured-accessibility.njk' %}
+    {% include '2-layout-blocks/featured/theme.njk' %}
+    {% include '2-layout-blocks/featured/brand.njk' %}
+    {% include '2-layout-blocks/listing/sponsors.njk' %}
+    {% include '2-layout-blocks/listing/committee.njk' %}
+    {% include '2-layout-blocks/featured/faqs.njk' %}
+    {% include '2-layout-blocks/featured/accessibility.njk' %}
   {% endif %}
   <!-- Accessibility Page -->
   {% if page.url == "/accessibility/" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    {% include '2-layout-blocks/accessibility/section-1.njk' %}
-    {% include '2-layout-blocks/accessibility/section-2.njk' %}
-    {% include '2-layout-blocks/accessibility/section-3.njk' %}
-    {% include '2-layout-blocks/accessibility/section-4.njk' %}
+    {% include '2-layout-blocks/page/accessibility/section-1.njk' %}
+    {% include '2-layout-blocks/page/accessibility/section-2.njk' %}
+    {% include '2-layout-blocks/page/accessibility/section-3.njk' %}
+    {% include '2-layout-blocks/page/accessibility/section-4.njk' %}
   {% endif %}
   <!-- Committee Page -->
   {% if page.url == "/committee/" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    {% include '2-layout-blocks/list-committee.njk' %}
-    {% include '2-layout-blocks/featured-join-dcdw.njk' %}
+    {% include '2-layout-blocks/listing/committee.njk' %}
+    {% include '2-layout-blocks/featured/join-dcdw.njk' %}
   {% endif %}
   <!-- Events Page -->
   {% if page.url == "/events/" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    {% include '2-layout-blocks/list-events.njk' %}
-    {% include '2-layout-blocks/featured-brand.njk' %}
-    {% include '2-layout-blocks/featured-sponsors.njk' %}
+    {% include '2-layout-blocks/listing/events.njk' %}
+    {% include '2-layout-blocks/featured/brand.njk' %}
+    {% include '2-layout-blocks/featured/sponsors.njk' %}
   {% endif %}
   <!-- FAQs Page -->
   {% if page.url == "/faqs/" %}
-    {% include '2-layout-blocks/hero.njk' %}
-    {% include '2-layout-blocks/list-faqs.njk' %}
-    {% include '2-layout-blocks/featured-accessibility.njk' %}
-    <script>
-      var disclosure = new Houdini('[data-houdini-group="faq"]', {
-        isAccordion: true,
-        collapseOthers: true,
-        icon: 1,
-        /* If true, include an expand/collapse icon */
-        iconClass: 'houdini-toggle-icon',
-        /* The class to use for the expand/collapse icon */
-        iconAttribute: 'data-houdini-icon',
-        /* The data attribute to use for the expand/collapse icon */
-        iconShow: '<i class="fas fa-chevron-right"></i>',
-        /* The icon to expand an accordion */
-        iconHide: '<i class="fas fa-chevron-down"></i>',
-        /* The icon to collapse an accordion */
-      });
-    </script>
+    {% include '2-layout-blocks/listing/faqs.njk' %}
+    {% include '2-layout-blocks/featured/accessibility.njk' %}
   {% endif %}
 {% endblock %}

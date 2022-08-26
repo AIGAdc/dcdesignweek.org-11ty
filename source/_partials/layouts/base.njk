@@ -46,6 +46,7 @@
   <body>
     {% include '1-mambo-blocks/header.njk' %}
     <main id="content">
+      {% include '2-layout-blocks/hero.njk' %}
       {% block content %}
         {{ content | safe }}
       {% endblock %}
