@@ -11,13 +11,13 @@
         </div>
       </div>
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
-        {% for card in committee.teams %}
+        {% for team in committee.teams %}
           <li class="[ mambo-card committee ]">
             <div class="[ details ]">
-              <a href="{{ card.url }}">
-                <h3>{{ card.title | safe }}</h3>
+              <a href="{{ team.url }}">
+                <h3>{{ team.title | safe }}</h3>
               </a>
-              <p>{{ card.members | md | safe }}</p>
+              <p>{{ team.members | md | safe }}</p>
             </div>
           </li>
         {% endfor %}
@@ -35,16 +35,16 @@
   <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-white" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
-        {% for card in committee.teams %}
+        {% for team in committee.teams %}
           <li class="[ mambo-card committee ]">
             <figure class="[ image ]">
-              <img alt="{{ card.imageAlt }}" loading=lazy src="{{ card.image }}">
+              <img alt="{{ team.imageAlt }}" loading=lazy src="{{ team.image }}">
             </figure>
             <div class="[ details ][ flow ]">
-              <a href="{{ card.url }}">
-                <h3>{{ card.title | safe }}</h3>
+              <a href="{{ team.url }}">
+                <h3>{{ team.title | safe }}</h3>
               </a>
-              <p>{{ card.body | md | safe }}</p>
+              <p>{{ team.body | md | safe }}</p>
             </div>
           </li>
         {% endfor %}

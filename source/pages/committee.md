@@ -6,10 +6,5 @@ hero:
   heroButtonLeftLabel:
   heroButtonLeftURL:
   showHeroButtonLeft: false
-sectionTwo:
-  header: Lorem Ipsum (Join DCDW)
-  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
-  linkLabel: Lorem Ipsum (TBA)
-  linkURL: #
 permalink: /committee/
 ---

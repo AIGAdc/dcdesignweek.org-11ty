@@ -4,7 +4,7 @@
   <section class="[ mambo-section ]" data-color="maroon-primary-on-white" id="{{ sectionOne.sectionOneHeader | slug }}">
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
-        {% for member in sectionOne.members %}
+        {% for member in members %}
           <li class="[ mambo-card horizontal ]">
             <figure class="[ image ]">
               <img alt="{{ member.imageAlt }}" loading=lazy src="{{ member.image }}">
