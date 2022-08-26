@@ -237,12 +237,9 @@ html {
 }
 
 body {
-  background-color: var(--dcdw-2022-maroon-primary);
-  color: var(--dcdw-2022-cream-primary);
   font-family: var(--dcdw-2022-brand-source-sans-pro);
   font-size: var(--size-18);
   line-height: 1.6;
-  margin: auto;
   overflow-x: hidden;
 }
 
@@ -255,8 +252,6 @@ a {
   color: inherit;
   cursor: pointer;
   display: inline-block;
-  font-family: var(--dcdw-2022-brand-source-sans-pro);
-  font-weight: var(--weight-400);
   text-underline-offset: 4px;
   text-decoration-thickness: 4px;
   transition: opacity var(--timing-default) ease-in;
@@ -320,26 +315,6 @@ ul {
 svg {
   display: block;
   vertical-align: middle;
-}
-
-.disabled {
-  cursor: not-allowed !important;
-}
-
-.enabled {
-  cursor: pointer !important;
-}
-
-.mambo-documentation {
-  background-color: var(--brand-aiga-dc);
-  border-radius: 0.5rem;
-  color: var(--color-white);
-  margin: 1rem;
-  padding: 1rem;
-}
-
-section {
-  position: relative;
 }
 
 .flow > * + *:not(:first-child) {
@@ -465,6 +440,14 @@ section {
 img:not([alt]) {
   filter: contrast(175%);
   outline: dashed 8px red;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.enabled {
+  cursor: pointer !important;
 }
 
 /* 

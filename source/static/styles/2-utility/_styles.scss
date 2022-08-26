@@ -22,3 +22,11 @@ img:not([alt]) {
   filter: contrast(175%);
   outline: dashed 8px red;
 }
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+.enabled {
+  cursor: pointer !important;
+}
