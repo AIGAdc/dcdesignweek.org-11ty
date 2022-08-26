@@ -1,9 +1,10 @@
 ---
 title: About
-description: Provide a description for this page.
+description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
 hero:
-  heroColorCombo: zodiac-on-cream
-  heroHeader: "About"
-  heroBody: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius."
+  heroColorCombo:
+  heroButtonLeftLabel:
+  heroButtonLeftURL:
+  showHeroButtonLeft: false
 permalink: /about/
 ---

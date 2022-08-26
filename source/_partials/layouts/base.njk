@@ -44,15 +44,14 @@
     <!-- Script: Netlify Identity Widget -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
-  <body>
-    {% include '1-mambo-blocks/header.njk' %}
+  <body data-color="maroon-primary-on-white">
+    {% include '1-mambo-blocks/site-header.njk' %}
     <main id="content">
-      {% include '2-layout-blocks/hero.njk' %}
       {% block content %}
         {{ content | safe }}
       {% endblock %}
       {% include '1-mambo-blocks/newsletter.njk' %}
     </main>
-    {% include '1-mambo-blocks/footer.njk' %}
+    {% include '1-mambo-blocks/site-footer.njk' %}
   </body>
 </html>

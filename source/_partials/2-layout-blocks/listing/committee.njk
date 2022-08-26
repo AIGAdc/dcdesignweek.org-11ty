@@ -1,5 +1,5 @@
 {% if page.url == "/about/" %}
-  <section class="[ mambo-section ][ flow ]" id="{{ sectionOne.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-white" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
       <div class="[ grid-flow grid-four-columns ]">
         <div class="[ column-span-two ]">
@@ -32,7 +32,7 @@
 {% endif %}
 
 {% if page.url == "/committee/" %}
-  <section class="[ mambo-section ][ flow ]" id="{{ sectionOne.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-white" id="{{ sectionOne.header | slug }}">
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for card in committee.teams %}

@@ -3,6 +3,7 @@
 {% block content %}
   <!-- About Page -->
   {% if page.url == "/about/" %}
+    {% include '1-mambo-blocks/hero-page.njk' %}
     {% include '2-layout-blocks/featured/theme.njk' %}
     {% include '2-layout-blocks/featured/brand.njk' %}
     {% include '2-layout-blocks/listing/sponsors.njk' %}
@@ -12,6 +13,7 @@
   {% endif %}
   <!-- Accessibility Page -->
   {% if page.url == "/accessibility/" %}
+    {% include '1-mambo-blocks/hero-page.njk' %}
     {% include '2-layout-blocks/page/accessibility/section-1.njk' %}
     {% include '2-layout-blocks/page/accessibility/section-2.njk' %}
     {% include '2-layout-blocks/page/accessibility/section-3.njk' %}
@@ -19,17 +21,20 @@
   {% endif %}
   <!-- Committee Page -->
   {% if page.url == "/committee/" %}
+    {% include '1-mambo-blocks/hero-page.njk' %}
     {% include '2-layout-blocks/listing/committee.njk' %}
     {% include '2-layout-blocks/featured/join-dcdw.njk' %}
   {% endif %}
   <!-- Events Page -->
   {% if page.url == "/events/" %}
+    {% include '1-mambo-blocks/hero-page.njk' %}
     {% include '2-layout-blocks/listing/events.njk' %}
     {% include '2-layout-blocks/featured/brand.njk' %}
     {% include '2-layout-blocks/featured/sponsors.njk' %}
   {% endif %}
   <!-- FAQs Page -->
   {% if page.url == "/faqs/" %}
+    {% include '1-mambo-blocks/hero-page.njk' %}
     {% include '2-layout-blocks/listing/faqs.njk' %}
     {% include '2-layout-blocks/featured/accessibility.njk' %}
   {% endif %}

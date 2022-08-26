@@ -1,10 +1,11 @@
 ---
 title: Executive Team
-description: Provide a description for this page.
+description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
 hero:
-  heroColorCombo: zodiac-on-cream
-  heroHeader: "Executive Team"
-  heroBody: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius."
+  heroColorCombo:
+  heroButtonLeftLabel:
+  heroButtonLeftURL:
+  showHeroButtonLeft: false
 sectionOne:
   header: How else can I get involved with DC Design Week 2022?
   body: DC Design Week is 100% volunteer-run, and it wouldn’t be the

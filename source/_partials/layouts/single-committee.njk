@@ -1,6 +1,7 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-  <section class="[ mambo-section ][ {{ sectionOne.sectionOneColorCombo | safe }} ]" data-color="{{ sectionOne.sectionOneColorCombo | safe }}" id="{{ sectionOne.sectionOneHeader | slug }}">
+  {% include '1-mambo-blocks/hero-page.njk' %}
+  <section class="[ mambo-section ]" data-color="maroon-primary-on-white" id="{{ sectionOne.sectionOneHeader | slug }}">
     <div class="[ container container-default ][ flow ]">
       <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
         {% for member in sectionOne.members %}

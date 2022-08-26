@@ -1,4 +1,4 @@
-<section class="[ mambo-section ][ flow ]" id="faqs">
+<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-white" id="faqs">
   <div class="[ container container-default ][ flow ]">
     <h2>
 	2022 DC Design Week FAQs
@@ -16,7 +16,7 @@
             <!-- Hidden Content -->
             <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
 					data-houdini-group="faq" id="{{ question.trigger }}">
-              {{ question.answer | safe }}
+              {{ question.answer | md | safe }}
             </div>
           </li>
         {% endfor %}

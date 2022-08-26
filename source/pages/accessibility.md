@@ -3,13 +3,11 @@ title: Accessibility
 description: DC Design Week is committed to improving accessibility and
   inclusion efforts each year. We recognize this is a journey and we are still
   far from our ideal.
-  
 hero:
-  heroHeader: "Accessibility Statement"
-  heroColorCombo: zodiac-on-cream
-  heroBody: DC Design Week is committed to improving accessibility and inclusion
-    efforts each year. We recognize this is a journey that we are still far from
-    our ideal.
+  heroColorCombo:
+  heroButtonLeftLabel:
+  heroButtonLeftURL:
+  showHeroButtonLeft: false
 sectionOne:
   sectionOneColorCombo: white-on-zodiac
   sectionOneHeader: What are we aiming to?

@@ -1,13 +1,9 @@
-<section class="[ mambo-hero mambo-section ]" id="{{ hero.heroHeader | slug }}">
+<section class="[ mambo-hero mambo-section ]" data-color="cream-on-maroon-primary" id="{{ hero.heroHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
-    {% if hero.heroHeader %}
-      <span id="skip-to-content">
-        <h1>{{ hero.heroHeader | safe }}</h1>
-      </span>
-    {% endif %}
-    {% if hero.heroBody %}
-      <div class="[ wysiwyg ]">{{ hero.heroBody | md | safe }}</div>
-    {% endif %}
+    <span id="skip-to-content">
+      <h1>{{ title | safe }}</h1>
+    </span>
+    <div class="[ wysiwyg ]">{{ description | md | safe }}</div>
     {% if hero.showHeroButtonLeft == true %}
       <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
         {{ hero.heroButtonLeftLabel | safe }}
