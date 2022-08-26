@@ -24,8 +24,8 @@ a {
   color: inherit;
   cursor: pointer;
   display: inline-block;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
   transition: opacity var(--timing-default) ease-in;
 }
 
@@ -41,12 +41,13 @@ input:focus {
 	Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
 
 	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
-  box-shadow: 0 0 0 4px var(--color-white), 0 0 0px 4px var(--color-white);
+  box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
   // Add support for Windows High Contrast Mode (WHCM)
   // The transparent color only shows when WHCM is triggered
-  outline: 4px solid var(--color-valencia);
+  outline: 4px solid transparent;
   outline-offset: 4px;
   position: relative;
+  text-decoration: none;
   text-decoration-thickness: 0;
 }
 

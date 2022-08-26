@@ -1,20 +1,23 @@
-<section class="[ mambo-hero mambo-section ]" data-color="cream-on-maroon-primary" id="{{ hero.heroHeader | slug }}">
+<section class="[ mambo-hero ]" data-color="cream-on-maroon-primary" id="{{ hero.heroHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
-    {% if hero.heroHeader %}
-      <span id="skip-to-content">
-        <h1>{{ title | safe }}</h1>
-      </span>
-    {% endif %}
-    {% if hero.showHeroButtonLeft == true %}
-      <a class="[ mambo-anchor proposal ]" href="{{ hero.heroButtonLeftURL | safe }}">
-        {{ hero.heroButtonLeftLabel | safe }}
-        <span>
-          {% include 'static/images/hero/button-container.njk' %}
-        </span>
-      </a>
-    {% endif %}
-    {% if hero.showHeroButtonRight == true %}
-      <a href="{{ hero.heroButtonRightURL | safe }}">{{ hero.heroButtonRightLabel | safe  }}</a>
-    {% endif %}
+    <span id="skip-to-content">
+      <h1>{{ title | safe }}</h1>
+    </span>
+    <div class="[ meta ]">
+      <p> 
+        Type / Weekday / Month / Time <datetime class="[ time ]">{{ page.startDate | readableEventDate }}</datetime>
+      </p>
+    </div>
   </div>
+</section>
+<section class="[ statuses ]">
+  {% for status in status %}
+    {% if status.statusType == "Featured on Home" %}
+      <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
+    {% elseif status.statusType == "Featured on Events" %}
+      <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
+    {% elseif status.statusType == "Sold Out" %}
+      <p class="[ status sold-out ]">{{status.statusLabel}}</p>
+    {% endif %}
+  {% endfor %}
 </section>

@@ -252,8 +252,8 @@ a {
   color: inherit;
   cursor: pointer;
   display: inline-block;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
   transition: opacity var(--timing-default) ease-in;
 }
 
@@ -264,10 +264,11 @@ input:focus {
   Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
 
   Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
-  box-shadow: 0 0 0 4px var(--color-white), 0 0 0px 4px var(--color-white);
-  outline: 4px solid var(--color-valencia);
+  box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
+  outline: 4px solid transparent;
   outline-offset: 4px;
   position: relative;
+  text-decoration: none;
   text-decoration-thickness: 0;
 }
 
@@ -926,7 +927,6 @@ input:checked + .slider:before {
 
 .mambo-hero {
   display: grid;
-  place-items: center;
   min-height: 700px;
 }
 
@@ -1267,6 +1267,26 @@ input:checked + .slider:before {
     padding: var(--size-24);
   }
 }
+.status {
+  display: block;
+  width: 100%;
+}
+
+.status.featured-on-home,
+.status.featured-on-events {
+  background-color: var(--dcdw-2022-pink-tertiary);
+  color: var(--dcdw-2022-maroon-primary);
+  font-weight: 700;
+  padding: var(--size-8);
+}
+
+.status.sold-out {
+  background-color: var(--dcdw-2022-yellow-primary);
+  color: var(--dcdw-2022-maroon-primary);
+  font-weight: 700;
+  padding: var(--size-8);
+}
+
 .wysiwyg > *:not(:first-child) {
   margin-top: var(--size-16);
 }
