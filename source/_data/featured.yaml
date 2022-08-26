@@ -18,6 +18,10 @@ brand:
     linkURL: https://www.brllnt.co/
     linkLabel: View Brllnt's Website
 
+codeOfConduct:
+  - header: Lorem Ipsum (Code of Conduct)
+    body: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
+
 committee:
   - header: Lorem Ipsum (Committee)
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
