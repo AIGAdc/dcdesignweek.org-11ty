@@ -1,0 +1,44 @@
+<section class="[ mambo-section ][ flow ]" data-color="cream-on-maroon-secondary" id="events">
+  <div class="[ container container-default ][ flow ]">
+    <h2>Related Events</h2>
+    {% include "1-global-blocks/divider.njk" %}
+    <p>{{ content.body | md | safe }}</p>
+    <ul class="[ faqs-list ][ column-span-three ][ grid-flow grid-four-columns ]" id="events-list">
+      {% for event in collections.event | reverse | limit(4) %}
+        <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
+          <div class="[ media ]">
+            <figure class="[ image ]">
+              <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+            </figure>
+            <div class="[ statuses ]">
+              {% for status in event.data.status %}
+                {% if status.statusType == "Featured on Home" %}
+                  <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
+                {% elseif status.statusType == "Featured on Events" %}
+                  <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
+                {% elseif status.statusType == "Sold Out" %}
+                  <p class="[ status sold-out ]">{{status.statusLabel}}</p>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <a href="{{ event.url }}">
+            <h3 class="[ title ]">{{event.data.title}}</h3>
+          </a>
+          <div class="[ meta ]">
+            <div class="[ day-date ]">
+              <p class="[ day ]">Day</p>
+              <datetime class="[ date ]">Date</datetime>
+              <span>{% include "static/images/blob-date.svg" %}</span>
+            </div>
+            <div class="[ time-location ]">
+              <datetime class="[ time ]">Time</datetime>
+              <p class="[ location ]">Location</p>
+            </div>
+            {# <datetime class="[ time ]">{{ event.date | readableEventDate }}</datetime> #}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
