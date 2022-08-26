@@ -3,23 +3,20 @@
   {% include '2-layout-blocks/hero.njk' %}
   {% include '2-layout-blocks/list-faqs.njk' %}
   {% include '2-layout-blocks/featured-accessibility.njk' %}
-  {% if content %}
-    {% include '1-mambo-blocks/content.njk' %}
-  {% endif %}
+  <script>
+    var disclosure = new Houdini('[data-houdini-group="faq"]', {
+      isAccordion: true,
+      collapseOthers: true,
+      icon: 1,
+      /* If true, include an expand/collapse icon */
+      iconClass: 'houdini-toggle-icon',
+      /* The class to use for the expand/collapse icon */
+      iconAttribute: 'data-houdini-icon',
+      /* The data attribute to use for the expand/collapse icon */
+      iconShow: '<i class="fas fa-chevron-right"></i>',
+      /* The icon to expand an accordion */
+      iconHide: '<i class="fas fa-chevron-down"></i>',
+      /* The icon to collapse an accordion */
+    });
+  </script>
 {% endblock %}
-<script>
-  var disclosure = new Houdini('[data-houdini-group="faq"]', {
-    isAccordion: true,
-    collapseOthers: true,
-    icon: 1,
-    /* If true, include an expand/collapse icon */
-    iconClass: 'houdini-toggle-icon',
-    /* The class to use for the expand/collapse icon */
-    iconAttribute: 'data-houdini-icon',
-    /* The data attribute to use for the expand/collapse icon */
-    iconShow: '<i class="fas fa-chevron-right"></i>',
-    /* The icon to expand an accordion */
-    iconHide: '<i class="fas fa-chevron-down"></i>',
-    /* The icon to collapse an accordion */
-  });
-</script>

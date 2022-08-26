@@ -11,6 +11,5 @@ sectionTwo:
   body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
   linkLabel: Lorem Ipsum (TBA)
   linkURL: #
-layout: layouts/committee.njk
 permalink: /committee/
 ---

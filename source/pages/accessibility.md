@@ -112,6 +112,5 @@ sectionFive:
 
 
     We honor your privacy. No identifying information like your name is required to request an accomodation, and all details will be deleted once completed.
-layout: layouts/accessibility.njk
 permalink: /accessibility/
 ---
