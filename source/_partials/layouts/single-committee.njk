@@ -1,41 +1,5 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
   {% include '1-global-blocks/hero-page.njk' %}
-  <section class="[ mambo-section ]" data-color="maroon-primary-on-white" id="{{ sectionOne.sectionOneHeader | slug }}">
-    <div class="[ container container-default ][ flow ]">
-      <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
-        {% for member in members %}
-          <li class="[ mambo-card horizontal ]">
-            <figure class="[ image ]">
-              <img alt="{{ member.imageAlt }}" loading=lazy src="{{ member.image }}">
-            </figure>
-            <div class="[ details ][ flow ]">
-              <div class="meta">
-                <h3 class="name">{{ member.name | safe }}</h3>
-                {% if member.pronunciation %}
-                  <p class="pronunciation">{{ member.pronunciation | safe }}</p>
-                {% endif %}
-              </div>
-              {% if member.pronouns %}
-                <p class="pronouns">{{ member.pronouns | safe }}</p>
-              {% endif %}
-              {% if member.position %}
-                <p class="position">{{ member.position | safe }}</p>
-              {% endif %}
-              {% if member.bio %}
-                <p class="bio">{{ member.bio | safe }}</p>
-              {% endif %}
-              <div>
-                {% if member.linkLabel1 %}
-                  <a aria-label="{{ member.linkARIALabel1 }}" href="{{ member.linkURL1 }}">{{ member.linkLabel1 }}</a>
-                {% endif %}
-                {% if member.linklabel2 %}
-                  <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
-                {% endif %}
-              </div>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  {% endblock %}
+  {% include '2-layout-blocks/listing/committee-members.njk' %}
+{% endblock %}

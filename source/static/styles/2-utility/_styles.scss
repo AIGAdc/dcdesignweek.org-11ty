@@ -1,4 +1,4 @@
-@include generate-utility-classes();
+// @include generate-utility-classes();
 
 /* Containers */
 .container {
@@ -16,11 +16,6 @@
 
 .container-large {
   max-width: 1650px;
-}
-
-// Gaps
-.gap-1 {
-  --gap: var(--size-20);
 }
 
 img:not([alt]) {
