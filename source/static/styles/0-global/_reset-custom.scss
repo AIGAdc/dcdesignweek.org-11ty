@@ -29,13 +29,9 @@ a {
   transition: opacity var(--timing-default) ease-in;
 }
 
-a:active {
-  outline: 4px solid var(--color-black, inherit);
-}
+a:active {}
 
-a:hover {
-  cursor: pointer;
-}
+a:hover {}
 
 a:focus,
 input:focus {
@@ -50,10 +46,8 @@ input:focus {
   // The transparent color only shows when WHCM is triggered
   outline: 4px solid var(--color-valencia);
   outline-offset: 4px;
-  overflow: hidden;
   position: relative;
   text-decoration-thickness: 0;
-  z-index: var(--layer-1);
 }
 
 br {

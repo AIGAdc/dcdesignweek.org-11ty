@@ -1,4 +1,5 @@
 .link-skip-to-content,
+.link-skip-to-content.events,
 .link-back-to-top {
   display: block;
   padding: var(--size-16);
@@ -11,8 +12,15 @@
   transform: translateY(-88px);
 }
 
-.link-skip-to-content:focus {
+.link-skip-to-content:focus,
+.link-skip-to-content.events:focus {
   transform: translateY(0px);
+}
+
+.link-skip-to-content.events {
+  display: block;
+  position: relative;
+  transform: unset;
 }
 
 .link-back-to-top {
@@ -23,6 +31,7 @@
 @media screen and (min-width: 64rem) {
 
   .link-skip-to-content,
+  .link-skip-to-content.events,
   .link-back-to-top {
     padding: var(--size-24);
   }
