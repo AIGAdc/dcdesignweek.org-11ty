@@ -4,7 +4,7 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
   <div class="[ container container-default ][ flex-flow flex-flow-column flex-flow-start ]">
     {% for content in featured.subscribe %}
       <h2>{{ content.header }}</h2>
-      {% include '1-mambo-blocks/divider.njk' %}
+      {% include '1-global-blocks/divider.njk' %}
       <p>{{ content.body | safe }}</p>
     {% endfor %}
   </div>
@@ -107,6 +107,4 @@ padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for conte
     }(jQuery));
     var $mcj = jQuery.noConflict(true);
   </script>
-</div>
-<!--End mc_embed_signup-->
 </section>

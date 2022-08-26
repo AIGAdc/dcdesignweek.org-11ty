@@ -5,7 +5,7 @@
         <div class="[ column-span-two ]">
           {% for content in featured.committee %}
             <h2>{{ content.header }}</h2>
-            {% include "1-mambo-blocks/divider.njk" %}
+            {% include "1-global-blocks/divider.njk" %}
             <p>{{ content.body | safe }}</p>
           {% endfor %}
         </div>

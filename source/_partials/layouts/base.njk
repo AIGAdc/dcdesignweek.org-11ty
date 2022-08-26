@@ -45,13 +45,13 @@
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body data-color="maroon-primary-on-white">
-    {% include '1-mambo-blocks/site-header.njk' %}
+    {% include '1-global-blocks/site-header.njk' %}
     <main id="content">
       {% block content %}
         {{ content | safe }}
       {% endblock %}
-      {% include '1-mambo-blocks/newsletter.njk' %}
+      {% include '2-layout-blocks/featured/newsletter.njk' %}
     </main>
-    {% include '1-mambo-blocks/site-footer.njk' %}
+    {% include '1-global-blocks/site-footer.njk' %}
   </body>
 </html>
