@@ -95,6 +95,6 @@ members:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
-layout: layouts/single-committee.njk
+layout: single-committee
 permalink: "/committee/design/"
 ---

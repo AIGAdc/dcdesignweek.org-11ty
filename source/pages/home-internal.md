@@ -143,6 +143,6 @@ sectionFour:
       imageAlt: 🛑 Provide Alt Text
       body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.
-layout: layouts/home-internal.njk
+layout: home-internal
 permalink: /
 ---

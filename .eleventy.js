@@ -95,6 +95,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       // tells Eleventy where to look for layouts/partials
       includes: "_partials",
+      layouts: "_partials/layouts",
       // Eleventy will look here for files to process
       input: "source",
       // the built files will be placed here

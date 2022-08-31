@@ -6,6 +6,6 @@ hero:
   heroButtonLeftLabel:
   heroButtonLeftURL:
   showHeroButtonLeft: false
-layout: layouts/mambo.njk
+layout: mambo
 permalink: /mambo/
 ---
