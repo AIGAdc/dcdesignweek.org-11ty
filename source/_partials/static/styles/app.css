@@ -238,14 +238,14 @@ html {
 
 body {
   font-family: var(--dcdw-2022-brand-source-sans-pro);
-  font-size: var(--size-18);
+  font-size: var(--size-16);
   line-height: 1.6;
   overflow-x: hidden;
 }
 
 @media screen and (min-width: 64rem) {
   body {
-    font-size: var(--size-20);
+    font-size: var(--size-18);
   }
 }
 a {
@@ -292,6 +292,7 @@ h5,
 h6,
 small {
   display: block;
+  line-height: initial;
   text-rendering: optimizeLegibility;
 }
 
@@ -573,6 +574,10 @@ h3 {
     line-height: var(--size-56);
   }
 }
+.meta {
+  font-size: var(--size-18);
+}
+
 /* Component: mambo-accordion */
 .mambo-accordions {
   --gap: var(--size-16);
