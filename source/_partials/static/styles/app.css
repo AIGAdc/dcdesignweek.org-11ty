@@ -220,11 +220,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-* {
-  outline: dashed 1px red;
-  outline-offset: -1px;
-}
-
 html {
   overflow-x: hidden;
 }
@@ -439,6 +434,11 @@ svg {
     grid-template-columns: 316px 1fr;
   }
 }
+.layout-single-event .status {
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}
+
 /* Containers */
 .container {
   margin: auto;
@@ -562,7 +562,7 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
 }
 
 h1 {
-  color: var(--color-white);
+  color: inherit;
   font-family: var(--dcdw-2022-brand-recursive);
   font-size: var(--size-48);
   line-height: var(--size-48);
@@ -891,7 +891,6 @@ input:checked + .slider:before {
 }
 
 .mambo-hero {
-  display: grid;
   min-height: 40vh;
 }
 

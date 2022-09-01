@@ -1,12 +1,20 @@
-<section class="[ mambo-hero mambo-section ]" data-color="cream-on-maroon-primary" id="{{ hero.heroHeader | slug }}">
+<section class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-pink-tertiary" id="{{ hero.heroHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
     <span id="skip-to-content">
       <h1>{{ title | safe }}</h1>
     </span>
-    <div class="[ meta ]">
+    <div class="[ meta ][ flow ]">
       <p> 
         Type / Weekday / Month / Time <datetime class="[ time ]">{{ page.startDate | readableEventDate }}</datetime>
       </p>
+      <div class="[ tickets ]" style="--gap: var(--size-32);">
+        <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="#">
+          Lorem Ipsum
+        </a>
+        <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="#">
+          Lorem Ipsum
+        </a>
+      </div>
     </div>
   </div>
 </section>
