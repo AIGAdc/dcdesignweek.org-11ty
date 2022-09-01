@@ -220,6 +220,11 @@ select {
     scroll-behavior: auto !important;
   }
 }
+* {
+  outline: dashed 1px red;
+  outline-offset: -1px;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -227,7 +232,8 @@ html {
 body {
   font-family: var(--dcdw-2022-brand-dm-sans);
   font-size: var(--size-16);
-  line-height: 1.8;
+  font-weight: 400;
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
@@ -563,7 +569,6 @@ h3 {
   }
 }
 .meta {
-  font-size: var(--size-18);
   font-weight: 400;
 }
 
