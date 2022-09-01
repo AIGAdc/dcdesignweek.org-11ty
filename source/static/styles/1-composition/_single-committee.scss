@@ -1,0 +1,38 @@
+/* Committee */
+.layout-single-committee .mambo-card.horizontal {
+  display: grid;
+  grid-column-gap: var(--size-32);
+  grid-template-areas:
+    "image"
+    "body";
+  grid-template-columns: 1fr;
+}
+
+.layout-single-committee .mambo-card.horizontal figure {
+  grid-area: image;
+}
+
+.layout-single-committee .mambo-card.horizontal figure img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.layout-single-committee .mambo-card.horizontal .details {
+  grid-area: body;
+}
+
+.layout-single-committee .mambo-card.horizontal .meta {
+  display: flex;
+  font-weight: 900;
+  grid-gap: var(--size-8);
+}
+
+@media screen and (min-width: 48rem) {
+  .layout-single-committee .mambo-card.horizontal {
+    grid-column-gap: var(--size-64);
+    grid-template-areas:
+      "image body"
+      ". body";
+    grid-template-columns: 316px 1fr;
+  }
+}

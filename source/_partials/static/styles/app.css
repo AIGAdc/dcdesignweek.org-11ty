@@ -405,6 +405,40 @@ svg {
   top: 1rem;
 }
 
+/* Committee */
+.layout-single-committee .mambo-card.horizontal {
+  display: grid;
+  grid-column-gap: var(--size-32);
+  grid-template-areas: "image" "body";
+  grid-template-columns: 1fr;
+}
+
+.layout-single-committee .mambo-card.horizontal figure {
+  grid-area: image;
+}
+
+.layout-single-committee .mambo-card.horizontal figure img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.layout-single-committee .mambo-card.horizontal .details {
+  grid-area: body;
+}
+
+.layout-single-committee .mambo-card.horizontal .meta {
+  display: flex;
+  font-weight: 900;
+  grid-gap: var(--size-8);
+}
+
+@media screen and (min-width: 48rem) {
+  .layout-single-committee .mambo-card.horizontal {
+    grid-column-gap: var(--size-64);
+    grid-template-areas: "image body" ". body";
+    grid-template-columns: 316px 1fr;
+  }
+}
 /* Containers */
 .container {
   margin: auto;
@@ -568,10 +602,6 @@ h3 {
     line-height: var(--size-56);
   }
 }
-.meta {
-  font-weight: 400;
-}
-
 /* Component: mambo-accordion */
 .mambo-accordions {
   --gap: var(--size-16);
@@ -659,24 +689,18 @@ h3 {
   border-left: transparent;
 }
 
-.mambo-cards {
-  width: 100%;
-}
-
 .mambo-card .image {
   position: relative;
 }
 
-.mambo-card img {
+.mambo-card .image img {
   aspect-ratio: 16/9;
-  width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
 .mambo-card .details {
-  min-height: 280px;
-  padding: var(--size-24);
+  padding: var(--size-16);
 }
 
 /* This is a hacky work around specifically for Speaker and Staff cards */
@@ -693,10 +717,6 @@ h3 {
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-#how-else-can-i-get-involved-with-dc-design-week-2022 img {
-  mix-blend-mode: unset;
 }
 
 .featured-sponsors .sponsor-tier-one,
@@ -756,45 +776,6 @@ h3 {
   padding: var(--size-8);
 }
 
-/* Committee */
-.mambo-card.horizontal {
-  align-items: start;
-  display: grid;
-  grid-gap: 60px;
-  grid-template-areas: "image" "body";
-  grid-template-columns: 1fr;
-}
-
-.mambo-card.horizontal figure {
-  border: solid 1px var(--dcdw-2022-cream-primary);
-  grid-area: image;
-  max-width: 316px;
-}
-
-.mambo-card.horizontal figure img {
-  aspect-ratio: 1/1;
-  height: 316px;
-  max-width: 316px;
-  object-fit: cover;
-}
-
-.mambo-card.horizontal .details {
-  grid-area: body;
-}
-
-.mambo-card.horizontal .meta {
-  display: flex;
-  font-weight: 900;
-  grid-gap: var(--size-8);
-}
-
-@media screen and (min-width: 1024px) {
-  .mambo-card.horizontal {
-    align-items: center;
-    grid-template-areas: "image body" ". body";
-    grid-template-columns: 316px 1fr;
-  }
-}
 .mambo-divider {
   display: inline-block;
   margin-bottom: 8px;

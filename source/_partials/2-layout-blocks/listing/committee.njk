@@ -13,11 +13,18 @@
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for team in committee.teams %}
           <li class="[ mambo-card committee ]">
-            <div class="[ details ]">
+            <div class="[ media ]">
+              <figure class="[ image ]">
+                <img alt="{{ team.imageALT }}" loading=lazy src="{{ team.image }}">
+              </figure>
+            </div>
+            <div class="[ details ][ flow ]">
               <a href="{{ team.url }}">
-                <h3>{{ team.title | safe }}</h3>
+                <h3 class="[ title ]">{{ team.title }}</h3>
               </a>
-              <p>{{ team.members | md | safe }}</p>
+              <div class="[ wysiwyg ]">
+                {{ team.body }}
+              </div>
             </div>
           </li>
         {% endfor %}
@@ -37,14 +44,18 @@
       <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
         {% for team in committee.teams %}
           <li class="[ mambo-card committee ]">
-            <figure class="[ image ]">
-              <img alt="{{ team.imageAlt }}" loading=lazy src="{{ team.image }}">
-            </figure>
+            <div class="[ media ]">
+              <figure class="[ image ]">
+                <img alt="{{ team.imageALT }}" loading=lazy src="{{ team.image }}">
+              </figure>
+            </div>
             <div class="[ details ][ flow ]">
               <a href="{{ team.url }}">
-                <h3>{{ team.title | safe }}</h3>
+                <h3 class="[ title ]">{{ team.title }}</h3>
               </a>
-              <p>{{ team.body | md | safe }}</p>
+              <div class="[ wysiwyg ]">
+                {{ team.body }}
+              </div>
             </div>
           </li>
         {% endfor %}

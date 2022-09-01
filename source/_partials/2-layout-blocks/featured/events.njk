@@ -15,20 +15,25 @@
                 <div class="[ statuses ]">
                   {% for status in event.data.status %}
                     {% if status.statusType == "Featured on Home" %}
-                      <p class="[ status ]">{{status.statusLabel}}</p>
+                      <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
                     {% elseif status.statusType == "Featured on Events" %}
-                      <p class="[ status ]">{{status.statusLabel}}</p>
+                      <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
+                    {% elseif status.statusType == "Sold Out" %}
+                      <p class="[ status sold-out ]">{{status.statusLabel}}</p>
                     {% endif %}
                   {% endfor %}
                 </div>
               </div>
-              <a href="{{ event.url }}">
-                <h3 class="[ title ]">{{event.data.title}}</h3>
-              </a>
+              <div class="[ details ]">
+                <a href="{{ event.url }}">
+                  <h3 class="[ title ]">{{event.data.title}}</h3>
+                </a>
+              </div>
               <div class="[ meta ]">
                 <div class="[ day-date ]">
                   <p class="[ day ]">Day</p>
                   <datetime class="[ date ]">Date</datetime>
+                  <span>{% include "static/images/blob-date.svg" %}</span>
                 </div>
                 <div class="[ time-location ]">
                   <datetime class="[ time ]">Time</datetime>

@@ -16,9 +16,11 @@
         {% endfor %}
       </div>
     </div>
-    <a href="{{ event.url }}">
-      <h3 class="[ title ]">{{event.data.title}}</h3>
-    </a>
+    <div class="[ details ]">
+      <a href="{{ event.url }}">
+        <h3 class="[ title ]">{{event.data.title}}</h3>
+      </a>
+    </div>
     <div class="[ meta ]">
       <div class="[ day-date ]">
         <p class="[ day ]">Day</p>
