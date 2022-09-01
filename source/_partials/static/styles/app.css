@@ -58,23 +58,17 @@
   --size-18: 1.125rem;
   --size-20: 1.25rem;
   --size-24: 1.5rem;
+  --size-28: 1.75rem;
   --size-32: 2rem;
   --size-40: 2.5rem;
-  --size-48: 3rem;
+  --size-44: 2.75rem;
   --size-56: 3.5rem;
   --size-64: 4rem;
-  --size-72: 4.5rem;
-  --size-80: 5rem;
   --size-88: 5.5rem;
   --size-96: 6rem;
   --size-104: 6.5rem;
   --size-112: 7rem;
   --size-120: 7.5rem;
-  --size-128: 8rem;
-  --size-136: 8.5rem;
-  --size-144: 9rem;
-  --size-152: 9.5rem;
-  --size-160: 10rem;
   --timing-default: 100ms;
   --weight-100: 100;
   --weight-200: 200;
@@ -118,23 +112,17 @@
   --size-18: 1.125rem;
   --size-20: 1.25rem;
   --size-24: 1.5rem;
+  --size-28: 1.75rem;
   --size-32: 2rem;
   --size-40: 2.5rem;
-  --size-48: 3rem;
+  --size-44: 2.75rem;
   --size-56: 3.5rem;
   --size-64: 4rem;
-  --size-72: 4.5rem;
-  --size-80: 5rem;
   --size-88: 5.5rem;
   --size-96: 6rem;
   --size-104: 6.5rem;
   --size-112: 7rem;
   --size-120: 7.5rem;
-  --size-128: 8rem;
-  --size-136: 8.5rem;
-  --size-144: 9rem;
-  --size-152: 9.5rem;
-  --size-160: 10rem;
   --timing-default: 100ms;
   --weight-100: 100;
   --weight-200: 200;
@@ -237,9 +225,9 @@ html {
 }
 
 body {
-  font-family: var(--dcdw-2022-brand-source-sans-pro);
+  font-family: var(--dcdw-2022-brand-dm-sans);
   font-size: var(--size-16);
-  line-height: 1.6;
+  line-height: 1.8;
   overflow-x: hidden;
 }
 
@@ -576,6 +564,7 @@ h3 {
 }
 .meta {
   font-size: var(--size-18);
+  font-weight: 400;
 }
 
 /* Component: mambo-accordion */
