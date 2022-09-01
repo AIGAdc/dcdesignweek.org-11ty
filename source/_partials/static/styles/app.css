@@ -892,9 +892,29 @@ input:checked + .slider:before {
 
 .mambo-hero {
   display: grid;
-  min-height: 700px;
+  min-height: 40vh;
 }
 
+.mambo-hero h1 {
+  font-size: var(--size-28);
+}
+
+@media screen and (min-width: 48rem) {
+  .mambo-hero {
+    padding: var(--size-56);
+  }
+  .mambo-hero h1 {
+    font-size: var(--size-32);
+  }
+}
+@media screen and (min-width: 64rem) {
+  .mambo-hero {
+    padding: var(--size-120);
+  }
+  .mambo-hero h1 {
+    font-size: var(--size-56);
+  }
+}
 @media screen and (min-width: 85.375rem) {
   .mambo-hero .wysiwyg p {
     font-size: var(--size-24);
@@ -1114,7 +1134,7 @@ input:checked + .slider:before {
 }
 
 .mambo-section {
-  padding: var(--size-20);
+  padding: var(--size-28);
 }
 
 @media screen and (min-width: 40rem) {
