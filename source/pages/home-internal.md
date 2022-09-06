@@ -36,7 +36,7 @@ sectionOne:
     professionals, makers, and voices working across design disciplines. 
 
 
-    **This year’s theme is: Community Recovery & Wellbeing.** You’ll see community-based healing andwellness woven into this year’s events and branding. While the DC Design Week committee plans some of your favorite annual events (including keynotes, parties, and more), we’re excited to use our community-curated event model again. For the second year in a row, most DCDW events will be **proposed and hosted by you, our community!**
+    **This year’s theme is: Community Recovery & Wellbeing.** You’ll see community-based healing and wellness woven into this year’s events and branding. While the DC Design Week committee plans some of your favorite annual events (including keynotes, parties, and more), we’re excited to use our community-curated event model again. For the second year in a row, most DCDW events will be **proposed and hosted by you, our community!**
   sectionOneHeader: What is DC Design Week?
   questions:
     - question: What is DC Design Week’s stance on including in-person events?
