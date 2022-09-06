@@ -1,16 +1,19 @@
 ---
 title: Home
-description: DC Design Week is an annual celebration of DC’s vibrant, diverse
-  creative community.
+description: DC Design Week is an annual celebration of DC’s vibrant, diverse creative community.
+pageSettings:
+  colorCombo: cream-on-maroon-primary
+layout: home-internal
+permalink: /
 hero:
-  heroColorCombo:
   heroHeader: "DC Design Week 2022"
   heroBody: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius."
+  heroButtonColorCombo: maroon-primary-on-yellow-primary
   heroButtonLeftLabel: "Pop-Up Shop Application Form"
   heroButtonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
   showHeroButtonLeft: false
 sectionMakers:
-  sectionMakersColorCombo: white-on-zodiac
+  sectionColorCombo:
   sectionMakersBody: >-
     There are 2 options for participating this year:
   sectionMakersHeader: Options for Participating in the Pop-Up
@@ -26,7 +29,7 @@ sectionMakers:
       trigger: question-2
       expanded: false
 sectionOne:
-  sectionOneColorCombo: zodiac-on-white
+  sectionColorCombo: zodiac-on-white
   sectionOneBody: >-
     If you don’t already know us, **DC Design Week (DCDW) is an annual
     celebration** of DC’s creative community: An ever-growing body of
@@ -72,7 +75,7 @@ sectionOne:
       trigger: question-2
       expanded: false
 sectionThree:
-  sectionThreeColorCombo: white-on-zodiac
+  sectionColorCombo: white-on-zodiac
   sectionThreeHeader: How does the community-curated event proposal process work?
   sectionThreeBody: >-
     In our community-curated events model, we invite you, the community, to
@@ -119,7 +122,7 @@ sectionThree:
           * Commitment to your event idea. We know that ideas and plans change, but DCDW selects events with our full week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to stay consistent.
       trigger: question-3
 sectionFour:
-  sectionFourColorCombo: white-on-zodiac
+  sectionColorCombo: white-on-zodiac
   sectionFourHeader: How else can I get involved with DC Design Week 2022?
   sectionFourBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the
     same without the support of our community. We are always looking for
@@ -143,6 +146,4 @@ sectionFour:
       imageAlt: 🛑 Provide Alt Text
       body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.
-layout: home-internal
-permalink: /
 ---

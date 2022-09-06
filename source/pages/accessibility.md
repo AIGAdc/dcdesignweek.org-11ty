@@ -9,7 +9,7 @@ hero:
   heroButtonLeftURL:
   showHeroButtonLeft: false
 sectionOne:
-  sectionOneColorCombo: white-on-zodiac
+  sectionColorCombo: white-on-zodiac
   sectionOneHeader: What are we aiming to?
   sectionOneBody: >-
     This accessibility statement aims to:
@@ -49,7 +49,7 @@ sectionTwo:
 
     Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
 sectionThree:
-  sectionThreeColorCombo: white-on-zodiac
+  sectionColorCombo: white-on-zodiac
   sectionThreeHeader: What can you expect?
   sectionThreeBody: >-
     We're providing the following accessibility features for our events:
@@ -67,7 +67,7 @@ sectionThree:
 
     * When possible — shared materials and presentations for an event prior to it starting. Follow along comfortably with your own technology and at your own pace.
 sectionFour:
-  sectionFourColorCombo: zodiac-on-white
+  sectionColorCombo: zodiac-on-white
   sectionFourHeader: What are we missing?
   sectionFourBody: >-
     We’re still at the beginning of our accessibility journey and want to be
