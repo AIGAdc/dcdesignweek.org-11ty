@@ -1,14 +1,14 @@
 .mambo-hero {
   display: grid;
   place-content: center;
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
   overflow: hidden;
 }
 
 .mambo-hero .container {
   background-color: var(--dcdw-2022-cream-primary);
-  padding: 8rem;
+  padding: 4rem;
   position: relative;
   z-index: 1000;
   border-radius: 41% 59% 47% 53% / 63% 31% 69% 37%;
