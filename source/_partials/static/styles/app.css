@@ -220,13 +220,18 @@ select {
     scroll-behavior: auto !important;
   }
 }
+* {
+  outline: dashed 1px red;
+  outline-offset: -1px;
+}
+
 html {
   overflow-x: hidden;
 }
 
 body {
   font-family: var(--dcdw-2022-brand-dm-sans);
-  font-size: var(--size-16);
+  font-size: var(--size-18);
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -234,7 +239,7 @@ body {
 
 @media screen and (min-width: 64rem) {
   body {
-    font-size: var(--size-18);
+    font-size: var(--size-20);
   }
 }
 a {
@@ -958,17 +963,17 @@ svg {
   max-width: 1650px;
 }
 
-img:not([alt]) {
-  filter: contrast(175%);
-  outline: dashed 8px red;
-}
-
 .disabled {
-  cursor: not-allowed !important;
+  cursor: not-allowed;
 }
 
 .enabled {
-  cursor: pointer !important;
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }
 
 /* 
@@ -1062,6 +1067,41 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   z-index: var(--layer-1);
 }
 
+h1,
+.heading-1 {
+  font-size: var(--size-32);
+}
+
+h2,
+.heading-2 {
+  font-size: var(--size-24);
+}
+
+h3,
+.heading-3 {
+  font-size: var(--size-18);
+}
+
+@media screen and (min-width: 48rem) {
+  h1,
+.heading-1 {
+    font-size: var(--size-48);
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  h1,
+.heading-1 {
+    font-size: var(--size-88);
+  }
+  h2,
+.heading-2 {
+    font-size: var(--size-32);
+  }
+  h3,
+.heading-3 {
+    font-size: var(--size-20);
+  }
+}
 /* Component: mambo-accordion */
 .mambo-accordions {
   --gap: var(--size-16);

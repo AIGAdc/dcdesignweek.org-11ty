@@ -18,15 +18,15 @@
   max-width: 1650px;
 }
 
-img:not([alt]) {
-  filter: contrast(175%);
-  outline: dashed 8px red;
-}
-
 .disabled {
-  cursor: not-allowed !important;
+  cursor: not-allowed;
 }
 
 .enabled {
-  cursor: pointer !important;
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }
