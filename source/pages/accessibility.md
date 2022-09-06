@@ -3,6 +3,12 @@ title: Accessibility
 description: DC Design Week is committed to improving accessibility and
   inclusion efforts each year. We recognize this is a journey and we are still
   far from our ideal.
+pageSettings:
+  defaultColorCombo: cream-on-maroon-primary
+  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
+  showFullLogo: true
+  showSmallLogo: false
+  showYearLogo: false
 hero:
   heroColorCombo:
   heroButtonLeftLabel:

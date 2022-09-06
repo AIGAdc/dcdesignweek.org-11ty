@@ -3,11 +3,19 @@
   Skip to Content
 </a>
 <!-- Component: Header -->
-<header class="[ mambo-header ]" data-color="{{ pageSettings.colorCombo }}">
+<header class="[ mambo-header ]" data-color="{{ pageSettings.defaultColorCombo }}">
   <div class="[ container container-default ]">
     <div>
       <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
-        {% include 'static/images/dcdw-logo.njk' %}
+        {% if pageSettings.showFullLogo == true %}
+          {% include 'static/images/logo-full.njk' %}
+        {% endif %}
+        {% if pageSettings.showSmallLogo == true %}
+          {% include 'static/images/logo-small.njk' %}
+        {% endif %}
+        {% if pageSettings.showYearLogo == true %}
+          {% include 'static/images/logo-year.njk' %}
+        {% endif %}
       </a>
     </div>
     <ul class="[ list ]">
@@ -32,7 +40,7 @@
         </a>
       </li>
       <li>
-        <button class="[ mambo-anchor action ]" data-color="{{ hero.heroButtonColorCombo }}" data-houdini data-houdini-button="Menu" data-houdini-label id="show-me">
+        <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.defaultMenuButtonColorCombo }}" data-houdini data-houdini-button="Menu" data-houdini-label id="show-me">
           <ul>
             <li>
               <a class="[ mambo-anchor ]" href="/faqs/">
