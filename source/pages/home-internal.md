@@ -2,7 +2,7 @@
 title: Home
 description: DC Design Week is an annual celebration of DC’s vibrant, diverse creative community.
 pageSettings:
-  defaultColorCombo: cream-on-maroon-primary
+  defaultColorCombo: maroon-primary-on-cream
   defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
   showFullLogo: true
   showSmallLogo: false
@@ -10,12 +10,17 @@ pageSettings:
 layout: home-internal
 permalink: /
 hero:
-  heroHeader: "DC Design Week 2022"
-  heroBody: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius."
-  heroButtonColorCombo: maroon-primary-on-yellow-primary
-  heroButtonLeftLabel: "Pop-Up Shop Application Form"
-  heroButtonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
-  showHeroButtonLeft: false
+  colorCombo: maroon-primary-on-cream
+  header: "Designing in Resilence Together"
+  body: "The DC, Maryland, and Virginia area has a proud design community, and this year we’ll be emphasizing the word “community” more than ever. You’ll see events rooted in connection, recovery, and curiosity—with an eye toward what’s worked in the past and how we might support our larger ecosystem as we move forward."
+  showButtonLeft: false
+  buttonLeftColorCombo: maroon-primary-on-yellow-primary
+  buttonLeftLabel:
+  buttonLeftURL:
+  showButtonRight: false
+  buttonRightColorCombo: maroon-primary-on-yellow-primary
+  buttonRightLabel:
+  buttonRightURL:
 sectionMakers:
   sectionColorCombo:
   sectionMakersBody: >-

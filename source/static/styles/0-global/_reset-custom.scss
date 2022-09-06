@@ -1,10 +1,11 @@
-* {
-  outline: dashed 1px red;
-  outline-offset: -1px;
-}
+// * {
+//   outline: dashed 1px red;
+//   outline-offset: -1px;
+// }
 
 html {
   overflow-x: hidden;
+  color: currentColor;
 }
 
 body {

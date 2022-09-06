@@ -1,5 +1,6 @@
 h1,
 .heading-1 {
+  font-family: var(--dcdw-2022-brand-recursive);
   font-size: var(--size-32);
 }
 
@@ -32,13 +33,19 @@ h6,
   }
 }
 
-@media screen and (min-width: 64rem) {}
-
-@media screen and (min-width: 85.375rem) {
+@media screen and (min-width: 64rem) {
 
   h1,
   .heading-1 {
     font-size: var(--size-88);
+  }
+
+  .layout-home-internal h1 {
+    font-size: var(--size-96);
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+    max-width: 16ch;
   }
 
   h2,
@@ -51,3 +58,5 @@ h6,
     font-size: var(--size-20);
   }
 }
+
+@media screen and (min-width: 85.375rem) {}

@@ -43,6 +43,7 @@ faqs:
     imageALT: 🛑 Provide Alt Text
     linkURL: /faqs/
     linkLabel: View FAQs
+    colorCombo: maroon-primary-on-cream
 
 joinDCDW:
   - header: Lorem Ipsum (Join DCDW)
@@ -71,6 +72,7 @@ sponsors:
 subscribe:
   - header: Lorem Ipsum (Subscribe)
     body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
+    colorCombo: cream-on-maroon-primary
 
 theme:
   - header: Lorem Ipsum (Theme)

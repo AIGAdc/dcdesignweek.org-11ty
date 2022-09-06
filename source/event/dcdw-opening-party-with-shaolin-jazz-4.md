@@ -11,6 +11,24 @@ description: Kicking off the start of DC Design Week 2021, we’re joining force
   will be music and there will be dancing, you won’t want to miss it!  Due to
   capacity limitations, a ticket is required to attend the party even though it
   is a free event.
+pageSettings:
+  defaultColorCombo: maroon-primary-on-pink-tertiary
+  defaultMenuButtonColorCombo: cream-on-maroon-primary
+  showFullLogo: true
+  showSmallLogo: false
+  showYearLogo: false
+hero:
+  colorCombo: maroon-primary-on-pink-tertiary
+  header: "DC Design Week 2022"
+  body: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius."
+  showButtonLeft: true
+  buttonLeftColorCombo: cream-on-maroon-primary
+  buttonLeftLabel: "Pop-Up Shop Application Form"
+  buttonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
+  showButtonRight: true
+  buttonRightColorCombo: cream-on-maroon-primary
+  buttonRightLabel: "Pop-Up Shop Application Form"
+  buttonRightURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
 startDate: 2022-04-25T21:18:58.405Z
 endDate: 2022-04-25T21:18:58.415Z
 image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
