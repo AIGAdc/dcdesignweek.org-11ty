@@ -3,31 +3,36 @@
     <h2>Speakers</h2>
     <ul class="[ speakers ][ grid-flow grid-flow grid-two-columns ]">
       {% for content in speaker %}
-        <li class="[ card card-speaker ] [ grid-flow ]">
+        <li class="[ mambo-card horizontal ]">
           <figure class="[ image ]">
-            <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+            <img alt="{{ content.imageAlt }}" loading=lazy src="{{ content.image }}">
           </figure>
-          <div class="[ info ]">
-            <h3 class="flex-flow flex-flow-row flex-flow-center">
-              {{ content.name }}
-              <small>
-                {{ content.pronunciation }}
-              </small>
-            </h3>
-            <p>
-              {{ content.pronouns }}
-            </p>
-          </div>
-          <div class="[ details ]">
-            <p>
-              {{ content.title }}
-            </p>
-          </div>
-          <div class="[ websites ] [ wysiwyg ] [ flex-flow flex-flow-row ]">
-            {{ content.websites | md | safe }}
-          </div>
+          <div class="[ details ][ flow ]">
+            <div class="[ meta ]">
+              <h3 class="name">{{ content.name | safe }}</h3>
+              {% if content.pronunciation %}
+                <p class="pronunciation">{{ content.pronunciation | safe }}</p>
+              {% endif %}
+            </div>
+            {% if content.pronouns %}
+              <p class="pronouns">{{ content.pronouns | safe }}</p>
+            {% endif %}
+            {% if content.position %}
+              <p class="position">{{ content.position | safe }}</p>
+            {% endif %}
+            {% if content.bio %}
+              <p class="bio">{{ content.bio | safe }}</p>
+            {% endif %}
+            <div>
+              {% if content.linkLabel1 %}
+                <a aria-label="{{ content.linkARIALabel1 }}" href="{{ content.linkURL1 }}">{{ content.linkLabel1 }}</a>
+              {% endif %}
+              {% if content.linklabel2 %}
+                <a aria-label="{{ content.linkARIALabel2 }}" href="{{ content.linkURL2 }}">{{ content.linkLabel2 }}</a>
+              {% endif %}
+            </div>
+          </li>
         {% endfor %}
-      </li>
-    </ul>
-  </div>
-</section>
+      </ul>
+    </div>
+  </section>
