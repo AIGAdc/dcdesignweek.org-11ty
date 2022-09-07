@@ -30,7 +30,8 @@ filterEvents:
     - label: Party
     - label: Talk/Panel
     - label: Workshop
-  sold-out:
-    - label: Sold Out
   status:
-    - label: Show Featured
+    - label: Hide Past Events
+      value: .mix:not(.past-event)
+    - label: Hide Sold Out
+      value: .mix:not(.sold-out)

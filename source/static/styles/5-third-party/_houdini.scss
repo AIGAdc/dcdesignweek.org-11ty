@@ -32,18 +32,20 @@
  * Remove button appearance from heading buttons
  */
 .houdini-heading .houdini-toggle {
-  background: inherit;
+  background-color: inherit;
+  color: currentColor;
   border: none;
-  display: block;
-  font: inherit;
-  padding: 0;
+  display: flex;
+  font-family: var(--dcdw-2022-brand-recursive);
+  padding: 1rem;
   text-align: inherit;
   width: 100%;
 }
 
-/**
- * Style icon
- */
-.houdini-toggle-icon {
-  padding: 0 0.5em;
+button.mambo-anchor.action {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
 }

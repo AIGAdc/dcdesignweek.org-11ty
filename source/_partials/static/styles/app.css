@@ -332,20 +332,22 @@ svg {
  * Remove button appearance from heading buttons
  */
 .houdini-heading .houdini-toggle {
-  background: inherit;
+  background-color: inherit;
+  color: currentColor;
   border: none;
-  display: block;
-  font: inherit;
-  padding: 0;
+  display: flex;
+  font-family: var(--dcdw-2022-brand-recursive);
+  padding: 1rem;
   text-align: inherit;
   width: 100%;
 }
 
-/**
- * Style icon
- */
-.houdini-toggle-icon {
-  padding: 0 0.5em;
+button.mambo-anchor.action {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
 }
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
@@ -523,14 +525,6 @@ svg {
 
 .control:last-of-type {
   border-radius: 0 3px 3px 0;
-}
-
-.radio-group {
-  display: inline-block;
-  padding: 0.5rem;
-  background: #2a2a2a;
-  margin-right: 0.75rem;
-  vertical-align: top;
 }
 
 .radio {
@@ -1160,6 +1154,20 @@ h3,
     padding: var(--size-40) var(--size-80);
   }
 }
+.mambo-accordion-group > *:not(:first-child) {
+  margin-top: var(--size-8);
+}
+
+.mambo-expander .mambo-accordion__header {
+  display: block;
+  font-size: var(--size-18);
+  width: 100%;
+}
+
+.mambo-expander .answer {
+  padding: var(--size-20);
+}
+
 .mambo-anchor {
   border: solid 2px transparent;
   display: inline-block;
