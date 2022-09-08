@@ -1,5 +1,5 @@
 {% for content in featured.events %}
-  <section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
     <div class="[ container container-default ][ flow ][ ]">
       <div class="[ flow ]">
         <h2>{{ content.header | md | safe }}</h2>
