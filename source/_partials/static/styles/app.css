@@ -1292,6 +1292,7 @@ h3,
 }
 
 .mambo-divider {
+  background-color: currentColor;
   display: inline-block;
   margin-bottom: 8px;
   position: relative;
@@ -1299,7 +1300,7 @@ h3,
 
 .mambo-divider .top,
 .mambo-divider .bottom {
-  border: solid 4px currentColor;
+  border: none;
   height: 4px;
   width: 32px;
 }
