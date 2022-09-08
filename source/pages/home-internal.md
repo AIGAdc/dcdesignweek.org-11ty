@@ -4,7 +4,7 @@ description: DC Design Week is an annual celebration of DC’s vibrant, diverse 
 layout: home-internal
 permalink: /
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
+  headerColorCombo: cream-on-maroon-primary
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo: maroon-primary-on-cream
