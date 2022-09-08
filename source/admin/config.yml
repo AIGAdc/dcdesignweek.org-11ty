@@ -144,36 +144,41 @@ collections:
                         widget: select
                         options:
                           [
-                            "color-black",
-                            "color-white",
-                            "color-cream",
-                            "color-teal",
-                            "color-valencia",
-                            "color-zodiac",
+                            "background-color-black",
+                            "background-color-white",
+                            "background-color-cream",
+                            "background-color-teal",
+                            "background-color-valencia",
+                            "background-color-zodiac",
                           ]
           - label: "Sections"
             name: "sections"
-            widget: "object"
+            widget: "list"
             summary: "{{fields.name}}"
             fields:
-              - label: "Section One Color Combo"
-                name: "sectionOneColorCombo"
-                widget: "select"
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Header"
-                name: "header"
-                widget: "string"
-              - label: "Body"
-                name: "body"
-                widget: "markdown"
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "background-color-black",
+                        "background-color-white",
+                        "background-color-cream",
+                        "background-color-teal",
+                        "background-color-valencia",
+                        "background-color-zodiac",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
       - label: "About"
         name: "about"
         file: "source/pages/about.md"
