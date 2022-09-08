@@ -1,42 +1,15 @@
 ---
-title: Home
-description: DC Design Week is an annual celebration of DC’s vibrant, diverse creative community.
 pageSettings:
-  defaultColorCombo: maroon-primary-on-cream
-  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
-  showFullLogo: true
-  showSmallLogo: false
   showYearLogo: false
-layout: home-internal
-permalink: /
-hero:
-  colorCombo: maroon-primary-on-cream
-  header: "Designing in Resilence Together"
-  body: "The DC, Maryland, and Virginia area has a proud design community, and this year we’ll be emphasizing the word “community” more than ever. You’ll see events rooted in connection, recovery, and curiosity—with an eye toward what’s worked in the past and how we might support our larger ecosystem as we move forward."
-  showButtonLeft: false
-  buttonLeftColorCombo: maroon-primary-on-yellow-primary
-  buttonLeftLabel:
-  buttonLeftURL:
-  showButtonRight: false
-  buttonRightColorCombo: maroon-primary-on-yellow-primary
-  buttonRightLabel:
-  buttonRightURL:
-sectionMakers:
-  sectionColorCombo:
-  sectionMakersBody: >-
-    There are 2 options for participating this year:
-  sectionMakersHeader: Options for Participating in the Pop-Up
-  questions:
-    - question: Consignment with Terratorie Maps + Goods
-      answer: >-
-        If you have a small amount of merchandise to sell and would prefer someone else handle the transactions, this is the right fit for you. Items will be sold on consignment and anything unsold will be returned to the artist. Makers keep 60% of sales price. Items on consignment will be allowed a max of 3 SKUs, with 6 items per SKU. Exceptions can be made if the items sold are small in size (i.e. stickers, magnets, buttons, etc).
-      expanded: false
-      trigger: question-1
-    - question:  Hosted by a Brookland Arts Walk Studio
-      answer: >-
-        If you're interested in displaying more of your work AND can handle your own transactions (e.g. have your own Square, etc.), look no further. We'll be pairing makers up with the different studios on the Arts Walk for the Block Party. There will be both indoor spaces in the studios and outdoor spaces with tables to sell your work.
-      trigger: question-2
-      expanded: false
+  layout: home-internal
+  permalink: /
+  defaultColorCombo: maroon-primary-on-cream
+  showSmallLogo: false
+  showFullLogo: true
+  title: Home
+  description: DC Design Week is an annual celebration of DC’s vibrant, diverse
+    creative community.
+  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
 sectionOne:
   sectionColorCombo: zodiac-on-white
   sectionOneBody: >-
@@ -83,6 +56,80 @@ sectionOne:
         In an effort to seek equity, speakers for an event can request to keep a portion of the event’s profits. Our volunteer team calculates respective event profits after DCDW takes place. Keep in mind that this is a nominal amount and not a true reflection of the speaker’s value or worth. We can give estimates upon request.
       trigger: question-2
       expanded: false
+  sectionOneColorCombo: black-on-cream
+sectionFour:
+  sectionColorCombo: white-on-zodiac
+  sectionFourHeader: How else can I get involved with DC Design Week 2022?
+  sectionFourBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the
+    same without the support of our community. We are always looking for
+    sponsors who can help ensure this week is as accessible and inclusive as
+    possible, as well as  volunteers who can provide support during DC Design
+    Week.
+  cards:
+    - title: Volunteer
+      label: Sign up to join our volunteer list
+      url: https://docs.google.com/forms/d/1CCUi7i5Lr094peCd2n8qUUDNioAohJYnaCwxwMX-CxU/edit
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+      imageAlt: 🛑 Provide Alt Text
+      body: We'll need help with tasks like Zoom support or set-up and clean-up during
+        the week of October 14-21 at both in-person and virtual events.
+    - Body: Whether you’re able to offer in-kind services or financial support, we
+        welcome sponsorship partners who can help make DCDW even better.
+      title: Sponsorship
+      label: "Contact DCDW about sponsorship "
+      url: mailto:designweek@dc.aiga.org
+      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+      imageAlt: 🛑 Provide Alt Text
+      body: Whether you’re able to offer in-kind services or financial support, we
+        welcome sponsorship partners who can help make DCDW even better.
+  sectionFourColorCombo: black-on-cream
+sectionMakers:
+  sectionColorCombo: null
+  sectionMakersBody: "There are 2 options for participating this year:"
+  sectionMakersHeader: Options for Participating in the Pop-Up
+  questions:
+    - question: Consignment with Terratorie Maps + Goods
+      answer: If you have a small amount of merchandise to sell and would prefer
+        someone else handle the transactions, this is the right fit for you.
+        Items will be sold on consignment and anything unsold will be returned
+        to the artist. Makers keep 60% of sales price. Items on consignment will
+        be allowed a max of 3 SKUs, with 6 items per SKU. Exceptions can be made
+        if the items sold are small in size (i.e. stickers, magnets, buttons,
+        etc).
+      expanded: false
+      trigger: question-1
+    - question: Hosted by a Brookland Arts Walk Studio
+      answer: If you're interested in displaying more of your work AND can handle your
+        own transactions (e.g. have your own Square, etc.), look no further.
+        We'll be pairing makers up with the different studios on the Arts Walk
+        for the Block Party. There will be both indoor spaces in the studios and
+        outdoor spaces with tables to sell your work.
+      trigger: question-2
+      expanded: false
+title: Home
+hero:
+  body: The DC, Maryland, and Virginia area has a proud design community, and this
+    year we’ll be emphasizing the word “community” more than ever. You’ll see
+    events rooted in connection, recovery, and curiosity—with an eye toward
+    what’s worked in the past and how we might support our larger ecosystem as
+    we move forward.
+  buttonLeftColorCombo: maroon-primary-on-yellow-primary
+  buttonRightURL: null
+  heroColorCombo: white-on-zodiac
+  heroHeader: Designing in Resiliance Together
+  buttonRightLabel: null
+  colorCombo: maroon-primary-on-cream
+  header: Designing in Resilence Together
+  showButtonRight: false
+  buttonRightColorCombo: maroon-primary-on-yellow-primary
+  buttonLeftURL: null
+  showButtonLeft: false
+  buttonLeftLabel: null
+  heroBody: The DC, Maryland, and Virginia area has a proud design community, and
+    this year we’ll be emphasizing the word “community” more than ever. You’ll
+    see events rooted in connection, recovery, and curiosity—with an eye toward
+    what’s worked in the past and how we might support our larger ecosystem as
+    we move forward.
 sectionThree:
   sectionColorCombo: white-on-zodiac
   sectionThreeHeader: How does the community-curated event proposal process work?
@@ -130,29 +177,7 @@ sectionThree:
           * Commitment to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/#:~:text=AIGA%20DC%20is%20dedicated%20to,%2C%20religion%2C%20or%20political%20affiliation.).
           * Commitment to your event idea. We know that ideas and plans change, but DCDW selects events with our full week of programming in mind. We hope you understand that in order to ensure we’re offering a diverse range of events to our community, we will expect the event’s overall approach and scope to stay consistent.
       trigger: question-3
-sectionFour:
-  sectionColorCombo: white-on-zodiac
-  sectionFourHeader: How else can I get involved with DC Design Week 2022?
-  sectionFourBody: DC Design Week is 100% volunteer-run, and it wouldn’t be the
-    same without the support of our community. We are always looking for
-    sponsors who can help ensure this week is as accessible and inclusive as
-    possible, as well as  volunteers who can provide support during DC Design
-    Week.
-  cards:
-    - title: Volunteer
-      label: Sign up to join our volunteer list
-      url: https://docs.google.com/forms/d/1CCUi7i5Lr094peCd2n8qUUDNioAohJYnaCwxwMX-CxU/edit
-      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-      imageAlt: 🛑 Provide Alt Text
-      body: We'll need help with tasks like Zoom support or set-up and clean-up
-        during the week of October 14-21 at both in-person and virtual events.
-    - Body: Whether you’re able to offer in-kind services or financial support, we
-        welcome sponsorship partners who can help make DCDW even better.
-      title: Sponsorship
-      label: "Contact DCDW about sponsorship "
-      url: mailto:designweek@dc.aiga.org
-      image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-      imageAlt: 🛑 Provide Alt Text
-      body: Whether you’re able to offer in-kind services or financial support, we
-        welcome sponsorship partners who can help make DCDW even better.
+  sectionThreeColorCombo: black-on-cream
+description: DC Design Week is an annual celebration of DC’s vibrant, diverse
+  creative community.
 ---

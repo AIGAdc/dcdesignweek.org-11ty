@@ -6,7 +6,7 @@ backend:
   repo: AIGAdc/dcdesignweek.org-11ty
 
 # Enable/Disable Editorial Workflow
-#publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # Enable/Disable Local Backend. Use the command "npx netlify-cms-proxy-server" to use Netlify CMS locally
 local_backend: true
@@ -25,6 +25,155 @@ collections:
       preview: false
     # Define the pages that should be visible inside the CMS.
     files:
+      - label: "Home"
+        name: "home"
+        file: "source/pages/home-internal.md"
+        fields:
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Title"
+                hint: 📝 Sets the title of the page.
+                name: "title"
+                required: false
+                widget: "string"
+              - label: "Description"
+                hint: 📝 Sets the description of the page.
+                name: "description"
+                required: false
+                widget: "markdown"
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
+              - label: "Layout"
+                hint: 🛑 Do not change. Sets the layout of the page.
+                name: "layout"
+                required: false
+                widget: "string"
+              - label: "Permalink"
+                hint: 🛑 Do not change. Sets the permalink of the page.
+                name: "permalink"
+                required: false
+                widget: "string"
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "heroColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "color-black",
+                            "color-white",
+                            "color-cream",
+                            "color-teal",
+                            "color-valencia",
+                            "color-zodiac",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section One Color Combo"
+                name: "sectionOneColorCombo"
+                widget: "select"
+                options:
+                  [
+                    "background-color-black",
+                    "background-color-white",
+                    "background-color-cream",
+                    "background-color-teal",
+                    "background-color-valencia",
+                    "background-color-zodiac",
+                  ]
+              - label: "Header"
+                name: "header"
+                widget: "string"
+              - label: "Body"
+                name: "body"
+                widget: "markdown"
       - label: "About"
         name: "about"
         file: "source/pages/about.md"
@@ -208,308 +357,188 @@ collections:
                 }
           - { label: "Layout", name: "layout", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Home"
-        name: "home"
-        file: "source/pages/home-internal.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - label: "Hero"
-            name: "hero"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Hero Color Combo",
-                  name: "heroColorCombo",
-                  widget: "select",
-                  options:
-                    ["zodiac-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - { label: "Hero Header", name: "heroHeader", widget: "string" }
-              - { label: "Hero Body", name: "heroBody", widget: "markdown" }
-              - {
-                  label: "Show Hero Button Left",
-                  name: "showHeroButtonLeft",
-                  widget: boolean,
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Left Label",
-                  name: "heroButtonLeftLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Left URL",
-                  name: "heroButtonLeftURL",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Show Hero Button Right",
-                  name: "showHeroButtonRight",
-                  widget: boolean,
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right Label",
-                  name: "heroButtonRightLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right URL",
-                  name: "heroButtonRightURL",
-                  widget: "string",
-                  required: false,
-                }
-          - label: "Section One"
-            name: "sectionOne"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section One Color Combo",
-                  name: "sectionOneColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section One Header",
-                  name: "sectionOneHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section One Body",
-                  name: "sectionOneBody",
-                  widget: "markdown",
-                }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: "{{fields.question}}"
-                fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - {
-                      label: Expanded,
-                      name: expanded,
-                      widget: boolean,
-                      required: false,
-                    }
-          - label: "Section Three"
-            name: "sectionThree"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Three Color Combo",
-                  name: "sectionThreeColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Three Header",
-                  name: "sectionThreeHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Three Body",
-                  name: "sectionThreeBody",
-                  widget: "markdown",
-                }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: "{{fields.question}}"
-                fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - {
-                      label: Expanded,
-                      name: expanded,
-                      widget: boolean,
-                      required: false,
-                    }
-          - label: "Section Four"
-            name: "sectionFour"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Four Color Combo",
-                  name: "sectionFourColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Four Header",
-                  name: "sectionFourHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Four Body",
-                  name: "sectionFourBody",
-                  widget: "markdown",
-                }
-              - label: "Cards"
-                name: "cards"
-                widget: "list"
-                summary: "{{fields.title}}"
-                fields:
-                  - { label: Image, name: image, widget: image }
-                  - { label: Image Alt, name: imageAlt, widget: string }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Body, name: body, widget: markdown }
-                  - { label: Label, name: label, widget: string }
-                  - { label: URL, name: url, widget: string }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
 
   - label: "Event"
     name: "event"
     folder: "source/event"
+    format: frontmatter
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     # Defaults to "true". Must be set to "false" to turn the preview off completely.
     editor:
       preview: false
     fields:
-      - {
-          label: "Title",
-          hint: "Required. Provide the event title.",
-          name: "title",
-          widget: "string",
-        }
-      - {
-          label: "Description",
-          hint: "Required. Provide an event description.",
-          name: "description",
-          widget: "string",
-        }
-      - {
-          label: "Start Date",
-          hint: "Required. Provide the event start time.",
-          name: "startDate",
-          widget: "datetime",
-        }
-      - {
-          label: "End Date",
-          hint: "Required. Provide the event end time.",
-          name: "endDate",
-          widget: "datetime",
-        }
-      - {
-          label: "Image",
-          hint: "Required. Provide the image that will be used in the event header of event page and event card.",
-          name: "image",
-          widget: "image",
-        }
-      - {
-          label: "Image Alt",
-          hint: "Required. Provide descriptive text of image used above.",
-          name: "imageALT",
-          widget: "string",
-        }
-      - label: Tickets
-        name: tickets
-        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
-        widget: list
+      - label: "Title"
+        hint: "Required. Provide the event title."
+        name: "title"
+        widget: "string"
+        required: false
+      - label: "Description"
+        hint: "Required. Provide an event description."
+        name: "description"
+        widget: "string"
+        required: false
+      - label: Hero
+        name: hero
+        hint: "Fields within the Event Hero"
+        required: false
+        widget: "object"
         fields:
-          - {
-              label: Button Type,
-              name: buttonType,
-              widget: select,
-              options: ["Member", "Non-Member"],
-            }
-          - { label: Button Label, name: linkLabel, widget: string }
-          - { label: Button URL, name: linkURL, widget: string }
-          - label: "Button Background Color"
-            name: "buttonBGColor"
+          - label: "Featured Image"
+            hint: "Provide featured image"
+            name: "featuredImage"
+            required: false
+            widget: "object"
+            fields:
+              - label: "Image"
+                hint: "Provide Featured Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Image Alt Text"
+                hint: "Provide Featured Image"
+                name: "imageALT"
+                widget: "string"
+                required: false
+          - label: Tickets
+            name: tickets
+            widget: list
+            max: 2
+            required: false
+            fields:
+              - label: Ticket
+                name: ticket
+                widget: object
+                required: false
+                fields:
+                  - label: Show Button
+                    name: showButton
+                    hint: ""
+                    widget: boolean
+                    required: false
+                  - label: Label
+                    name: label
+                    hint: ""
+                    widget: string
+                    required: false
+                  - label: URL
+                    name: url
+                    hint: ""
+                    widget: string
+                    required: false
+                  - label: ColorCombo
+                    name: CclorCombo
+                    hint: ""
+                    widget: select
+                    options:
+                      [
+                        "color-black",
+                        "color-white",
+                        "color-cream",
+                        "color-teal",
+                        "color-valencia",
+                        "color-zodiac",
+                      ]
+                    required: false
+      - label: Event Details
+        name: eventDetails
+        widget: object
+        required: false
+        fields:
+          - label: "Start Date"
+            hint: "Required. Provide the event start time."
+            name: "startDate"
+            widget: "datetime"
+            required: false
+          - label: "End Date"
+            hint: "Required. Provide the event end time."
+            name: "endDate"
+            widget: "datetime"
+            required: false
+          - label: Location
+            name: location
+            hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
+            widget: list
+            required: false
+            fields:
+              - label: Location Name
+                name: name
+                widget: string
+                required: false
+              - label: Location Street
+                name: street
+                widget: string
+                required: false
+              - label: Location Address
+                name: address
+                widget: string
+                required: false
+              - label: Location Directions
+                name: directions
+                widget: string
+                required: false
+          - label: Status Type
+            name: statusType
             widget: select
-            options:
-              [
-                "background-color-black",
-                "background-color-white",
-                "background-color-cream",
-                "background-color-teal",
-                "background-color-valencia",
-                "background-color-zodiac",
-              ]
-          - label: "Button Text Color"
-            name: "buttonTextColor"
-            widget: select
-            options:
-              [
-                "color-black",
-                "color-white",
-                "color-cream",
-                "color-teal",
-                "color-valencia",
-                "color-zodiac",
-              ]
-      - label: Location
-        name: location
-        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
-        widget: list
-        fields:
-          - { label: Location Name, name: locationName, widget: string }
-          - { label: Location Street, name: locationStreet, widget: string }
-          - { label: Location Address, name: locationAddress, widget: string }
-          - {
-              label: Location Directions,
-              name: locationDirections,
-              widget: string,
-            }
-      - label: Status
-        name: status
-        widget: list
-        fields:
-          - {
-              label: Status Type,
-              name: statusType,
-              widget: select,
-              options:
-                ["Featured on Home", "Featured on Events", "Has Occurred"],
-            }
-          - { label: Status Label, name: statusLabel, widget: string }
-      - {
-          label: "Details",
-          name: "details",
-          widget: "markdown",
-          required: false,
-        }
+            options: ["Featured on Home", "Featured on Events", "Has Occurred"]
+            required: false
+          - label: Status Label
+            name: statusLabel
+            widget: string
+            required: false
+      - label: "Details"
+        name: "details"
+        widget: "markdown"
+        required: false
       - label: Speaker
         name: speaker
         allow_add: true
         widget: list
+        required: false
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Title, name: title, widget: string }
-          - { label: Pronunciation, name: pronunciation, widget: string }
-          - { label: Pronouns, name: pronouns, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Image Alt, name: imageALT, widget: string }
-          - {
-              label: Websites,
-              name: websites,
-              widget: markdown,
-              required: false,
-              sanitize_preview: true,
-            }
-      - {
-          label: "How to Prepare",
-          name: "preparation",
-          widget: "markdown",
-          required: false,
-        }
-      - { label: "a11y", name: "a11y", widget: "markdown", required: false }
+          - label: Name
+            name: name
+            widget: string
+          - label: Title
+            name: title
+            widget: string
+          - label: Pronunciation
+            name: pronunciation
+            widget: string
+          - label: Pronouns
+            name: pronouns
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+          - label: Image Alt
+            name: imageALT
+            widget: string
+          - label: Websites
+            name: websites
+            widget: list
+            required: false
+            fields:
+              - label: Link
+                name: link
+                widget: object
+                fields:
+                  - label: Label
+                    name: label
+                    widget: string
+                    required: false
+                  - label: URL
+                    name: url
+                    widget: string
+                    required: false
+      - label: "Preparation"
+        name: "preparation"
+        widget: "markdown"
+        required: false
+      - label: "Accessibility"
+        name: "a11y"
+        widget: "markdown"
+        required: false
 
   - label: "Data Files"
     name: "settings"

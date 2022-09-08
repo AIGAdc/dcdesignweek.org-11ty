@@ -1,4 +1,5 @@
 {
   "layout": "single-event",
-  "tags": "event"
+  "tags": "event",
+  "permalink": "/event/{{ title | slug | safe }}/"
 }
