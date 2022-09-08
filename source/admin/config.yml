@@ -778,6 +778,196 @@ collections:
                   - label: "Body"
                     name: "body"
                     widget: "markdown"
+      - label: "Committee"
+        name: "committee"
+        file: "source/pages/committee.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
 
       - label: "Accessibility"
         name: "accessibility"

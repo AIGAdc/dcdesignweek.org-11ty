@@ -6,8 +6,8 @@
           <h1>{{ title | md | safe }}</h1>
         </span>
       {% endif %}
-      {% if description %}
-        <div class="[ wysiwyg ]">{{ description | md | safe }}</div>
+      {% if hero.body %}
+        <div class="[ wysiwyg ]">{{ hero.body | md | safe }}</div>
       {% endif %}
       <div class="[ buttons ]">
         {% if hero.showButtonLeft == true %}
