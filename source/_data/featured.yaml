@@ -3,8 +3,8 @@ archive:
     body: We love reminiscing DC Design Week through the years. Checkout <a aria-label="2016 DCDW Website" href="https://2016.dcdesignweek.org/">2016</a>, <a aria-label="2017 DCDW Website" href="https://2017.dcdesignweek.org/">2017</a>, <a aria-label="2018 DCDW Website" href="https://2018.dcdesignweek.org/">2018</a> and <a aria-label="2019 DCDW Website" href="https://2019.dcdesignweek.org/">2019</a>!
 
 a11y:
-  - header: Lorem Ipsum (Accessibility)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: Accessibility
+    body: DC Design Week is committed to improving accessibility and inclusion efforts each year. You can learn more about how we’re making this DC Design Week an accessible experience by [visiting our page on accessibility](/accessibility).
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: /accessibility/
@@ -20,12 +20,12 @@ brand:
     colorCombo: maroon-primary-on-yellow-primary
 
 codeOfConduct:
-  - header: Lorem Ipsum (Code of Conduct)
+  - header: Code of Conduct
     body: All AIGA DC events adhere to our [Code of Conduct](https://dc.aiga.org/events/code-of-conduct/).
 
 committee:
-  - header: Lorem Ipsum (Committee)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: DCDW 2022 committee
+    body: DC Design Week is made possible by a committee of volunteers who help plan each event, do all the outreach, and more. We’re so grateful for their contributions.
     linkURL: /committee/
     linkAria: Explore committee
     linkLabel: Explore committee
@@ -39,8 +39,8 @@ events:
     colorCombo: maroon-primary-on-cream
 
 faqs:
-  - header: Lorem Ipsum (FAQs)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: FAQs
+    body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: /faqs/
@@ -78,7 +78,11 @@ subscribe:
     colorCombo: cream-on-maroon-primary
 
 theme:
-  - header: Lorem Ipsum (Theme)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis. Aliquam non pretium sapien. Donec nisi enim viverra ut suscipit eu placerat quis mauris. Nulla ligula vel viverra consequat mauris est pharetra dui eget lacinia enim urna vel ex. Lorem nec leo tristique, ullam corper accumsan orci blandit.
+  - header: About DC Design Week
+    body: "DC Design Week (DCDW) is an annual celebration of the DC, Maryland, and Virginia region’s creative community—an ever-growing body of professionals, makers, and voices working across design disciplines. Each year, a committee of volunteers led by AIGA DC Board Members collaborates with local designers, businesses, and organizations to host a variety of events showcasing the work, creativity, and relationships thriving in this area. 
+    
+    
+    Given the uncertainty of the last two years, our 2022 themes are resilience and the power of community. Together over the course of eight days, we’ll nurture curiosity and connections through more than 15 creative events, including sessions led by renowned design agencies, workshops with local makers, and restorative gatherings to keep you centered."
+
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text

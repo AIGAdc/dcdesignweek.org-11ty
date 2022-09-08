@@ -3,19 +3,11 @@
   Skip to Content
 </a>
 <!-- Component: Header -->
-<header class="[ mambo-header ][ sticky ]" data-color="{{ pageSettings.defaultColorCombo }}">
+<header class="[ mambo-header ][ sticky ]" data-color="{{ pageSettings.headerColorCombo }}">
   <div class="[ container container-default ]">
     <div>
       <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
-        {% if pageSettings.showFullLogo == true %}
-          {% include 'static/images/logo-full.njk' %}
-        {% endif %}
-        {% if pageSettings.showSmallLogo == true %}
-          {% include 'static/images/logo-small.njk' %}
-        {% endif %}
-        {% if pageSettings.showYearLogo == true %}
-          {% include 'static/images/logo-year.njk' %}
-        {% endif %}
+        {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
     <ul class="[ list ]">
