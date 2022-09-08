@@ -1,15 +1,4 @@
 ---
-pageSettings:
-  showYearLogo: false
-  layout: home-internal
-  permalink: /
-  defaultColorCombo: maroon-primary-on-cream
-  showSmallLogo: false
-  showFullLogo: true
-  title: Home
-  description: DC Design Week is an annual celebration of DC’s vibrant, diverse
-    creative community.
-  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
 sectionOne:
   sectionColorCombo: zodiac-on-white
   sectionOneBody: >-
@@ -57,6 +46,7 @@ sectionOne:
       trigger: question-2
       expanded: false
   sectionOneColorCombo: black-on-cream
+layout: home-internal
 sectionFour:
   sectionColorCombo: white-on-zodiac
   sectionFourHeader: How else can I get involved with DC Design Week 2022?
@@ -83,6 +73,18 @@ sectionFour:
       body: Whether you’re able to offer in-kind services or financial support, we
         welcome sponsorship partners who can help make DCDW even better.
   sectionFourColorCombo: black-on-cream
+permalink: /
+pageSettings:
+  showYearLogo: false
+  layout: home-internal
+  permalink: /
+  defaultColorCombo: maroon-primary-on-cream
+  showSmallLogo: false
+  showFullLogo: true
+  title: Home
+  description: DC Design Week is an annual celebration of DC’s vibrant, diverse
+    creative community.
+  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
 sectionMakers:
   sectionColorCombo: null
   sectionMakersBody: "There are 2 options for participating this year:"
@@ -107,29 +109,6 @@ sectionMakers:
       trigger: question-2
       expanded: false
 title: Home
-hero:
-  body: The DC, Maryland, and Virginia area has a proud design community, and this
-    year we’ll be emphasizing the word “community” more than ever. You’ll see
-    events rooted in connection, recovery, and curiosity—with an eye toward
-    what’s worked in the past and how we might support our larger ecosystem as
-    we move forward.
-  buttonLeftColorCombo: maroon-primary-on-yellow-primary
-  buttonRightURL: null
-  heroColorCombo: white-on-zodiac
-  heroHeader: Designing in Resiliance Together
-  buttonRightLabel: null
-  colorCombo: maroon-primary-on-cream
-  header: Designing in Resilence Together
-  showButtonRight: false
-  buttonRightColorCombo: maroon-primary-on-yellow-primary
-  buttonLeftURL: null
-  showButtonLeft: false
-  buttonLeftLabel: null
-  heroBody: The DC, Maryland, and Virginia area has a proud design community, and
-    this year we’ll be emphasizing the word “community” more than ever. You’ll
-    see events rooted in connection, recovery, and curiosity—with an eye toward
-    what’s worked in the past and how we might support our larger ecosystem as
-    we move forward.
 sectionThree:
   sectionColorCombo: white-on-zodiac
   sectionThreeHeader: How does the community-curated event proposal process work?
@@ -180,4 +159,27 @@ sectionThree:
   sectionThreeColorCombo: black-on-cream
 description: DC Design Week is an annual celebration of DC’s vibrant, diverse
   creative community.
+hero:
+  body: The DC, Maryland, and Virginia area has a proud design community, and this
+    year we’ll be emphasizing the word “community” more than ever. You’ll see
+    events rooted in connection, recovery, and curiosity—with an eye toward
+    what’s worked in the past and how we might support our larger ecosystem as
+    we move forward.
+  buttonLeftColorCombo: maroon-primary-on-yellow-primary
+  buttonRightURL: null
+  heroColorCombo: white-on-zodiac
+  heroHeader: Designing in Resiliance Together
+  buttonRightLabel: null
+  colorCombo: maroon-primary-on-cream
+  header: Designing in Resilence Together
+  showButtonRight: false
+  buttonRightColorCombo: maroon-primary-on-yellow-primary
+  buttonLeftURL: null
+  showButtonLeft: false
+  buttonLeftLabel: null
+  heroBody: The DC, Maryland, and Virginia area has a proud design community, and
+    this year we’ll be emphasizing the word “community” more than ever. You’ll
+    see events rooted in connection, recovery, and curiosity—with an eye toward
+    what’s worked in the past and how we might support our larger ecosystem as
+    we move forward.
 ---

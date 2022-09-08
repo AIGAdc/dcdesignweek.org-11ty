@@ -11,8 +11,8 @@ a11y:
     linkLabel: View accessibility statement
 
 brand:
-  - header: Lorem Ipsum (Brand)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: 2022 Brand Partner
+    body: Big thanks to Brllnt and Scrap Strategies for developing the DCDW 2022 brand! Brllnt is a collective of Women- and BIPOC-owned creative small businesses that provide human-centered design, brand strategy, and user experience to mission-driven teams. Scrap Strategies is a market and business strategy firm using research, data, and automation to supercharge business growth by distilling human-first practices.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: https://www.brllnt.co/
@@ -30,8 +30,8 @@ committee:
     linkLabel: Explore committee
 
 events:
-  - header: Lorem Ipsum (Events)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: Events
+    body: This year, we’re highlighting the connections that strengthen our community, and the ways that people are coming together to help one another, fueling the kind of curiosity that leads to discovery.
     linkURL: /events/
     linkAria: Explore all events
     linkLabel: Explore all events
@@ -62,15 +62,15 @@ makers:
     linkLabel: Lorem ipsum (TBA)
 
 sponsors:
-  - header: Lorem Ipsum (Sponsors)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: Sponsors and Partners
+    body: DC Design Week wouldn’t be the same without your support. Thank you! If you’re interested in partnering with DC Design Week this year, [let us know at designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: /about/
     linkLabel: Explore all sponsors
 
 subscribe:
-  - header: Lorem Ipsum (Subscribe)
+  - header: Subscribe
     body: Don’t miss out! Sign up below to get updates on DCDW and AIGA DC.
     colorCombo: cream-on-maroon-primary
 
