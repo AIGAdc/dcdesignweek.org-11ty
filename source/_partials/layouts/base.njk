@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="2022-DC-Design-Week layout-{{ layout | slug }} event-{{ title | slug }} wireframe" id="start">
+<html lang="en" class="2022-DC-Design-Week layout-{{ layout | slug }} event-{{ title | slug }}" id="start">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,6 @@
     <title>{{ title }} | 2022 DC Design Week</title>
     <meta name="description" content="{{ description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
-    <meta name="theme-color" content="#f6c84c">
     <!-- Social -->
     <meta property="fb:app_id" content="123456789">
     <meta property="og:url" content="https://dcdesignweek.org">
@@ -48,13 +47,12 @@
     <!-- Script: Netlify Identity Widget -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
-  <body data-color="maroon-primary-on-white">
+  <body>
     {% include '1-global-blocks/site-header.njk' %}
     <main id="content">
       {% block content %}
         {{ content | safe }}
       {% endblock %}
-      {% include '2-layout-blocks/featured/newsletter.njk' %}
     </main>
     {% include '1-global-blocks/site-footer.njk' %}
   </body>
