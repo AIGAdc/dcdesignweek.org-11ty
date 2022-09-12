@@ -17,7 +17,7 @@ brand:
     imageALT: 🛑 Provide Alt Text
     linkURL: https://www.brllnt.co/
     linkLabel: View Brllnt's Website
-    colorCombo: maroon-primary-on-yellow-primary
+    colorCombo: maroon-primary-on-cream
 
 codeOfConduct:
   - header: Code of Conduct
@@ -36,7 +36,7 @@ events:
     linkURL: /events/
     linkAria: Explore all events
     linkLabel: Explore all events
-    colorCombo: maroon-primary-on-cream
+    colorCombo: maroon-primary-on-cream-secondary
 
 faqs:
   - header: FAQs
@@ -70,7 +70,7 @@ sponsors:
     imageALT: 🛑 Provide Alt Text
     linkURL: /about/
     linkLabel: Explore all sponsors
-    colorCombo: maroon-primary-on-pink-tertiary
+    colorCombo: maroon-primary-on-yellow-primary
 
 subscribe:
   - header: Subscribe

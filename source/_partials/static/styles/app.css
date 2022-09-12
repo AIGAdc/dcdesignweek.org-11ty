@@ -21,6 +21,7 @@
   --dcdw-2022-yellow-primary: #FFCD1E;
   --dcdw-2022-yellow-secondary: #FBFA7E;
   --dcdw-2022-cream-primary: #FFFFDD;
+  --dcdw-2022-cream-secondary: #FFFFF5;
   /* DCDW: 2022 Brand Type */
   --dcdw-2022-brand-dm-sans: "DM Sans", sans-serif;
   --dcdw-2022-brand-recursive: "Recursive", sans-serif;
@@ -1016,6 +1017,11 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
 
 *[data-color=maroon-secondary-on-cream] {
   background-color: var(--dcdw-2022-cream-primary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-primary-on-cream-secondary] {
+  background-color: var(--dcdw-2022-cream-secondary);
   color: var(--dcdw-2022-maroon-secondary);
 }
 
