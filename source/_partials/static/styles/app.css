@@ -1261,7 +1261,7 @@ h3,
 
 /* Events */
 .mambo-card.event .media {
-  background-color: var(--dcdw-2022-maroon-primary);
+  background-color: var(--dcdw-2022-yellow-primary);
 }
 
 .mambo-card.event .meta {
@@ -1794,10 +1794,6 @@ input:checked + .slider:before {
 .status {
   display: block;
   width: 100%;
-}
-
-.status {
-  color: var(--dcdw-2022-maroon-primary);
   font-size: var(--size-16);
   font-weight: 700;
   padding: var(--size-8) var(--size-16);
@@ -1806,10 +1802,12 @@ input:checked + .slider:before {
 .status.featured-on-home,
 .status.featured-on-events {
   background-color: var(--dcdw-2022-pink-tertiary);
+  color: var(--dcdw-2022-maroon-primary);
 }
 
 .status.sold-out {
-  background-color: var(--dcdw-2022-yellow-primary);
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-cream-primary);
 }
 
 .layout-page.event-events .wave-2022-brand-partner {
