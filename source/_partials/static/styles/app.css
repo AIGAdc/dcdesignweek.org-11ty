@@ -1812,6 +1812,10 @@ input:checked + .slider:before {
   background-color: var(--dcdw-2022-yellow-primary);
 }
 
+.layout-page.event-events .wave-2022-brand-partner {
+  fill: var(--dcdw-2022-maroon-secondary) !important;
+}
+
 .wysiwyg > *:not(:first-child) {
   margin-top: var(--size-16);
 }
