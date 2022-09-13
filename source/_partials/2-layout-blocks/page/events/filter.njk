@@ -1,24 +1,17 @@
 <!-- Filter -->
 <form class="[ mambo-accordion-group ]">
-
-  <h2 class="[ sr-only ]">
-    Events Filter
-  </h2>
-
   <!-- Filter: Date -->
   <fieldset class="[ mambo-expander ]" data-filter-group>
     <!-- Trigger for hidden content -->
-    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ][ {% if faq.expanded == true %} is-expanded {% endif %} ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventDate">
-      <h3>
-        Date
-      </h3>
+    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventDate">
+      <h3>Date</h3>
     </legend>
     <!-- Hidden Content -->
-    <div class="[ answer {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventDate">
+    <div class="[ answer is-expanded ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventDate">
       {% for control in filters.filterEvents.day %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %} {% if control.default == true %} selected {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
         </div>
@@ -29,13 +22,11 @@
   <!-- Filter: Location -->
   <fieldset class="[ mambo-expander ]" data-filter-group>
     <!-- Trigger for hidden content -->
-    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ][ {% if faq.expanded == true %} is-expanded {% endif %} ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventLocation">
-      <h3>
-        Location
-      </h3>
+    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventLocation">
+      <h3>Location</h3>
     </legend>
     <!-- Hidden Content -->
-    <div class="[ answer {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventLocation">
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventLocation">
       {% for control in filters.filterEvents.location %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
@@ -50,13 +41,11 @@
   <!-- Filter: Time -->
   <fieldset class="[ mambo-expander ]" data-filter-group>
     <!-- Trigger for hidden content -->
-    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ][ {% if faq.expanded == true %} is-expanded {% endif %} ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventTime">
-      <h3>
-        Time
-      </h3>
+    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventTime">
+      <h3>Time</h3>
     </legend>
     <!-- Hidden Content -->
-    <div class="[ answer {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventTime">
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventTime">
       {% for control in filters.filterEvents.time %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
@@ -71,13 +60,11 @@
   <!-- Filter: Type -->
   <fieldset class="[ mambo-expander ]" data-filter-group>
     <!-- Trigger for hidden content -->
-    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ][ {% if faq.expanded == true %} is-expanded {% endif %} ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventType">
-      <h3>
-        Type
-      </h3>
+    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventType">
+      <h3>Type</h3>
     </legend>
     <!-- Hidden Content -->
-    <div class="[ answer {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventType">
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventType">
       {% for control in filters.filterEvents.type %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
@@ -92,13 +79,11 @@
   <!-- Filter: Status -->
   <fieldset class="[ mambo-expander ]" data-filter-group>
     <!-- Trigger for hidden content -->
-    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ][ {% if faq.expanded == true %} is-expanded {% endif %} ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventStatus">
-      <h3>
-        Status
-      </h3>
+    <legend aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventStatus">
+      <h3>Status</h3>
     </legend>
     <!-- Hidden Content -->
-    <div class="[ answer {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventStatus">
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventStatus">
       {% for control in filters.filterEvents.status %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">

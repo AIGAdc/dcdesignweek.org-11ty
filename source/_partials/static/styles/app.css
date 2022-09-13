@@ -1160,6 +1160,11 @@ h3,
     padding: var(--size-40) var(--size-80);
   }
 }
+:root {
+  --expanderHeaderColorMode: cream-primary-on-maroon-primary;
+  --expanderAnswerColorMode: maroon-primary-on-cream-secondary;
+}
+
 .mambo-accordion-group > *:not(:first-child) {
   margin-top: var(--size-8);
 }
@@ -1168,6 +1173,10 @@ h3,
   display: block;
   font-size: var(--size-18);
   width: 100%;
+}
+
+.mambo-expander .is-expanded .answer {
+  display: block;
 }
 
 .mambo-expander .answer {
