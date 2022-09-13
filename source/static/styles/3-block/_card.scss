@@ -77,7 +77,7 @@
 }
 
 .mambo-card.event .day-date svg {
-  fill: currentColor;
+  fill: var(--dcdw-2022-yellow-primary) !important;
   position: absolute;
   top: -4px;
   right: 0;

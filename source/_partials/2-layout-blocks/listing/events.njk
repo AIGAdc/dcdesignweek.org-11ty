@@ -1,11 +1,11 @@
 {% if page.url == "/events/" %}
-  <section class="[ mambo-section ][ flow ]" data-color="cream-on-maroon-secondary" id="events">
+  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="events">
     <div class="[ container container-default ][ flow ]">
-      <!-- Skip to Content -->
+      {# <!-- Skip to Content -->
       <div class="[ link-skip-to-content events ]" data-color="maroon-primary-on-white">
         <a href="#events-filter">Jump to filters</a>
         <a href="#events-list">Jump to events</a>
-      </div>
+      </div> #}
       <h2 class="[ sr-hidden ]">Featured Events</h2>
       {% include "1-global-blocks/divider.njk" %}
       <div class="[ grid grid--align-start  ][ grid-flow grid-flow-start grid-four-columns ]">
@@ -16,10 +16,10 @@
           {% include "2-layout-blocks/page/events/list.njk" %}
         </ul>
       </div>
-      <!-- Skip to Content -->
+      {# <!-- Skip to Content -->
       <div class="[ link-skip-to-content events ]" data-color="maroon-primary-on-white">
         <a href="#events">Back to top of section</a>
-      </div>
+      </div> #}
     </div>
   </section>
 {% endif %}
