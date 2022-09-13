@@ -1109,6 +1109,10 @@ h3,
     font-size: var(--size-20);
   }
 }
+.mobile {
+  display: none;
+}
+
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
@@ -1460,22 +1464,18 @@ input:checked + .slider:before {
 .mambo-hero {
   display: grid;
   place-content: center;
-  min-height: 50vh;
+  min-height: 40vh;
   position: relative;
   overflow: hidden;
 }
 
 .mambo-hero .container {
   background-color: var(--dcdw-2022-cream-primary);
-  padding: 4rem;
+  padding: 8rem;
   position: relative;
   z-index: 1000;
   border-radius: 41% 59% 47% 53%/63% 31% 69% 37%;
   transition: all ease-in-out 200ms;
-}
-
-.mambo-hero .container:hover {
-  border-radius: 29% 75% 30% 44%/70% 20% 50% 29%;
 }
 
 .layout-single-event .mambo-hero {
@@ -1489,6 +1489,11 @@ input:checked + .slider:before {
   bottom: 0;
   left: 0;
   opacity: 0.8;
+}
+
+.roots > * {
+  position: absolute;
+  display: grid;
 }
 
 @media screen and (min-width: 48rem) {
