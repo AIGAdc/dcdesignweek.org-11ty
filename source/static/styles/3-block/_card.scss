@@ -1,5 +1,3 @@
-.mambo-cards {}
-
 .mambo-card .image {
   position: relative;
 }
@@ -51,10 +49,31 @@
 
 /* Events */
 
-.mambo-card.event:hover {}
+.mambo-card.event .media .image {
+  background-color: var(--dcdw-2022-yellow-primary);
+}
+
+.mambo-card.event .media .image img {
+  box-shadow: none;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
 
 .mambo-card.event .media {
   background-color: var(--dcdw-2022-yellow-primary);
+  border: none;
+  box-shadow: none;
+  transition: 0.2s;
+}
+
+.mambo-card.event .media:hover {
+  box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+  -webkit-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+  -moz-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+}
+
+.mambo-card.event .title {
+  font-family: var(--dcdw-2022-brand-recursive);
 }
 
 .mambo-card.event .meta {
