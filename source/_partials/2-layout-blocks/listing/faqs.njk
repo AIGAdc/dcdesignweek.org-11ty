@@ -1,8 +1,6 @@
-<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-white" id="faqs">
+<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="faqs">
   <div class="[ container container-default ][ flow ]">
-    <h2>
-	2022 DC Design Week FAQs
-	</h2>
+    <h2>2022 DC Design Week FAQs</h2>
     {% include "1-global-blocks/divider.njk" %}
     <div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
       <!-- Main FAQs -->
@@ -10,9 +8,9 @@
         {% for question in faqs.questions %}
           <li class="[ mambo-expander ]">
             <!-- Trigger for hidden content -->
-            <h3 data-houdini-toggle="{{ question.trigger }}">
-              {{ question.question | safe }}
-            </h3>
+            <div aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="{{ question.trigger }}">
+              <h3>{{ question.question | md | safe }}</h3>
+            </div>
             <!-- Hidden Content -->
             <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
 					data-houdini-group="faq" id="{{ question.trigger }}">
@@ -21,33 +19,35 @@
           </li>
         {% endfor %}
       </ul>
+
       <!-- Sticky Sidebar -->
       <div class="[ sticky faqs-sidebar ] [ grid-flow grid-one-column ] [ padding-all-16 ]">
         <div class="[ grid-flow ]">
           <h2>
-			Contact
-			</h2>
+			      Contact
+			    </h2>
           <div class="[ grid-flow grid-one-column ]">
             <strong>
-				General Questions
-				</strong>
+              General Questions
+            </strong>
             <p>
-					Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+					    Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
             </p>
           </div>
         </div>
         <div class="[ grid-flow grid-one-column ]">
           <strong>
-			Accessibility Questions
-			</strong>
+			      Accessibility Questions
+			    </strong>
           <p>
-				Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+				    Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <script>
   var disclosure = new Houdini('[data-houdini-group="faq"]', {
     // Content
