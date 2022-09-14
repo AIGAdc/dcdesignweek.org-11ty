@@ -5,12 +5,12 @@
         <h2>{{ content.header | md | safe }}</h2>
         {% include "1-global-blocks/divider.njk" %}
         <p>{{ content.body | md | safe }}</p>
-        <ul class="[ faqs-list ][ grid-flow grid-four-columns ]">
-          {% for event in collections.event | reverse %}
+        <ul class="[ faqs-list ][ grid-flow grid-three-columns ]">
+          {% for event in collections.event | reverse | limit(3) %}
             <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
               <div class="[ media ]">
                 <figure class="[ image ]">
-                  <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.image }}">
+                  <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
                 </figure>
                 <div class="[ statuses ]">
                   {% for status in event.data.status %}

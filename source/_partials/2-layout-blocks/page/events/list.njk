@@ -2,7 +2,7 @@
   <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
     <div class="[ media ]">
       <figure class="[ image ]">
-        <img alt="{{ event.data.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
+        <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
       </figure>
       <div class="[ statuses ]">
         {% for status in event.data.status %}
