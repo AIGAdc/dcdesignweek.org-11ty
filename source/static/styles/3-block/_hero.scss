@@ -6,6 +6,20 @@
   overflow: hidden;
 }
 
+.mambo-hero {
+  clip-path: url('../source/_partials/static/images/mask.svg#wave');
+}
+
+#wave {
+  height: 100vh;
+  width: auto;
+}
+
+#wave path {
+  transform: scaleY(2);
+  //  transform: rotate(180deg);
+}
+
 .layout-single-event .mambo-hero {
   min-height: 50vh;
 }
