@@ -42,7 +42,7 @@
         <div class="[ sticky faqs-sidebar ][ column-span-one ][ padding-all-16 ]" id="events-filter">
           {% include "2-layout-blocks/page/events/filter.njk" %}
         </div>
-        <ul class="[ faqs-list ][ column-span-three ][ grid-flow grid-two-columns ]" id="events-list">
+        <ul class="[ faqs-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
           {% include "2-layout-blocks/page/events/list.njk" %}
         </ul>
       </div>
@@ -51,5 +51,39 @@
         <a href="#events">Back to top of section</a>
       </div> #}
     </div>
+
+    <!-- mixitup -->
+    <script>
+      var containerEl = document.querySelector(".mixitup-container");
+      var mixer = mixitup(containerEl, {
+        multifilter: {
+          enable: true
+        },
+        animation: {
+          enable: false
+        }
+      });
+    </script>
+    <!-- houdini -->
+    <script>
+      var showHideButton = new Houdini("[data-houdini]");
+      var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
+        isAccordion: true,
+        collapseOthers: true,
+        icon: 1,
+        /* If true, include an expand/collapse icon */
+        iconClass: 'houdini-toggle-icon',
+        /* The class to use for the expand/collapse icon */
+        iconAttribute: 'data-houdini-icon',
+        /* The data attribute to use for the expand/collapse icon */
+        iconShow: '<i class="fas fa-chevron-right"></i>',
+        /* The icon to expand an accordion */
+        iconHide: '<i class="fas fa-chevron-down"></i>',
+        /* The icon to collapse an accordion */
+      });
+      var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
+    </script>
+    <script src="/static/scripts/mixitup.min.js"></script>
+
   </section>
 {% endif %}

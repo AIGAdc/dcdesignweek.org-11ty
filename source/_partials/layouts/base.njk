@@ -40,7 +40,9 @@
     <script src="https://kit.fontawesome.com/38aa62a4a1.js" crossorigin="anonymous"></script>
     <!-- Script: App.js -->
     <script type="text/javascript" src="/static/scripts/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    {% if page.url == "/" %}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    {% endif %}
     <!-- Always get the latest version -->
     <!-- Not recommended for production sites! -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/houdini/dist/css/houdini.min.js">

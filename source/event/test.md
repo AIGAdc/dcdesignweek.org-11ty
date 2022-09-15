@@ -6,4 +6,8 @@ hero:
 eventDetails:
   startDate: 2022-09-08T00:29:03.333Z
   endDate: 2022-09-08T00:29:03.345Z
+  filterDate: Friday 14th
+  filterLocation: In-Person
+  filterTime: Morning
+  filterType: Creative Breakfast
 ---

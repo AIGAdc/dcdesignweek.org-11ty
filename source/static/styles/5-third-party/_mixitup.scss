@@ -108,74 +108,74 @@
 /* Target Elements
 ---------------------------------------------------------------------- */
 
-.mix,
-.gap {
-  display: inline-block;
-  vertical-align: top;
-}
+// .mix,
+// .gap {
+//   display: inline-block;
+//   vertical-align: top;
+// }
 
-.mix {
-  background: #fff;
-  border-top: .5rem solid currentColor;
-  border-radius: 2px;
-  margin-bottom: 1rem;
-  position: relative;
-}
+// .mix {
+//   background: #fff;
+//   border-top: .5rem solid currentColor;
+//   border-radius: 2px;
+//   margin-bottom: 1rem;
+//   position: relative;
+// }
 
-.mix:before {
-  content: '';
-  display: inline-block;
-  padding-top: 56.25%;
-}
+// .mix:before {
+//   content: '';
+//   display: inline-block;
+//   padding-top: 56.25%;
+// }
 
-.mix.green {
-  color: #91e6c7;
-}
+// .mix.green {
+//   color: #91e6c7;
+// }
 
-.mix.pink {
-  color: #d595aa;
-}
+// .mix.pink {
+//   color: #d595aa;
+// }
 
-.mix.blue {
-  color: #5ecdde;
-}
+// .mix.blue {
+//   color: #5ecdde;
+// }
 
-/* Grid Breakpoints
----------------------------------------------------------------------- */
+// /* Grid Breakpoints
+// ---------------------------------------------------------------------- */
 
-/* 2 Columns */
+// /* 2 Columns */
 
-.mix,
-.gap {
-  width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
-}
+// .mix,
+// .gap {
+//   width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+// }
 
-/* 3 Columns */
+// /* 3 Columns */
 
-@media screen and (min-width: 541px) {
+// @media screen and (min-width: 541px) {
 
-  .mix,
-  .gap {
-    width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
-  }
-}
+//   .mix,
+//   .gap {
+//     width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+//   }
+// }
 
-/* 4 Columns */
+// /* 4 Columns */
 
-@media screen and (min-width: 961px) {
+// @media screen and (min-width: 961px) {
 
-  .mix,
-  .gap {
-    width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
-  }
-}
+//   .mix,
+//   .gap {
+//     width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+//   }
+// }
 
-/* 5 Columns */
+// /* 5 Columns */
 
-@media screen and (min-width: 1281px) {
+// @media screen and (min-width: 1281px) {
 
-  .mix,
-  .gap {
-    width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
-  }
-}
+//   .mix,
+//   .gap {
+//     width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+//   }
+// }

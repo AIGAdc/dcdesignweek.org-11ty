@@ -1,31 +1,21 @@
 filterEvents:
   day:
-    - label: All Dates
-      default: true
     - label: Friday 14th
       occurred: false
-      default: false
     - label: Saturday 15th
       occurred: false
-      default: false
     - label: Sunday 16th
       occurred: false
-      default: false
     - label: Monday 17th
       occurred: false
-      default: false
     - label: Tuesday 18th
       occurred: false
-      default: false
     - label: Wednesday 19th
       occurred: false
-      default: false
     - label: Thursday 20th
       occurred: false
-      default: false
     - label: Friday 21st
       occurred: false
-      default: false
   location:
     - label: In-Person
     - label: Zoom
@@ -40,8 +30,3 @@ filterEvents:
     - label: Party
     - label: Talk/Panel
     - label: Workshop
-  status:
-    - label: Hide Past Events
-      value: .mix:not(.past-event)
-    - label: Hide Sold Out
-      value: .mix:not(.sold-out)

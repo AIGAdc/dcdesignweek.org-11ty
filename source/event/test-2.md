@@ -6,4 +6,8 @@ hero:
 eventDetails:
   startDate: 2022-09-13T20:00:37.097Z
   endDate: 2022-09-13T20:00:37.103Z
+  filterDate: Saturday 15th
+  filterLocation: Zoom
+  filterTime: Daytime
+  filterType: Creative Lunch
 ---

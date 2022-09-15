@@ -1,5 +1,5 @@
 {% for event in collections.event | reverse %}
-  <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
+  <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ][ mix {% include '2-layout-blocks/page/events/filterLogic.njk' %} ]">
     <div class="[ media ]">
       <figure class="[ image ]">
         <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
@@ -35,38 +35,3 @@
     </div>
   </li>
 {% endfor %}
-<!-- mixitup -->
-<script>
-  var containerEl = document.querySelector(".mixitup-container");
-  var mixer = mixitup(containerEl, {
-    multifilter: {
-      enable: true
-    },
-    pagination: {
-      enable: true
-    },
-    animation: {
-      enable: false
-    }
-  });
-</script>
-<!-- houdini -->
-<script>
-  var showHideButton = new Houdini("[data-houdini]");
-  var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
-    isAccordion: true,
-    collapseOthers: true,
-    icon: 1,
-    /* If true, include an expand/collapse icon */
-    iconClass: 'houdini-toggle-icon',
-    /* The class to use for the expand/collapse icon */
-    iconAttribute: 'data-houdini-icon',
-    /* The data attribute to use for the expand/collapse icon */
-    iconShow: '<i class="fas fa-chevron-right"></i>',
-    /* The icon to expand an accordion */
-    iconHide: '<i class="fas fa-chevron-down"></i>',
-    /* The icon to collapse an accordion */
-  });
-  var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
-</script>
-<script src="/static/scripts/mixitup.min.js"></script>

@@ -1,0 +1,49 @@
+{# Filter: Date #}
+{% if event.data.eventDetails.filterDate == "Friday 14th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Saturday 15th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Sunday 16th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Monday 17th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Tuesday 18th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Wednesday 19th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Thursday 20th" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Friday 21st" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% endif %}
+
+{# Filter: Location #}
+{% if event.data.eventDetails.filterLocation == "In-Person" %}
+  {{ event.data.eventDetails.filterLocation | slug | lower }}
+{% elseif event.data.eventDetails.filterLocation == "Zoom" %}
+  {{ event.data.eventDetails.filterLocation | slug | lower }}
+{% endif %}
+
+{# Filter: Time #}
+{% if event.data.eventDetails.filterTime == "Morning" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% elseif event.data.eventDetails.filterTime == "Daytime" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% elseif event.data.eventDetails.filterTime == "Evening" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% endif %}
+
+{# Filter: Time #}
+{% if event.data.eventDetails.filterType == "Creative Breakfast" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Creative Lunch" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Keynote" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Party" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Talk/Panel" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Workshop" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% endif %}

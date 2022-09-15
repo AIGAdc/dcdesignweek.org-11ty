@@ -8,10 +8,16 @@
     </legend>
     <!-- Hidden Content -->
     <div class="[ answer is-expanded ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventDate">
+      <div class="[ mambo-input-radio ]">
+        <label for="{{ control.label | lower | slug }}">
+          <input class="selected" checked="checked" type="radio" id="all" name="event-date" value="all">
+            All Dates
+          </label>
+      </div>
       {% for control in filters.filterEvents.day %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %} {% if control.default == true %} selected {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %} {% if control.default == true %} selected {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
         </div>
@@ -30,7 +36,7 @@
       {% for control in filters.filterEvents.location %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
         </div>
@@ -49,7 +55,7 @@
       {% for control in filters.filterEvents.time %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
         </div>
@@ -68,7 +74,7 @@
       {% for control in filters.filterEvents.type %}
         <div class="[ mambo-input-radio ]">
           <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
         </div>
@@ -84,14 +90,18 @@
     </legend>
     <!-- Hidden Content -->
     <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventStatus">
-      {% for control in filters.filterEvents.status %}
-        <div class="[ mambo-input-radio ]">
-          <label for="{{ control.label | lower | slug }}">
-            <input class="{% if control.occurred == true %} occurred {% endif %}" type="radio" id="{{ control.label | lower | slug }}" name="event-date" value="{{ control.value | lower | slug }}">
-            {{ control.label }}
+      <div class="[ mambo-input-radio ]">
+        <label for="{{ control.label | lower | slug }}">
+          <input class="selected" type="radio" id="all" name="event-date" value=".mix:not(.past-event)">
+            Hide Past Events
           </label>
-        </div>
-      {% endfor %}
+      </div>
+      <div class="[ mambo-input-radio ]">
+        <label for="{{ control.label | lower | slug }}">
+          <input class="selected" type="radio" id="all" name="event-date" value=".mix:not(.sold-out)">
+            Hide Sold Out
+          </label>
+      </div>
     </div>
   </fieldset>
 
