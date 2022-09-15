@@ -21,6 +21,7 @@ eventDetails:
   filterLocation: In-Person
   filterTime: Morning
   filterType: Creative Breakfast
+  description: d
 details: >-
   ## D﻿escription and Details
 
@@ -36,4 +37,64 @@ details: >-
 
 
   Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+speaker:
+  - name: Hana Banana
+    title: CEO
+    pronunciation: (hah - nah)
+    pronouns: She / Her
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Hana
+    websites:
+      - website:
+          url: https://www.marcusrelacion.com
+          label: Personal Website
+      - website:
+          url: https://www.marcusrelacion.com
+          label: Personal Website
+    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+      nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
+      tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
+      mattis.
+  - name: Hana Banana
+    title: CEO
+    pronunciation: (hah - nah)
+    pronouns: She / Her
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Hana
+    websites:
+      - website:
+          url: https://www.marcusrelacion.com
+          label: Personal Website
+    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+      nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
+      tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
+      mattis.
+  - name: Hana Banana
+    title: CEO
+    pronunciation: (hah - nah)
+    pronouns: She / Her
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Hana
+    websites:
+      - website:
+          url: https://www.marcusrelacion.com
+          label: Personal Website
+    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+      nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
+      tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
+      mattis.
+  - name: Hana Banana
+    title: CEO
+    pronunciation: (hah - nah)
+    pronouns: She / Her
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Hana
+    websites:
+      - website:
+          label: Personal Website
+          url: https://www.marcusrelacion.com
+    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+      nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
+      tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
+      mattis.
 ---

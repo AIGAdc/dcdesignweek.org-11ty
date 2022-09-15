@@ -1363,13 +1363,17 @@ collections:
           - label: Image Alt
             name: imageALT
             widget: string
+          - label: Bio
+            name: bio
+            widget: markdown
+            required: false
           - label: Websites
             name: websites
             widget: list
             required: false
             fields:
-              - label: Link
-                name: link
+              - label: Website
+                name: website
                 widget: object
                 fields:
                   - label: Label

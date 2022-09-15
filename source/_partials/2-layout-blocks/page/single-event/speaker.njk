@@ -1,15 +1,12 @@
-<section class="[ mambo-section ][ flow ]" id="{{ content.header | slug }}">
+<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="{{ content.header | slug }}">
   <div class="[ container container-default ][ flow ][ ]">
     <h2>Speakers</h2>
     <ul class="[ speakers ][ grid-flow grid-flow grid-two-columns ]">
       {% for content in speaker %}
-        <li class="[ mambo-card horizontal ]">
-          <figure class="[ image ]">
-            <img alt="{{ content.imageAlt }}" loading=lazy src="{{ content.image }}">
-          </figure>
-          <div class="[ details ][ flow ]">
+        <li class="[ mambo-card speaker horizontal ]">
+          <div class="[ details ]">
             <div class="[ meta ]">
-              <h3 class="name">{{ content.name | safe }}</h3>
+              <h3 class="name">{{ content.name }}</h3>
               {% if content.pronunciation %}
                 <p class="pronunciation">{{ content.pronunciation | safe }}</p>
               {% endif %}
@@ -17,22 +14,22 @@
             {% if content.pronouns %}
               <p class="pronouns">{{ content.pronouns | safe }}</p>
             {% endif %}
-            {% if content.position %}
-              <p class="position">{{ content.position | safe }}</p>
+            {% if content.title %}
+              <p class="title">{{ content.title | safe }}</p>
             {% endif %}
             {% if content.bio %}
               <p class="bio">{{ content.bio | safe }}</p>
             {% endif %}
-            <div>
-              {% if content.linkLabel1 %}
-                <a aria-label="{{ content.linkARIALabel1 }}" href="{{ content.linkURL1 }}">{{ content.linkLabel1 }}</a>
-              {% endif %}
-              {% if content.linklabel2 %}
-                <a aria-label="{{ content.linkARIALabel2 }}" href="{{ content.linkURL2 }}">{{ content.linkLabel2 }}</a>
-              {% endif %}
-            </div>
+            {# <div class="[ websites ]">
+              {% for website in speaker.websites %}
+                <a class="[ mambo-anchor action ]" href="#">
+                  {{ website.website.label | safe }}
+                </a>
+              {% endfor %}
+            </div> #}
           </li>
         {% endfor %}
       </ul>
     </div>
-  </section>
+  </div>
+</section>

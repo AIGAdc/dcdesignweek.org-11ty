@@ -1320,6 +1320,22 @@ h3,
   padding: var(--size-8);
 }
 
+.mambo-card.speaker .details {
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-8);
+}
+
+.mambo-card.speaker .meta {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-8);
+}
+
+.mambo-card.speaker .image img {
+  box-shadow: none;
+}
+
 .mambo-divider {
   background-color: currentColor;
   display: inline-block;
