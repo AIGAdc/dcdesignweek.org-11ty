@@ -21,4 +21,19 @@ eventDetails:
   filterLocation: In-Person
   filterTime: Morning
   filterType: Creative Breakfast
+details: >-
+  ## D﻿escription and Details
+
+
+  Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+
+
+  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+
+  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+
+  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+
+
+  Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 ---

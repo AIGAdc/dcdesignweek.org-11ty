@@ -1257,6 +1257,10 @@ collections:
             name: "endDate"
             widget: "datetime"
             required: false
+          - label: Description
+            name: description
+            hint: ""
+            widget: markdown
           - label: Location
             name: location
             hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
