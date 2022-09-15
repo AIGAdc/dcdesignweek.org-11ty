@@ -1,24 +1,22 @@
 <section class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-yellow-primary" id="{{ title | slug }}">
   <div class="[ container container-default ][ flow ]">
-    {% if title %}
-      <span id="skip-to-content">
-        <h1>{{ title | md | safe }}</h1>
-      </span>
-    {% endif %}
+    <span id="skip-to-content">
+      <h1>
+        {{ title | safe }}
+      </h1>
+    </span>
+    <div class="[ details ] ">
+      <span class="[ type ]">{{ eventDetails.filterType | safe }}</span> / 
+      <datetime class="[ weekday ]">{{ eventDetails.startDate | safe }}</datetime> / 
+      <datetime class="[ month ]">{{ eventDetails.startDate }}</datetime> /
+      <datetime class="[ time ]">{{ eventDetails.startDate | safe }}</datetime>
+    </div>
     <div class="[ buttons ]">
-      <p> 
-        Type / Weekday / Month / Time <datetime class="[ time ]">{{ startDate | readableEventDate }}</datetime>
-      </p>
-      {% if hero.showButtonLeft == true %}
-        <a class="[ mambo-anchor action ]" data-color="{{ hero.buttonLeftColorCombo }}" href="{{ hero.buttonLeftURL | md | safe }}">
-          {{ hero.buttonLeftLabel | md | safe }}
+      {% for ticket in hero.tickets %}
+        <a class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url | md | safe }}">
+          {{ ticket.ticket.label | safe }}
         </a>
-      {% endif %}
-      {% if hero.showButtonRight == true %}
-        <a class="[ mambo-anchor action ]" data-color="{{ hero.buttonRightColorCombo }}" href="{{ hero.buttonRightURL | md | safe }}">
-          {{ hero.buttonRightLabel | md | safe  }}
-        </a>
-      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>

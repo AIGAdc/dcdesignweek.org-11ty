@@ -4,6 +4,7 @@
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  padding: var(--size-88);
 }
 
 .mambo-hero {
@@ -65,6 +66,12 @@
 
 .roots>* {
   height: 300%;
+}
+
+.mambo-hero .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: var(--size-20);
 }
 
 @media screen and (min-width:48rem) {

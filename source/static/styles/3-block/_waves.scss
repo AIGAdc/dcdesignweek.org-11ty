@@ -20,3 +20,9 @@
 
 // Single Event Page
 .layout-single-event {}
+
+.wave svg path {
+  stroke: var(--dcdw-2022-yellow-primary);
+  stroke-width: 2;
+  paint-order: stroke;
+}

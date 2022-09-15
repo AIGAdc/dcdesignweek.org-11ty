@@ -1441,6 +1441,7 @@ input:checked + .slider:before {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  padding: var(--size-88);
 }
 
 .mambo-hero {
@@ -1501,6 +1502,12 @@ input:checked + .slider:before {
 
 .roots > * {
   height: 300%;
+}
+
+.mambo-hero .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: var(--size-20);
 }
 
 @media screen and (min-width: 48rem) {
@@ -1754,17 +1761,17 @@ input:checked + .slider:before {
 }
 
 .mambo-section {
-  padding: var(--size-20);
+  padding: var(--size-88) var(--size-20);
 }
 
 @media screen and (min-width: 40rem) {
   .mambo-section {
-    padding: var(--size-56);
+    padding: var(--size-88) var(--size-56);
   }
 }
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-88) var(--size-120);
+    padding: var(--size-120);
   }
 }
 .wave.left {
@@ -1897,6 +1904,12 @@ input:checked + .slider:before {
 
 .layout-page.event-events .wave-2022-brand-partner {
   fill: var(--dcdw-2022-maroon-secondary) !important;
+}
+
+.wave svg path {
+  stroke: var(--dcdw-2022-yellow-primary);
+  stroke-width: 2;
+  paint-order: stroke;
 }
 
 .wysiwyg > *:not(:first-child) {
