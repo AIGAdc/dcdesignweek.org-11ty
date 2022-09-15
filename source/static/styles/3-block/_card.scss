@@ -8,8 +8,10 @@
   object-position: center;
 }
 
-.mambo-card .details {
-  padding: var(--size-16);
+.mambo-card .details {}
+
+.mambo-card .details a {
+  font-weight: 800;
 }
 
 /* This is a hacky work around specifically for Speaker and Staff cards */

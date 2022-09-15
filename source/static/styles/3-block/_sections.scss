@@ -10,6 +10,10 @@
 
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-120);
+    padding: var(--size-88) var(--size-120);
   }
+}
+
+.wave.left {
+  transform: scaleX(-1);
 }
