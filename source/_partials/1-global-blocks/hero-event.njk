@@ -6,10 +6,10 @@
       </h1>
     </span>
     <div class="[ details ] ">
-      <span class="[ type ]">{{ eventDetails.filterType | safe }}</span> / 
-      <datetime class="[ weekday ]">{{ eventDetails.startDate | safe }}</datetime> / 
-      <datetime class="[ month ]">{{ eventDetails.startDate }}</datetime> /
-      <datetime class="[ time ]">{{ eventDetails.startDate | safe }}</datetime>
+      <span class="[ type ]">{{ eventDetails.filterType }}</span> / 
+      <datetime class="[ weekday ]">{{ eventDetails.startDate | day }}</datetime> / 
+      <datetime class="[ month ]">{{ eventDetails.startDate | month }}</datetime> /
+      <datetime class="[ time ]">{{ eventDetails.startDate | time }}</datetime>
     </div>
     <div class="[ buttons ]">
       {% for ticket in hero.tickets %}

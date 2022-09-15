@@ -1504,10 +1504,15 @@ input:checked + .slider:before {
   height: 300%;
 }
 
+.mambo-hero .details,
 .mambo-hero .buttons {
   display: flex;
   flex-wrap: wrap;
   grid-gap: var(--size-20);
+}
+
+.mambo-hero .details {
+  grid-gap: var(--size-8);
 }
 
 @media screen and (min-width: 48rem) {

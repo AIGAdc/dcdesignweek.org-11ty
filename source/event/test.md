@@ -15,8 +15,8 @@ hero:
         label: $00 - Non-Members
         url: "#"
 eventDetails:
-  startDate: 2022-09-08T00:29:03.333Z
-  endDate: 2022-09-08T00:29:03.345Z
+  startDate: 2022-10-14T23:30:03.333Z
+  endDate: ""
   filterDate: Friday 14th
   filterLocation: In-Person
   filterTime: Morning

@@ -37,6 +37,27 @@ module.exports = function (eleventyConfig) {
       .setLocale("en")
       .toISODate();
   });
+  eleventyConfig.addFilter("time", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('t');
+  });
+  eleventyConfig.addFilter("month", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('LLLL');
+  });
+  eleventyConfig.addFilter("day", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('EEEE');
+  });
   // Limit: Restricts the amount of items displayed in a collection
   eleventyConfig.addNunjucksFilter("limit", (arr, limit) =>
     arr.slice(0, limit)
