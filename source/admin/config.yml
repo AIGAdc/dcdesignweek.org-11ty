@@ -1288,6 +1288,49 @@ collections:
             name: statusLabel
             widget: string
             required: false
+          - label: Filter Date
+            name: filterDate
+            widget: select
+            options:
+              [
+                "Friday 14th",
+                "Saturday 15th",
+                "Sunday 16th",
+                "Monday 17th",
+                "Tuesday 18th",
+                "Wednesday 19th",
+                "Thursday 20th",
+                "Friday 21st",
+              ]
+            required: false
+          - label: Filter Location
+            name: filterLocation
+            widget: select
+            options: ["In-Person", "Zoom"]
+            required: false
+          - label: Filter Time
+            name: filterTime
+            widget: select
+            options: ["Morning", "Daytime", "Evening"]
+            required: false
+          - label: Filter Type
+            name: filterType
+            widget: select
+            options:
+              [
+                "Creative Breakfast",
+                "Creative Lunch",
+                "Keynote",
+                "Party",
+                "Talk/Panel",
+                "Workshop",
+              ]
+            required: false
+          - label: Filter Status
+            name: filterStatus
+            widget: select
+            options: [".mix:not(.past-event)", ".mix:not(.sold-out)"]
+            required: false
       - label: "Details"
         name: "details"
         widget: "markdown"
