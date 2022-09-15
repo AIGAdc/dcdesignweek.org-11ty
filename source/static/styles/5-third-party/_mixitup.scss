@@ -179,3 +179,39 @@
 //     width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
 //   }
 // }
+
+/* Pagination Controls
+---------------------------------------------------------------------- */
+
+.controls-pagination {
+  padding: 1rem;
+  font-size: 0.1px;
+  text-align: justify;
+}
+
+.controls-pagination:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.mixitup-page-list,
+.mixitup-page-stats {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mixitup-page-list {
+  text-align: left;
+}
+
+.mixitup-page-stats {
+  font-size: var(--size-20);
+  color: #333;
+  font-weight: bold;
+  font-family: 'helvetica', arial, sans-serif;
+}
+
+.mixitup-page-stats-disabled {
+  display: none;
+}

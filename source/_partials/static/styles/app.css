@@ -554,6 +554,41 @@ button.mambo-anchor.action {
 ---------------------------------------------------------------------- */
 /* Target Elements
 ---------------------------------------------------------------------- */
+/* Pagination Controls
+---------------------------------------------------------------------- */
+.controls-pagination {
+  padding: 1rem;
+  font-size: 0.1px;
+  text-align: justify;
+}
+
+.controls-pagination:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.mixitup-page-list,
+.mixitup-page-stats {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mixitup-page-list {
+  text-align: left;
+}
+
+.mixitup-page-stats {
+  font-size: var(--size-20);
+  color: #333;
+  font-weight: bold;
+  font-family: "helvetica", arial, sans-serif;
+}
+
+.mixitup-page-stats-disabled {
+  display: none;
+}
+
 /*!
  * Modals v10.1.2: Simple modal dialogue pop-up windows
  * (c) 2017 Chris Ferdinandi
