@@ -1335,10 +1335,6 @@ collections:
             widget: select
             options: [".mix:not(.past-event)", ".mix:not(.sold-out)"]
             required: false
-      - label: "Details"
-        name: "details"
-        widget: "markdown"
-        required: false
       - label: Speaker
         name: speaker
         allow_add: true

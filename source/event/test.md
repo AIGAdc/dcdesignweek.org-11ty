@@ -21,22 +21,21 @@ eventDetails:
   filterLocation: In-Person
   filterTime: Morning
   filterType: Creative Breakfast
-  description: d
-details: >-
-  ## D﻿escription and Details
+  description: >-
+    ## D﻿escription and Details
 
 
-  Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+    Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 
 
-  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+    * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 
-  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+    * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 
-  * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+    * Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 
 
-  Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+    Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
 speaker:
   - name: Hana Banana
     title: CEO
@@ -97,4 +96,14 @@ speaker:
       nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
       tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
       mattis.
+preparation: >-
+  ## P﻿reparation and Prerequisites
+
+
+  T﻿his text should be formatted in a google doc for easily pasting in on an event to event basis.
+a11y: >-
+  ## Accessibility
+
+
+  T﻿his text should be formatted in a google doc for easily pasting in on an event to event basis.
 ---

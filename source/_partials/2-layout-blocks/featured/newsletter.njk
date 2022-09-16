@@ -4,7 +4,6 @@
 padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in featured.subscribe %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{{ content.colorCombo }}" id="newsletter">
     <div class="[ container container-default ][ flex-flow flex-flow-column flex-flow-start ]">
       <h2>{{ content.header }}</h2>
-      {% include '1-global-blocks/divider.njk' %}
       <p>{{ content.body | safe }}</p>
     </div>
     <div class="[ container container-default ]">
