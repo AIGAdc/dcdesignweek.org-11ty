@@ -6,10 +6,10 @@ description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamuset
 layout: page
 permalink: /events/
 pageSettings:
-  headerColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
-  colorCombo: maroon-primary-on-cream
-  header: null
-  body: null
+  colorCombo:
+  header:
+  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat.
 ---

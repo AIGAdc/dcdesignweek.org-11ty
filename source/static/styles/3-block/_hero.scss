@@ -21,6 +21,11 @@
   //  transform: rotate(180deg);
 }
 
+.layout-single-committee .mambo-hero,
+.layout-page.event-events .mambo-hero,
+.layout-page.event-about .mambo-hero,
+.layout-page.event-committee .mambo-hero,
+.layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero {
   min-height: 50vh;
 }
@@ -46,12 +51,28 @@
   z-index: 100;
   width: auto;
   opacity: 1;
-  box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
 }
 
 .home-hero-blob svg {
   height: 80vh;
   width: auto;
+  text-align: center;
+}
+
+.home-page-blob {
+  position: absolute;
+  top: -32px;
+  right: 0;
+  bottom: 0;
+  left: -600px;
+  z-index: 100;
+  width: auto;
+  opacity: 1;
+}
+
+.home-page-blob svg {
+  height: auto;
+  width: 100%;
   text-align: center;
 }
 

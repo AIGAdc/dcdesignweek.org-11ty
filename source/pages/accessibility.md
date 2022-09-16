@@ -6,7 +6,7 @@ description: DC Design Week is committed to improving accessibility and
 layout: page
 permalink: /accessibility/
 pageSettings:
-  headerColorCombo: cream-on-maroon-primary
+  headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo: maroon-primary-on-cream

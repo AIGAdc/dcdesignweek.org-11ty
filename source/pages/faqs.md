@@ -9,7 +9,7 @@ pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
-  colorCombo: maroon-primary-on-cream
+  colorCombo:
   header:
-  body:
+  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat.
 ---

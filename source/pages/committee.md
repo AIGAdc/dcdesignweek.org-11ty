@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus
 layout: page
 permalink: /committee/
 pageSettings:
-  headerColorCombo: cream-on-maroon-primary
+  headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo: maroon-primary-on-cream
