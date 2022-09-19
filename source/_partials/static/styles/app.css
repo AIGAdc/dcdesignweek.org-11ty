@@ -945,6 +945,35 @@ button.mambo-anchor.action {
   width: 100%;
 }
 
+body {
+  border-top: solid 1rem black !important;
+}
+
+@media screen and (min-width: 30rem) {
+  body {
+    border-top: solid 1rem orange !important;
+  }
+}
+@media screen and (min-width: 40rem) {
+  body {
+    border-top: solid 1rem purple !important;
+  }
+}
+@media screen and (min-width: 48rem) {
+  body {
+    border-top: solid 1rem green !important;
+  }
+}
+@media screen and (min-width: 64rem) {
+  body {
+    border-top: solid 1rem red !important;
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  body {
+    border-top: solid 1rem navy !important;
+  }
+}
 /* 
 💐 
 
@@ -1456,8 +1485,8 @@ input:checked + .slider:before {
   place-content: center;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
   padding: var(--size-88);
+  z-index: 100;
 }
 
 .mambo-hero {
@@ -1479,7 +1508,7 @@ input:checked + .slider:before {
 .layout-page.event-committee .mambo-hero,
 .layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero {
-  min-height: 50vh;
+  min-height: 40vh;
 }
 
 .mambo-hero .container {
@@ -1513,21 +1542,33 @@ input:checked + .slider:before {
 
 .home-page-blob {
   position: absolute;
-  top: -32px;
+  top: -88px;
   right: 0;
   bottom: 0;
-  left: -600px;
+  left: -300px;
   z-index: 100;
-  width: auto;
-  opacity: 1;
 }
 
 .home-page-blob svg {
-  height: auto;
   width: 100%;
-  text-align: center;
 }
 
+@media screen and (min-width: 64rem) {
+  .home-page-blob {
+    top: -40px;
+    left: -600px;
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  .home-page-blob {
+    top: -40px;
+    left: -1280px;
+  }
+  .home-page-blob svg {
+    height: 100%;
+    width: 110%;
+  }
+}
 .roots {
   position: absolute;
   top: -500px;
@@ -1871,6 +1912,7 @@ input:checked + .slider:before {
 .mambo-header {
   border-bottom: solid 1px currentColor;
   padding: var(--size-16);
+  z-index: 10000;
 }
 
 .mambo-header svg {

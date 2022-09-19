@@ -1,8 +1,6 @@
 ---
 title: FAQs
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus
-  et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc
-  varius.
+description: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
 layout: page
 permalink: /faqs/
 pageSettings:
@@ -11,5 +9,5 @@ pageSettings:
 hero:
   colorCombo:
   header:
-  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat.
+  body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
 ---

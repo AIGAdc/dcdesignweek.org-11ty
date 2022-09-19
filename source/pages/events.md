@@ -1,8 +1,6 @@
 ---
 title: Events
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamuset
-  quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc
-  varius.
+description: Whether one of your creative friends brought you here for the first time or you’ve been to every single DC Design Week, we’re thrilled to have you.
 layout: page
 permalink: /events/
 pageSettings:
@@ -11,5 +9,5 @@ pageSettings:
 hero:
   colorCombo:
   header:
-  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat.
+  body: Whether one of your creative friends brought you here for the first time or you’ve been to every single DC Design Week, we’re thrilled to have you.
 ---
