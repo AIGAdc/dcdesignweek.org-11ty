@@ -1502,6 +1502,7 @@ input:checked + .slider:before {
   transform: scaleY(2);
 }
 
+.layout-page.event-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
@@ -1525,19 +1526,13 @@ input:checked + .slider:before {
 
 .home-hero-blob {
   position: absolute;
-  top: 0;
+  top: 96px;
   right: 0;
   bottom: 0;
   left: -480px;
   z-index: 100;
   width: auto;
   opacity: 1;
-}
-
-.home-hero-blob svg {
-  height: 80vh;
-  width: auto;
-  text-align: center;
 }
 
 .home-page-blob {
@@ -1553,13 +1548,37 @@ input:checked + .slider:before {
   width: 100%;
 }
 
+@media screen and (min-width: 48rem) {
+  .home-hero-blob {
+    top: -120px;
+    left: -400px;
+  }
+  .home-hero-blob svg {
+    height: 100%;
+    width: 110%;
+  }
+}
 @media screen and (min-width: 64rem) {
+  .home-hero-blob {
+    top: 400px;
+    left: -400px;
+  }
+  .home-hero-blob svg {
+    width: 120%;
+  }
   .home-page-blob {
     top: -40px;
     left: -600px;
   }
 }
 @media screen and (min-width: 85.375rem) {
+  .home-hero-blob {
+    top: 400px;
+    left: 96px;
+  }
+  .home-hero-blob svg {
+    width: 100%;
+  }
   .home-page-blob {
     top: -40px;
     left: -1280px;
