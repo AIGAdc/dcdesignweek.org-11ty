@@ -8,7 +8,7 @@ pageSettings:
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo: maroon-primary-on-cream
-  header: Designing in Resilence Together
+  header: Designing in resilence together
   body: The DC, Maryland, and Virginia area has a proud design community, and this
     year we’ll be emphasizing the word “community” more than ever. You’ll see
     events rooted in connection, recovery, and curiosity—with an eye toward

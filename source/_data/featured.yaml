@@ -11,12 +11,12 @@ a11y:
     linkLabel: View accessibility statement
 
 brand:
-  - header: 2022 Brand Partner
+  - header: 2022 brand partner
     body: Big thanks to Brllnt and Scrap Strategies for developing the DCDW 2022 brand! Brllnt is a collective of Women- and BIPOC-owned creative small businesses that provide human-centered design, brand strategy, and user experience to mission-driven teams. Scrap Strategies is a market and business strategy firm using research, data, and automation to supercharge business growth by distilling human-first practices.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: https://www.brllnt.co/
-    linkLabel: View Brllnt's Website
+    linkLabel: View Brllnt's website
     colorCombo: maroon-primary-on-cream
 
 codeOfConduct:
@@ -39,12 +39,12 @@ events:
     colorCombo: maroon-primary-on-cream-secondary
 
 faqs:
-  - header: FAQs
+  - header: FAQ
     body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: /faqs/
-    linkLabel: View FAQs
+    linkLabel: View FAQ
     colorCombo: maroon-primary-on-cream
 
 joinDCDW:
@@ -64,8 +64,11 @@ makers:
     linkLabel: Lorem ipsum (TBA)
 
 sponsors:
-  - header: Sponsors and Partners
-    body: DC Design Week wouldn’t be the same without your support. Thank you! If you’re interested in partnering with DC Design Week this year, [let us know at designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).
+  - header: Sponsors and partners
+    body: "DC Design Week is 100% volunteer-run, and it wouldn’t be the same without our partners and sponsors. Thank you for your support! 
+    
+
+    We’re always looking for organizations that can help ensure every event is as accessible and inclusive as possible. If you’re interested in sponsoring DC Design Week this year, [let us know at designweek@dc.aiga.org](mailto:designweek@dc.aiga.org)."
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
     linkURL: /about/
@@ -79,7 +82,7 @@ subscribe:
 
 theme:
   - header: About DC Design Week
-    body: "DC Design Week (DCDW) is an annual celebration of the DC, Maryland, and Virginia region’s creative community—an ever-growing body of professionals, makers, and voices working across design disciplines. Each year, a committee of volunteers led by AIGA DC Board Members collaborates with local designers, businesses, and organizations to host a variety of events showcasing the work, creativity, and relationships thriving in this area. 
+    body: "DC Design Week (DCDW) is an annual celebration of the DC, Maryland, and Virginia region’s creative community — an ever-growing body of professionals, makers, and voices working across design disciplines. Each year, a committee of volunteers led by AIGA DC Board Members collaborates with local designers, businesses, and organizations to host a variety of events showcasing the work, creativity, and relationships thriving in this area. 
     
     
     Given the uncertainty of the last two years, our 2022 themes are resilience and the power of community. Together over the course of eight days, we’ll nurture curiosity and connections through more than 15 creative events, including sessions led by renowned design agencies, workshops with local makers, and restorative gatherings to keep you centered."

@@ -1,5 +1,5 @@
 ---
-title: Accessibility
+title: Commitment to accessibility
 description: DC Design Week is committed to improving accessibility and
   inclusion efforts each year. We recognize this is a journey and we are still
   far from our ideal.
@@ -17,11 +17,8 @@ hero:
 sections:
   - section:
       colorCombo: maroon-primary-on-white
-      header: What are we aiming to?
+      header: "This accessibility statement aims to:"
       body: >-
-        This accessibility statement aims to:
-
-
         * Provide transparency on our efforts 
 
         * List accommodations we can and cannot provide
@@ -39,11 +36,14 @@ sections:
         Speakers are strongly recommended to:
 
 
-        * Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/).
+        * Complete a Google Sheets accessibility checklist based on [Allison Ravenhall’s article Inclusive Design for Accessible Presentations.](https://www.smashingmagazine.com/2018/11/inclusive-design-accessible-presentations/)
 
-        * Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.\
+        * Attend an inclusive presentation seminar, read an inclusive presentation handout, and review Allison’s article.
 
-          The DC Design Week and AIGA DC teams are working on:
+
+        The DC Design Week and AIGA DC teams are working on:
+
+
         * Targeting WCAG 2.1 AA compliance for our website and presentation materials which includes meaningful alt text, respecting reduced motion preferences, and understandable heading structures. We can’t cover everything as a small team of volunteers, so if you see something wrong please let us know at [designweek@dc.aiga.org](mailto:designweek@dc.aiga.org).
 
         * Creating more documentation and templates for DCDW accessibility including:
@@ -64,9 +64,9 @@ sections:
 
         * Real time CART (live captioning) services and transcriptions for virtual events.
 
-        * Some [recordings will be shared with captions in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. 
+        * Some recordings will be shared with captions in the [AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. 
 
-        * If you’re not an AIGA member, you can [register for a membership on our website](https://www.aiga.org/membership-community/aiga-membership). We’re a 100% non-profit entity, so this goes a long way to keeping us afloat. 
+          * If you’re not an AIGA member, you can [register for a membership on our website](https://www.aiga.org/membership-community/aiga-membership). We’re a 100% non-profit entity, so this goes a long way to keeping us afloat. 
           * AIGA National is currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone. If you have difficulties registering or accessing the recordings in its current state, please let us know at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org).
           * We can’t guarantee that all of our events will be able to share recordings as some talks may contain classified information. If we’re unable to do so, we’ll disclose that ahead of time in each of the event’s descriptions.
         * Volunteers at every event monitoring chats and conversations for [compliance to AIGA’s code of conduct](https://dc.aiga.org/events/code-of-conduct/).
@@ -102,7 +102,7 @@ sections:
 
         * Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
 
-        * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+        * [Request an accommodation through our Google Form.](https://forms.gle/fPsJ3JV59W3wrmPs7)
 
 
         We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
