@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
       .setLocale("en")
       .toISODate();
   });
+  // localized time -> "9:00 AM"
   eleventyConfig.addFilter("time", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "America/New_York",
@@ -44,6 +45,7 @@ module.exports = function (eleventyConfig) {
       .setLocale("en")
       .toFormat('t');
   });
+  // month as an unabbreviated localized string -> "August"
   eleventyConfig.addFilter("month", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "America/New_York",
@@ -51,12 +53,37 @@ module.exports = function (eleventyConfig) {
       .setLocale("en")
       .toFormat('LLLL');
   });
+  // month as a padded number -> "08"
+  eleventyConfig.addFilter("monthShort", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('LL');
+  });
+  // day of the week, as an unabbreviated localized string -> "Wednesday"
   eleventyConfig.addFilter("day", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "America/New_York",
     })
       .setLocale("en")
       .toFormat('EEEE');
+  });
+  // Renders to day of the week, as an abbreviate localized string -> "Wed"
+  eleventyConfig.addFilter("dayShort", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('EEE');
+  });
+  // Renders to Day of the month, padded to 2 -> "06"
+  eleventyConfig.addFilter("date", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "America/New_York",
+    })
+      .setLocale("en")
+      .toFormat('dd');
   });
   // Limit: Restricts the amount of items displayed in a collection
   eleventyConfig.addNunjucksFilter("limit", (arr, limit) =>
