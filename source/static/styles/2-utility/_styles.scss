@@ -8,14 +8,17 @@
 
 .container-small {
   max-width: 896px;
+  position: relative;
 }
 
 .container-default {
   max-width: 1366px;
+  position: relative;
 }
 
 .container-large {
   max-width: 1650px;
+  position: relative;
 }
 
 .disabled {

@@ -1,16 +1,25 @@
 <section class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-cream" id="{{ hero.header | slug }}">
   <div class="[ container container-default ][ flow ]">
-    {% if hero.header %}
-      <span id="skip-to-content">
-        <h1>{{ hero.header | md | safe }}</h1>
-      </span>
-    {% endif %}
-    {% if hero.body %}
-      <div class="[ wysiwyg ]">{{ hero.body | md | safe }}</div>
-    {% endif %}
-  </div>
-  <div class="home-hero-blob">
-    {% include 'static/images/hero/hero-home-blob.svg' %}
+    <div class="hero-content">
+      {% if hero.header %}
+        <span id="skip-to-content">
+          <h1>{{ hero.header | md | safe }}</h1>
+        </span>
+      {% endif %}
+      {% if hero.body %}
+        <div class="[ wysiwyg ]">{{ hero.body | md | safe }}</div>
+      {% endif %}
+    </div>
+    <div class="home-hero-blob">
+      {% include 'static/images/hero/hero-home-blob.svg' %}
+    </div>
+    <div class="home-hero-date-blob">
+      <div class="home-hero-date">
+        <datetime>October</datetime>
+        <datetime>14-21</datetime>
+      </div>
+      {% include 'static/images/hero/hero-home-date-blob.svg' %}
+    </div>
   </div>
   <div class="roots" id="scene">
     <div data-depth="0.1">

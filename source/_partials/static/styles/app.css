@@ -845,14 +845,17 @@ button.mambo-anchor.action {
 
 .container-small {
   max-width: 896px;
+  position: relative;
 }
 
 .container-default {
   max-width: 1366px;
+  position: relative;
 }
 
 .container-large {
   max-width: 1650px;
+  position: relative;
 }
 
 .disabled {
@@ -1451,15 +1454,47 @@ input:checked + .slider:before {
   max-width: 10ch;
 }
 
+.hero-content {
+  position: relative;
+  z-index: 2000;
+}
+
 .home-hero-blob {
   position: absolute;
-  top: 96px;
+  top: 0;
   right: 0;
   bottom: 0;
   left: -480px;
-  z-index: 100;
-  width: auto;
-  opacity: 1;
+  z-index: 1000;
+  transform: translate(0%, -65%);
+}
+
+.home-hero-date-blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1500;
+  transform: translate(10%, -80%);
+  margin-top: 0 !important;
+}
+
+.home-hero-date {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-weight: 900;
+  font-size: var(--size-20);
+  position: absolute;
+  text-align: center;
+  transform: translate(45%, 50%);
+}
+
+.home-hero-date datetime {
+  margin-bottom: -8px;
+}
+
+.home-hero-date-blob svg {
+  width: 144px;
 }
 
 .home-page-blob {
@@ -1480,6 +1515,13 @@ input:checked + .slider:before {
     top: -120px;
     left: -400px;
   }
+  .home-hero-date {
+    font-size: var(--size-32);
+    transform: translate(35%, 40%);
+  }
+  .home-hero-date-blob svg {
+    width: 200px;
+  }
   .home-hero-blob svg {
     height: 100%;
     width: 110%;
@@ -1492,6 +1534,14 @@ input:checked + .slider:before {
   }
   .home-hero-blob svg {
     width: 120%;
+  }
+  .home-hero-date-blob {
+    top: 0;
+    right: unset;
+    left: -32px;
+    z-index: 1500;
+    transform: translate(10%, -80%);
+    margin-top: 0 !important;
   }
   .home-page-blob {
     top: -40px;
