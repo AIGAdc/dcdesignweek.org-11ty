@@ -2,9 +2,12 @@
   <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
       <div class="[ flow ]">
-        <h2>{{ content.section.header | md | safe }}</h2>
-        {% include "1-global-blocks/divider.njk" %}
-        <div class="[ wysiwyg ]">{{ content.section.body | md | safe }}</div>
+        <h2>
+          {{ content.section.header | md | safe }}
+        </h2>
+        <div class="[ wysiwyg ]">
+          {{ content.section.body | md | safe }}
+        </div>
       </div>
     </div>
   </section>
