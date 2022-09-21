@@ -1,21 +1,47 @@
-{% for content in featured.brand %}
-  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
-    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
-      <div class="[ flow ]">
-        <h2>{{ content.header | md | safe }}</h2>
-        <p>{{ content.body | md | safe }}</p>
-        <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
-          {{ content.linkLabel | safe }}
-          <span>
-            <i class="fa-solid fa-arrow-right"></i>
-          </span>
-        </a>
+{% if page.url == "/" %}
+  {% for content in featured.brand %}
+    <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
+      <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+        <div class="[ flow ]">
+          <h2>{{ content.header | md | safe }}</h2>
+          <p>{{ content.body | md | safe }}</p>
+          <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+            {{ content.linkLabel | safe }}
+            <span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+        {% if content.image %}
+          <figure>
+            <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+          </figure>
+        {% endif %}
       </div>
-      {% if content.image %}
-        <figure>
-          <img alt="{{ content.imageALT }}" src="{{ content.image }}">
-        </figure>
-      {% endif %}
-    </div>
-  </section>
-{% endfor %}
+    </section>
+  {% endfor %}
+{% endif %}
+
+{% if page.url == "/about/" %}
+  {% for content in featured.brand %}
+    <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="{{ content.header | slug }}">
+      <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+        <div class="[ flow ]">
+          <h2>{{ content.header | md | safe }}</h2>
+          <p>{{ content.body | md | safe }}</p>
+          <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+            {{ content.linkLabel | safe }}
+            <span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+        {% if content.image %}
+          <figure>
+            <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+          </figure>
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+{% endif %}

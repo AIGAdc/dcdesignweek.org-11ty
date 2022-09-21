@@ -1,11 +1,15 @@
 {% for content in featured.events %}
-  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
+  <section class="[ mambo-section ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
       <div class="[ column-span-two ]">
-        <h2>{{ content.header | md | safe }}</h2>
-        <p>{{ content.body | md | safe }}</p>
+        <h2>
+          {{ content.header | md | safe }}
+        </h2>
+        <p>
+          {{ content.body | md | safe }}
+        </p>
       </div>
-      <ul class="[ faqs-list ][ column-span-four ][ grid-flow grid-three-columns ]">
+      <ul class="[ events-list ][ column-span-four ][ grid-flow grid-three-columns ]">
         {% for event in collections.event | reverse | limit(3) %}
           <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
             <div class="[ media ]">
@@ -26,23 +30,37 @@
             </div>
             <div class="[ details ]">
               <a href="{{ event.url }}">
-                <h3 class="[ title ]">{{event.data.title}}</h3>
+                <h3 class="[ title ]">
+                  {{ event.data.title | safe }}
+                </h3>
               </a>
             </div>
             <div class="[ meta ]">
               <div class="[ day-date ]">
-                <p class="[ day ]">{{ event.data.eventDetails.startDate | dayShort }}</p>
+                <p class="[ day ]">
+                  {{ event.data.eventDetails.startDate | dayShort }}
+                </p>
                 <div>
-                  <datetime class="[ date ]">{{ event.data.eventDetails.startDate | monthShort }}</datetime>.
-                  <datetime class="[ date ]">{{ event.data.eventDetails.startDate | date }}</datetime>
+                  <datetime class="[ date ]">
+                    {{ event.data.eventDetails.startDate | monthShort }}
+                  </datetime>
+                  <span style="color: currentColor;">.</span>
+                  <datetime class="[ date ]">
+                    {{ event.data.eventDetails.startDate | date }}
+                  </datetime>
                 </div>
-                <span>{% include "static/images/blob-date.svg" %}</span>
+                <span>
+                  {% include "static/images/blob-date.svg" %}
+                </span>
               </div>
               <div class="[ time-location ]">
-                <datetime class="[ time ]">{{ event.data.eventDetails.startDate | time }}</datetime>
-                <p class="[ location ]">Location</p>
+                <datetime class="[ time ]">
+                  {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
+                </datetime>
+                <p class="[ location ]">
+                  {{ event.data.eventDetails.location }}
+                </p>
               </div>
-              {# <datetime class="[ time ]">{{ event.date | readableEventDate }}</datetime> #}
             </div>
           </li>
         {% endfor %}
@@ -50,9 +68,6 @@
       <div class="[ column-span-one ]">
         <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
           {{ content.linkLabel | safe }}
-          <span>
-            <i class="fa-solid fa-arrow-right"></i>
-          </span>
         </a>
       </div>
     </div>
@@ -60,7 +75,7 @@
 {% endfor %}
 <!-- Wave -->
 <div class="[ wave right ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-primary); !important;">
-  <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+  <svg id="svg" viewBox="0 0 1440 300" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
     <style>
       .path-0 {
         animation: pathAnim-0 60s;

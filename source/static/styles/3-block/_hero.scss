@@ -28,7 +28,7 @@
 .layout-page.event-committee .mambo-hero,
 .layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero {
-  min-height: 40vh;
+  min-height: 5vh;
 }
 
 .mambo-hero .container {
@@ -166,6 +166,16 @@
   .home-page-blob svg {
     height: 100%;
     width: 110%;
+  }
+
+  .layout-page.event-accessibility .mambo-hero,
+  .layout-single-committee .mambo-hero,
+  .layout-page.event-events .mambo-hero,
+  .layout-page.event-about .mambo-hero,
+  .layout-page.event-committee .mambo-hero,
+  .layout-page.event-faqs .mambo-hero,
+  .layout-single-event .mambo-hero {
+    margin-bottom: -144px;
   }
 }
 
