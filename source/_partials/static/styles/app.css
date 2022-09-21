@@ -1007,12 +1007,14 @@ h1,
 
 h2,
 .heading-2 {
+  font-family: var(--dcdw-2022-brand-recursive);
   font-size: var(--size-24);
 }
 
 h3,
 .heading-3 {
-  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-size: var(--size-16);
 }
 
 @media screen and (min-width: 48rem) {
@@ -1039,7 +1041,7 @@ h3,
   }
   h3,
 .heading-3 {
-    font-size: var(--size-20);
+    font-size: var(--size-18);
   }
 }
 .mobile {
