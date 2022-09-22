@@ -1,25 +1,4 @@
 ---
-title: Designing for Google’s COVID response … and more! (IN-PERSON & VIRTUAL OPTIONS)
-description: Hear how Googlers brought years of experience designing for crises
-  to the biggest of our lifetimes. Plus, meet the new design teams in DC!
-pageSettings:
-  headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
-hero:
-  tickets:
-    - ticket:
-        label: $5 — Members
-        url: "#"
-        showButton: true
-        CclorCombo: cream-on-maroon-primary
-    - ticket:
-        showButton: true
-        label: $10 — Non-members
-        url: "#"
-        CclorCombo: cream-on-maroon-primary
-  featuredImage:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: Test
 eventDetails:
   statusLabel: Featured on Home
   filterTime: Morning
@@ -27,7 +6,7 @@ eventDetails:
   endDate: 2022-10-18T14:30:00.000Z
   statusType: Featured on Home
   filterLocation: Hybrid
-  startDate: 2022-10-18T13:00:49.601Z
+  startDate: 2022-10-18T13:00:00.000Z
   filterType: Creative Breakfast
   location:
     - name: Hybrid
@@ -65,6 +44,27 @@ eventDetails:
 
 
     25 Massachusetts Ave NW, 9th floor, “The White Space”
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+title: Designing for Google’s COVID response … and more! (IN-PERSON & VIRTUAL OPTIONS)
+description: Hear how Googlers brought years of experience designing for crises
+  to the biggest of our lifetimes. Plus, meet the new design teams in DC!
+hero:
+  tickets:
+    - ticket:
+        label: $5 — Members
+        url: "#"
+        showButton: true
+        colorCombo: cream-on-maroon-primary
+    - ticket:
+        showButton: true
+        label: $10 — Non-members
+        url: "#"
+        colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Test
 speaker:
   - name: Liora Yuklea
     pronouns: she | her | hers

@@ -11,12 +11,12 @@ hero:
         showButton: true
         label: $10 — Members
         url: "#"
-        CclorCombo: cream-on-maroon-primary
+        colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $15  — Non-members
         url: "#"
-        CclorCombo: cream-on-maroon-primary
+        colorCombo: cream-on-maroon-primary
 eventDetails:
   startDate: 2022-10-20T13:00:35.993Z
   endDate: 2022-10-20T14:15:36.005Z

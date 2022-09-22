@@ -6,6 +6,11 @@ const {
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addFilter('sortByStartDate', values => {
+    return values.slice().sort((a, b) => a.data.startDate.localeCompare(b.data.startDate))
+  })
+
   // 11ty Data Extension
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
