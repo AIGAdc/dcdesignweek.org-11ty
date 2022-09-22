@@ -4,6 +4,9 @@ title: Reimagining the future of work through thoughtful architecture & design
 description: Learn how Morning Consult adopted a hybrid work model through
   thoughtful design of their new office, enabling flexibility for their
   employees.
+pageSettings:
+  headerColorCombo: maroon-primary-on-cream
+  mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   tickets:
     - ticket:
@@ -20,7 +23,7 @@ eventDetails:
   startDate: 2022-10-20T22:00:25.959Z
   endDate: 2022-10-20T23:30:25.967Z
   description: |-
-    ﻿
+    
 
     \## Venue
 
@@ -38,10 +41,10 @@ speaker:
     bio: >-
       With over twenty years of expertise, Jeighdeane is passionate about
       designing industry-leading facilities programs and creating spaces
-      optimized for productivity.﻿
+      optimized for productivity.
 
 
-      [L﻿inkedIn](<http://linkedin.com/in/jeighdeaneking >)
+      [LinkedIn](<http://linkedin.com/in/jeighdeaneking >)
   - name: Vince Wanga
     pronunciation: ""
     pronouns: he | him | his
@@ -55,10 +58,10 @@ speaker:
       companies from the newly-founded to the Fortune 500. With an abundance of
       aptitudes acquired through the years, he looks at the world with a
       critical creative eye while empathetically analyzing the eloquence and
-      human consequence of our craft.﻿
+      human consequence of our craft.
 
 
-      [W﻿ebsite](https://www.vwanga.com/)
+      [Website](https://www.vwanga.com/)
 a11y: You can learn more about how we’re making DC Design Week an accessible
   experience by visiting our \[accessibility statement](/accessibility/).
 ---

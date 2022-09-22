@@ -1,0 +1,115 @@
+---
+title: Elevating community voices to create a uniquely DC exhibit
+description: Learn how a community-centered design process helped develop and
+  prototype MLK Library’s permanent exhibit before engaging with it yourself.
+pageSettings:
+  headerColorCombo: maroon-primary-on-cream
+  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+hero:
+  tickets:
+    - ticket:
+        showButton: true
+        label: $10 — Members
+        url: "#"
+        CclorCombo: cream-on-maroon-primary
+    - ticket:
+        showButton: true
+        label: $15 — Non-members
+        url: "#"
+        CclorCombo: cream-on-maroon-primary
+eventDetails:
+  startDate: 2022-10-17T16:00:55.800Z
+  endDate: 2022-10-17T17:00:55.811Z
+  description: >-
+    Join the DC Public Library and the design team behind the community-centered
+    permanent exhibit installed as a part of the modernization of the Martin
+    Luther King Jr. Memorial Library.
+
+
+
+    Learn how deep design research with long-time residents, local creatives, and teens informed design concepts prototyped with people  in all four quadrants of DC at various neighborhood library branches, and how this prototyping led to the now completed program. Explore how community interactions were developed, tested, and are now live as residents engage with an exhibits program that is resonant, vibrant, and unambiguously community-driven.
+
+
+
+    After a talk featuring the design process, participants are invited to explore the exhibit itself.
+
+
+
+
+    ## Venue
+
+
+    Venue name: Martin Luther King Jr. Memorial Library, Conference Room Venue Info: 901 G St NW, Washington, DC 20001, United States
+  filterDate: Monday 17th
+  filterLocation: In-Person
+  filterTime: Daytime
+  filterType: Talk/Panel
+speaker:
+  - name: Linnea Hegarty
+    pronunciation: ""
+    title: Director of Events, Exhibits & Development at DC Public Library
+    pronouns: she | her | hers
+    bio: >-
+      Linnea Hegarty is the Director of Events, Exhibits & Development at DC
+      Public Library, where she manages the permanent and temporary art and
+      historical exhibits at the MLK Library and 25 neighborhood libraries. She
+      also leads the revenue-generating programs at the Library, including the
+      event rental program and DCPL's partnership with DC Central Kitchen, which
+      operates Marianne's Cafe at MLK.
+
+
+      [Website](https://www.dclibrary.org/)
+  - name: Monica Coghlan
+    pronouns: she | her | hers
+    title: Director of Design, Studio Joseph
+    bio: >-
+      Monica Coghlan is the Director of Design for Studio Joseph, an
+      architecture and exhibition design firm located in New York City.
+
+
+      [Website](https://studiojoseph.com/)
+  - name: Jamal Gray
+    pronouns: he | him | his
+    title: Director of Events, Exhibits & Development at DC Public Library
+    bio: >-
+      Jamal Gray, a native Washingtonian, is a musician, organizer, and curator.
+      He is the Program Engagement Coordinator at Cultural DC.
+
+
+      [Cultural DC Website](https://www.culturaldc.org/)
+  - name: Vinay Kumar Mysore
+    pronouns: he | they
+    title: Senior design researcher, Openbox
+    bio: >-
+      Vinay Kumar, an Indo-Canadian design researcher and creative based in
+      Brooklyn, NY, is a project lead and senior design researcher at Openbox.
+
+
+      [Openbox](https://www.opnbx.com/)
+a11y: >-
+  ## Accessibility
+
+
+  A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+
+
+  The venue is ADA accessible.
+
+
+
+  Accessible bathrooms are available at the venue.
+
+
+
+  If you need any additional accommodations, please contact us using a method that works best for you:
+
+
+  * [Email our accessibility team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)
+
+  * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
+
+  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+    We honor your privacy. No identifying information like your name is required to request an accomodation, and all details will be deleted once completed.
+    You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+---

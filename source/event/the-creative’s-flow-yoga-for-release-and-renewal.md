@@ -3,6 +3,9 @@ title: "The creative’s flow: Yoga for release and renewal"
 description: Identify, process, and release stagnant energy and tension with a
   yoga and mindfulness experience for BIPOC, created to meet your specific needs
   in the moment.
+pageSettings:
+  headerColorCombo: maroon-primary-on-cream
+  mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   tickets:
     - ticket:
@@ -21,7 +24,7 @@ eventDetails:
   description: |-
     
 
-    \#﻿# Location
+    ## Location
 
     Venue Info: 325 Morse St NE Suite 4, Washington, DC 20002
   filterDate: Saturday 15th
