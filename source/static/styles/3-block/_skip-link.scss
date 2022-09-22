@@ -3,18 +3,22 @@
 .link-back-to-top {
   display: block;
   padding: var(--size-16);
-  scroll-margin-top: 88px;
+  scroll-margin-top: 120px;
 }
 
 .link-skip-to-content {
   border-bottom: solid 1px currentColor;
   position: absolute;
-  transform: translateY(-88px);
+  transform: translateY(-120px);
 }
 
 .link-skip-to-content:focus,
 .link-skip-to-content.events:focus {
   transform: translateY(0px);
+  position: relative;
+  text-decoration: underline;
+  font-weight: 700;
+  z-index: 10000;
 }
 
 .link-skip-to-content.events {

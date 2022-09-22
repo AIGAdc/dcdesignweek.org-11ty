@@ -51,6 +51,12 @@
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+    <!-- Component: Link - Skip to Top -->
+    <a class="[ link-skip-to-content ]" data-color="maroon-primary-on-cream-secondary" href="#content">
+      <div class="[ container container-default ]">
+          Skip to Main
+          </div>
+    </a>
     {% include '1-global-blocks/site-header.njk' %}
     <main id="content">
       {% block content %}
@@ -58,12 +64,12 @@
       {% endblock %}
     </main>
     {% include '2-layout-blocks/featured/newsletter.njk' %}
-    <section>
-      <div class="[ container-default ]">
+    <section class="[ link-back-to-top ][ flow-none ]" data-color="cream-on-maroon-primary">
+      <div class="[ container container-default ]">
         <!-- Component: Link - Skip to Top -->
-        <a class="[ link-back-to-top ][ flow-none ]" data-color="cream-on-maroon-primary" href="#content" style="border-bottom: solid 1px currentColor;">
-        Back to Top
-      </a>
+        <a class="[ mambo-anchor ]" href="#content">
+          Back to Top
+        </a>
       </div>
     </section>
     {% include '1-global-blocks/site-footer.njk' %}

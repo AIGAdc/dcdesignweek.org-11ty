@@ -1,8 +1,7 @@
 <!-- Component: Newsletter -->
 {% for content in featured.subscribe %}
-  <section class="[ mambo-section ][ flex-flow flex-flow-column  ][ padding-all-20 padding-top-80
-padding-bottom-80 break-2:padding-all-56 break-5:padding-all-120 ][ {% for content in featured.subscribe %} {{ content.colorCombo | safe }} {% endfor %} ]" data-color="{{ content.colorCombo }}" id="newsletter">
-    <div class="[ container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
+  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="newsletter">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
       <div class="[ flow ][ column-span-two ]">
         <div>
           <h2>{{ content.header }}</h2>
