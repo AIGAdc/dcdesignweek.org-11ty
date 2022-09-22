@@ -13,8 +13,8 @@
     </div>
     <div class="[ buttons ]">
       {% for ticket in hero.tickets %}
-        <a class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url | md | safe }}">
-          {{ ticket.ticket.label | safe }}
+        <a class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
+          {{ ticket.ticket.label | md | safe }}
         </a>
       {% endfor %}
     </div>
