@@ -6,7 +6,7 @@
         {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
-    <ul class="[ list ]">
+    <ul class="[ list desktop ]">
       <li>
         <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
           Events
@@ -24,15 +24,17 @@
       </li>
       <li>
         <a class="[ mambo-anchor ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">
-          FAQs
+          FAQ
         </a>
       </li>
-      <li class="[ mobile ]">
+    </ul>
+    <ul class="list mobile">
+      <li>
         <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini data-houdini-button="Menu" data-houdini-label id="show-me">
           <ul>
             <li>
               <a class="[ mambo-anchor ]" href="/faqs/">
-                FAQs
+                Menu
               </a>
             </li>
           </ul>

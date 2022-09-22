@@ -1045,10 +1045,22 @@ h3,
     font-size: var(--size-18);
   }
 }
-.mobile {
+.list.mobile {
+  display: block;
+}
+
+.list.desktop {
   display: none;
 }
 
+@media screen and (min-width: 40rem) {
+  .list.desktop {
+    display: flex;
+  }
+  .list.mobile {
+    display: none;
+  }
+}
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;

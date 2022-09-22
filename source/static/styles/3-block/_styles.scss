@@ -1,5 +1,21 @@
 .meta {}
 
-.mobile {
+.list.mobile {
+  display: block;
+}
+
+.list.desktop {
   display: none;
+}
+
+// 768px
+@media screen and (min-width:40rem) {
+
+  .list.desktop {
+    display: flex;
+  }
+
+  .list.mobile {
+    display: none;
+  }
 }
