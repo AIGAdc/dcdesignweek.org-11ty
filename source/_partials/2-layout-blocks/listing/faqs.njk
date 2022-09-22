@@ -28,48 +28,47 @@
     <path d="M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
   </svg>
 </div>
-<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="faqs">
-  <div class="[ container container-default ][ flow ]">
-    <h2>2022 DC Design Week FAQs</h2>
-    <div class="[ grid grid--align-start  ] [ grid-flow grid-flow-start grid-three-fourths ]">
-      <!-- Main FAQs -->
-      <ul class="[ faqs-list ] [  ] [ flow ]">
-        {% for question in faqs.questions %}
-          <li class="[ mambo-expander ]">
-            <!-- Trigger for hidden content -->
-            <div aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="{{ question.trigger }}">
-              <h3>{{ question.question | md | safe }}</h3>
-            </div>
-            <!-- Hidden Content -->
-            <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]"
-					data-houdini-group="faq" id="{{ question.trigger }}">
-              {{ question.answer | md | safe }}
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <!-- Sticky Sidebar -->
-      <div class="[ sticky faqs-sidebar ] [ grid-flow grid-one-column ] [ padding-all-16 ]">
-        <div class="[ grid-flow ]">
-          <h2>
+<section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="faqs">
+  <div class="[ container container-default ][ flow ][ grid-flow grid-flow-start grid-four-columns ]">
+    <div class="column-span-two">
+      <h2>2022 DC Design Week FAQs</h2>
+    </div>
+    <div class="[ column-span-four ][ grid-flow grid-flow-start grid-four-columns ]">
+      <div class="column-span-three">
+        <!-- Main FAQs -->
+        <ul class="[ faqs-list ] [  ] [ flow ]">
+          {% for question in faqs.questions %}
+            <li class="[ mambo-expander ]">
+              <!-- Trigger for hidden content -->
+              <div aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="{{ question.trigger }}">
+                <h3>{{ question.question | md | safe }}</h3>
+              </div>
+              <!-- Hidden Content -->
+              <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="faq" id="{{ question.trigger }}">
+                {{ question.answer | md | safe }}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="column-span-one sticky [ flow ]">
+        <h2>
 			      Contact
 			    </h2>
-          <div class="[ grid-flow grid-one-column ]">
-            <strong>
+        <div>
+          <strong>
               General Questions
             </strong>
-            <p>
-					    Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
-            </p>
-          </div>
-        </div>
-        <div class="[ grid-flow grid-one-column ]">
-          <strong>
-			      Accessibility Questions
-			    </strong>
           <p>
-				    Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+					    Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+          </p>
+        </div>
+        <div>
+          <strong>
+			        Accessibility Questions
+			      </strong>
+          <p>
+				      Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
           </p>
         </div>
       </div>

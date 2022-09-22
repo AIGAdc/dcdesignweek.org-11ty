@@ -867,6 +867,7 @@ button.mambo-anchor.action {
 }
 
 .sticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -1122,8 +1123,10 @@ h3,
 }
 .mambo-anchor {
   border: solid 2px transparent;
-  display: inline-block;
-  font-weight: 600;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
 }
 
 .mambo-anchor.action {
@@ -1140,6 +1143,13 @@ h3,
   text-decoration: underline;
 }
 
+@media screen and (min-width: 48rem) {
+  .mambo-anchor {
+    display: inline-block;
+    width: unset;
+    text-align: left;
+  }
+}
 /* Component: mambo-button */
 .mambo-button {
   font-family: var(--dcdw-2022-brand-source-sans-pro);
@@ -1424,8 +1434,9 @@ input:checked + .slider:before {
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
 .layout-page.event-committee .mambo-hero,
-.layout-page.event-faqs .mambo-hero,
-.layout-single-event .mambo-hero {
+.layout-page.event-frequently-asked-questionss .mambo-hero,
+.layout-single-event .mambo-hero,
+.layout-page.event-frequently-asked-questions .mambo-hero {
   min-height: 5vh;
 }
 
@@ -1556,8 +1567,9 @@ input:checked + .slider:before {
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
 .layout-page.event-committee .mambo-hero,
-.layout-page.event-faqs .mambo-hero,
-.layout-single-event .mambo-hero {
+.layout-page.event-frequently-asked-questionss .mambo-hero,
+.layout-single-event .mambo-hero,
+.layout-page.event-frequently-asked-questions .mambo-hero {
     margin-bottom: -144px;
   }
 }

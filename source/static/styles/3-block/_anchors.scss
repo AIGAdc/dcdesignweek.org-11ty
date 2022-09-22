@@ -1,7 +1,9 @@
 .mambo-anchor {
   border: solid 2px transparent;
-  display: inline-block;
-  font-weight: 600;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
 }
 
 .mambo-anchor.action {
@@ -16,4 +18,13 @@
 
 .mambo-anchor.underline {
   text-decoration: underline;
+}
+
+// 640px
+@media screen and (min-width:48rem) {
+  .mambo-anchor {
+    display: inline-block;
+    width: unset;
+    text-align: left;
+  }
 }
