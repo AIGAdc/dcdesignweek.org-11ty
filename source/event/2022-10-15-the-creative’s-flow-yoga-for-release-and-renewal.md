@@ -13,13 +13,11 @@ hero:
         label: $20 — Members
         url: https://www.11ty.dev/
         colorCombo: cream-on-maroon-primary
-        CclorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $25 — Non-members
         url: https://www.11ty.dev/
         colorCombo: cream-on-maroon-primary
-        CclorCombo: cream-on-maroon-primary
 eventDetails:
   statusLabel: Featured on Events
   filterTime: Morning

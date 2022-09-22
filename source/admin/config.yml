@@ -1229,7 +1229,7 @@ collections:
                     widget: string
                     required: false
                   - label: ColorCombo
-                    name: CclorCombo
+                    name: colorCombo
                     hint: ""
                     widget: select
                     options:

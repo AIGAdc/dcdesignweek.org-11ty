@@ -1,96 +1,87 @@
-{% if page.url == "/events/" %}
-  <!-- Wave -->
-  <div class="[ wave ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary);">
-    <svg id="svg" viewBox="0 0 1440 275" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
-      <style>
-        .path-0 {
-          animation: pathAnim-0 4s;
-          animation-timing-function: linear;
-          animation-iteration-count: infinite;
+<!-- Wave -->
+<div class="[ wave ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary);">
+  <svg id="svg" viewBox="0 0 1440 275" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+    <style>
+      .path-0 {
+        animation: pathAnim-0 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-0 {
+        0% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
         }
-        @keyframes pathAnim-0 {
-          0% {
-            d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
-          }
-          25% {
-            d: path("M 0,400 C 0,400 0,200 0,200 C 93.78571428571428,203.21428571428572 187.57142857142856,206.42857142857142 300,192 C 412.42857142857144,177.57142857142858 543.4999999999999,145.50000000000003 680,138 C 816.5000000000001,130.49999999999997 958.4285714285716,147.57142857142858 1086,162 C 1213.5714285714284,176.42857142857142 1326.7857142857142,188.21428571428572 1440,200 C 1440,200 1440,400 1440,400 Z");
-          }
-          50% {
-            d: path("M 0,400 C 0,400 0,200 0,200 C 150.53571428571428,177.85714285714286 301.07142857142856,155.71428571428572 418,142 C 534.9285714285714,128.28571428571428 618.25,122.99999999999997 710,148 C 801.75,173.00000000000003 901.9285714285713,228.28571428571428 1025,242 C 1148.0714285714287,255.71428571428572 1294.0357142857142,227.85714285714286 1440,200 C 1440,200 1440,400 1440,400 Z");
-          }
-          75% {
-            d: path("M 0,400 C 0,400 0,200 0,200 C 103,223.46428571428572 206,246.92857142857144 330,253 C 454,259.07142857142856 598.9999999999999,247.74999999999994 740,252 C 881.0000000000001,256.25000000000006 1018.0000000000002,276.0714285714286 1134,270 C 1249.9999999999998,263.9285714285714 1345,231.9642857142857 1440,200 C 1440,200 1440,400 1440,400 Z");
-          }
-          100% {
-            d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
-          }
+        25% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 93.78571428571428,203.21428571428572 187.57142857142856,206.42857142857142 300,192 C 412.42857142857144,177.57142857142858 543.4999999999999,145.50000000000003 680,138 C 816.5000000000001,130.49999999999997 958.4285714285716,147.57142857142858 1086,162 C 1213.5714285714284,176.42857142857142 1326.7857142857142,188.21428571428572 1440,200 C 1440,200 1440,400 1440,400 Z");
         }
-      </style>
-      <path d="M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
-    </svg>
-  </div>
-  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="events">
-    <div class="[ container container-default ][ flow ]">
-      {# <!-- Skip to Content -->
-      <div class="[ link-skip-to-content events ]" data-color="maroon-primary-on-white">
-        <a href="#events-filter">Jump to filters</a>
-        <a href="#events-list">Jump to events</a>
-      </div> #}
-      <h2 class="[ sr-hidden ]">Featured Events</h2>
-      <div class="[ grid grid--align-start  ][ grid-flow grid-flow-start grid-four-columns ]">
-        <div class="[ sticky faqs-sidebar ][ column-span-one ][ padding-all-16 ]" id="events-filter">
-          {% include "2-layout-blocks/page/events/filter.njk" %}
-        </div>
-        <div class="[ column-span-three ]">
-          <div class="controls-pagination">
-            <div class="mixitup-page-stats"></div>
-          </div>
-          <ul class="[ faqs-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
-            {% include "2-layout-blocks/page/events/list.njk" %}
-          </ul>
-        </div>
+        50% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 150.53571428571428,177.85714285714286 301.07142857142856,155.71428571428572 418,142 C 534.9285714285714,128.28571428571428 618.25,122.99999999999997 710,148 C 801.75,173.00000000000003 901.9285714285713,228.28571428571428 1025,242 C 1148.0714285714287,255.71428571428572 1294.0357142857142,227.85714285714286 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        75% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,223.46428571428572 206,246.92857142857144 330,253 C 454,259.07142857142856 598.9999999999999,247.74999999999994 740,252 C 881.0000000000001,256.25000000000006 1018.0000000000002,276.0714285714286 1134,270 C 1249.9999999999998,263.9285714285714 1345,231.9642857142857 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        100% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+      }
+    </style>
+    <path d="M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
+  </svg>
+</div>
+
+<section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="events">
+  <div class="[ container container-default ][ flow ]">
+    <h2 class="[ sr-hidden ]">
+        Featured Events
+      </h2>
+    <div class="[ grid-flow grid-flow-start grid-four-columns ]">
+      <div class="[ sticky events-sidebar ][ column-span-one ]" id="events-filter">
+        {% include "2-layout-blocks/page/events/filter.njk" %}
       </div>
-      {# <!-- Skip to Content -->
-      <div class="[ link-skip-to-content events ]" data-color="maroon-primary-on-white">
-        <a href="#events">Back to top of section</a>
-      </div> #}
+      <div class="[ column-span-three ]">
+        <div class="controls-pagination">
+          <div class="mixitup-page-stats"></div>
+        </div>
+        <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
+          {% include "2-layout-blocks/page/events/list.njk" %}
+        </ul>
+      </div>
     </div>
+  </div>
+</section>
 
-    <!-- mixitup -->
-    <script>
-      var containerEl = document.querySelector(".mixitup-container");
-      var mixer = mixitup(containerEl, {
-        multifilter: {
-          enable: true
-        },
-        animation: {
-          enable: false
-        },
-        pagination: {
-          limit: 24
-        }
-      });
-    </script>
-    <!-- houdini -->
-    <script>
-      var showHideButton = new Houdini("[data-houdini]");
-      var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
-        isAccordion: true,
-        collapseOthers: true,
-        icon: 1,
-        /* If true, include an expand/collapse icon */
-        iconClass: 'houdini-toggle-icon',
-        /* The class to use for the expand/collapse icon */
-        iconAttribute: 'data-houdini-icon',
-        /* The data attribute to use for the expand/collapse icon */
-        iconShow: '<i class="fas fa-chevron-right"></i>',
-        /* The icon to expand an accordion */
-        iconHide: '<i class="fas fa-chevron-down"></i>',
-        /* The icon to collapse an accordion */
-      });
-      var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
-    </script>
-    <script src="/static/scripts/mixitup.min.js"></script>
+<!-- Mixitup -->
+<script>
+  var containerEl = document.querySelector(".mixitup-container");
+  var mixer = mixitup(containerEl, {
+    multifilter: {
+      enable: true
+    },
+    animation: {
+      enable: false
+    },
+    pagination: {
+      limit: 24
+    }
+  });
+</script>
 
-  </section>
-{% endif %}
+<!-- Houdini -->
+<script>
+  var showHideButton = new Houdini("[data-houdini]");
+  var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
+    isAccordion: true,
+    collapseOthers: true,
+    icon: 1,
+    /* If true, include an expand/collapse icon */
+    iconClass: 'houdini-toggle-icon',
+    /* The class to use for the expand/collapse icon */
+    iconAttribute: 'data-houdini-icon',
+    /* The data attribute to use for the expand/collapse icon */
+    iconShow: '<i class="fas fa-chevron-right"></i>',
+    /* The icon to expand an accordion */
+    iconHide: '<i class="fas fa-chevron-down"></i>',
+    /* The icon to collapse an accordion */
+  });
+  var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
+</script>
