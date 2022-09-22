@@ -1,5 +1,5 @@
 {% if page.url == "/" or page.url == "/events/" %}
-  <section class="[ mambo-section ][ flow ]" id="sponsors">
+  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="sponsors">
     <div class="[ container container-default ][ flow ]">
       {% for content in featured.sponsors %}
         <h2>
@@ -35,14 +35,13 @@
 {% endif %}
 
 {% if page.url == "/about/" %}
-  <section class="[ mambo-section ][ flow ]" id="sponsors">
+  <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="sponsors">
     <div class="[ container container-default ][ flow ]">
       <div class="[ grid-flow grid-four-columns ]">
-        <div class="[ column-span-two ]">
+        <div class="[ column-span-two ][ flow ]">
           {% for content in featured.sponsors %}
             <h2>{{ content.header }}</h2>
-            {% include "1-global-blocks/divider.njk" %}
-            <p>{{ content.body | safe }}</p>
+            <p>{{ content.body | md | safe }}</p>
           {% endfor %}
         </div>
       </div>

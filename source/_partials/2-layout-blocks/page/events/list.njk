@@ -18,20 +18,37 @@
     </div>
     <div class="[ details ]">
       <a href="{{ event.url }}">
-        <h3 class="[ title ]">{{event.data.title}}</h3>
+        <h3 class="[ title ]">
+          {{ event.data.title | safe }}
+        </h3>
       </a>
     </div>
     <div class="[ meta ]">
       <div class="[ day-date ]">
-        <p class="[ day ]">Day</p>
-        <datetime class="[ date ]">Date</datetime>
-        <span>{% include "static/images/blob-date.svg" %}</span>
+        <p class="[ day ]">
+          {{ event.data.eventDetails.startDate | dayShort }}
+        </p>
+        <div>
+          <datetime class="[ date ]">
+            {{ event.data.eventDetails.startDate | monthShort }}
+          </datetime>
+          <span style="color: currentColor;">.</span>
+          <datetime class="[ date ]">
+            {{ event.data.eventDetails.startDate | date }}
+          </datetime>
+        </div>
+        <span>
+          {% include "static/images/blob-date.svg" %}
+        </span>
       </div>
       <div class="[ time-location ]">
-        <datetime class="[ time ]">Time</datetime>
-        <p class="[ location ]">Location</p>
+        <datetime class="[ time ]">
+          {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
+        </datetime>
+        <p class="[ location ]">
+          {{ event.data.eventDetails.location }}
+        </p>
       </div>
-      {# <datetime class="[ time ]">{{ event.date | readableEventDate }}</datetime> #}
     </div>
   </li>
 {% endfor %}

@@ -26,6 +26,9 @@ codeOfConduct:
 committee:
   - header: DCDW 2022 committee
     body: DC Design Week is made possible by a committee of volunteers who help plan each event, do all the outreach, and more. We’re so grateful for their contributions.
+    colorCombo: maroon-primary-on-cream-secondary
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: 🛑 Provide Alt Text
     linkURL: /committee/
     linkAria: Explore committee
     linkLabel: Explore committee

@@ -1202,53 +1202,40 @@ h3,
 }
 
 /* Cards */
-.mambo-card.committee {
-  border: solid 1px var(--dcdw-2022-cream-primary);
-}
-
-.mambo-card.committee .image {
-  border-bottom: solid 1px var(--dcdw-2022-cream-primary);
-}
-
-.mambo-card.committee .details,
-.mambo-card.event .details {
-  min-height: unset;
-}
-
 /* Events */
-.mambo-card.event .media .image {
+.mambo-card .media {
   background-color: var(--dcdw-2022-yellow-primary);
 }
 
-.mambo-card.event .media .image img {
+.mambo-card .media img {
   box-shadow: none;
   aspect-ratio: 16/9;
   object-fit: cover;
 }
 
-.mambo-card.event .media {
+.mambo-card .media {
   background-color: var(--dcdw-2022-yellow-primary);
   border: none;
   box-shadow: none;
   transition: 0.2s;
 }
 
-.mambo-card.event .media:hover {
+.mambo-card .media:hover {
   box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
   -webkit-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
   -moz-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
 }
 
-.mambo-card.event .title {
+.mambo-card .title {
   font-family: var(--dcdw-2022-brand-recursive);
 }
 
-.mambo-card.event .meta {
+.mambo-card .meta {
   display: flex;
   grid-gap: var(--size-40);
 }
 
-.mambo-card.event .day-date {
+.mambo-card .day-date {
   font-family: var(--dcdw-2022-brand-recursive);
   font-weight: 700;
   position: relative;
@@ -1256,13 +1243,13 @@ h3,
   text-transform: uppercase;
 }
 
-.mambo-card.event .day,
-.mambo-card.event .date {
+.mambo-card .day,
+.mambo-card .date {
   position: relative;
   z-index: 100;
 }
 
-.mambo-card.event .day-date svg {
+.mambo-card .day-date svg {
   fill: var(--dcdw-2022-yellow-primary) !important;
   position: absolute;
   top: -4px;
@@ -1272,7 +1259,7 @@ h3,
   width: 88px;
 }
 
-.mambo-card.event .time-location {
+.mambo-card .time-location {
   padding: var(--size-8);
 }
 
