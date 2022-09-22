@@ -3,22 +3,11 @@ title: Operations Team
 description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
-  defaultMenuButtonColorCombo: maroon-primary-on-yellow-primary
-  showFullLogo: true
-  showSmallLogo: false
-  showYearLogo: false
+  mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
-  colorCombo: maroon-primary-on-cream
-  header: ""
-  body: ""
-  showButtonLeft: true
-  buttonLeftColorCombo: maroon-primary-on-yellow-primary
-  buttonLeftLabel: "Pop-Up Shop Application Form"
-  buttonLeftURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
-  showButtonRight: true
-  buttonRightColorCombo: maroon-primary-on-yellow-primary
-  buttonRightLabel: "Pop-Up Shop Application Form"
-  buttonRightURL: "https://docs.google.com/forms/d/e/1FAIpQLSdDq1_1IpOrESQ2lM14hsZa0yeNW6abpoOVmeRiOXAdPpNYbA/viewform"
+  colorCombo:
+  header:
+  body:
 members:
   - name: Jasmine Henderson
     pronunciation: Provide Pronunciation

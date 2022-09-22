@@ -56,8 +56,8 @@ joinDCDW:
     colorCombo: maroon-primary-on-yellow-primary
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 🛑 Provide Alt Text
-    linkURL: #
-    linkLabel: Lorem ipsum (TBA)
+    linkURL: mailto:designweek@dc.aiga.org
+    linkLabel: Contact DCDW
 
 makers:
   - header: Lorem Ipsum (Makers)

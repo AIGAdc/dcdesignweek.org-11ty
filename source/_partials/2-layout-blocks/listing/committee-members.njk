@@ -1,4 +1,8 @@
-<section class="[ mambo-section ]" data-color="maroon-primary-on-white" id="{{ sectionOne.sectionOneHeader | slug }}">
+<!-- Wave -->
+<div class="[ wave left ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary); !important; margin-bottom: -1px;">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+<section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
     <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
       {% for member in members %}
