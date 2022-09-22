@@ -21,8 +21,16 @@ hero:
         colorCombo: cream-on-maroon-primary
         CclorCombo: cream-on-maroon-primary
 eventDetails:
-  startDate: 2022-10-15T15:00:04.348Z
+  statusLabel: Featured on Events
+  filterTime: Morning
+  filterDate: Saturday 15th
   endDate: 2022-10-15T16:30:04.358Z
+  statusType: Featured on Events
+  filterLocation: In-Person
+  startDate: 2022-10-15T15:00:04.348Z
+  filterType: Workshop
+  location:
+    - name: In-Person
   description: >-
     ## Description and Details
 
@@ -52,12 +60,6 @@ eventDetails:
 
 
     Venue Info: 325 Morse St NE Suite 4, Washington, DC 20002
-  filterDate: Saturday 15th
-  filterLocation: In-Person
-  filterTime: Morning
-  filterType: Workshop
-  location:
-    - name: In-Person
 preparation: >-
   ## Preparation
 

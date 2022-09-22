@@ -21,13 +21,23 @@
   </div>
 </section>
 <section class="[ statuses ]">
-  {% for status in status %}
-    {% if status.statusType == "Featured on Home" %}
-      <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
-    {% elseif status.statusType == "Featured on Events" %}
-      <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
-    {% elseif status.statusType == "Sold Out" %}
-      <p class="[ status sold-out ]">{{status.statusLabel}}</p>
-    {% endif %}
-  {% endfor %}
+  {% if eventDetails.statusType == "Featured on Home" %}
+    <div class="[ status featured-on-home ]">
+      <div class="container container-default">
+        {{eventDetails.statusLabel}}
+      </div>
+    </div>
+  {% elseif eventDetails.statusType == "Featured on Events" %}
+    <div class="[ status featured-on-events ]">
+      <div class="container container-default">
+        {{eventDetails.statusLabel}}
+      </div>
+    </div>
+  {% elseif eventDetails.statusType == "Sold Out" %}
+    <div class="[ status sold-out ]">
+      <div class="container container-default">
+        {{eventDetails.statusLabel}}
+      </div>
+    </div>
+  {% endif %}
 </section>
