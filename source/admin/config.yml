@@ -1234,12 +1234,19 @@ collections:
                     widget: select
                     options:
                       [
-                        "color-black",
-                        "color-white",
-                        "color-cream",
-                        "color-teal",
-                        "color-valencia",
-                        "color-zodiac",
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
                       ]
                     required: false
       - label: Event Details
@@ -1310,7 +1317,7 @@ collections:
           - label: Filter Location
             name: filterLocation
             widget: select
-            options: ["In-Person", "Zoom"]
+            options: ["In-Person", "Zoom", "Hybrid"]
             required: false
           - label: Filter Time
             name: filterTime
@@ -1344,21 +1351,27 @@ collections:
           - label: Name
             name: name
             widget: string
+            required: false
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Pronunciation
             name: pronunciation
             widget: string
+            required: false
           - label: Pronouns
             name: pronouns
             widget: string
+            required: false
           - label: Image
             name: image
             widget: image
+            required: false
           - label: Image Alt
             name: imageALT
             widget: string
+            required: false
           - label: Bio
             name: bio
             widget: markdown

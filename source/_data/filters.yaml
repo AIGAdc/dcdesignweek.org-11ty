@@ -19,6 +19,7 @@ filterEvents:
   location:
     - label: In-Person
     - label: Zoom
+    - label: Hybrid
   time:
     - label: Morning
     - label: Daytime

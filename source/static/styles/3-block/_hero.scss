@@ -240,6 +240,10 @@
     max-width: 16ch;
   }
 
+  .layout-single-event .mambo-hero h1 {
+    max-width: unset;
+  }
+
   .mambo-hero .wysiwyg p {
     font-size: var(--size-32);
   }

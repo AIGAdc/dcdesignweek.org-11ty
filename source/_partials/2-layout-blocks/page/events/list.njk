@@ -1,4 +1,4 @@
-{% for event in collections.event | reverse %}
+{% for event in collections.event %}
   <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ][ mix {% include '2-layout-blocks/page/events/filterLogic.njk' %} ]">
     <div class="[ media ]">
       <figure class="[ image ]">
