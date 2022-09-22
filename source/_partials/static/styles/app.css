@@ -1437,9 +1437,9 @@ input:checked + .slider:before {
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
 .layout-page.event-committee .mambo-hero,
-.layout-page.event-frequently-asked-questionss .mambo-hero,
+.layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero,
-.layout-page.event-frequently-asked-questions .mambo-hero {
+.layout-page.event-faq .mambo-hero {
   min-height: 5vh;
 }
 
@@ -1500,11 +1500,11 @@ input:checked + .slider:before {
 
 .home-page-blob {
   position: absolute;
-  top: -88px;
+  top: 0;
   right: 0;
   bottom: 0;
-  left: -300px;
-  z-index: 100;
+  left: -480px;
+  transform: translate(5%, -65%);
 }
 
 .home-page-blob svg {
@@ -1515,6 +1515,9 @@ input:checked + .slider:before {
   .home-hero-blob {
     top: -120px;
     left: -400px;
+  }
+  .home-page-blob {
+    transform: translate(10%, -65%);
   }
   .home-hero-date {
     font-size: var(--size-32);
@@ -1536,6 +1539,10 @@ input:checked + .slider:before {
   .home-hero-blob svg {
     width: 120%;
   }
+  .home-page-blob {
+    top: 188px;
+    transform: translate(10%, 0%);
+  }
   .home-hero-date-blob {
     top: 0;
     right: unset;
@@ -1545,8 +1552,7 @@ input:checked + .slider:before {
     margin-top: 0 !important;
   }
   .home-page-blob {
-    top: -40px;
-    left: -600px;
+    transform: translate(5%, -65%);
   }
 }
 @media screen and (min-width: 85.375rem) {
@@ -1558,21 +1564,17 @@ input:checked + .slider:before {
     width: 100%;
   }
   .home-page-blob {
-    top: -40px;
-    left: -1280px;
-  }
-  .home-page-blob svg {
-    height: 100%;
-    width: 110%;
+    top: 0;
+    transform: translate(-10%, -10%);
   }
   .layout-page.event-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
 .layout-page.event-committee .mambo-hero,
-.layout-page.event-frequently-asked-questionss .mambo-hero,
+.layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero,
-.layout-page.event-frequently-asked-questions .mambo-hero {
+.layout-page.event-faq .mambo-hero {
     margin-bottom: -144px;
   }
   .layout-single-event .mambo-hero {

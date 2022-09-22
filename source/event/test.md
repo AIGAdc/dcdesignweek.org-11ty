@@ -19,7 +19,7 @@ hero:
         url: "#"
 eventDetails:
   startDate: 2022-10-14T23:30:03.333Z
-  endDate: ""
+  endDate: 2022-10-14T23:30:03.333Z
   filterDate: Friday 14th
   filterLocation: In-Person
   filterTime: Morning
@@ -39,6 +39,8 @@ eventDetails:
 
 
     Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat. Mauris vitae arcu quis nunc varius mollis eres.
+  location:
+    - name: Zoom
 speaker:
   - name: Hana Banana
     title: CEO

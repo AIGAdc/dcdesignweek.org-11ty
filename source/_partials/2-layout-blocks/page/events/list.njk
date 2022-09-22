@@ -45,9 +45,11 @@
         <datetime class="[ time ]">
           {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
         </datetime>
-        <p class="[ location ]">
-          {{ event.data.eventDetails.location }}
-        </p>
+        {% for location in event.data.eventDetails.location %}
+          <p class="[ location ]">
+            {{ location.name | safe }}
+          </p>
+        {% endfor %}
       </div>
     </div>
   </li>
