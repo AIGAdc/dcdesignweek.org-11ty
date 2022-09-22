@@ -19,7 +19,7 @@
     <div class="[ details ]">
       <a href="{{ event.url }}">
         <h3 class="[ title ]">
-          {{ event.data.title | safe }}
+          {{ event.data.title | md | safe }}
         </h3>
       </a>
     </div>

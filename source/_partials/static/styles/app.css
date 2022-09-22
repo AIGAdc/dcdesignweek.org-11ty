@@ -1403,6 +1403,10 @@ input:checked + .slider:before {
   z-index: 100;
 }
 
+.layout-single-event .mambo-hero {
+  display: block;
+}
+
 .mambo-hero {
   clip-path: url("../source/_partials/static/images/mask.svg#wave");
 }
@@ -1558,6 +1562,9 @@ input:checked + .slider:before {
 .layout-single-event .mambo-hero,
 .layout-page.event-frequently-asked-questions .mambo-hero {
     margin-bottom: -144px;
+  }
+  .layout-single-event .mambo-hero {
+    margin-bottom: 0;
   }
 }
 .roots {

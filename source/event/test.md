@@ -1,5 +1,5 @@
 ---
-title: Test 1
+title: This is a title for a 2022 DCDW Event
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
