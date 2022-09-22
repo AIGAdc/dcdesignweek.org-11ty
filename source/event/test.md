@@ -48,67 +48,105 @@ speaker:
     pronouns: She / Her
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: Hana
-    websites:
-      - website:
-          url: https://www.marcusrelacion.com
-          label: Personal Website
-      - website:
-          url: https://www.marcusrelacion.com
-          label: Personal Website
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+    bio: >-
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
       nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
       tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
       mattis.
+
+
+      <div>
+
+
+      [Personal Website](https://www.marcusrelacion.com)
+
+
+      [Instagram](https://www.marcusrelacion.com)
+
+
+      </div>
   - name: Hana Banana
     title: CEO
     pronunciation: (hah - nah)
     pronouns: She / Her
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: Hana
-    websites:
-      - website:
-          url: https://www.marcusrelacion.com
-          label: Personal Website
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+    bio: >-
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
       nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
       tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
       mattis.
+
+
+      <div>
+
+
+      [Personal Website](https://www.marcusrelacion.com)
+
+
+      [Instagram](https://www.marcusrelacion.com)
+
+
+      </div>
   - name: Hana Banana
     title: CEO
     pronunciation: (hah - nah)
     pronouns: She / Her
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: Hana
-    websites:
-      - website:
-          url: https://www.marcusrelacion.com
-          label: Personal Website
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+    bio: >-
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
       nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
       tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
       mattis.
+
+
+      <div>
+
+
+      [Personal Website](https://www.marcusrelacion.com)
+
+
+      [Instagram](https://www.marcusrelacion.com)
+
+
+      </div>
   - name: Hana Banana
     title: CEO
     pronunciation: (hah - nah)
     pronouns: She / Her
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: Hana
-    websites:
-      - website:
-          label: Personal Website
-          url: https://www.marcusrelacion.com
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
+    bio: >-
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas
       nisi eu orci fringilla mattis. Suspendisse metus purus, laoreet quis
       tempus eu, tempor in lorem. Proin tristique facilisis massa consectetur
       mattis.
+
+
+      <div>
+
+
+      [Personal Website](https://www.marcusrelacion.com)
+
+
+      [Instagram](https://www.marcusrelacion.com)
+
+
+      </div>
+platform: >-
+  ## Platform
+
+
+  This text should be formatted in a google doc for easily pasting in on an event to event basis.
 preparation: >-
-  ## P﻿reparation and Prerequisites
+  ## Preparation and Prerequisites
 
 
-  T﻿his text should be formatted in a google doc for easily pasting in on an event to event basis.
+  This text should be formatted in a google doc for easily pasting in on an event to event basis.
 a11y: >-
   ## Accessibility
 
 
-  T﻿his text should be formatted in a google doc for easily pasting in on an event to event basis.
+  This text should be formatted in a google doc for easily pasting in on an event to event basis.
 ---

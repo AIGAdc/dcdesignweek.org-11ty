@@ -22,15 +22,8 @@
               <p class="title">{{ content.title | safe }}</p>
             {% endif %}
             {% if content.bio %}
-              <p class="bio">{{ content.bio | safe }}</p>
+              <div class="bio flow">{{ content.bio | md | safe }}</div>
             {% endif %}
-            {# <div class="[ websites ]">
-              {% for website in speaker.websites %}
-                <a class="[ mambo-anchor action ]" href="#">
-                  {{ website.website.label | safe }}
-                </a>
-              {% endfor %}
-            </div> #}
           </li>
         {% endfor %}
       </ul>

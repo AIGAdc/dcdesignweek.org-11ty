@@ -1363,23 +1363,10 @@ collections:
             name: bio
             widget: markdown
             required: false
-          - label: Websites
-            name: websites
-            widget: list
-            required: false
-            fields:
-              - label: Website
-                name: website
-                widget: object
-                fields:
-                  - label: Label
-                    name: label
-                    widget: string
-                    required: false
-                  - label: URL
-                    name: url
-                    widget: string
-                    required: false
+      - label: "Platform"
+        name: "platform"
+        widget: "markdown"
+        required: false
       - label: "Preparation"
         name: "preparation"
         widget: "markdown"
