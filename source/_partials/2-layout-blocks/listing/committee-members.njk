@@ -1,19 +1,20 @@
 <!-- Wave -->
-<div class="[ wave left ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary); !important; margin-bottom: -1px;">
+<div class="[ wave left ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-yellow-primary); !important; margin-bottom: -1px; stroke-width: 0 !important;">
   {% include '1-global-blocks/wave.njk' %}
 </div>
+
 <section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
-    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
+    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]" style="--gap: var(--size-64);">
       {% for member in members %}
-        <li class="[ mambo-card committee ][ flow ]">
+        <li class="[ mambo-card committee ][ flow ]" style="--gap: var(--size-64);">
           <div class="[ image ]">
             <figure>
               <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
             </figure>
           </div>
 
-          <div class="[ details ][ flow ]">
+          <div class="[ details ][ flow ]" style="--gap: var(--size-16);">
             <div class="[ meta ]">
               <h3 class="name">{{ member.name | safe }}</h3>
               {% if member.pronunciation %}

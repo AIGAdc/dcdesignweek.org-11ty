@@ -17,11 +17,11 @@ hero:
 sections:
   - section:
       showWaveTop: true
-      waveTopFill: var(--dcdw-2022-yellow-primary)
-      waveTopBackground: var(--dcdw-2022-cream-primary)
+      waveTopFill: var(--dcdw-2022-cream-primary) 
+      waveTopBackground: var(--dcdw-2022-yellow-primary)
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-cream-primary)
-      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveBottomBackground: var(--dcdw-2022-cream-primary)
       colorCombo: maroon-primary-on-cream
       header: "This accessibility statement aims to:"
       body: >-
@@ -118,8 +118,8 @@ sections:
       waveTopFill: var(--dcdw-2022-yellow-primary)
       waveTopBackground: var(--dcdw-2022-cream-secondary)
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-cream-secondary)
-      waveBottomBackground: var(--dcdw-2022-maroon-primary)
+      waveBottomFill: var(--dcdw-2022-maroon-primary)
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
       colorCombo: maroon-primary-on-cream-secondary
       header: Request an Accommodation
       body: >-

@@ -8,12 +8,7 @@
     </legend>
     <!-- Hidden Content -->
     <div class="[ answer is-expanded ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventDate">
-      <div class="[ mambo-input-checkbox ]">
-        <label for="{{ control.label | lower | slug }}">
-          <input class="selected" checked="checked" type="checkbox" id="all" name="event-date" value="all">
-            All Dates
-          </label>
-      </div>
+
       {% for control in filters.filterEvents.day %}
         <div class="[ mambo-input-checkbox ]">
           <label for="{{ control.label | lower | slug }}">
