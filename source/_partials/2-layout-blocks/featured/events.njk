@@ -1,7 +1,7 @@
 {% for content in featured.events %}
   <section class="[ mambo-section ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
-      <div class="[ column-span-two ]">
+      <div class="[ column-span-two ][ flow ]">
         <h2>
           {{ content.header | md | safe }}
         </h2>
@@ -17,19 +17,29 @@
                 <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
               </figure>
               <div class="[ statuses ]">
-                {% for status in event.data.status %}
-                  {% if status.statusType == "Featured on Home" %}
-                    <p class="[ status featured-on-home ]">{{status.statusLabel}}</p>
-                  {% elseif status.statusType == "Featured on Events" %}
-                    <p class="[ status featured-on-events ]">{{status.statusLabel}}</p>
-                  {% elseif status.statusType == "Sold Out" %}
-                    <p class="[ status sold-out ]">{{status.statusLabel}}</p>
-                  {% endif %}
-                {% endfor %}
+                {% if event.data.eventDetails.statusType == "Featured on Home" %}
+                  <div class="[ status featured-on-home ]">
+                    <div class="container container-default">
+                      {{event.data.eventDetails.statusLabel}}
+                    </div>
+                  </div>
+                {% elseif event.data.eventDetails.statusType == "Featured on Events" %}
+                  <div class="[ status featured-on-events ]">
+                    <div class="container container-default">
+                      {{event.data.eventDetails.statusLabel}}
+                    </div>
+                  </div>
+                {% elseif event.data.eventDetails.statusType == "Sold Out" %}
+                  <div class="[ status sold-out ]">
+                    <div class="container container-default">
+                      {{event.data.eventDetails.statusLabel}}
+                    </div>
+                  </div>
+                {% endif %}
               </div>
             </div>
             <div class="[ details ]">
-              <a href="{{ event.url }}">
+              <a aria-label="Learn more about the event: {{ event.data.title | safe }}" href="{{ event.url }}">
                 <h3 class="[ title ]">
                   {{ event.data.title | safe }}
                 </h3>
@@ -57,16 +67,18 @@
                 <datetime class="[ time ]">
                   {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
                 </datetime>
-                <p class="[ location ]">
-                  {{ event.data.eventDetails.location }}
-                </p>
+                {% for location in event.data.eventDetails.location %}
+                  <p class="[ location ]">
+                    {{ location.name | safe }}
+                  </p>
+                {% endfor %}
               </div>
             </div>
           </li>
         {% endfor %}
       </ul>
       <div class="[ column-span-one ]">
-        <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+        <a aria-label="{{ content.linkLabel | safe }}" class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
           {{ content.linkLabel | safe }}
         </a>
       </div>
