@@ -1,6 +1,6 @@
 <section aria-label="{{ title | safe }}" class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-yellow-primary" id="{{ hero.header | slug }}">
   <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
-    <div class="[ column-span-two ][ flow ]">
+    <div class="[ hero-content ][ column-span-two ][ flow ]">
       {% if title %}
         <span id="skip-to-content">
           <h1>{{ title | md | safe }}</h1>
@@ -22,8 +22,8 @@
         {% endif %}
       </div>
     </div>
-  </div>
-  <div class="home-page-blob">
-    {% include 'static/images/hero/hero-page-blob.svg' %}
+    <div class="home-page-blob">
+      {% include 'static/images/hero/hero-page-blob.svg' %}
+    </div>
   </div>
 </section>

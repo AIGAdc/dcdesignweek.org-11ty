@@ -3,6 +3,9 @@ title: "Not just a pet project: Building a sustainable freelance business"
 description: Interested in working for yourself, but not by yourself? Join
   Johanna Ostrich and Alex Ording as they share a heartwarming case study from
   an all-freelance team.
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

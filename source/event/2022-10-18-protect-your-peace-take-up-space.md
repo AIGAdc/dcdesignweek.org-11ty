@@ -3,6 +3,9 @@ title: Protect your peace & take up space
 description: We’re artists & we’re sensitive about our sh*t. A reflective
   practice on how to be our own best advocate, cultivate self-trust & take up
   space!
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

@@ -5,8 +5,8 @@ description: Learn how Morning Consult adopted a hybrid work model through
   thoughtful design of their new office, enabling flexibility for their
   employees.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

@@ -3,8 +3,8 @@ title: How the internet is helping artists expand their work
 description: Join a roundtable of internet artists discussing how bypassing the
   gallery/museum system allows their art to reach intersectional audiences.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

@@ -3,8 +3,8 @@ title: "Time travel to a future DC: A meditative workshop"
 description: This workshop will teach you how to time travel to a future DC
   using a Tarot-inspired deck called Futuretelling.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

@@ -3,8 +3,8 @@ title: "Home as sanctuary: Curating physical spaces for mental wellbeing"
 description: Discover how interior space affects every aspect of your wellbeing,
   and learn strategies to promote wellness in your everyday life.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

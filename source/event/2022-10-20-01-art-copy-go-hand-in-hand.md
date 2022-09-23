@@ -3,8 +3,8 @@ title: Art & copy go hand in hand
 description: Writers and designers unite! It’s time to get on the same page
   about how to work together to create arresting and meaningful communication.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

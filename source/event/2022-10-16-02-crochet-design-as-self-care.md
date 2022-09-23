@@ -3,8 +3,8 @@ title: Crochet design as self-care
 description: Start your crochet design journey with live guidance by Kristen
   Jeffers through a live granny square workshop.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

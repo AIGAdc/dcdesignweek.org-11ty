@@ -11,20 +11,6 @@
   display: block;
 }
 
-.mambo-hero {
-  clip-path: url('../source/_partials/static/images/mask.svg#wave');
-}
-
-#wave {
-  height: 100vh;
-  width: auto;
-}
-
-#wave path {
-  transform: scaleY(2);
-  //  transform: rotate(180deg);
-}
-
 .layout-page.event-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.event-events .mambo-hero,
@@ -33,24 +19,19 @@
 .layout-page.event-faqs .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
-  min-height: 5vh;
+  min-height: auto;
 }
 
-.mambo-hero .container {
+.mambo-hero .container,
+.hero-content {
   position: relative;
-  z-index: 1000;
-  transition: all ease-in-out 200ms;
+  z-index: 2000;
 }
 
 .mambo-hero h1 {
   font-size: 2.75rem;
   font-weight: 900;
   max-width: 10ch;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2000;
 }
 
 .home-hero-blob {
@@ -93,15 +74,29 @@
 
 .home-page-blob {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -480px;
-  transform: translate(5%, -65%);
+  top: -72px;
+  right: -32px;
+  bottom: -72px;
+  left: -200px;
+  margin-top: 0 !important;
 }
 
-.home-page-blob svg {
-  width: 100%;
+@media screen and (min-width: 30rem) {
+  .home-page-blob {
+    top: -120px;
+    right: -32px;
+    bottom: -72px;
+    left: -200px;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .home-page-blob {
+    top: -160px;
+    right: -32px;
+    bottom: -72px;
+    left: -200px;
+  }
 }
 
 // 768px
@@ -109,10 +104,6 @@
   .home-hero-blob {
     top: -120px;
     left: -400px;
-  }
-
-  .home-page-blob {
-    transform: translate(10%, -65%);
   }
 
   .home-hero-date {
@@ -128,6 +119,13 @@
     height: 100%;
     width: 110%;
   }
+
+  .home-page-blob {
+    top: -190px;
+    right: -32px;
+    bottom: 72px;
+    left: -200px;
+  }
 }
 
 // 1024px
@@ -142,8 +140,14 @@
   }
 
   .home-page-blob {
-    top: 188px;
-    transform: translate(10%, 0%);
+    top: 48px;
+    right: 0;
+    bottom: 72px;
+    left: -800px;
+  }
+
+  .home-page-blob svg {
+    width: 80%;
   }
 
   .home-hero-date-blob {
@@ -153,10 +157,6 @@
     z-index: 1500;
     transform: translate(10%, -80%);
     margin-top: 0 !important;
-  }
-
-  .home-page-blob {
-    transform: translate(5%, -65%);
   }
 }
 
@@ -172,11 +172,15 @@
   }
 
   .home-page-blob {
-    top: 0;
-    transform: translate(-10%, -10%);
+    top: -120px;
+    right: 0;
+    bottom: 72px;
+    left: -500px;
   }
 
-  .home-page-blob svg {}
+  .home-page-blob svg {
+    width: 65%;
+  }
 
   .layout-page.event-accessibility .mambo-hero,
   .layout-single-committee .mambo-hero,
@@ -185,15 +189,12 @@
   .layout-page.event-committee .mambo-hero,
   .layout-page.event-faqs .mambo-hero,
   .layout-single-event .mambo-hero,
-  .layout-page.event-faq .mambo-hero {
-    margin-bottom: -144px;
-  }
+  .layout-page.event-faq .mambo-hero {}
 
   .layout-single-event .mambo-hero {
     margin-bottom: 0;
   }
 }
-
 
 .roots {
   position: absolute;
@@ -268,3 +269,17 @@
     left: -200px;
   }
 }
+
+// .mambo-hero {
+//   clip-path: url('../source/_partials/static/images/mask.svg#wave');
+// }
+
+// #wave {
+//   height: 100vh;
+//   width: auto;
+// }
+
+// #wave path {
+//   transform: scaleY(2);
+//   //  transform: rotate(180deg);
+// }

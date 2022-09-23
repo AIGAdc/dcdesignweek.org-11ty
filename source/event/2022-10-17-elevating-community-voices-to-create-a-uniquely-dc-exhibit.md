@@ -3,8 +3,8 @@ title: Elevating community voices to create a uniquely DC exhibit
 description: Learn how a community-centered design process helped develop and
   prototype MLK Library’s permanent exhibit before engaging with it yourself.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:

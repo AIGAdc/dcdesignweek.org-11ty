@@ -4,8 +4,8 @@ description: Identify, process, and release stagnant energy and tension with a
   yoga and mindfulness experience for BIPOC, created to meet your specific needs
   in the moment.
 pageSettings:
-  headerColorCombo: maroon-primary-on-cream
-  mobileButtonColorCombo: maroon-primary-on-yellow-primary
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: yellow-primary-on-maroon-primary
 hero:
   tickets:
     - ticket:
