@@ -54,9 +54,9 @@
       {% block content %}
         {{ content | safe }}
       {% endblock %}
+      {% include '2-layout-blocks/featured/newsletter.njk' %}
+      {% include '1-global-blocks/skip-to-top.njk' %}
     </main>
-    {% include '2-layout-blocks/featured/newsletter.njk' %}
-    {% include '1-global-blocks/skip-to-top.njk' %}
     {% include '1-global-blocks/site-footer.njk' %}
   </body>
 </html>
