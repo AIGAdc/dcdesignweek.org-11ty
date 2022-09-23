@@ -2,15 +2,19 @@
 {% for content in featured.subscribe %}
   <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="newsletter">
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
-      <div class="[ flow ][ column-span-two ]">
-        <div>
-          <h2>{{ content.header }}</h2>
-          <p>{{ content.body | safe }}</p>
+      <div class="[ column-span-two ][ flow ]">
+        <div class="[ flow ]">
+          <h2>
+            {{ content.header }}
+          </h2>
+          <p>
+            {{ content.body | md | safe }}
+          </p>
         </div>
         <!-- Begin Mailchimp Signup Form -->
         <div class="[ mailchimp ] " id="mc_embed_signup">
           <form action="https://aiga.us5.list-manage.com/subscribe/post?u=a1d74e0d7217ad0690c35dc75&amp;id=0011013dc1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
-            <div id="mc_embed_signup_scroll">
+            <div class="[ flow ]" id="mc_embed_signup_scroll">
               <div class="mc-field-group">
                 <label for="mce-EMAIL">
 						    Email Address (Required)
