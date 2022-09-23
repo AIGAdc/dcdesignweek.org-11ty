@@ -4,12 +4,12 @@
 </div>
 <section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
   <div class="[ container container-default ][ flow ]">
-    <ul class="[ mambo-cards ][ grid-flow grid-one-column ]">
+    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
       {% for member in members %}
-        <li class="[ mambo-card horizontal ]">
+        <li class="[ mambo-card committee ][ flow ]">
           <div class="[ image ]">
             <figure>
-              <img alt="{{ member.imageAlt }}" class="blob" loading=lazy src="{{ member.image }}">
+              <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
             </figure>
           </div>
 

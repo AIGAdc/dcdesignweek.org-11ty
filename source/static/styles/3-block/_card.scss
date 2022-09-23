@@ -116,3 +116,14 @@
 .mambo-card.speaker .image img {
   box-shadow: none;
 }
+
+.mambo-card.committee .image img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.mambo-card.committee .meta {
+  display: flex;
+  grid-gap: 0;
+  flex-direction: column;
+}

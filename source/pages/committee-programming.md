@@ -10,6 +10,7 @@ hero:
   body:
 members:
   - name: Amy Mugford 
+    blob: 1
     pronunciation:
     pronouns:
     position: CC Program Lead
@@ -21,6 +22,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Annette Allen 
+    blob: 2
     pronunciation:
     pronouns: she | her | hers
     position: CC Program Lead
@@ -32,6 +34,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Cara Campbell
+    blob: 3
     pronunciation:
     pronouns: she | her | hers
     position: CC Program Lead
@@ -43,6 +46,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Natarsha Wright
+    blob: 3
     pronunciation:
     pronouns:
     position: CC Program Lead
@@ -54,6 +58,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Janessa Arrington
+    blob: 2
     pronunciation:
     pronouns: she | her | hers
     position: CC Program Lead
@@ -65,6 +70,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Khanh Pham
+    blob: 1
     pronunciation:
     pronouns: she | her | hers
     position: CC Program Lead

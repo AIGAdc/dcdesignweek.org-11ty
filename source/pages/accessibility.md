@@ -1,5 +1,5 @@
 ---
-title: Commitment to accessibility
+title: Accessibility
 description: DC Design Week is committed to improving accessibility and
   inclusion efforts each year. We recognize this is a journey and we are still
   far from our ideal.

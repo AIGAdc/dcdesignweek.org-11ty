@@ -10,6 +10,7 @@ hero:
   body:
 members:
   - name: Jasmine Henderson
+    blob: 1
     pronunciation:
     pronouns:
     position: Web Design Lead
@@ -21,6 +22,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Josh Kim
+    blob: 2
     pronunciation:
     pronouns: he | him | his
     position: Accessibility Lead
@@ -32,6 +34,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Marcus Relacion
+    blob: 3
     pronunciation: (mar-kuss ree-lay-see-on)
     pronouns: he | him | his
     position: Web Design Engineer
@@ -43,6 +46,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Shoshanna Chito
+    blob: 3
     pronunciation:
     pronouns: she | her | hers
     position: Web Designer
@@ -54,6 +58,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Sydney Adams
+    blob: 2
     pronunciation:
     pronouns: she | her | hers
     position: Graphic Designer
@@ -65,6 +70,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Tiara Slater
+    blob: 1
     pronunciation:
     pronouns: she | her | hers
     position: Graphic Designer
@@ -76,6 +82,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Vanessa Vergara
+    blob: 1
     pronunciation:
     pronouns:
     position: Graphic Designer
@@ -87,6 +94,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Yu-Li Hunsicker
+    blob: 2
     pronunciation:
     pronouns:
     position: QA/Accessibility Specialist

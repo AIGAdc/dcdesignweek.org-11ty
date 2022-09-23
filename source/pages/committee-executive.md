@@ -10,6 +10,7 @@ hero:
   body:
 members:
   - name: Ariana Rodriguez-Gitler
+    blob: 1
     pronunciation:
     pronouns: she | her | hers
     position: Executive Director
@@ -21,6 +22,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Alyssa Huntley
+    blob: 2
     pronunciation:
     pronouns:
     position: Program Director
@@ -32,6 +34,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Koi Hernandez
+    blob: 3
     pronunciation:
     pronouns: He / Him
     position: Program Director
@@ -43,6 +46,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Silvia Script
+    blob: 3
     pronunciation:
     pronouns: she | her | hers
     position: Design Director
@@ -54,6 +58,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Danni Baker
+    blob: 2
     pronunciation:
     pronouns: she | her | hers
     position: Chief Experience Officer
@@ -65,6 +70,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Raksa Yin
+    blob: 1
     pronunciation:
     pronouns: he | him | his
     position: AIGA DC President
@@ -76,6 +82,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Lauren Maffeo
+    blob: 1
     pronunciation:
     pronouns:
     position: AIGA DC Vice President
@@ -87,6 +94,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Gene Alexeyev
+    blob: 2
     pronunciation:
     pronouns:
     position: AIGA DC Sponsorship Chair
@@ -98,6 +106,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Nabeeh Bilal
+    blob: 3
     pronunciation:
     pronouns:
     position: AIGA DC Programming Director
@@ -109,6 +118,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Nicole Cohn
+    blob: 3
     pronunciation:
     pronouns:
     position: AIGA DC Membership & Volunteer Chair 
@@ -120,6 +130,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Iyana Moore 
+    blob: 2
     pronunciation:
     pronouns:
     position: AIGA DC Communications Director

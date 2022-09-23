@@ -10,6 +10,7 @@ hero:
   body:
 members:
   - name: Anthony Petrillo
+    blob: 1
     pronunciation:
     pronouns: he | him | his
     position: Social Media & Newsletter Lead
@@ -21,6 +22,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Jelena Budjevac
+    blob: 2
     pronunciation:
     pronouns:
     position: Copywriter
@@ -32,6 +34,7 @@ members:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 🛑 Provide Alt Text
   - name: Scott Kirkwood
+    blob: 3
     pronunciation:
     pronouns:
     position: Copywriter
