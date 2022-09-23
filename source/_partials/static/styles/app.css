@@ -1042,7 +1042,8 @@ h3,
   }
   h3,
 .heading-3 {
-    font-size: var(--size-18);
+    font-size: var(--size-20);
+    line-height: 1.5;
   }
 }
 .list.mobile {

@@ -19,17 +19,6 @@ h3,
   font-weight: 900;
 }
 
-h4,
-.heading-4 {}
-
-h5,
-.heading-5 {}
-
-h6,
-.heading-6 {}
-
-@media screen and (min-width: 40rem) {}
-
 @media screen and (min-width: 48rem) {
 
   h1,
@@ -60,8 +49,7 @@ h6,
 
   h3,
   .heading-3 {
-    font-size: var(--size-18);
+    font-size: var(--size-20);
+    line-height: 1.5;
   }
 }
-
-@media screen and (min-width: 85.375rem) {}

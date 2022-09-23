@@ -51,22 +51,21 @@
                   {{ event.data.eventDetails.startDate | dayShort }}
                 </p>
                 <div>
-                  <datetime class="[ date ]">
+                  <time class="[ date ]" datetime="{{ event.data.eventDetails.startDate | monthShort }}">
                     {{ event.data.eventDetails.startDate | monthShort }}
-                  </datetime>
-                  <span style="color: currentColor;">.</span>
-                  <datetime class="[ date ]">
+                  </time>
+                  <time class="[ date ]" datetime="{{ event.data.eventDetails.startDate | date }}">
                     {{ event.data.eventDetails.startDate | date }}
-                  </datetime>
+                  </time>
                 </div>
                 <span>
                   {% include "static/images/blob-date.svg" %}
                 </span>
               </div>
               <div class="[ time-location ]">
-                <datetime class="[ time ]">
+                <time class="[ time ]" datetime="{{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}">
                   {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
-                </datetime>
+                </time>
                 {% for location in event.data.eventDetails.location %}
                   <p class="[ location ]">
                     {{ location.name | safe }}
