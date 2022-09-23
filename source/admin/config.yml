@@ -1223,6 +1223,11 @@ collections:
                     hint: ""
                     widget: string
                     required: false
+                  - label: Aria
+                    name: aria
+                    hint: ""
+                    widget: string
+                    required: false
                   - label: URL
                     name: url
                     hint: ""

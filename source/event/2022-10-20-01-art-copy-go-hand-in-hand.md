@@ -9,11 +9,13 @@ hero:
   tickets:
     - ticket:
         showButton: true
+        aria: Purchase AIGA DC member ticket for 10$ on AIGA DC website 
         label: $10 — Members
         url: "#"
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
+        aria: Purchase non AIGA DC member ticket for 15$ on AIGA DC Eventbrite website. 
         label: $15  — Non-members
         url: "#"
         colorCombo: cream-on-maroon-primary
