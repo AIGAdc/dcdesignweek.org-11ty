@@ -55,7 +55,7 @@ eventDetails:
     You’ll have a chance to ask them questions during the Q&A.
   location:
     - name: Zoom
-  filterDate: Wednesday 19th
+  filterDate: Wednesday, October 19
   filterLocation: Zoom
   filterTime: Morning
   filterType: Talk/Panel

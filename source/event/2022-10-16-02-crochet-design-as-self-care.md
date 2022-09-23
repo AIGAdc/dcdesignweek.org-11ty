@@ -33,7 +33,7 @@ eventDetails:
     After the demonstration, you’ll have time to get cozy and practice making your own square with the support of Kristen and your classmates.
   location:
     - name: In-Person
-  filterDate: Sunday 16th
+  filterDate: Sunday, October 16
   filterLocation: In-Person
   filterTime: Evening
   filterType: Workshop

@@ -48,7 +48,7 @@ eventDetails:
   location:
     - name: Zoom
   filterLocation: Zoom
-  filterDate: Tuesday 18th
+  filterDate: Tuesday, October 18
   filterTime: Evening
   filterType: Workshop
 speaker:

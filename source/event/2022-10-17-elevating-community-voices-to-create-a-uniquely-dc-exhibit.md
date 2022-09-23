@@ -40,7 +40,7 @@ eventDetails:
 
 
     Venue name: Martin Luther King Jr. Memorial Library, Conference Room Venue Info: 901 G St NW, Washington, DC 20001, United States
-  filterDate: Monday 17th
+  filterDate: Monday, October 17
   filterLocation: In-Person
   filterTime: Daytime
   filterType: Talk/Panel

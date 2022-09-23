@@ -28,7 +28,7 @@ eventDetails:
     \## Venue
 
     Info: 1025 F St., NW, 8th Floor, Washington, DC 20004
-  filterDate: Thursday 20th
+  filterDate: Thursday, October 20
   filterTime: Evening
   filterType: Creative Lunch
   location:

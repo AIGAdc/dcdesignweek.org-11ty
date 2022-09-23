@@ -61,7 +61,7 @@ eventDetails:
 
 
     Venue Info: 3998 Spring of Freedom NW, Washington, DC 20008
-  filterDate: Friday 21st
+  filterDate: Friday, October 21
   filterLocation: In-Person
   filterTime: Morning
   filterType: Workshop

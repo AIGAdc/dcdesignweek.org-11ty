@@ -2,7 +2,7 @@
 eventDetails:
   statusLabel: Featured on Home
   filterTime: Morning
-  filterDate: Tuesday 18th
+  filterDate: Tuesday, October 18
   endDate: 2022-10-18T14:30:00.000Z
   statusType: Featured on Home
   filterLocation: Hybrid

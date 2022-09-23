@@ -45,7 +45,7 @@ eventDetails:
 
 
     Venue Info: 925 13th Street NW, Washington, DC 20005
-  filterDate: Thursday 20th
+  filterDate: Thursday, October 20
   filterLocation: In-Person
   filterTime: Morning
   filterType: Talk/Panel

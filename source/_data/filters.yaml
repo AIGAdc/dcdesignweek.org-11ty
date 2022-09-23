@@ -1,20 +1,20 @@
 filterEvents:
   day:
-    - label: Friday 14th
+    - label: Friday, October 14
       occurred: false
-    - label: Saturday 15th
+    - label: Saturday, October 15
       occurred: false
-    - label: Sunday 16th
+    - label: Sunday, October 16
       occurred: false
-    - label: Monday 17th
+    - label: Monday, October 17
       occurred: false
-    - label: Tuesday 18th
+    - label: Tuesday, October 18
       occurred: false
-    - label: Wednesday 19th
+    - label: Wednesday, October 19
       occurred: false
-    - label: Thursday 20th
+    - label: Thursday, October 20
       occurred: false
-    - label: Friday 21st
+    - label: Friday, October 21
       occurred: false
   location:
     - label: In-Person

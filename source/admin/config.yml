@@ -1309,14 +1309,14 @@ collections:
             widget: select
             options:
               [
-                "Friday 14th",
-                "Saturday 15th",
-                "Sunday 16th",
-                "Monday 17th",
-                "Tuesday 18th",
-                "Wednesday 19th",
-                "Thursday 20th",
-                "Friday 21st",
+                "Friday, October 14",
+                "Saturday, October 15",
+                "Sunday, October 16",
+                "Monday, October 17",
+                "Tuesday, October 18",
+                "Wednesday, October 19",
+                "Thursday, October 20",
+                "Friday, October 21",
               ]
             required: false
           - label: Filter Location

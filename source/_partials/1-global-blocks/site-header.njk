@@ -32,29 +32,33 @@
       <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile" aria-label="Show more about pirates, too" hidden>
         Menu
       </button>
-      <div data-houdini id="mobile">
+      <div data-houdini-menu id="mobile">
         <ul class="[ list ]">
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
-          Events
-        </a>
+              Events
+            </a>
           </li>
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
-          About
-        </a>
+              About
+            </a>
           </li>
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
-          Committee
-        </a>
+              Committee
+            </a>
           </li>
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">
-          FAQ
-        </a>
+              FAQ
+            </a>
           </li>
         </ul>
+        <!-- Houdini -->
+        <script>
+          var disclosure = new Houdini('[data-houdini-menu]');
+        </script>
       </div>
     </div>
   </div>

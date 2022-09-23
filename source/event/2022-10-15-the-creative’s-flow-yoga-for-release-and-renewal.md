@@ -21,7 +21,7 @@ hero:
 eventDetails:
   statusLabel: Featured on Events
   filterTime: Morning
-  filterDate: Saturday 15th
+  filterDate: Saturday, October 15
   endDate: 2022-10-15T16:30:04.358Z
   statusType: Featured on Events
   filterLocation: In-Person

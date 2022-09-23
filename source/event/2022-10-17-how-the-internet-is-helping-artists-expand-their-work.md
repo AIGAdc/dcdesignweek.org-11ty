@@ -42,7 +42,7 @@ eventDetails:
 
 
     ## Venue
-  filterDate: Monday 17th
+  filterDate: Monday, October 17
   filterLocation: In-Person
   filterTime: Evening
   filterType: Talk/Panel

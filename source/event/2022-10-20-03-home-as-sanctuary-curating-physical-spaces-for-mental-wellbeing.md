@@ -70,7 +70,7 @@ eventDetails:
     Venue Info: 1201 K St NW, Washington, DC 20005
   location:
     - name: In-Person
-  filterDate: Thursday 20th
+  filterDate: Thursday, October 20
   filterLocation: In-Person
   filterTime: Evening
   filterType: Workshop

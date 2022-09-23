@@ -1,36 +1,32 @@
-{% for content in speaker %}
-  {% if content.name %}
-    <!-- Wave -->
-    <div class="[ wave right ]" style="fill: var(--dcdw-2022-cream-primary); background-color: var(--dcdw-2022-cream-secondary); !important; margin-bottom: -1px;">
-      {% include '1-global-blocks/wave.njk' %}
+<!-- Wave -->
+<div class="[ wave right ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-primary); !important; margin-bottom: -1px;">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="{{ content.header | slug }}">
+  <div class="[ container container-default ][ flow ][ ]">
+    <h2>Speakers</h2>
+    <ul class="[ speakers ][ grid-flow grid-flow grid-two-columns ]">
+      {% for content in speaker %}
+        <li class="[ mambo-card speaker horizontal ]">
+          <div class="[ details ]">
+            <div class="[ meta ]">
+              <h3 class="name">{{ content.name }}</h3>
+              {% if content.pronunciation %}
+                <p class="pronunciation">{{ content.pronunciation | safe }}</p>
+              {% endif %}
+            </div>
+            {% if content.pronouns %}
+              <p class="pronouns">{{ content.pronouns | safe }}</p>
+            {% endif %}
+            {% if content.title %}
+              <p class="title">{{ content.title | safe }}</p>
+            {% endif %}
+            {% if content.bio %}
+              <div class="bio flow">{{ content.bio | md | safe }}</div>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-    <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="{{ content.header | slug }}">
-      <div class="[ container container-default ][ flow ][ ]">
-        <h2>Speakers</h2>
-        <ul class="[ speakers ][ grid-flow grid-flow grid-two-columns ]">
-          {% for content in speaker %}
-            <li class="[ mambo-card speaker horizontal ]">
-              <div class="[ details ]">
-                <div class="[ meta ]">
-                  <h3 class="name">{{ content.name }}</h3>
-                  {% if content.pronunciation %}
-                    <p class="pronunciation">{{ content.pronunciation | safe }}</p>
-                  {% endif %}
-                </div>
-                {% if content.pronouns %}
-                  <p class="pronouns">{{ content.pronouns | safe }}</p>
-                {% endif %}
-                {% if content.title %}
-                  <p class="title">{{ content.title | safe }}</p>
-                {% endif %}
-                {% if content.bio %}
-                  <div class="bio flow">{{ content.bio | md | safe }}</div>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </section>
-  {% endif %}
-{% endfor %}
+  </div>
+</section>

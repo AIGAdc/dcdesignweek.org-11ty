@@ -20,11 +20,32 @@ hero:
 eventDetails:
   startDate: 2022-10-16T19:00:47.129Z
   endDate: 2022-10-16T20:30:47.139Z
-  filterDate: Sunday 16th
+  filterDate: Sunday, October 16
   filterLocation: In-Person
   filterTime: Daytime
   filterType: Workshop
-  description: ﻿
+  description: >-
+    ## Description and Details
+
+
+    Visions of the future often involve sweeping predictions about advances in technology or space travel. But what’s the future of our neighborhood street? Or our relationships in the community?
+
+
+    This is a meditative workshop to imagine your possible future life in DC. Guided by artists and facilitators Xena Ni and Allison Press, participants will use a deck of Tarot-inspired cards designed by Xena that will transport you to the future. 
+
+
+    Participants will learn how to use the cards collaboratively in small groups. One participant will deal the cards, the other will respond to the prompts on them. The cards might ask, “What do you hear?” “What does the ground feel like under your feet?” or “Who are you with?”. 
+
+
+    After everyone envisons their future day, participants will sketch scenes from their session to commemorate their trip to the future.
+
+
+    *Photographers and/or videographers will be documenting the event. If you wish to opt-out of being photographed, please notify the event organizers upon check-in.*
+
+
+    Light refreshments will be provided.
+  location:
+    - name: In-Person
 speaker:
   - name: Allison Press
     title: Service Designer, 18F
@@ -44,4 +65,46 @@ speaker:
 
 
       [W﻿ebsite](https://madebyxena.com)
+preparation: >-
+  ## Preparation
+
+
+  We recommend that attendees wear masks when not eating or drinking.
+
+
+  ### COVID-19 is hard to predict: What happens if in-person events need to be canceled?
+
+
+  When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety, a refund will be issued. In either scenario you will be notified immediately.
+a11y: >-
+  ## Accessibility
+
+
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+  * The park is accessible and has wide, flat sidewalks.
+
+  * There are no bathrooms on site.
+
+
+
+
+  If you need any additional accommodations, please contact us using a method that works best for you:
+
+
+  * [Email our accessibility team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)
+
+  * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
+
+  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+
+
+
+
+  We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+
+
+
+
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
 ---
