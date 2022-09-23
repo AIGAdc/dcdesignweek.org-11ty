@@ -16,7 +16,13 @@ hero:
     our ideal.**"
 sections:
   - section:
-      colorCombo: maroon-primary-on-white
+      showWaveTop: true
+      waveTopFill: var(--dcdw-2022-yellow-primary)
+      waveTopBackground: var(--dcdw-2022-cream-primary)
+      showWaveBottom: true
+      waveBottomFill: var(--dcdw-2022-cream-primary)
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream
       header: "This accessibility statement aims to:"
       body: >-
         * Provide transparency on our efforts 
@@ -27,7 +33,13 @@ sections:
 
         * Encourage feedback from the community to suggest how we can be more inclusive in the future.
   - section:
-      colorCombo: maroon-primary-on-white
+      showWaveTop: false
+      waveTopFill: var(--dcdw-2022-yellow-primary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      showWaveBottom: true
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
       header: What we’re working on
       body: >-
         We’re working with our content curators to ensure all talks are
@@ -56,7 +68,13 @@ sections:
 
         Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
   - section:
-      colorCombo: maroon-primary-on-white
+      showWaveTop: false
+      waveTopFill: var(--dcdw-2022-yellow-primary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      showWaveBottom: true
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
       header: Event Accommodations
       body: >-
         We’re providing the following accommodations for our events:
@@ -75,7 +93,13 @@ sections:
 
           * We can’t guarantee that all of our events will be able to share their materials ahead of time because some talks may contain classified information or may not have the resources and time to do so.
   - section:
-      colorCombo: maroon-primary-on-white
+      showWaveTop: false
+      waveTopFill: var(--dcdw-2022-yellow-primary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      showWaveBottom: true
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
       header: What We’re Missing
       body: >-
         We’re still at the beginning of our accessibility journey and want to be
@@ -90,7 +114,13 @@ sections:
 
         * Transportation to and from events.
   - section:
-      colorCombo: maroon-primary-on-white
+      showWaveTop: false
+      waveTopFill: var(--dcdw-2022-yellow-primary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      showWaveBottom: true
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveBottomBackground: var(--dcdw-2022-maroon-primary)
+      colorCombo: maroon-primary-on-cream-secondary
       header: Request an Accommodation
       body: >-
         We recognize that our events are still not completely accessible by
