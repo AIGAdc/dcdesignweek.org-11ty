@@ -11,8 +11,8 @@ primaryNavLinks:
     url: /committee/
     external: false
     enabled: true
-  - title: FAQs
-    url: /faqs/
+  - title: faq
+    url: /faq/
     external: false
     enabled: True
   - title: Makers

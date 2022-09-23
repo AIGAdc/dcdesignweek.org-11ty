@@ -144,7 +144,7 @@ platform: >-
   * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on the [AIGA Membership website](https://www.aiga.org/membership-community/aiga-membership/).
 
   * We unfortunately won’t be able to collect questions ahead of time. Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faqs/)
+    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
 preparation: >-
   ## How to prepare
 

@@ -789,8 +789,8 @@ button.mambo-anchor.action {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-/* Page: FAQs */
-.layout-faqs .faqs-sidebar {
+/* Page: faq */
+.layout-faq .faq-sidebar {
   position: sticky;
   top: 1rem;
 }
@@ -1503,7 +1503,7 @@ input:checked + .slider:before {
 .layout-page.event-events .mambo-hero,
 .layout-page.event-about .mambo-hero,
 .layout-page.event-committee .mambo-hero,
-.layout-page.event-faqs .mambo-hero,
+.layout-page.event-faq .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
   min-height: auto;

@@ -588,9 +588,9 @@ collections:
                   - label: "Body"
                     name: "body"
                     widget: "markdown"
-      - label: "FAQs"
-        name: "faqs"
-        file: "source/pages/faqs.md"
+      - label: "faq"
+        name: "faq"
+        file: "source/pages/faq.md"
         fields:
           - label: "Title"
             hint: 📝 Sets the title of the page.
@@ -1491,9 +1491,9 @@ collections:
                     "color-zodiac",
                   ]
             widget: list
-      - label: "FAQs"
-        name: "faqs"
-        file: "source/_data/faqs.yaml"
+      - label: "faq"
+        name: "faq"
+        file: "source/_data/faq.yaml"
         fields:
           - label: Global
             name: global
