@@ -36,14 +36,16 @@
     </h2>
     <div class="[ grid-flow grid-flow-start grid-four-columns ]">
       <div class="[ sticky events-sidebar ][ column-span-one ]" id="events-filter">
-        {% include "2-layout-blocks/page/events/filter.njk" %}
+        {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
         <div class="controls-pagination">
           <div class="mixitup-page-stats"></div>
         </div>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
-          {% include "2-layout-blocks/page/events/list.njk" %}
+          {% for event in collections.event %}
+            {% include '1-global-blocks/card-event.njk' %}
+          {% endfor %}
         </ul>
       </div>
     </div>

@@ -11,69 +11,7 @@
       </div>
       <ul class="[ events-list ][ column-span-four ][ grid-flow grid-three-columns ]">
         {% for event in collections.event | reverse | limit(3) %}
-          <li class="[ mambo-card event ][ {{ event.data.type | safe }} ][ flow ]">
-            <div class="[ media ]">
-              <figure class="[ image ]">
-                <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
-              </figure>
-              <div class="[ statuses ]">
-                {% if event.data.eventDetails.statusType == "Featured on Home" %}
-                  <div class="[ status featured-on-home ]">
-                    <div class="container container-default">
-                      {{event.data.eventDetails.statusLabel}}
-                    </div>
-                  </div>
-                {% elseif event.data.eventDetails.statusType == "Featured on Events" %}
-                  <div class="[ status featured-on-events ]">
-                    <div class="container container-default">
-                      {{event.data.eventDetails.statusLabel}}
-                    </div>
-                  </div>
-                {% elseif event.data.eventDetails.statusType == "Sold Out" %}
-                  <div class="[ status sold-out ]">
-                    <div class="container container-default">
-                      {{event.data.eventDetails.statusLabel}}
-                    </div>
-                  </div>
-                {% endif %}
-              </div>
-            </div>
-            <div class="[ details ]">
-              <a aria-label="Learn more about the event: {{ event.data.title | safe }}" href="{{ event.url }}">
-                <h3 class="[ title ]">
-                  {{ event.data.title | safe }}
-                </h3>
-              </a>
-            </div>
-            <div class="[ meta ]">
-              <div class="[ day-date ]">
-                <p class="[ day ]">
-                  {{ event.data.eventDetails.startDate | dayShort }}
-                </p>
-                <div>
-                  <time class="[ date ]" datetime="{{ event.data.eventDetails.startDate | monthShort }}">
-                    {{ event.data.eventDetails.startDate | monthShort }}
-                  </time>
-                  <time class="[ date ]" datetime="{{ event.data.eventDetails.startDate | date }}">
-                    {{ event.data.eventDetails.startDate | date }}
-                  </time>
-                </div>
-                <span>
-                  {% include "static/images/blob-date.svg" %}
-                </span>
-              </div>
-              <div class="[ time-location ]">
-                <time class="[ time ]" datetime="{{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}">
-                  {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
-                </time>
-                {% for location in event.data.eventDetails.location %}
-                  <p class="[ location ]">
-                    {{ location.name | safe }}
-                  </p>
-                {% endfor %}
-              </div>
-            </div>
-          </li>
+          {% include '1-global-blocks/card-event.njk' %}
         {% endfor %}
       </ul>
       <div class="[ column-span-one ]">
