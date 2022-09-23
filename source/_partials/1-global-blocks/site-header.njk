@@ -28,18 +28,34 @@
         </a>
       </li>
     </ul>
-    <ul class="list mobile">
-      <li>
-        <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini data-houdini-button="Menu" data-houdini-label id="show-me">
-          <ul>
-            <li>
-              <a class="[ mambo-anchor ]" href="/faqs/">
-                Menu
-              </a>
-            </li>
-          </ul>
-        </button>
-      </li>
-    </ul>
+    <div class="list mobile">
+      <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile" aria-label="Show more about pirates, too" hidden>
+        Menu
+      </button>
+      <div data-houdini id="mobile">
+        <ul class="[ list ]">
+          <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
+          Events
+        </a>
+          </li>
+          <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
+          About
+        </a>
+          </li>
+          <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
+          Committee
+        </a>
+          </li>
+          <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if '/faqs/' in page.url }}" href="/faqs/">
+          FAQ
+        </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>

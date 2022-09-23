@@ -4,6 +4,23 @@
   display: block;
 }
 
+.list.mobile button {
+  margin-top: 0 !important;
+}
+
+.list.mobile .houdini .list {
+  display: flex;
+  position: absolute;
+  background-color: var(--dcdw-2022-yellow-primary);
+  padding: var(--size-16);
+  border-radius: 1rem;
+  right: 0;
+  text-align: left;
+  align-items: end;
+  flex-direction: column;
+  border: solid 1px var(--dcdw-2022-maroon-primary);
+}
+
 .list.desktop {
   display: none;
 }
