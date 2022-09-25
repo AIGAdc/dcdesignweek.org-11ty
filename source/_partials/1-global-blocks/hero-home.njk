@@ -1,6 +1,6 @@
 <section aria-label="{{ hero.header | safe }}" class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-cream" id="{{ hero.header | slug }}">
   <div class="[ container container-default ][ flow ]">
-    <div class="[ hero-content ]">
+    <div class="[ hero-content flow-large ]">
       {% if hero.header %}
         <span id="skip-to-content">
           <h1>
@@ -9,7 +9,7 @@
         </span>
       {% endif %}
       {% if hero.body %}
-        <div class="[ wysiwyg ]">
+        <div class="[ wysiwyg container-small ]">
           {{ hero.body | md | safe }}
         </div>
       {% endif %}
