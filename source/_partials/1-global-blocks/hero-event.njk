@@ -20,7 +20,7 @@
         {{ eventDetails.startDate | time }}
       </datetime>
     </div>
-    <div class="[ buttons ]">
+    <div class="[ buttons ]" style="margin-bottom: var(--size-32);">
       {% for ticket in hero.tickets %}
         <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
           {{ ticket.ticket.label }}
@@ -28,25 +28,25 @@
       {% endfor %}
     </div>
   </div>
-</section>
-<section class="[ statuses ]">
-  {% if eventDetails.statusType == "Featured on Home" %}
-    <div class="[ status featured-on-home ]">
-      <div class="container container-default">
-        {{eventDetails.statusLabel}}
+  <div class="[ statuses ]">
+    {% if eventDetails.statusType == "Featured on Home" %}
+      <div class="[ status featured-on-home ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
       </div>
-    </div>
-  {% elseif eventDetails.statusType == "Featured on Events" %}
-    <div class="[ status featured-on-events ]">
-      <div class="container container-default">
-        {{eventDetails.statusLabel}}
+    {% elseif eventDetails.statusType == "Featured on Events" %}
+      <div class="[ status featured-on-events ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
       </div>
-    </div>
-  {% elseif eventDetails.statusType == "Sold Out" %}
-    <div class="[ status sold-out ]">
-      <div class="container container-default">
-        {{eventDetails.statusLabel}}
+    {% elseif eventDetails.statusType == "Sold Out" %}
+      <div class="[ status sold-out ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
       </div>
-    </div>
-  {% endif %}
+    {% endif %}
+  </div>
 </section>
