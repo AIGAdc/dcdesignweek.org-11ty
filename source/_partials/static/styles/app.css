@@ -807,8 +807,22 @@ button.mambo-anchor.action {
   grid-gap: var(--size-88);
 }
 
-.event-events .events-list {
+.event-events .events-list,
+.event-committee .mambo-cards {
   grid-gap: var(--size-64);
+}
+
+.event-committee .mambo-card.committee .image {
+  aspect-ratio: 16/9;
+  max-width: unset;
+}
+
+.event-committee .mambo-card.committee .image img {
+  aspect-ratio: 16/9;
+}
+
+.event-committee .wysiwyg {
+  line-height: 1.25;
 }
 
 /* Committee */
