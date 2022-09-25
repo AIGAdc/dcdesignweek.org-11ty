@@ -2,28 +2,28 @@
   <div class="[ media ]">
     <figure class="[ image ]">
       <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
+      <div class="[ statuses ]">
+        {% if event.data.eventDetails.statusType == "Featured on Home" %}
+          <div class="[ status featured-on-home ]">
+            <div class="container container-default">
+              {{event.data.eventDetails.statusLabel}}
+            </div>
+          </div>
+        {% elseif event.data.eventDetails.statusType == "Featured on Events" %}
+          <div class="[ status featured-on-events ]">
+            <div class="container container-default">
+              {{event.data.eventDetails.statusLabel}}
+            </div>
+          </div>
+        {% elseif event.data.eventDetails.statusType == "Sold Out" %}
+          <div class="[ status sold-out ]">
+            <div class="container container-default">
+              {{event.data.eventDetails.statusLabel}}
+            </div>
+          </div>
+        {% endif %}
+      </div>
     </figure>
-    <div class="[ statuses ]">
-      {% if event.data.eventDetails.statusType == "Featured on Home" %}
-        <div class="[ status featured-on-home ]">
-          <div class="container container-default">
-            {{event.data.eventDetails.statusLabel}}
-          </div>
-        </div>
-      {% elseif event.data.eventDetails.statusType == "Featured on Events" %}
-        <div class="[ status featured-on-events ]">
-          <div class="container container-default">
-            {{event.data.eventDetails.statusLabel}}
-          </div>
-        </div>
-      {% elseif event.data.eventDetails.statusType == "Sold Out" %}
-        <div class="[ status sold-out ]">
-          <div class="container container-default">
-            {{event.data.eventDetails.statusLabel}}
-          </div>
-        </div>
-      {% endif %}
-    </div>
   </div>
   <div class="[ details ]">
     <a href="{{ event.url }}">
