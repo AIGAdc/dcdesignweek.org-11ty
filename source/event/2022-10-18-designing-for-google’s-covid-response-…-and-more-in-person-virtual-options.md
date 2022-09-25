@@ -47,7 +47,7 @@ eventDetails:
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
   mobileButtonColorCombo: yellow-primary-on-maroon-primary
-title: Designing for Google’s COVID response … and more! (IN-PERSON & VIRTUAL OPTIONS)
+title: Designing for Google’s COVID response … and more!
 description: Hear how Googlers brought years of experience designing for crises
   to the biggest of our lifetimes. Plus, meet the new design teams in DC!
 hero:
