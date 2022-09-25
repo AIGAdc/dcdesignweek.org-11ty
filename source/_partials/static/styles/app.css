@@ -356,12 +356,15 @@ button.mambo-anchor.action {
 .mailchimp form label {
   display: flex;
   flex-direction: column;
+  font-weight: 900;
 }
 
 .mailchimp form input {
   background-color: transparent;
   border: solid 1px var(--dcdw-2022-cream-primary);
   color: var(--dcdw-2022-cream-primary);
+  padding: 0.438rem var(--size-8);
+  margin-top: var(--size-8);
 }
 
 .mailchimp form .mc-field-group.faux-button input {
