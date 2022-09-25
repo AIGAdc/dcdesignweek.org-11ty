@@ -33,18 +33,6 @@ members:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 
-  - name: Josh Kim
-    blob: 2
-    pronunciation:
-    pronouns: he | him | his
-    position: Accessibility Lead
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
   - name: Marcus Relacion
     blob: 3
     pronunciation: (mar-kuss ree-lay-see-on)
@@ -98,18 +86,6 @@ members:
     pronunciation:
     pronouns:
     position: Graphic Designer
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Yu-Li Hunsicker
-    blob: 2
-    pronunciation:
-    pronouns:
-    position: QA/Accessibility Specialist
     bio:
     linkLabel1:
     linkURL1:

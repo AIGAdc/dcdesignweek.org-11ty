@@ -68,54 +68,6 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt:
-  - name: Raksa Yin
-    blob: 1
-    pronunciation:
-    pronouns: he | him | his
-    position: AIGA DC President
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Lauren Maffeo
-    blob: 1
-    pronunciation:
-    pronouns:
-    position: AIGA DC Vice President
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Gene Alexeyev
-    blob: 2
-    pronunciation:
-    pronouns:
-    position: AIGA DC Sponsorship Chair
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Nicole Cohn
-    blob: 3
-    pronunciation:
-    pronouns:
-    position: AIGA DC Membership & Volunteer Chair 
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 
 layout: single-committee
 permalink: "/committee/executive/"
