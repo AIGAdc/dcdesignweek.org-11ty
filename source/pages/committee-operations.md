@@ -19,7 +19,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Josh Kim
     pronunciation: Provide Pronunciation
     pronouns: Provide Pronouns
@@ -30,7 +30,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Marcus Relacion
     pronunciation: (mar-kuss ree-lay-see-on)
     pronouns: He / Him
@@ -41,7 +41,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Shoshanna Chito
     pronunciation: Provide Pronunciation
     pronouns: Provide Pronouns
@@ -52,7 +52,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Silvia Script
     pronunciation: Provide Pronunciation
     pronouns: Provide Pronouns
@@ -63,7 +63,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Yu-Li Hunsicker
     pronunciation: Provide Pronunciation
     pronouns: Provide Pronouns
@@ -74,7 +74,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
 layout: single-committee
 permalink: "/committee/operations/"
 ---

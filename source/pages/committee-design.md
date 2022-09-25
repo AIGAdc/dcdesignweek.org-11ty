@@ -20,7 +20,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Josh Kim
     blob: 2
     pronunciation:
@@ -32,7 +32,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Marcus Relacion
     blob: 3
     pronunciation: (mar-kuss ree-lay-see-on)
@@ -44,7 +44,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Shoshanna Chito
     blob: 3
     pronunciation:
@@ -56,7 +56,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Sydney Adams
     blob: 2
     pronunciation:
@@ -68,7 +68,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Tiara Slater
     blob: 1
     pronunciation:
@@ -80,7 +80,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Vanessa Vergara
     blob: 1
     pronunciation:
@@ -92,7 +92,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Yu-Li Hunsicker
     blob: 2
     pronunciation:
@@ -104,7 +104,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
 layout: single-committee
 permalink: "/committee/creative/"
 ---

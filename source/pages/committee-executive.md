@@ -20,7 +20,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Alyssa Huntley
     blob: 2
     pronunciation:
@@ -32,7 +32,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Koi Hernandez
     blob: 3
     pronunciation:
@@ -44,7 +44,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Silvia Script
     blob: 3
     pronunciation:
@@ -56,7 +56,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Danni Baker
     blob: 2
     pronunciation:
@@ -68,7 +68,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Raksa Yin
     blob: 1
     pronunciation:
@@ -80,7 +80,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Lauren Maffeo
     blob: 1
     pronunciation:
@@ -92,7 +92,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Gene Alexeyev
     blob: 2
     pronunciation:
@@ -104,7 +104,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Nabeeh Bilal
     blob: 3
     pronunciation:
@@ -116,7 +116,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Nicole Cohn
     blob: 3
     pronunciation:
@@ -128,7 +128,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Iyana Moore 
     blob: 2
     pronunciation:
@@ -140,7 +140,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
 layout: single-committee
 permalink: "/committee/executive/"
 ---

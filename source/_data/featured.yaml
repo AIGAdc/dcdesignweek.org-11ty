@@ -6,7 +6,7 @@ a11y:
   - header: Accessibility
     body: DC Design Week is committed to improving accessibility and inclusion efforts each year. You can learn more about how we’re making this DC Design Week an accessible experience by [visiting our page on accessibility](/accessibility).
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: /accessibility/
     linkLabel: View accessibility statement
 
@@ -14,7 +14,7 @@ brand:
   - header: 2022 brand partner
     body: Big thanks to Brllnt and Scrap Strategies for developing the DCDW 2022 brand! Brllnt is a collective of Women- and BIPOC-owned creative small businesses that provide human-centered design, brand strategy, and user experience to mission-driven teams. Scrap Strategies is a market and business strategy firm using research, data, and automation to supercharge business growth by distilling human-first practices.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: https://www.brllnt.co/case-studies/DCDW22
     linkLabel: View Brllnt's website
     colorCombo: maroon-primary-on-cream
@@ -28,7 +28,7 @@ committee:
     body: DC Design Week is made possible by a committee of volunteers who help plan each event, do all the outreach, and more. We’re so grateful for their contributions.
     colorCombo: maroon-primary-on-cream-secondary
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: /committee/
     linkAria: Explore committee
     linkLabel: Explore committee
@@ -45,7 +45,7 @@ faq:
   - header: FAQ
     body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: /faq/
     linkLabel: View FAQ
     colorCombo: maroon-primary-on-cream
@@ -55,7 +55,7 @@ joinDCDW:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
     colorCombo: maroon-primary-on-yellow-primary
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: mailto:designweek@dc.aiga.org
     linkLabel: Contact DCDW
 
@@ -63,7 +63,7 @@ makers:
   - header: Lorem Ipsum (Makers)
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: #
     linkLabel: Lorem ipsum (TBA)
 
@@ -74,7 +74,7 @@ sponsors:
 
     We’re always looking for organizations that can help ensure every event is as accessible and inclusive as possible. If you’re interested in sponsoring DC Design Week this year, [let us know at designweek@dc.aiga.org](mailto:designweek@dc.aiga.org)."
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     linkURL: /about/
     linkLabel: Explore all sponsors
     colorCombo: maroon-primary-on-yellow-primary
@@ -92,5 +92,5 @@ theme:
     Given the uncertainty of the last two years, our 2022 themes are resilience and the power of community. Together over the course of eight days, we’ll nurture curiosity and connections through more than 15 creative events, including sessions led by renowned design agencies, workshops with local makers, and restorative gatherings to keep you centered."
 
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: 🛑 Provide Alt Text
+    imageALT: 
     colorCombo: maroon-primary-on-cream

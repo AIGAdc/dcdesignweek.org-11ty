@@ -4,33 +4,33 @@ teams:
     url: /committee/executive/
     members: 5 members
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
   - title: Communications Team
     label: "Contact DCDW about sponsorship "
     url: /committee/communications/
     members: 4 members
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
   - title: Creative Team
     label: Sign up to join our volunteer list
     url: /committee/creative/
     members: 7 members
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
   - title: Operations Team
     label: "Contact DCDW about sponsorship "
     url: /committee/operations/
     members: 7 members
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
   - title: Programming Team
     label: "Contact DCDW about sponsorship "
     url: /committee/programming/
     members: 9 members
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt:
     body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.

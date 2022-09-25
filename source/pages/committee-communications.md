@@ -20,7 +20,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Jelena Budjevac
     blob: 2
     pronunciation:
@@ -32,7 +32,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
   - name: Scott Kirkwood
     blob: 3
     pronunciation:
@@ -44,7 +44,7 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 🛑 Provide Alt Text
+    imageAlt: 
 layout: single-committee
 permalink: "/committee/communications/"
 ---
