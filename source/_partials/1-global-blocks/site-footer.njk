@@ -33,3 +33,13 @@
     var parallaxInstance = new Parallax(scene);
   </script>
 {% endif %}
+<script>
+  document
+    .getElementById('content')
+    .addEventListener('click', function (e) {
+      e.preventDefault();
+      var target = document.querySelectorAll('h1, h2, h3, h4, h5, h6')[0];
+      target.setAttribute('tabindex', "-1");
+      target.focus();
+    });
+</script>

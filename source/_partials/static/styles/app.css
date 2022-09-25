@@ -1721,7 +1721,7 @@ input:checked + .slider:before {
     max-width: unset;
   }
   .mambo-hero .wysiwyg p {
-    font-size: var(--size-32);
+    font-size: var(--size-24);
   }
   .home-hero-blob {
     top: -64px;

@@ -46,7 +46,7 @@
   <body>
     {% include '1-global-blocks/skip-to-main.njk' %}
     {% include '1-global-blocks/site-header.njk' %}
-    <main id="content">
+    <main id="content" tabindex="-1">
       {% block content %}
         {{ content | safe }}
       {% endblock %}
