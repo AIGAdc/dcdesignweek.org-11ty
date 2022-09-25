@@ -1,13 +1,13 @@
 ---
 title: Executive Team
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
+description: The folks leading the communications, design, operations, and programming efforts for this year’s DC Design Week.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo:
   header:
-  body:
+  body: The folks leading the communications, design, operations, and programming efforts for this year’s DC Design Week.
 members:
   - name: Ariana Rodriguez-Gitler
     blob: 1

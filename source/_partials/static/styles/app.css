@@ -1596,7 +1596,7 @@ input:checked + .slider:before {
 .layout-page.event-faq .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
-  min-height: auto;
+  min-height: 40vh;
 }
 
 .mambo-hero .container,
@@ -1722,6 +1722,20 @@ input:checked + .slider:before {
 
 .home-hero-date-blob svg {
   width: 144px;
+}
+
+.home-page-blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translate(-350px, -150px);
+}
+
+.home-page-blob svg {
+  width: 800px;
 }
 
 @media screen and (min-width: 30rem) {

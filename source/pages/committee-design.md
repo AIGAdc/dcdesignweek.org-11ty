@@ -1,13 +1,13 @@
 ---
 title: Creative Team
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
+description: The folks responsible for turning the 2022 branding into our social media, website, and printed material designs.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo:
   header:
-  body:
+  body: The folks responsible for turning the 2022 branding into our social media, website, and printed material designs.
 members:
   - name: Silvia Script
     blob: 3

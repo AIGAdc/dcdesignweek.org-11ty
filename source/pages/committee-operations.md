@@ -1,13 +1,13 @@
 ---
 title: Operations Team
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
+description: The folks responsible for developing partnerships with our community and helping us meet our accessibility goals.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo:
   header:
-  body:
+  body: The folks responsible for developing partnerships with our community and helping us meet our accessibility goals.
 members:
   - name: Gene Alexeyev
     blob: 2

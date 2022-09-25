@@ -1,13 +1,13 @@
 ---
 title: Communications Team
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc varius.
+description: The folks responsible for outreach with our community through our social media, emails, website, and more.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
   mobileButtonColorCombo: maroon-primary-on-yellow-primary
 hero:
   colorCombo:
   header:
-  body:
+  body: The folks responsible for outreach with our community through our social media, emails, website, and more.
 members:
   - name: Anthony Petrillo
     blob: 1

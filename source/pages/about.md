@@ -1,8 +1,6 @@
 ---
 title: About
-description: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus
-  et quam finibus, auctor arcu eu, consectetur erat. Mauris vitae arcu quis nunc
-  varius.
+description: DC Design Week, in its 14th year, is a celebration of the DC, Maryland, and Virginia region’s creative community.
 layout: page
 permalink: /about/
 pageSettings:
@@ -11,5 +9,5 @@ pageSettings:
 hero:
   colorCombo:
   header:
-  body: Lorem ipsum dolor sit amet, consec tetur adi piscing elit. Vivamus et quam finibus auctor arcu eu massa rutrum erat.
+  body: DC Design Week, in its 14th year, is a celebration of the DC, Maryland, and Virginia region’s creative community.
 ---
