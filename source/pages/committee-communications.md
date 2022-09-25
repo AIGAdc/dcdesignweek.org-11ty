@@ -20,6 +20,18 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt:
+  - name: Iyana Moore 
+    blob: 2
+    pronunciation:
+    pronouns:
+    position: AIGA DC Communications Director
+    bio:
+    linkLabel1:
+    linkURL1:
+    linkLabel2:
+    linkURL2:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 
   - name: Jelena Budjevac
     blob: 2
