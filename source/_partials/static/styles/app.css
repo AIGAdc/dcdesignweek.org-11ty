@@ -371,16 +371,16 @@ button.mambo-anchor.action {
 }
 
 #mc_embed_signup input.mce_inline_error {
-  border-color: var(--dcdw-2022-pink-primary) !important;
+  border-color: var(--dcdw-2022-pink-tertiary) !important;
 }
 
 #mc_embed_signup div.mce_inline_error {
   margin: 0 0 1em 0 !important;
   padding: 5px 10px !important;
-  background-color: var(--dcdw-2022-pink-primary) !important;
+  background-color: var(--dcdw-2022-pink-tertiary) !important;
   font-weight: bold !important;
   z-index: 1 !important;
-  color: #fff !important;
+  color: var(--dcdw-2022-maroon-primary) !important;
 }
 
 /* Controls
