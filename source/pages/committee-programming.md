@@ -93,11 +93,11 @@ members:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt:
-  - name: Natarsha Wright
+  - name: Nabi Bilal
     blob: 3
     pronunciation:
-    pronouns:
-    position: CC Program Lead
+    pronouns: he | him | his
+    position: AIGA DC Programming Director
     bio:
     linkLabel1:
     linkURL1:
@@ -105,11 +105,11 @@ members:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt:  
-  - name: Nabi Bilal
+  - name: Natarsha Wright
     blob: 3
     pronunciation:
-    pronouns: he | him | his
-    position: AIGA DC Programming Director
+    pronouns:
+    position: CC Program Lead
     bio:
     linkLabel1:
     linkURL1:
