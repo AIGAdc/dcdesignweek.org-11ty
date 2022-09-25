@@ -5,10 +5,12 @@
 }
 
 .skip-link:focus {
-  position: absolute;
+  position: absolute !important;
+  padding: var(--size-8);
   transform: translateY(0px);
   min-width: 119px;
   text-align: center;
+  box-shadow: 0 0 0 4px white, 0 0 0px 4px white;
 }
 
 .link-back-to-top {

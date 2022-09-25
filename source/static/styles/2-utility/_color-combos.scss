@@ -93,16 +93,88 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-pink-tertiary);
 }
 
-*[data-color="cream-on-maroon-primary"]:focus,
-*[data-color="maroon-primary-on-cream"]:focus,
-*[data-color="maroon-primary-on-yellow-primary"]:focus {
-  box-shadow: 0 0 0 4px currentColor, 0 0 0px 4px currentColor;
+a {
+  color: inherit;
+  cursor: pointer;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  transition: opacity var(--timing-default) ease-in;
+}
+
+a:focus,
+input:focus,
+button:focus {
+  //   /* 💐 Change the following variables in box shadow to experiment with different potential colors for DCDW's focus style, make sure one is dark and the other is light so they work on all different kinds of backgrounds 
+
+  // 	Credit to Ad Hoc's Scott Weber and DK for the writeup and code https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/ 
+
+  // 	Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this example for the 2022 DC Design Week site. */
+  box-shadow: 0 0 0 4px transparent, 0 0 0px 4px transparent;
   // Add support for Windows High Contrast Mode (WHCM)
   // The transparent color only shows when WHCM is triggered
-  outline: 4px solid var(--dcdw-2022-yellow-primary);
+  outline: 4px solid currentColor;
   outline-offset: 4px;
   overflow: hidden;
   position: relative;
   text-decoration-thickness: 0;
   z-index: var(--layer-1);
 }
+
+[data-color="maroon-primary-on-cream"] a:focus,
+[data-color="maroon-primary-on-cream"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-primary), 0 0 0px 4px var(--dcdw-2022-cream-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color="maroon-secondary-on-cream"] a:focus,
+[data-color="maroon-secondary-on-cream"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-primary), 0 0 0px 4px var(--dcdw-2022-cream-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-secondary);
+}
+
+[data-color="maroon-primary-on-cream-secondary"] a:focus,
+[data-color="maroon-primary-on-cream-secondary"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0px 4px var(--dcdw-2022-cream-secondary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color="maroon-secondary-on-cream-secondary"] a:focus,
+[data-color="maroon-secondary-on-cream-secondary"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0px 4px var(--dcdw-2022-cream-secondary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color="maroon-primary-on-yellow-primary"] a:focus,
+[data-color="maroon-primary-on-yellow-primary"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-yellow-primary), 0 0 0px 4px var(--dcdw-2022-yellow-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color="maroon-secondary-on-yellow-primary"] a:focus,
+[data-color="maroon-secondary-on-yellow-primary"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-yellow-primary), 0 0 0px 4px var(--dcdw-2022-yellow-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-secondary);
+}
+
+[data-color="cream-on-maroon-primary"] a:focus,
+[data-color="cream-on-maroon-primary"] .mailchimp form .mc-field-group.faux-button input:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-maroon-primary), 0 0 0px 4px var(--dcdw-2022-maroon-primary);
+  outline: 4px solid var(--dcdw-2022-cream-primary);
+}
+
+[data-color="maroon-primary-on-cream-secondary"] .mambo-accordion-group button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0 4px var(--dcdw-2022-cream-secondary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+// *[data-color="cream-on-maroon-primary"]:focus {
+//   box-shadow: 0 0 0 4px transparent, 0 0 0px 4px transparent;
+//   // Add support for Windows High Contrast Mode (WHCM)
+//   // The transparent color only shows when WHCM is triggered
+//   outline: 4px solid currentColor;
+//   outline-offset: 4px;
+//   overflow: hidden;
+//   position: relative;
+//   text-decoration-thickness: 0;
+//   z-index: var(--layer-1);
+// }
