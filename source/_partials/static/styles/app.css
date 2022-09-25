@@ -1543,6 +1543,12 @@ input:checked + .slider:before {
   max-width: 10ch;
 }
 
+.layout-single-event .mambo-hero h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  max-width: unset;
+}
+
 .home-hero-blob {
   position: absolute;
   top: 0;
@@ -1717,6 +1723,8 @@ input:checked + .slider:before {
     max-width: 16ch;
   }
   .layout-single-event .mambo-hero h1 {
+    font-size: var(--size-56);
+    line-height: 1.25;
     max-width: unset;
   }
   .mambo-hero .wysiwyg p {
