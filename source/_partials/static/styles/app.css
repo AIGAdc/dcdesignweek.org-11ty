@@ -2006,9 +2006,13 @@ input:checked + .slider:before {
   fill: var(--dcdw-2022-maroon-secondary) !important;
 }
 
-.wave svg path {
+.wave {
+  overflow: hidden;
+}
+
+.wave.has-border svg path {
   stroke: var(--dcdw-2022-yellow-primary);
-  stroke-width: 2;
+  stroke-width: 1;
   paint-order: stroke;
 }
 
