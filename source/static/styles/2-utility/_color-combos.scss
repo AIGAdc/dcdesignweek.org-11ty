@@ -96,6 +96,7 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
 a {
   color: inherit;
   cursor: pointer;
+  display: inline-block;
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
   transition: opacity var(--timing-default) ease-in;
