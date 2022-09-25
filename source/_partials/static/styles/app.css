@@ -828,6 +828,10 @@ button.mambo-anchor.action {
   line-height: 1.25;
 }
 
+.event-home #events {
+  margin-top: var(--size-64);
+}
+
 /* Committee */
 .layout-single-committee .mambo-card.horizontal {
   display: grid;
@@ -1831,12 +1835,12 @@ input:checked + .slider:before {
 
 @media screen and (min-width: 40rem) {
   .mambo-section {
-    padding: var(--size-64) var(--size-24);
+    padding: var(--size-40) var(--size-24);
   }
 }
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-64) var(--size-56);
+    padding: var(--size-24) var(--size-56) var(--size-56) var(--size-56);
   }
 }
 .wave.left {
