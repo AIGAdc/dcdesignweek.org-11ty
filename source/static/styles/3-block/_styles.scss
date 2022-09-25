@@ -19,6 +19,8 @@
   align-items: end;
   flex-direction: column;
   border: solid 1px var(--dcdw-2022-maroon-primary);
+  max-height: 50vh;
+  overflow-y: auto;
 }
 
 .list.desktop {
