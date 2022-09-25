@@ -1714,7 +1714,6 @@ input:checked + .slider:before {
     padding: var(--size-120);
   }
   .mambo-hero h1 {
-    font-size: var(--size-96);
     max-width: 16ch;
   }
   .layout-single-event .mambo-hero h1 {
