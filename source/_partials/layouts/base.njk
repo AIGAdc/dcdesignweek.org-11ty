@@ -42,11 +42,11 @@
     {% endif %}
     <!-- Script: Netlify Identity Widget -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
   </head>
   <body>
-    {# {% include '1-global-blocks/skip-to-main.njk' %} #}
     {% include '1-global-blocks/site-header.njk' %}
-    <main id="content" tabindex="-1">
+    <main id="content">
       {% block content %}
         {{ content | safe }}
       {% endblock %}
