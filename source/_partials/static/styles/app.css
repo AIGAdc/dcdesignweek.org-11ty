@@ -975,6 +975,16 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-maroon-secondary);
 }
 
+*[data-color=maroon-secondary-on-cream-primary] {
+  background-color: var(--dcdw-2022-cream-primary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
+*[data-color=maroon-secondary-on-cream-secondary] {
+  background-color: var(--dcdw-2022-cream-secondary);
+  color: var(--dcdw-2022-maroon-secondary);
+}
+
 *[data-color=pink-tertiary-on-maroon-primary] {
   background-color: var(--dcdw-2022-maroon-primary);
   color: var(--dcdw-2022-pink-tertiary);
