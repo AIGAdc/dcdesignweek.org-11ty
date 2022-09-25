@@ -803,6 +803,14 @@ button.mambo-anchor.action {
   top: 1rem;
 }
 
+.event-events .grid-flow {
+  grid-gap: var(--size-88);
+}
+
+.event-events .events-list {
+  grid-gap: var(--size-32);
+}
+
 /* Committee */
 .layout-single-committee .mambo-card.horizontal {
   display: grid;
