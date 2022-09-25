@@ -2,6 +2,15 @@
   margin-top: var(--gap, var(--size-24));
 }
 
+.flow-small>*+*:not(:first-child) {
+  margin-top: var(--size-16);
+}
+
+.flow-large>*+*:not(:first-child) {
+  margin-top: var(--size-32);
+}
+
+
 .flow-none {
   margin: 0;
 }

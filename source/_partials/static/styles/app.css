@@ -697,6 +697,14 @@ button.mambo-anchor.action {
   margin-top: var(--gap, var(--size-24));
 }
 
+.flow-small > * + *:not(:first-child) {
+  margin-top: var(--size-16);
+}
+
+.flow-large > * + *:not(:first-child) {
+  margin-top: var(--size-32);
+}
+
 .flow-none {
   margin: 0;
 }
@@ -1367,6 +1375,10 @@ h3,
 
 .mambo-card.speaker .image img {
   box-shadow: none;
+}
+
+.mambo-card.committee .image {
+  max-width: 248px;
 }
 
 .mambo-card.committee .image img {

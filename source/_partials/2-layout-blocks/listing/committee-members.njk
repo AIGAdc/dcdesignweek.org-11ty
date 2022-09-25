@@ -4,17 +4,16 @@
 </div>
 
 <section class="[ mambo-section ]" data-color="maroon-secondary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
-  <div class="[ container container-default ][ flow ]">
-    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]" style="--gap: var(--size-64);">
+  <div class="[ container container-default ]">
+    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
       {% for member in members %}
-        <li class="[ mambo-card committee ][ flow ]" style="--gap: var(--size-64);">
+        <li class="[ mambo-card committee ][ flow-large ]">
           <div class="[ image ]">
             <figure>
               <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
             </figure>
           </div>
-
-          <div class="[ details ][ flow ]" style="--gap: var(--size-16);">
+          <div class="[ details ][ flow-small ]">
             <div class="[ meta ]">
               <h3 class="name">{{ member.name | safe }}</h3>
               {% if member.pronunciation %}
@@ -38,8 +37,9 @@
                 <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
               {% endif %}
             </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
