@@ -481,7 +481,7 @@ button.mambo-anchor.action {
 /* Pagination Controls
 ---------------------------------------------------------------------- */
 .controls-pagination {
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 0.1px;
   text-align: justify;
 }
@@ -808,7 +808,7 @@ button.mambo-anchor.action {
 }
 
 .event-events .events-list {
-  grid-gap: var(--size-32);
+  grid-gap: var(--size-64);
 }
 
 /* Committee */
