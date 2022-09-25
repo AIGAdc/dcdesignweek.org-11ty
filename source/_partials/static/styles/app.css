@@ -1347,6 +1347,8 @@ h3,
   position: relative;
   padding: var(--size-8);
   text-transform: uppercase;
+  font-size: var(--size-18);
+  line-height: 1.25;
 }
 
 .mambo-card .day,
