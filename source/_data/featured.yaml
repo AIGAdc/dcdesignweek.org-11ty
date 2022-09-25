@@ -51,13 +51,16 @@ faq:
     colorCombo: maroon-primary-on-cream
 
 joinDCDW:
-  - header: Lorem Ipsum (Join DCDW)
-    body: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Vivamus et quam finibus, auctor arcu eu, consec tetur erat. Mauris vitae arcu quis nunc varius mollis.
+  - header: Volunteering with DC Design Week
+    body: >-
+      DC Design Week is 100% volunteer-run, and it wouldn’t be the same without the support of our community. We'll need help with tasks like Zoom support or set-up and clean-up during the week of October 14-21 at both in-person and virtual events.
+      
+      Sign up to [join our volunteer list](https://forms.gle/THGdiif7nt2canYMA)
     colorCombo: maroon-primary-on-yellow-primary
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageALT: 
     linkURL: mailto:designweek@dc.aiga.org
-    linkLabel: Contact DCDW
+    linkLabel:
 
 makers:
   - header: Lorem Ipsum (Makers)
@@ -89,7 +92,7 @@ theme:
     body: >-
       DC Design Week, in its 14th year, is a celebration of the DC, Maryland, and Virginia region’s creative community.
     
-    
+
       DC Design Week (DCDW) is an annual celebration of the DC, Maryland, and Virginia region’s creative community — an ever-growing body of professionals, makers, and voices working across design disciplines. Each year, a committee of volunteers led by AIGA DC Board Members collaborates with local designers, businesses, and organizations to host a variety of events showcasing the work, creativity, and relationships thriving in this area. 
     
     

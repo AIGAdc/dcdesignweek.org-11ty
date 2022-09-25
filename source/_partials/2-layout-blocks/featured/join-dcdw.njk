@@ -8,10 +8,12 @@
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
       <div class="[ flow ]">
         <h2>{{ content.header | md | safe }}</h2>
-        <p>{{ content.body | md | safe }}</p>
-        <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
-          {{ content.linkLabel | safe }}
-        </a>
+        <div>{{ content.body | md | safe }}</div>
+        {% if content.linkLabel %}
+          <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+            {{ content.linkLabel | safe }}
+          </a>
+        {% endif %}
       </div>
       {% if content.image %}
         <figure>
