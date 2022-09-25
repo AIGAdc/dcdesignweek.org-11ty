@@ -1873,6 +1873,10 @@ input:checked + .slider:before {
   display: block;
 }
 
+.mambo-header .mambo-anchor {
+  font-size: var(--size-18);
+}
+
 .link-skip-to-content,
 .link-skip-to-content.events,
 .link-back-to-top {
