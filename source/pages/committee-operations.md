@@ -9,72 +9,97 @@ hero:
   header:
   body:
 members:
-  - name: Jasmine Henderson
-    pronunciation: Provide Pronunciation
-    pronouns: Provide Pronouns
-    position: Provide Title
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+  - name: Gene Alexeyev
+    blob: 2
+    pronunciation:
+    pronouns: he | him | his
+    position: AIGA DC Sponsorship Chair
+    bio:
     linkLabel1:
     linkURL1:
+    linkLabel2:
+    linkURL2:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt:
+  - name: Lauren Maffeo
+    blob: 1
+    pronunciation: 
+    pronouns: she | her | hers
+    position: AIGA DC Vice President & Secretary 
+    bio:
+    linkLabel1:
+    linkURL1:
+    linkLabel2:
+    linkURL2:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt: 
+  - name: Jessica Hoang
+    pronunciation: jess
+    pronouns: she | her | hers
+    position: AIGA DC Operations Director & Treasurer
+    bio:
+    linkLabel1: LinkedIn
+    linkURL1: https://www.linkedin.com/in/jessforux/
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 
   - name: Josh Kim
-    pronunciation: Provide Pronunciation
-    pronouns: Provide Pronouns
-    position: Provide Title
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
+    pronunciation: jahsh
+    pronouns: he | him | his
+    position: Accessibility Lead
+    bio:
+    linkLabel1: Website
+    linkURL1: http://www.joshkimux.com/
+    linkLabel2: LinkedIn
+    linkURL2: https://www.linkedin.com/in/joshkimux/
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt: A temporarily-abled, Korean American man wearing a t-shirt that says "digital accessibility is my jam."
+  - name: Pete Gibb
+    pronunciation:
+    pronouns: he | him | his
+    position: Sponsorships Lead
+    bio:
     linkLabel1:
     linkURL1:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: 
-  - name: Marcus Relacion
-    pronunciation: (mar-kuss ree-lay-see-on)
-    pronouns: He / Him
-    position: Web Developer
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
-    linkLabel1:
-    linkURL1:
+  - name: Phim Her
+    pronunciation: pim
+    pronouns: she | her | hers
+    position: Partnerships Lead
+    bio:
+    linkLabel1: Wesbite
+    linkURL1: http://phimher.com/
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Shoshanna Chito
-    pronunciation: Provide Pronunciation
-    pronouns: Provide Pronouns
-    position: Provide Title
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
+    imageAlt: A Hmong-American female, wearing a yellow shirt.
+  - name: Raksa Yin
+    blob: 1
+    pronunciation: Rack-San
+    pronouns: he | him | his
+    position: AIGA DC President
+    bio:
+    linkLabel1: Website
+    linkURL1: https://raksayin.com/
+    linkLabel2: LinkedIn
+    linkURL2: http://www.linkedin.com/in/raksayin
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
-  - name: Silvia Script
-    pronunciation: Provide Pronunciation
-    pronouns: Provide Pronouns
-    position: Provide Title
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    imageAlt: A Cambodian American male with short black combed hair wearing a red collar shirt. 
   - name: Yu-Li Hunsicker
-    pronunciation: Provide Pronunciation
-    pronouns: Provide Pronouns
-    position: Provide Title
-    bio: Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Mauris egestas nisi eu orci fringilla mattis eres no.
-    linkLabel1:
-    linkURL1:
+    pronunciation: she | her | hers
+    pronouns:
+    position: QA & Accessibility Specialist
+    bio:
+    linkLabel1: LinkedIn
+    linkURL1: https://www.linkedin.com/in/yu-li-hunsicker/
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    imageAlt: Asian woman with black hair, black rimmed glasses, wearing a red sweater. 
 layout: single-committee
 permalink: "/committee/operations/"
 ---
