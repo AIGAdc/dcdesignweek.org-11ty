@@ -1,5 +1,5 @@
 ---
-title: Executive Team
+title: Executive team
 description: The folks leading the communications, design, operations, and programming efforts for this year’s DC Design Week.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream

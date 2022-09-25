@@ -1745,6 +1745,9 @@ input:checked + .slider:before {
   .home-hero-date-blob {
     transform: translate(32px, -48px);
   }
+  .home-page-blob {
+    transform: translate(-200px, -150px);
+  }
 }
 @media screen and (min-width: 40rem) {
   .mambo-hero h1 {
@@ -1753,10 +1756,22 @@ input:checked + .slider:before {
   .home-hero-blob {
     transform: translate(-300px, -300px);
   }
+  .home-page-blob {
+    transform: translate(-150px, -200px);
+  }
+  .home-page-blob svg {
+    width: 900px;
+  }
 }
 @media screen and (min-width: 48rem) {
   .home-hero-blob {
     transform: translate(-300px, -225px);
+  }
+  .home-page-blob {
+    transform: translate(-300px, -350px);
+  }
+  .home-page-blob svg {
+    width: 1280px;
   }
 }
 @media screen and (min-width: 64rem) {
@@ -1768,6 +1783,9 @@ input:checked + .slider:before {
     right: unset;
     transform: translate(8px, -16px);
   }
+  .home-page-blob {
+    transform: translate(-600px, -250px);
+  }
 }
 @media screen and (min-width: 85.375rem) {
   .mambo-hero {
@@ -1775,6 +1793,9 @@ input:checked + .slider:before {
   }
   .home-hero-blob {
     transform: translate(-250px, -200px);
+  }
+  .home-page-blob {
+    transform: translate(-500px, -250px);
   }
 }
 .list {

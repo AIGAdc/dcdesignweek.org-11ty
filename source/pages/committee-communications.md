@@ -1,5 +1,5 @@
 ---
-title: Communications Team
+title: Communications team
 description: The folks responsible for outreach with our community through our social media, emails, website, and more.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream

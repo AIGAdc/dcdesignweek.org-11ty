@@ -1,5 +1,5 @@
 ---
-title: Operations Team
+title: Operations team
 description: The folks responsible for developing partnerships with our community and helping us meet our accessibility goals.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream

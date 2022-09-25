@@ -1,5 +1,5 @@
 ---
-title: Programming Team
+title: Programming team
 description: The folks responsible for planning our large events and supporting our community partners in making their events a reality.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
