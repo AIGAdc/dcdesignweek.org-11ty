@@ -31,17 +31,19 @@
 
 <section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="events">
   <div class="[ container container-default ][ flow ]">
-    <h2 class="[ sr-hidden ]">
-      2022 Events
+    <h2>
+      Filters
     </h2>
     <div class="[ grid-flow grid-flow-start grid-four-columns ]">
       <div class="[ sticky events-sidebar ][ column-span-one ]" id="events-filter">
         {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
-        <div class="controls-pagination">
-          <div class="mixitup-page-stats"></div>
-        </div>
+        <h2 class="filter-info flex-flow flex-center">
+          <span>Showing </span>
+          <span class="mixitup-page-stats"></span>
+          <span> events.</span>
+        </h2>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
           {% for event in collections.event %}
             {% include '1-global-blocks/card-event.njk' %}

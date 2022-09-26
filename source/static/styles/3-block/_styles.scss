@@ -1,5 +1,16 @@
 .meta {}
 
+.filter-info {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  padding: 1rem 0;
+}
+
+.filter-info h2 {
+  font-family: var(--dcdw-2022-brand-recursive) !important;
+}
+
 .list.mobile {
   display: block;
 }
