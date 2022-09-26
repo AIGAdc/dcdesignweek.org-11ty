@@ -23,16 +23,16 @@ members:
     imageAlt: A young Latina with dark brown wavy hair wearing a black patterned dress.
   - name: Alyssa Huntley
     blob: 2
-    pronunciation:
-    pronouns:
+    pronunciation: Uh-lis-uh
+    pronouns: she | her | hers
     position: Program Director
     bio:
-    linkLabel1:
-    linkURL1:
+    linkLabel1: Website
+    linkURL1: http://www.alyssajhuntley.com/
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt. 
   - name: Danni Baker
     blob: 2
     pronunciation: dan knee
@@ -51,24 +51,24 @@ members:
     pronouns: He / Him
     position: Program Director
     bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
+    linkLabel1: Website
+    linkURL1: https://koihdez.com/
+    linkLabel2: APIWho.Design
+    linkURL2: https://www.apiwho.design/
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt:
+    imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt. 
   - name: Silvia Script
     blob: 3
-    pronunciation:
+    pronunciation: sil · vee · uh
     pronouns: she | her | hers
     position: Design Director
     bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
+    linkLabel1: LinkedIn
+    linkURL1: https://www.linkedin.com/in/silscript/
+    linkLabel2: Instagram
+    linkURL2: https://www.instagram.com/silscript/
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    imageAlt: A young, smiling, South American indigenous woman with long black hair.
 layout: single-committee
 permalink: "/committee/executive/"
 ---
