@@ -2,6 +2,9 @@
 title: The art of a movement
 description: Hear from a panel of social change experts as they discuss art
   activism, the role of creativity in social movements & managing mental health.
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   featuredImage:
     image: /static/images/img-dcdw-2021.png

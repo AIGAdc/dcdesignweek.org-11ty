@@ -1169,7 +1169,7 @@ h3,
   background-color: var(--dcdw-2022-pink-tertiary);
   padding: var(--size-64);
   border-radius: 73% 27% 64% 36%/27% 66% 34% 73%;
-  right: -96px;
+  right: 0;
   text-align: left;
   align-items: start;
   flex-direction: column;

@@ -2,6 +2,9 @@
 title: Pop-up block party at Brookland Arts Walk
 description: Join us as we shine a spotlight on local artists, celebrating the
   end of DC Design Week with crafty vendors and activities.
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

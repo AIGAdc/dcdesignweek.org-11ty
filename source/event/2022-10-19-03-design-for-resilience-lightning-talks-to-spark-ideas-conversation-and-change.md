@@ -3,6 +3,9 @@ title: "Design for resilience: Lightning talks to spark ideas, conversation, and
   change"
 description: Cross-disciplinary rapid-fire presentations that offer various
   perspectives on design and resilience.
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:
