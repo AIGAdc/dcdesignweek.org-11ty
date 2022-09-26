@@ -48,45 +48,52 @@
         {% endfor %}
       </ul>
     </section>
-    <section class="[ tier flow ]">
-      <h3>
+    {% if page.url == "/about/" %}
+      <section class="[ tier flow ]">
+        <h3>
         Supporting Sponsors
       </h3>
-      <ul class="[ tier-three ] [ grid-flow grid-three-columns ]">
-        {% for content in sponsors.sponsor %}
-          {% if content.tier == "Tier Three" %}
-            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
-              <div class="[ media ]">
-                <figure class="[ image ]">
-                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
-                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
-                  </a>
-                </figure>
-              </div>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </section>
-    <section class="[ tier flow ]">
-      <h3>
+        <ul class="[ tier-three ] [ grid-flow grid-three-columns ]">
+          {% for content in sponsors.sponsor %}
+            {% if content.tier == "Tier Three" %}
+              <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+                <div class="[ media ]">
+                  <figure class="[ image ]">
+                    <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                      <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                    </a>
+                  </figure>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="[ tier flow ]">
+        <h3>
         Contributing Sponsors
       </h3>
-      <ul class="[ tier-four ] [ grid-flow grid-three-columns ]">
-        {% for content in sponsors.sponsor %}
-          {% if content.tier == "Tier Four" %}
-            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
-              <div class="[ media ]">
-                <figure class="[ image ]">
-                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
-                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
-                  </a>
-                </figure>
-              </div>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </section>
+        <ul class="[ tier-four ] [ grid-flow grid-three-columns ]">
+          {% for content in sponsors.sponsor %}
+            {% if content.tier == "Tier Four" %}
+              <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+                <div class="[ media ]">
+                  <figure class="[ image ]">
+                    <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                      <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                    </a>
+                  </figure>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+    {% if page.url == "/" %}
+      <a aria-label="Explore all sponsors" class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="/about/#sponsors">
+        Explore all sponsors
+      </a>
+    {% endif %}
   </div>
 </section>
