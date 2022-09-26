@@ -2,58 +2,60 @@
 <header class="[ mambo-header ][ sticky ]" data-color="{{ pageSettings.headerColorCombo }}">
   <div class="[ container container-default ]">
     <a class="[ mambo-anchor flow-none skip-link ]" data-color="{{ pageSettings.headerColorCombo }}" href="#content">
-      Skip to Main
+      Skip to Main Content
     </a>
     <div>
       <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
         {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
-    <ul class="[ list desktop ]">
-      <li>
-        <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
+    <nav>
+      <ul class="[ list desktop ]">
+        <li>
+          <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
           Events
         </a>
-      </li>
-      <li>
-        <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
+        </li>
+        <li>
+          <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
           About
         </a>
-      </li>
-      <li>
-        <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
+        </li>
+        <li>
+          <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
           Committee
         </a>
-      </li>
-      <li>
-        <a class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
+        </li>
+        <li>
+          <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
           FAQ
         </a>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </nav>
     <div class="list mobile">
-      <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile" aria-label="Show more about pirates, too" hidden>
+      <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile" hidden>
         Menu
       </button>
-      <div data-houdini-menu id="mobile">
+      <nav data-houdini-menu id="mobile">
         <ul class="[ list ]">
           <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
+            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
               Events
             </a>
           </li>
           <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
+            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
               About
             </a>
           </li>
           <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
+            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
               Committee
             </a>
           </li>
           <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
+            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
               FAQ
             </a>
           </li>
@@ -62,7 +64,7 @@
         <script>
           var disclosure = new Houdini('[data-houdini-menu]');
         </script>
-      </div>
+      </nav>
     </div>
   </div>
 </header>
