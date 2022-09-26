@@ -780,7 +780,8 @@ button.mambo-anchor.action {
   top: 1rem;
 }
 
-.event-events .grid-flow {
+.event-events .grid-flow,
+.event-faq .grid-flow {
   grid-gap: var(--size-64);
 }
 
