@@ -4,6 +4,7 @@
   min-height: 75vh;
   position: relative;
   z-index: 100;
+  overflow: hidden;
 }
 
 .layout-page.event-accessibility .mambo-hero,
@@ -14,7 +15,7 @@
 .layout-page.event-faq .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
-  min-height: auto;
+  min-height: 30vh;
 }
 
 .mambo-hero .container,
@@ -169,7 +170,15 @@
   bottom: 0;
   left: 0;
   z-index: 1000;
-  transform: translate(-350px, -150px);
+  transform: translate(-350px, -178px);
+}
+
+.event-about .home-page-blob {
+  transform: translate(-350px, -210px);
+}
+
+.event-faq .home-page-blob {
+  transform: translate(-310px, -150px);
 }
 
 .home-page-blob svg {
@@ -188,6 +197,14 @@
 
   .home-page-blob {
     transform: translate(-200px, -150px);
+  }
+
+  .event-about .home-page-blob {
+    transform: translate(-350px, -210px);
+  }
+
+  .event-faq .home-page-blob {
+    transform: translate(-310px, -180px);
   }
 }
 
