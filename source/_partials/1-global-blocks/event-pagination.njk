@@ -35,6 +35,15 @@
     <!-- Houdini -->
     <script>
       var disclosure = new Houdini('[data-houdini-event]');
+      document.addEventListener('click', function (event) {
+
+        // Ignore clicks in the content element or on the button
+        if (event.target.closest('#event') || event.target.closest('[data-houdini-toggle="event"]')) 
+          return;
+        
+        // Selector string
+        disclosure.collapse('#event');
+      })
     </script>
   </nav>
 </div>

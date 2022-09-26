@@ -323,6 +323,8 @@ button.mambo-anchor.action {
   font-family: var(--dcdw-2022-brand-dm-sans);
   margin-top: 24px;
   text-align: center;
+  z-index: 1000;
+  position: relative;
 }
 
 .mailchimp form > * {
@@ -1164,19 +1166,23 @@ h3,
 .list.mobile .houdini .list {
   display: flex;
   position: absolute;
-  background-color: var(--dcdw-2022-yellow-primary);
-  padding: var(--size-16);
-  border-radius: 1rem;
-  right: 0;
+  background-color: var(--dcdw-2022-pink-tertiary);
+  padding: var(--size-64);
+  border-radius: 73% 27% 64% 36%/27% 66% 34% 73%;
+  right: -96px;
   text-align: left;
   align-items: start;
   flex-direction: column;
   border: solid 1px var(--dcdw-2022-maroon-primary);
-  max-height: 50vh;
+  max-height: 60vh;
   max-width: 320px;
   overflow-y: auto;
-  top: 50px;
+  top: 16px;
   grid-gap: 1rem;
+}
+
+.committee-pagination.mobile ul {
+  border-radius: 24% 76% 30% 70%/33% 32% 68% 67%;
 }
 
 .list.desktop {

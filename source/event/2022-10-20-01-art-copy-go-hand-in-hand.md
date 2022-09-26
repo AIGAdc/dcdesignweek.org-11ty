@@ -49,6 +49,8 @@ eventDetails:
   filterLocation: In-Person
   filterTime: Morning
   filterType: Talk/Panel
+  location:
+  - name: In-Person
 speaker:
   - name: Jerome Frederick
     pronouns: he | him | his

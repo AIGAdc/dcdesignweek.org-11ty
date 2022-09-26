@@ -38,6 +38,15 @@
     <!-- Houdini -->
     <script>
       var disclosure = new Houdini('[data-houdini-teams]');
+      document.addEventListener('click', function (event) {
+
+        // Ignore clicks in the content element or on the button
+        if (event.target.closest('#teams') || event.target.closest('[data-houdini-toggle="teams"]')) 
+          return;
+        
+        // Selector string
+        disclosure.collapse('#teams');
+      })
     </script>
   </nav>
 </div>
