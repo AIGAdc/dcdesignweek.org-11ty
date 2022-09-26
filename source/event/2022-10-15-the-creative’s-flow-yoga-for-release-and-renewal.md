@@ -11,12 +11,12 @@ hero:
     - ticket:
         showButton: true
         label: $20 — Members
-        url: https://www.11ty.dev/
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452152%26redirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $25 — Non-members
-        url: https://www.11ty.dev/
+        url: https://www.eventbrite.com/e/the-creatives-flow-yoga-for-release-and-renewal-tickets-425439981437
         colorCombo: cream-on-maroon-primary
 eventDetails:
   statusLabel: Featured on Events

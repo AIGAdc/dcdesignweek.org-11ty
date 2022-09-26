@@ -10,12 +10,12 @@ hero:
     - ticket:
         showButton: true
         label: $20 — Members
-        url: "#"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Ftime-travel-to-a-future-dc-a-meditative-workshop%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         label: $25 — Non-members
         showButton: true
-        url: "#"
+        url: https://www.eventbrite.com/e/time-travel-to-a-future-dc-a-meditative-workshop-tickets-425438868107
         colorCombo: cream-on-maroon-primary
 eventDetails:
   startDate: 2022-10-16T19:00:47.129Z
@@ -44,6 +44,17 @@ eventDetails:
 
 
     Light refreshments will be provided.
+
+
+
+
+    ## Venue
+
+
+    Venue name: LeeDroit Park (covered picnic area)
+
+
+    Venue Info: 286 V St NW, Washington, DC 20001
   location:
     - name: In-Person
 speaker:

@@ -9,15 +9,15 @@ hero:
   tickets:
     - ticket:
         showButton: true
-        aria: Purchase AIGA DC member ticket for 10$ on AIGA DC website 
+        aria: Purchase AIGA DC member ticket for 10$ on AIGA DC website
         label: $10 — Members
-        url: "#"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fart-copy-go-hand-in-hand%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
-        aria: Purchase non AIGA DC member ticket for 15$ on AIGA DC Eventbrite website. 
+        aria: Purchase non AIGA DC member ticket for 15$ on AIGA DC Eventbrite website.
         label: $15  — Non-members
-        url: "#"
+        url: https://www.eventbrite.com/e/art-copy-go-hand-in-hand-tickets-425442689537
         colorCombo: cream-on-maroon-primary
 eventDetails:
   startDate: 2022-10-20T13:00:35.993Z

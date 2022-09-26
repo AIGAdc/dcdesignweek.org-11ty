@@ -22,26 +22,21 @@ eventDetails:
     Plus, get to know the UX designers and researchers newly working on Google Chrome, News, and Search in our DC office. 
 
 
-
     You'll learn about Google Design's culture and processes and how they differ from product to product. We’ll discuss the common thread that unites our work: designing responsibly at scale for a global audience. We’ll also share some best practices for collaborating across time zones and how we're adapting to hybrid work.
-
 
 
     **This event has two ways to participate: in-person attendance or via Google Meet. You will indicate the way you plan to participate when selecting your ticket type.**
 
 
-
     In-person attendees: As you enjoy a pastry and coffee, you will have plenty of time for conversation, questions, and networking. Please arrive early to settle in.
 
 
+    ## Venue
 
 
+    Virtual attendance via Google Meet; \
 
-    ## Location
-
-
-    Virtual attendance via Google Meet; In-person attendance at Google’s DC office
-
+    In-person attendance at Google’s DC office\
 
     25 Massachusetts Ave NW, 9th floor, “The White Space”
 pageSettings:
@@ -54,13 +49,13 @@ hero:
   tickets:
     - ticket:
         label: $5 — Members
-        url: "#"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdesigning-for-googles-covid-response-and-more-in-person-virtual%2F%3Fredirect_source%3Deventbrite_register
         showButton: true
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $10 — Non-members
-        url: "#"
+        url: https://www.eventbrite.com/e/designing-for-googles-covid-response-and-more-in-person-virtual-tickets-425473230887
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
@@ -130,7 +125,8 @@ speaker:
       [LinkedIn](https://www.linkedin.com/in/kitiorngu/)
     imageALT: ""
     image: ""
-platform: >-
+platform: ""
+preparation: >-
   ## Virtual platform
 
 
@@ -145,33 +141,43 @@ platform: >-
 
   * We unfortunately won’t be able to collect questions ahead of time. Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
     You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
-preparation: >-
-  ## How to prepare
+
+
+
+  ## In-person safety guidance
+
+
+  In-person attendance will be at Google’s DC office:\
+
+  25 Massachusetts Ave NW, 9th floor, “The White Space”
+
 
   * All in-person attendees must provide proof of vaccination and collect a badge at the reception desk before being admitted.
 
   * We recommend that attendees wear masks when not eating or drinking.
 
   * Coffee and pastries will be provided at the in-person event. Please plan to arrive early to settle in.
+
+
+
+
+  ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
+
+
+  When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety, a refund will be issued. In either scenario you will be notified immediately.
 a11y: >-
   ## Accessibility
 
 
+  * The virtual streaming of this event will have real time CART (live captioning) services and transcriptions provided by Verbit.
+
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+  * The in-person venue is ADA accessible. Participants will enter through the lobby and ride an elevator to the event space.
+
+  * Accessible and gender-neutral bathrooms are available at the in-person location.
 
 
-  The virtual streaming of this event will have real time CART (live captioning) services and transcriptions provided by Verbit.
-
-
-
-  A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
-
-
-
-  The in-person venue is ADA accessible. Participants will enter through the lobby and ride an elevator to the event space.
-
-
-
-  Accessible and gender-neutral bathrooms are available at the in-person location.
 
   If you need any additional accommodations, please contact us using a method that works best for you:
 
@@ -181,6 +187,11 @@ a11y: >-
   * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
 
   * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
-    We honor your privacy. No identifying information like your name is required to request an accomodation, and all details will be deleted once completed.
-    You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+
+
+
+  We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+
+
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
 ---

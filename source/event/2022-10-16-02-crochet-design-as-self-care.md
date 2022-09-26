@@ -10,27 +10,38 @@ hero:
     - ticket:
         label: $22 — Members
         showButton: true
-        url: "#"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452150%26redirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $27 — Non-members
-        url: "#"
+        url: https://www.eventbrite.com/e/crochet-design-as-self-care-tickets-425438697597
         colorCombo: cream-on-maroon-primary
 eventDetails:
   startDate: 2022-10-16T22:00:03.122Z
   endDate: 2022-10-17T00:00:03.133Z
   description: >-
-    Crochet artist Kristen Jeffers believes that the more people know about
-    sustainable fiber design, the better. So even if you’ve tried and failed to
-    crochet something before, she invites you to join her for an interactive
-    workshop and crocheting session. 
+    ## Description and Details
+
+
+    Crochet artist Kristen Jeffers believes that the more people know about sustainable fiber design, the better. So even if you’ve tried and failed to crochet something before, she invites you to join her for an interactive workshop and crocheting session. 
 
 
     In the first hour, Kristen will demonstrate the process of creating a crocheted granny square. She’ll also share her own history with fiber projects, discussing how  one square can form the foundation of all kinds of fiber-related projects and launch a journey through sustainable fashion, accessories, and homewares that relieves stress and creates a sense of accomplishment.
 
 
     After the demonstration, you’ll have time to get cozy and practice making your own square with the support of Kristen and your classmates.
+
+
+
+
+    ## Venue
+
+
+    Venue name: Eaton DC
+
+
+    Venue Info: 1201 K St NW, Washington, DC 20005, 4th floor, House Lounge
   location:
     - name: In-Person
   filterDate: Sunday, October 16
@@ -50,4 +61,46 @@ speaker:
 
 
       [Website](www.kristpattern.com)
+preparation: >-
+  ## How to prepare
+
+
+  * Attendees must wear a n95 mask when not eating or drinking.
+
+  * Attendees will receive a kit with all the materials needed for the workshop.
+
+  * Attendees will receive the presentation and handouts before the event, and will have the ability to ask questions beforehand.
+
+
+
+
+  ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
+
+
+  When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety, a refund will be issued. In either scenario you will be notified immediately.
+a11y: >-
+  ## Accessibility
+
+
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+  * The venue is ADA accessible.
+
+  * There are accessible bathrooms at the location.
+
+
+  If you need any additional accommodations, please contact us using a method that works best for you:
+
+
+  * [Email our accessibility team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)
+
+  * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
+
+  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+
+
+  We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+
+
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
 ---

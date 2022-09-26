@@ -10,12 +10,12 @@ hero:
     - ticket:
         showButton: true
         label: $10 — Members
-        url: "#"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fhow-the-internet-is-helping-artists-expand-their-work%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $15 — Non-members
-        url: "#"
+        url: https://www.eventbrite.com/e/how-the-internet-is-helping-artists-expand-their-work-tickets-425464053437
         colorCombo: cream-on-maroon-primary
 eventDetails:
   startDate: 2022-10-17T23:00:35.514Z
@@ -39,9 +39,13 @@ eventDetails:
     Light refreshments will be provided.
 
 
-
-
     ## Venue
+
+
+    Venue name: Mindspace DC 
+
+
+    Venue Info: 1301 K St NW Suite 300W, Washington, DC 20005
   filterDate: Monday, October 17
   filterLocation: In-Person
   filterTime: Evening
@@ -77,4 +81,43 @@ speaker:
     title: Artist and designer
     bio: A multidisciplinary artist focusing on using art and design to connect
       communities.
+preparation: >-
+  ## How to prepare
+
+
+  * Guests must bring a valid ID to check in at the building lobby.
+
+
+
+
+  We recommend that attendees wear masks when not eating or drinking.
+
+
+  ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
+
+
+  When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety, a refund will be issued. In either scenario you will be notified immediately.
+a11y: >-
+  ## Accessibility
+
+
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+
+  * The venue is ADA accessible including the bathrooms.
+
+
+  If you need any additional accommodations, please contact us using a method that works best for you:
+
+
+  * [Email our accessibility team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)
+
+  * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
+
+  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+
+
+  We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+
+
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
 ---
