@@ -7,10 +7,6 @@
   z-index: 100;
 }
 
-.layout-single-event .mambo-hero {
-  display: block;
-}
-
 .layout-page.event-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.event-events .mambo-hero,
@@ -19,7 +15,7 @@
 .layout-page.event-faq .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
-  min-height: 40vh;
+  min-height: auto;
 }
 
 .mambo-hero .container,
@@ -38,23 +34,6 @@
   font-size: 2rem;
   line-height: 1.25;
   max-width: unset;
-}
-
-// 1366px
-@media screen and (min-width:85.375rem) {
-
-  .layout-page.event-accessibility .mambo-hero,
-  .layout-single-committee .mambo-hero,
-  .layout-page.event-events .mambo-hero,
-  .layout-page.event-about .mambo-hero,
-  .layout-page.event-committee .mambo-hero,
-  .layout-page.event-faq .mambo-hero,
-  .layout-single-event .mambo-hero,
-  .layout-page.event-faq .mambo-hero {}
-
-  .layout-single-event .mambo-hero {
-    margin-bottom: 0;
-  }
 }
 
 .roots {
@@ -129,9 +108,6 @@
     left: -200px;
   }
 }
-
-
-
 
 // Hero Blobs
 .home-hero-blob {

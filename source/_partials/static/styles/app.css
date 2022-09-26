@@ -1601,10 +1601,6 @@ input:checked + .slider:before {
   z-index: 100;
 }
 
-.layout-single-event .mambo-hero {
-  display: block;
-}
-
 .layout-page.event-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.event-events .mambo-hero,
@@ -1613,7 +1609,7 @@ input:checked + .slider:before {
 .layout-page.event-faq .mambo-hero,
 .layout-single-event .mambo-hero,
 .layout-page.event-faq .mambo-hero {
-  min-height: 40vh;
+  min-height: auto;
 }
 
 .mambo-hero .container,
@@ -1634,11 +1630,6 @@ input:checked + .slider:before {
   max-width: unset;
 }
 
-@media screen and (min-width: 85.375rem) {
-  .layout-single-event .mambo-hero {
-    margin-bottom: 0;
-  }
-}
 .roots {
   position: absolute;
   top: -500px;
@@ -1872,7 +1863,7 @@ input:checked + .slider:before {
 }
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-56);
+    padding: var(--size-56) var(--size-56) var(--size-64) var(--size-56);
   }
 }
 .wave.left {
