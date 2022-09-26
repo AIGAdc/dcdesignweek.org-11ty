@@ -1,0 +1,24 @@
+<section class="[ lop-pagination sticky ]" id="pagination">
+  <!-- Previous and Next paginator button definitions -->
+  {% set previousPost = collections.event | getPreviousCollectionItem(page) %}
+  {% set nextPost = collections.event | getNextCollectionItem(page) %}
+  <div class="[ event-pagination container container-default ]">
+    <a class="[ mambo-anchor ]" href="/events/#events">
+      Back to Events
+    </a>
+    <div>
+      {% if post.data.hidden == False %}
+        {% if previousPost %}
+          <!-- Will only display previous button when on the last item of collection -->
+          <a class="[ mambo-anchor ]" href="{{ previousPost.url }}">
+          Previous
+          </a>
+        {% endif %}
+        {% if nextPost %}
+          <!-- Will only display next button when on the first item of collection -->
+          <a class="[ mambo-anchor ]" href="{{ nextPost.url }}">Next</a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -49,3 +49,28 @@
     display: none;
   }
 }
+
+.event-pagination {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 1rem;
+}
+
+.event-pagination>div {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+.event-pagination .mambo-anchor {
+  display: inline-block;
+  width: auto;
+}
+
+@media screen and (min-width: 30rem) {
+
+  .event-pagination,
+  .event-pagination>div {
+    width: unset;
+    flex-wrap: nowrap;
+  }
+}
