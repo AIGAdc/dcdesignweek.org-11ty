@@ -4,7 +4,7 @@ description: This workshop will teach you how to time travel to a future DC
   using a Tarot-inspired deck called Futuretelling.
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

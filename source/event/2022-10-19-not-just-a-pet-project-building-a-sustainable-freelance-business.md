@@ -5,7 +5,7 @@ description: Interested in working for yourself, but not by yourself? Join
   an all-freelance team.
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

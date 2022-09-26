@@ -4,7 +4,7 @@ description: This outdoor workshop will explore the concept of design &
   technology inspired by nature through creative, nature-inspired exercises.
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

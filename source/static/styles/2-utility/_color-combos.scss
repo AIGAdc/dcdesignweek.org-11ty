@@ -93,6 +93,11 @@ Thank you to Josh Kim (https://www.joshkimux.com/index.html) for providing this 
   color: var(--dcdw-2022-pink-tertiary);
 }
 
+*[data-color="yellow-primary-on-maroon-primary"] {
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-yellow-primary);
+}
+
 a {
   color: inherit;
   cursor: pointer;
@@ -166,6 +171,12 @@ button:focus {
 [data-color="maroon-primary-on-cream-secondary"] .mambo-accordion-group button:focus {
   box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0 4px var(--dcdw-2022-cream-secondary);
   outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color="yellow-primary-on-maroon-primary"] a:focus,
+[data-color="yellow-primary-on-maroon-primary"] button:focus {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-maroon-primary), 0 0 0px 4px var(--dcdw-2022-maroon-primary);
+  outline: 4px solid var(--dcdw-2022-yellow-primary);
 }
 
 // *[data-color="cream-on-maroon-primary"]:focus {

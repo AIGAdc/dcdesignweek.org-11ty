@@ -4,7 +4,7 @@ description: Discover how interior space affects every aspect of your wellbeing,
   and learn strategies to promote wellness in your everyday life.
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

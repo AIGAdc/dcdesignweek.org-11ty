@@ -5,7 +5,7 @@ description: We’re artists & we’re sensitive about our sh*t. A reflective
   space!
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
-  mobileButtonColorCombo: yellow-primary-on-maroon-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:

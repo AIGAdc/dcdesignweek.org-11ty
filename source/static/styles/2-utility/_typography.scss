@@ -15,7 +15,8 @@ h2,
 h3,
 .heading-3 {
   font-family: var(--dcdw-2022-brand-recursive);
-  font-size: var(--size-16);
+  font-size: var(--size-18);
+  line-height: 1.5;
   font-weight: 900;
 }
 
@@ -50,6 +51,5 @@ h3,
   h3,
   .heading-3 {
     font-size: var(--size-20);
-    line-height: 1.5;
   }
 }
