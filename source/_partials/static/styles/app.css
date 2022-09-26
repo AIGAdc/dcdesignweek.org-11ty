@@ -799,7 +799,7 @@ button.mambo-anchor.action {
   aspect-ratio: 16/9;
 }
 
-.event-committee .wysiwyg {
+.event-committee .mambo-card .wysiwyg {
   line-height: 1.25;
 }
 
@@ -1175,6 +1175,24 @@ h3,
     display: none;
   }
 }
+.mambo-section {
+  padding: var(--size-32) var(--size-24);
+}
+
+@media screen and (min-width: 40rem) {
+  .mambo-section {
+    padding: var(--size-40) var(--size-24);
+  }
+}
+@media screen and (min-width: 85.375rem) {
+  .mambo-section {
+    padding: var(--size-56) var(--size-56) var(--size-64) var(--size-56);
+  }
+}
+.wave.left {
+  transform: scaleX(-1);
+}
+
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
@@ -1597,7 +1615,6 @@ input:checked + .slider:before {
   place-content: center;
   min-height: 75vh;
   position: relative;
-  padding: var(--size-88);
   z-index: 100;
 }
 
@@ -1669,8 +1686,21 @@ input:checked + .slider:before {
   }
 }
 @media screen and (min-width: 64rem) {
-  .mambo-hero {
-    padding: var(--size-120);
+  .layout-page.event-accessibility .mambo-hero,
+.layout-single-committee .mambo-hero,
+.layout-page.event-events .mambo-hero,
+.layout-page.event-about .mambo-hero,
+.layout-page.event-committee .mambo-hero,
+.layout-page.event-faq .mambo-hero,
+.layout-single-event .mambo-hero,
+.layout-page.event-faq .mambo-hero,
+.layout-page.event-committee {
+    min-height: 60vh;
+    margin-bottom: -200px;
+    padding-top: 0;
+  }
+  .layout-single-event .mambo-hero {
+    margin-bottom: unset;
   }
   .mambo-hero h1 {
     max-width: 16ch;
@@ -1854,24 +1884,6 @@ input:checked + .slider:before {
   height: 10px;
   width: 10px;
   transform: rotate(45deg);
-}
-
-.mambo-section {
-  padding: var(--size-32) var(--size-24);
-}
-
-@media screen and (min-width: 40rem) {
-  .mambo-section {
-    padding: var(--size-40) var(--size-24);
-  }
-}
-@media screen and (min-width: 85.375rem) {
-  .mambo-section {
-    padding: var(--size-56) var(--size-56) var(--size-64) var(--size-56);
-  }
-}
-.wave.left {
-  transform: scaleX(-1);
 }
 
 .mambo-footer {
