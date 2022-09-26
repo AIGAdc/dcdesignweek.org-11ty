@@ -718,7 +718,7 @@ button.mambo-anchor.action {
 /* Grid */
 .grid-flow {
   display: grid;
-  grid-gap: var(--gap, var(--size-56));
+  grid-gap: var(--gap, var(--size-32));
   position: relative;
 }
 
@@ -1810,6 +1810,10 @@ input:checked + .slider:before {
   align-items: center;
   display: flex;
   grid-gap: var(--gap, 1rem);
+}
+
+.events-list {
+  grid-gap: var(--size-56);
 }
 
 .mambo-list-item {
