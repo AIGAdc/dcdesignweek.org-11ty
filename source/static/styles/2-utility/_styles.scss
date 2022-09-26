@@ -30,9 +30,15 @@
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+@media screen and (min-width: 64rem) {
+  .sticky-with-nav {
+    position: sticky;
+    top: 105px;
+  }
 }
 
 .wave svg {

@@ -49,6 +49,7 @@
 .grid-flow {
   display: grid;
   grid-gap: var(--gap, var(--size-32));
+  position: relative;
 }
 
 .grid-flow-start {
