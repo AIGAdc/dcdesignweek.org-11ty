@@ -39,11 +39,11 @@
         {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
-        <h2 class="filter-info flex-flow flex-center">
-          <span>Showing </span>
-          <span class="mixitup-page-stats"></span>
-          <span> events.</span>
-        </h2>
+        <div class="controls-pagination">
+          <h2 aria-live="polite" class="filter-info flex-flow flex-center">
+            <span class="mixitup-page-stats"></span>
+          </h2>
+        </div>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
           {% for event in collections.event %}
             {% include '1-global-blocks/card-event.njk' %}
@@ -66,6 +66,9 @@
     },
     pagination: {
       limit: 24
+    },
+    templates: {
+      pageStats: 'Showing ${totalTargets} events.'
     }
   });
 </script>
