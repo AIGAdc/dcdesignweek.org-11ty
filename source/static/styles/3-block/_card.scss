@@ -133,3 +133,20 @@
   grid-gap: 0;
   flex-direction: column;
 }
+
+.speakers .mambo-card .title {
+  font-family: var(--dcdw-2022-brand-dm-sans);
+}
+
+.mambo-card.speaker .name {
+  font-size: var(--size-24);
+}
+
+.mambo-card.speaker .meta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mambo-card.speaker a {
+  font-weight: 400;
+}
