@@ -1519,6 +1519,15 @@ h3,
   font-weight: 400;
 }
 
+.mambo-card.sponsor {
+  border: solid 1px var(--dcdw-2022-yellow-secondary);
+}
+
+.mambo-card.sponsor .media img {
+  mix-blend-mode: luminosity;
+  filter: hue-rotate(120);
+}
+
 .mambo-divider {
   background-color: currentColor;
   display: inline-block;

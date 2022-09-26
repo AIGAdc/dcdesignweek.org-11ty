@@ -1,5 +1,5 @@
-<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="sponsors">
-  <div class="[ container container-default ][ flow ]">
+<section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-yellow-primary" id="sponsors">
+  <div class="[ container container-default ][ flow-large ]">
     <div class="[ grid-flow grid-four-columns ]">
       <div class="[ column-span-two ][ flow ]">
         {% for content in featured.sponsors %}
@@ -8,21 +8,85 @@
         {% endfor %}
       </div>
     </div>
-    <ul class="[ featured-sponsors ] [ grid-flow grid-four-columns ]">
-      {% for content in sponsors.sponsor %}
-        {% if content.featured == true %}
-          <li class="[ mambo-card flow ][ {{ content.tier | slug }} ]">
-            <a aria-label="{{ content.websiteAriaLabel1 }}" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
-              <h3>{{ content.name }}</h3>
-            </a>
-            <div class="[ media ]">
-              <figure class="[ image ]">
-                <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
-              </figure>
-            </div>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    <section class="[ tier flow ]">
+      <h3>
+        Chapter Sponsors
+      </h3>
+      <ul class="[ tier-one ] [ grid-flow grid-two-columns ]">
+        {% for content in sponsors.sponsor %}
+          {% if content.tier == "Tier One" %}
+            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+              <div class="[ media ]">
+                <figure class="[ image ]">
+                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                  </a>
+                </figure>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="[ tier flow ]">
+      <h3>
+        Sustaining Sponsors
+      </h3>
+      <ul class="[ tier-two ] [ grid-flow grid-three-columns ]">
+        {% for content in sponsors.sponsor %}
+          {% if content.tier == "Tier Two" %}
+            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+              <div class="[ media ]">
+                <figure class="[ image ]">
+                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                  </a>
+                </figure>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="[ tier flow ]">
+      <h3>
+        Supporting Sponsors
+      </h3>
+      <ul class="[ tier-three ] [ grid-flow grid-three-columns ]">
+        {% for content in sponsors.sponsor %}
+          {% if content.tier == "Tier Three" %}
+            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+              <div class="[ media ]">
+                <figure class="[ image ]">
+                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                  </a>
+                </figure>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="[ tier flow ]">
+      <h3>
+        Contributing Sponsors
+      </h3>
+      <ul class="[ tier-four ] [ grid-flow grid-three-columns ]">
+        {% for content in sponsors.sponsor %}
+          {% if content.tier == "Tier Four" %}
+            <li class="[ mambo-card sponsor flow ][ {{ content.tier | slug }} ]">
+              <div class="[ media ]">
+                <figure class="[ image ]">
+                  <a aria-label="{{ content.name }} Website" class="[ anchor ]" data-type="card" href="{{ content.websiteURL1 }}">
+                    <img alt="{{ content.imageALT }}" loading=lazy src="{{ content.image }}">
+                  </a>
+                </figure>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
   </div>
 </section>
