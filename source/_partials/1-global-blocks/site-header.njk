@@ -9,30 +9,38 @@
         {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
-    <nav>
-      <ul class="[ list desktop ]">
-        <li>
-          <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
+    <div class="flex-flow " style="align-items: center;">
+      <nav>
+        <ul class="[ list desktop ]">
+          <li>
+            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
           Events
         </a>
-        </li>
-        <li>
-          <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
+          </li>
+          <li>
+            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
           About
         </a>
-        </li>
-        <li>
-          <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
+          </li>
+          <li>
+            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
           Committee
         </a>
-        </li>
-        <li>
-          <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
+          </li>
+          <li>
+            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
           FAQ
         </a>
-        </li>
-      </ul>
-    </nav>
+          </li>
+        </ul>
+      </nav>
+      {% if layout == "single-committee" %}
+        {% include '1-global-blocks/committee-pagination.njk' %}
+      {% endif %}
+      {% if layout == "single-event" %}
+        {% include '1-global-blocks/event-pagination.njk' %}
+      {% endif %}
+    </div>
     <div class="list mobile">
       <button class="[ mambo-anchor action ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile" hidden>
         Menu
@@ -67,7 +75,4 @@
       </nav>
     </div>
   </div>
-  {% if layout == "single-event" %}
-    {% include '1-global-blocks/event-pagination.njk' %}
-  {% endif %}
 </header>

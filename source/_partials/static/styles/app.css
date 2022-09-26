@@ -322,6 +322,7 @@ button.mambo-anchor.action {
   font-size: var(--size-18);
   font-family: var(--dcdw-2022-brand-dm-sans);
   margin-top: 24px;
+  text-align: center;
 }
 
 .mailchimp form > * {
@@ -1168,28 +1169,49 @@ h3,
   border-radius: 1rem;
   right: 0;
   text-align: left;
-  align-items: end;
+  align-items: start;
   flex-direction: column;
   border: solid 1px var(--dcdw-2022-maroon-primary);
   max-height: 50vh;
+  max-width: 320px;
   overflow-y: auto;
+  top: 50px;
+  grid-gap: 1rem;
 }
 
 .list.desktop {
   display: none;
 }
 
-@media screen and (min-width: 40rem) {
-  .list.desktop {
-    display: flex;
-  }
-  .list.mobile {
-    display: none;
-  }
+.event-pagination.mobile {
+  display: block !important;
 }
+
+.committee-pagination.mobile {
+  display: block !important;
+}
+
+.committee-pagination.desktop ul {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+}
+
+.committee-pagination.desktop ul > div {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 1rem;
+}
+
 .event-pagination {
   display: flex;
   justify-content: space-between;
+  grid-gap: 1rem;
+}
+
+.event-pagination ul div {
+  display: flex;
+  flex-direction: column;
   grid-gap: 1rem;
 }
 
@@ -1203,6 +1225,22 @@ h3,
   width: auto;
 }
 
+@media screen and (min-width: 40rem) {
+  .list.desktop {
+    display: flex;
+  }
+  .list.mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .committee-pagination.desktop {
+    display: block;
+  }
+  .committee-pagination.mobile {
+    display: none;
+  }
+}
 @media screen and (min-width: 30rem) {
   .event-pagination,
 .event-pagination > div {
@@ -1295,6 +1333,19 @@ h3,
 
 .mambo-anchor.underline {
   text-decoration: underline;
+}
+
+.mambo-anchor.stacked {
+  display: flex;
+  flex-direction: column;
+}
+
+.mambo-anchor.stacked > * {
+  grid-gap: 1.5rem;
+}
+
+.mambo-anchor.stacked span {
+  font-weight: 400;
 }
 
 @media screen and (min-width: 48rem) {

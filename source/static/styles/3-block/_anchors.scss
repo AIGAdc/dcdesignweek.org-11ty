@@ -20,6 +20,19 @@
   text-decoration: underline;
 }
 
+.mambo-anchor.stacked {
+  display: flex;
+  flex-direction: column;
+}
+
+.mambo-anchor.stacked>* {
+  grid-gap: 1.5rem;
+}
+
+.mambo-anchor.stacked span {
+  font-weight: 400;
+}
+
 // 640px
 @media screen and (min-width:48rem) {
   .mambo-anchor {
