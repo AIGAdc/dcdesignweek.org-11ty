@@ -4,7 +4,7 @@
 </div>
 
 {% for content in featured.committee %}
-  <section aria-label="{{ content.header | safe }}" class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
+  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
     <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
       <div class="[ flow ]">
         <h2>{{ content.header | md | safe }}</h2>
