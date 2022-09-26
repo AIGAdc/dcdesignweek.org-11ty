@@ -115,7 +115,7 @@ button:focus {
   // The transparent color only shows when WHCM is triggered
   outline: 4px solid currentColor;
   outline-offset: 4px;
-  overflow: hidden;
+  text-decoration: none;
   position: relative;
   text-decoration-thickness: 0;
   z-index: var(--layer-1);
