@@ -11,14 +11,21 @@
       {% endfor %}
     </ul>
     <ul class="[ list social ]">
-      {% for link in settings.socialMediaLinks %}
-        <li>
-          <a aria-label="{{ link.title }}" class="[ mambo-anchor ]" href="{{ link.url }}" rel="noopener nofollow" target="_blank">{{ link.icon | safe }}</a>
-        </li>
-      {% endfor %}
+      <li>
+        <a aria-label="DCDW Facebook Page" class="[ mambo-anchor ]" href="https://www.facebook.com/dcdesignweek/">{% include 'static/images/icons/facebook.svg' %}</a>
+      </li>
+      <li>
+        <a aria-label="DCDW Github Page" class="[ mambo-anchor ]" href="https://github.com/AIGAdc/dcdesignweek.org">{% include 'static/images/icons/github.svg' %}</a>
+      </li>
+      <li>
+        <a aria-label="DCDW Instagram Page" class="[ mambo-anchor ]" href="https://www.instagram.com/dcdesignweek/">{% include 'static/images/icons/instagram.svg' %}</a>
+      </li>
+      <li>
+        <a aria-label="DCDW Twitter Page" class="[ mambo-anchor ]" href="https://www.twitter.com/dcdesignweek">{% include 'static/images/icons/twitter.svg' %}</a>
+      </li>
     </ul>
     <p class="[ copyright ]">
-      {{ settings.copyright | safe }}
+      &copy; AIGA DC | 2016-2022 All Rights Reserved.
     </p>
   </div>
 </footer>

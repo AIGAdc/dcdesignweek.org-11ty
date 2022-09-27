@@ -40,25 +40,3 @@ secondaryNavLinks:
     url: https://dc.aiga.org/about-us/mission/
     external: true
     enabled: true
-socialMediaLinks:
-  - title: Twitter
-    url: https://www.twitter.com/dcdesignweek
-    icon: <i class="fab fa-twitter-square"></i>
-    external: true
-    enabled: true
-  - title: Instagram
-    url: https://www.instagram.com/dcdesignweek/
-    icon: <i class="fab fa-instagram-square"></i>
-    external: true
-    enabled: true
-  - title: Facebook
-    url: https://www.facebook.com/dcdesignweek/
-    icon: <i class="fab fa-facebook-square"></i>
-    external: true
-    enabled: true
-  - title: Github
-    url: https://github.com/AIGAdc/dcdesignweek.org
-    icon: <i class="fab fa-github-square"></i>
-    external: true
-    enabled: true
-copyright: "&copy; AIGA DC | 2016-2022 All Rights Reserved."

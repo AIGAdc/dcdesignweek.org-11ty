@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+.mambo-anchor.icon {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-8);
+}
+
 .mambo-anchor.action {
   border-radius: 1000px;
   padding: var(--size-8) var(--size-24);
