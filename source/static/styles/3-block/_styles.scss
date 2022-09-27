@@ -25,7 +25,7 @@
   background-color: var(--dcdw-2022-pink-tertiary);
   padding: var(--size-64);
   border-radius: 73% 27% 64% 36% / 27% 66% 34% 73%;
-  right: 0;
+  right: -32px;
   text-align: left;
   align-items: start;
   flex-direction: column;
@@ -33,7 +33,7 @@
   max-height: 60vh;
   max-width: 320px;
   overflow-y: auto;
-  top: 16px;
+  top: 48px;
   grid-gap: 1rem;
 }
 

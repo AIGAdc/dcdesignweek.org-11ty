@@ -5,19 +5,21 @@
 
 <section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="events">
   <div class="[ container container-default ][ flow ]">
-    <h2>
-      Filters
+    <div class="filter-info flex-flow flex-center">
+      <h2>
+      2022 Events: 
     </h2>
+      <div class="controls-pagination">
+        <h2 aria-live="polite">
+          <span class="mixitup-page-stats"></span>
+        </h2>
+      </div>
+    </div>
     <div class="[ grid-flow grid-flow-start grid-four-columns ]">
       <div class="[ column-span-one sticky-with-nav ]" id="events-filter">
         {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
-        <div class="controls-pagination">
-          <h2 aria-live="polite" class="filter-info flex-flow flex-center">
-            <span class="mixitup-page-stats"></span>
-          </h2>
-        </div>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
           {% for event in collections.event %}
             {% include '1-global-blocks/card-event.njk' %}
@@ -42,7 +44,7 @@
       limit: 24
     },
     templates: {
-      pageStats: 'Showing ${totalTargets} events.',
+      pageStats: 'showing ${totalTargets} events.',
       pageStatsFail: 'No events found.'
     }
   });

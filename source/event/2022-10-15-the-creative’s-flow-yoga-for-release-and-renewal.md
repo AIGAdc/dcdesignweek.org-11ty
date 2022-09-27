@@ -18,6 +18,9 @@ hero:
         label: $25 — Non-members
         url: https://www.eventbrite.com/e/the-creatives-flow-yoga-for-release-and-renewal-tickets-425439981437
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Test
 eventDetails:
   statusLabel: Featured on Events
   filterTime: Morning

@@ -119,3 +119,33 @@
   position: sticky;
   top: 1rem;
 }
+
+.event-events .grid-flow,
+.event-faq .grid-flow {
+  grid-gap: var(--size-64);
+}
+
+.event-events .events-list,
+.event-committee .mambo-cards,
+.layout-single-committee .mambo-cards,
+.speakers,
+{
+grid-gap: var(--size-64);
+}
+
+.event-committee .mambo-card.committee .image {
+  aspect-ratio: 16/9;
+  max-width: unset;
+}
+
+.event-committee .mambo-card.committee .image img {
+  aspect-ratio: 16/9;
+}
+
+.event-committee .mambo-card .wysiwyg {
+  line-height: 1.25;
+}
+
+.event-home #events {
+  margin-top: var(--size-64);
+}

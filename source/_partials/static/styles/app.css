@@ -790,6 +790,7 @@ button.mambo-anchor.action {
 
 .event-events .events-list,
 .event-committee .mambo-cards,
+.layout-single-committee .mambo-cards,
 .speakers {
   grid-gap: var(--size-64);
 }
@@ -809,45 +810,6 @@ button.mambo-anchor.action {
 
 .event-home #events {
   margin-top: var(--size-64);
-}
-
-/* Committee */
-.layout-single-committee .mambo-card.horizontal {
-  display: grid;
-  grid-column-gap: var(--size-32);
-  grid-template-areas: "image" "body";
-  grid-template-columns: 1fr;
-}
-
-.layout-single-committee .mambo-card.horizontal figure {
-  grid-area: image;
-}
-
-.layout-single-committee .mambo-card.horizontal figure img {
-  aspect-ratio: 1/1;
-  object-fit: cover;
-}
-
-.layout-single-committee .mambo-card.horizontal .details {
-  grid-area: body;
-}
-
-.layout-single-committee .mambo-card.horizontal .meta {
-  display: flex;
-  font-weight: 900;
-  grid-gap: var(--size-8);
-}
-
-@media screen and (min-width: 48rem) {
-  .layout-single-committee .mambo-card.horizontal {
-    grid-column-gap: var(--size-64);
-    grid-template-areas: "image body" ". body";
-    grid-template-columns: 316px 1fr;
-  }
-}
-.layout-single-event .status {
-  border-top: solid 1px currentColor;
-  border-bottom: solid 1px currentColor;
 }
 
 /* Containers */
@@ -1169,7 +1131,7 @@ h3,
   background-color: var(--dcdw-2022-pink-tertiary);
   padding: var(--size-64);
   border-radius: 73% 27% 64% 36%/27% 66% 34% 73%;
-  right: 0;
+  right: -32px;
   text-align: left;
   align-items: start;
   flex-direction: column;
@@ -1177,7 +1139,7 @@ h3,
   max-height: 60vh;
   max-width: 320px;
   overflow-y: auto;
-  top: 16px;
+  top: 48px;
   grid-gap: 1rem;
 }
 
@@ -1362,8 +1324,8 @@ h3,
   }
 }
 .blob {
-  border: solid 1rem var(--dcdw-2022-yellow-primary);
-  box-shadow: 0px 0px 0px 1rem var(--dcdw-2022-pink-primary);
+  border: solid 0.5rem var(--dcdw-2022-yellow-secondary);
+  box-shadow: 0px 0px 0px 1rem var(--dcdw-2022-yellow-primary);
 }
 
 .blob-1 {
@@ -1608,6 +1570,40 @@ h3,
   filter: hue-rotate(120);
 }
 
+/* Committee */
+.layout-single-committee .mambo-card.horizontal {
+  display: grid;
+  grid-column-gap: var(--size-32);
+  grid-template-areas: "image" "body";
+  grid-template-columns: 1fr;
+}
+
+.layout-single-committee .mambo-card.horizontal figure {
+  grid-area: image;
+}
+
+.layout-single-committee .mambo-card.horizontal figure img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.layout-single-committee .mambo-card.horizontal .details {
+  grid-area: body;
+}
+
+.layout-single-committee .mambo-card.horizontal .meta {
+  display: flex;
+  font-weight: 900;
+  grid-gap: var(--size-8);
+}
+
+@media screen and (min-width: 48rem) {
+  .layout-single-committee .mambo-card.horizontal {
+    grid-column-gap: var(--size-64);
+    grid-template-areas: "image body" ". body";
+    grid-template-columns: 316px 1fr;
+  }
+}
 .mambo-divider {
   background-color: currentColor;
   display: inline-block;
@@ -2102,6 +2098,11 @@ input:checked + .slider:before {
 .status.sold-out {
   background-color: var(--dcdw-2022-maroon-primary);
   color: var(--dcdw-2022-cream-primary);
+}
+
+.layout-single-event .status {
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
 }
 
 .layout-page.event-events .wave-2022-brand-partner {

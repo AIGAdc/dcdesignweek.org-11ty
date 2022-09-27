@@ -23,3 +23,9 @@
   background-color: var(--dcdw-2022-maroon-primary);
   color: var(--dcdw-2022-cream-primary);
 }
+
+// Page Specific Styles
+.layout-single-event .status {
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}

@@ -17,6 +17,9 @@ hero:
         showButton: true
         url: https://www.eventbrite.com/e/time-travel-to-a-future-dc-a-meditative-workshop-tickets-425438868107
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Test
 eventDetails:
   startDate: 2022-10-16T19:00:47.129Z
   endDate: 2022-10-16T20:30:47.139Z

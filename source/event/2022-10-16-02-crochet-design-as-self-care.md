@@ -17,6 +17,9 @@ hero:
         label: $27 — Non-members
         url: https://www.eventbrite.com/e/crochet-design-as-self-care-tickets-425438697597
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageALT: Test
 eventDetails:
   startDate: 2022-10-16T22:00:03.122Z
   endDate: 2022-10-17T00:00:03.133Z
