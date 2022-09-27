@@ -1,24 +1,19 @@
-<!-- Component: Footer -->
+<!-- Component: Mambo Footer -->
 <footer class="[ mambo-footer ]" data-color="cream-on-maroon-primary">
   <div class="[ container container-default ]">
-    <ul class="[ list ][ links ]">
+    <ul class="[ list ]">
       {% for link in settings.secondaryNavLinks %}
         {% if link.enabled == true %}
           <li>
-            <a aria-label="{{ link.title }}" class="[ mambo-anchor ]" href="{{ link.url }}">
-              {{ link.title | safe }}
-            </a>
+            <a aria-label="{{ link.title }}" class="[ mambo-anchor ]" href="{{ link.url }}">{{ link.title | safe }}</a>
           </li>
         {% endif %}
       {% endfor %}
     </ul>
-    <ul class="[ list ][ social ]">
+    <ul class="[ list social ]">
       {% for link in settings.socialMediaLinks %}
         <li>
-          <a aria-label="{{ link.title }}" class="[ mambo-anchor ]"
-						href="{{ link.url }}" rel="noopener nofollow" target="_blank">
-            {{ link.icon | safe }}
-          </a>
+          <a aria-label="{{ link.title }}" class="[ mambo-anchor ]" href="{{ link.url }}" rel="noopener nofollow" target="_blank">{{ link.icon | safe }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -27,6 +22,7 @@
     </p>
   </div>
 </footer>
+
 {% if page.url == "/" %}
   <script>
     // Parallax Roots
