@@ -328,7 +328,6 @@ button.mambo-anchor.action {
   font-family: var(--dcdw-2022-brand-dm-sans);
   margin-top: 24px;
   text-align: center;
-  z-index: 1000;
   position: relative;
 }
 
@@ -2000,7 +1999,7 @@ input:checked + .slider:before {
   align-items: center;
   display: flex;
   flex-direction: column;
-  grid-gap: var(--size-16);
+  grid-gap: var(--size-24);
   justify-content: space-between;
 }
 
@@ -2023,7 +2022,7 @@ input:checked + .slider:before {
   padding: var(--size-16);
   position: sticky;
   top: 0;
-  z-index: var(--layer-4);
+  z-index: var(--layer-3);
 }
 
 .mambo-header svg {
@@ -2054,7 +2053,7 @@ input:checked + .slider:before {
 .skip-link {
   position: absolute;
   transform: translateY(-120px);
-  z-index: 1000;
+  z-index: var(--layer-4);
 }
 
 .skip-link:focus {
@@ -2064,7 +2063,7 @@ input:checked + .slider:before {
   min-width: 119px;
   text-align: center;
   box-shadow: 0 0 0 4px white, 0 0 0px 4px white;
-  scroll-margin-top: 4em;
+  z-index: var(--layer-4);
 }
 
 .link-back-to-top {
