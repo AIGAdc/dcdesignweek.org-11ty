@@ -37,12 +37,14 @@
     </style>
     <!-- Script: App.js -->
     <script type="text/javascript" src="/static/scripts/app.js"></script>
-    {% if page.url == "/" %}
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    {% endif %}
     <!-- Script: Netlify Identity Widget -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Script: jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    {% if page.url == "/" %}
+      <!-- Script: Parallax -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    {% endif %}
   </head>
   <body>
     {% include '1-global-blocks/site-header.njk' %}
