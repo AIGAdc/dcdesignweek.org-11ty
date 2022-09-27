@@ -1,55 +1,31 @@
-<section aria-label="{{ hero.header | safe }}" class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-cream" id="{{ hero.header | slug }}">
-  <div class="[ container container-default ][ flow ]">
+<section class="[ mambo-hero mambo-section ]" data-color="maroon-primary-on-cream" id="{{ hero.header | slug }}">
+  <div class="[ container container-default ]">
     <div class="[ hero-content flow-large ]">
-      {% if hero.header %}
-        <span id="skip-to-content">
-          <h1>
-            {{ hero.header | md | safe }}
-          </h1>
-        </span>
-      {% endif %}
-      {% if hero.body %}
-        <div class="[ wysiwyg container-small ]">
-          {{ hero.body | md | safe }}
-        </div>
-      {% endif %}
+      <span id="skip-to-content">
+        <h1>{{ hero.header | md | safe }}</h1>
+      </span>
+      <div class="[ wysiwyg container-small ]">
+        {{ hero.body | md | safe }}
+      </div>
     </div>
     <div class="home-hero-blob">
       {% include 'static/images/hero/hero-home-blob.svg' %}
     </div>
     <div class="home-hero-date-blob">
       <div class="home-hero-date">
-        <time datetime="2022-08">
-          October
-        </time>
-        <time datetime="2022-08-14">
-          14-21
-        </time>
+        <time datetime="2022-08">October</time>
+        <time datetime="2022-08-14">14-21</time>
       </div>
       {% include 'static/images/hero/hero-home-date-blob.svg' %}
     </div>
   </div>
-  <div class="roots" id="scene">
-    <div data-depth="0.1">
-      {% include 'static/images/hero/root-1-layer-1.svg' %}
-    </div>
-    <div data-depth="0.3">
-      {% include 'static/images/hero/root-2-layer-2.svg' %}
-    </div>
-    <div data-depth="0.5">
-      {% include 'static/images/hero/root-3-layer-3.svg' %}
-    </div>
-    <div data-depth="0.7">
-      {% include 'static/images/hero/root-4-layer-4.svg' %}
-    </div>
-    <div data-depth="0.9">
-      {% include 'static/images/hero/root-5-layer-5.svg' %}
-    </div>
-    <div data-depth="0.11">
-      {% include 'static/images/hero/root-6-layer-6.svg' %}
-    </div>
-    <div data-depth="0.13">
-      {% include 'static/images/hero/root-7-layer-7.svg' %}
-    </div>
+  <div aria-hidden="true" class="roots" id="scene">
+    <div data-depth="0.1">{% include 'static/images/hero/root-1-layer-1.svg' %}</div>
+    <div data-depth="0.3">{% include 'static/images/hero/root-2-layer-2.svg' %}</div>
+    <div data-depth="0.5">{% include 'static/images/hero/root-3-layer-3.svg' %}</div>
+    <div data-depth="0.7">{% include 'static/images/hero/root-4-layer-4.svg' %}</div>
+    <div data-depth="0.9">{% include 'static/images/hero/root-5-layer-5.svg' %}</div>
+    <div data-depth="0.11">{% include 'static/images/hero/root-6-layer-6.svg' %}</div>
+    <div data-depth="0.13">{% include 'static/images/hero/root-7-layer-7.svg' %}</div>
   </div>
 </section>
