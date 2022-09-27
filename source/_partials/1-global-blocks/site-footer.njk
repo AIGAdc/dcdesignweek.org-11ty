@@ -48,9 +48,7 @@
   })
 
   // Houdini: Events Jump to
-  var disclosure = new Houdini('[data-houdini-eventsMenu]', {
-    collapseOthers: true, // If true, only allow on open piece of content at a time
-  });
+  var disclosure = new Houdini('[data-houdini-eventsMenu]');
   document.addEventListener('click', function (event) {
 
     // Ignore clicks in the content element or on the button
