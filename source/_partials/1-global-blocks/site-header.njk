@@ -1,36 +1,28 @@
 <!-- Component: Header -->
-<header class="[ mambo-header ]" data-color="{{ pageSettings.headerColorCombo }}">
+<header class="[ mambo-header ][ sticky ]" data-color="{{ pageSettings.headerColorCombo }}">
   <div class="[ container container-default ]">
     <a class="[ mambo-anchor flow-none skip-link ]" data-color="{{ pageSettings.headerColorCombo }}" href="#content">
       Skip to Main Content
     </a>
     <div>
-      <a aria-label="DC Design Week Homepage" data-type="logo" href="/">
+      <a aria-label="DC Design Week Home Page" data-type="logo" href="/">
         {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
-    <div class="flex-flow " style="align-items: center;">
+    <div class="flex-flow">
       <nav>
         <ul class="[ list desktop ]">
           <li>
-            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
-          Events
-        </a>
+            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
           </li>
           <li>
-            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
-          About
-        </a>
+            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
           </li>
           <li>
-            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
-          Committee
-        </a>
+            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
           </li>
           <li>
-            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
-          FAQ
-        </a>
+            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">FAQ</a>
           </li>
         </ul>
       </nav>
@@ -48,30 +40,18 @@
       <nav data-houdini-menu id="mobile">
         <ul class="[ list ]">
           <li>
-            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">
-              Events
-            </a>
+            <a aria-label="Events Page" class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
           </li>
           <li>
-            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">
-              About
-            </a>
+            <a aria-label="About Page" class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
           </li>
           <li>
-            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">
-              Committee
-            </a>
+            <a aria-label="Committee Page" class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
           </li>
           <li>
-            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">
-              FAQ
-            </a>
+            <a aria-label="Frequently Asked Questions Page" class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">FAQ</a>
           </li>
         </ul>
-        <!-- Houdini -->
-        <script>
-          var disclosure = new Houdini('[data-houdini-menu]');
-        </script>
       </nav>
     </div>
   </div>

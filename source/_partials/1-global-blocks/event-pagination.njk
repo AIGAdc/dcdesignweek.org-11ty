@@ -32,20 +32,5 @@
         {% endif %}
       </div>
     </ul>
-    <!-- Houdini -->
-    <script>
-      var disclosure = new Houdini('[data-houdini-event]', {
-        collapseOthers: true, // If true, only allow on open piece of content at a time
-      });
-      document.addEventListener('click', function (event) {
-
-        // Ignore clicks in the content element or on the button
-        if (event.target.closest('#event') || event.target.closest('[data-houdini-toggle="event"]')) 
-          return;
-        
-        // Selector string
-        disclosure.collapse('#event');
-      })
-    </script>
   </nav>
 </div>

@@ -29,11 +29,42 @@
 </footer>
 {% if page.url == "/" %}
   <script>
+    // Parallax Roots
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene);
   </script>
 {% endif %}
 <script>
+  // Houdini: Committee Jump to
+  var disclosure = new Houdini('[data-houdini-teams]');
+  document.addEventListener('click', function (event) {
+
+    // Ignore clicks in the content element or on the button
+    if (event.target.closest('#teams') || event.target.closest('[data-houdini-toggle="teams"]')) 
+      return;
+    
+    // Selector string
+    disclosure.collapse('#teams');
+  })
+
+  // Houdini: Events Jump to
+  var disclosure = new Houdini('[data-houdini-event]', {
+    collapseOthers: true, // If true, only allow on open piece of content at a time
+  });
+  document.addEventListener('click', function (event) {
+
+    // Ignore clicks in the content element or on the button
+    if (event.target.closest('#event') || event.target.closest('[data-houdini-toggle="event"]')) 
+      return;
+    
+    // Selector string
+    disclosure.collapse('#event');
+  })
+
+  // Houdini: Mobile Menu
+  var disclosure = new Houdini('[data-houdini-menu]');
+
+  // TabIndex Script
   (function ($) {
 
     jQuery.extend(jQuery.expr[':'], {
