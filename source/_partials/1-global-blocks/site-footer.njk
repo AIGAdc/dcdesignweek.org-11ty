@@ -36,25 +36,25 @@
 {% endif %}
 <script>
   // Houdini: Committee Jump to
-  var disclosure = new Houdini('[data-houdini-teams]');
+  var disclosure = new Houdini('[data-houdini-committeeMenu]');
   document.addEventListener('click', function (event) {
 
     // Ignore clicks in the content element or on the button
-    if (event.target.closest('#teams') || event.target.closest('[data-houdini-toggle="teams"]')) 
+    if (event.target.closest('#committeeMenu') || event.target.closest('[data-houdini-toggle="committeeMenu"]')) 
       return;
     
     // Selector string
-    disclosure.collapse('#teams');
+    disclosure.collapse('#committeeMenu');
   })
 
   // Houdini: Events Jump to
-  var disclosure = new Houdini('[data-houdini-event]', {
+  var disclosure = new Houdini('[data-houdini-eventsMenu]', {
     collapseOthers: true, // If true, only allow on open piece of content at a time
   });
   document.addEventListener('click', function (event) {
 
     // Ignore clicks in the content element or on the button
-    if (event.target.closest('#event') || event.target.closest('[data-houdini-toggle="event"]')) 
+    if (event.target.closest('#eventsMenu') || event.target.closest('[data-houdini-toggle="eventsMenu"]')) 
       return;
     
     // Selector string

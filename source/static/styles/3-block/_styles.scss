@@ -37,7 +37,7 @@
   grid-gap: 1rem;
 }
 
-.committee-pagination.mobile ul {
+.pagination-committee.mobile ul {
   border-radius: 24% 76% 30% 70% / 33% 32% 68% 67%;
 }
 
@@ -45,44 +45,44 @@
   display: none;
 }
 
-.event-pagination.mobile {
+.pagination-events.mobile {
   display: block !important;
 }
 
-.committee-pagination.mobile {
+.pagination-committee.mobile {
   display: block !important;
 }
 
-.committee-pagination.desktop ul {
+.pagination-committee.desktop ul {
   display: flex;
   flex-direction: row;
   grid-gap: 1rem;
 }
 
-.committee-pagination.desktop ul>div {
+.pagination-committee.desktop ul>div {
   display: flex;
   flex-direction: row;
   grid-gap: 1rem;
 }
 
-.event-pagination {
+.pagination-events {
   display: flex;
   justify-content: space-between;
   grid-gap: 1rem;
 }
 
-.event-pagination ul div {
+.pagination-events ul div {
   display: flex;
   flex-direction: column;
   grid-gap: 1rem;
 }
 
-.event-pagination>div {
+.pagination-events>div {
   display: flex;
   grid-gap: 1rem;
 }
 
-.event-pagination .mambo-anchor {
+.pagination-events .mambo-anchor {
   display: inline-block;
   width: auto;
 }
@@ -100,19 +100,19 @@
 }
 
 @media screen and (min-width: 64rem) {
-  .committee-pagination.desktop {
+  .pagination-committee.desktop {
     display: block;
   }
 
-  .committee-pagination.mobile {
+  .pagination-committee.mobile {
     display: none;
   }
 }
 
 @media screen and (min-width: 30rem) {
 
-  .event-pagination,
-  .event-pagination>div {
+  .pagination-events,
+  .pagination-events>div {
     width: unset;
     flex-wrap: nowrap;
   }

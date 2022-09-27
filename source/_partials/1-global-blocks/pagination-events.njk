@@ -1,0 +1,30 @@
+<div class="pagination-events mobile">
+  <button class="[ mambo-anchor action ]" data-color="cream-on-maroon-secondary" data-houdini-toggle="eventsMenu" hidden>
+    Jump to...
+  </button>
+  <nav data-houdini-eventsMenu id="eventsMenu">
+    <ul class="[ list ]">
+      <li>
+        <a aria-label="Events Page" class="[ mambo-anchor ]" href="/events/#events">Back to Events List</a>
+      </li>
+      <div>
+        {% set previousPost = collections.event | getPreviousCollectionItem(page) %}
+        {% set nextPost = collections.event | getNextCollectionItem(page) %}
+        {% if post.data.hidden == False %}
+          {% if previousPost %}
+            <!-- Will only display previous button when on the last item of collection -->
+            <li>
+              <a class="[ mambo-anchor stacked ]" href="{{ previousPost.url }}">Previous Event: <span>{{ previousPost.data.title }}</span></a>
+            </li>
+          {% endif %}
+          {% if nextPost %}
+            <!-- Will only display next button when on the first item of collection -->
+            <li>
+              <a class="[ mambo-anchor stacked ]" href="{{ nextPost.url }}">Next Event:  <span>{{ nextPost.data.title }}</span></a>
+            </li>
+          {% endif %}
+        {% endif %}
+      </div>
+    </ul>
+  </nav>
+</div>
