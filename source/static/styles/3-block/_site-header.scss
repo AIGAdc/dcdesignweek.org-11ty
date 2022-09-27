@@ -1,7 +1,9 @@
 .mambo-header {
   border-bottom: solid 1px currentColor;
   padding: var(--size-16);
-  z-index: 10000;
+  position: sticky;
+  top: 0;
+  z-index: var(--layer-4);
 }
 
 .mambo-header svg {
@@ -12,6 +14,12 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.mambo-header .links {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-16);
 }
 
 .mambo-header a {
