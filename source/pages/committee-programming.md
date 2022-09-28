@@ -11,7 +11,7 @@ hero:
 members:
   - name: Alyssa Huntley
     blob: 2
-    pronunciation: Uh-lis-uh
+    pronunciation: Uh · lis · uh
     pronouns: she | her | hers
     position: Program Director
     bio:
@@ -59,7 +59,7 @@ members:
     imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt.
   - name: Annette Allen 
     blob: 2
-    pronunciation: A Net 
+    pronunciation: A · Net 
     pronouns: she | her | hers
     position: Community-Curated Event Lead
     bio:
@@ -83,7 +83,7 @@ members:
     imageAlt: A young black woman
   - name: Janessa Arrington
     blob: 2
-    pronunciation: Juh-nes-uh
+    pronunciation: Juh · nes · uh
     pronouns: she | her | hers
     position: Pop-Up Event Lead
     bio:
@@ -107,7 +107,7 @@ members:
     imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces who’s smiling  
   - name: Natarsha Wright
     blob: 3
-    pronunciation: Na-tar-sha
+    pronunciation: Na · tar · sha
     pronouns: she | her | hers
     position: Community-Curated Event Lead
     bio:

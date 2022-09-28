@@ -35,7 +35,7 @@ members:
     imageAlt: A young, white man with short brown hair wearing an olive green shirt.
   - name: Jelena Budjevac
     blob: 2
-    pronunciation: Yell-en-ah
+    pronunciation: Yell · en · ah
     pronouns: 
     position: Copywriter
     bio:

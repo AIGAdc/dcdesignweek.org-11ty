@@ -1,6 +1,5 @@
 .pagination-committee,
 .pagination-events {
-  border-bottom: solid 1px currentColor;
   padding: var(--size-24);
   overflow-y: hidden;
   overflow-x: auto;
@@ -14,11 +13,6 @@
 .pagination-events {
   overflow: unset;
 }
-
-.pagination-events {
-  border-bottom: unset;
-}
-
 
 .pagination-events {
   display: block;

@@ -3,7 +3,7 @@
     <div class="[ hero-content ][ column-span-two ][ flow ]">
       {% if title %}
         <span id="skip-to-content">
-          <h1>{{ title | md | safe }}</h1>
+          <h1 {% if titleAria %} {{ titleAria | safe }} {% endif %}>{{ title | safe }}</h1>
         </span>
       {% endif %}
       {% if hero.body %}

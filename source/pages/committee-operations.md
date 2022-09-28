@@ -79,7 +79,7 @@ members:
     imageAlt: A Hmong-American female, wearing a yellow shirt.
   - name: Raksa Yin
     blob: 1
-    pronunciation: Rack-San
+    pronunciation: Rack · San
     pronouns: he | him | his
     position: AIGA DC President
     bio:

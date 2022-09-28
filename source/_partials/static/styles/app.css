@@ -1091,6 +1091,11 @@ h3,
     padding: var(--size-40) var(--size-32);
   }
 }
+@media screen and (min-width: 85.375rem) {
+  .mambo-section {
+    padding: var(--size-64) var(--size-64) 0 var(--size-64);
+  }
+}
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
@@ -1426,6 +1431,16 @@ h3,
 }
 
 /* Committee */
+.mambo-card.committee {
+  border: solid 1px currentColor;
+  padding: var(--size-24);
+}
+
+.layout-single-committee .mambo-card.committee {
+  border: none;
+  padding: 0;
+}
+
 .layout-single-committee .mambo-card.horizontal {
   display: grid;
   grid-column-gap: var(--size-32);
@@ -1532,6 +1547,7 @@ h3,
 .layout-page.page-faq .mambo-hero {
   min-height: auto;
   display: block;
+  overflow: unset;
 }
 
 .layout-single-event .mambo-hero {
@@ -1758,7 +1774,6 @@ h3,
 
 .pagination-committee,
 .pagination-events {
-  border-bottom: solid 1px currentColor;
   padding: var(--size-24);
   overflow-y: hidden;
   overflow-x: auto;
@@ -1771,10 +1786,6 @@ h3,
 
 .pagination-events {
   overflow: unset;
-}
-
-.pagination-events {
-  border-bottom: unset;
 }
 
 .pagination-events {

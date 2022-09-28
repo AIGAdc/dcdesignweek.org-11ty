@@ -1,5 +1,6 @@
 ---
 title: Executive
+titleAria: Executive Team
 description: The folks leading the communications, design, operations, and programming efforts for this year’s DC Design Week.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
@@ -11,7 +12,7 @@ hero:
 members:
   - name: Ariana Rodriguez-Gitler
     blob: 1
-    pronunciation: ah - R EE - ah - nah
+    pronunciation: ah · REE · ah · nah
     pronouns: she | her | hers
     position: Executive Director
     bio:
@@ -23,7 +24,7 @@ members:
     imageAlt: A young Latina with dark brown wavy hair wearing a black patterned dress.
   - name: Alyssa Huntley
     blob: 2
-    pronunciation: Uh-lis-uh
+    pronunciation: Uh · lis · uh
     pronouns: she | her | hers
     position: Program Director
     bio:
@@ -35,7 +36,7 @@ members:
     imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt. 
   - name: Danni Baker
     blob: 2
-    pronunciation: dan knee
+    pronunciation: dan · knee
     pronouns: she | her | hers
     position: Chief Experience Officer
     bio:

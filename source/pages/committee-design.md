@@ -23,7 +23,7 @@ members:
     imageAlt: A young, smiling, South American indigenous woman with long black hair.
   - name: Jasmine Henderson
     blob: 1
-    pronunciation: JAS-men 
+    pronunciation: JAS · men 
     pronouns: she | her | they
     position: Web Design Lead
     bio:
@@ -35,7 +35,7 @@ members:
     imageAlt: A black woman with a fade haircut smiling
   - name: Marcus Relacion
     blob: 3
-    pronunciation: MAR-kuss
+    pronunciation: MAR · kuss
     pronouns: he | him | his
     position: Web Design Engineer
     bio:
@@ -47,7 +47,7 @@ members:
     imageAlt: A young African American man with an afro and wearing glasses
   - name: Shoshanna Chito
     blob: 3
-    pronunciation: Show·shaa·nuh
+    pronunciation: Show · shaa · nuh
     pronouns: she | her | hers
     position: Web Designer
     bio:
@@ -83,7 +83,7 @@ members:
     imageAlt: A young, black woman, with long lime green nails, with long black locs, smiling, wearing a gold and black checkered styled blazer and an Eye of Horus necklace
   - name: Vanessa Vergara
     blob: 1
-    pronunciation: VUH-nehs-sah
+    pronunciation: VUH · nehs · sah
     pronouns: she | her | hers
     position: Graphic Designer
     bio:

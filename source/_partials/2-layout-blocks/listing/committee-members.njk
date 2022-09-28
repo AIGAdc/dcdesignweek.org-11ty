@@ -3,21 +3,24 @@
   {% include '1-global-blocks/wave.njk' %}
 </div>
 
-<section class="[ mambo-section ]" data-color="maroon-secondary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
-  <div class="[ container container-default ]">
+<section class="[ mambo-section ][ flow-large ]" data-color="maroon-secondary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
+  <div class="[ container container-default ][ flow ]">
+    <h2>
+      Staff
+    </h2>
     <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
       {% for member in members %}
         <li class="[ mambo-card committee ][ flow-large ]">
-          <div class="[ image ]">
+          {# <div class="[ image ]">
             <figure>
               <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
             </figure>
-          </div>
+          </div> #}
           <div class="[ details ][ flow-small ]">
             <div class="[ meta ]">
               <h3 class="name">{{ member.name | safe }}</h3>
               {% if member.pronunciation %}
-                <p class="pronunciation">{{ member.pronunciation | safe }}</p>
+                <p class="pronunciation">( {{ member.pronunciation | safe | lower }} )</p>
               {% endif %}
             </div>
             {% if member.pronouns %}
@@ -41,5 +44,9 @@
         </li>
       {% endfor %}
     </ul>
+  </div>
+  <div>
+
+    {% include '1-global-blocks/pagination-committee.njk' %}
   </div>
 </section>

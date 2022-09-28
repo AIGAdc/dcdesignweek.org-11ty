@@ -9,3 +9,9 @@
     padding: var(--size-40) var(--size-32);
   }
 }
+
+@media screen and (min-width: 85.375rem) {
+  .mambo-section {
+    padding: var(--size-64) var(--size-64) 0 var(--size-64);
+  }
+}
