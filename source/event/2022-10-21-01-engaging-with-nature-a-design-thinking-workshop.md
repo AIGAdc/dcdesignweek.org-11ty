@@ -43,13 +43,16 @@ eventDetails:
     Light refreshments will be provided.
 
 
+    This event was put together in partnership with Threespot.
+
+
     ## Venue
 
 
     Venue name: Pierce Mill in Rock Creek Park Creek Park, Picnic Grove #1
 
 
-    Venue Info: 3998 Spring of Freedom NW, Washington, DC 20008
+    Venue info: 3998 Spring of Freedom NW, Washington, DC 20008
   filterDate: Friday, October 21
   filterLocation: In-Person
   filterTime: Morning
@@ -77,12 +80,12 @@ speaker:
       and a Taurus.
 
 
-      [Website](https://www.meganlewin-smith.com/)
+      [LinkedIn](www.linkedin.com/in/megan-lewin-smith-176217a3/)
 preparation: >-
   ## Preparation
 
 
-  We recommend that attendees wear masks when not eating or drinking.
+  Attendees must wear a mask at this event while not eating or drinking.
 
 
   ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
@@ -125,7 +128,7 @@ a11y: >-
 
   * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
 
-  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+  * [Request an accommodation through our Google Form.](https://docs.google.com/forms/d/e/1FAIpQLSe2l-FrPiSaZxPjIAOUadYn3axaz6SyloV42CWg-HF65TTy1w/viewform)
 
 
   We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.

@@ -110,7 +110,7 @@ a11y: >-
 
   * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
 
-  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+  * [Request an accommodation through our Google Form.](https://docs.google.com/forms/d/e/1FAIpQLSe2l-FrPiSaZxPjIAOUadYn3axaz6SyloV42CWg-HF65TTy1w/viewform)
 
 
 
