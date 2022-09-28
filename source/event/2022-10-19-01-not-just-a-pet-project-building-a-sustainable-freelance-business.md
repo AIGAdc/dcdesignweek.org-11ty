@@ -53,7 +53,7 @@ eventDetails:
     ## Venue
 
 
-    Venue name: [Zoom](https://aiga.zoom.us/j/94490843521?pwd=bkV5OElkSjl0VStwaklYa2w2M25UQT09)
+    Venue name: Zoom
   location:
     - name: Zoom
   filterDate: Wednesday, October 19
