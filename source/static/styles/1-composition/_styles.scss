@@ -10,7 +10,6 @@
   margin-top: var(--size-32);
 }
 
-
 .flow-none {
   margin: 0;
 }
@@ -67,8 +66,7 @@
 .grid-one-column,
 .grid-two-columns,
 .grid-three-columns,
-.grid-four-columns,
-.grid-three-fourths {
+.grid-four-columns {
   grid-template-columns: 1fr;
 }
 
@@ -103,21 +101,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .grid-three-fourths {
-    grid-template-columns: 1fr 0.25fr;
-  }
-
   .grid-four-columns {
     grid-template-columns: repeat(4, 1fr);
   }
 
-}
-
-
-/* Page: faq */
-.layout-faq .faq-sidebar {
-  position: sticky;
-  top: 1rem;
 }
 
 .event-events .grid-flow,
@@ -128,9 +115,8 @@
 .event-events .events-list,
 .event-committee .mambo-cards,
 .layout-single-committee .mambo-cards,
-.speakers,
-{
-grid-gap: var(--size-64);
+.speakers {
+  grid-gap: var(--size-64);
 }
 
 .event-committee .mambo-card.committee .image {

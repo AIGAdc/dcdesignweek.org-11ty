@@ -1,7 +1,8 @@
 .mambo-header {
   border-bottom: solid 1px currentColor;
   padding: var(--size-16);
-  z-index: var(--layer-3);
+  position: relative;
+  z-index: var(--layer-4);
 }
 
 .mambo-header svg {

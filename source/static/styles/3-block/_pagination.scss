@@ -6,14 +6,23 @@
   overflow-x: auto;
 }
 
+.pagination-committee {
+  position: relative;
+  z-index: var(--layer-4);
+}
+
 .pagination-events {
   border-bottom: unset;
 }
 
+
+.pagination-events {
+  display: block;
+}
+
 .pagination-events .list {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
   grid-gap: var(--size-24);
+  align-items: start;
 }

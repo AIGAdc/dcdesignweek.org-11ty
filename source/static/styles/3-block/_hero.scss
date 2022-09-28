@@ -1,21 +1,24 @@
 .mambo-hero {
   display: grid;
-  place-content: center;
   min-height: 90vh;
   position: relative;
-  z-index: 100;
   overflow: hidden;
+  z-index: var(--layer-3);
 }
 
-.layout-page.event-accessibility .mambo-hero,
+.layout-page.page-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
-.layout-page.event-events .mambo-hero,
-.layout-page.event-about .mambo-hero,
-.layout-page.event-committee .mambo-hero,
-.layout-page.event-faq .mambo-hero,
-.layout-single-event .mambo-hero,
-.layout-page.event-faq .mambo-hero {
-  min-height: 30vh;
+.layout-page.page-events .mambo-hero,
+.layout-page.page-about .mambo-hero,
+.layout-page.page-committee .mambo-hero,
+.layout-page.page-faq .mambo-hero {
+  min-height: auto;
+  display: block;
+  overflow: unset;
+}
+
+.layout-single-event .mambo-hero {
+  min-height: auto;
 }
 
 .mambo-hero .container,
@@ -78,25 +81,6 @@
 }
 
 @media screen and (min-width:64rem) {
-
-  .layout-page.event-accessibility .mambo-hero,
-  .layout-single-committee .mambo-hero,
-  .layout-page.event-events .mambo-hero,
-  .layout-page.event-about .mambo-hero,
-  .layout-page.event-committee .mambo-hero,
-  .layout-page.event-faq .mambo-hero,
-  .layout-single-event .mambo-hero,
-  .layout-page.event-faq .mambo-hero,
-  .layout-page.event-committee {
-    min-height: 60vh;
-    margin-bottom: -200px;
-    padding-top: 0;
-  }
-
-  .layout-single-event .mambo-hero {
-    margin-bottom: unset;
-  }
-
   .mambo-hero h1 {
     max-width: 16ch;
   }
@@ -148,11 +132,11 @@
   display: flex;
   flex-direction: column;
   font-family: var(--dcdw-2022-brand-recursive);
-  font-size: var(--size-18);
+  font-size: var(--size-24);
   font-weight: 900;
   position: absolute;
   text-align: center;
-  transform: translate(55%, 75%);
+  transform: translate(34%, 32%);
 }
 
 .home-hero-date time {
@@ -169,16 +153,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1000;
-  transform: translate(-350px, -178px);
-}
-
-.event-about .home-page-blob {
-  transform: translate(-350px, -210px);
-}
-
-.event-faq .home-page-blob {
-  transform: translate(-310px, -150px);
+  transform: translate(-300px, -140px);
 }
 
 .home-page-blob svg {
@@ -198,14 +173,6 @@
   .home-page-blob {
     transform: translate(-200px, -150px);
   }
-
-  .event-about .home-page-blob {
-    transform: translate(-350px, -210px);
-  }
-
-  .event-faq .home-page-blob {
-    transform: translate(-310px, -180px);
-  }
 }
 
 // 640px
@@ -219,7 +186,7 @@
   }
 
   .home-page-blob {
-    transform: translate(-150px, -200px);
+    transform: translate(-175px, -200px);
   }
 
   .home-page-blob svg {
@@ -229,21 +196,44 @@
 
 // 768px
 @media screen and (min-width:48rem) {
+  .mambo-hero .wysiwyg {
+    max-width: 40ch;
+  }
+
+  .page-home .mambo-hero .wysiwyg {
+    max-width: 64ch;
+    margin: auto;
+  }
+
   .home-hero-blob {
     transform: translate(-300px, -225px);
   }
 
   .home-page-blob {
-    transform: translate(-300px, -350px);
+    transform: translate(-350px, -225px);
   }
 
   .home-page-blob svg {
-    width: 1280px;
+    width: 1000px;
   }
 }
 
 // 1024px
 @media screen and (min-width:64rem) {
+
+  .layout-page.page-accessibility .mambo-hero,
+  .layout-single-committee .mambo-hero,
+  .layout-page.page-events .mambo-hero,
+  .layout-page.page-about .mambo-hero,
+  .layout-page.page-committee .mambo-hero,
+  .layout-page.page-faq .mambo-hero {
+    margin-bottom: -96px;
+  }
+
+  .mambo-hero .wysiwyg {
+    max-width: 96ch;
+  }
+
   .home-hero-blob {
     transform: translate(-250px, -200px);
   }
@@ -255,7 +245,7 @@
   }
 
   .home-page-blob {
-    transform: translate(-600px, -250px);
+    transform: translate(-350px, -180px);
   }
 }
 
@@ -270,7 +260,7 @@
   }
 
   .home-page-blob {
-    transform: translate(-500px, -250px);
+    transform: translate(-300px, -150px);
   }
 }
 

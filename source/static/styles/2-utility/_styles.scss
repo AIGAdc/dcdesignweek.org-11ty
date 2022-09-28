@@ -34,6 +34,7 @@
   top: 0;
 }
 
+
 @media screen and (min-width: 64rem) {
   .sticky-with-nav {
     position: sticky;
@@ -41,41 +42,41 @@
   }
 }
 
-body {
-  border-top: solid 1rem black !important;
-}
+// body {
+//   border-top: solid 1rem black !important;
+// }
 
-// 480px
-@media screen and (min-width:30rem) {
-  body {
-    border-top: solid 1rem orange !important;
-  }
-}
+// // 480px
+// @media screen and (min-width:30rem) {
+//   body {
+//     border-top: solid 1rem orange !important;
+//   }
+// }
 
-// 640px
-@media screen and (min-width:40rem) {
-  body {
-    border-top: solid 1rem purple !important;
-  }
-}
+// // 640px
+// @media screen and (min-width:40rem) {
+//   body {
+//     border-top: solid 1rem purple !important;
+//   }
+// }
 
-// 768px
-@media screen and (min-width:48rem) {
-  body {
-    border-top: solid 1rem green !important;
-  }
-}
+// // 768px
+// @media screen and (min-width:48rem) {
+//   body {
+//     border-top: solid 1rem green !important;
+//   }
+// }
 
-// 1024px
-@media screen and (min-width:64rem) {
-  body {
-    border-top: solid 1rem red !important;
-  }
-}
+// // 1024px
+// @media screen and (min-width:64rem) {
+//   body {
+//     border-top: solid 1rem red !important;
+//   }
+// }
 
-// 1366px
-@media screen and (min-width:85.375rem) {
-  body {
-    border-top: solid 1rem navy !important;
-  }
-}
+// // 1366px
+// @media screen and (min-width:85.375rem) {
+//   body {
+//     border-top: solid 1rem navy !important;
+//   }
+// }

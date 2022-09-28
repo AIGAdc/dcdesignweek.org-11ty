@@ -1,5 +1,5 @@
 ---
-title: Creative team
+title: Creative
 description: The folks responsible for turning the 2022 branding into our social media, website, and printed material designs.
 pageSettings:
   headerColorCombo: maroon-primary-on-cream
