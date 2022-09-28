@@ -11,7 +11,7 @@ hero:
     - ticket:
         showButton: true
         label: $20 — Members
-        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452152%26redirect_source%3Deventbrite_register
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fthe-creatives-flow-yoga-for-release-and-renewal%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
