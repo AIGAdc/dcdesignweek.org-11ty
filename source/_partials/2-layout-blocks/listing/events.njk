@@ -15,10 +15,18 @@
         {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
-        <div class="controls-pagination">
+        <div class="controls-pagination desktop">
           <h2 aria-live="polite">
             <span class="mixitup-page-stats" style="padding: var(--size-16) 0;"></span>
           </h2>
+        </div>
+        <div class="controls-pagination mobile">
+          <h2 aria-live="polite">
+            <span class="mixitup-page-stats" style="padding: var(--size-16) 0;"></span>
+          </h2>
+          <a class="[ mambo-anchor ]" href="#events-filter">
+            Back to Filters
+          </a>
         </div>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
           {% for event in collections.event %}

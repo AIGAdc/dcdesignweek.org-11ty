@@ -468,13 +468,13 @@ button.mambo-anchor.action {
 ---------------------------------------------------------------------- */
 /* Pagination Controls
 ---------------------------------------------------------------------- */
-.controls-pagination {
+.pagination-controls {
   padding: 0;
   font-size: 0.1px;
   text-align: justify;
 }
 
-.controls-pagination:after {
+.pagination-controls:after {
   content: "";
   display: inline-block;
   width: 100%;
@@ -1806,6 +1806,51 @@ h3,
   min-width: unset;
 }
 
+.controls-pagination {
+  background-color: var(--dcdw-2022-pink-tertiary);
+  border-radius: 25% 75% 18% 82%/66% 30% 70% 34%;
+  padding: var(--size-24);
+  text-align: left;
+  z-index: var(--layer-4);
+}
+
+.controls-pagination.desktop {
+  display: none;
+}
+
+.controls-pagination.mobile {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-16);
+  margin-bottom: var(--size-24);
+  position: sticky;
+  top: 0.5rem;
+}
+
+.controls-pagination.mobile h2 {
+  font-size: var(--size-18);
+}
+
+.controls-pagination.mobile .mambo-anchor {
+  display: inline-block;
+  width: auto;
+}
+
+@media screen and (min-width: 64rem) {
+  .controls-pagination {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    text-align: left;
+    z-index: var(--layer-4);
+  }
+  .controls-pagination.desktop {
+    display: block;
+  }
+  .controls-pagination.mobile {
+    display: none;
+  }
+}
 .mambo-footer {
   border-top: solid 1px currentColor;
   padding: var(--size-24);
