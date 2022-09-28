@@ -863,13 +863,9 @@ button.mambo-anchor.action {
 @media screen and (min-width: 64rem) {
   .sticky-with-nav {
     position: sticky;
-    top: 105px;
+    top: 32px;
   }
 }
-.wave svg {
-  width: 100%;
-}
-
 body {
   border-top: solid 1rem black !important;
 }
@@ -2137,6 +2133,10 @@ input:checked + .slider:before {
   stroke: var(--dcdw-2022-yellow-primary);
   stroke-width: 1;
   paint-order: stroke;
+}
+
+.wave svg {
+  width: 100%;
 }
 
 .wysiwyg > *:not(:first-child) {
