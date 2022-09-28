@@ -54,6 +54,9 @@ eventDetails:
     *Please note: In alignment with our mission of providing historically underrepresented communities with access to holistic wellness, this event creates space for those who identify as BIPOC (Black, Indigenous, and people of color). While we will never deny anyone access to our event, if you do not identify as BIPOC, we kindly ask that you save space for those who are.*
 
 
+    *This event was put together in partnership with [calm/cool](https://www.calmcool.co/) collective and was made possible by our sponsor [Shop Made in DC](https://www.shopmadeindc.com/).*
+
+
     ## Venue
 
 
@@ -98,13 +101,13 @@ a11y: >-
   ## Accessibility
 
 
-  A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
-
-
-  The venue is ADA accessible.
-
-
-  Accessible and gender-neutral bathrooms are available at the location.
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+  
+  * The venue is ADA accessible.
+  
+  * Accessible and gender-neutral bathrooms are available at the location.
+  
+  * Shop Made in DC – Union Market is accessible via public transportation. The closest metro station is NoMa-Gallaudet U New York Ave. Parking options are limited.
 
 
   If you need any additional accommodations, please contact us using a method that works best for you:
