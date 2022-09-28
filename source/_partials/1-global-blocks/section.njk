@@ -1,7 +1,7 @@
 {% for content in sections %}
   {% if content.section.showWaveTop == true %}
     <!-- Wave -->
-    <div class="[ wave left ]" style="fill: {{ content.section.waveTopFill }}; background-color: {{ content.section.waveTopBackground }};">
+    <div class="[ wave left has-border ]" style="fill: {{ content.section.waveTopFill }}; background-color: {{ content.section.waveTopBackground }};">
       {% include '1-global-blocks/wave.njk' %}
     </div>
   {% endif %}
@@ -21,7 +21,7 @@
 
   {% if content.section.showWaveBottom == true %}
     <!-- Wave -->
-    <div class="[ wave right ]" style="fill: {{ content.section.waveBottomFill }}; background-color: {{ content.section.waveBottomBackground }};">
+    <div class="[ wave right has-border ]" style="fill: {{ content.section.waveBottomFill }}; background-color: {{ content.section.waveBottomBackground }};">
       {% include '1-global-blocks/wave.njk' %}
     </div>
   {% endif %}

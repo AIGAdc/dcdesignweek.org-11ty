@@ -1362,7 +1362,7 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-  min-height: 282px;
+  min-height: 50vh;
   display: block;
 }
 
@@ -1550,7 +1550,7 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-    margin-bottom: -96px;
+    margin-bottom: -144px;
   }
   .mambo-hero .wysiwyg {
     max-width: 96ch;
@@ -1787,17 +1787,16 @@ h3,
   margin-bottom: -8px;
 }
 
+.wave svg path {
+  stroke: transparent;
+  stroke-width: 0;
+}
+
 .wave.left {
   transform: scaleX(-1);
 }
 
 .wave.has-border svg path {
-  stroke: var(--dcdw-2022-yellow-primary);
-  stroke-width: 2;
-  paint-order: stroke;
-}
-
-.layout-single-event .wave svg path {
   stroke: var(--dcdw-2022-yellow-primary);
   stroke-width: 2;
   paint-order: stroke;

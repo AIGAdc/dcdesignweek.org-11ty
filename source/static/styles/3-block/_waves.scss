@@ -3,18 +3,16 @@
   margin-bottom: -8px;
 }
 
+.wave svg path {
+  stroke: transparent;
+  stroke-width: 0;
+}
+
 .wave.left {
   transform: scaleX(-1);
 }
 
 .wave.has-border svg path {
-  stroke: var(--dcdw-2022-yellow-primary);
-  stroke-width: 2;
-  paint-order: stroke;
-}
-
-// Page and Layout Overrides
-.layout-single-event .wave svg path {
   stroke: var(--dcdw-2022-yellow-primary);
   stroke-width: 2;
   paint-order: stroke;

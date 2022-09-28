@@ -16,7 +16,7 @@ hero:
     our ideal.**"
 sections:
   - section:
-      showWaveTop: false
+      showWaveTop: true
       waveTopFill: var(--dcdw-2022-cream-primary) 
       waveTopBackground: var(--dcdw-2022-yellow-primary)
       showWaveBottom: true
