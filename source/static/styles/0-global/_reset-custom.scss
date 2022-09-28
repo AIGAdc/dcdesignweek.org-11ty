@@ -4,7 +4,6 @@
 // }
 
 html {
-  overflow-x: hidden;
   color: currentColor;
 }
 
@@ -14,6 +13,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   position: relative;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width:64rem) {
