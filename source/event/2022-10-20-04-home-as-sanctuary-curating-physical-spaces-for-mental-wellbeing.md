@@ -10,7 +10,7 @@ hero:
     - ticket:
         showButton: true
         label: $22 — Members
-        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452159%26redirect_source%3Deventbrite_register
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fhome-as-sanctuary-curating-physical-spaces-for-mental-wellbeing%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
@@ -57,7 +57,7 @@ eventDetails:
     Light refreshments will be provided.
 
 
-    This workshop is put on in partnership with [The Oasis Alliance](https://www.theoasisalliance.org/), a local nonprofit that brightens the lives of trauma survivors by co-designing personalized spaces that encourage recovery, growth, and mental wellbeing. A portion of the proceeds will go to The Oasis Alliance to support their work.
+    *This workshop is put on in partnership with [The Oasis Alliance](https://www.theoasisalliance.org/), a local nonprofit that brightens the lives of trauma survivors by co-designing personalized spaces that encourage recovery, growth, and mental wellbeing. A portion of the proceeds will go to The Oasis Alliance to support their work.*
 
 
     ## Venue
@@ -66,7 +66,10 @@ eventDetails:
     Venue name: Eaton DC
 
 
-    Venue Info: 1201 K St NW, Washington, DC 20005
+    Venue info: 1201 K St NW, Washington, DC 20005
+
+
+    *This event was made possible by our sponsor Eaton DC.*
   location:
     - name: In-Person
   filterDate: Thursday, October 20
@@ -108,7 +111,7 @@ speaker:
       years.
 
 
-      [Website](www.phyliciaghee.com)
+      [Website](https://phyliciaghee.carbonmade.com/)
   - name: Kiyonda Powell
     title: Creative in Chief, Kiyonda Powell Design Studio
     bio: >-
@@ -166,7 +169,7 @@ a11y: >-
 
   * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
 
-  * [Request an accommodation through our Google Form.](https://forms.gle/VTys8LzewYs2isUm7)
+  * [Request an accommodation through our Google Form.](https://docs.google.com/forms/d/e/1FAIpQLSe2l-FrPiSaZxPjIAOUadYn3axaz6SyloV42CWg-HF65TTy1w/viewform)
 
 
   We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
