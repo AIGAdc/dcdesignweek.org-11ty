@@ -39,7 +39,7 @@ eventDetails:
     ## Venue
 
 
-    Venue name: [Zoom](https://aiga.zoom.us/j/93299463493?pwd=VW90ZnB6Ty9NeXZDOHFENjBNVU5Vdz09)
+    Venue name: Zoom
   location:
     - name: Zoom
   filterLocation: Zoom
@@ -68,9 +68,9 @@ preparation: >-
 
   * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
 
-  * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](<https://www.aiga.org/membership-community/aiga-membership/>)
+  * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
 
-  * You can [ask the speaker questions ahead of time (Google form](<* https://forms.gle/uZWTUpsF44amMzwB9>)), which may be answered during the event.
+  * You can [ask the speaker questions ahead of time (Google form](https://docs.google.com/forms/d/e/1FAIpQLSc0qHz60mOR3Ta2Q_3D2kRO--4Que77aSX6Q-sbMsoNp5VpBw/viewform), which may be answered during the event.
 
 
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
