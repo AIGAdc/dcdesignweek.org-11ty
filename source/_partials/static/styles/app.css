@@ -927,6 +927,10 @@ h3,
     padding: var(--size-64) var(--size-64) 0 var(--size-64);
   }
 }
+#newsletter {
+  padding-bottom: var(--size-120);
+}
+
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
