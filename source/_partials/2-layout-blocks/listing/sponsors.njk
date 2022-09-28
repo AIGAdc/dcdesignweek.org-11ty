@@ -97,7 +97,17 @@
     {% endif %}
   </div>
 </section>
-<!-- Wave -->
-<div class="[ wave right ]" style="fill: var(--dcdw-2022-maroon-primary); background-color: var(--dcdw-2022-yellow-primary);">
-  {% include '1-global-blocks/wave.njk' %}
-</div>
+
+{% if page.url == "/" %}
+  <!-- Wave -->
+  <div class="[ wave right ]" style="fill: var(--dcdw-2022-maroon-primary); background-color: var(--dcdw-2022-yellow-primary);">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% endif %}
+
+{% if page.url == "/about/" %}
+  <!-- Wave -->
+  <div class="[ wave right ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-yellow-primary);">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% endif %}

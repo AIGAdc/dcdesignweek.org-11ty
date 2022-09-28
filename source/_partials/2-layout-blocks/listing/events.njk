@@ -7,7 +7,7 @@
   <div class="[ container container-default ][ flow ]">
     <div class="[ grid-flow grid-flow-start grid-four-columns ]">
       <div class="[ column-span-one sticky-with-nav ]" id="events-filter">
-        <div class="filter-info flex-flow flex-center">
+        <div class="filter-info">
           <h2>
             Filters
           </h2>
@@ -15,9 +15,9 @@
         {% include '1-global-blocks/events-filter.njk' %}
       </div>
       <div class="[ column-span-three ]">
-        <div class="controls-pagination" style="padding: var(--size-16);">
+        <div class="controls-pagination">
           <h2 aria-live="polite">
-            <span class="mixitup-page-stats"></span>
+            <span class="mixitup-page-stats" style="padding: var(--size-16) 0;"></span>
           </h2>
         </div>
         <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
