@@ -14,7 +14,7 @@ hero:
         url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fpop-up-block-party-at-brookland-arts-walk%2F%3Fredirect_source%3Deventbrite_register
     - ticket:
         showButton: true
-        label: Free — Members
+        label: Free — Non-members
         colorCombo: cream-on-maroon-primary
         url: https://www.eventbrite.com/e/pop-up-block-party-at-brookland-arts-walk-tickets-425473531787
   featuredImage:
@@ -29,8 +29,9 @@ eventDetails:
     DC Design Week’s signature pop-up shop is back in person at the Brookland Arts Walk this year! Join us for a block party hosted with [Terratorie Maps + Goods](https://terratorie.com/?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3dMMx0vUqgZmQuY2ujCxd-A0xQcGnAoFFdp53l66QuIVQ0tsh3gX6waAm6WEALw_wcB) and sponsored by [Taoti Creative](https://taoti.com/), featuring artworks from local artists and on-site vendors. 
 
 
-    Bring your sketchbook, a blank cotton t-shirt, or a tote bag to make a fun DCDW custom block print with [The Block Print Bike](https://blockprintbike.com/); shop the arts and goods made by local creatives; enter to win prizes; get some free swag sponsored by [Custom Ink](https://www.customink.com/photos/tags/washington-dc); and connect with fellow creatives in the area.
+    Bring your sketchbook, a blank cotton t-shirt, or a tote bag to make a fun DCDW custom block print with [The Block Print Bike](https://blockprintbike.com/). Shop the arts and goods made by local creatives. Enter to win prizes from our sponsors, like tickets to [Artechouse DC's current exhibit](https://www.artechouse.com/), and get some free swag sponsored by [Custom Ink](https://www.customink.com/photos/tags/washington-dc). Connect with fellow creatives in the area.
 
+    *This event was put together in partnership with [Terratorie Maps + Goods](https://terratorie.com/) and was made possible by our sponsor [Taoti Creative](https://taoti.com/).*
 
 
 
@@ -40,7 +41,7 @@ eventDetails:
     Venue name: Brookland Arts Walk
 
 
-    Venue Info: 716 Monroe St NE Studio 24, Washington, DC 20017
+    Venue info: 716 Monroe St NE, Washington, DC 20017
   filterDate: Friday, October 21
   filterLocation: In-Person
   filterTime: Evening
@@ -51,7 +52,7 @@ preparation: >-
   ## In-Person Guidance
 
 
-  We recommend that everyone wear a mask when they aren’t eating or drinking. There are no additional requirements requested for this event's partners and venue.
+  We recommend that everyone wear a mask when they aren’t eating or drinking.
 
 
   ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
@@ -70,9 +71,11 @@ a11y: >-
 
   * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
 
-  * The Brookland Arts Walk is a dedicated pedestrian zone with flat ground and a wide walkway. Brookland-CUA Metro is close by.
+  * The Brookland Arts Walk is a dedicated pedestrian zone with flat ground and a wide walkway.
 
   * There are also bike racks and parking along Monroe Street.
+
+  * Brookland-CUA Metro is close by
 
   * Accessible, indoor bathrooms will be available.
 

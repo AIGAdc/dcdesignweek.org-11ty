@@ -44,7 +44,7 @@ eventDetails:
     Venue name: Eaton DC
 
 
-    Venue Info: 1201 K St NW, Washington, DC 20005, 4th floor, House Lounge
+    Venue info: 1201 K St NW, Washington, DC 20005, 4th floor, House Lounge
   location:
     - name: In-Person
   filterDate: Sunday, October 16

@@ -44,7 +44,7 @@ eventDetails:
     Venue name: Planet Word, Classroom B
 
 
-    Venue Info: 925 13th Street NW, Washington, DC 20005
+    Venue info: 925 13th Street NW, Washington, DC 20005
   filterDate: Thursday, October 20
   filterLocation: In-Person
   filterTime: Morning

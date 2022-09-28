@@ -60,7 +60,7 @@ eventDetails:
     Venue name: Shop Made in DC – Union Market
 
 
-    Venue Info: 325 Morse St NE Suite 4, Washington, DC 20002
+    Venue info: 325 Morse St NE Suite 4, Washington, DC 20002
 preparation: >-
   ## Preparation
 

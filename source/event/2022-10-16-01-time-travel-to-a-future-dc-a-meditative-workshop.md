@@ -57,7 +57,7 @@ eventDetails:
     Venue name: LeeDroit Park (covered picnic area)
 
 
-    Venue Info: 286 V St NW, Washington, DC 20001
+    Venue info: 286 V St NW, Washington, DC 20001
   location:
     - name: In-Person
 speaker:

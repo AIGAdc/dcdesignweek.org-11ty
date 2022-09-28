@@ -45,7 +45,7 @@ eventDetails:
     Venue name: Mindspace DC 
 
 
-    Venue Info: 1301 K St NW Suite 300W, Washington, DC 20005
+    Venue info: 1301 K St NW Suite 300W, Washington, DC 20005
   filterDate: Monday, October 17
   filterLocation: In-Person
   filterTime: Evening
