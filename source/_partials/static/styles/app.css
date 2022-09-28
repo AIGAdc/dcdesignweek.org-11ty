@@ -153,7 +153,6 @@ ol[class] {
 
 /* Remove default margin */
 body,
-mambo-button,
 h1,
 h2,
 h3,
@@ -200,9 +199,8 @@ video {
   display: block;
 }
 
-/* Inherit fonts for inputs and mambo-buttons */
+/* Inherit fonts for inputs */
 input,
-mambo-button,
 textarea,
 select {
   font: inherit;
@@ -495,186 +493,6 @@ button.mambo-anchor.action {
 }
 
 .mixitup-page-stats-disabled {
-  display: none;
-}
-
-/*!
- * Modals v10.1.2: Simple modal dialogue pop-up windows
- * (c) 2017 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/modals
- */
-/**
- * Modal windows
- */
-/* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-.modal {
-  background-color: var(--black);
-  display: none;
-  max-width: 100%;
-  padding: var(--size-16);
-  visibility: hidden;
-  z-index: var(--index-9);
-}
-
-.modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
-  text-align: right;
-  width: 100%;
-  padding: 8px;
-}
-
-@media (min-width: 40em) {
-  /* line 4, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal {
-    max-width: 98%;
-  }
-}
-/* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-.modal.active {
-  border: solid 1px var(--white);
-  display: block;
-  height: 75%;
-  left: 0;
-  max-height: 100%;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  visibility: visible;
-  -webkit-overflow-scrolling: touch;
-  margin: 8px;
-}
-
-@media (min-width: 30em) {
-  .modal {
-    padding: var(--space-32);
-  }
-  .modal-content-header .mambo-button.mambo-button__link.mambo-button__link--white {
-    text-align: right;
-  }
-  /* line 19, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal.active {
-    height: auto;
-    max-height: 90%;
-    left: var(--space-32);
-    margin-left: auto;
-    margin-right: auto;
-    right: var(--space-32);
-    top: var(--space-32);
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
-  }
-}
-@media (min-width: 40em) {
-  .modal {
-    padding: var(--space-48);
-  }
-}
-@media screen and (min-width: 64rem) {
-  /* line 44, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-  .modal.active.modal-medium {
-    width: 60em;
-  }
-}
-/* line 54, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-.modal:focus {
-  outline: none;
-}
-
-/**
- * Modal background
- */
-/* line 63, /Users/cferdinandi/Sites/modals/src/sass/components/_modals.scss */
-.modal-bg {
-  background-color: var(--black);
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  opacity: 0.75;
-  right: 0;
-  top: 0;
-  z-index: var(--index-9);
-}
-
-/*!
- * tabbyjs v12.0.3
- * Lightweight, accessible vanilla JS toggle tabs.
- * (c) 2019 Chris Ferdinandi
- * MIT License
- * http://github.com/cferdinandi/tabby
- */
-/**
- * The tablist
- */
-[role=tablist] {
-  border-bottom: 1px solid #ecece5;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-[role=tablist] * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/**
-   * The tablist item
-   */
-@media (min-width: 30em) {
-  [role=tablist] li {
-    display: inline-block;
-  }
-}
-/**
-   * The tabs
-   */
-[role=tab] {
-  border: 1px solid transparent;
-  border-top-color: #ecece5;
-  display: block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  /**
-     * Active tab styling
-     */
-  /**
-     * Tabs on hover
-     */
-}
-
-@media (min-width: 30em) {
-  [role=tab] {
-    border-top-color: transparent;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    display: inline-block;
-    margin-bottom: -1px;
-  }
-}
-[role=tab][aria-selected=true] {
-  background-color: #ecece5;
-}
-
-@media (min-width: 30em) {
-  [role=tab][aria-selected=true] {
-    background-color: transparent;
-    border: 1px solid #ecece5;
-    border-bottom-color: #ffffff;
-  }
-}
-[role=tab]:hover:not([aria-selected=true]) {
-  background-color: #ecece5;
-}
-
-@media (min-width: 30em) {
-  [role=tab]:hover:not([aria-selected=true]) {
-    border: 1px solid #ecece5;
-  }
-}
-/**
-   * [hidden] fallback for IE10 and lower
-   */
-[hidden] {
   display: none;
 }
 
@@ -1269,22 +1087,6 @@ h3,
     border-radius: 54% 46% 60% 40%/43% 55% 45% 57%;
   }
 }
-/* Component: mambo-button */
-.mambo-button {
-  font-family: var(--dcdw-2022-brand-source-sans-pro);
-  font-weight: var(--weight-600);
-  padding: var(--size-8) 0;
-  text-align: center;
-  text-decoration: none;
-}
-
-.border-bottom {
-  border-top: transparent;
-  border-right: transparent;
-  border-bottom: solid 4px currentColor;
-  border-left: transparent;
-}
-
 .mambo-card .image {
   position: relative;
 }
@@ -1524,10 +1326,6 @@ h3,
     z-index: 50;
   }
 }
-.filter-events__reset.control-group .mambo-button {
-  width: 100%;
-}
-
 .mixitup-container-failed::after {
   content: "No events found, please refine the selected options";
   position: absolute;
