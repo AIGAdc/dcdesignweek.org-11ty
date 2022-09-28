@@ -27,13 +27,16 @@ eventDetails:
     ## Description and details
 
 
-    Join the DC Public Library and the design team behind the community-centered permanent exhibit installed as a part of the modernization of the Martin Luther King Jr. Memorial Library.
+    Join the [DC Public Library](https://www.dclibrary.org/) and the design team behind the community-centered permanent exhibit installed as a part of the modernization of the Martin Luther King Jr. Memorial Library.
 
 
     Learn how deep design research with long-time residents, local creatives, and teens informed design concepts prototyped with people  in all four quadrants of DC at various neighborhood library branches, and how this prototyping led to the now completed program. Explore how community interactions were developed, tested, and are now live as residents engage with an exhibits program that is resonant, vibrant, and unambiguously community-driven.
 
 
     After a talk featuring the design process, participants are invited to explore the exhibit itself.
+
+
+    *This event was put together in partnership with [Openbox Design](https://www.opnbx.com/) and was made possible by our sponsor [DC Public Library](https://www.dclibrary.org/).*
 
 
     ## Venue
@@ -60,7 +63,7 @@ speaker:
       operates Marianne's Cafe at MLK.
 
 
-      [Website](https://www.dclibrary.org/)
+      [DC Public Library website](https://www.dclibrary.org/)
   - name: Monica Coghlan
     pronouns: she | her | hers
     title: Director of Design, Studio Joseph
@@ -69,7 +72,7 @@ speaker:
       architecture and exhibition design firm located in New York City.
 
 
-      [Website](https://studiojoseph.com/)
+      [Studio Joseph website](https://studiojoseph.com/)
   - name: Jamal Gray
     pronouns: he | him | his
     title: Director of Events, Exhibits & Development at DC Public Library
@@ -87,9 +90,11 @@ speaker:
       Brooklyn, NY, is a project lead and senior design researcher at Openbox.
 
 
-      [Openbox](https://www.opnbx.com/)
+      [Openbox website](https://www.opnbx.com/)
 preparation: >-
   ## Preparation
+
+  All attendees must wear a mask for this event.
 
 
   We recommend that attendees wear masks when not eating or drinking.
