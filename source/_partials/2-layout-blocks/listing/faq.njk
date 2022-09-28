@@ -34,7 +34,7 @@
       <h2>Frequently asked questions</h2>
     </div>
     <div class="[ column-span-four ][ grid-flow grid-flow-start grid-four-columns ]">
-      <div class="column-span-three">
+      <div class="column-span-three flow-large">
         <!-- Main faq -->
         <ul class="[ faq-list ] [  ] [ flow ]">
           {% for question in faq.questions %}
@@ -50,8 +50,11 @@
             </li>
           {% endfor %}
         </ul>
+        <a class="mambo-anchor" href="#contact">
+          Contact Us
+          </a>
       </div>
-      <div class="column-span-one sticky-with-nav [ flow ]">
+      <div class="column-span-one [ flow ]" id="contact">
         <h2>
 			      Contact
 			    </h2>
