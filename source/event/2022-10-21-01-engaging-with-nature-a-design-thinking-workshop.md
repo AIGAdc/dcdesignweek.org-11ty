@@ -88,7 +88,7 @@ preparation: >-
   Attendees must wear a mask at this event while not eating or drinking.
 
 
-  ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
+  **COVID-19 is hard to predict: What happens if in-person events need to be canceled?**
 
 
   When possible, in-person events will be moved to Zoom and a refund should not be expected. If an event is canceled in its entirety, a refund will be issued. In either scenario you will be notified immediately.
