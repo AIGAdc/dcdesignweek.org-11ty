@@ -1,6 +1,6 @@
 .pagination-committee,
 .pagination-events {
-  padding: var(--size-24);
+  padding: var(--size-24) 0;
   overflow-y: hidden;
   overflow-x: auto;
 }
@@ -24,6 +24,7 @@
   grid-gap: var(--size-24);
   align-items: start;
   text-align: left;
+  padding: var(--size-24);
 }
 
 .pagination-events .mambo-anchor {

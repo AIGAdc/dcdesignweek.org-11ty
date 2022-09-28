@@ -1082,6 +1082,15 @@ h3,
   font-family: var(--dcdw-2022-brand-recursive) !important;
 }
 
+.contact-us.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 64rem) {
+  .contact-us.desktop {
+    display: block;
+  }
+}
 .mambo-section {
   padding: var(--size-32) var(--size-24);
   position: relative;
@@ -1547,9 +1556,8 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-  min-height: auto;
+  min-height: 282px;
   display: block;
-  overflow: unset;
 }
 
 .layout-single-event .mambo-hero {
@@ -1679,7 +1687,7 @@ h3,
   right: 0;
   bottom: 0;
   left: 0;
-  transform: translate(-300px, -180px);
+  transform: translate(-320px, -170px);
 }
 
 .home-page-blob svg {
@@ -1756,12 +1764,13 @@ h3,
 @media screen and (min-width: 85.375rem) {
   .mambo-hero {
     min-height: 100vh;
+    overflow: unset;
   }
   .home-hero-blob {
     transform: translate(-250px, -200px);
   }
   .home-page-blob {
-    transform: translate(-300px, -190px);
+    transform: translate(-300px, -180px);
   }
   .home-page-blob svg {
     width: 1100px;
@@ -1779,7 +1788,7 @@ h3,
 
 .pagination-committee,
 .pagination-events {
-  padding: var(--size-24);
+  padding: var(--size-24) 0;
   overflow-y: hidden;
   overflow-x: auto;
 }
@@ -1803,6 +1812,7 @@ h3,
   grid-gap: var(--size-24);
   align-items: start;
   text-align: left;
+  padding: var(--size-24);
 }
 
 .pagination-events .mambo-anchor {

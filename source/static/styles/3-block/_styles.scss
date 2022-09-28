@@ -8,3 +8,13 @@
 .filter-info h2 {
   font-family: var(--dcdw-2022-brand-recursive) !important;
 }
+
+.contact-us.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 64rem) {
+  .contact-us.desktop {
+    display: block;
+  }
+}

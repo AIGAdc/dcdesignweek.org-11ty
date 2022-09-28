@@ -12,9 +12,8 @@
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-  min-height: auto;
+  min-height: 282px;
   display: block;
-  overflow: unset;
 }
 
 .layout-single-event .mambo-hero {
@@ -153,7 +152,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  transform: translate(-300px, -180px);
+  transform: translate(-320px, -170px);
 }
 
 .home-page-blob svg {
@@ -253,6 +252,7 @@
 @media screen and (min-width:85.375rem) {
   .mambo-hero {
     min-height: 100vh;
+    overflow: unset;
   }
 
   .home-hero-blob {
@@ -260,25 +260,10 @@
   }
 
   .home-page-blob {
-    transform: translate(-300px, -190px);
+    transform: translate(-300px, -180px);
   }
 
   .home-page-blob svg {
     width: 1100px;
   }
 }
-
-
-// .mambo-hero {
-//   clip-path: url('../source/_partials/static/images/mask.svg#wave');
-// }
-
-// #wave {
-//   height: 100vh;
-//   width: auto;
-// }
-
-// #wave path {
-//   transform: scaleY(2);
-//   //  transform: rotate(180deg);
-// }
