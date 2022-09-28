@@ -1082,16 +1082,13 @@ h3,
 
 .mambo-section {
   padding: var(--size-32) var(--size-24);
+  position: relative;
+  z-index: var(--layer-2);
 }
 
 @media screen and (min-width: 40rem) {
   .mambo-section {
-    padding: var(--size-40) var(--size-24);
-  }
-}
-@media screen and (min-width: 85.375rem) {
-  .mambo-section {
-    padding: var(--size-64);
+    padding: var(--size-40) var(--size-32);
   }
 }
 .mambo-accordion .question .question-icon {
@@ -1924,8 +1921,6 @@ h3,
 .wave {
   position: relative;
   margin-bottom: -8px;
-  z-index: var(--layer-2);
-  position: relative;
 }
 
 .wave.left {
