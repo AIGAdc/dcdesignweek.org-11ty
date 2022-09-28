@@ -36,6 +36,11 @@ eventDetails:
 
 
     Service Design DC is the home base of the Service Design Network DC chapter, with more than 1,500 designers and design leaders dedicated to advancing the practice of service design and empowering each other  through learning, connection, and inspiration. Join us at [meetup.com/ServiceDesignDC](http://meetup.com/ServiceDesignDC).
+
+
+    ## Venue
+
+    Venue info: Zoom
   location:
     - name: Zoom
   filterDate: Wednesday, October 19
