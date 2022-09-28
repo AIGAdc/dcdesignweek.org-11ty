@@ -1986,9 +1986,20 @@ input:checked + .slider:before {
   grid-gap: var(--size-56);
 }
 
-.pagination-committee button,
-.pagination-events button {
-  margin-top: 0 !important;
+.pagination-committee,
+.pagination-events {
+  border-bottom: solid 1px currentColor;
+  padding: var(--size-24);
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.pagination-events .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-gap: var(--size-24);
 }
 
 .mambo-footer {
@@ -2057,7 +2068,7 @@ input:checked + .slider:before {
 
 .skip-link {
   position: absolute;
-  transform: translateY(-120px);
+  transform: translateY(-1000px);
   z-index: var(--layer-4);
 }
 
@@ -2068,6 +2079,7 @@ input:checked + .slider:before {
   min-width: 119px;
   text-align: center;
   box-shadow: 0 0 0 4px white, 0 0 0px 4px white;
+  top: 0;
   z-index: var(--layer-4);
 }
 
@@ -2117,6 +2129,7 @@ input:checked + .slider:before {
 }
 
 .wave {
+  margin-bottom: 2px;
   overflow: hidden;
 }
 

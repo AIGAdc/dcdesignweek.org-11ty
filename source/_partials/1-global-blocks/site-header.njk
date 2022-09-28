@@ -9,32 +9,24 @@
         {% include 'static/images/logo-full.njk' %}
       </a>
     </div>
-    <div class="[ links ]">
-      <nav>
-        <ul class="[ list ]">
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">FAQ</a>
-          </li>
-        </ul>
-      </nav>
-      {% if layout == "single-committee" %}
-        {% include '1-global-blocks/pagination-committee.njk' %}
-      {% endif %}
-      {% if layout == "single-event" %}
-        {% include '1-global-blocks/pagination-events.njk' %}
-      {% endif %}
-    </div>
+    <nav>
+      <ul class="[ list ]">
+        <li>
+          <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
+        </li>
+        <li>
+          <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
+        </li>
+        <li>
+          <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
+        </li>
+        <li>
+          <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
+        </li>
+        <li>
+          <a class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">FAQ</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

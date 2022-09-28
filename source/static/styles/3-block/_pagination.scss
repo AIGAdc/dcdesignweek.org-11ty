@@ -1,4 +1,15 @@
-.pagination-committee button,
-.pagination-events button {
-  margin-top: 0 !important;
+.pagination-committee,
+.pagination-events {
+  border-bottom: solid 1px currentColor;
+  padding: var(--size-24);
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.pagination-events .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  grid-gap: var(--size-24);
 }

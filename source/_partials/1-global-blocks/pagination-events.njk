@@ -1,13 +1,10 @@
-<div class="pagination-events mobile [ flex-none ]">
-  <button class="[ mambo-anchor action ]" data-color="cream-on-maroon-secondary" data-houdini-toggle="eventsMenu" hidden>
-    Jump to...
-  </button>
-  <nav data-houdini-eventsMenu id="eventsMenu">
-    <ul class="[ list ]">
-      <li>
-        <a class="[ mambo-anchor ]" href="/events/#events">Back to Events List</a>
-      </li>
-      <div>
+{% if layout == "single-event" %}
+  <nav class="pagination-events" data-color="{{ pageSettings.headerColorCombo }}">
+    <div class="container container-default">
+      <ul class="[ list ]">
+        <li>
+          <a class="[ mambo-anchor ]" href="/events/#events">Back to Events List</a>
+        </li>
         {% set previousPost = collections.event | getPreviousCollectionItem(page) %}
         {% set nextPost = collections.event | getNextCollectionItem(page) %}
         {% if post.data.hidden == False %}
@@ -24,7 +21,7 @@
             </li>
           {% endif %}
         {% endif %}
-      </div>
-    </ul>
+      </ul>
+    </div>
   </nav>
-</div>
+{% endif %}

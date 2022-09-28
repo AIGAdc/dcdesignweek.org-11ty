@@ -1,13 +1,10 @@
-<div class="pagination-committee mobile [ flex-none ]">
-  <button class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" data-houdini-toggle="committeeMenu" hidden>
-    Jump to...
-  </button>
-  <nav data-houdini-committeeMenu id="committeeMenu">
-    <ul class="[ list ]">
-      <li>
-        <a class="[ mambo-anchor ]" href="/committee/">Back to Committee List</a>
-      </li>
-      <div>
+{% if layout == "single-committee" %}
+  <nav class="pagination-committee" data-color="{{ pageSettings.headerColorCombo }}">
+    <div class="container container-default">
+      <ul class="[ list ]">
+        <li>
+          <a class="[ mambo-anchor ]" href="/committee/">Back to Committee List</a>
+        </li>
         <li>
           <a class="[ mambo-anchor ]" href="/committee/executive">Executive Team</a>
         </li>
@@ -23,7 +20,7 @@
         <li>
           <a class="[ mambo-anchor ]" href="/committee/programming">Programming Team</a>
         </li>
-      </div>
-    </ul>
-  </nav>
-</div>
+      </ul>
+    </nav>
+  </div>
+{% endif %}
