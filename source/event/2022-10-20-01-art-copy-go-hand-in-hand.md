@@ -35,7 +35,7 @@ eventDetails:
     Stick around after the talk to explore the Planet Word museum.
 
 
-    Light refreshments will be provided from Teaism, sponsored by HAWJ Studio.
+    *[Planet Word](https://planetwordmuseum.org/) is an immersive language experience located at the historic Franklin School in Washington, D.C. Ideal for all ages, Planet Word is a voice-activated museum (the world’s first!), and our interactive galleries and exhibits bring words and language to life in all sorts of fun ways.*
 
 
     ## Venue
@@ -69,9 +69,12 @@ speaker:
       living in Washington, DC.
 
 
-      [Website](www.leahchamberg.com)
+      [Website](https://www.leahchamberg.com/)
 preparation: >-
   ## In-Person Guidance
+
+
+  We recommend that everyone wear a mask when they aren’t eating or drinking.
 
 
   ### COVID-19 is hard to predict: What happens if in-person events need to be canceled?
@@ -82,15 +85,13 @@ a11y: >-
   ## Accessibility
 
 
-  A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
+  * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
 
 
-  The main entrance on K street is accessible with a ramp.
+  * The main entrance on K street is accessible with a ramp.
 
 
-  There is elevator access throughout the museum and to the event space. 
-
-
+  * There is elevator access throughout the museum and to the event space. 
 
 
 
