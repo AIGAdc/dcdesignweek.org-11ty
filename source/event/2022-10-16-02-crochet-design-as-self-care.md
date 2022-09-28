@@ -10,7 +10,7 @@ hero:
     - ticket:
         label: $22 — Members
         showButton: true
-        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452150%26redirect_source%3Deventbrite_register
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fcrochet-design-as-self-care%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
@@ -36,6 +36,20 @@ eventDetails:
     After the demonstration, you’ll have time to get cozy and practice making your own square with the support of Kristen and your classmates.
 
 
+    **Attendees will receive a kit including the following items:**
+
+
+    * 1 5mm crochet hook
+    * 1 skein of #4 Worsted weight yarn
+    * A tape measure
+    * Stitch markers
+    * Scissors
+    
+    
+    Light refreshments will be provided.
+
+    
+    *This event was made possible by our sponsors [Eaton DC](https://www.eatonworkshop.com/en-us/washington-dc/) and local fiber shop [Sweet Pea Fiber](https://sweetpeafiber.com/).*
 
 
     ## Venue
@@ -63,7 +77,7 @@ speaker:
       ancestral knowledge and power and nurture the planet.
 
 
-      [Website](www.kristpattern.com)
+      [Website](https://www.kristpattern.com/)
 preparation: >-
   ## How to prepare
 
