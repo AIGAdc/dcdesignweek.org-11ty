@@ -64,6 +64,9 @@ eventDetails:
 
 
     Venue info: 325 Morse St NE Suite 4, Washington, DC 20002
+speaker:
+  - name: Shakeelah Sutton
+    title: Yoga Teacher and founder of the Calm/Cool Collective
 preparation: >-
   ## Preparation
 
@@ -102,11 +105,11 @@ a11y: >-
 
 
   * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
-  
+
   * The venue is ADA accessible.
-  
+
   * Accessible and gender-neutral bathrooms are available at the location.
-  
+
   * Shop Made in DC – Union Market is accessible via public transportation. The closest metro station is NoMa-Gallaudet U New York Ave. Parking options are limited.
 
 
