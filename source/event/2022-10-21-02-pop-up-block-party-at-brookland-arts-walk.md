@@ -93,5 +93,5 @@ a11y: >-
   We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
 
 
-  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
 ---
