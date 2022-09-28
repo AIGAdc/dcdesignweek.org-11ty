@@ -1327,23 +1327,6 @@ h3,
   font-weight: 400;
 }
 
-.menu {
-  border-radius: 1000px;
-}
-
-.menu .houdini-toggle {
-  align-items: center;
-  grid-gap: var(--size-8);
-  border: solid 2px transparent;
-  display: flex;
-  width: 100%;
-  font-size: inherit;
-  font-weight: 700;
-  text-align: center;
-  border-radius: 1000px;
-  padding: var(--size-8) var(--size-24);
-}
-
 @media screen and (min-width: 48rem) {
   .mambo-anchor {
     display: inline-block;
@@ -2038,8 +2021,6 @@ input:checked + .slider:before {
 .mambo-header {
   border-bottom: solid 1px currentColor;
   padding: var(--size-16);
-  position: sticky;
-  top: 0;
   z-index: var(--layer-3);
 }
 
@@ -2051,11 +2032,14 @@ input:checked + .slider:before {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  grid-gap: var(--size-24);
 }
 
-.mambo-header .links {
+.mambo-header .links .list {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   grid-gap: var(--size-16);
 }
 

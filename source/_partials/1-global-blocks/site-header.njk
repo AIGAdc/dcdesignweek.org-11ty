@@ -1,5 +1,5 @@
 <!-- Component: Header -->
-<header class="[ mambo-header ][ sticky ]" data-color="{{ pageSettings.headerColorCombo }}">
+<header class="[ mambo-header ]" data-color="{{ pageSettings.headerColorCombo }}">
   <div class="[ container container-default ]">
     <a class="[ mambo-anchor skip-link ]" data-color="{{ pageSettings.headerColorCombo }}" href="#content">
       Skip to Main Content
@@ -11,7 +11,7 @@
     </div>
     <div class="[ links ]">
       <nav>
-        <ul class="[ list desktop ]">
+        <ul class="[ list ]">
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
           </li>
@@ -35,30 +35,6 @@
       {% if layout == "single-event" %}
         {% include '1-global-blocks/pagination-events.njk' %}
       {% endif %}
-    </div>
-    <div class="list mobile">
-      <div class="[ menu ]" data-color="{{ pageSettings.mobileButtonColorCombo }}" data-houdini-toggle="mobile">
-        Menu
-      </div>
-      <nav data-houdini-menu id="mobile">
-        <ul class="[ list ]">
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/about/' in page.url }}" href="/about/">About</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/committee/' in page.url }}" href="/committee/">Committee</a>
-          </li>
-          <li>
-            <a class="[ mambo-anchor ]{{ '[ active ]' if '/faq/' in page.url }}" href="/faq/">FAQ</a>
-          </li>
-        </ul>
-      </nav>
     </div>
   </div>
 </header>

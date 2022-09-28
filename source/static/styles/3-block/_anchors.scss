@@ -30,23 +30,6 @@
   font-weight: 400;
 }
 
-.menu {
-  border-radius: 1000px;
-}
-
-.menu .houdini-toggle {
-  align-items: center;
-  grid-gap: var(--size-8);
-  border: solid 2px transparent;
-  display: flex;
-  width: 100%;
-  font-size: inherit;
-  font-weight: 700;
-  text-align: center;
-  border-radius: 1000px;
-  padding: var(--size-8) var(--size-24);
-}
-
 // 640px
 @media screen and (min-width:48rem) {
   .mambo-anchor {
