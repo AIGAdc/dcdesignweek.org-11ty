@@ -11,12 +11,12 @@ hero:
     - ticket:
         showButton: true
         label: Free — Members
-        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2F%3Fpost_type%3Dikit_event%26p%3D452157%26redirect_source%3Deventbrite_register
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit%5C_national%5C_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdesign-for-resilience-lightning-talks-to-spark-ideas-conversation-and-ch%2F%3Fredirect%5C_source%3Deventbrite%5C_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         url: Free — Non-members
-        label: https://www.eventbrite.com/e/design-for-resilience-lightning-talks-to-spark-ideas-conversation-and-ch-tickets-425451566087
+        label: https://www.eventbrite.com/e/design-for-resilience-lightning-talks-to-spark-conversation-change-tickets-425451566087
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/img-dcdw-2021.png
@@ -38,6 +38,8 @@ eventDetails:
     Service Design DC is the home base of the Service Design Network DC chapter, with more than 1,500 designers and design leaders dedicated to advancing the practice of service design and empowering each other  through learning, connection, and inspiration. Join us at [meetup.com/ServiceDesignDC](http://meetup.com/ServiceDesignDC).
 
 
+    *This event was put together in partnership with [Service Design DC](https://www.meetup.com/ServiceDesignDC/).*
+
     ## Venue
 
     Venue info: Zoom
@@ -58,7 +60,9 @@ platform: >-
 
   * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
 
-  * This event will be recorded unless technical issues occur. The recordings will be shared in the AIGA DC recordings archive for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
+  * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
+
+  * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
 
 
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
