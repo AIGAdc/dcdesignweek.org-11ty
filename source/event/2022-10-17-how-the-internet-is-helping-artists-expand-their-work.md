@@ -39,13 +39,16 @@ eventDetails:
     Light refreshments will be provided.
 
 
+    *This event was made possible by our sponsors [Mindspace DC](https://hs.mindspace.me/bat-dc?utm_network=g&utm_device=c&utm_position=&campaignid=70124000000auHb&utm_source=Google&utm_medium=cpc&utm_campaign=MS-Search-Brand-DC&utm_term=mindspace%20dc&utm_content=345534052544&hsa_mt=e&hsa_cam=1083739676&hsa_grp=53052966215&hsa_acc=3379467025&hsa_net=adwords&hsa_ver=3&hsa_ad=345534052544&hsa_tgt=kwd-424353437213&hsa_kw=mindspace%20dc&hsa_src=g&gclid=Cj0KCQjw1bqZBhDXARIsANTjCPILL_hiYsCx6ZRGNE0uc__tQHvPu9WJo0XCEwATdPy2ELOoMovjubAaArBxEALw_wcB) and [HAWJ Studio](https://www.phimher.com/).*
+
+
     ## Venue
 
 
     Venue name: Mindspace DC 
 
 
-    Venue info: 1301 K St NW Suite 300W, Washington, DC 20005
+    Venue info: 1301 K St NW Suite, 300W, Washington, DC 20005
   filterDate: Monday, October 17
   filterLocation: In-Person
   filterTime: Evening
@@ -68,7 +71,7 @@ speaker:
   - name: Nicole Ghray
     pronouns: she | her | they
     title: Artist/designer
-    bio: Nicole is a designer living, loving, and working DC.
+    bio: Nicole is a designer living, loving, and working in DC.
   - name: Trap Bob
     title: Multidisciplinary artist
     pronouns: she | her | hers
@@ -88,9 +91,7 @@ preparation: >-
   * Guests must bring a valid ID to check in at the building lobby.
 
 
-
-
-  We recommend that attendees wear masks when not eating or drinking.
+  * We recommend that attendees wear masks when not eating or drinking.
 
 
   ## COVID-19 is hard to predict: What happens if in-person events need to be canceled?
