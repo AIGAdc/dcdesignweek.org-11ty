@@ -331,6 +331,16 @@ button.mambo-anchor.action {
   position: relative;
 }
 
+.mambo-anchor.action .houdini-toggle {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
+  text-align: center;
+  position: relative;
+}
+
 .mailchimp form > * {
   display: grid;
   grid-gap: 1rem;
@@ -1304,15 +1314,6 @@ h3,
   padding: var(--size-8) var(--size-24);
 }
 
-.mambo-anchor.ghost {
-  border: solid 2px currentColor;
-  background-color: transparent;
-}
-
-.mambo-anchor.underline {
-  text-decoration: underline;
-}
-
 .mambo-anchor.stacked {
   display: flex;
   flex-direction: column;
@@ -1324,6 +1325,23 @@ h3,
 
 .mambo-anchor.stacked span {
   font-weight: 400;
+}
+
+.menu {
+  border-radius: 1000px;
+}
+
+.menu .houdini-toggle {
+  align-items: center;
+  grid-gap: var(--size-8);
+  border: solid 2px transparent;
+  display: flex;
+  width: 100%;
+  font-size: inherit;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 1000px;
+  padding: var(--size-8) var(--size-24);
 }
 
 @media screen and (min-width: 48rem) {
@@ -2042,12 +2060,15 @@ input:checked + .slider:before {
 }
 
 .mambo-header a {
-  text-decoration: none;
   display: block;
+  font-size: var(--size-18);
+  text-decoration: none;
 }
 
-.mambo-header .mambo-anchor {
-  font-size: var(--size-18);
+.mambo-header a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
 }
 
 .skip-link {

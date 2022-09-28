@@ -51,3 +51,13 @@ button.mambo-anchor.action {
   text-align: center;
   position: relative;
 }
+
+.mambo-anchor.action .houdini-toggle {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
+  text-align: center;
+  position: relative;
+}

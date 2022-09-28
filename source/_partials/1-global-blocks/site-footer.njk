@@ -45,7 +45,24 @@
   var disclosure = new Houdini('[data-houdini-eventsMenu]');
 
   // Houdini: Mobile Menu
-  var disclosure = new Houdini('[data-houdini-menu]');
+  var disclosure = new Houdini('[data-houdini-menu]', {
+    // Content
+    contentClass: 'houdini',
+    expanded: false,
+    expandedClass: 'is-expanded',
+
+    // Accordion
+    isAccordion: true, // If true, treat as an accordion
+
+    // Icons
+    icon: -1, // If true, include an expand/collapse icon
+    iconClass: 'question-icon', // The class to use for the expand/collapse icon
+    iconAttribute: 'question-icon', // The data attribute to use for the expand/collapse icon
+    iconShow: '<svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 0C10.0514 0 9.60345 0.167411 9.26221 0.502232L0.512669 9.07366C-0.17089 9.7433 -0.17089 10.8281 0.512669 11.4978C1.19623 12.1674 2.30359 12.1674 2.98715 11.4978L10.4992 4.13572L18.0129 11.4964C18.6964 12.1661 19.8038 12.1661 20.4873 11.4964C21.1709 10.8268 21.1709 9.74196 20.4873 9.07232L11.7378 0.500893C11.396 0.166072 10.9476 0 10.4992 0Z" fill="#482D38"/></svg>',
+    /* The icon to expand an accordion */
+    iconHide: '<svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 12C10.0514 12 9.60345 11.8326 9.26221 11.4978L0.512669 2.92634C-0.17089 2.2567 -0.17089 1.17188 0.512669 0.502232C1.19623 -0.167411 2.30359 -0.167411 2.98715 0.502232L10.4992 7.86428L18.0129 0.503571C18.6964 -0.166072 19.8038 -0.166072 20.4873 0.503571C21.1709 1.17321 21.1709 2.25804 20.4873 2.92768L11.7378 11.4991C11.396 11.8339 10.9476 12 10.4992 12Z" fill="#482D38"/></svg>',
+    /* The icon to collapse an accordion */
+  });
 
   // TabIndex Script
   (function ($) {
