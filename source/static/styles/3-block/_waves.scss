@@ -22,8 +22,12 @@
 .layout-single-event {}
 
 .wave {
-  margin-bottom: 2px;
+  margin-bottom: -4px;
   overflow: hidden;
+}
+
+.wave.left {
+  transform: scaleX(-1);
 }
 
 .wave.has-border svg path {

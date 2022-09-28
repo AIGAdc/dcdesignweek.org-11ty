@@ -4,16 +4,12 @@
 
 @media screen and (min-width: 40rem) {
   .mambo-section {
-    padding: var(--size-40) var(--size-24);
+    padding: var(--size-48) var(--size-24);
   }
 }
 
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-56) var(--size-56) var(--size-64) var(--size-56);
+    padding: var(--size-64);
   }
-}
-
-.wave.left {
-  transform: scaleX(-1);
 }

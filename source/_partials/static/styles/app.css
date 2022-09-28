@@ -1236,18 +1236,14 @@ h3,
 
 @media screen and (min-width: 40rem) {
   .mambo-section {
-    padding: var(--size-40) var(--size-24);
+    padding: var(--size-48) var(--size-24);
   }
 }
 @media screen and (min-width: 85.375rem) {
   .mambo-section {
-    padding: var(--size-56) var(--size-56) var(--size-64) var(--size-56);
+    padding: var(--size-64);
   }
 }
-.wave.left {
-  transform: scaleX(-1);
-}
-
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
@@ -1738,7 +1734,7 @@ input:checked + .slider:before {
 .mambo-hero {
   display: grid;
   place-content: center;
-  min-height: 75vh;
+  min-height: 90vh;
   position: relative;
   z-index: 100;
   overflow: hidden;
@@ -2042,12 +2038,12 @@ input:checked + .slider:before {
 .mambo-header > div {
   align-items: center;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
   grid-gap: var(--size-24);
 }
 
-.mambo-header .links .list {
+.mambo-header nav ul {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -2129,8 +2125,12 @@ input:checked + .slider:before {
 }
 
 .wave {
-  margin-bottom: 2px;
+  margin-bottom: -4px;
   overflow: hidden;
+}
+
+.wave.left {
+  transform: scaleX(-1);
 }
 
 .wave.has-border svg path {
