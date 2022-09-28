@@ -13,6 +13,9 @@
       <nav>
         <ul class="[ list desktop ]">
           <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
+          </li>
+          <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
           </li>
           <li>
@@ -39,6 +42,9 @@
       </div>
       <nav data-houdini-menu id="mobile">
         <ul class="[ list ]">
+          <li>
+            <a class="[ mambo-anchor ]{{ '[ active ]' if page.url == '/' }}" href="/">Home</a>
+          </li>
           <li>
             <a class="[ mambo-anchor ]{{ '[ active ]' if '/events/' in page.url }}" href="/events/">Events</a>
           </li>
