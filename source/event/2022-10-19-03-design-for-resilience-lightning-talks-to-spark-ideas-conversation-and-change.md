@@ -24,7 +24,7 @@ eventDetails:
   startDate: 2022-10-19T22:30:27.760Z
   endDate: 2022-10-20T00:15:27.775Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Service Design DC is back for the third year of its popular DC Design Week lightning talks! Join us for a series of cross-disciplinary, rapid-fire presentations that will showcase unique perspectives on the notion of resilience — and how design inherently fosters quicker, more successful recovery from adversity for individuals and communities. 

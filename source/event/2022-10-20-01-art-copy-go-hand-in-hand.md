@@ -23,7 +23,7 @@ eventDetails:
   startDate: 2022-10-20T13:00:35.993Z
   endDate: 2022-10-20T14:15:36.005Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Does your work sound as good as it looks? Creative Director Jerome Fredericks and Senior Copywriter Leah Chamberg will lead fellow creatives on an exploration of how design and words come together to make meaningful, effective work. 

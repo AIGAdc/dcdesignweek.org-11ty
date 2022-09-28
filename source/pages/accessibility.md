@@ -16,7 +16,7 @@ hero:
     our ideal.**"
 sections:
   - section:
-      showWaveTop: true
+      showWaveTop: false
       waveTopFill: var(--dcdw-2022-cream-primary) 
       waveTopBackground: var(--dcdw-2022-yellow-primary)
       showWaveBottom: true
@@ -87,7 +87,7 @@ sections:
           * If you’re not an AIGA member, you can [register for a membership on our website](https://www.aiga.org/membership-community/aiga-membership). We’re a 100% non-profit entity, so this goes a long way to keeping us afloat. 
           * AIGA National is currently auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone. If you have difficulties registering or accessing the recordings in its current state, please let us know at [dcdw@dc.aiga.org](mailto:dcdw@dc.aiga.org).
           * We can’t guarantee that all of our events will be able to share recordings as some talks may contain classified information. If we’re unable to do so, we’ll disclose that ahead of time in each of the event’s descriptions.
-        * Volunteers at every event monitoring chats and conversations for [compliance to AIGA’s code of conduct](https://dc.aiga.org/events/code-of-conduct/).
+        * Volunteers at every event monitoring chats and conversations for [compliance to AIGA’s Code of conduct](https://dc.aiga.org/events/code-of-conduct/).
 
         * When possible, we’ll share materials and presentations for an event prior to it starting. Follow along comfortably with your own technology and at your own pace.
 

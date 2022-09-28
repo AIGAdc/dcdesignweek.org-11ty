@@ -33,7 +33,7 @@ eventDetails:
   location:
     - name: In-Person
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Join Shakeelah Sutton, yoga teacher and founder of the calm/cool collective, in co-creating a yoga and relaxation experience designed to meet your specific needs in the moment. 

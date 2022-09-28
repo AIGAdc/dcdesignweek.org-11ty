@@ -24,7 +24,7 @@ eventDetails:
   startDate: 2022-10-19T13:00:02.369Z
   endDate: 2022-10-19T14:10:02.382Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Interested in working for yourself, but not by yourself? Wondering what it's like building a sustainable freelance business focused on projects you care about? Join Johanna Ostrich and Alex Ording as they share a heartwarming case study: redesigning the Petfinder Foundation website with an all-freelancer team. 

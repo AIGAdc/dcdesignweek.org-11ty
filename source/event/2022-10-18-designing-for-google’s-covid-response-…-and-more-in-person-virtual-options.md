@@ -12,7 +12,7 @@ eventDetails:
     - name: Hybrid
       street: ""
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Google responds to crises around the world daily — so how did the team bring years of experimentation and research to design public-facing tools for the biggest crisis of our lifetimes, COVID-19? 

@@ -24,7 +24,7 @@ eventDetails:
   startDate: 2022-10-18T23:30:29.959Z
   endDate: 2022-10-19T01:00:29.972Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Resilience is something of which to be proud, but let’s be real — it isn’t easy and can be exhausting. Certified Life Coach and Meditation/Movement Artist Lauren DeVera will lead us through reflective questioning, transformational journaling and interactive activities to help us take up space with confidence, all while protecting our peace! 

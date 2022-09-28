@@ -25,7 +25,7 @@ eventDetails:
   startDate: 2022-10-21T14:00:48.472Z
   endDate: 2022-10-21T16:00:48.488Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Over the last two years, as people were forced more than ever before to retreat from community spaces and onto computers, they began searching for new ways to engage safely with the world beyond screens. Through this rewriting of spacial engagement, many found solace and inspiration in the beauty  and peace of the natural world. From evening walks to backyard birding to camping, fishing and hiking, engagement with the outdoors has reached new heights. 

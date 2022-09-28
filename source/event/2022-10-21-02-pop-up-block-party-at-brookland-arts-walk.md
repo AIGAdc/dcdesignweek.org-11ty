@@ -23,7 +23,7 @@ eventDetails:
   startDate: 2022-10-21T22:00:07.789Z
   endDate: 2022-10-22T02:00:07.803Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     DC Design Week’s signature pop-up shop is back in person at the Brookland Arts Walk this year! Join us for a block party hosted with [Terratorie Maps + Goods](https://terratorie.com/?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3dMMx0vUqgZmQuY2ujCxd-A0xQcGnAoFFdp53l66QuIVQ0tsh3gX6waAm6WEALw_wcB) and sponsored by [Taoti Creative](https://taoti.com/), featuring artworks from local artists and on-site vendors. 

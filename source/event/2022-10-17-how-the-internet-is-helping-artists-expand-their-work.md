@@ -21,7 +21,7 @@ eventDetails:
   startDate: 2022-10-17T23:00:35.514Z
   endDate: 2022-10-18T00:30:35.526Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Join this roundtable discussion with internet artists Trap Bob, Celine Arias, Dominick Raburn, and Nicole Ghray and moderated by Yngrid Chacon, as they discuss how the internet allows their art to reach and connect intersectional audiences.

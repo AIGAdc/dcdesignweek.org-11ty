@@ -28,7 +28,7 @@ eventDetails:
   filterTime: Daytime
   filterType: Workshop
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Visions of the future often involve sweeping predictions about advances in technology or space travel. But what’s the future of our neighborhood street? Or our relationships in the community?

@@ -23,7 +23,7 @@ eventDetails:
   startDate: 2022-10-19T16:00:54.559Z
   endDate: 2022-10-19T17:00:54.576Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Breathe your way through blocks and resistance into your creative flow! This session will open with a calming breathing exercise, followed by writing/journaling. The centerpiece of the session is transformational breathwork, which both heals us and enhances our creativity. Once we are in a relaxed, open state, a guided meditation will stimulate our creative energy. We will then have time to focus that energy on a personal project.

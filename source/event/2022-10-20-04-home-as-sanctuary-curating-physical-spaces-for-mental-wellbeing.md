@@ -21,7 +21,7 @@ eventDetails:
   startDate: 2022-10-20T23:00:18.060Z
   endDate: 2022-10-21T01:00:18.074Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Join this two-part interactive workshop to understand how interior space affects every aspect of your wellbeing, and learn strategies to promote wellness in your home and everyday life.

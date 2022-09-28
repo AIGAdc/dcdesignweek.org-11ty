@@ -23,7 +23,7 @@ eventDetails:
   startDate: 2022-10-20T16:00:13.995Z
   endDate: 2022-10-20T17:15:14.012Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Since the beginning of time, art has served as a form of expression that has a powerful capacity to visually communicate and reveal new perspectives and narratives. Sometimes art can be open for interpretation, while other times it can be seen as more direct and explicit. Because of the naturally expressive nature of art, artists and creatives are also often activists, devoting their talents towards bigger social causes and becoming advocates for change. From fighting for AIDS awareness to protesting government censorship, artists and creatives have always been at the forefront of social change movements throughout history. Their craft emboldening the message and amplifying voices of change through visual and emotional cues.

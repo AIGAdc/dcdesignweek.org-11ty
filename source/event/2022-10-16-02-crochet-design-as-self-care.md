@@ -24,7 +24,7 @@ eventDetails:
   startDate: 2022-10-16T22:00:03.122Z
   endDate: 2022-10-17T00:00:03.133Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Crochet artist Kristen Jeffers believes that the more people know about sustainable fiber design, the better. So even if you’ve tried and failed to crochet something before, she invites you to join her for an interactive workshop and crocheting session. 

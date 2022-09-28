@@ -24,7 +24,7 @@ eventDetails:
   startDate: 2022-10-17T16:00:55.800Z
   endDate: 2022-10-17T17:00:55.811Z
   description: >-
-    ## Description and Details
+    ## Description and details
 
 
     Join the DC Public Library and the design team behind the community-centered permanent exhibit installed as a part of the modernization of the Martin Luther King Jr. Memorial Library.
