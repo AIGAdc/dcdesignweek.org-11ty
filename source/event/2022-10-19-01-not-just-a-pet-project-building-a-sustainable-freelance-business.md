@@ -93,7 +93,7 @@ platform: >-
   * You can [ask the speaker questions ahead of time (Google form](https://forms.gle/rQLZikFgE2QfYgCn9)), which may be answered during the event.
 
 
-  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](http://localhost:8080/faq/).
+  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
 a11y: >-
   ## Accessibility
 

@@ -60,12 +60,12 @@ eventDetails:
 
 
 
-    Feel free to [submit any questions you may have for the panelists (Google Form)](https://forms.gle/ABPyxf56jZjdpAFX7) ahead of the event. 
+    Feel free to [submit any questions you may have for the panelists (Google Form)](https://docs.google.com/forms/d/e/1FAIpQLSetwNYS_hv6fSAz5qjVBgehyW63v02UlCST01WL_LiofdvZvA/viewform) ahead of the event. 
 
 
 
 
-    This event was put together in partnership with AIGA Baltimore and Fenton.
+    *This event was put together in partnership with [AIGA Baltimore](https://baltimore.aiga.org/) and [Fenton](https://fenton.com/).*
   location:
     - name: Zoom
   filterDate: Tuesday, October 18
@@ -83,12 +83,12 @@ platform: >-
 
   * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
 
-  * This event will be recorded unless technical issues occur. The recordings will be shared in the AIGA DC recordings archive for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
+  * This event will be recorded unless technical issues occur. The recordings will be shared in the [AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
 
-  * Feel free to [submit any questions you may have for the panelists (Google Form)](https://forms.gle/ABPyxf56jZjdpAFX7) ahead of the event. You can also ask questions live during the event using the Q&A feature on Zoom. 
+  * Feel free to [submit any questions you may have for the panelists (Google Form)](https://docs.google.com/forms/d/e/1FAIpQLSetwNYS_hv6fSAz5qjVBgehyW63v02UlCST01WL_LiofdvZvA/viewform) ahead of the event. You can also ask questions live during the event using the Q&A feature on Zoom. 
 
 
-  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](http://localhost:8080/faq/).
+  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
 a11y: >-
   ## Accessibility
 

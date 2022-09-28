@@ -56,7 +56,7 @@ platform: >-
   * This event will be recorded unless technical issues occur. The recordings will be shared in the AIGA DC recordings archive for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
 
 
-  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](http://localhost:8080/faq/).
+  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
 a11y: >-
   ## Accessibility
 
