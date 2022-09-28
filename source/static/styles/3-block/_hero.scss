@@ -260,7 +260,11 @@
   }
 
   .home-page-blob {
-    transform: translate(-300px, -150px);
+    transform: translate(-300px, -190px);
+  }
+
+  .home-page-blob svg {
+    width: 1100px;
   }
 }
 
