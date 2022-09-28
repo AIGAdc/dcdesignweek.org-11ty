@@ -22,7 +22,7 @@ hero:
     image: /static/images/img-dcdw-2021.png
 eventDetails:
   startDate: 2022-10-19T13:00:02.369Z
-  endDate: 2022-10-19T14:10:02.382Z
+  endDate: 2022-10-19T14:00:02.382Z
   description: >-
     ## Description and details
 
