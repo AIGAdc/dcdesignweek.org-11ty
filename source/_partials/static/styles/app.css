@@ -953,6 +953,8 @@ a {
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
   transition: opacity var(--timing-default) ease-in;
+  scroll-margin-top: 2rem;
+  scroll-margin-bottom: 2rem;
 }
 
 a:focus,
@@ -1807,15 +1809,8 @@ h3,
 }
 
 .controls-pagination {
-  background-color: var(--dcdw-2022-pink-tertiary);
-  border-radius: 25% 75% 18% 82%/66% 30% 70% 34%;
-  padding: var(--size-24);
   text-align: left;
   z-index: var(--layer-4);
-}
-
-.controls-pagination.desktop {
-  display: none;
 }
 
 .controls-pagination.mobile {
@@ -1823,8 +1818,6 @@ h3,
   display: flex;
   grid-gap: var(--size-16);
   margin-bottom: var(--size-24);
-  position: sticky;
-  top: 0.5rem;
 }
 
 .controls-pagination.mobile h2 {
@@ -1838,11 +1831,7 @@ h3,
 
 @media screen and (min-width: 64rem) {
   .controls-pagination {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 0;
     text-align: left;
-    z-index: var(--layer-4);
   }
   .controls-pagination.desktop {
     display: block;

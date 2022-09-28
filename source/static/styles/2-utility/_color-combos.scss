@@ -105,6 +105,8 @@ a {
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
   transition: opacity var(--timing-default) ease-in;
+  scroll-margin-top: 2rem;
+  scroll-margin-bottom: 2rem;
 }
 
 a:focus,

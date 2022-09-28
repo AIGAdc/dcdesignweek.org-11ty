@@ -11,7 +11,7 @@
 
       {% for control in filters.filterEvents.day %}
         <div class="[ mambo-input-checkbox ]">
-          <label for="{{ control.label | lower | slug }}">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
             <input class="{% if control.occurred == true %} occurred {% endif %} {% if control.default == true %} selected {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
@@ -30,7 +30,7 @@
     <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventLocation">
       {% for control in filters.filterEvents.location %}
         <div class="[ mambo-input-checkbox ]">
-          <label for="{{ control.label | lower | slug }}">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
             <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
@@ -49,7 +49,7 @@
     <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventTime">
       {% for control in filters.filterEvents.time %}
         <div class="[ mambo-input-checkbox ]">
-          <label for="{{ control.label | lower | slug }}">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
             <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
@@ -68,7 +68,7 @@
     <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventType">
       {% for control in filters.filterEvents.type %}
         <div class="[ mambo-input-checkbox ]">
-          <label for="{{ control.label | lower | slug }}">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
             <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
             {{ control.label }}
           </label>
@@ -86,13 +86,13 @@
     <!-- Hidden Content -->
     <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventStatus">
       <div class="[ mambo-input-checkbox ]">
-        <label for="{{ control.label | lower | slug }}">
+        <label id="filterInput" for="{{ control.label | lower | slug }}">
           <input class="selected" type="checkbox" id="all" name="event-date" value=".mix:not(.past-event)">
             Hide Past Events
           </label>
       </div>
       <div class="[ mambo-input-checkbox ]">
-        <label for="{{ control.label | lower | slug }}">
+        <label id="filterInput" for="{{ control.label | lower | slug }}">
           <input class="selected" type="checkbox" id="all" name="event-date" value=".mix:not(.sold-out)">
             Hide Sold Out
           </label>

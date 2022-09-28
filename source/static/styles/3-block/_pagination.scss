@@ -33,24 +33,17 @@
 }
 
 .controls-pagination {
-  background-color: var(--dcdw-2022-pink-tertiary);
-  border-radius: 25% 75% 18% 82% / 66% 30% 70% 34%;
-  padding: var(--size-24);
   text-align: left;
   z-index: var(--layer-4);
 }
 
-.controls-pagination.desktop {
-  display: none;
-}
+.controls-pagination.desktop {}
 
 .controls-pagination.mobile {
   align-items: center;
   display: flex;
   grid-gap: var(--size-16);
   margin-bottom: var(--size-24);
-  position: sticky;
-  top: 0.5rem;
 }
 
 .controls-pagination.mobile h2 {
@@ -64,11 +57,7 @@
 
 @media screen and (min-width: 64rem) {
   .controls-pagination {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 0;
     text-align: left;
-    z-index: var(--layer-4);
   }
 
   .controls-pagination.desktop {
