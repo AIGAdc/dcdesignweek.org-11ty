@@ -1,89 +1,73 @@
 sponsor:
   # Tier One
   - image: "/static/images/sponsors/Logo_Taoti.png"
-    imageAlt: "Sponsor Alt Text"
     name: Taoti
     tier: Tier One
     websiteURL1: https://taoti.com/
-    websiteAriaLabel1: Sponsor's Website
   #Tier Two
   - image: "/static/images/sponsors/Logo_GoodJuju.png"
-    imageAlt: "Sponsor Alt Text"
     name: Good Juju
     tier: Tier Two
     websiteURL1: https://www.goodjuju.com/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_Eaton.png"
-    imageAlt: "Sponsor Alt Text"
     name: Eaton
     tier: Tier Two
     websiteURL1: https://www.eatonworkshop.com/en-us/washington-dc/
-    websiteAriaLabel1: Sponsor's Website
+  - image: "/static/images/sponsors/Logo_shopMadeDC.png"
+    name: Eaton
+    tier: Tier Two
+    websiteURL1: https://www.shopmadeindc.com/
   - image: "/static/images/sponsors/Logo_Artechouse.png"
-    imageAlt: "Sponsor Alt Text"
     name: Artechouse
     tier: Tier Two
     websiteURL1: https://www.artechouse.com/location/dc/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_HAWJStudio.png"
-    imageAlt: "Sponsor Alt Text"
     name: HAWJ Studio
     tier: Tier Two
     websiteURL1: https://www.phimher.com/
-    websiteAriaLabel1: Sponsor's Website
+  - image: "/static/images/sponsors/Logo_ElizaMott.png"
+    name: Eliza Mott
+    tier: Tier Two
+    websiteURL1: https://www.elizalmott.com/
+  - image: "/static/images/sponsors/Logo_PearlSpa.png"
+    name: Pearl Spa
+    tier: Tier Two
+    websiteURL1: https://www.thepearlspa.com/
   - image: "/static/images/sponsors/Logo_YogaHeights.png"
-    imageAlt: "Sponsor Alt Text"
     name: Yoga Heights
     tier: Tier Two
     websiteURL1: https://www.yogaheightsdc.com/
-    websiteAriaLabel1: Sponsor's Website
   #Tier Three
   - image: "/static/images/sponsors/Logo_CustomInk.png"
-    imageAlt: "Sponsor Alt Text"
     name: Custom Ink
     tier: Tier Three
     websiteURL1: https://www.customink.com/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_DCPublicLibraries.png"
-    imageAlt: "Sponsor Alt Text"
     name: DC Public Library
     tier: Tier Three
     websiteURL1: https://www.dclibrary.org/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_PlanetWord.png"
-    imageAlt: "Sponsor Alt Text"
     name: Planet Word
     tier: Tier Three
     websiteURL1: https://planetwordmuseum.org/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_Mindspace.png"
-    imageAlt: "Sponsor Alt Text"
     name: Mindspace
     tier: Tier Three
     websiteURL1: https://www.mindspace.me/c/dc
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_BoundlessLife.png"
-    imageAlt: "Sponsor Alt Text"
     name: The Boundless Life
     tier: Tier Three
     websiteURL1: https://www.theboundlesslife.net/
-    websiteAriaLabel1: Sponsor's Website
   # Tier Four
   - image: "/static/images/sponsors/Logo_SweetPeaFiber.png"
-    imageAlt: "Sponsor Alt Text"
     name: Sweetpea Fiber
     tier: Tier Four
     websiteURL1: https://sweetpeafiber.com/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_Stickermule.png"
-    imageAlt: "Sponsor Alt Text"
     name: Stickermule
     tier: Tier Four
     websiteURL1: https://www.stickermule.com/
-    websiteAriaLabel1: Sponsor's Website
   - image: "/static/images/sponsors/Logo_LetsRoam.png"
-    imageAlt: "Sponsor Alt Text"
     name: Lets Roam
     tier: Tier Four
     websiteURL1: https://www.letsroam.com/scavenger_hunt/Washington_DC_Scavenger_Hunt
-    websiteAriaLabel1: Sponsor's Website
