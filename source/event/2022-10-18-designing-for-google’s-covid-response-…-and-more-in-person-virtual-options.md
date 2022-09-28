@@ -17,6 +17,7 @@ eventDetails:
 
     Google responds to crises around the world daily — so how did the team bring years of experimentation and research to design public-facing tools for the biggest crisis of our lifetimes, COVID-19? 
 
+
     Google Social Search Lead UX designer Liora Yuklea will share her team’s work on efforts to fight misinformation with the high-traffic Covid Organized Search Results Page.
 
     Plus, get to know the UX designers and researchers newly working on Google Chrome, News, and Search in our DC office. 
@@ -31,14 +32,19 @@ eventDetails:
     In-person attendees: As you enjoy a pastry and coffee, you will have plenty of time for conversation, questions, and networking. Please arrive early to settle in.
 
 
+    *This event was put together in partnership with Google.*
+
+
     ## Venue
 
 
-    Virtual attendance via Google Meet; \
+    Virtual attendance via Google Meet
 
-    In-person attendance at Google’s DC office\
 
-    25 Massachusetts Ave NW, 9th floor, “The White Space”
+    In-person attendance at Google’s DC office
+
+
+    Venue info: 25 Massachusetts Ave NW, 9th floor, “The White Space”
 pageSettings:
   headerColorCombo: maroon-primary-on-yellow-primary
   mobileButtonColorCombo: cream-on-maroon-primary
@@ -91,7 +97,7 @@ speaker:
 
 
 
-      [Personal Website](http://timhykes.com)
+      [Website](http://timhykes.com)
     imageALT: ""
     image: ""
   - name: Dan Newman
@@ -132,24 +138,29 @@ preparation: >-
 
   For those who do not purchase an In-Person Attendance Add-On, the event will be streamed via Google Meet: 
 
-  In order to participate fully, plan to join via the Google Meet app on a computer, tablet, or mobile device with enough bandwidth to support viewing video.
-
+  * In order to participate fully, plan to join via the Google Meet app on a computer, tablet, or mobile device with enough bandwidth to support viewing video.
 
   * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
 
   * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on the [AIGA Membership website](https://www.aiga.org/membership-community/aiga-membership/).
 
-  * We unfortunately won’t be able to collect questions ahead of time. Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
-    You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
+
+  * We unfortunately won’t be able to collect questions ahead of time. 
+  
+  * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
+    
+    
+  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
 
 
 
   ## In-person safety guidance
 
 
-  In-person attendance will be at Google’s DC office:\
+  In-person attendance will be at Google’s DC office, for those who select an In-Person Add-On with their ticket:
 
-  25 Massachusetts Ave NW, 9th floor, “The White Space”
+
+  **25 Massachusetts Ave NW, 9th floor, “The White Space”**
 
 
   * All in-person attendees must provide proof of vaccination and collect a badge at the reception desk before being admitted.
