@@ -37,6 +37,11 @@ eventDetails:
 
 
     This session will be led by Jenn Koiter, a creativity coach and breathwork guide who believes that the world is better when more artists make more art — both for the artists themselves and for everyone else.
+
+
+    ## Venue
+
+    Venue info: Zoom
   location:
     - name: Zoom
   filterDate: Wednesday, October 19
@@ -65,7 +70,7 @@ platform: >-
 
   * Only those whose display name fully matches the name on our registration list will be admitted from the waiting room, to ensure only those who have registered for the event are able to attend — and to create space for intimate conversations.
 
-  * This event will be recorded unless technical issues occur. The recordings will be shared in the AIGA DC recordings archive for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
+  * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
 
 
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
