@@ -53,9 +53,7 @@ $gorko-colors: (
 ///
 $gorko-config: (
   "css-vars": ("color": $gorko-colors,
-    "font-family": ("sans": "'League Spartan', sans-serif",
-      "serif": "'Cormorant Garamond', serif",
-      "branded-dm-sans": "'DM Sans', sans-serif",
+    "font-family": ("branded-dm-sans": "'DM Sans', sans-serif",
       "branded-recursive": "'Recursive', sans-serif",
     ),
     "layer": ("0": -100,

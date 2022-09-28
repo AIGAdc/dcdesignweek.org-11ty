@@ -12,6 +12,10 @@
 }
 
 .pagination-events {
+  overflow: unset;
+}
+
+.pagination-events {
   border-bottom: unset;
 }
 
@@ -25,4 +29,11 @@
   flex-direction: column;
   grid-gap: var(--size-24);
   align-items: start;
+  text-align: left;
+}
+
+.pagination-events .mambo-anchor {
+  text-align: left !important;
+  width: 100%;
+  min-width: unset;
 }

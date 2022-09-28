@@ -1,28 +1,8 @@
-// About page
-.layout-page.event-about {}
-
-// Committee Page
-.layout-page.event-committee {}
-
-// Single Committee Page
-.layout-single-committee {}
-
-// faq Page
-.layout-page.event-faq {}
-
-// Home Page
-.layout-home-internal {}
-
-// Events Page
-.layout-page.event-events .wave-2022-brand-partner {
-  fill: var(--dcdw-2022-maroon-secondary) !important;
-}
-
-// Single Event Page
-.layout-single-event {}
-
 .wave {
-  margin-bottom: -2px;
+  position: relative;
+  margin-bottom: -8px;
+  z-index: var(--layer-2);
+  position: relative;
 }
 
 .wave.left {
@@ -31,12 +11,13 @@
 
 .wave.has-border svg path {
   stroke: var(--dcdw-2022-yellow-primary);
-  stroke-width: 1;
+  stroke-width: 4;
   paint-order: stroke;
 }
 
+// Page and Layout Overrides
 .layout-single-event .wave svg path {
   stroke: var(--dcdw-2022-yellow-primary);
-  stroke-width: 1;
+  stroke-width: 4;
   paint-order: stroke;
 }
