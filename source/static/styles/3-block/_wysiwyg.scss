@@ -6,3 +6,7 @@
 .wysiwyg li {
   margin-left: var(--size-16);
 }
+
+#details .wysiwyg h2:last-of-type {
+  margin-top: var(--size-40) !important;
+}

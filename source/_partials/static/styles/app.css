@@ -1808,4 +1808,8 @@ h3,
   margin-left: var(--size-16);
 }
 
+#details .wysiwyg h2:last-of-type {
+  margin-top: var(--size-40) !important;
+}
+
 /*# sourceMappingURL=app.css.map */
