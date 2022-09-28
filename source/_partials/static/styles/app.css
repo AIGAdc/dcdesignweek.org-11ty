@@ -309,6 +309,8 @@ svg {
   padding: 1rem;
   text-align: inherit;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 button.mambo-anchor.action {
@@ -955,6 +957,8 @@ h3,
   padding: var(--size-24);
   text-align: left;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mambo-expander .is-expanded .answer {

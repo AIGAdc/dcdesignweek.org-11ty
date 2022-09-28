@@ -32,6 +32,8 @@
   padding: var(--size-24);
   text-align: left;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mambo-expander .is-expanded .answer {
