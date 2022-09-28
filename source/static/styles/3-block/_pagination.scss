@@ -6,6 +6,10 @@
   overflow-x: auto;
 }
 
+.pagination-events {
+  border-bottom: unset;
+}
+
 .pagination-events .list {
   display: flex;
   align-items: center;

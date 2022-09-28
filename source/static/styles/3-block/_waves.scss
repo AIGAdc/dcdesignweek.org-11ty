@@ -22,8 +22,7 @@
 .layout-single-event {}
 
 .wave {
-  margin-bottom: -4px;
-  overflow: hidden;
+  margin-bottom: -2px;
 }
 
 .wave.left {
@@ -36,6 +35,8 @@
   paint-order: stroke;
 }
 
-.wave svg {
-  width: 100%;
+.layout-single-event .wave svg path {
+  stroke: var(--dcdw-2022-yellow-primary);
+  stroke-width: 1;
+  paint-order: stroke;
 }

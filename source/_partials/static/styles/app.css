@@ -1986,6 +1986,10 @@ input:checked + .slider:before {
   overflow-x: auto;
 }
 
+.pagination-events {
+  border-bottom: unset;
+}
+
 .pagination-events .list {
   display: flex;
   align-items: center;
@@ -2121,8 +2125,7 @@ input:checked + .slider:before {
 }
 
 .wave {
-  margin-bottom: -4px;
-  overflow: hidden;
+  margin-bottom: -2px;
 }
 
 .wave.left {
@@ -2135,8 +2138,10 @@ input:checked + .slider:before {
   paint-order: stroke;
 }
 
-.wave svg {
-  width: 100%;
+.layout-single-event .wave svg path {
+  stroke: var(--dcdw-2022-yellow-primary);
+  stroke-width: 1;
+  paint-order: stroke;
 }
 
 .wysiwyg > *:not(:first-child) {
