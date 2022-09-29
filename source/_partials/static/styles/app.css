@@ -491,11 +491,7 @@ button.mambo-anchor.action {
 }
 
 .mixitup-page-stats {
-  font-size: inherit;
-}
-
-.mixitup-page-stats-disabled {
-  display: none;
+  font-size: var(--size-20);
 }
 
 .flow > * + *:not(:first-child) {
@@ -1031,6 +1027,10 @@ h3,
     text-align: left;
   }
 }
+#events .mambo-anchor {
+  margin-top: var(--size-64);
+}
+
 .blob {
   border: solid 0.5rem var(--dcdw-2022-yellow-secondary);
   box-shadow: 0px 0px 0px 1rem var(--dcdw-2022-yellow-primary);
@@ -1345,15 +1345,6 @@ h3,
     z-index: 50;
   }
 }
-.mixitup-container-failed::after {
-  content: "No events found, please refine the selected options";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-}
-
 .filterEvents__reset button {
   text-align: center;
   padding: 0.625rem var(--size-24) !important;

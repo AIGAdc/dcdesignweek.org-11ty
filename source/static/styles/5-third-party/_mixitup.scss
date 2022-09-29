@@ -206,9 +206,5 @@
 }
 
 .mixitup-page-stats {
-  font-size: inherit;
-}
-
-.mixitup-page-stats-disabled {
-  display: none;
+  font-size: var(--size-20);
 }
