@@ -39,3 +39,16 @@ This repository is the home of the 11ty based version of DC Design Week.
 * [Flickr](https://www.flickr.com/photos/77867183@N00)
 * [Instagram](https://www.instagram.com/aigadc/)
 * [Twitter](https://twitter.com/aigadc)
+
+## 💐 Open Source Libraries Used in this Project
+
+* [11ty](https://www.11ty.dev/)
+* [Houdini](https://github.com/cferdinandi/houdini)
+* [MixItUp 3](https://www.kunkalabs.com/mixitup/)
+* [MixItUp 3: MultiFilter *](https://www.kunkalabs.com/mixitup-multifilter/)
+* [MixItUp 3: Pagination *](https://www.kunkalabs.com/mixitup-pagination/)
+* [Netlify CMS](https://www.netlifycms.org/)
+* [Piccalli: Modern Reset](https://piccalil.li/blog/a-modern-css-reset/)
+* [Skip Link Focus Fix](https://github.com/selfthinker/dokuwiki_template_writr/blob/master/js/skip-link-focus-fix.js)
+
+* '*' indicates paid library*
