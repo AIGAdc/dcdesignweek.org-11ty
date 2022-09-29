@@ -668,6 +668,17 @@ button.mambo-anchor.action {
     top: 32px;
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  .roots {
+    background-color: var(--dcdw-2022-yellow-primary) !important;
+    background-image: url("../static/images/roots.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .roots svg {
+    display: none;
+  }
+}
 /* 
 💐 
 
