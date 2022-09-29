@@ -1391,6 +1391,7 @@ h3,
 
 .layout-single-event .mambo-hero {
   min-height: auto;
+  display: block;
 }
 
 .mambo-hero .container,
