@@ -981,6 +981,10 @@ h3,
   padding: var(--size-8);
 }
 
+.page-faq .mambo-expander .answer {
+  padding: var(--size-24);
+}
+
 .image {
   position: relative;
   display: block;
@@ -1029,6 +1033,10 @@ h3,
 }
 #events .mambo-anchor {
   margin-top: var(--size-64);
+}
+
+#events-filter .mambo-anchor {
+  margin-top: var(--size-24);
 }
 
 .blob {
