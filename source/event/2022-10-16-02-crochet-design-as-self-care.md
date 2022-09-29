@@ -18,8 +18,8 @@ hero:
         url: https://www.eventbrite.com/e/crochet-design-as-self-care-tickets-425438697597
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: Test
+    image: /static/images/CrochetDesign_EventGraphic.png
+    imageALT: ""
 eventDetails:
   startDate: 2022-10-16T22:00:03.122Z
   endDate: 2022-10-17T00:00:03.133Z
@@ -39,16 +39,12 @@ eventDetails:
     **Attendees will receive a kit including the following items:**
 
 
-    * 1 5mm crochet hook
-    * 1 skein of #4 Worsted weight yarn
-    * A tape measure
-    * Stitch markers
-    * Scissors
-    
-    
+    * 1 5mm crochet hook * 1 skein of #4 Worsted weight yarn * A tape measure * Stitch markers * Scissors
+
+
     Light refreshments will be provided.
 
-    
+
     *This event was made possible by our sponsors [Eaton DC](https://www.eatonworkshop.com/en-us/washington-dc/) and local fiber shop [Sweet Pea Fiber](https://sweetpeafiber.com/).*
 
 

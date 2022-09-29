@@ -20,7 +20,7 @@ hero:
         url: https://www.eventbrite.com/e/engaging-with-nature-a-design-thinking-workshop-tickets-425473361277
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/Rename_EventGraphic.png
 eventDetails:
   startDate: 2022-10-21T14:00:48.472Z
   endDate: 2022-10-21T16:00:48.488Z

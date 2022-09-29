@@ -19,7 +19,7 @@ hero:
         label: Free — Non-members
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/DesignResilence_EventGraphic.png
 eventDetails:
   startDate: 2022-10-19T22:30:27.760Z
   endDate: 2022-10-20T00:15:27.775Z

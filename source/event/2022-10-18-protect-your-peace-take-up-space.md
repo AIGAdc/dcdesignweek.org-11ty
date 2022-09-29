@@ -19,7 +19,7 @@ hero:
         url: https://www.eventbrite.com/e/protect-your-peace-take-up-space-tickets-425438496997
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/ProtectPeace_EventGraphic.png
 eventDetails:
   startDate: 2022-10-18T23:30:29.959Z
   endDate: 2022-10-19T01:00:29.972Z

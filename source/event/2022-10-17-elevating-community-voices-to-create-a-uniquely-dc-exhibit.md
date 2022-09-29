@@ -18,8 +18,8 @@ hero:
         url: https://www.eventbrite.com/e/elevating-community-voices-to-create-a-uniquely-dc-exhibit-tickets-425452859957
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: Test
+    image: /static/images/CommunityVoices_EventGraphic.png
+    imageALT: ""
 eventDetails:
   startDate: 2022-10-17T16:00:55.800Z
   endDate: 2022-10-17T17:00:55.811Z

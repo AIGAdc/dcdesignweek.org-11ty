@@ -64,8 +64,8 @@ hero:
         url: https://www.eventbrite.com/e/designing-for-googles-covid-response-and-more-in-person-virtual-tickets-425473230887
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageALT: Test
+    image: /static/images/GoogleCovid_EventGraphic.png
+    imageALT: ""
 speaker:
   - name: Liora Yuklea
     pronouns: she | her | hers
@@ -146,9 +146,10 @@ preparation: >-
 
 
   * We unfortunately won’t be able to collect questions ahead of time. 
-  
+
   * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
     
+
     
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
 

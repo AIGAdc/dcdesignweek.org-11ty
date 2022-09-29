@@ -19,6 +19,8 @@ hero:
         label: $15  — Non-members
         url: https://www.eventbrite.com/e/art-copy-go-hand-in-hand-tickets-425442689537
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: /static/images/ArtCopy_EventGraphic.png
 eventDetails:
   startDate: 2022-10-20T13:00:35.993Z
   endDate: 2022-10-20T14:15:36.005Z
@@ -50,7 +52,7 @@ eventDetails:
   filterTime: Morning
   filterType: Talk/Panel
   location:
-  - name: In-Person
+    - name: In-Person
 speaker:
   - name: Jerome Frederick
     pronouns: he | him | his

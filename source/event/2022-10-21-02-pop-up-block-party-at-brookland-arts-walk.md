@@ -18,7 +18,7 @@ hero:
         colorCombo: cream-on-maroon-primary
         url: https://www.eventbrite.com/e/pop-up-block-party-at-brookland-arts-walk-tickets-425473531787
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/BlockParty_EventGraphic.png
 eventDetails:
   startDate: 2022-10-21T22:00:07.789Z
   endDate: 2022-10-22T02:00:07.803Z

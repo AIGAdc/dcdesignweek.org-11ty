@@ -7,7 +7,7 @@ pageSettings:
   mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/BreathworkCreativity_EventGraphic.png
   tickets:
     - ticket:
         showButton: true

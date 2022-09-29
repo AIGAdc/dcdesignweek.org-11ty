@@ -19,7 +19,7 @@ hero:
         url: https://www.eventbrite.com/e/not-just-a-pet-project-building-a-sustainable-freelance-business-tickets-425443311397
         colorCombo: cream-on-maroon-primary
   featuredImage:
-    image: /static/images/img-dcdw-2021.png
+    image: /static/images/SustainableFreelance_EventGraphic.png
 eventDetails:
   startDate: 2022-10-19T13:00:02.369Z
   endDate: 2022-10-19T14:00:02.382Z

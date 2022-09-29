@@ -11,37 +11,48 @@ hero:
     - ticket:
         label: $5 — Members
         showButton: true
-        url: "https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Freimagining-the-future-of-work-through-thoughtful-architecture-design%2F%3Fredirect_source%3Deventbrite_register"
+        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Freimagining-the-future-of-work-through-thoughtful-architecture-design%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
         label: $10 — Non-members
-        url: "https://www.eventbrite.com/e/reimagining-the-future-of-work-through-thoughtful-architecture-design-tickets-425482017167"
+        url: https://www.eventbrite.com/e/reimagining-the-future-of-work-through-thoughtful-architecture-design-tickets-425482017167
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: /static/images/ArchitectureDesign_EventGraphic.png
 eventDetails:
   startDate: 2022-10-20T22:00:25.959Z
   endDate: 2022-10-20T23:30:25.967Z
-  description: |-
+  description: >-
     
     ## Description and details
 
 
+
     Morning Consult’s new offices were designed to work in harmony with the company’s innovative hybrid work model. They set out to make their offices as flexible as home — while making remote workers an inclusive part of office culture.
+
 
     Join Jeighdeane King (Associate Vice President, Head of Spaces & Facilities, Morning Consult), Vince Wanga (Vice President, Head of Creative, Morning Consult), and Jessica Maples (SE Tech Practice Leader, Gensler) in an informative and engaging conversation on the future of work.
 
+
     Learn how Morning Consult leveraged thoughtful architecture and design to allow team members maximum flexibility on where and how they work through embedded flexible seating, an intentional lack of formal offices, private locker systems, technology-enabled collaborative spaces, hospitality-inspired wayfinding, a clean desk policy, and a plethora of open and private workspaces. This may change how offices function in the future.
+
 
     Light refreshments will be provided for in-person attendees.
 
+
     This event has two ways to participate: in-person attendance or via Zoom. You will indicate the way you plan to participate when selecting your ticket.
+
 
     T﻿his event was put together in partnership with [Morning Consult](https://morningconsult.com/).
 
 
+
     ## Venue
 
+
     Venue info: Virtual attendance via Zoom; In-person attendance at Morning Consult
+
     Venue address: 1025 F St., NW, 8th Floor, Washington, DC 20004
   filterDate: Thursday, October 20
   filterTime: Evening
@@ -82,7 +93,9 @@ speaker:
     pronouns: she | her | hers
     title: Associate - SE Tech Practice Leader Gensler
     bio: >-
-      As a workplace designer for 20 years, she has designed headquarters for NPR, National Geographic, think tanks, associations, nonprofits, and many tech firms in the DC area. 
+      As a workplace designer for 20 years, she has designed headquarters for
+      NPR, National Geographic, think tanks, associations, nonprofits, and many
+      tech firms in the DC area. 
 
 
       [LinkedIn](https://www.linkedin.com/in/jessica-maples-783a917/)
@@ -106,8 +119,7 @@ preparation: >-
   ## In-person safety guidance
 
 
-  In-person attendance will be at Morning Consult's office, for those who select an In-Person Add-On with their ticket:
-  **1025 F St., NW, 8th Floor, Washington, DC 20004**
+  In-person attendance will be at Morning Consult's office, for those who select an In-Person Add-On with their ticket: **1025 F St., NW, 8th Floor, Washington, DC 20004**
 
 
   * All in-person attendees must be vaccinated.

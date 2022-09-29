@@ -17,6 +17,8 @@ hero:
         label: $15 — Non-members
         url: https://www.eventbrite.com/e/how-the-internet-is-helping-artists-expand-their-work-tickets-425464053437
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: /static/images/HelpingArtist_EventGraphic.png
 eventDetails:
   startDate: 2022-10-17T23:00:35.514Z
   endDate: 2022-10-18T00:30:35.526Z

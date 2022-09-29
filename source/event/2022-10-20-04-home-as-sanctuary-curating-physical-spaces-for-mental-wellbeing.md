@@ -17,6 +17,8 @@ hero:
         label: $27 — Non-members
         url: https://www.eventbrite.com/e/home-as-sanctuary-curating-physical-spaces-for-mental-wellbeing-tickets-425454936167
         colorCombo: cream-on-maroon-primary
+  featuredImage:
+    image: /static/images/HomeSanctuary_EventGraphic.png
 eventDetails:
   startDate: 2022-10-20T23:00:18.060Z
   endDate: 2022-10-21T01:00:18.074Z
