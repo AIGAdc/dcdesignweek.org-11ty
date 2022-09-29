@@ -1385,7 +1385,7 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-  min-height: 50vh;
+  min-height: 40vh;
   display: block;
 }
 
@@ -1595,6 +1595,14 @@ h3,
   .mambo-hero {
     min-height: 100vh;
     overflow: unset;
+  }
+  .layout-page.page-accessibility .mambo-hero,
+.layout-single-committee .mambo-hero,
+.layout-page.page-events .mambo-hero,
+.layout-page.page-about .mambo-hero,
+.layout-page.page-committee .mambo-hero,
+.layout-page.page-faq .mambo-hero {
+    min-height: 50vh;
   }
   .home-hero-blob {
     transform: translate(-250px, -200px);
