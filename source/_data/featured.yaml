@@ -13,7 +13,7 @@ a11y:
 brand:
   - header: 2022 brand partner
     body: Big thanks to Brllnt and Scrap Strategies for developing the DCDW 2022 brand! Brllnt is a collective of Women- and BIPOC-owned creative small businesses that provide human-centered design, brand strategy, and user experience to mission-driven teams. Scrap Strategies is a market and business strategy firm using research, data, and automation to supercharge business growth by distilling human-first practices.
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/brand-sponsors/BrandSponsor_Portrait.png
     imageALT: 
     linkURL: https://www.brllnt.co/case-studies/DCDW22
     linkLabel: View Brllnt's website
