@@ -1306,6 +1306,19 @@ h3,
     grid-template-columns: 316px 1fr;
   }
 }
+.mambo-card.event {
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-24);
+}
+
+.mambo-card.event .detail-meta {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-24);
+}
+
 .mambo-divider {
   background-color: currentColor;
   display: inline-block;
