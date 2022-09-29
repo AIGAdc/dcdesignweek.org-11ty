@@ -1760,7 +1760,7 @@ h3,
   min-width: 119px;
   text-align: center;
   box-shadow: 0 0 0 4px white, 0 0 0px 4px white;
-  top: 0;
+  top: -5px;
   z-index: var(--layer-4);
 }
 
