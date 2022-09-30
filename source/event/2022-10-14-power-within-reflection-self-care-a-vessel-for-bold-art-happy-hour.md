@@ -20,7 +20,8 @@ hero:
         showButton: true
   featuredImage:
     image: /static/images/JustineSwindell_EventGraphic.png
-    imageALT: ""
+    imageALT: A woman with curly hair and loopy earings at the center of a colorful
+      collage
 eventDetails:
   startDate: 2022-10-14T23:00:00.980Z
   endDate: 2022-10-14T01:30:00.996Z
