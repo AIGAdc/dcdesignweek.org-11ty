@@ -11,7 +11,7 @@ hero:
     - ticket:
         showButton: true
         label: Free — Members
-        url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit%5C_national%5C_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdesign-for-resilience-lightning-talks-to-spark-ideas-conversation-and-ch%2F%3Fredirect%5C_source%3Deventbrite%5C_register
+        url: https://www.eventbrite.com/e/design-for-resilience-lightning-talks-to-spark-conversation-change-tickets-425451566087?discount=632cfeb56eec5
         colorCombo: cream-on-maroon-primary
     - ticket:
         showButton: true
