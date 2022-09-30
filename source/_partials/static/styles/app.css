@@ -600,6 +600,10 @@ button.mambo-anchor.action {
   grid-gap: var(--size-88) !important;
 }
 
+.page-faq .grid-flow {
+  row-gap: var(--size-32) !important;
+}
+
 .page-events .events-list,
 .page-committee .mambo-cards,
 .layout-single-committee .mambo-cards,
@@ -1637,6 +1641,7 @@ h3,
 
 .events-list {
   grid-gap: var(--size-56);
+  margin-top: 0 !important;
 }
 
 .pagination-committee,

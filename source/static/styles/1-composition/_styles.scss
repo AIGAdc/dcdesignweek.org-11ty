@@ -112,6 +112,10 @@
   grid-gap: var(--size-88) !important;
 }
 
+.page-faq .grid-flow {
+  row-gap: var(--size-32) !important;
+}
+
 .page-events .events-list,
 .page-committee .mambo-cards,
 .layout-single-committee .mambo-cards,
