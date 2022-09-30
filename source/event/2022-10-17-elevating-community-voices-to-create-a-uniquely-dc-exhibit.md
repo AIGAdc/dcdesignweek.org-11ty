@@ -19,7 +19,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/CommunityVoices_EventGraphic.png
-    imageALT: ""
+    imageALT: Two white women, an Indian man, and a black man collaged next to the
+      openbox and DC public library logos
 eventDetails:
   startDate: 2022-10-17T16:00:55.800Z
   endDate: 2022-10-17T17:00:55.811Z

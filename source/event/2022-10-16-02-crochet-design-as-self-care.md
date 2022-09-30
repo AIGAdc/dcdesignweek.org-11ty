@@ -19,7 +19,9 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/CrochetDesign_EventGraphic.png
-    imageALT: ""
+    imageALT: A light-complexioned African-American person with a blue-black curly
+      blob holding a ball of yarn. They're collaged next to the Eaton and
+      Sweetpeas logos.
 eventDetails:
   startDate: 2022-10-16T22:00:03.122Z
   endDate: 2022-10-17T00:00:03.133Z

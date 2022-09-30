@@ -3,6 +3,9 @@ title: "Power within: Reflection & self-care a vessel for bold art (+ Happy Hour
 description: Justine Swindell shares how her journey recovering from heart
   surgery & pursuing wellness helped her find her voice as an artist & designer.
   Stick around for happy hour after the keynote!
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   tickets:
     - ticket:
@@ -21,34 +24,24 @@ eventDetails:
   startDate: 2022-10-14T23:00:00.980Z
   endDate: 2022-10-14T01:30:00.996Z
   description: >-
-    Kick off DC Design Week 2022 with DC native Justine Swindell — illustrator,
-    muralist, survivor, public health advocate, and mother — as she discusses
-    how the intersection of well-being, our personal stories, and design can
-    better connect us to our artistic approach and audience. Justine’s journey
-    recovering from heart surgery and her pursuit of wellness has helped her
-    find her own voice as an artist and designer.
+    ## Description and details
 
 
+
+
+    Kick off DC Design Week 2022 with DC native Justine Swindell — illustrator, muralist, survivor, public health advocate, and mother — as she discusses how the intersection of well-being, our personal stories, and design can better connect us to our artistic approach and audience. Justine’s journey recovering from heart surgery and her pursuit of wellness has helped her find her own voice as an artist and designer.
 
 
     After starting her career in commercial post-production and graphic design, Justine’s formative experiences inspired her to obtain an M.A. in Sociology and dedicate more than ten years to improving  outcomes for vulnerable populations
 
 
-
-
     Justine pours her life experience and training into her illustrations, paintings, and public art projects, fusing gritty nostalgia with pop art to creator her bold, minimalistic style. Creating her lane as an artist, she helps people, brands, and authors—especially those who are underrepresented—tell their stories with authenticity and pride.
-
-
 
 
     After the Q&A with Justine, stick around to eat and drink with your fellow creatives and celebrate the start to DC Design Week.
 
 
-
-
     *This opening party is sponsored by [Taoti Creative](https://taoti.com/).*
-
-
 
 
     ## Venue

@@ -20,7 +20,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/CreativesFlow_EventGraphic.png
-    imageALT: ""
+    imageALT: A young Black woman sitting in a yoga pose next to the calm and cool
+      collective logo
 eventDetails:
   statusLabel: Featured on Events
   filterTime: Morning

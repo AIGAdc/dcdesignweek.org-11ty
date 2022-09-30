@@ -2,6 +2,9 @@
 title: Diversity — going beyond the obvious
 description: Looking to build meaningful connections with diverse audiences?
   Explore how 3 creative teams have created authentic campaigns that resonate.
+pageSettings:
+  headerColorCombo: maroon-primary-on-yellow-primary
+  mobileButtonColorCombo: cream-on-maroon-primary
 hero:
   featuredImage:
     image: /static/images/GoingBeyond_EventGraphic.png
@@ -20,25 +23,21 @@ eventDetails:
   startDate: 2022-10-21T17:00:17.339Z
   endDate: 2022-10-21T18:15:17.352Z
   description: >-
-    Your mission: Inspire every home in the United States to take one single
-    action.
+    ## Description and details
 
 
+
+
+    Your mission: Inspire every home in the United States to take one single action.
 
 
     Where do you start? How do you reach the many diverse audiences across the country? That was the challenge for the creative partners from [Reingold](http://www.reingold.com), [Culture ONE World](http://www.cultureoneworld.com), and [TDW+Co](https://www.tdwandco.com/). in the months and years leading up to the 2020 Census.
 
 
-
-
     Embracing diversity and giving a voice to underrepresented communities is a goal for many creative professionals. Translating those aspirations into meaningful connections can sometimes be a challenge. The work to inspire millions of Americans to respond to the decennial census — as well as other creative campaigns — has provided actionable insights for creating such connections.
 
 
-
-
     Join us for a conversation about making creative work more inclusive and relevant to diverse audiences. As a creative community, pushing beyond the obvious can help us all grow — and find an authentic voice.
-
-
 
 
     *T﻿his event was put together in partnership with [Reingold, Inc](http://www.reingold.com). with support from [Culture ONE World](http://www.cultureoneworld.com) and [TDW+Co](https://www.tdwandco.com/)*

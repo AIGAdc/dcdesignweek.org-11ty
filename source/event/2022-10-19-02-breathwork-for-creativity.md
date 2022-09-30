@@ -8,6 +8,7 @@ pageSettings:
 hero:
   featuredImage:
     image: /static/images/BreathworkCreativity_EventGraphic.png
+    imageALT: A smiling white woman with purple, shoulder-length hair
   tickets:
     - ticket:
         showButton: true
