@@ -22,7 +22,7 @@ hero:
         url: https://www.eventbrite.com/e/breathwork-for-creativity-tickets-426958974787
 eventDetails:
   startDate: 2022-10-19T16:00:54.559Z
-  endDate: 2022-10-19T17:00:54.576Z
+  endDate: 2022-10-19T17:30:54.576Z
   description: >-
     ## Description and details
 
