@@ -1,0 +1,24 @@
+{% for content in featured.events %}
+  <section class="[ mambo-section ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-four-columns ]">
+      <div class="[ column-span-two ][ flow ]">
+        <h2>
+          {{ content.header | md | safe }}
+        </h2>
+        <p>
+          {{ content.body | md | safe }}
+        </p>
+      </div>
+      <ul class="[ events-list ][ column-span-four ][ grid-flow grid-three-columns ]">
+        {% for event in collections.event | limit(3) %}
+          {% include '1-global-blocks/card-event.njk' %}
+        {% endfor %}
+      </ul>
+      <div class="[ column-span-one ]">
+        <a aria-label="{{ content.linkLabel | safe }}" class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+          {{ content.linkLabel | safe }}
+        </a>
+      </div>
+    </div>
+  </section>
+{% endfor %}

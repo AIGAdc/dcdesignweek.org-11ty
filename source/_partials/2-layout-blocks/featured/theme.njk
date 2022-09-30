@@ -1,0 +1,20 @@
+<!-- Wave -->
+<div class="[ wave left ]" style="fill: var(--dcdw-2022-cream-primary); background-color: var(--dcdw-2022-yellow-primary); ">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+
+{% for content in featured.theme %}
+  <section class="[ mambo-section ][ flow ]" data-color="{{ content.colorCombo }}" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+      <div class="[ flow ]">
+        <h2>{{ content.header | md | safe }}</h2>
+        <p>{{ content.body | md | safe }}</p>
+      </div>
+      {% if content.image %}
+        <figure>
+          <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+        </figure>
+      {% endif %}
+    </div>
+  </section>
+{% endfor %}

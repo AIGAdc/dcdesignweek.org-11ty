@@ -1,14 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+// DCDW Brand Type
+//@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+//@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+// 2022 Branding
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
 
-    /* AIGA DC: Brand Colors */
-    --brand-aiga-dc: #297b76;
-    /* DCDW: Past Brand Colors */
-    --dcdw-2016: #0000ff;
-    --dcdw-2017: #3e07d0;
-    --dcdw-2018: #297b76;
-    --dcdw-2019: #fb7eb8;
-    --dcdw-2020: #4ae725;
-    --dcdw-2021: #ec1001;
+  /* AIGA DC: Brand Colors */
+  --brand-aiga-dc: #297b76;
+
+  /* DCDW: Past Brand Colors */
+  --dcdw-2016: #0000ff;
+  --dcdw-2017: #3e07d0;
+  --dcdw-2018: #297b76;
+  --dcdw-2019: #fb7eb8;
+  --dcdw-2020: #4ae725;
+  --dcdw-2021: #ec1001;
+
+  /* DCDW: 2022 Brand Colors */
+  --dcdw-2022-maroon-primary: #482D38;
+  --dcdw-2022-maroon-secondary: #6F314B;
+  --dcdw-2022-pink-primary: #F45999;
+  --dcdw-2022-pink-secondary: #FF78B0;
+  --dcdw-2022-pink-tertiary: #FFD5E6;
+  --dcdw-2022-yellow-primary: #FFCD1E;
+  --dcdw-2022-yellow-secondary: #FBFA7E;
+  --dcdw-2022-cream-primary: #FFFFDD;
+  --dcdw-2022-cream-secondary: #FFFFF5;
+
+  /* DCDW: 2022 Brand Type */
+  --dcdw-2022-brand-dm-sans: 'DM Sans', sans-serif;
+  --dcdw-2022-brand-recursive: 'Recursive', sans-serif;
+  //--dcdw-2022-brand-source-sans-pro: 'Source Sans Pro', sans-serif;
+
+  /* Layers */
+  --layer-1: 10;
+  --layer-2: 100;
+  --layer-3: 1000;
+  --layer-4: 10000;
 }

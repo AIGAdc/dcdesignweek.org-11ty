@@ -6,4 +6,60 @@
  * http://github.com/cferdinandi/houdini
  */
 
-/* See _accordions.scss for styled version of this component. */
+/**
+ * Hide content
+ */
+.houdini {
+  display: none;
+  /**
+	 * Remove focus styles from content
+	 * @type {String}
+	 */
+  /**
+	 * Show expanded content
+	 */
+}
+
+.houdini[tabindex="-1"]:focus {
+  outline: none;
+}
+
+.houdini.is-expanded {
+  display: block;
+}
+
+/**
+ * Remove button appearance from heading buttons
+ */
+.houdini-heading .houdini-toggle {
+  background-color: inherit;
+  color: currentColor;
+  border: none;
+  display: flex;
+  font-family: var(--dcdw-2022-brand-recursive);
+  padding: 1rem;
+  text-align: inherit;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.mambo-anchor.action {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
+  text-align: center;
+  position: relative;
+}
+
+.mambo-anchor.action .houdini-toggle {
+  display: block;
+  width: 100%;
+  font-size: var(--size-18);
+  font-family: var(--dcdw-2022-brand-dm-sans);
+  margin-top: 24px;
+  text-align: center;
+  position: relative;
+}

@@ -1,65 +1,73 @@
-section:
-  - header: Sponsors and Partners
-    body: DC Design Week is 100% volunteer-run, and it wouldn’t be the same without our partners and sponsors. We’re looking for sponsors who can help ensure every event is as accessible and inclusive as possible. If you’re interested in partnering with DC Design Week this year, let us know. For this year’s sponsorship levels, we chose to pay tribute to some of DC’s most famous artists.
-    buttonURL: /about/#sponsors
-    buttonLabel: Explore All Sponsors
-    buttonBGColor: background-color-cream
-    buttonTextColor: color-black
-
 sponsor:
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
-  - image: "/static/images/baptiste-placeholder.png"
-    imageAlt: "Sponsor Alt Text"
-    name: Sponsor
-    tier: Sponsor Tier
-    website-url-1: https://www.overwatch.net
-    website-icon-1: <i class="fas fa-globe"></i> Website
-    website-aria-label-1: Sponsor's Website
+  # Tier One
+  - image: "/static/images/sponsors/Logo_Taoti.png"
+    name: Taoti
+    tier: Tier One
+    websiteURL1: https://taoti.com/
+  #Tier Two
+  - image: "/static/images/sponsors/Logo_GoodJuju.png"
+    name: Good Juju
+    tier: Tier Two
+    websiteURL1: https://www.goodjuju.com/
+  - image: "/static/images/sponsors/Logo_Eaton.png"
+    name: Eaton
+    tier: Tier Two
+    websiteURL1: https://www.eatonworkshop.com/en-us/washington-dc/
+  - image: "/static/images/sponsors/Logo_shopMadeDC.png"
+    name: Eaton
+    tier: Tier Two
+    websiteURL1: https://www.shopmadeindc.com/
+  - image: "/static/images/sponsors/Logo_Artechouse.png"
+    name: Artechouse
+    tier: Tier Two
+    websiteURL1: https://www.artechouse.com/location/dc/
+  - image: "/static/images/sponsors/Logo_HAWJStudio.png"
+    name: HAWJ Studio
+    tier: Tier Two
+    websiteURL1: https://www.phimher.com/
+  - image: "/static/images/sponsors/Logo_ElizaMott.png"
+    name: Eliza Mott
+    tier: Tier Two
+    websiteURL1: https://www.elizalmott.com/
+  - image: "/static/images/sponsors/Logo_PearlSpa.png"
+    name: Pearl Spa
+    tier: Tier Two
+    websiteURL1: https://www.thepearlspa.com/
+  - image: "/static/images/sponsors/Logo_YogaHeights.png"
+    name: Yoga Heights
+    tier: Tier Two
+    websiteURL1: https://www.yogaheightsdc.com/
+  #Tier Three
+  - image: "/static/images/sponsors/Logo_CustomInk.png"
+    name: Custom Ink
+    tier: Tier Three
+    websiteURL1: https://www.customink.com/
+  - image: "/static/images/sponsors/Logo_DCPublicLibraries.png"
+    name: DC Public Library
+    tier: Tier Three
+    websiteURL1: https://www.dclibrary.org/
+  - image: "/static/images/sponsors/Logo_PlanetWord.png"
+    name: Planet Word
+    tier: Tier Three
+    websiteURL1: https://planetwordmuseum.org/
+  - image: "/static/images/sponsors/Logo_Mindspace.png"
+    name: Mindspace
+    tier: Tier Three
+    websiteURL1: https://www.mindspace.me/c/dc
+  - image: "/static/images/sponsors/Logo_BoundlessLife.png"
+    name: The Boundless Life
+    tier: Tier Three
+    websiteURL1: https://www.theboundlesslife.net/
+  # Tier Four
+  - image: "/static/images/sponsors/Logo_SweetPeaFiber.png"
+    name: Sweetpea Fiber
+    tier: Tier Four
+    websiteURL1: https://sweetpeafiber.com/
+  - image: "/static/images/sponsors/Logo_Stickermule.png"
+    name: Stickermule
+    tier: Tier Four
+    websiteURL1: https://www.stickermule.com/
+  - image: "/static/images/sponsors/Logo_LetsRoam.png"
+    name: Lets Roam
+    tier: Tier Four
+    websiteURL1: https://www.letsroam.com/scavenger_hunt/Washington_DC_Scavenger_Hunt

@@ -1,28 +1,105 @@
-@include generate-utility-classes();
+// @include generate-utility-classes();
 
 /* Containers */
-.container-section {
-    margin: auto;
-    max-width: 1600px;
-    width: 100%;
-    position: relative;
+.container {
+  margin: auto;
+  position: relative;
 }
 
-.container-content {
-    margin: auto;
-    max-width: 900px;
-    width: 100%;
-    position: relative;
+.container-small {
+  max-width: 896px;
+  position: relative;
 }
 
-.container-wide {
-    margin: auto;
-    max-width: 1024px;
-    width: 100%;
-    position: relative;
+.container-default {
+  max-width: 1366px;
+  position: relative;
 }
 
-// Gaps
-.gap-1 {
-    --gap: var(--size-20);
+.container-large {
+  max-width: 1650px;
+  position: relative;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.enabled {
+  cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+
+@media screen and (min-width: 64rem) {
+  .sticky-with-nav {
+    position: sticky;
+    top: 32px;
+  }
+}
+
+// body {
+//   border-top: solid 1rem black !important;
+// }
+
+// // 480px
+// @media screen and (min-width:30rem) {
+//   body {
+//     border-top: solid 1rem orange !important;
+//   }
+// }
+
+// // 640px
+// @media screen and (min-width:40rem) {
+//   body {
+//     border-top: solid 1rem purple !important;
+//   }
+// }
+
+// // 768px
+// @media screen and (min-width:48rem) {
+//   body {
+//     border-top: solid 1rem green !important;
+//   }
+// }
+
+// // 1024px
+// @media screen and (min-width:64rem) {
+//   body {
+//     border-top: solid 1rem red !important;
+//   }
+// }
+
+// // 1366px
+// @media screen and (min-width:85.375rem) {
+//   body {
+//     border-top: solid 1rem navy !important;
+//   }
+// }
+
+@media (prefers-reduced-motion:reduce) {
+  .roots {
+    background-color: var(--dcdw-2022-yellow-primary) !important;
+    background-image: url('../static/images/roots.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .roots svg {
+    display: none;
+  }
+}
+
+.overlay {
+  background-color: rgb(255, 205, 30, 0.92);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 !important;
 }

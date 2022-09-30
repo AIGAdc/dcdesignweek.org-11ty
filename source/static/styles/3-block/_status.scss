@@ -1,0 +1,32 @@
+.statuses {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: var(--layer-4);
+}
+
+.status {
+  display: block;
+  width: 100%;
+  font-size: var(--size-16);
+  font-weight: 700;
+  padding: var(--size-8) var(--size-16);
+}
+
+.status.featured-on-home,
+.status.featured-on-events {
+  background-color: var(--dcdw-2022-pink-tertiary);
+  color: var(--dcdw-2022-maroon-primary);
+}
+
+.status.sold-out {
+  background-color: var(--dcdw-2022-maroon-primary);
+  color: var(--dcdw-2022-cream-primary);
+}
+
+// Page Specific Styles
+.layout-single-event .status {
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}

@@ -1,0 +1,51 @@
+{% if page.url == "/about/" %}
+  <section class="[ mambo-section ]" data-color="maroon-primary-on-white" id="{{ sectionOne.header | slug }}">
+    <div class="[ container container-default ][ flow ]">
+      <div class="[ grid-flow grid-four-columns ]">
+        <div class="[ column-span-two ][ flow ]">
+          {% for content in featured.committee %}
+            <h2>{{ content.header }}</h2>
+            <p>{{ content.body | safe }}</p>
+            <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+              {{ content.linkLabel | safe }}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% if page.url == "/committee/" %}
+  <!-- Wave -->
+  <div class="[ wave left ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-yellow-primary);">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+
+  <section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="{{ sectionOne.header | slug }}">
+    <div class="[ container container-default ][ flow ]">
+      <h2>
+        Meet the DCDW 2022 committee
+      </h2>
+      <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
+        {% for team in committee.teams %}
+          <li class="[ mambo-card committee ][ flow ]">
+            {# <div class="[ media ]">
+              <figure class="[ image ]">
+                <img alt="{{ team.imageALT }}" loading=lazy src="{{ team.image }}">
+              </figure>
+            </div> #}
+            <div class="[ details ][ flow-small ]">
+              <a href="{{ team.url }}">
+                <h3 class="[ title ]">{{ team.title }}</h3>
+              </a>
+              <div class="[ wysiwyg ]">
+                {{ team.body }}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+{% endif %}

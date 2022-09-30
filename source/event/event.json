@@ -1,4 +1,5 @@
 {
-    "layout": "layouts/events-single.njk",
-    "tags": "event"
+  "layout": "single-event",
+  "tags": "event",
+  "permalink": "/event/{{ title | slug | safe }}/"
 }

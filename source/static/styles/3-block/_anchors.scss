@@ -1,46 +1,55 @@
-// Start Anchors
-.mambo-anchor.proposal {
-    color: var(--color-white);
-    font-size: var(--size-18);
-    text-decoration-color: var(--color-valencia);
-    position: relative;
-    padding: var(--size-16);
-    z-index: 500;
+.mambo-anchor {
+  border: solid 2px transparent;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  min-width: max-content;
 }
 
-.mambo-anchor.proposal span {
-    position: absolute;
-    top: 0px;
-    left: 3px;
-    z-index: -1;
+.mambo-anchor.icon {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-8);
 }
 
-.mambo-anchor.proposal svg {
-    width: 270px;
+.mambo-anchor.action {
+  border-radius: 1000px;
+  padding: var(--size-8) var(--size-24);
 }
 
-@media screen and (min-width:30rem) {}
+.mambo-anchor.stacked {
+  display: flex;
+  flex-direction: column;
+}
 
-@media screen and (min-width:40rem) {}
+.mambo-anchor.stacked>* {
+  grid-gap: 1.5rem;
+}
 
-@media screen and (min-width:48rem) {}
+.mambo-anchor.stacked span {
+  font-weight: 400;
+}
 
-@media screen and (min-width:64rem) {}
+// 640px
+@media screen and (min-width:48rem) {
+  .mambo-anchor {
+    display: inline-block;
+    width: unset;
+    text-align: left;
+  }
+}
 
-@media screen and (min-width:85.375rem) {
-    .mambo-anchor.proposal {
-        font-size: var(--size-24);
-        padding: var(--size-32) var(--size-48) var(--size-32) var(--size-24);
-    }
+#events .mambo-anchor {
+  margin-top: var(--size-32);
+}
 
-    .mambo-anchor.proposal span {
-        top: 20px;
-        left: -24px;
-    }
+@media screen and (min-width: 64rem) {
+  #events .mambo-anchor {
+    margin-top: var(--size-64);
+  }
+}
 
-    .mambo-anchor.proposal svg {
-        display: block;
-        width: 110%;
-    }
-
+#events-filter .mambo-anchor {
+  margin-top: var(--size-24);
 }

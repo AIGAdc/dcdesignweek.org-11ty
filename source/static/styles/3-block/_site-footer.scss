@@ -1,0 +1,27 @@
+.mambo-footer {
+  border-top: solid 1px currentColor;
+  padding: var(--size-24);
+}
+
+.mambo-footer>div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-24);
+  justify-content: space-between;
+}
+
+.mambo-footer .social a {
+  fill: currentColor;
+}
+
+.mambo-footer .social svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .mambo-footer>div {
+    flex-direction: row;
+  }
+}

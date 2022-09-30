@@ -1,0 +1,28 @@
+{% for content in sections %}
+  {% if content.section.showWaveTop == true %}
+    <!-- Wave -->
+    <div class="[ wave left has-border ]" style="fill: {{ content.section.waveTopFill }}; background-color: {{ content.section.waveTopBackground }};">
+      {% include '1-global-blocks/wave.njk' %}
+    </div>
+  {% endif %}
+
+  <section class="[ mambo-section ][ flow ]" data-color="{{ content.section.colorCombo }}" id="{{ content.header | slug }}">
+    <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+      <div class="[ flow ]">
+        <h2>
+          {{ content.section.header | md | safe }}
+        </h2>
+        <div class="[ wysiwyg ]">
+          {{ content.section.body | md | safe }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% if content.section.showWaveBottom == true %}
+    <!-- Wave -->
+    <div class="[ wave right has-border ]" style="fill: {{ content.section.waveBottomFill }}; background-color: {{ content.section.waveBottomBackground }};">
+      {% include '1-global-blocks/wave.njk' %}
+    </div>
+  {% endif %}
+{% endfor %}

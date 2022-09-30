@@ -6,7 +6,7 @@ backend:
   repo: AIGAdc/dcdesignweek.org-11ty
 
 # Enable/Disable Editorial Workflow
-#publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # Enable/Disable Local Backend. Use the command "npx netlify-cms-proxy-server" to use Netlify CMS locally
 local_backend: true
@@ -25,741 +25,1371 @@ collections:
       preview: false
     # Define the pages that should be visible inside the CMS.
     files:
-      - label: "About"
-        name: "about"
-        file: "source/pages/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Events"
-        name: "events"
-        file: "source/pages/events.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "FAQs"
-        name: "faqs"
-        file: "source/pages/faqs.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
-      - label: "Accessibility"
-        name: "accessibility"
-        file: "source/pages/accessibility.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
-          - label: "Hero"
-            name: "hero"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Hero Color Combo",
-                  name: "heroColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - { label: "Hero Header", name: "heroHeader", widget: "string" }
-              - { label: "Hero Body", name: "heroBody", widget: "markdown" }
-              - {
-                  label: "Hero Button Left Label",
-                  name: "heroButtonLeftLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Left URL",
-                  name: "heroButtonLeftURL",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right Label",
-                  name: "heroButtonRightLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right URL",
-                  name: "heroButtonRightURL",
-                  widget: "string",
-                  required: false,
-                }
-          - label: "Section One"
-            name: "sectionOne"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section One Color Combo",
-                  name: "sectionOneColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section One Header",
-                  name: "sectionOneHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section One Body",
-                  name: "sectionOneBody",
-                  widget: "markdown",
-                }
-          - label: "Section Two"
-            name: "sectionTwo"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Two Color Combo",
-                  name: "sectionTwoColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Two Header",
-                  name: "sectionTwoHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Two Body",
-                  name: "sectionTwoBody",
-                  widget: "markdown",
-                }
-          - label: "Section Three"
-            name: "sectionThree"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Three Color Combo",
-                  name: "sectionThreeColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Three Header",
-                  name: "sectionThreeHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Three Body",
-                  name: "sectionThreeBody",
-                  widget: "markdown",
-                }
-          - label: "Section Four"
-            name: "sectionFour"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Four Color Combo",
-                  name: "sectionFourColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Four Header",
-                  name: "sectionFourHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Four Body",
-                  name: "sectionFourBody",
-                  widget: "markdown",
-                }
-          - label: "Section Five"
-            name: "sectionFive"
-            widget: "object"
-            summary: "{{fields.name}}"
-            fields:
-              - {
-                  label: "Section Five Color Combo",
-                  name: "sectionFiveColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Five Header",
-                  name: "sectionFiveHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Five Body",
-                  name: "sectionFiveBody",
-                  widget: "markdown",
-                }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Home"
         name: "home"
         file: "source/pages/home-internal.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
           - label: "Hero"
             name: "hero"
             widget: "object"
             summary: "{{fields.name}}"
             fields:
-              - {
-                  label: "Hero Color Combo",
-                  name: "heroColorCombo",
-                  widget: "select",
-                  options:
-                    ["zodiac-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - { label: "Hero Header", name: "heroHeader", widget: "string" }
-              - { label: "Hero Body", name: "heroBody", widget: "markdown" }
-              - {
-                  label: "Show Hero Button Left",
-                  name: "showHeroButtonLeft",
-                  widget: boolean,
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Left Label",
-                  name: "heroButtonLeftLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Left URL",
-                  name: "heroButtonLeftURL",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Show Hero Button Right",
-                  name: "showHeroButtonRight",
-                  widget: boolean,
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right Label",
-                  name: "heroButtonRightLabel",
-                  widget: "string",
-                  required: false,
-                }
-              - {
-                  label: "Hero Button Right URL",
-                  name: "heroButtonRightURL",
-                  widget: "string",
-                  required: false,
-                }
-          - label: "Section One"
-            name: "sectionOne"
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "background-color-black",
+                        "background-color-white",
+                        "background-color-cream",
+                        "background-color-teal",
+                        "background-color-valencia",
+                        "background-color-zodiac",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
+      - label: "About"
+        name: "about"
+        file: "source/pages/about.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
             widget: "object"
             summary: "{{fields.name}}"
             fields:
-              - {
-                  label: "Section One Color Combo",
-                  name: "sectionOneColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section One Header",
-                  name: "sectionOneHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section One Body",
-                  name: "sectionOneBody",
-                  widget: "markdown",
-                }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: "{{fields.question}}"
-                fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - {
-                      label: Expanded,
-                      name: expanded,
-                      widget: boolean,
-                      required: false,
-                    }
-          - label: "Section Three"
-            name: "sectionThree"
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
             widget: "object"
             summary: "{{fields.name}}"
             fields:
-              - {
-                  label: "Section Three Color Combo",
-                  name: "sectionThreeColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Three Header",
-                  name: "sectionThreeHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Three Body",
-                  name: "sectionThreeBody",
-                  widget: "markdown",
-                }
-              - label: "Questions"
-                name: "questions"
-                widget: "list"
-                summary: "{{fields.question}}"
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
                 fields:
-                  - { label: Question, name: question, widget: string }
-                  - { label: Answer, name: answer, widget: markdown }
-                  - { label: Trigger, name: trigger, widget: string }
-                  - {
-                      label: Expanded,
-                      name: expanded,
-                      widget: boolean,
-                      required: false,
-                    }
-          - label: "Section Four"
-            name: "sectionFour"
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
+      - label: "Events"
+        name: "events"
+        file: "source/pages/events.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
             widget: "object"
             summary: "{{fields.name}}"
             fields:
-              - {
-                  label: "Section Four Color Combo",
-                  name: "sectionFourColorCombo",
-                  widget: "select",
-                  options:
-                    ["black-on-cream", "zodiac-on-white", "white-on-zodiac"],
-                }
-              - {
-                  label: "Section Four Header",
-                  name: "sectionFourHeader",
-                  widget: "string",
-                }
-              - {
-                  label: "Section Four Body",
-                  name: "sectionFourBody",
-                  widget: "markdown",
-                }
-              - label: "Cards"
-                name: "cards"
-                widget: "list"
-                summary: "{{fields.title}}"
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
                 fields:
-                  - { label: Image, name: image, widget: image }
-                  - { label: Image Alt, name: imageAlt, widget: string }
-                  - { label: Title, name: title, widget: string }
-                  - { label: Body, name: body, widget: markdown }
-                  - { label: Label, name: label, widget: string }
-                  - { label: URL, name: url, widget: string }
-          - { label: "Layout", name: "layout", widget: "string" }
-          - { label: "Permalink", name: "permalink", widget: "string" }
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
+      - label: "FAQ"
+        name: "faq"
+        file: "source/pages/faqs.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
+      - label: "Committee"
+        name: "committee"
+        file: "source/pages/committee.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
+
+      - label: "Accessibility"
+        name: "accessibility"
+        file: "source/pages/accessibility.md"
+        fields:
+          - label: "Title"
+            hint: 📝 Sets the title of the page.
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Description"
+            hint: 📝 Sets the description of the page.
+            name: "description"
+            required: false
+            widget: "string"
+          - label: "Layout"
+            hint: 🛑 Do not change. Sets the layout of the page.
+            name: "layout"
+            required: false
+            widget: "string"
+          - label: "Permalink"
+            hint: 🛑 Do not change. Sets the permalink of the page.
+            name: "permalink"
+            required: false
+            widget: "string"
+          - label: "Page Settings"
+            name: "pageSettings"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Header Color Combo"
+                hint: 🎨 Sets the color combination for the header.
+                name: "headerColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Mobile Button Color Combo"
+                hint: 🎨 Sets the color combination for the mobile menu button in the header.
+                name: "mobileButtonColorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Hero Color Combo"
+                hint: 🎨 Sets the color combination for the hero.
+                name: "colorCombo"
+                required: false
+                widget: select
+                options:
+                  [
+                    "cream-on-maroon-primary",
+                    "cream-on-maroon-secondary",
+                    "maroon-primary-on-cream",
+                    "maroon-primary-on-pink-tertiary",
+                    "maroon-primary-on-white",
+                    "maroon-primary-on-yellow-primary",
+                    "maroon-primary-on-yellow-secondary",
+                    "maroon-secondary-on-pink-tertiary",
+                    "maroon-secondary-on-white",
+                    "maroon-secondary-on-yellow-primary",
+                    "maroon-secondary-on-yellow-secondary",
+                    "pink-tertiary-on-maroon-primary",
+                    "pink-tertiary-on-maroon-secondary",
+                  ]
+              - label: "Header"
+                hint: 📝 Sets the header of the hero.
+                name: "header"
+                required: false
+                widget: "string"
+              - label: "Body"
+                hint: 📝 Sets the body of the hero.
+                name: "body"
+                required: false
+                widget: "markdown"
+              - label: Buttons
+                name: buttons
+                hint: ⚙️ Allows for the addition of buttons in the hero. Please only add two (2).
+                required: false
+                widget: list
+                fields:
+                  - label: Button
+                    name: button
+                    required: false
+                    widget: object
+                    fields:
+                      - label: Show Button
+                        name: showButton
+                        hint: 👀 Controls the visibility of the button.
+                        required: false
+                        widget: boolean
+                      - label: Label
+                        name: label
+                        hint: 📝 Sets the label of the button.
+                        required: false
+                        widget: string
+                      - label: URL
+                        name: url
+                        hint: 📝 Sets the url of the button.
+                        required: false
+                        widget: string
+                      - label: ColorCombo
+                        name: colorCombo
+                        hint: 🎨 Sets the color combination of the button.
+                        required: false
+                        widget: select
+                        options:
+                          [
+                            "cream-on-maroon-primary",
+                            "cream-on-maroon-secondary",
+                            "maroon-primary-on-cream",
+                            "maroon-primary-on-pink-tertiary",
+                            "maroon-primary-on-white",
+                            "maroon-primary-on-yellow-primary",
+                            "maroon-primary-on-yellow-secondary",
+                            "maroon-secondary-on-pink-tertiary",
+                            "maroon-secondary-on-white",
+                            "maroon-secondary-on-yellow-primary",
+                            "maroon-secondary-on-yellow-secondary",
+                            "pink-tertiary-on-maroon-primary",
+                            "pink-tertiary-on-maroon-secondary",
+                          ]
+          - label: "Sections"
+            name: "sections"
+            hint: ⚙️ Allows for the addition of sections to the page.
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Section"
+                name: "section"
+                required: false
+                widget: "object"
+                fields:
+                  - label: "Color Combo"
+                    name: "colorCombo"
+                    widget: "select"
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                  - label: "Header"
+                    name: "header"
+                    widget: "string"
+                  - label: "Body"
+                    name: "body"
+                    widget: "markdown"
 
   - label: "Event"
     name: "event"
     folder: "source/event"
+    format: frontmatter
     create: true
     slug: "{{slug}}" # Filename template, e.g., title.md
     # Defaults to "true". Must be set to "false" to turn the preview off completely.
     editor:
       preview: false
     fields:
-      - {
-          label: "Title",
-          hint: "Required. Provide the event title.",
-          name: "title",
-          widget: "string",
-        }
-      - {
-          label: "Description",
-          hint: "Required. Provide an event description.",
-          name: "description",
-          widget: "string",
-        }
-      - {
-          label: "Start Date",
-          hint: "Required. Provide the event start time.",
-          name: "startDate",
-          widget: "datetime",
-        }
-      - {
-          label: "End Date",
-          hint: "Required. Provide the event end time.",
-          name: "endDate",
-          widget: "datetime",
-        }
-      - {
-          label: "Image",
-          hint: "Required. Provide the image that will be used in the event header of event page and event card.",
-          name: "image",
-          widget: "image",
-        }
-      - {
-          label: "Image Alt",
-          hint: "Required. Provide descriptive text of image used above.",
-          name: "imageALT",
-          widget: "string",
-        }
-      - label: Tickets
-        name: tickets
-        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
-        widget: list
+      - label: "Title"
+        hint: "Required. Provide the event title."
+        name: "title"
+        widget: "string"
+        required: false
+      - label: "Description"
+        hint: "Required. Provide an event description."
+        name: "description"
+        widget: "markdown"
+        required: false
+      - label: Hero
+        name: hero
+        hint: "Fields within the Event Hero"
+        required: false
+        widget: "object"
         fields:
-          - {
-              label: Button Type,
-              name: buttonType,
-              widget: select,
-              options: ["Member", "Non-Member"],
-            }
-          - { label: Button Label, name: buttonLabel, widget: string }
-          - { label: Button URL, name: buttonURL, widget: string }
-          - label: "Button Background Color"
-            name: "buttonBGColor"
+          - label: "Featured Image"
+            hint: "Provide featured image"
+            name: "featuredImage"
+            required: false
+            widget: "object"
+            fields:
+              - label: "Image"
+                hint: "Provide Featured Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Image Alt Text"
+                hint: "Provide Featured Image"
+                name: "imageALT"
+                widget: "string"
+                required: false
+          - label: Tickets
+            name: tickets
+            widget: list
+            max: 2
+            required: false
+            fields:
+              - label: Ticket
+                name: ticket
+                widget: object
+                required: false
+                fields:
+                  - label: Show Button
+                    name: showButton
+                    hint: ""
+                    widget: boolean
+                    required: false
+                  - label: Label
+                    name: label
+                    hint: ""
+                    widget: string
+                    required: false
+                  - label: Aria
+                    name: aria
+                    hint: ""
+                    widget: string
+                    required: false
+                  - label: URL
+                    name: url
+                    hint: ""
+                    widget: string
+                    required: false
+                  - label: ColorCombo
+                    name: colorCombo
+                    hint: ""
+                    widget: select
+                    options:
+                      [
+                        "cream-on-maroon-primary",
+                        "cream-on-maroon-secondary",
+                        "maroon-primary-on-cream",
+                        "maroon-primary-on-pink-tertiary",
+                        "maroon-primary-on-white",
+                        "maroon-primary-on-yellow-primary",
+                        "maroon-primary-on-yellow-secondary",
+                        "maroon-secondary-on-pink-tertiary",
+                        "maroon-secondary-on-white",
+                        "maroon-secondary-on-yellow-primary",
+                        "maroon-secondary-on-yellow-secondary",
+                        "pink-tertiary-on-maroon-primary",
+                        "pink-tertiary-on-maroon-secondary",
+                      ]
+                    required: false
+      - label: Event Details
+        name: eventDetails
+        widget: object
+        required: false
+        fields:
+          - label: "Start Date"
+            hint: "Required. Provide the event start time."
+            name: "startDate"
+            widget: "datetime"
+            required: false
+          - label: "End Date"
+            hint: "Required. Provide the event end time."
+            name: "endDate"
+            widget: "datetime"
+            required: false
+          - label: Description
+            name: description
+            hint: ""
+            widget: markdown
+          - label: Location
+            name: location
+            hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
+            widget: list
+            required: false
+            fields:
+              - label: Location Name
+                name: name
+                widget: string
+                required: false
+              - label: Location Street
+                name: street
+                widget: string
+                required: false
+              - label: Location Address
+                name: address
+                widget: string
+                required: false
+              - label: Location Directions
+                name: directions
+                widget: string
+                required: false
+          - label: Status Type
+            name: statusType
+            widget: select
+            options: ["Featured on Home", "Featured on Events", "Has Occurred"]
+            required: false
+          - label: Status Label
+            name: statusLabel
+            widget: string
+            required: false
+          - label: Filter Date
+            name: filterDate
             widget: select
             options:
               [
-                "background-color-black",
-                "background-color-white",
-                "background-color-cream",
-                "background-color-teal",
-                "background-color-valencia",
-                "background-color-zodiac",
+                "Friday, October 14",
+                "Saturday, October 15",
+                "Sunday, October 16",
+                "Monday, October 17",
+                "Tuesday, October 18",
+                "Wednesday, October 19",
+                "Thursday, October 20",
+                "Friday, October 21",
               ]
-          - label: "Button Text Color"
-            name: "buttonTextColor"
+            required: false
+          - label: Filter Location
+            name: filterLocation
+            widget: select
+            options: ["In-Person", "Zoom", "Hybrid"]
+            required: false
+          - label: Filter Time
+            name: filterTime
+            widget: select
+            options: ["Morning", "Daytime", "Evening"]
+            required: false
+          - label: Filter Type
+            name: filterType
             widget: select
             options:
               [
-                "color-black",
-                "color-white",
-                "color-cream",
-                "color-teal",
-                "color-valencia",
-                "color-zodiac",
+                "Creative Breakfast",
+                "Creative Lunch",
+                "Keynote",
+                "Party",
+                "Talk/Panel",
+                "Workshop",
               ]
-      - label: Location
-        name: location
-        hint: "This field will allow an Editor, to add tickets to the event page. There are two options 'Member' and 'Non-Member'. Once you have selected the button type you can then provide the button label and button url."
-        widget: list
-        fields:
-          - { label: Location Name, name: locationName, widget: string }
-          - { label: Location Street, name: locationStreet, widget: string }
-          - { label: Location Address, name: locationAddress, widget: string }
-          - {
-              label: Location Directions,
-              name: locationDirections,
-              widget: string,
-            }
-      - label: Status
-        name: status
-        widget: list
-        fields:
-          - {
-              label: Status Type,
-              name: statusType,
-              widget: select,
-              options:
-                ["Featured on Home", "Featured on Events", "Has Occurred"],
-            }
-          - { label: Status Label, name: statusLabel, widget: string }
-      - {
-          label: "Details",
-          name: "details",
-          widget: "markdown",
-          required: false,
-        }
+            required: false
+          - label: Filter Status
+            name: filterStatus
+            widget: select
+            options: [".mix:not(.past-event)", ".mix:not(.sold-out)"]
+            required: false
       - label: Speaker
         name: speaker
         allow_add: true
         widget: list
+        required: false
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Title, name: title, widget: string }
-          - { label: Pronunciation, name: pronunciation, widget: string }
-          - { label: Pronouns, name: pronouns, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Image Alt, name: imageALT, widget: string }
-          - {
-              label: Websites,
-              name: websites,
-              widget: markdown,
-              required: false,
-              sanitize_preview: true,
-            }
-      - {
-          label: "How to Prepare",
-          name: "preparation",
-          widget: "markdown",
-          required: false,
-        }
-      - { label: "a11y", name: "a11y", widget: "markdown", required: false }
-
-  - label: "Data Files"
-    name: "settings"
-    description: Files that provide global data to be re-used across the DCDW website.
-    # Defaults to "true". Must be set to "false" to turn the preview off completely.
-    editor:
-      preview: false
-    files:
+          - label: Name
+            name: name
+            widget: string
+            required: false
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Pronunciation
+            name: pronunciation
+            widget: string
+            required: false
+          - label: Pronouns
+            name: pronouns
+            widget: string
+            required: false
+          - label: Image
+            name: image
+            widget: image
+            required: false
+          - label: Image Alt
+            name: imageALT
+            widget: string
+            required: false
+          - label: Bio
+            name: bio
+            widget: markdown
+            required: false
+      - label: "Platform"
+        name: "platform"
+        widget: "markdown"
+        required: false
+      - label: "Preparation"
+        name: "preparation"
+        widget: "markdown"
+        required: false
       - label: "Accessibility"
-        name: "accessibility"
-        file: "source/_data/accessibility.yaml"
-        fields:
-          - label: Global
-            name: global
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Header, name: header, widget: string }
-              - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
-              - label: "Button Background Color"
-                name: "buttonBGColor"
-                widget: select
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Button Text Color"
-                name: "buttonTextColor"
-                widget: select
-                options:
-                  [
-                    "color-black",
-                    "color-white",
-                    "color-cream",
-                    "color-teal",
-                    "color-valencia",
-                    "color-zodiac",
-                  ]
-            widget: list
-      - label: "Events"
-        name: "events"
-        file: "source/_data/events.yaml"
-        fields:
-          - label: Global
-            name: global
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Header, name: header, widget: string }
-              - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
-              - label: "Button Background Color"
-                name: "buttonBGColor"
-                widget: select
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Button Text Color"
-                name: "buttonTextColor"
-                widget: select
-                options:
-                  [
-                    "color-black",
-                    "color-white",
-                    "color-cream",
-                    "color-teal",
-                    "color-valencia",
-                    "color-zodiac",
-                  ]
-            widget: list
-      - label: "FAQs"
-        name: "faqs"
-        file: "source/_data/faqs.yaml"
-        fields:
-          - label: Global
-            name: global
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Header, name: header, widget: string }
-              - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
-              - label: "Button Background Color"
-                name: "buttonBGColor"
-                widget: select
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Button Text Color"
-                name: "buttonTextColor"
-                widget: select
-                options:
-                  [
-                    "color-black",
-                    "color-white",
-                    "color-cream",
-                    "color-teal",
-                    "color-valencia",
-                    "color-zodiac",
-                  ]
-            widget: list
-      - label: "Filters"
-        name: "filters"
-        file: "source/_data/filters.yaml"
-        fields:
-          - label: Global
-            name: global
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Header, name: header, widget: string }
-              - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
-              - label: "Button Background Color"
-                name: "buttonBGColor"
-                widget: select
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Button Text Color"
-                name: "buttonTextColor"
-                widget: select
-                options:
-                  [
-                    "color-black",
-                    "color-white",
-                    "color-cream",
-                    "color-teal",
-                    "color-valencia",
-                    "color-zodiac",
-                  ]
-            widget: list
-      - label: "Staff"
-        name: "staff"
-        file: "source/_data/staff.yaml"
-        fields:
-          - label: Global
-            name: global
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Header, name: header, widget: string }
-              - { label: Body, name: body, widget: markdown }
-              - { label: buttonURL, name: buttonURL, widget: string }
-              - { label: buttonLabel, name: buttonLabel, widget: string }
-              - label: "Button Background Color"
-                name: "buttonBGColor"
-                widget: select
-                options:
-                  [
-                    "background-color-black",
-                    "background-color-white",
-                    "background-color-cream",
-                    "background-color-teal",
-                    "background-color-valencia",
-                    "background-color-zodiac",
-                  ]
-              - label: "Button Text Color"
-                name: "buttonTextColor"
-                widget: select
-                options:
-                  [
-                    "color-black",
-                    "color-white",
-                    "color-cream",
-                    "color-teal",
-                    "color-valencia",
-                    "color-zodiac",
-                  ]
-            widget: list
-      - label: "Settings"
-        name: "settings"
-        file: "source/_data/settings.yaml"
-        fields:
-          - label: "Primary Navigation Links"
-            name: "primaryNavLinks"
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
-          - label: "Secondary Navigation Links"
-            name: "secondaryNavLinks"
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
-          - label: "Social Media Links"
-            name: "socialMediaLinks"
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Icon, name: icon, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
-      - label: "Sponsors"
-        name: "sponsors"
-        file: "source/_data/sponsors.yaml"
-        fields:
-          - label: Global
-            name: links
-            widget: list
-            allow_add: true
-            collapsed: false
-            fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
-      - label: "Subscription"
-        name: "subscription"
-        file: "source/_data/subscription.yaml"
-        fields:
-          - label: Global
-            name: links
-            widget: list
-            allow_add: true
-            collapsed: false
-            fields:
-              - { label: URL, name: url, widget: string }
-              - { label: Label, name: label, widget: string }
-              - { label: Enabled, name: enabled, widget: boolean }
+        name: "a11y"
+        widget: "markdown"
+        required: false

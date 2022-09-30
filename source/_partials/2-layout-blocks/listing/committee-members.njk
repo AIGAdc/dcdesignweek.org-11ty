@@ -1,0 +1,48 @@
+<!-- Wave -->
+<div class="[ wave left ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-yellow-primary);  stroke-width: 0 !important;">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+
+<section class="[ mambo-section ][ flow-large ]" data-color="maroon-secondary-on-cream-secondary" id="{{ sectionOne.sectionOneHeader | slug }}">
+  <div class="[ container container-default ][ flow-large ]">
+    <h2>
+      Staff
+    </h2>
+    <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
+      {% for member in members %}
+        <li class="[ mambo-card committee ][ flow-large ]">
+          {# <div class="[ image ]">
+            <figure>
+              <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
+            </figure>
+          </div> #}
+          <div class="[ details ][ flow-small ]">
+            <div class="[ meta ]">
+              <h3 class="name">{{ member.name | safe }}</h3>
+              {% if member.pronunciation %}
+                <p class="pronunciation">( {{ member.pronunciation | safe | lower }} )</p>
+              {% endif %}
+            </div>
+            {% if member.pronouns %}
+              <p class="pronouns">{{ member.pronouns | safe }}</p>
+            {% endif %}
+            {% if member.position %}
+              <p class="position">{{ member.position | safe }}</p>
+            {% endif %}
+            {% if member.bio %}
+              <p class="bio">{{ member.bio | safe }}</p>
+            {% endif %}
+            <div>
+              {% if member.linkLabel1 %}
+                <a aria-label="{{ member.linkARIALabel1 }}" href="{{ member.linkURL1 }}">{{ member.linkLabel1 }}</a>
+              {% endif %}
+              {% if member.linklabel2 %}
+                <a aria-label="{{ member.linkARIALabel2 }}" href="{{ member.linkURL2 }}">{{ member.linkLabel2 }}</a>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

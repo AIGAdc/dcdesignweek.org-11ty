@@ -1,0 +1,53 @@
+<section class="[ mambo-hero mambo-section flow-large ]" data-color="maroon-primary-on-yellow-primary" id="{{ title | slug }}" style="background-image: url('{{ hero.featuredImage.image }}'); background-size: contain; background-repeat: repeat;">
+  <div class="[ container container-default ][ flow ]">
+    <span id="skip-to-content">
+      <h1>
+        {{ title }}
+      </h1>
+    </span>
+    <div class="[ details ] ">
+      <span class="[ type ]">
+        {{ eventDetails.filterType }}
+      </span> / 
+      <datetime class="[ weekday ]">
+        {{ eventDetails.startDate | day }}
+      </datetime> / 
+      <datetime class="[ month ]">
+        {{ eventDetails.startDate | month }}
+        {{ eventDetails.startDate | date }}
+      </datetime> /
+      <datetime class="[ time ]">
+        {{ eventDetails.startDate | time }}
+      </datetime>
+    </div>
+    <div class="[ buttons ]">
+      {% for ticket in hero.tickets %}
+        <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
+          {{ ticket.ticket.label }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="[ statuses ]">
+    {% if eventDetails.statusType == "Featured on Home" %}
+      <div class="[ status featured-on-home ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
+      </div>
+    {% elseif eventDetails.statusType == "Featured on Events" %}
+      <div class="[ status featured-on-events ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
+      </div>
+    {% elseif eventDetails.statusType == "Sold Out" %}
+      <div class="[ status sold-out ]">
+        <div class="container container-default">
+          {{eventDetails.statusLabel}}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+  <div aria-hidden="true" class="overlay"></div>
+</section>

@@ -1,0 +1,38 @@
+<!-- Wave -->
+<div class="[ wave right has-border ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-secondary);">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+
+<section class="mambo-section" data-color="maroon-primary-on-cream-secondary">
+  <nav class="pagination-events">
+    <div class="container container-default flow-large">
+      <h2>More events</h2>
+      <ul class="[ list ]">
+        <li>
+          <a class="[ mambo-anchor ]" href="/events/#events">Back to Events List</a>
+        </li>
+        {% set previousPost = collections.event | getPreviousCollectionItem(page) %}
+        {% set nextPost = collections.event | getNextCollectionItem(page) %}
+        {% if post.data.hidden == False %}
+          {% if previousPost %}
+            <!-- Will only display previous button when on the last item of collection -->
+            <li>
+              <a class="[ mambo-anchor stacked ]" href="{{ previousPost.url }}">Previous Event: <span>{{ previousPost.data.title }}</span></a>
+            </li>
+          {% endif %}
+          {% if nextPost %}
+            <!-- Will only display next button when on the first item of collection -->
+            <li>
+              <a class="[ mambo-anchor stacked ]" href="{{ nextPost.url }}">Next Event:  <span>{{ nextPost.data.title }}</span></a>
+            </li>
+          {% endif %}
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+</section>
+
+<!-- Wave -->
+<div class="[ wave right ]" style="fill: var(--dcdw-2022-maroon-primary); background-color: var(--dcdw-2022-cream-secondary); ">
+  {% include '1-global-blocks/wave.njk' %}
+</div>

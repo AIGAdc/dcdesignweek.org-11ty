@@ -1,12 +1,13 @@
-.filter-events__reset.control-group .mambo-button {
-    width: 100%;
-}
+// .mixitup-container-failed::after {
+//   content: "No events found, please refine the selected options";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+//   text-align: center;
+// }
 
-.mixitup-container-failed::after {
-    content: "No events found, please refine the selected options";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
+.filterEvents__reset button {
+  text-align: center;
+  padding: 0.625rem var(--size-24) !important;
 }

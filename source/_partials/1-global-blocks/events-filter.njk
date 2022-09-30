@@ -1,0 +1,124 @@
+<!-- Filter -->
+<form class="[ mambo-accordion-group ]">
+  <!-- Filter: Date -->
+  <fieldset class="[ mambo-expander ]" data-filter-group>
+    <!-- Trigger for hidden content -->
+    <legend class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventDate">
+      <h3>Date</h3>
+    </legend>
+    <!-- Hidden Content -->
+    <div class="[ answer is-expanded ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventDate">
+
+      {% for control in filters.filterEvents.day %}
+        <div class="[ mambo-input-checkbox ]">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %} {% if control.default == true %} selected {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
+            {{ control.label }}
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  </fieldset>
+
+  <!-- Filter: Location -->
+  <fieldset class="[ mambo-expander ]" data-filter-group>
+    <!-- Trigger for hidden content -->
+    <legend class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventLocation">
+      <h3>Location</h3>
+    </legend>
+    <!-- Hidden Content -->
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventLocation">
+      {% for control in filters.filterEvents.location %}
+        <div class="[ mambo-input-checkbox ]">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
+            {{ control.label }}
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  </fieldset>
+
+  <!-- Filter: Time -->
+  <fieldset class="[ mambo-expander ]" data-filter-group>
+    <!-- Trigger for hidden content -->
+    <legend class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventTime">
+      <h3>Time</h3>
+    </legend>
+    <!-- Hidden Content -->
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventTime">
+      {% for control in filters.filterEvents.time %}
+        <div class="[ mambo-input-checkbox ]">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
+            {{ control.label }}
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  </fieldset>
+
+  <!-- Filter: Type -->
+  <fieldset class="[ mambo-expander ]" data-filter-group>
+    <!-- Trigger for hidden content -->
+    <legend class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventType">
+      <h3>Type</h3>
+    </legend>
+    <!-- Hidden Content -->
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventType">
+      {% for control in filters.filterEvents.type %}
+        <div class="[ mambo-input-checkbox ]">
+          <label id="filterInput" for="{{ control.label | lower | slug }}">
+            <input class="{% if control.occurred == true %} occurred {% endif %}" type="checkbox" id="{{ control.label | lower | slug }}" name="event-date" value=".{{ control.label | lower | slug }}">
+            {{ control.label }}
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  </fieldset>
+
+  <!-- Filter: Status -->
+  <fieldset class="[ mambo-expander ]" data-filter-group>
+    <!-- Trigger for hidden content -->
+    <legend class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="eventStatus">
+      <h3>Status</h3>
+    </legend>
+    <!-- Hidden Content -->
+    <div class="[ answer ]" data-houdini-group="eventFilter" data-color="maroon-primary-on-cream-secondary" id="eventStatus">
+      <div class="[ mambo-input-checkbox ]">
+        <label id="filterInput" for="{{ control.label | lower | slug }}">
+          <input class="selected" type="checkbox" id="all" name="event-date" value=".mix:not(.past-event)">
+            Hide Past Events
+          </label>
+      </div>
+      <div class="[ mambo-input-checkbox ]">
+        <label id="filterInput" for="{{ control.label | lower | slug }}">
+          <input class="selected" type="checkbox" id="all" name="event-date" value=".mix:not(.sold-out)">
+            Hide Sold Out
+          </label>
+      </div>
+    </div>
+  </fieldset>
+
+  <!-- Button: Clear Filters -->
+  <div class=" filterEvents__reset control-group">
+    <button class="[ mambo-anchor action ]" data-color="maroon-primary-on-yellow-primary" type="reset">Clear Filters</button>
+  </div>
+</form>
+
+<script>
+  var disclosure = new Houdini('[data-houdini-group="eventFilter"]', {
+    isAccordion: true,
+    collapseOthers: true,
+    icon: 1,
+    /* If true, include an expand/collapse icon */
+    iconClass: 'houdini-toggle-icon',
+    /* The class to use for the expand/collapse icon */
+    iconAttribute: 'data-houdini-icon',
+    /* The data attribute to use for the expand/collapse icon */
+    iconShow: '<svg width="21" height="12" viewBox="0 0 21 12" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 0C10.0514 0 9.60345 0.167411 9.26221 0.502232L0.512669 9.07366C-0.17089 9.7433 -0.17089 10.8281 0.512669 11.4978C1.19623 12.1674 2.30359 12.1674 2.98715 11.4978L10.4992 4.13572L18.0129 11.4964C18.6964 12.1661 19.8038 12.1661 20.4873 11.4964C21.1709 10.8268 21.1709 9.74196 20.4873 9.07232L11.7378 0.500893C11.396 0.166072 10.9476 0 10.4992 0Z" fill="currentColor"/></svg>',
+    /* The icon to expand an accordion */
+    iconHide: '<svg width="21" height="12" viewBox="0 0 21 12" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 12C10.0514 12 9.60345 11.8326 9.26221 11.4978L0.512669 2.92634C-0.17089 2.2567 -0.17089 1.17188 0.512669 0.502232C1.19623 -0.167411 2.30359 -0.167411 2.98715 0.502232L10.4992 7.86428L18.0129 0.503571C18.6964 -0.166072 19.8038 -0.166072 20.4873 0.503571C21.1709 1.17321 21.1709 2.25804 20.4873 2.92768L11.7378 11.4991C11.396 11.8339 10.9476 12 10.4992 12Z" fill="currentColor"/></svg>',
+    /* The icon to collapse an accordion */
+  });
+</script>

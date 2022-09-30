@@ -1,42 +1,228 @@
-.mambo-cards {
-    width: 100%;
-}
-
 .mambo-card .image {
-    position: relative;
+  position: relative;
 }
 
-.mambo-card img {
-    aspect-ratio: 16/9;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    mix-blend-mode: luminosity;
+.mambo-card .image img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
 }
 
-.mambo-card .details {
-    min-height: 280px;
-    padding: var(--size-24);
+.mambo-card .details {}
+
+.mambo-card .details a {
+  font-weight: 800;
 }
 
 /* This is a hacky work around specifically for Speaker and Staff cards */
 .card .wysiwyg p {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap, 1rem);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 1rem);
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-.overlay--zodiac {}
+.featured-sponsors .sponsor-tier-one,
+.featured-sponsors .sponsor-tier-two {
+  grid-column: span 2;
+}
 
-#how-else-can-i-get-involved-with-dc-design-week-2022 img {
-    mix-blend-mode: unset;
+/* Cards */
+
+/* Events */
+
+.mambo-card .media {
+  background-color: var(--dcdw-2022-yellow-primary);
+}
+
+.mambo-card .media img {
+  box-shadow: none;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.mambo-card .media {
+  background-color: var(--dcdw-2022-yellow-primary);
+  border: none;
+  box-shadow: none;
+  transition: 0.2s;
+}
+
+.mambo-card .media:hover {
+  box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+  -webkit-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+  -moz-box-shadow: 20px 20px 0px 0px var(--dcdw-2022-pink-primary);
+}
+
+.mambo-card .title {
+  font-family: var(--dcdw-2022-brand-recursive);
+}
+
+.mambo-card .meta {
+  display: flex;
+  grid-gap: var(--size-40);
+}
+
+.mambo-card .day-date {
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-weight: 700;
+  position: relative;
+  padding: var(--size-8);
+  text-transform: uppercase;
+  font-size: var(--size-18);
+  line-height: 1.25;
+}
+
+.mambo-card .day,
+.mambo-card .date {
+  position: relative;
+  z-index: 100;
+}
+
+.mambo-card .day-date svg {
+  fill: var(--dcdw-2022-yellow-primary) !important;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  bottom: 0;
+  left: -12px;
+  width: 88px;
+}
+
+.mambo-card .time-location {
+  padding: var(--size-8);
+}
+
+// Speakers 
+
+.mambo-card.speaker .details {
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-8);
+}
+
+.mambo-card.speaker .meta {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--size-8);
+}
+
+.mambo-card.speaker .image img {
+  box-shadow: none;
+}
+
+.mambo-card.committee .image {
+  max-width: 248px;
+}
+
+.mambo-card.committee .image img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.mambo-card.committee .meta {
+  display: flex;
+  grid-gap: 0;
+  flex-direction: column;
+}
+
+.speakers .mambo-card .title {
+  font-family: var(--dcdw-2022-brand-dm-sans);
+}
+
+.mambo-card.speaker .name {
+  font-size: var(--size-24);
+}
+
+.mambo-card.speaker .meta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mambo-card.speaker a {
+  font-weight: 400;
+}
+
+.mambo-card.sponsor {
+  border: solid 1px var(--dcdw-2022-yellow-secondary);
+}
+
+.mambo-card.sponsor .media img {
+  mix-blend-mode: luminosity;
+  filter: hue-rotate(120);
+}
+
+// Page Specific Styles
+
+/* Committee */
+.mambo-card.committee {
+  border: solid 1px currentColor;
+  padding: var(--size-24);
+}
+
+.layout-single-committee .mambo-card.committee {
+  border: none;
+  padding: 0;
+}
+
+.layout-single-committee .mambo-card.horizontal {
+  display: grid;
+  grid-column-gap: var(--size-32);
+  grid-template-areas:
+    "image"
+    "body";
+  grid-template-columns: 1fr;
+}
+
+.layout-single-committee .mambo-card.horizontal figure {
+  grid-area: image;
+}
+
+.layout-single-committee .mambo-card.horizontal figure img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.layout-single-committee .mambo-card.horizontal .details {
+  grid-area: body;
+}
+
+.layout-single-committee .mambo-card.horizontal .meta {
+  display: flex;
+  font-weight: 900;
+  grid-gap: var(--size-8);
+}
+
+@media screen and (min-width: 48rem) {
+  .layout-single-committee .mambo-card.horizontal {
+    grid-column-gap: var(--size-64);
+    grid-template-areas:
+      "image body"
+      ". body";
+    grid-template-columns: 316px 1fr;
+  }
+}
+
+// Events 
+
+.mambo-card.event {
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-24);
+}
+
+.mambo-card.event .detail-meta {
+  order: 1;
+
+  display: flex;
+  flex-direction: column;
+  grid-gap: var(--size-24);
 }

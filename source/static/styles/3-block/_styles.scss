@@ -1,9 +1,20 @@
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+.filter-info {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  padding: 1rem 0;
 }
 
-.toolbar-tickets {
-    text-align: left;
+.filter-info h2 {
+  font-family: var(--dcdw-2022-brand-recursive) !important;
+}
+
+.contact-us.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 64rem) {
+  .contact-us.desktop {
+    display: block;
+  }
 }

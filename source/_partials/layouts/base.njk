@@ -1,56 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" class="2022-DC-Design-Week layout-{{ title | slug }}" id="start">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ title }} | 2022 DC Design Week</title>
-        <meta name="description" content="{{ description }}">
-        <meta name="theme-color" content="#f6c84c">
-        <!-- Social -->
-        <meta property="fb:app_id" content="123456789">
-        <meta property="og:url" content="https://dcdesignweek.org">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="{{ title }} | 2022 DC Design Week">
-        <meta property="og:image" content="/static/images/og-image.png">
-        <meta property="og:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
-        <meta property="og:description" content="{{ description }}">
-        <meta property="og:site_name" content="2022 DC Design Week">
-        <meta property="og:locale" content="en_US">
-        <meta property="article:author" content="">
-        <!-- Twitter -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@dcdesignweek">
-        <meta name="twitter:creator" content="@dcdesignweek">
-        <meta name="twitter:url" content="https://dcdesignweek.org">
-        <meta name="twitter:title" content="{{ title }} | 2022 DC Design Week">
-        <meta name="twitter:description" content="{{ description }}">
-        <meta name="twitter:image" content="/static/images/og-image.png">
-        <meta name="twitter:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
-        <!-- capture the CSS content as a Nunjucks variable -->
-        {% set css %}
-        {% include "static/styles/app.css" %}
-        {% endset %}
-        <!-- feed it through our cssmin filter to minify -->
-        <style type="text/css">
-            {{css | cssmin | safe}}
-        </style>
-        <!-- Script: Font Awesome  -->
-        <link rel="stylesheet" href="https://use.typekit.net/jvp8qxy.css">
-        <script src="https://kit.fontawesome.com/e366f5c036.js" crossorigin="anonymous"></script>
-        <!-- Script: App.js -->
-        <script type="text/javascript" src="/static/scripts/app.js"></script>
-        <!-- Script: Netlify Identity Widget -->
-        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </head>
-    <body>
-        {% include '1-mambo-blocks/header.njk' %}
-        <main id="content">
-            {% block content %}
-                {{ content | safe }}
-            {% endblock %}
-            {% include '1-mambo-blocks/newsletter.njk' %}
-        </main>
-        {% include '1-mambo-blocks/footer.njk' %}
-    </body>
+<html lang="en" class="2022-DC-Design-Week layout-{{ layout | slug }} page-{{ title | slug | lower | safe }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | 2022 DC Design Week</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+    <!-- Social -->
+    <meta property="fb:app_id" content="123456789">
+    <meta property="og:url" content="https://dcdesignweek.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }} | 2022 DC Design Week">
+    <meta property="og:image" content="/static/images/og-image.png">
+    <meta property="og:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:site_name" content="2022 DC Design Week">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@dcdesignweek">
+    <meta name="twitter:creator" content="@dcdesignweek">
+    <meta name="twitter:url" content="https://dcdesignweek.org">
+    <meta name="twitter:title" content="{{ title }} | 2022 DC Design Week">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="/static/images/og-image.png">
+    <meta name="twitter:image:alt" content="Advertisement of the 2022 DC Design Week website that is happening on October 14-21. There are shaped surrounding the title of the card on a yellow background.">
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+    {% include "static/styles/app.css" %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style type="text/css">
+      {{css | cssmin | safe}}
+    </style>
+    <!-- Script: Netlify Identity Widget -->
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% if page.url == "/" %}
+      <!-- Script: Parallax -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    {% endif %}
+    <!-- Script: jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script>
+      // TabIndex Script
+      (function ($) {
+
+        jQuery.extend(jQuery.expr[':'], {
+          focusable: function (el, index, selector) {
+            var $element = $(el);
+            return $element.is(':input:enabled, a[href], area[href], object, [tabindex]') && !$element.is(':hidden');
+          }
+        });
+
+        function focusOnElement($element) {
+          if (!$element.length) {
+            return;
+          }
+          if (!$element.is(':focusable')) {
+            // add tabindex to make focusable and remove again
+            $element
+              .attr('tabindex', -1)
+              .on('blur focusout', function () {
+                $(this).removeAttr('tabindex');
+              });
+          }
+          $element.focus();
+        }
+
+        $(document).ready(function () {
+          // if there is a '#' in the URL (someone linking directly to a page with an anchor)
+          if (document.location.hash) {
+            focusOnElement($(document.location.hash));
+          }
+
+          // if the hash has been changed (activation of an in-page link)
+          $(window).bind('hashchange', function () {
+            var hash = "#" + window
+              .location
+              .hash
+              .replace(/^#/, '');
+            focusOnElement($(hash));
+          });
+        });
+
+      })(jQuery);
+    </script>
+    <!-- Script: App.js -->
+    <script type="text/javascript" src="/static/scripts/app.js"></script>
+  </head>
+  <body>
+    {% include '1-global-blocks/site-header.njk' %}
+    <main id="content">
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+      {% include '2-layout-blocks/featured/newsletter.njk' %}
+      {% include '1-global-blocks/skip-to-top.njk' %}
+    </main>
+    {% include '1-global-blocks/site-footer.njk' %}
+  </body>
 </html>

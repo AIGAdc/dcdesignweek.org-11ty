@@ -1,56 +1,56 @@
-/* Component: mambo-accordion */
-.mambo-accordions {
-    --gap: var(--size-16);
-}
-
-.mambo-accordion .question {
-    // Gap Settings
-    gap: var(--size-16);
-    // Display Settings
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    // 
-    background-color: transparent;
-    font-family: unset;
-    font-size: var(--size-20);
-    font-weight: var(--weight-600);
-    justify-content: unset;
-    line-height: 1.5;
-    padding: var(--size-24);
-    text-align: left;
-    width: 100%;
-}
-
 .mambo-accordion .question .question-icon {
-    flex-grow: 1;
-    text-align: right;
+  flex-grow: 1;
+  text-align: right;
 }
 
-.mambo-accordion .answer {
-    display: none;
+// Mambo Expander
+.mambo-accordion-group>*:not(:first-child) {
+  margin-top: var(--size-8);
 }
 
-.mambo-accordion .answer.is-expanded {
-    display: block;
-    position: relative;
-    top: -2px;
-    padding: var(--size-20);
+.mambo-expander .mambo-accordion__header {
+  display: block;
+  font-size: var(--size-18);
+  width: 100%;
 }
 
-.mambo-accordion .answer.is-expanded:focus {
-    box-shadow: unset;
-    outline: unset;
-    overflow: unset;
+.mambo-expander .question {
+  // Gap Settings
+  gap: var(--size-16);
+  // Display Settings
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  // 
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-size: var(--size-20);
+  justify-content: unset;
+  line-height: 1.5;
+  padding: var(--size-24);
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media screen and (min-width:64rem) {
-    .mambo-accordion .question {
-        text-align: right;
-    }
+.mambo-expander .is-expanded .answer {
+  display: block;
+}
 
-    .mambo-accordion .answer.is-expanded {
-        padding: var(--size-40) var(--size-80);
-    }
+.mambo-expander .answer {
+  border: solid 1px currentColor;
+  padding: var(--size-8);
+}
 
+.page-faq .mambo-expander .answer {
+  padding: var(--size-24);
+}
+
+.image {
+  position: relative;
+  display: block;
+  margin: auto;
 }

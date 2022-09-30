@@ -1,0 +1,61 @@
+{% if page.url == "/about/" %}
+  <!-- Wave -->
+  <div class="[ wave left ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-primary);">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+
+  {% for content in featured.a11y %}
+    <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-yellow-primary" id="{{ content.header | slug }}">
+      <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+        <div class="[ flow ]">
+          <h2>{{ content.header | md | safe }}</h2>
+          <p>{{ content.body | md | safe }}</p>
+          <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+            {{ content.linkLabel | safe }}
+          </a>
+        </div>
+        {% if content.image %}
+          <figure>
+            <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+          </figure>
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+
+  <!-- Wave -->
+  <div class="[ wave right ]" style="fill: var(--dcdw-2022-maroon-primary); background-color: var(--dcdw-2022-yellow-primary);">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% endif %}
+
+{% if page.url == "/faq/" %}
+  <!-- Wave -->
+  <div class="[ wave right ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary); ">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+
+  {% for content in featured.a11y %}
+    <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-yellow-primary" id="{{ content.header | slug }}">
+      <div class="[ container container-default ][ flow ][ grid-flow grid-flow-center grid-two-columns ]">
+        <div class="[ flow ]">
+          <h2>{{ content.header | md | safe }}</h2>
+          <p>{{ content.body | md | safe }}</p>
+          <a class="[ mambo-anchor action ]" data-color="cream-on-maroon-primary" href="{{ content.linkURL }}">
+            {{ content.linkLabel | safe }}
+          </a>
+        </div>
+        {% if content.image %}
+          <figure>
+            <img alt="{{ content.imageALT }}" src="{{ content.image }}">
+          </figure>
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+
+  <!-- Wave -->
+  <div class="[ wave right ]" style="fill: var(--dcdw-2022-maroon-primary); background-color: var(--dcdw-2022-yellow-primary); ">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% endif %}

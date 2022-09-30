@@ -1,0 +1,106 @@
+<!-- Wave -->
+<div class="[ wave ]" style="fill: var(--dcdw-2022-yellow-primary); background-color: var(--dcdw-2022-cream-secondary);">
+  <svg id="svg" viewBox="0 0 1440 275" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+    <style>
+      .path-0 {
+        animation: pathAnim-0 60s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes pathAnim-0 {
+        0% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        25% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 93.78571428571428,203.21428571428572 187.57142857142856,206.42857142857142 300,192 C 412.42857142857144,177.57142857142858 543.4999999999999,145.50000000000003 680,138 C 816.5000000000001,130.49999999999997 958.4285714285716,147.57142857142858 1086,162 C 1213.5714285714284,176.42857142857142 1326.7857142857142,188.21428571428572 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        50% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 150.53571428571428,177.85714285714286 301.07142857142856,155.71428571428572 418,142 C 534.9285714285714,128.28571428571428 618.25,122.99999999999997 710,148 C 801.75,173.00000000000003 901.9285714285713,228.28571428571428 1025,242 C 1148.0714285714287,255.71428571428572 1294.0357142857142,227.85714285714286 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        75% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,223.46428571428572 206,246.92857142857144 330,253 C 454,259.07142857142856 598.9999999999999,247.74999999999994 740,252 C 881.0000000000001,256.25000000000006 1018.0000000000002,276.0714285714286 1134,270 C 1249.9999999999998,263.9285714285714 1345,231.9642857142857 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+        100% {
+          d: path("M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z");
+        }
+      }
+    </style>
+    <path d="M 0,400 C 0,400 0,200 0,200 C 103,225.39285714285714 206,250.78571428571428 325,253 C 444,255.21428571428572 578.9999999999999,234.24999999999997 709,208 C 839.0000000000001,181.75000000000003 964,150.21428571428572 1085,148 C 1206,145.78571428571428 1323,172.89285714285714 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path>
+  </svg>
+</div>
+<section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="faq">
+  <div class="[ container container-default ][ grid-flow grid-flow-start grid-four-columns ]">
+    <div class="column-span-two">
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="[ column-span-four ][ grid-flow grid-flow-start grid-four-columns ]">
+      <div class="column-span-three flow-large">
+        <!-- Main faq -->
+        <ul class="[ faq-list ] [  ] [ flow ]">
+          {% for question in faq.questions %}
+            <li class="[ mambo-expander ]">
+              <!-- Trigger for hidden content -->
+              <div aria-label="Filter: Event Date" class="[ mambo-accordion__header ]" data-color="cream-on-maroon-primary" data-houdini-toggle="{{ question.trigger }}">
+                <h3>{{ question.question | md | safe }}</h3>
+              </div>
+              <!-- Hidden Content -->
+              <div class="answer [ wysiwyg ] {% if question.expanded == true %} [ is-expanded ] {% endif %} ]" data-houdini-group="faq" id="{{ question.trigger }}">
+                {{ question.answer | md | safe }}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="column-span-one [ flow ]" id="contact">
+        <h2>
+			      Contact
+			    </h2>
+        <div>
+          <strong>
+              General Questions
+            </strong>
+          <p>
+					    Email: <a href="mailto:designweek@dc.aiga.org">designweek@dc.aiga.org</a>
+          </p>
+        </div>
+        <div>
+          <strong>
+			        Accessibility Questions
+			      </strong>
+          <p>
+				      Email: <a href="mailto:accessibility@dc.aiga.org">accessibility@dc.aiga.org</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  var disclosure = new Houdini('[data-houdini-group="faq"]', {
+    // Content
+    contentClass: 'houdini',
+    expanded: false,
+    expandedClass: 'is-expanded',
+    // Toggle Buttons
+    btnAfter: true, // If true, load toggle button after the content
+    btnClass: 'question', // The class to add to toggle buttons
+    btnAttribute: 'data-houdini-toggle', // The data attribute to use for toggle buttons
+    btnTextAttribute: 'data-houdini-button', // The data attribute for the button text
+    btnLabelAttribute: 'data-houdini-label', // The data attribute for aria-label text
+    btnPreexisting: 'data-houdini-button-preexisting', // The data attribute added to pre-existing buttons
+    // Accordion
+    isAccordion: true, // If true, treat as an accordion
+    collapseOthers: true, // If true, only allow on open piece of content at a time
+    headingClass: 'header', // The class to add to the heading element
+    // Icons
+    icon: -1, // If true, include an expand/collapse icon
+    iconClass: 'question-icon', // The class to use for the expand/collapse icon
+    iconAttribute: 'question-icon', // The data attribute to use for the expand/collapse icon
+    /* The data attribute to use for the expand/collapse icon */
+    iconShow: '<svg width="21" height="12" viewBox="0 0 21 12" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 0C10.0514 0 9.60345 0.167411 9.26221 0.502232L0.512669 9.07366C-0.17089 9.7433 -0.17089 10.8281 0.512669 11.4978C1.19623 12.1674 2.30359 12.1674 2.98715 11.4978L10.4992 4.13572L18.0129 11.4964C18.6964 12.1661 19.8038 12.1661 20.4873 11.4964C21.1709 10.8268 21.1709 9.74196 20.4873 9.07232L11.7378 0.500893C11.396 0.166072 10.9476 0 10.4992 0Z" fill="currentColor"/></svg>',
+    /* The icon to expand an accordion */
+    iconHide: '<svg width="21" height="12" viewBox="0 0 21 12" xmlns="http://www.w3.org/2000/svg"><path d="M10.4992 12C10.0514 12 9.60345 11.8326 9.26221 11.4978L0.512669 2.92634C-0.17089 2.2567 -0.17089 1.17188 0.512669 0.502232C1.19623 -0.167411 2.30359 -0.167411 2.98715 0.502232L10.4992 7.86428L18.0129 0.503571C18.6964 -0.166072 19.8038 -0.166072 20.4873 0.503571C21.1709 1.17321 21.1709 2.25804 20.4873 2.92768L11.7378 11.4991C11.396 11.8339 10.9476 12 10.4992 12Z" fill="currentColor"/></svg>',
+    /* The icon to collapse an accordion */
+  });
+</script>

@@ -1,0 +1,10 @@
+.list {
+  align-items: center;
+  display: flex;
+  grid-gap: var(--gap, 1rem);
+}
+
+.events-list {
+  grid-gap: var(--size-56);
+  margin-top: 0 !important;
+}

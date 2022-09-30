@@ -1,0 +1,72 @@
+<!-- Wave -->
+<div class="[ wave left ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-yellow-primary);">
+  {% include '1-global-blocks/wave.njk' %}
+</div>
+
+<section class="[ mambo-section ]" data-color="maroon-primary-on-cream-secondary" id="events">
+  <div class="[ container container-default ][ flow ]">
+    <h2>
+      Filters
+    </h2>
+    <div class="[ grid-flow grid-flow-start grid-four-columns ]">
+      <div class="[ column-span-one ]" id="events-filter">
+        {% include '1-global-blocks/events-filter.njk' %}
+      </div>
+      <div class="[ column-span-three ][ flow ]">
+        <div class="controls-pagination desktop">
+          <h2 aria-live="polite">
+            <span class="mixitup-page-stats"></span>
+          </h2>
+        </div>
+        <ul class="[ events-list ][ column-span-three ][ grid-flow grid-two-columns ][ mixitup-container ]" id="events-list">
+          {% for event in collections.event %}
+            {% include '1-global-blocks/card-event.njk' %}
+          {% endfor %}
+        </ul>
+        <a class="mambo-anchor action" data-color="maroon-primary-on-pink-tertiary" href="#events-filter">
+          Back to Filter
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mixitup -->
+<script>
+  var containerEl = document.querySelector(".mixitup-container");
+  var mixer = mixitup(containerEl, {
+    multifilter: {
+      enable: true
+    },
+    animation: {
+      enable: false
+    },
+    pagination: {
+      limit: 24
+    },
+    templates: {
+      pageStats: 'Displaying ${totalTargets} Events.',
+      pageStatsFail: 'No events found.'
+    }
+  });
+</script>
+
+<!-- Houdini -->
+<script>
+  var showHideButton = new Houdini("[data-houdini]");
+  var accordion = new Houdini('[data-houdini-group="additional-filters"]', {
+    isAccordion: true,
+    collapseOthers: true,
+    icon: 1,
+    /* If true, include an expand/collapse icon */
+    iconClass: 'houdini-toggle-icon',
+    /* The class to use for the expand/collapse icon */
+    iconAttribute: 'data-houdini-icon',
+    /* The data attribute to use for the expand/collapse icon */
+    iconShow: '<i class="fas fa-chevron-right"></i>',
+    /* The icon to expand an accordion */
+    iconHide: '<i class="fas fa-chevron-down"></i>',
+    /* The icon to collapse an accordion */
+  });
+  var datalist = new Houdini("[data-houdini-dl] dd", {isAccordion: true});
+</script>

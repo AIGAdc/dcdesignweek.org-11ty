@@ -1,0 +1,51 @@
+{# Filter: Date #}
+{% if event.data.eventDetails.filterDate == "Friday, October 14" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Saturday, October 15" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Sunday, October 16" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Monday, October 17" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Tuesday, October 18" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Wednesday, October 19" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Thursday, October 20" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% elseif event.data.eventDetails.filterDate == "Friday, October 21" %}
+  {{ event.data.eventDetails.filterDate | slug | lower }}
+{% endif %}
+
+{# Filter: Location #}
+{% if event.data.eventDetails.filterLocation == "In-Person" %}
+  {{ event.data.eventDetails.filterLocation | slug | lower }}
+{% elseif event.data.eventDetails.filterLocation == "Zoom" %}
+  {{ event.data.eventDetails.filterLocation | slug | lower }}
+{% elseif event.data.eventDetails.filterLocation == "Hybrid" %}
+  {{ event.data.eventDetails.filterLocation | slug | lower }}
+{% endif %}
+
+{# Filter: Time #}
+{% if event.data.eventDetails.filterTime == "Morning" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% elseif event.data.eventDetails.filterTime == "Daytime" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% elseif event.data.eventDetails.filterTime == "Evening" %}
+  {{ event.data.eventDetails.filterTime | slug | lower }}
+{% endif %}
+
+{# Filter: Time #}
+{% if event.data.eventDetails.filterType == "Creative Breakfast" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Creative Lunch" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Keynote" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Party" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Talk/Panel" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% elseif event.data.eventDetails.filterType == "Workshop" %}
+  {{ event.data.eventDetails.filterType | slug | lower }}
+{% endif %}

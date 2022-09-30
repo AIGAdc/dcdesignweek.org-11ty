@@ -1,8 +1,12 @@
 .wysiwyg>*:not(:first-child) {
-    margin-top: var(--size-16);
+  margin-top: var(--size-16);
 }
 
 .wysiwyg ul,
 .wysiwyg li {
-    margin-left: var(--size-16);
+  margin-left: var(--size-16);
+}
+
+#details .wysiwyg h2:last-of-type {
+  margin-top: var(--size-40) !important;
 }

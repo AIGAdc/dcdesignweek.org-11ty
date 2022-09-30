@@ -1,49 +1,55 @@
-// Start Typography
-h1 {
+h1,
+.heading-1 {
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-size: var(--size-32);
+  font-weight: 900;
+}
+
+h2,
+.heading-2 {
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-size: var(--size-24);
+  font-weight: 900;
+}
+
+h3,
+.heading-3 {
+  font-family: var(--dcdw-2022-brand-recursive);
+  font-size: var(--size-18);
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 48rem) {
+
+  h1,
+  .heading-1 {
     font-size: var(--size-48);
-    line-height: var(--size-48);
-    text-shadow: 3px 3px 0px var(--color-white);
-    text-transform: uppercase;
+  }
 }
 
-h2 {
-    font-size: var(--size-24);
-    line-height: var(--size-32);
-}
+@media screen and (min-width: 64rem) {
 
-h3 {
-    font-size: var(--size-18);
-}
+  h1,
+  .heading-1 {
+    font-size: var(--size-88);
+  }
 
-@media screen and (min-width:48rem) {
-    h1 {
-        font-size: var(--size-64);
-        line-height: var(--size-72);
-    }
+  .layout-home-internal h1 {
+    font-size: var(--size-88);
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+    max-width: 16ch;
+  }
 
-}
+  h2,
+  .heading-2 {
+    font-size: var(--size-32);
+  }
 
-@media screen and (min-width:64rem) {
-    h1 {
-        font-size: var(--size-104);
-        line-height: var(--size-88);
-    }
-
-    h2 {
-        font-size: var(--size-32);
-        line-height: var(--size-48);
-    }
-
-    h3 {
-        font-size: var(--size-20);
-    }
-
-}
-
-@media screen and (min-width:85.375rem) {
-    h2 {
-        font-size: var(--size-40);
-        line-height: var(--size-56);
-    }
-
+  h3,
+  .heading-3 {
+    font-size: var(--size-20);
+  }
 }
