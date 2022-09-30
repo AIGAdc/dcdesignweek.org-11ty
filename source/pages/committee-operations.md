@@ -71,7 +71,7 @@ members:
     pronouns: she | her | hers
     position: Partnerships Lead
     bio:
-    linkLabel1: Wesbite
+    linkLabel1: Website
     linkURL1: http://phimher.com/
     linkLabel2:
     linkURL2:
