@@ -124,6 +124,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./source/static/images");
   eleventyConfig.addPassthroughCopy("./source/static/scripts");
   eleventyConfig.addPassthroughCopy("./source/static/styles/app.css");
+  eleventyConfig.addPassthroughCopy("./source/favicon.ico");
 
   // Transforms
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
