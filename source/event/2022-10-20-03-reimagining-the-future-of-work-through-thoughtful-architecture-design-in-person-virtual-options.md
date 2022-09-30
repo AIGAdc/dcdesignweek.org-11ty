@@ -151,7 +151,7 @@ a11y: >-
   If you need any additional accommodations, please contact us using a method that works best for you:
 
 
-  * [Email our accessibility team at accessibility@dc.aiga.org.](mailto:accessibility@dc.aiga.org)
+  * [Email our accessibility team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
 
   * [Call or text our accessibility lead Josh Kim.](tele:571-422-2656)
 
