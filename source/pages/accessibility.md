@@ -11,19 +11,12 @@ pageSettings:
 hero:
   colorCombo: maroon-primary-on-cream
   header: Commitment to accessibility
-  body: "**DC Design Week is committed to improving accessibility and inclusion
+  body: DC Design Week is committed to improving accessibility and inclusion
     efforts each year. We recognize this is a journey and we are still far from
-    our ideal.**"
+    our ideal.
 sections:
   - section:
-      showWaveTop: true
-      waveTopFill: var(--dcdw-2022-cream-primary) 
-      waveTopBackground: var(--dcdw-2022-yellow-primary)
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-cream-secondary)
-      waveBottomBackground: var(--dcdw-2022-cream-primary)
-      colorCombo: maroon-primary-on-cream
-      header: "This accessibility statement aims to:"
       body: >-
         * Provide transparency on our efforts 
 
@@ -32,15 +25,15 @@ sections:
         * Provide contact information to request any accommodations that may have been missed or undocumented
 
         * Encourage feedback from the community to suggest how we can be more inclusive in the future.
-  - section:
-      showWaveTop: false
-      waveTopFill: var(--dcdw-2022-yellow-primary)
-      waveTopBackground: var(--dcdw-2022-cream-secondary)
-      showWaveBottom: true
       waveBottomFill: var(--dcdw-2022-cream-secondary)
-      waveBottomBackground: var(--dcdw-2022-cream-secondary)
-      colorCombo: maroon-primary-on-cream-secondary
-      header: What we’re working on
+      waveTopBackground: var(--dcdw-2022-yellow-primary)
+      colorCombo: maroon-primary-on-cream
+      header: "This accessibility statement aims to:"
+      waveBottomBackground: var(--dcdw-2022-cream-primary)
+      showWaveTop: true
+      waveTopFill: var(--dcdw-2022-cream-primary)
+  - section:
+      showWaveBottom: true
       body: >-
         We’re working with our content curators to ensure all talks are
         inclusively crafted.
@@ -67,15 +60,15 @@ sections:
         AIGA National is also auditing and redesigning the template used by all chapters, including DC, to make registration and access to videos more accessible to everyone.
 
         Is there anything else we should be doing? Let us know by emailing our accessibility team at [accessibility@dc.aiga.org](mailto:accessibility@dc.aiga.org).
-  - section:
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
+      header: What we’re working on
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
       showWaveTop: false
       waveTopFill: var(--dcdw-2022-yellow-primary)
-      waveTopBackground: var(--dcdw-2022-cream-secondary)
+  - section:
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-cream-secondary)
-      waveBottomBackground: var(--dcdw-2022-cream-secondary)
-      colorCombo: maroon-primary-on-cream-secondary
-      header: Event Accommodations
       body: >-
         We’re providing the following accommodations for our events:
 
@@ -92,15 +85,15 @@ sections:
         * When possible, we’ll share materials and presentations for an event prior to it starting. Follow along comfortably with your own technology and at your own pace.
 
           * We can’t guarantee that all of our events will be able to share their materials ahead of time because some talks may contain classified information or may not have the resources and time to do so.
-  - section:
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
+      header: Event Accommodations
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
       showWaveTop: false
       waveTopFill: var(--dcdw-2022-yellow-primary)
-      waveTopBackground: var(--dcdw-2022-cream-secondary)
+  - section:
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-cream-secondary)
-      waveBottomBackground: var(--dcdw-2022-cream-secondary)
-      colorCombo: maroon-primary-on-cream-secondary
-      header: What We’re Missing
       body: >-
         We’re still at the beginning of our accessibility journey and want to be
         transparent about the limitations around our budget, experience,
@@ -113,15 +106,15 @@ sections:
         * Language translation
 
         * Transportation to and from events.
-  - section:
+      waveBottomFill: var(--dcdw-2022-cream-secondary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
+      header: What We’re Missing
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
       showWaveTop: false
       waveTopFill: var(--dcdw-2022-yellow-primary)
-      waveTopBackground: var(--dcdw-2022-cream-secondary)
+  - section:
       showWaveBottom: true
-      waveBottomFill: var(--dcdw-2022-maroon-primary)
-      waveBottomBackground: var(--dcdw-2022-cream-secondary)
-      colorCombo: maroon-primary-on-cream-secondary
-      header: Request an Accommodation
       body: >-
         We recognize that our events are still not completely accessible by
         default. If you need an accommodation for any of our events, please
@@ -136,4 +129,11 @@ sections:
 
 
         We honor your privacy. No identifying information like your name is required to request an accommodation, and all details will be deleted once completed.
+      waveBottomFill: var(--dcdw-2022-maroon-primary)
+      waveTopBackground: var(--dcdw-2022-cream-secondary)
+      colorCombo: maroon-primary-on-cream-secondary
+      header: Request an Accommodation
+      waveBottomBackground: var(--dcdw-2022-cream-secondary)
+      showWaveTop: false
+      waveTopFill: var(--dcdw-2022-yellow-primary)
 ---

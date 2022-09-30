@@ -10,7 +10,7 @@
         </p>
       </div>
       <ul class="[ events-list ][ column-span-four ][ grid-flow grid-three-columns ]">
-        {% for event in collections.event | reverse | limit(3) %}
+        {% for event in collections.event | limit(3) %}
           {% include '1-global-blocks/card-event.njk' %}
         {% endfor %}
       </ul>

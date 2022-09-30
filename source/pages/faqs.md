@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
+description: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding streaming links for events? We’ve got you covered.
 layout: page
 permalink: /faq/
 pageSettings:
@@ -9,5 +9,5 @@ pageSettings:
 hero:
   colorCombo:
   header:
-  body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding a streaming link? Want tips to get the most out of our events? We’ve got you covered.
+  body: DC Design Week has a lot of moving parts, so if you’ve got questions, we’ve got answers. Need help finding streaming links for events? We’ve got you covered.
 ---

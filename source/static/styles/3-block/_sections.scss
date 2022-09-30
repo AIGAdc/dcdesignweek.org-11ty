@@ -16,6 +16,8 @@
   }
 }
 
-#newsletter {
-  padding-bottom: var(--size-120);
+@media screen and (min-width: 64rem) {
+  #newsletter {
+    padding-bottom: var(--size-120);
+  }
 }

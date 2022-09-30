@@ -948,10 +948,11 @@ h3,
     padding: var(--size-64) var(--size-64) 0 var(--size-64);
   }
 }
-#newsletter {
-  padding-bottom: var(--size-120);
+@media screen and (min-width: 64rem) {
+  #newsletter {
+    padding-bottom: var(--size-120);
+  }
 }
-
 .mambo-accordion .question .question-icon {
   flex-grow: 1;
   text-align: right;
@@ -1046,9 +1047,14 @@ h3,
   }
 }
 #events .mambo-anchor {
-  margin-top: var(--size-64);
+  margin-top: var(--size-32);
 }
 
+@media screen and (min-width: 64rem) {
+  #events .mambo-anchor {
+    margin-top: var(--size-64);
+  }
+}
 #events-filter .mambo-anchor {
   margin-top: var(--size-24);
 }
@@ -1415,7 +1421,6 @@ h3,
 }
 
 .mambo-hero h1 {
-  font-size: 2.75rem;
   font-weight: 900;
   max-width: 12ch;
 }
@@ -1444,6 +1449,10 @@ h3,
   display: flex;
   flex-wrap: wrap;
   grid-gap: var(--size-20);
+}
+
+.mambo-hero .buttons {
+  margin-bottom: var(--size-32);
 }
 
 .mambo-hero .details {
@@ -1647,8 +1656,6 @@ h3,
 .pagination-committee,
 .pagination-events {
   padding: var(--size-24) 0;
-  overflow-y: hidden;
-  overflow-x: auto;
 }
 
 .pagination-committee {

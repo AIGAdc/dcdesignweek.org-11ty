@@ -20,7 +20,7 @@
         {{ eventDetails.startDate | time }}
       </datetime>
     </div>
-    <div class="[ buttons ]" style="margin-bottom: var(--size-32);">
+    <div class="[ buttons ]">
       {% for ticket in hero.tickets %}
         <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
           {{ ticket.ticket.label }}

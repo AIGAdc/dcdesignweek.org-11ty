@@ -1,10 +1,10 @@
 ---
 eventDetails:
-  statusLabel: Featured on Home
+  statusLabel: ""
   filterTime: Morning
   filterDate: Tuesday, October 18
   endDate: 2022-10-18T14:30:00.000Z
-  statusType: Featured on Home
+  statusType: null
   filterLocation: Hybrid
   startDate: 2022-10-18T13:00:00.000Z
   filterType: Creative Breakfast
@@ -150,6 +150,7 @@ preparation: >-
 
   * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
     
+
 
 
     

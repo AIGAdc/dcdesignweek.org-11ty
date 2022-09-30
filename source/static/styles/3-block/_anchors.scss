@@ -41,7 +41,13 @@
 }
 
 #events .mambo-anchor {
-  margin-top: var(--size-64);
+  margin-top: var(--size-32);
+}
+
+@media screen and (min-width: 64rem) {
+  #events .mambo-anchor {
+    margin-top: var(--size-64);
+  }
 }
 
 #events-filter .mambo-anchor {
