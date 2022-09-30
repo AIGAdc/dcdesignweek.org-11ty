@@ -109,6 +109,10 @@ a {
   scroll-margin-bottom: 2rem;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 a:focus,
 input:focus,
 button:focus {
