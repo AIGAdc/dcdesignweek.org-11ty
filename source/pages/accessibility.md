@@ -128,7 +128,7 @@ sections:
         contact us using a method that works best for you:
 
 
-        * [Email our accessibility](mailto:accessibility@dc.aiga.org) team at accessibility@dc.aiga.org.
+        * [Email our accessibility team](mailto:accessibility@dc.aiga.org) at accessibility@dc.aiga.org.
 
         * Call or text our accessibility lead Josh Kim at [571-422-2656](tel:571-422-2656).
 
