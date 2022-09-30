@@ -601,9 +601,15 @@ button.mambo-anchor.action {
 }
 .page-events .grid-flow,
 .page-faq .grid-flow {
-  grid-gap: var(--size-88) !important;
+  grid-gap: var(--size-40) !important;
 }
 
+@media screen and (min-width: 85.375rem) {
+  .page-events .grid-flow,
+.page-faq .grid-flow {
+    grid-gap: var(--size-88) !important;
+  }
+}
 .page-faq .grid-flow {
   row-gap: var(--size-32) !important;
 }
