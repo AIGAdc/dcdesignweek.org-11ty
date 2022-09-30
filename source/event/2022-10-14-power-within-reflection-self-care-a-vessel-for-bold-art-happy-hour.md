@@ -51,7 +51,7 @@ eventDetails:
 
     Venue info: To Be Announced
   location:
-    - name: Hybrid
+    - name: In-Person
   filterDate: Friday, October 14
   filterLocation: Hybrid
   filterTime: Evening
