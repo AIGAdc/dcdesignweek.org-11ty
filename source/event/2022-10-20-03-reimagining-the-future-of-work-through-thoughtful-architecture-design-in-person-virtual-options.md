@@ -20,6 +20,7 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/ArchitectureDesign_EventGraphic.png
+    imageALT: Two white women and a black man smiling above the morning consult logo
 eventDetails:
   startDate: 2022-10-20T22:00:25.959Z
   endDate: 2022-10-20T23:30:25.967Z

@@ -20,6 +20,7 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/DesignResilence_EventGraphic.png
+    imageALT: The service design DC logo next to the SDN washington DC chapter logo
 eventDetails:
   startDate: 2022-10-19T22:30:27.760Z
   endDate: 2022-10-20T00:15:27.775Z

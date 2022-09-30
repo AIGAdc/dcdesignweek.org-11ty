@@ -19,6 +19,8 @@ hero:
         url: https://www.eventbrite.com/e/pop-up-block-party-at-brookland-arts-walk-tickets-425473531787
   featuredImage:
     image: /static/images/BlockParty_EventGraphic.png
+    imageALT: A black woman posing behind a table of jewelery and art goods in a
+      wide open street
 eventDetails:
   startDate: 2022-10-21T22:00:07.789Z
   endDate: 2022-10-22T02:00:07.803Z

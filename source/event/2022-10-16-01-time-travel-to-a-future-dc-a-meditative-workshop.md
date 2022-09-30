@@ -19,7 +19,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/MediativeWorkshop_EventGraphic.png
-    imageALT: ""
+    imageALT: A young white woman sitting on a boat on the water collaged next to a
+      young Chinese-American woman with long black hair.
 eventDetails:
   startDate: 2022-10-16T19:00:47.129Z
   endDate: 2022-10-16T20:30:47.139Z

@@ -19,6 +19,7 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/HelpingArtist_EventGraphic.png
+    imageALT: Four women and a man collaged together
 eventDetails:
   startDate: 2022-10-17T23:00:35.514Z
   endDate: 2022-10-18T00:30:35.526Z

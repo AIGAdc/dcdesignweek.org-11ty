@@ -20,6 +20,7 @@ hero:
         showButton: true
   featuredImage:
     image: /static/images/JustineSwindell_EventGraphic.png
+    imageALT: ""
 eventDetails:
   startDate: 2022-10-14T23:00:00.980Z
   endDate: 2022-10-14T01:30:00.996Z

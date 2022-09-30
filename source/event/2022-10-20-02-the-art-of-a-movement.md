@@ -8,6 +8,8 @@ pageSettings:
 hero:
   featuredImage:
     image: /static/images/ArtMovement_EventGraphic.png
+    imageALT: 5 women and 1 man with a bubble graphic saying "baltimore design month
+      2022," the AIGA baltimore logo, and the fenton logo.
   tickets:
     - ticket:
         showButton: true

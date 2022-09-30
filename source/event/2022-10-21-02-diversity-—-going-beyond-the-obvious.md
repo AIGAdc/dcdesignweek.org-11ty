@@ -8,6 +8,8 @@ pageSettings:
 hero:
   featuredImage:
     image: /static/images/GoingBeyond_EventGraphic.png
+    imageALT: A confident, smiling Hispanic woman, a smiling Asian man, and a
+      smiling white man wearing glasses collaged together
   tickets:
     - ticket:
         url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fdiversity-going-beyond-the-obvious%2F%3Fredirect_source%3Deventbrite_register

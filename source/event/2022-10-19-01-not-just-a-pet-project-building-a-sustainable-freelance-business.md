@@ -20,6 +20,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/SustainableFreelance_EventGraphic.png
+    imageALT: A woman with short curly hair and fabulously dangly earings collaged
+      next to a woman with wavy hair and pink lip gloss
 eventDetails:
   startDate: 2022-10-19T13:00:02.369Z
   endDate: 2022-10-19T14:00:02.382Z

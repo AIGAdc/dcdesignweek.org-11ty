@@ -65,7 +65,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/GoogleCovid_EventGraphic.png
-    imageALT: ""
+    imageALT: An African-American man, a white woman, an African-American woman, and
+      a white man collaged around the google logo
 speaker:
   - name: Liora Yuklea
     pronouns: she | her | hers
@@ -149,6 +150,7 @@ preparation: >-
 
   * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
     
+
 
     
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)

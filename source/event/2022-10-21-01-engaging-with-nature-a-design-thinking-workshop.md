@@ -21,6 +21,8 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/Rename_EventGraphic.png
+    imageALT: A white woman and an Asian woman with a cool bird necklace collaged
+      next to the threespot logo
 eventDetails:
   startDate: 2022-10-21T14:00:48.472Z
   endDate: 2022-10-21T16:00:48.488Z

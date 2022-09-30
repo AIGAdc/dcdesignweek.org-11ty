@@ -20,6 +20,7 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/ProtectPeace_EventGraphic.png
+    imageALT: A mixed Filipina-American women with brown hair and highlights on a rooftop
 eventDetails:
   startDate: 2022-10-18T23:30:29.959Z
   endDate: 2022-10-19T01:00:29.972Z
