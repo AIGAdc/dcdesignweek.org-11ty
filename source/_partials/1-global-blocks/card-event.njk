@@ -23,7 +23,7 @@
       </div>
       <div class="[ time-location ]">
         <time datetime="{{ event.data.eventDetails.startDate | postDate }}" class="[ time ]">
-          {{ event.data.eventDetails.startDate | time }} - {{ event.data.eventDetails.endDate | time }}
+          {{ event.data.eventDetails.startDate | time }} to {{ event.data.eventDetails.endDate | time }}
         </time>
         {% for location in event.data.eventDetails.location %}
           <p class="[ location ]">
