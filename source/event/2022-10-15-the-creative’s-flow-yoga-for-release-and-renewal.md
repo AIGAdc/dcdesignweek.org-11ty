@@ -49,6 +49,9 @@ eventDetails:
     All experience levels are welcomed. Light refreshments will be provided.
 
 
+    This workshop will be held outside. Please dress accordingly.
+
+
     Photographers and/or videographers will be documenting the event. If you wish to opt-out of being photographed, please notify the event organizers upon check-in.
 
 
@@ -61,7 +64,7 @@ eventDetails:
     ## Venue
 
 
-    Venue name: Shop Made in DC – Union Market
+    Venue name: Outside at Shop Made in DC – Union Market
 
 
     Venue info: 325 Morse St NE Suite 4, Washington, DC 20002
