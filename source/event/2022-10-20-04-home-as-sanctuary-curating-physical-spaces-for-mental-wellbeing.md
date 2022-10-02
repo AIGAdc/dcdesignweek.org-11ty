@@ -33,7 +33,7 @@ eventDetails:
     **Part 1: Knowledge Exchange**
 
 
-    In this expert panel, moderated by [The Oasis Alliance](https://www.theoasisalliance.org/)’s Founder and CEO Danielle Woodhouse Johnson, four interior design and mental wellness experts will weigh in on the connection between space and wellbeing.
+    In this expert panel, moderated by [The Oasis Alliance](https://www.theoasisalliance.org/)’s Founder and CEO Danielle Woodhouse Johnson, three interior design and mental wellness experts will weigh in on the connection between space and wellbeing.
 
 
     **Panelists & their specialties:**
@@ -42,8 +42,6 @@ eventDetails:
     * Cathy Guerra, Nature
 
     * Phylicia Ghee, Emotion
-
-    * Kiyonda Powell, Light
 
     * Jessica Bantom, Color 
 
@@ -115,15 +113,6 @@ speaker:
 
 
       [Website](https://phyliciaghee.carbonmade.com/)
-  - name: Kiyonda Powell
-    title: Creative in Chief, Kiyonda Powell Design Studio
-    bio: >-
-      Kiyonda Powell, enjoys creating spaces designed for living and working
-      with a relaxed and casual aesthetic, applying her own unique personality
-      and style.
-
-
-      [Website](https://kiyondapowell.com/)
   - name: Jessica Bantom
     pronouns: she | her | hers
     title: Diversity, Equity, Inclusion, and Belonging (DEIB) officer and consultant
