@@ -40,7 +40,7 @@ eventDetails:
     Justine pours her life experience and training into her illustrations, paintings, and public art projects, fusing gritty nostalgia with pop art to creator her bold, minimalistic style. Creating her lane as an artist, she helps people, brands, and authors—especially those who are underrepresented—tell their stories with authenticity and pride.
 
 
-    After the Q&A with Justine, stick around to eat and drink with your fellow creatives and celebrate the start to DC Design Week.
+    After the Q&A with Justine, stick around for a raffle of one of her framed illustrations, eat and drink with your fellow creatives, and celebrate the start to DC Design Week.
 
 
     *This opening party is sponsored by [Taoti Creative](https://taoti.com/).*
