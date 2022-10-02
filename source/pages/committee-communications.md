@@ -9,18 +9,6 @@ hero:
   header:
   body: The folks responsible for outreach with our community through our social media, emails, website, and more.
 members:
-  - name: Iyana Moore 
-    blob: 2
-    pronunciation:
-    pronouns: she | her | hers
-    position: AIGA DC Communications Director
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
   - name: Anthony Petrillo
     blob: 1
     pronunciation:
@@ -41,6 +29,18 @@ members:
     bio:
     linkLabel1: Website
     linkURL1: https://www.linkedin.com/in/jelenabudjevac/
+    linkLabel2:
+    linkURL2:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt:
+  - name: Iyana Moore 
+    blob: 2
+    pronunciation:
+    pronouns: she | her | hers
+    position: AIGA DC Communications Director
+    bio:
+    linkLabel1:
+    linkURL1:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg

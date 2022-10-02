@@ -582,19 +582,15 @@ button.mambo-anchor.action {
   .column-span-two {
     grid-column: span 2;
   }
-
   .column-span-three {
     grid-column: span 3;
   }
-
   .column-span-four {
     grid-column: span 4;
   }
-
   .grid-three-columns {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .grid-four-columns {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -685,7 +681,6 @@ button.mambo-anchor.action {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
   .roots svg {
     display: none;
   }
@@ -911,7 +906,6 @@ h3,
 .heading-1 {
     font-size: var(--size-88);
   }
-
   .layout-home-internal h1 {
     font-size: var(--size-88);
     font-weight: 900;
@@ -919,12 +913,10 @@ h3,
     margin: auto;
     max-width: 16ch;
   }
-
   h2,
 .heading-2 {
     font-size: var(--size-32);
   }
-
   h3,
 .heading-3 {
     font-size: var(--size-20);
@@ -1399,7 +1391,6 @@ h3,
     height: 8px;
     width: 48px;
   }
-
   .mambo-divider .bottom {
     position: absolute;
     left: 8px;
@@ -1489,7 +1480,6 @@ h3,
   .mambo-hero {
     padding: var(--size-56);
   }
-
   .mambo-hero h1 {
     font-size: var(--size-64);
     line-height: initial;
@@ -1499,18 +1489,15 @@ h3,
   .mambo-hero h1 {
     max-width: 16ch;
   }
-
   .mambo-hero h1 {
     font-size: var(--size-88);
     line-height: initial;
   }
-
   .layout-single-event .mambo-hero h1 {
     font-size: var(--size-56);
     line-height: 1.25;
     max-width: unset;
   }
-
   .mambo-hero .wysiwyg p {
     font-size: var(--size-24);
   }
@@ -1581,11 +1568,9 @@ h3,
   .home-hero-blob {
     transform: translate(-300px, -250px);
   }
-
   .home-hero-date-blob {
     transform: translate(32px, -48px);
   }
-
   .home-page-blob {
     transform: translate(-200px, -150px);
   }
@@ -1594,15 +1579,12 @@ h3,
   .mambo-hero h1 {
     max-width: 18ch;
   }
-
   .home-hero-blob {
     transform: translate(-300px, -300px);
   }
-
   .home-page-blob {
     transform: translate(-175px, -200px);
   }
-
   .home-page-blob svg {
     width: 900px;
   }
@@ -1611,20 +1593,16 @@ h3,
   .mambo-hero .wysiwyg {
     max-width: 40ch;
   }
-
   .page-home .mambo-hero .wysiwyg {
     max-width: 64ch;
     margin: auto;
   }
-
   .home-hero-blob {
     transform: translate(-300px, -225px);
   }
-
   .home-page-blob {
     transform: translate(-350px, -225px);
   }
-
   .home-page-blob svg {
     width: 1000px;
   }
@@ -1638,21 +1616,17 @@ h3,
 .layout-page.page-faq .mambo-hero {
     margin-bottom: -144px;
   }
-
   .mambo-hero .wysiwyg {
     max-width: 96ch;
   }
-
   .home-hero-blob {
     transform: translate(-250px, -200px);
   }
-
   .home-hero-date-blob {
     left: 0;
     right: unset;
     transform: translate(8px, -16px);
   }
-
   .home-page-blob {
     transform: translate(-350px, -180px);
   }
@@ -1662,7 +1636,6 @@ h3,
     min-height: 100vh;
     overflow: unset;
   }
-
   .layout-page.page-accessibility .mambo-hero,
 .layout-single-committee .mambo-hero,
 .layout-page.page-events .mambo-hero,
@@ -1671,15 +1644,12 @@ h3,
 .layout-page.page-faq .mambo-hero {
     min-height: 50vh;
   }
-
   .home-hero-blob {
     transform: translate(-250px, -200px);
   }
-
   .home-page-blob {
     transform: translate(-300px, -180px);
   }
-
   .home-page-blob svg {
     width: 1100px;
   }
@@ -1753,11 +1723,9 @@ h3,
   .controls-pagination {
     text-align: left;
   }
-
   .controls-pagination.desktop {
     display: block;
   }
-
   .controls-pagination.mobile {
     display: none;
   }
