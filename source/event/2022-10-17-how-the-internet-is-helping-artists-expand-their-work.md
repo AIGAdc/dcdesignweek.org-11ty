@@ -27,7 +27,7 @@ eventDetails:
     ## Description and details
 
 
-    Join this roundtable discussion with internet artists Trap Bob, Celine Arias, Dominick Raburn, and Nicole Ghray and moderated by Yngrid Chacon, as they discuss how the internet allows their art to reach and connect intersectional audiences.
+    Join this roundtable discussion with internet artists Trap Bob, Natalia Celine Arias, Dominick Rabrun, and Nicole Ghray and moderated by Yngrid Chacon, as they discuss how the internet allows their art to reach and connect intersectional audiences.
 
 
     This conversation will cover how our panelists have used the internet to circumvent previously restrictive models that favor the privileged. The art they’ve created via the internet has provided opportunities for the connection and exposure of intersectional communities. 
@@ -66,7 +66,7 @@ speaker:
       Miami, Florida who is dedicated to branding for mission-based
       organizations and expanding diverse storytelling through multidisciplinary
       practices.
-  - name: Dominick Raburn
+  - name: Dominick Rabrun
     pronouns: he | him | his
     title: Artist
     bio: Dominick is an artist, teacher, writer, voice actor, and general maker of
@@ -74,7 +74,7 @@ speaker:
   - name: Nicole Ghray
     pronouns: she | her | they
     title: Artist/designer
-    bio: Nicole is a designer living, loving, and working in DC.
+    bio: Nicole is a digital designer, illustrator and acrylic painter living, loving, and working in DC. 
   - name: Trap Bob
     title: Multidisciplinary artist
     pronouns: she | her | hers
@@ -83,7 +83,7 @@ speaker:
       issues, with an aim to bridge the gap between her audience and her
       message.
   - name: Yngrid Chacon
-    pronouns: she | her | they
+    pronouns: she | her | hers
     title: Artist and designer
     bio: A multidisciplinary artist focusing on using art and design to connect
       communities.
