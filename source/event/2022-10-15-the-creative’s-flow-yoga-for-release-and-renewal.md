@@ -49,7 +49,7 @@ eventDetails:
     All experience levels are welcomed. Light refreshments will be provided.
 
 
-    This workshop will be held outside. Please dress accordingly.
+    This event will take place outdoors in a partially sheltered area. Please dress in weather-appropriate, comfortable attire.
 
 
     Photographers and/or videographers will be documenting the event. If you wish to opt-out of being photographed, please notify the event organizers upon check-in.
