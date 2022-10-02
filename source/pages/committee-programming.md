@@ -33,18 +33,6 @@ members:
     linkURL2: https://www.apiwho.design/
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
     imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt. 
-  - name: Nabi Bilal
-    blob: 3
-    pronunciation:
-    pronouns: he | him | his
-    position: AIGA DC Programming Director
-    bio:
-    linkLabel1:
-    linkURL1:
-    linkLabel2:
-    linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt:
   - name: Amy Mugford 
     blob: 1
     pronunciation:
@@ -104,7 +92,19 @@ members:
     linkLabel2:
     linkURL2:
     image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces who’s smiling  
+    imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces who’s smiling
+  - name: Nabi Bilal
+    blob: 3
+    pronunciation:
+    pronouns: he | him | his
+    position: AIGA DC Programming Director
+    bio:
+    linkLabel1:
+    linkURL1:
+    linkLabel2:
+    linkURL2:
+    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    imageAlt:
   - name: Natarsha Wright
     blob: 3
     pronunciation: Na · tar · sha
