@@ -19,7 +19,7 @@ hero:
         colorCombo: cream-on-maroon-primary
   featuredImage:
     image: /static/images/HomeSanctuary_EventGraphic.png
-    imageALT: 5 BIPOC women collaged together next to the oasis alliance and eaton logos
+    imageALT: 4 BIPOC women collaged together next to the oasis alliance and eaton logos
 eventDetails:
   startDate: 2022-10-20T23:00:18.060Z
   endDate: 2022-10-21T01:00:18.074Z
