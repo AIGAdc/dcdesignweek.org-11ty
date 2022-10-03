@@ -826,6 +826,14 @@ button:focus {
   outline: 4px solid var(--dcdw-2022-maroon-primary);
 }
 
+[data-color=maroon-primary-on-cream] a:hover,
+[data-color=maroon-primary-on-cream] button:hover {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-primary), 0 0 0px 4px var(--dcdw-2022-cream-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+  background-color: transparent;
+  color: currentColor;
+}
+
 [data-color=maroon-secondary-on-cream] a:focus,
 [data-color=maroon-secondary-on-cream] button:focus {
   box-shadow: 0 0 0 4px var(--dcdw-2022-cream-primary), 0 0 0px 4px var(--dcdw-2022-cream-primary);
@@ -836,6 +844,14 @@ button:focus {
 [data-color=maroon-primary-on-cream-secondary] button:focus {
   box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0px 4px var(--dcdw-2022-cream-secondary);
   outline: 4px solid var(--dcdw-2022-maroon-primary);
+}
+
+[data-color=maroon-primary-on-cream-secondary] a:hover,
+[data-color=maroon-primary-on-cream-secondary] button:hover {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-cream-secondary), 0 0 0px 4px var(--dcdw-2022-cream-secondary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+  background-color: transparent;
+  color: currentColor;
 }
 
 [data-color=maroon-secondary-on-cream-secondary] a:focus,
@@ -850,6 +866,14 @@ button:focus {
   outline: 4px solid var(--dcdw-2022-maroon-primary);
 }
 
+[data-color=maroon-primary-on-yellow-primary] a:hover,
+[data-color=maroon-primary-on-yellow-primary] button:hover {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-yellow-primary), 0 0 0px 4px var(--dcdw-2022-yellow-primary);
+  outline: 4px solid var(--dcdw-2022-maroon-primary);
+  background-color: transparent;
+  color: currentColor;
+}
+
 [data-color=maroon-secondary-on-yellow-primary] a:focus,
 [data-color=maroon-secondary-on-yellow-primary] button:focus {
   box-shadow: 0 0 0 4px var(--dcdw-2022-yellow-primary), 0 0 0px 4px var(--dcdw-2022-yellow-primary);
@@ -860,6 +884,14 @@ button:focus {
 [data-color=cream-on-maroon-primary] .mailchimp form .mc-field-group.faux-button input:focus {
   box-shadow: 0 0 0 4px var(--dcdw-2022-maroon-primary), 0 0 0px 4px var(--dcdw-2022-maroon-primary);
   outline: 4px solid var(--dcdw-2022-cream-primary);
+}
+
+[data-color=cream-on-maroon-primary] a:hover,
+[data-color=cream-on-maroon-primary] .mailchimp form .mc-field-group.faux-button input:hover {
+  box-shadow: 0 0 0 4px var(--dcdw-2022-maroon-primary), 0 0 0px 4px var(--dcdw-2022-maroon-primary);
+  outline: 4px solid var(--dcdw-2022-cream-primary);
+  background-color: transparent;
+  color: currentColor;
 }
 
 [data-color=maroon-primary-on-cream-secondary] .mambo-accordion-group button:focus {
@@ -1025,7 +1057,6 @@ h3,
   font-weight: 700;
   text-align: center;
   min-width: max-content;
-  cursor: pointer;
 }
 
 .mambo-anchor.icon {
