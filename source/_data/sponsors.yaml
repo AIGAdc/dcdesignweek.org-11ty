@@ -14,7 +14,7 @@ sponsor:
     tier: Tier Two
     websiteURL1: https://www.eatonworkshop.com/en-us/washington-dc/
   - image: "/static/images/sponsors/Logo_shopMadeDC.png"
-    name: Eaton
+    name: Shop Made in DC
     tier: Tier Two
     websiteURL1: https://www.shopmadeindc.com/
   - image: "/static/images/sponsors/Logo_Artechouse.png"
@@ -37,6 +37,10 @@ sponsor:
     name: Yoga Heights
     tier: Tier Two
     websiteURL1: https://www.yogaheightsdc.com/
+  - image: "/static/images/sponsors/Logo_Moxie.png"
+    name: Moxie
+    tier: Tier Two
+    websiteURL1: https://ideaswithmoxie.com/
   #Tier Three
   - image: "/static/images/sponsors/Logo_CustomInk.png"
     name: Custom Ink
