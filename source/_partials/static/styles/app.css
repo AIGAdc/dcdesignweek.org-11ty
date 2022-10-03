@@ -1025,6 +1025,7 @@ h3,
   font-weight: 700;
   text-align: center;
   min-width: max-content;
+  cursor: pointer;
 }
 
 .mambo-anchor.icon {
