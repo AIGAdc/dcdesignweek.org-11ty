@@ -74,6 +74,106 @@ eventDetails:
   filterLocation: Zoom
   filterTime: Daytime
   filterType: Talk/Panel
+speaker:
+  - name: Jen Epstein
+    title: Head of Design, Task Force
+    pronouns: she | her | hers
+    bio: >-
+      Jen Epstein is an award-winning Creative Director living and working in
+      Brooklyn, New York. During her 16-year career in motion graphics, she’s
+      worked with MTV, Showtime, Nickelodeon, Ray-Ban, Ford, AT&T, Starbucks,
+      VH1, Buck, The New York Times, and Blue State Digital, among others. She’s
+      currently the Head of Design at Task Force working to change the world for
+      the better through digital campaigns centered around social justice. Her
+      clients at Task Force include The Women’s March, Planned Parenthood, The
+      United Nations, MoveOn, Equality Federation, A-B Partners, League of
+      Conservation Voters, and more. Jen’s work has received recognition from
+      the Art Directors Club, Clios, Promax BDA, Creativity International, and
+      the One Show.
+
+
+
+
+      [Instagram](https://www.instagram.com/epsteinj/)
+  - name: Hannah WIlliams
+    title: CEO and Founder, Salary Transparent Street
+    pronouns: she | her | hers
+    bio: >-
+      Hannah Williams is a 25-year-old former Data Analyst in the DMV
+      highlighting the value of pay transparency with her viral series, Salary
+      Transparent Street. Hannah's mission is to close existing pay gaps which
+      marginalize women, minorities, people with disabilities, and the LGBTQ+
+      community. Her street interviews across the United States have sparked
+      conversations internationally about the importance of pay transparency to
+      achieve pay equity, and have been featured in many major media
+      publications, including the Washington Post, CNN, and Forbes.
+
+
+
+
+      [Instagram](https://www.instagram.com/salarytransparentstreet/)
+  - name: Shakirah Hill Taylor
+    title: Chief Digital Officer, Fenton
+    pronouns: she | her | hers
+    bio: >-
+      Shakirah Hill Taylor is Executive Vice President, Digital. Serving as
+      senior strategic counsel to internal stakeholders as well as clients, she
+      provides leadership and strategy for the firm’s digital practice on a wide
+      range of interactive strategies and execution to drive innovative and
+      award-winning digital work. She brings extensive expertise in digital
+      strategy, online advocacy building, social impact and client service to
+      help organizations reach intended audiences to create positive, impactful
+      and sustainable change.
+
+
+
+
+      [LinkedIn](https://www.linkedin.com/in/shakirahadianna/)
+  - name: Erin Lange
+    title: Former Design Director, Impactual
+    pronouns: she | her | hers
+    bio: >-
+      Erin Lange is a creative powerhouse focused on the most pressing social
+      and political causes of our day. As an advocate for empathy-driven design
+      rooted in inclusivity and accessibility, Erin’s work leverages
+      storytelling and design methodology to improve civil society. Having led
+      successful civic engagement visual campaigns such as @PowerThePolls,
+      Erin’s experience has taught her how to focus on impact over intent to
+      drive real change.
+
+
+
+
+      [Instagram](https://www.instagram.com/_erinlange)
+  - name: Samuel Adaramola
+    title: Co-Founder and Chief Creative Officer, goodjuju studios
+    pronouns: he | him | his
+    bio: Born in Lagos, Nigeria, and raised in the DMV, Samuel Adaramola has enjoyed
+      nearly a decade of using his talent in the service of spaces that aim to
+      right the wrongs in the world. Most recently, he served as Media Producer
+      for the Bernie Sanders 2020 campaign. A graduate of the Newhouse School of
+      Public Communications, Samuel currently runs his boutique creative studio,
+      goodjuju. There, they work with brands celebrating Black culture and
+      alleviating the disparities in Black communities.
+  - name: Nhu Nguyen
+    pronouns: she | her | hers
+    title: AVP, Creative Director, Fenton; Owner, Creative Strategist, Brand Nhu
+      Creative; Vice President, AIGA Baltimore
+    bio: >-
+      Nhu Nguyen is an Associate Vice President and Creative Director at Fenton,
+      a social change agency, raising awareness that sparks movements, changes
+      behavior, and generates support for a more just, equitable and sustainable
+      world. By night, she oversees Brand Nhu Creative, a creative strategy,
+      branding, consulting and art studio, specializing in the amplification of
+      raising awareness of community-driven causes and stories of smaller
+      organizations and individuals making a difference. Nhu also serves as the
+      Vice President of the Baltimore chapter of AIGA and the creative
+      consultant of LinkedIn Local Baltimore.
+
+
+
+
+      [Instagram](https://www.instagram.com/brandnhucreative)
 platform: >-
   ## Platform
 
