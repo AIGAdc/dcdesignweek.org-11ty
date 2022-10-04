@@ -204,7 +204,7 @@ speaker:
       [Website](https://ww.yosefshuman.com)
 
 
-      [Instagram](https://www.instagram.com/aleafinwater/)**Rachael Dietkus, LCSW**
+      [Instagram](https://www.instagram.com/aleafinwater/)
   - name: Rachael Dietkus, LCSW
     title: Founder, Social Workers who Design
     pronouns: she / her / hers
