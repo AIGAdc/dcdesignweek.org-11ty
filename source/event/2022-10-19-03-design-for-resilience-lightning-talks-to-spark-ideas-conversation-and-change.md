@@ -97,16 +97,6 @@ speaker:
 
 
       [Website](http://3x3.co/)
-
-
-      [LinkedIn](https://streaklinks.com/BOBbyjzAgK-YykkZTQHtdtb3/https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F3x3-design)
-
-
-      [Twitter](https://streaklinks.com/BOBbyjzwcC6cJ6PeQwyI7H-J/https%3A%2F%2Ftwitter.com%2F3x3design)\
-
-      \
-
-      [Facebook](https://streaklinks.com/BOBbyjzYWB7i903M1wU6m26a/https%3A%2F%2Fwww.facebook.com%2F3x3Design%2F)
   - name: Chris Spirito
     title: Nuclear Cyber Security Consultant, Idaho National Laboratory
     pronouns: he / him / his
@@ -163,9 +153,6 @@ speaker:
 
 
       [Humans Who Play website](www.humanswhoplay.com)
-
-
-      [Instagram](https://www.instagram.com/playfollies/)
   - name: Frankie Abralind
     title: Executive Director, The Good Listening Project
     pronouns: he / him / his
@@ -202,9 +189,6 @@ speaker:
 
 
       [Website](https://ww.yosefshuman.com)
-
-
-      [Instagram](https://www.instagram.com/aleafinwater/)
   - name: Rachael Dietkus, LCSW
     title: Founder, Social Workers who Design
     pronouns: she / her / hers
