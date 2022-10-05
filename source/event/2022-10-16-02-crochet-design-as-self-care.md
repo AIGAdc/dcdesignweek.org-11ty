@@ -41,7 +41,15 @@ eventDetails:
     **Attendees will receive a kit including the following items:**
 
 
-    * 1 5mm crochet hook * 1 skein of #4 Worsted weight yarn * A tape measure * Stitch markers * Scissors
+    * 1 5mm crochet hook 
+
+    * 1 skein of #4 Worsted weight yarn 
+
+    * A tape measure 
+
+    * Stitch markers 
+    
+    * Scissors
 
 
     *This event was made possible by our sponsors [Eaton DC](https://www.eatonworkshop.com/en-us/washington-dc/) and local fiber shop [Sweet Pea Fiber](https://sweetpeafiber.com/).*
