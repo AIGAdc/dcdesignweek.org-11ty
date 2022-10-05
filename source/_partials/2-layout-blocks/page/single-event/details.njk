@@ -8,6 +8,12 @@
   </div>
 </section>
 
-<div class="[ wave right has-border ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-primary); ">
-  {% include '1-global-blocks/wave.njk' %}
-</div>
+{% if page.url == "/event/pop-up-block-party-at-brookland-arts-walk/" %}
+  <div class="[ wave right has-border ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-primary); ">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% else %}
+  <div class="[ wave right has-border ]" style="fill: var(--dcdw-2022-cream-secondary); background-color: var(--dcdw-2022-cream-primary); ">
+    {% include '1-global-blocks/wave.njk' %}
+  </div>
+{% endif %}

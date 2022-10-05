@@ -33,6 +33,7 @@ eventDetails:
 
     Bring your sketchbook, a blank cotton t-shirt, or a tote bag to make a fun DCDW custom block print with [The Block Print Bike](https://blockprintbike.com/). Shop the arts and goods made by local creatives. Enter to win prizes from our sponsors, like tickets to [Artechouse DC's current exhibit](https://www.artechouse.com/), and get some free swag sponsored by [Custom Ink](https://www.customink.com/photos/tags/washington-dc). Connect with fellow creatives in the area.
 
+
     *This event was put together in partnership with [Terratorie Maps + Goods](https://terratorie.com/) and was made possible by our sponsor [Taoti Creative](https://taoti.com/).*
 
 
