@@ -92,13 +92,11 @@ speaker:
     title: Interaction Designer
     pronouns: he | him | his
     bio: >-
-      Timothy Hykes aka Tim Hykes is a user experience designer and Illustrator
-      working at Google in Washington, DC.
-
-
+      Timothy Hykes aka Tim Hykes is a User Experience designer and Illustrator working in Washington, DC. Currently, working at Google as the Lead Interactive Designer for Google for Jobs. Tim has had the pleasure of seeing his work featured on FastCompany, Adobe, Nationally with AIGA, Invision App, and socially with Behance and many other sites and publications. Timothy is nationally known for his side projects which includes the 28 Days of Black Designers Project, the Design + Diversity conference, and podcast, and on YouTube on the Tim Hykes channel.
 
 
       [Website](http://timhykes.com)
+      [YouTube](https://www.youtube.com/c/TimHykes)
     imageALT: ""
     image: ""
   - name: Dan Newman
