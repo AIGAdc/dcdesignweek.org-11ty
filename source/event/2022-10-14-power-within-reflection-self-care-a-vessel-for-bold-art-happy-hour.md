@@ -49,7 +49,10 @@ eventDetails:
     ## Venue
 
 
-    Venue info: To Be Announced
+    Venue name: Optoro office
+
+
+    Venue info: 1001 G St NW, 12th Floor, Washington, DC 20001
   location:
     - name: In-Person
   filterDate: Friday, October 14
@@ -77,7 +80,9 @@ preparation: >-
 
 
 
-  We recommend that everyone wear a mask when they aren’t eating or drinking.
+  * We recommend that everyone wear a mask when they aren’t eating or drinking.
+
+  * Enter the building and look for the Washington Center Offices. Check in with security and take the elevator to the 12th floor.
 
 
 
@@ -94,7 +99,11 @@ a11y: >-
 
   * A sign language interpreter will not be present unless requested. If requested, we will do our best to employ a sign language interpreter for the event.
 
-  * Event location to be announced.
+
+  * This venue is ADA accessible.
+
+
+  * The venue is located near theMetro Center (take the 11th and G exit, which will take you straight into the building) and Chinatown (exit to 9th and G, walk two blocks down G St. and turn right on 11th) Metro stations.
 
 
 
