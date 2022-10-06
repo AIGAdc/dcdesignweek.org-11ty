@@ -1,8 +1,11 @@
-{% for content in speaker | limit(1) %}
-  {% if content.name %}
+
     <section class="[ mambo-section ][ flow ]" data-color="maroon-primary-on-cream-secondary" id="{{ content.header | slug }}">
       <div class="[ container container-default ][ flow ][ ]">
+
+        {% if showSpeakerTitle == true %}
         <h2>Speakers</h2>
+        {% endif %}
+
         <ul class="[ speakers ][ grid-flow grid-flow grid-two-columns ]">
           {% for content in speaker %}
             <li class="[ mambo-card speaker horizontal ]">
@@ -28,5 +31,3 @@
         </div>
       </div>
     </section>
-  {% endif %}
-{% endfor %}

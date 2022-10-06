@@ -130,4 +130,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

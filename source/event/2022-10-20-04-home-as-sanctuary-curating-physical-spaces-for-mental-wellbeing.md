@@ -43,7 +43,7 @@ eventDetails:
 
     * Phylicia Ghee, Emotion
 
-    * Jessica Bantom, Color 
+    * Jessica Bantom, Color
 
 
     You’ll have an opportunity to ask questions during the Q&A.
@@ -151,7 +151,7 @@ a11y: >-
 
   * The venue is ADA accessible.
 
-  * There are accessible bathrooms at the location. 
+  * There are accessible bathrooms at the location.
 
 
   If you need any additional accommodations, please contact us using a method that works best for you:
@@ -168,4 +168,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

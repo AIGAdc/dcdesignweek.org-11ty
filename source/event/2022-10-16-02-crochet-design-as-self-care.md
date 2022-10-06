@@ -29,7 +29,7 @@ eventDetails:
     ## Description and details
 
 
-    Crochet artist Kristen Jeffers believes that the more people know about sustainable fiber design, the better. So even if you’ve tried and failed to crochet something before, she invites you to join her for an interactive workshop and crocheting session. 
+    Crochet artist Kristen Jeffers believes that the more people know about sustainable fiber design, the better. So even if you’ve tried and failed to crochet something before, she invites you to join her for an interactive workshop and crocheting session.
 
 
     In the first hour, Kristen will demonstrate the process of creating a crocheted granny square. She’ll also share her own history with fiber projects, discussing how  one square can form the foundation of all kinds of fiber-related projects and launch a journey through sustainable fashion, accessories, and homewares that relieves stress and creates a sense of accomplishment.
@@ -41,14 +41,14 @@ eventDetails:
     **Attendees will receive a kit including the following items:**
 
 
-    * 1 5mm crochet hook 
+    * 1 5mm crochet hook
 
-    * 1 skein of #4 Worsted weight yarn 
+    * 1 skein of #4 Worsted weight yarn
 
-    * A tape measure 
+    * A tape measure
 
-    * Stitch markers 
-    
+    * Stitch markers
+
     * Scissors
 
 
@@ -123,4 +123,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

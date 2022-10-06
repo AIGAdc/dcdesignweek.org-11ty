@@ -74,7 +74,7 @@ speaker:
   - name: Nicole Ghray
     pronouns: she | her | they
     title: Artist/designer
-    bio: Nicole is a digital designer, illustrator and acrylic painter living, loving, and working in DC. 
+    bio: Nicole is a digital designer, illustrator and acrylic painter living, loving, and working in DC.
   - name: Trap Bob
     title: Multidisciplinary artist
     pronouns: she | her | hers
@@ -124,4 +124,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

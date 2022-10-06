@@ -15,12 +15,12 @@ eventDetails:
     ## Description and details
 
 
-    Google responds to crises around the world daily — so how did the team bring years of experimentation and research to design public-facing tools for the biggest crisis of our lifetimes, COVID-19? 
+    Google responds to crises around the world daily — so how did the team bring years of experimentation and research to design public-facing tools for the biggest crisis of our lifetimes, COVID-19?
 
 
     Google Social Search Lead UX designer Liora Yuklea will share her team’s work on efforts to fight misinformation with the high-traffic Covid Organized Search Results Page.
 
-    Plus, get to know the UX designers and researchers newly working on Google Chrome, News, and Search in our DC office. 
+    Plus, get to know the UX designers and researchers newly working on Google Chrome, News, and Search in our DC office.
 
 
     You'll learn about Google Design's culture and processes and how they differ from product to product. We’ll discuss the common thread that unites our work: designing responsibly at scale for a global audience. We’ll also share some best practices for collaborating across time zones and how we're adapting to hybrid work.
@@ -122,7 +122,7 @@ speaker:
     bio: >-
       Kitior holds a Ph.D. in Communication from the University of Michigan and
       has worked in a number of senior UX/applied research roles prior to
-      joining Google early this year. 
+      joining Google early this year.
 
 
 
@@ -135,7 +135,7 @@ preparation: >-
   ## Virtual platform
 
 
-  For those who do not purchase an In-Person Attendance Add-On, the event will be streamed via Google Meet: 
+  For those who do not purchase an In-Person Attendance Add-On, the event will be streamed via Google Meet:
 
   * In order to participate fully, plan to join via the Google Meet app on a computer, tablet, or mobile device with enough bandwidth to support viewing video.
 
@@ -144,14 +144,14 @@ preparation: >-
   * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on the [AIGA Membership website](https://www.aiga.org/membership-community/aiga-membership/).
 
 
-  * We unfortunately won’t be able to collect questions ahead of time. 
+  * We unfortunately won’t be able to collect questions ahead of time.
 
   * Questions for the speaker can be asked live during the event through the chat during the Q&A portion of the event.
-    
 
 
 
-    
+
+
   You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ.](/faq/)
 
 
@@ -207,4 +207,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

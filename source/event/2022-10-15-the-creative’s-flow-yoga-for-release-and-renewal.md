@@ -73,8 +73,8 @@ speaker:
     title: Yoga Teacher and founder of the Calm/Cool Collective
     bio: >-
       Shakeelah Sutton is an exercise physiologist, yoga teacher, and founder of the calm/cool collective. She works to inspire others to heal from stress and trauma by using wellness practices as a catalyst for self-love and healing.
-      
-      
+
+
       [Instagram](https://www.instagram.com/cool\_shak/)
 preparation: >-
   ## Preparation
@@ -136,4 +136,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

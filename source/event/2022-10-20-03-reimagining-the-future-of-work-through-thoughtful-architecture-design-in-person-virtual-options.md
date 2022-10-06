@@ -25,7 +25,7 @@ eventDetails:
   startDate: 2022-10-20T22:00:25.959Z
   endDate: 2022-10-20T23:30:25.967Z
   description: >-
-    
+
     ## Description and details
 
 
@@ -96,7 +96,7 @@ speaker:
     bio: >-
       As a workplace designer for 20 years, she has designed headquarters for
       NPR, National Geographic, think tanks, associations, nonprofits, and many
-      tech firms in the DC area. 
+      tech firms in the DC area.
 
 
       [LinkedIn](https://www.linkedin.com/in/jessica-maples-783a917/)
@@ -104,7 +104,7 @@ preparation: >-
   ## Virtual platform
 
 
-  For those who do not purchase an In-Person Attendance Add-On, the event will be streamed via Zoom: 
+  For those who do not purchase an In-Person Attendance Add-On, the event will be streamed via Zoom:
 
   * In order to participate fully, plan to join via the Zoom app on a computer, tablet, or mobile device with enough bandwidth to support viewing video.
 
@@ -164,4 +164,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---

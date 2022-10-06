@@ -95,7 +95,7 @@ a11y: >-
   * The main entrance on K street is accessible with a ramp.
 
 
-  * There is elevator access throughout the museum and to the event space. 
+  * There is elevator access throughout the museum and to the event space.
 
 
 
@@ -114,4 +114,5 @@ a11y: >-
 
 
   You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
+showSpeakerTitle: true
 ---
