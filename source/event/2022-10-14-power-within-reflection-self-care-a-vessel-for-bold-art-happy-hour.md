@@ -43,7 +43,7 @@ eventDetails:
     After the Q&A with Justine, stick around for a raffle of one of her framed illustrations, eat and drink with your fellow creatives, and celebrate the start to DC Design Week.
 
 
-    *This opening party is sponsored by [Taoti Creative](https://taoti.com/).*
+    *This opening party was made possible by our sponsors [Taoti Creative](https://taoti.com/) and [Optoro](https://www.optoro.com/).*
 
 
     ## Venue
