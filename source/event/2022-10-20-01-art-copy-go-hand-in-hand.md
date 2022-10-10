@@ -39,6 +39,9 @@ eventDetails:
     Stick around after the talk to explore the Planet Word museum.
 
 
+    Light refreshments will be provided from [Teaism](https://www.teaism.com/) by our sponsor [HAWJ Studio](http://www.phimher.com/).
+
+
     *[Planet Word](https://planetwordmuseum.org/) is an immersive language experience located at the historic Franklin School in Washington, D.C. Ideal for all ages, Planet Word is a voice-activated museum (the world’s first!), and our interactive galleries and exhibits bring words and language to life in all sorts of fun ways.*
 
 
