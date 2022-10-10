@@ -39,7 +39,7 @@ eventDetails:
     You’ll have a chance to ask experts questions during the Q&A. 
 
 
-    Light refreshments will be provided.
+    Light refreshments will be provided from Peruvian Brothers by our sponsor [HAWJ Studio](http://www.phimher.com/).
 
 
     *This event was made possible by our sponsors [Mindspace DC](https://hs.mindspace.me/bat-dc?utm_network=g&utm_device=c&utm_position=&campaignid=70124000000auHb&utm_source=Google&utm_medium=cpc&utm_campaign=MS-Search-Brand-DC&utm_term=mindspace%20dc&utm_content=345534052544&hsa_mt=e&hsa_cam=1083739676&hsa_grp=53052966215&hsa_acc=3379467025&hsa_net=adwords&hsa_ver=3&hsa_ad=345534052544&hsa_tgt=kwd-424353437213&hsa_kw=mindspace%20dc&hsa_src=g&gclid=Cj0KCQjw1bqZBhDXARIsANTjCPILL_hiYsCx6ZRGNE0uc__tQHvPu9WJo0XCEwATdPy2ELOoMovjubAaArBxEALw_wcB) and [HAWJ Studio](https://www.phimher.com/).*
