@@ -42,10 +42,10 @@ eventDetails:
     Bonus! Every person at the workshop will receive a specially-designed, interactive zine to further inspire their biomimicry skills.
 
 
-    Light refreshments will be provided.
+    Light refreshments will be provided from [Teaism](https://www.teaism.com/) by our sponsor [HAWJ Studio](http://www.phimher.com/).
 
 
-    This event was put together in partnership with Threespot.
+    *This event was put together in partnership with [Threespot](https://www.threespot.com/)*.
 
 
     ## Venue
