@@ -37,6 +37,9 @@ eventDetails:
     After a talk featuring the design process, participants are invited to explore the exhibit itself.
 
 
+    Light refreshments will be provided from [Teaism](https://www.teaism.com/) by our sponsor [HAWJ Studio](http://www.phimher.com/).
+
+
     *This event was put together in partnership with [Openbox Design](https://www.opnbx.com/) and was made possible by our sponsor [DC Public Library](https://www.dclibrary.org/).*
 
 
@@ -96,9 +99,6 @@ preparation: >-
   ## Preparation
 
   All attendees must wear a mask for this event.
-
-
-  We recommend that attendees wear masks when not eating or drinking.
 
 
   ### COVID-19 is hard to predict: What happens if in-person events need to be canceled?
