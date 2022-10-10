@@ -98,7 +98,7 @@ platform: >-
 
 
 
-  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](http://localhost:8080/faq/).
+  You can find more about joining our virtual events, including how to connect, directions to troubleshoot, and information about our refund policy in our [FAQ](/faq/).
 a11y: >-
   ## Accessibility
 
@@ -127,6 +127,6 @@ a11y: >-
 
 
 
-  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](http://localhost:8080/accessibility/).
+  You can learn more about how we’re making DC Design Week an accessible experience by visiting our [accessibility statement](/accessibility/).
 showSpeakerTitle: true
 ---

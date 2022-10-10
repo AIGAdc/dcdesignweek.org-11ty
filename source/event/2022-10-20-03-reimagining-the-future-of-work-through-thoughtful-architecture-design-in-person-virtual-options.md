@@ -127,8 +127,6 @@ preparation: >-
 
   * We recommend that attendees wear masks when not eating or drinking.
 
-  * Coffee and pastries will be provided at the in-person event. Please plan to arrive early to settle in.
-
 
 
   ### COVID-19 is hard to predict: What happens if in-person events need to be canceled?
