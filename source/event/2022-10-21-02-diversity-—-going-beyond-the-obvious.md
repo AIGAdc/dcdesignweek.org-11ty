@@ -93,8 +93,6 @@ platform: >-
 
   * This event will be recorded unless technical issues occur. The [recordings will be shared in the AIGA DC recordings archive](https://dc.aiga.org/introducing-the-aiga-dc-event-recordings-archive/) for AIGA members to rewatch or catch up on at a later date. If you’re not an AIGA Member, you can register for a membership on [the AIGA Membership website.](https://www.aiga.org/membership-community/aiga-membership/)
 
-  * You can [ask the speaker questions ahead of time (Google form](https://docs.google.com/forms/d/e/1FAIpQLSc0qHz60mOR3Ta2Q_3D2kRO--4Que77aSX6Q-sbMsoNp5VpBw/viewform), which may be answered during the event.
-
 
 
 
