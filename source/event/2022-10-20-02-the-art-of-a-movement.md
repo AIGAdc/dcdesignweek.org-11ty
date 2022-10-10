@@ -70,7 +70,7 @@ eventDetails:
     *This event was put together in partnership with [AIGA Baltimore](https://baltimore.aiga.org/) and [Fenton](https://fenton.com/).*
   location:
     - name: Zoom
-  filterDate: Tuesday, October 18
+  filterDate: Thursday, October 20
   filterLocation: Zoom
   filterTime: Daytime
   filterType: Talk/Panel
