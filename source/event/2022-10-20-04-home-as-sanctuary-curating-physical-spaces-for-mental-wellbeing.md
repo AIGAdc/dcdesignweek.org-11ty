@@ -55,10 +55,13 @@ eventDetails:
     Break into small groups led by our speakers to participate in a hands-on activity focused on the speciality areas discussed during the panel. 
 
 
-    Light refreshments will be provided.
+    Light refreshments will be provided from [Teaism](https://www.teaism.com/) by our sponsor [HAWJ Studio](http://www.phimher.com/).
 
 
     *This workshop is put on in partnership with [The Oasis Alliance](https://www.theoasisalliance.org/), a local nonprofit that brightens the lives of trauma survivors by co-designing personalized spaces that encourage recovery, growth, and mental wellbeing. A portion of the proceeds will go to The Oasis Alliance to support their work.*
+
+
+    *This event was made possible by our sponsors [Eaton DC](https://www.eatonworkshop.com/en-us/washington-dc/) and [HAWJ Studio](http://www.phimher.com/).*
 
 
     ## Venue
