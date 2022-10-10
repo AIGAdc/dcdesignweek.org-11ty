@@ -47,9 +47,7 @@ eventDetails:
     *Photographers and/or videographers will be documenting the event. If you wish to opt-out of being photographed, please notify the event organizers upon check-in.*
 
 
-    Light refreshments will be provided.
-
-
+    Light refreshments will be provided from [Teaism](https://www.teaism.com/) by our sponsor [HAWJ Studio](http://www.phimher.com/).
 
 
     ## Venue
