@@ -54,6 +54,10 @@ sponsor:
     name: Planet Word
     tier: Tier Three
     websiteURL1: https://planetwordmuseum.org/
+  - image: "/static/images/sponsors/Logo_Optoro.png"
+    name: Optoro
+    tier: Tier Three
+    websiteURL1: https://www.optoro.com/
   - image: "/static/images/sponsors/Logo_Mindspace.png"
     name: Mindspace
     tier: Tier Three
