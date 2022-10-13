@@ -31,7 +31,10 @@ eventDetails:
     DC Design Week’s signature pop-up shop is back in person at the Brookland Arts Walk this year! Join us for a block party hosted with [Terratorie Maps + Goods](https://terratorie.com/?gclid=Cj0KCQjwj7CZBhDHARIsAPPWv3dMMx0vUqgZmQuY2ujCxd-A0xQcGnAoFFdp53l66QuIVQ0tsh3gX6waAm6WEALw_wcB) and sponsored by [Taoti Creative](https://taoti.com/), featuring artworks from local artists and on-site vendors. 
 
 
-    Bring your sketchbook, a blank cotton t-shirt, or a tote bag to make a fun DCDW custom block print with [The Block Print Bike](https://blockprintbike.com/). Shop the arts and goods made by local creatives. Enter to win prizes from our sponsors, like tickets to [Artechouse DC's current exhibit](https://www.artechouse.com/), and get some free swag sponsored by [Custom Ink](https://www.customink.com/photos/tags/washington-dc). Connect with fellow creatives in the area.
+    Bring your sketchbook, a blank cotton t-shirt, or a tote bag to make a fun DCDW custom block print with [The Block Print Bike](https://blockprintbike.com/). Shop the arts and goods made by local creatives.
+
+
+    Enter to win prizes from our sponsors, like tickets to [Artechouse DC's current exhibit](https://www.artechouse.com/), design skills classes from [Moxie](https://ideaswithmoxie.com/), and free swag sponsored by [Custom Ink](https://www.customink.com/designs/bag/uhj0-00c0-b2aa/social/?description=Checkout%20my%20one-of-a-kind%20custom%20design%20from%20www.customink.com&mrkgadid=&mrkgcl=293&mrkgen=gdsa&mrkgbflag=0&mrkgcat=&pc=PNG-990088&acctid=21700000001566238&dskeywordid=39700060697334237&%7d&device=c&network=g&matchtype=&locationid=9061285&creative=497428030530&targetid=dsa-396270014354&campaignid=12300172045&adgroupid=116966615265&gclid=Cj0KCQjwy5maBhDdARIsAMxrkw1LQ21JuEB_-KPlgQlc7aNNbfIkjZibogUB4r46-rgd0BGILunFxskaAhCZEALw_wcB&gclsrc=aw.ds). Connect with fellow creatives in the area.
 
 
     *This event was put together in partnership with [Terratorie Maps + Goods](https://terratorie.com/) and was made possible by our sponsor [Taoti Creative](https://taoti.com/).*
