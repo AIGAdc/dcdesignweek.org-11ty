@@ -19,21 +19,21 @@ members:
     linkURL1: http://www.anthonypetrillo.com
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-anthony.png
     imageAlt: A young, white man with short brown hair wearing an olive green shirt.
   - name: Jelena Budjevac
     blob: 2
     pronunciation: Yell · en · ah
-    pronouns: 
+    pronouns:
     position: Copywriter
     bio:
     linkLabel1: Website
     linkURL1: https://www.linkedin.com/in/jelenabudjevac/
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-placeholder.png
     imageAlt:
-  - name: Iyana Moore 
+  - name: Iyana Moore
     blob: 2
     pronunciation:
     pronouns: she | her | hers
@@ -43,8 +43,8 @@ members:
     linkURL1:
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    image: /static/images/staff/headshot-placeholder.png
+    imageAlt:
   - name: Scott Kirkwood
     blob: 3
     pronunciation:
@@ -55,8 +55,8 @@ members:
     linkURL1: https://scottkirkwood.work/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/scottkdc/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    image: /static/images/staff/headshot-scott.png
+    imageAlt:
 layout: single-committee
 permalink: "/committee/communications/"
 ---

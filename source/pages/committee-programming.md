@@ -19,8 +19,8 @@ members:
     linkURL1: http://www.alyssajhuntley.com/
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt. 
+    image: /static/images/staff/headshot-alyssa.png
+    imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt.
   - name: Koi Hernandez
     blob: 3
     pronunciation:
@@ -31,9 +31,9 @@ members:
     linkURL1: https://koihdez.com/
     linkLabel2: APIWho.Design
     linkURL2: https://www.apiwho.design/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt. 
-  - name: Amy Mugford 
+    image: /static/images/staff/headshot-koi.png
+    imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt.
+  - name: Amy Mugford
     blob: 1
     pronunciation:
     pronouns: she | her | hers
@@ -43,11 +43,11 @@ members:
     linkURL1: https://www.linkedin.com/in/amymugford/
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-amy.png
     imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt.
-  - name: Annette Allen 
+  - name: Annette Allen
     blob: 2
-    pronunciation: A · Net 
+    pronunciation: A · Net
     pronouns: she | her | hers
     position: Community-Curated Event Lead
     bio:
@@ -55,7 +55,7 @@ members:
     linkURL1: https://www.annetteelizabeth.com/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/annetteelizabethallen/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-annette.png
     imageAlt: Young, light-skinned black woman with twists who's smiling
   - name: Cara Campbell
     blob: 3
@@ -67,7 +67,7 @@ members:
     linkURL1: https://www.caracampbell.design/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/cara-campbell56
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-cara.png
     imageAlt: A young black woman
   - name: Janessa Arrington
     blob: 2
@@ -79,7 +79,7 @@ members:
     linkURL1: https://www.linkedin.com/in/janessa-arrington/?trk=people_directory
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-janessa.png
     imageAlt: A young Black woman who is smiling in suspenders.
   - name: Khanh Pham
     blob: 1
@@ -91,7 +91,7 @@ members:
     linkURL1: https://www.linkedin.com/in/bkhanhp
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-khanh.png
     imageAlt: A Vietnamese-American woman with long black hair, eyeglasses and braces who’s smiling
   - name: Nabi Bilal
     blob: 3
@@ -103,7 +103,7 @@ members:
     linkURL1:
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-placeholder.png
     imageAlt:
   - name: Natarsha Wright
     blob: 3
@@ -115,7 +115,7 @@ members:
     linkURL1: http://www.natarshawright.com/
     linkLabel2: Instagram
     linkURL2: http://www.instagram.com/natarsha_wright
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-natarsha.png
     imageAlt: An African-American woman wearing a leopard top, long braids, red lipstick and smiling.
 layout: single-committee
 permalink: "/committee/programming/"

@@ -20,7 +20,7 @@ members:
     linkURL1: http://arianarg.com/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/arianarg/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-ariana.png
     imageAlt: A young Latina with dark brown wavy hair wearing a black patterned dress.
   - name: Alyssa Huntley
     blob: 2
@@ -32,8 +32,8 @@ members:
     linkURL1: http://www.alyssajhuntley.com/
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt. 
+    image: /static/images/staff/headshot-alyssa.png
+    imageAlt: A young, white woman with long brown hair and glasses, wearing a black shirt.
   - name: Danni Baker
     blob: 2
     pronunciation: dan · knee
@@ -42,9 +42,9 @@ members:
     bio:
     linkLabel1: Website
     linkURL1: https://dannibakerdesign.co/
-    linkLabel2: LinkedIn 
+    linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/dannibaker/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-danni.png
     imageAlt:
   - name: Koi Hernandez
     blob: 3
@@ -56,8 +56,8 @@ members:
     linkURL1: https://koihdez.com/
     linkLabel2: APIWho.Design
     linkURL2: https://www.apiwho.design/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt. 
+    image: /static/images/staff/headshot-koi.png
+    imageAlt: A Filipino-American male with long hair. He is facing the camera, lightly grinning, and is wearing a black shirt.
   - name: Silvia Script
     blob: 3
     pronunciation: sil · vee · uh
@@ -68,7 +68,7 @@ members:
     linkURL1: https://www.linkedin.com/in/silscript/
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/silscript/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-silvia.png
     imageAlt: A young, smiling, South American indigenous woman with long black hair.
 layout: single-committee
 permalink: "/committee/executive/"

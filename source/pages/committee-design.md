@@ -19,11 +19,11 @@ members:
     linkURL1: https://www.linkedin.com/in/silscript/
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/silscript/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-silvia.png
     imageAlt: A young, smiling, South American indigenous woman with long black hair.
   - name: Jasmine Henderson
     blob: 1
-    pronunciation: JAS · men 
+    pronunciation: JAS · men
     pronouns: she | her | they
     position: Web Design Lead
     bio:
@@ -31,7 +31,7 @@ members:
     linkURL1: https://jasminehender.studio/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/jasminemhenderson/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-jasmine.png
     imageAlt: A black woman with a fade haircut smiling
   - name: Marcus Relacion
     blob: 3
@@ -43,7 +43,7 @@ members:
     linkURL1: https://www.marcusrelacion.com/
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/marcusrelacionphotos/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-marcus.png
     imageAlt: A young African American man with an afro and wearing glasses
   - name: Shoshanna Chito
     blob: 3
@@ -55,7 +55,7 @@ members:
     linkURL1: https://shoshannachito.com/
     linkLabel2: LinkedIn
     linkURL2: https://www.linkedin.com/in/shoshanna-chito/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-shoshanna.png
     imageAlt: A young black woman, with a black curled hair wearing a cobalt blue sleeveless turtleneck top, smiling
   - name: Sydney Adams
     blob: 2
@@ -67,7 +67,7 @@ members:
     linkURL1: https://www.instagram.com/sydadams211/@sydadams21
     linkLabel2:
     linkURL2:
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-sydney.png
     imageAlt: A young, smiling African American woman wearing a cute pink blazer
   - name: Tiara Slater
     blob: 1
@@ -79,7 +79,7 @@ members:
     linkURL1: https://www.blackisgold.shop/
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/_blackisgold_/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
+    image: /static/images/staff/headshot-tiara.png
     imageAlt: A young, black woman, with long lime green nails, with long black locs, smiling, wearing a gold and black checkered styled blazer and an Eye of Horus necklace
   - name: Vanessa Vergara
     blob: 1
@@ -91,8 +91,8 @@ members:
     linkURL1: https://vanessavergara.cargo.site
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/ctrl_vav/
-    image: https://static.marcusrelacion.com/static/photos/2021/2021-05-02-12-55-PM-SONY-ILCE-7M3-4444-copyright-marcusrelacion-1.jpg
-    imageAlt: 
+    image: image.png
+    imageAlt:
 layout: single-committee
 permalink: "/committee/creative/"
 ---

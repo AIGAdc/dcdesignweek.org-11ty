@@ -11,11 +11,11 @@
     <ul class="[ mambo-cards ][ grid-flow grid-three-columns ]">
       {% for member in members %}
         <li class="[ mambo-card committee ][ flow-large ]">
-          {# <div class="[ image ]">
+          <div class="[ image ]">
             <figure>
               <img alt="{{ member.imageAlt }}" class="blob blob-{{ member.blob }}" loading=lazy src="{{ member.image }}">
             </figure>
-          </div> #}
+          </div>
           <div class="[ details ][ flow-small ]">
             <div class="[ meta ]">
               <h3 class="name">{{ member.name | safe }}</h3>
