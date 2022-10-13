@@ -91,7 +91,7 @@ members:
     linkURL1: https://vanessavergara.cargo.site
     linkLabel2: Instagram
     linkURL2: https://www.instagram.com/ctrl_vav/
-    image: image.png
+    image: /static/images/staff/headshot-vanessa.png
     imageAlt:
 layout: single-committee
 permalink: "/committee/creative/"

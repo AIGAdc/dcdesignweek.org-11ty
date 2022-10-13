@@ -1448,7 +1448,7 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-  min-height: 40vh;
+  min-height: 30vh;
   display: block;
 }
 
@@ -1673,7 +1673,7 @@ h3,
 .layout-page.page-about .mambo-hero,
 .layout-page.page-committee .mambo-hero,
 .layout-page.page-faq .mambo-hero {
-    min-height: 50vh;
+    min-height: 25vh;
   }
   .home-hero-blob {
     transform: translate(-250px, -200px);
