@@ -25,6 +25,7 @@ hero:
 eventDetails:
   startDate: 2022-10-14T23:00:00.980Z
   endDate: 2022-10-14T01:30:00.996Z
+  hasOccurred: true
   description: >-
     ## Description and details
 

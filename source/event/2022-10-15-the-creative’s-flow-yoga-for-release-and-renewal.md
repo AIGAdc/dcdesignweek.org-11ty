@@ -23,6 +23,7 @@ hero:
     imageALT: A young Black woman sitting in a yoga pose next to the calm and cool
       collective logo
 eventDetails:
+  hasOccurred: true
   statusLabel: ""
   filterTime: Morning
   filterDate: Saturday, October 15

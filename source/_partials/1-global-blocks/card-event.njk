@@ -1,7 +1,7 @@
 <li class="[ mambo-card event ][ flow ][ mix {% include '1-global-blocks/events-filter-logic.njk' %} ]">
   <div class="detail-meta">
     <div class="[ details ]">
-      <a href="{{ event.url }}">
+      <a {% if event.data.eventDetails.hasOccurred == true %} aria-describedby="past-event" {% endif %}  href="{{ event.url }}">
         <h3 class="[ title ]">
           {{ event.data.title | md | safe }}
         </h3>
@@ -37,6 +37,11 @@
     <figure class="[ image ]">
       <img alt="{{ event.data.hero.featuredImage.imageALT }}" loading=lazy src="{{ event.data.hero.featuredImage.image }}">
       <div class="[ statuses ]">
+        {% if event.data.eventDetails.hasOccurred == true %}
+          <div id="past-event" class="[ status featured-on-home ]" style="background-color: var(--dcdw-2022-maroon-primary); color: var(--dcdw-2022-cream-primary);">
+              This event has occurred.
+          </div>
+        {% endif %}
         {% if event.data.eventDetails.statusType == "Featured on Home" %}
           <div class="[ status featured-on-home ]">
             <div class="container container-default">

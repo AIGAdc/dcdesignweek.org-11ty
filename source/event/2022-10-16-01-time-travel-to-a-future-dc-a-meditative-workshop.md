@@ -24,6 +24,7 @@ hero:
 eventDetails:
   startDate: 2022-10-16T19:00:47.129Z
   endDate: 2022-10-16T20:30:47.139Z
+  hasOccurred: true
   filterDate: Sunday, October 16
   filterLocation: In-Person
   filterTime: Daytime
