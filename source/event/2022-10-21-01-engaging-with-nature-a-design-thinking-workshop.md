@@ -61,6 +61,7 @@ eventDetails:
   filterType: Workshop
   location:
     - name: In-Person
+  featuredHome: true
 speaker:
   - name: Nora Chovanec
     pronouns: she | her | hers

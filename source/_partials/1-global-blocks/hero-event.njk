@@ -23,7 +23,7 @@
     <div class="[ buttons ]">
       {% for ticket in hero.tickets %}
         {% if ticket.ticket.showButton == true %}
-          <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
+          <a {% if eventDetails.hasOccurred == true %} aria-describedby="past-event" {% endif %} {% if eventDetails.isRescheduled == true %} aria-describedby="rescheduled-event" {% endif %} class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
             {{ ticket.ticket.label }}
           </a>
         {% endif %}

@@ -10,8 +10,10 @@
         </p>
       </div>
       <ul class="[ events-list ][ column-span-four ][ grid-flow grid-three-columns ]">
-        {% for event in collections.event | limit(3) %}
-          {% include '1-global-blocks/card-event.njk' %}
+        {% for event in collections.event %}
+          {% if event.data.eventDetails.featuredHome == true %}
+            {% include '1-global-blocks/card-event.njk' %}
+          {% endif %}
         {% endfor %}
       </ul>
       <div class="[ column-span-one ]">

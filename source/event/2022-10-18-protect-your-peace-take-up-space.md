@@ -9,12 +9,12 @@ pageSettings:
 hero:
   tickets:
     - ticket:
-        showButton: false
+        showButton: true
         label: $15 — Members
         url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fprotect-your-peace-take-up-space%2F%3Fredirect_source%3Deventbrite_register
         colorCombo: cream-on-maroon-primary
     - ticket:
-        showButton: false
+        showButton: true
         label: $20 — Non-members
         url: https://www.eventbrite.com/e/protect-your-peace-take-up-space-tickets-425438496997
         colorCombo: cream-on-maroon-primary

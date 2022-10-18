@@ -54,6 +54,7 @@ eventDetails:
   filterType: Party
   location:
     - name: In-Person
+  featuredHome: true
 preparation: >-
   ## In-Person Guidance
 
