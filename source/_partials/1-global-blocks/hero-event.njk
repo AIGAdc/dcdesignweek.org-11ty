@@ -8,10 +8,10 @@
     <div class="[ details ] ">
       <span class="[ type ]">
         {{ eventDetails.filterType }}
-      </span> / 
+      </span> /
       <datetime class="[ weekday ]">
         {{ eventDetails.startDate | day }}
-      </datetime> / 
+      </datetime> /
       <datetime class="[ month ]">
         {{ eventDetails.startDate | month }}
         {{ eventDetails.startDate | date }}
@@ -22,13 +22,25 @@
     </div>
     <div class="[ buttons ]">
       {% for ticket in hero.tickets %}
-        <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
-          {{ ticket.ticket.label }}
-        </a>
+        {% if ticket.ticket.showButton == true %}
+          <a aria-label="{{ ticket.ticket.aria }}" class="[ mambo-anchor action ]" data-color="{{ ticket.ticket.colorCombo }}" href="{{ ticket.ticket.url }}">
+            {{ ticket.ticket.label }}
+          </a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
   <div class="[ statuses ]">
+    {% if eventDetails.hasOccurred == true %}
+      <div id="past-event" class="[ status featured-on-home ]" style="background-color: var(--dcdw-2022-maroon-primary); color: var(--dcdw-2022-cream-primary); border-top: solid 1px var(--dcdw-2022-maroon-primary);">
+        This event has occurred.
+      </div>
+    {% endif %}
+    {% if eventDetails.isRescheduled == true %}
+      <div id="rescheduled-event" class="[ status featured-on-home ]" style="background-color: var(--dcdw-2022-yellow-primary); color: var(--dcdw-2022-maroon-primary);">
+        This event has been reschedule for early November. Date to be announced soon.
+      </div>
+    {% endif %}
     {% if eventDetails.statusType == "Featured on Home" %}
       <div class="[ status featured-on-home ]">
         <div class="container container-default">

@@ -11,12 +11,12 @@ hero:
     imageALT: A smiling white woman with purple, shoulder-length hair
   tickets:
     - ticket:
-        showButton: true
+        showButton: false
         label: $15 — Members
         colorCombo: cream-on-maroon-primary
         url: https://my.aiga.org/account/login.aspx?RedirectUrl=https://ikit.aiga.org/ikit_national_util/ikit-national-util-sso-redirect/?state=https%3A%2F%2Fdc.aiga.org%2Fevent%2Fbreathwork-for-creativity-2%2F%3Fredirect_source%3Deventbrite_register
     - ticket:
-        showButton: true
+        showButton: false
         label: $20 — Non-members
         colorCombo: cream-on-maroon-primary
         url: https://www.eventbrite.com/e/breathwork-for-creativity-tickets-426958974787
