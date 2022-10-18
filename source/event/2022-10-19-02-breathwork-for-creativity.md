@@ -49,6 +49,7 @@ eventDetails:
   filterLocation: Zoom
   filterTime: Daytime
   filterType: Workshop
+  isRescheduled: true
 speaker:
   - name: Jenn Koiter
     title: Creativity coach and breathwork guide

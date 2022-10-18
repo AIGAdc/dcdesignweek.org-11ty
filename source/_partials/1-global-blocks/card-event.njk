@@ -1,7 +1,7 @@
 <li class="[ mambo-card event ][ flow ][ mix {% include '1-global-blocks/events-filter-logic.njk' %} ]">
   <div class="detail-meta">
     <div class="[ details ]">
-      <a {% if event.data.eventDetails.hasOccurred == true %} aria-describedby="past-event" {% endif %}  href="{{ event.url }}">
+      <a {% if event.data.eventDetails.hasOccurred == true %} aria-describedby="past-event" {% endif %} {% if event.data.eventDetails.isRescheduled == true %} aria-describedby="rescheduled-event" {% endif %} href="{{ event.url }}">
         <h3 class="[ title ]">
           {{ event.data.title | md | safe }}
         </h3>
@@ -40,6 +40,11 @@
         {% if event.data.eventDetails.hasOccurred == true %}
           <div id="past-event" class="[ status featured-on-home ]" style="background-color: var(--dcdw-2022-maroon-primary); color: var(--dcdw-2022-cream-primary);">
               This event has occurred.
+          </div>
+        {% endif %}
+        {% if event.data.eventDetails.isRescheduled == true %}
+          <div id="rescheduled-event" class="[ status featured-on-home ]" style="background-color: var(--dcdw-2022-yellow-primary); color: var(--dcdw-2022-maroon-primary);">
+              This event has been reschedule for early November. Date to be announced soon.
           </div>
         {% endif %}
         {% if event.data.eventDetails.statusType == "Featured on Home" %}

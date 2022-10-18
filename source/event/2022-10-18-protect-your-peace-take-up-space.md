@@ -47,6 +47,7 @@ eventDetails:
   filterDate: Tuesday, October 18
   filterTime: Evening
   filterType: Workshop
+  isRescheduled: true
 speaker:
   - name: Lauren DeVera
     pronouns: she | her | hers
