@@ -7,6 +7,7 @@ eventDetails:
   statusType: null
   filterLocation: Hybrid
   startDate: 2022-10-18T13:00:00.000Z
+  hasOccurred: true
   filterType: Creative Breakfast
   location:
     - name: Hybrid
