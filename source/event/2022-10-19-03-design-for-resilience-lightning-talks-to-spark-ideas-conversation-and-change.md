@@ -50,6 +50,7 @@ eventDetails:
   filterLocation: Zoom
   filterTime: Evening
   filterType: Talk/Panel
+  hasOccurred: true
 speaker:
   - name: Linda Hoopes
     title: President

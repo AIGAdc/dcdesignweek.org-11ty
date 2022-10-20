@@ -62,6 +62,7 @@ eventDetails:
   filterLocation: Zoom
   filterTime: Morning
   filterType: Talk/Panel
+  hasOccurred: true
 speaker:
   - name: Johanna Ostrich
     pronouns: she | her | hers
