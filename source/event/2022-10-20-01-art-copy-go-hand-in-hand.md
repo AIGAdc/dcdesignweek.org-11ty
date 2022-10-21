@@ -24,6 +24,7 @@ hero:
     imageALT: A black woman and a bearded black man with the planet world logo in
       between them
 eventDetails:
+  hasOccurred: true
   startDate: 2022-10-20T13:00:35.993Z
   endDate: 2022-10-20T14:15:36.005Z
   description: >-

@@ -74,6 +74,7 @@ eventDetails:
   filterLocation: Zoom
   filterTime: Daytime
   filterType: Talk/Panel
+  hasOccurred: true
 speaker:
   - name: Jen Epstein
     title: Head of Design, Task Force
