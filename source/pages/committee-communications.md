@@ -31,8 +31,8 @@ members:
     linkURL1: https://www.linkedin.com/in/jelenabudjevac/
     linkLabel2:
     linkURL2:
-    image: /static/images/staff/headshot-placeholder.png
-    imageAlt:
+    image: /static/images/staff/headshot-jelena.png
+    imageAlt: A woman with dark curly mid-length hair
   - name: Iyana Moore
     blob: 2
     pronunciation:

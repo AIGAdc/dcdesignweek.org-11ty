@@ -103,8 +103,8 @@ members:
     linkURL1: https://www.linkedin.com/in/yu-li-hunsicker/
     linkLabel2:
     linkURL2:
-    image: /static/images/staff/headshot-placeholder.png
-    imageAlt: Asian woman with black hair, black rimmed glasses, wearing a red sweater.
+    image: /static/images/staff/headshot-yuli.png
+    imageAlt: Asian woman with black hair and black rimmed glasses.
 layout: single-committee
 permalink: "/committee/operations/"
 ---
