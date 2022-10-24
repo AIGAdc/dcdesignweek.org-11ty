@@ -22,6 +22,7 @@ hero:
         url: https://www.eventbrite.com/e/diversity-going-beyond-the-obvious-tickets-425546861117?discount=6330a83b370d0
         label: $15 — Non-members
 eventDetails:
+  hasOccurred: true
   startDate: 2022-10-21T17:00:17.339Z
   endDate: 2022-10-21T18:15:17.352Z
   description: >-
